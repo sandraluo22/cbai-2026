@@ -1,0 +1,32 @@
+C: 256
+K: 4
+diversity: 2.0
+diversity_values:
+- 0.1
+- 0.3
+- 0.6
+- 1.0
+- 2.0
+layer: -1
+max_disk_gb: 20.0
+model:
+  d_model: 64
+  n_head: 2
+  n_layer: 2
+n_rollouts: 16
+n_sources: 32
+output_root: results/sweep_diversity
+ruler:
+  method: r2
+  n_splits: 5
+  ridge: 1.0
+  train_frac: 0.7
+seed: 0
+seeds:
+- 0
+- 1
+train:
+  batch: 128
+  device: cuda
+  lr: 0.003
+  steps: 2000

@@ -1,0 +1,40 @@
+T: 6
+allow_withdraw: false
+deltas:
+- -4.0
+- 4.0
+lambdas:
+- 0.2
+- 0.8
+max_forward_passes: 300
+model:
+  base: false
+  device: cuda
+  dtype: bfloat16
+  marker_char: ':'
+  max_new_tokens: 16
+  model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+  use_chat_template: true
+n_companies: 4
+output_root: results/scoped_market
+prior_std: 5.0
+seeds:
+- 0
+- 1
+sigma_p: 1.0
+targets:
+- 0
+- 1
+- 2
+- 3
+taus:
+- 0.0
+- 1.5
+theta_scale: 3.0
+trial_modes:
+- counterfactual
+- disagreement
+- neutral
+ws:
+- 0.0
+- 1.0

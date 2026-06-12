@@ -1,0 +1,14 @@
+{
+  "ruler": {
+    "location_t": 8,
+    "split_index": 3,
+    "sharpness": 0.5901545473635273,
+    "level_jump": 0.4224256435174883
+  },
+  "analytic": {
+    "location_t": 32,
+    "split_index": 5,
+    "sharpness": 0.702454351677738,
+    "level_jump": 0.6495095272548704
+  }
+}

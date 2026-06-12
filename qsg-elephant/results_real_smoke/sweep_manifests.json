@@ -1,0 +1,34 @@
+[
+  {
+    "run_id": "text_two_layer_N2_a0p3_m1p0_seed0",
+    "arm": "text",
+    "coupling_mode": "two_layer",
+    "model_name": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+    "device": "cuda",
+    "object_name": "elephant",
+    "ground_truth_index": 0,
+    "candidates": [
+      "elephant",
+      "snake",
+      "tree",
+      "wall",
+      "rope",
+      "fan",
+      "spear"
+    ],
+    "seed": 0,
+    "N": 2,
+    "alpha": 0.3,
+    "m": 1.0,
+    "rounds": 1,
+    "neutral_ablation": false,
+    "consensus_time": null,
+    "final_U": 0.6812215200868611,
+    "final_V": 0.11428862637225544,
+    "final_group_correct": true,
+    "final_frac_correct": 1.0,
+    "degenerate_readouts": 1,
+    "template_hash": "c5f42d34d06f769c",
+    "wall_seconds": 42.99
+  }
+]

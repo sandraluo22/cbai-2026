@@ -1,0 +1,22 @@
+=== 72 config cells, ~1872 focal forward passes (capture; patching adds more) ===
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 17.52it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 19.01it/s]
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+=== SMOKE: single trial ===
+lambda=0.2 tau=0.0 w=0.0
+PRIVATE block tokens=206  SOCIAL block tokens=210  residual=-4
+decision line tokens: ['Decision', 'Ġ:']
+marker_pos=527  decision_span=(526, 527)  seq_len=533
+activation shape (marker): (33, 4096)   span: (33, 2, 4096)
+model output: 'C'  parsed={'company': 2, 'withdraw': False}
+
+=== SMOKE: counterfactual pair (target C, delta +4) ===
+low  action={'company': 2, 'withdraw': False}  high action={'company': 2, 'withdraw': False}
+prompt diff:
+  -  Company C: r1=-0.60  r2=+4.95  r3=+4.61  r4=+3.48  r5=+2.45  r6=+1.29
+  +  Company C: r1=+3.40  r2=+8.95  r3=+8.61  r4=+7.48  r5=+6.45  r6=+5.29
+patch L16 marker (low->high): patched action={'company': 2, 'withdraw': False}
+
+Smoke OK.

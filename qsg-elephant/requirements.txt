@@ -1,0 +1,13 @@
+torch>=2.2
+transformers>=4.45
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pydantic>=2.0
+pyyaml>=6.0
+pillow>=10.0
+tqdm>=4.65
+pytest>=7.0
+# optional, for the image arm:
+# qwen-vl-utils
+# accelerate   # required for device_map="auto" multi-GPU sharding

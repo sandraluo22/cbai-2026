@@ -1,0 +1,19 @@
+# Separation/diversity sweep (build step 4).
+# Source separation knob = Dirichlet diversity D (concentration):
+#   low D  -> peaky, well-separated sources -> easy, early/sharp transition
+#   high D -> overlapping sources           -> hard, late/gradual transition
+K: 4
+C: 256
+n_sources: 32          # the ruler's N-axis
+n_rollouts: 16         # per source (averaged -> source mean state)
+layer: -1              # last layer
+
+diversity_values: [0.1, 0.3, 0.6, 1.0, 2.0]
+seeds: [0, 1]
+
+model: {d_model: 64, n_layer: 2, n_head: 2}
+train: {steps: 2000, batch: 128, lr: 0.003, device: cuda}
+ruler: {method: r2, ridge: 1.0, train_frac: 0.7, n_splits: 5}
+
+output_root: results/sweep_diversity
+max_disk_gb: 20.0

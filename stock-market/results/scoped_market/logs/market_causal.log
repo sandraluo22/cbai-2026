@@ -1,0 +1,2 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 13.94it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 16.44it/s]
+causal done -> results/scoped_market/causal.jsonl

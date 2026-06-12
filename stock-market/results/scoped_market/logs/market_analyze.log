@@ -1,0 +1,11 @@
+revealed social weight (lambda_hat vs rational) by (lambda,w,tau):
+  (0.2, 0.0, 0.0): lambda_hat=0.22  rational=0.20  n=28
+  (0.2, 1.0, 0.0): lambda_hat=0.22  rational=0.20  n=28
+  (0.2, 0.0, 1.5): lambda_hat=0.05  rational=0.05  n=28
+  (0.2, 1.0, 1.5): lambda_hat=0.05  rational=0.78  n=28
+  (0.8, 0.0, 0.0): lambda_hat=0.26  rational=0.80  n=28
+  (0.8, 1.0, 0.0): lambda_hat=0.26  rational=0.80  n=28
+  (0.8, 0.0, 1.5): lambda_hat=0.24  rational=0.07  n=28
+  (0.8, 1.0, 1.5): lambda_hat=0.24  rational=0.98  n=28
+
+wrote results/scoped_market/analysis.json + plots/

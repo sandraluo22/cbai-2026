@@ -1,0 +1,42 @@
+# Blind-men-and-the-elephant ontology — GENERIC-ATTRIBUTE version.
+#
+# Each object is described by short, generic adjectives (gray, big, rough, ...).
+# Crucially the attributes OVERLAP across candidates, so any single attribute is
+# ambiguous (e.g. "gray" fits both elephant and wall; "rough" fits elephant,
+# tree, wall, rope). No agent that observes one attribute can identify the
+# object — only aggregating many agents' attributes concentrates on the truth.
+# The elephant's attribute SET is unique in combination but not term-by-term.
+
+candidates: [elephant, snake, tree, wall, rope, fan, spear]
+
+objects:
+  elephant:
+    # HARD: no giveaway attributes. Every one is shared with wall (gray,big,rough)
+    # or tree (heavy,thick,rough); only the FULL combination is unique to elephant,
+    # so no single agent can identify it — recovery requires real aggregation.
+    features: [gray, big, heavy, rough, thick]
+    distractors: [cold, thin]
+
+  snake:
+    features: [long, thin, smooth, cool, flexible, scaly]
+    distractors: [flat, hard]
+
+  tree:
+    features: [tall, brown, hard, rough, thick, heavy]
+    distractors: [soft, smooth]
+
+  wall:
+    features: [flat, big, hard, gray, cool, rough]
+    distractors: [thin, soft]
+
+  rope:
+    features: [thin, long, rough, flexible, light, frayed]
+    distractors: [hard, flat]
+
+  fan:
+    features: [flat, thin, light, broad, smooth]
+    distractors: [heavy, hard]
+
+  spear:
+    features: [long, thin, hard, straight, smooth, sharp]
+    distractors: [soft, broad]

@@ -1,0 +1,34 @@
+[
+  {
+    "run_id": "text_reasoning_exchange_N4_a0p3_m1p0_seed0",
+    "arm": "text",
+    "coupling_mode": "reasoning_exchange",
+    "model_name": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+    "device": "cuda",
+    "object_name": "elephant",
+    "ground_truth_index": 0,
+    "candidates": [
+      "elephant",
+      "snake",
+      "tree",
+      "wall",
+      "rope",
+      "fan",
+      "spear"
+    ],
+    "seed": 0,
+    "N": 4,
+    "alpha": 0.3,
+    "m": 1.0,
+    "rounds": 6,
+    "neutral_ablation": false,
+    "consensus_time": null,
+    "final_U": 0.2103413871800541,
+    "final_V": 0.05913575320083865,
+    "final_group_correct": false,
+    "final_frac_correct": 0.5,
+    "degenerate_readouts": 24,
+    "template_hash": "c5f42d34d06f769c",
+    "wall_seconds": 162.07
+  }
+]

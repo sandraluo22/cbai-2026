@@ -1,0 +1,67 @@
+arm: image
+coupling_mode: reasoning_exchange
+seed: 1
+object_name: elephant
+neutral_ablation: true
+smoke_test: false
+model:
+  text_model: meta-llama/Llama-3.1-8B-Instruct
+  vision_model: Qwen/Qwen2-VL-7B-Instruct
+  vision_model_fallback: meta-llama/Llama-3.2-11B-Vision-Instruct
+  dtype: bfloat16
+  device_map: auto
+  smoke_text_model: sshleifer/tiny-gpt2
+observation:
+  feature_subset_size: 1
+  distractor_features: 0
+  patch_grid:
+  - 6
+  - 6
+  patch_overlap: 0.0
+  source_image_dir: assets/elephant_crop_src
+readout:
+  canonical: length_norm
+  do_hard_readout: false
+  anchor_template: '{private}
+
+
+    Based on the clues, the object is most likely one of {candidate_list}.
+
+    Answer:'
+  hard_template: '{private}
+
+
+    Estimate how likely the hidden object is each candidate. Reply with ONLY a JSON
+    object mapping EVERY candidate to a probability in [0,1] (summing to about 1).
+    Candidates: {candidate_list}.
+
+    Example: {{"elephant": 0.5, "snake": 0.2, "tree": 0.1, "wall": 0.1, "rope": 0.04,
+    "fan": 0.03, "spear": 0.03}}
+
+    JSON:'
+  reasoning_template: 'You are one of several blind observers, each sensing a different
+    property of the SAME single hidden object. {own}
+
+    The object is one of: {candidate_list}.
+
+    {lean}In 2-3 sentences, reason about what the object could be, then end with a
+    line ''My guess: <object>''.
+
+    Reasoning:'
+  reasoning_max_tokens: 160
+activations:
+  capture: true
+  layers: all
+  dtype: float16
+  max_disk_gb: 50.0
+  store_format: memmap
+qsg:
+  n: 6
+  alpha: 0.3
+  m: 1.0
+  rounds: 10
+  interactions_per_round: null
+  topology: well_mixed
+  consensus_threshold: 0.95
+ontology_path: configs/ontology.yaml
+output_root: results_image

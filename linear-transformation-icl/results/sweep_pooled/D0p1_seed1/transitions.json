@@ -1,0 +1,16 @@
+{
+  "ruler": {
+    "location_t": 16,
+    "cross_index": 4,
+    "changepoint_t": 16,
+    "sharpness": 0.20941650444344975,
+    "range": 0.39764750815726996
+  },
+  "analytic": {
+    "location_t": 32,
+    "cross_index": 5,
+    "changepoint_t": 32,
+    "sharpness": 0.154860916763357,
+    "range": 0.6418778553938793
+  }
+}

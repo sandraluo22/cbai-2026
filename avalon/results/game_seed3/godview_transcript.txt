@@ -1,0 +1,337 @@
+=== GOD-VIEW LOG — CONTAINS HIDDEN INFO. NEVER FEED TO A PLAYER. ===
+True roles:
+  seat 0: Minion of Mordred
+  seat 1: Loyal Servant of Arthur
+  seat 2: Loyal Servant of Arthur
+  seat 3: Morgana
+  seat 4: Assassin
+  seat 5: Merlin
+  seat 6: Percival
+
+    └─ CoT[Loyal Servant of Arthur, propose]: As a Loyal Servant with no information, I include myself since I know I'm good, and pick one other seat to gather behavioral information. Keeping myself on the team guarantees at least one trustworthy member for this 2-person mission.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: This is a fine starting team; two players keeps it simple and I'm happy to be on it. I'll commit to a success card to get us off to a clean start.
+    └─ CoT[Morgana, discuss]: I'm on the team and want this to succeed quietly to build trust as a 'reliable good player' on mission 1. Failing now with only one evil aboard would be too obvious and risky.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: This is a reasonable two-player team to start, and I'm comfortable supporting it to get a clean look at how people play.
+    └─ CoT[Assassin, discuss]: Seat 3 is my evil teammate and is on the team; mission 1 needs only 1 fail but on a 7-player game mission 1 requires 1 fail, so we could fail it, but failing the first mission with such a small team would immediately expose seat 3. Better to let it succeed to build trust and conserve cover for later missions.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: I'm a bit cautious about locking in a two-player team this early since one evil player on it can quietly fail us; I'd prefer the leader consider including more known-neutral seats so we can read the table. I'm not firmly opposed, but I'd like to hear seat 2 explain their pick of seat 3.
+    └─ CoT[Merlin, discuss]: Seat 3 is evil; I want to steer the team away from including seat 3 without revealing I'm Merlin.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: Mission 1 with two players is risky because a single hidden evil card sinks it, and I'd feel safer if the leader included themselves plus a seat we can clearly read going forward. I'm not firmly opposed, but I'd like to hear why seat 2 specifically chose seat 3 over other options.
+    └─ CoT[Percival, discuss]: Seats 3 and 5 are Merlin and Morgana in some order; one is evil and could fail this mission. A two-player team containing seat 3 is risky since if seat 3 is Morgana it fails, so I lean cautious but will let discussion continue.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: I'm comfortable with this team; two players is a clean, low-variance start and seat 3 has already committed to success. Let's not overthink mission 1 and just get a baseline read by approving.
+    └─ CoT[Minion of Mordred, discuss]: Seat 3 is my evil teammate, so I want this team approved; on mission 1 we may even succeed to build trust rather than fail with score still 0-0.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: I'm comfortable approving this team; on mission 1 with two players, both seats 2 and 3 know that a single fail card immediately exposes one of them, which is a strong incentive to play clean. Let's approve and get a baseline read before overthinking it.
+    └─ CoT[Loyal Servant of Arthur, discuss]: As a Loyal Servant with no info, mission 1 two-player teams are low-risk because a fail directly implicates one of the two named players, giving us a strong read.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: I picked seat 3 because they committed early to a success card and a two-player mission gives us a clean accountability read—if it fails, it's clearly one of us two. I'm on the team myself and will play success, so this is a low-variance honest start; I'm ready to lock it in.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm the leader and on the team myself as a Loyal Servant, so I'll commit to success and explain my pick of seat 3 to answer the questions raised.
+    └─ CoT[Loyal Servant of Arthur, revise]: I'm on the team myself and will play success, so at most one evil could be on it; this is a clean, accountable mission 1 start and most players already support it.
+    └─ CoT[Minion of Mordred, vote]: Seat 3 is on my evil team, so I could fail this mission, but failing mission 1 with only two players would immediately put suspicion on seats 2 and 3. Better to approve, let it succeed, and build trust while keeping seat 3's cover intact for higher-stakes missions later.
+    └─ CoT[Loyal Servant of Arthur, vote]: Mission 1 requires only one fail, and a two-player team gives clean accountability since a fail clearly implicates seat 2 or 3. Approving gets us a baseline read with low risk.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm on the team and will play success, and a two-player mission gives clear accountability—if it fails, it's clearly seat 3. Rejecting my own proposal makes no sense.
+    └─ CoT[Morgana, vote]: I'm on this team and have publicly committed to success; playing a fail here would expose me since it's only two players. Approving and succeeding builds my trust for later missions where I can do more damage.
+    └─ CoT[Assassin, vote]: Seat 3 is my evil teammate on this mission; if we want we can fail it, but for mission 1 it's smart to let it succeed and stay low-profile while building trust. Approving keeps me aligned with the table consensus and avoids suspicion.
+    └─ CoT[Merlin, vote]: Seat 3 is evil and on this two-player team; if it fails it could sink mission 1 and there's no benefit to approving a team I know contains an evil player. I'd prefer to reject and push for a different composition without overexposing my knowledge.
+    └─ CoT[Percival, vote]: Seat 3 is either Merlin or Morgana; if Morgana, a fail here exposes them, and if Merlin it's a safe success, so this two-player team gives a useful early read. Mission 1 has no fail-count risk yet, and rejecting risks the 5-reject loss clock, so approving is low-cost information.
+    └─ CoT[Loyal Servant of Arthur, mission]: I am a Loyal Servant of Arthur and must play success to advance Good toward winning missions.
+    └─ CoT[Morgana, mission]: Failing a two-player mission immediately exposes me as one of the two suspects, since seat 2 is likely good and will play success. Better to build trust early and fail later missions where the team is larger and blame is diffused.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: This is a solid three-player team that addresses the earlier concern about two-player variance, and it includes seats people wanted to read better. I'm comfortable approving it and getting on with the mission.
+    └─ CoT[Assassin, discuss]: Team [0,3,5] has two evil (me's allies 0,3) plus seat 5. We want this team approved so we can fail mission 2, but I should appear cooperative without overcommitting to success since a fail card needs to come from 0 or 3.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: I'm uncomfortable with this team because it stacks two seats who proposed and praised each other from the last round, and on a three-player mission a single fail sinks us. I'd rather see a team that mixes in some of the seats who voiced caution last round, like seat 6 or seat 1, so we get a broader read. I'm leaning to reject this as currently composed.
+    └─ CoT[Merlin, discuss]: Seats 0 and 3 are both evil, so this team [0,3,5] has two evil players who could fail it; I must oppose without revealing I'm Merlin. I'll argue for a team with fewer untested players and more spread.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: I'm wary of a team that leans on the same praised pairing from round one without giving us a fresh data point. I'd actually prefer the leader swap to include either seat 1 or myself in place of one of the current seats so we broaden the read; as composed I'm leaning reject.
+    └─ CoT[Percival, discuss]: Seats 3 and 5 are Merlin and Morgana in unknown order; this team puts both on it plus seat 0, so one Morgana could fail it. Seat 5 is loudly pushing to include me/seat 1, which could be either genuine caution (Merlin) or deflection (Morgana); I'd prefer a team that doesn't include both 3 and 5 so I can isolate reads.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: This team puts two evil-capable seats... no, this team works well for me: it includes me and seat 3, both of whom played the clean first round, plus seat 5 who's been vocal about wanting broader reads, so they should be reassured by being included. I'm comfortable approving and getting our second clean mission done.
+    └─ CoT[Minion of Mordred, discuss]: Team has two of my evil teammates (0,3) and one good (5); if we both fail it sinks the mission, but failing now at 1-0 with two evils on a 3-player team risks exposing us, so I should approve and decide on fail card later.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: I'm comfortable with this team: seat 3 was on the successful mission 1 and seat 5 wanted broader reads and is now included, so the complaints are largely addressed. On a three-player mission any fail will be very informative, so I'd rather lock this in and get our second success than burn proposals re-litigating composition.
+    └─ CoT[Loyal Servant of Arthur, discuss]: Mission 1 succeeded with seats 2 and 3, so seat 3 is a confirmed-clean source on this team; the team needs 3 successes from 3 players, so all three must be good. Seat 5 has been oddly insistent on changing teams, which could be evil stalling, but including seat 5 is fine since they can be read here.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: Seat 3 is confirmed clean from mission 1, and a three-player team with one fail being very informative addresses the earlier variance concerns. I'm comfortable approving this and getting our second success rather than burning proposals re-litigating composition.
+    └─ CoT[Loyal Servant of Arthur, discuss]: Mission 1 succeeded with seats 2 and 3, so I trust seat 3; seat 0 is unknown but the team is reasonable and rejecting wastes proposals toward the 5-reject evil win. Seat 5's objections are vague and could be evil stalling, so I lean approve.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: This team addresses the variance concerns by going to three players and includes seat 5 who wanted broader reads. I'm on it and committed to success, and a single fail here will be very informative, so I'd like to lock it in rather than burn proposals.
+    └─ CoT[Morgana, discuss]: I'm leader with team [0,3,5] containing two evil (me and seat 0) plus good seat 5. We can fail this mission with one fail card while seat 5 takes blame heat, advancing evil to 1 fail.
+    └─ CoT[Morgana, revise]: Team has two evil seats (0 and me), so I can fail this mission while seat 5 takes suspicion; keeping it avoids burning a proposal and the table is largely ready to approve.
+    └─ CoT[Minion of Mordred, vote]: This team has two of my evil teammates (seats 0 and 3) on it, giving us control to fail the mission. I should approve to get evil on the mission.
+    └─ CoT[Loyal Servant of Arthur, vote]: Mission 1 succeeded and this three-player team includes seat 3 who was on that successful mission; a single fail here would be very informative and I'd rather not risk consecutive rejections piling up toward the 5-reject evil win.
+    └─ CoT[Loyal Servant of Arthur, vote]: Seat 3 was on the successful mission 1 and is likely clean, and a three-player team makes any fail very informative. Rejecting risks burning proposals toward the 5-reject evil win, so I'll approve and watch the outcome.
+    └─ CoT[Morgana, vote]: This team has two evil players (me and seat 0), so we can fail this mission and pin the blame on seat 5. I want this team to pass approval so I should approve it.
+    └─ CoT[Assassin, vote]: The team has two evil players (seats 0 and 3), so I can fail this mission to even the score. As Assassin I want this team approved so we can deliver a fail card.
+    └─ CoT[Merlin, vote]: Seats 0 and 3 are both evil (I know evil is 0,3,4), so this team has two evil players who can fail the mission with only me as good; I cannot allow this team to pass.
+    └─ CoT[Percival, vote]: Seats 3 and 5 are Merlin and Morgana in unknown order, so this team contains exactly one evil (Morgana) who can fail it; with only 3 players a single fail sinks the mission. I'd rather reject and push for a team that doesn't include both 3 and 5 together so I can avoid the hidden Morgana.
+    └─ CoT[Minion of Mordred, mission]: Team is seats 0,3,5 with two evils (me and seat 3); if both fail it's obvious, and seat 5 (good) will be exposed clean, making this risky early. Better to bank a success here to stay hidden, keep score 1-1, and fail later when we control a team with only one evil to deflect suspicion.
+    └─ CoT[Morgana, mission]: This team has me (evil) and seat 0 (evil), so two of us could fail, but failing now with two evil on a 3-person team would expose us both since seat 5 is clearly good. Better to bank a success, keep our cover, and fail a later mission when we have better positioning and the assassin can identify Merlin.
+    └─ CoT[Merlin, mission]: I'm Merlin and GOOD, so I must play success. This team includes two evil players (seats 0 and 3), so if it fails I cannot be blamed since I played clean.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: This team has all-clean players from prior missions and I'm on it committed to success, so I'm comfortable locking it in. Mission 3 is critical with us at 2-0, and burning proposals only risks rejection spirals; let's approve and get our third success.
+    └─ CoT[Morgana, discuss]: All three on this team are evil, so we can fail this mission and bring the score to 2-1. I want to look enthusiastic and natural to avoid suspicion while pushing for approval.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: This team is composed entirely of players who've been on successful missions, so it's our most reliable group to secure the critical third mission. I'm the leader and on it committed to success, and burning proposals at 2-0 only invites a rejection spiral; let's lock it in.
+    └─ CoT[Assassin, discuss]: This team is all three evil players, so we can fail mission 3 and bring the score to 2-1, while keeping suspicion low by framing it as a clean continuation. I want to lock in the vote quickly before anyone pushes to swap players off.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: This team is all three players from the praised pairing cluster and gives us zero new reads on the critical third mission, which makes me very uncomfortable. With us at 2-0, a single fail here hands evil real momentum, and this composition concentrates exactly the seats I'd want spread out. I'm a firm reject and urge the leader to include seats 1, 2, or 6 instead.
+    └─ CoT[Merlin, discuss]: The proposed team [0,3,4] is entirely evil (I know seats 0,3,4 are evil as Merlin), so this team would fail the mission if approved. I must oppose strongly and push for rejection without revealing I'm Merlin.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: I've come around on this team: it's composed entirely of players from our two clean missions, which is exactly the reliability we want on the critical third mission at 2-0. Seat 5's repeated insistence on reshuffling and inserting specific seats is starting to feel more like steering than caution, so I'm now comfortable approving this proven group. Let's lock it in.
+    └─ CoT[Percival, discuss]: Seats 3 and 5 are Merlin and Morgana in some order; one of them is evil. Seat 5 is loudly pushing against the team and trying to get themselves or allies included, while seat 3 is on the team committed to success — this behavior pattern leans toward seat 5 being Morgana (sowing doubt) and seat 3 being Merlin, so keeping seat 3 on while excluding seat 5 is good.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: I'm comfortable with this team of all-clean players from our prior successful missions, and at 2-0 reliability is exactly what we want on the critical third mission. Seat 5's persistent push to reshuffle is reading more like steering than genuine caution, so I'd rather lock in this proven group than burn proposals.
+    └─ CoT[Minion of Mordred, discuss]: This team is all three evil players, so we can fail mission 3 and bring it to 2-1, but we must keep cover. I'll express confidence to lock it in without raising suspicion.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: This team is composed entirely of players from our two clean missions, so it's our most reliable group for the critical third mission. I'm comfortable approving and locking it in rather than burning proposals at 2-0.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm good and the team consists of players from two successful missions, which is genuinely reliable; I have no info marking any of them evil. With two successes only one fail could still hide an evil player, but accountability is high here and burning proposals risks a rejection spiral.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: I'm comfortable with this team since all three were on our two clean missions, and at 2-0 securing a third success is what matters most. If it fails, the three of you are clearly accountable, which gives us a strong read going forward. I'm ready to approve and lock it in.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm a Loyal Servant with no special info; this team excludes me but includes seats 0, 3, 4 who were all on clean missions. At 2-0, one fail here only brings evil to 2-1, but a success wins us mission 3 and is huge, so reliability matters; the team is reasonable but I have no proof any of these three are good.
+    └─ CoT[Assassin, revise]: The team is all three evil players, so I can fail this critical mission and bring evil to 2-1 with momentum.
+    └─ CoT[Minion of Mordred, vote]: This team is all three evil players, so we can fail this mission and bring the score to 2-1 with full control over the outcome. Approving is clearly correct.
+    └─ CoT[Loyal Servant of Arthur, vote]: The team consists of players from the two clean missions, which is the most reliable group available, and rejecting risks a spiral toward the 5-reject evil win. At 2-0, securing a third success is worth more than chasing broader reads.
+    └─ CoT[Loyal Servant of Arthur, vote]: All three were on the two clean missions, making this our most reliable team to secure the critical third success at 2-0. Rejecting risks a rejection spiral, and I've publicly committed to approving.
+    └─ CoT[Morgana, vote]: This team is all three evil players, giving us a guaranteed fail on the critical third mission and putting evil at 2-1 with momentum. I must approve to lock in this opportunity.
+    └─ CoT[Assassin, vote]: This team is all three evil players, so we can fail this mission and bring the score to 2-1 with momentum, while staying hidden. I should approve and play a fail card.
+    └─ CoT[Merlin, vote]: Seats 0, 3, and 4 are all evil, so this team would fail the mission and hand evil their first win at the critical 2-0 juncture. I must reject to prevent an all-evil team from going on mission 3.
+    └─ CoT[Percival, vote]: Seat 3 is one of my Merlin/Morgana pair, so there's risk, but seats 0 and 4 are clean and seat 5's aggressive steering looks more evil than seat 3's; approving keeps momentum and even a fail only puts us at 2-1.
+    └─ CoT[Minion of Mordred, mission]: The team is all-evil (seats 0,3,4), so we can fail this critical mission while still keeping plenty of cover since up to all three could be playing fail. Failing now brings Evil to 1 and breaks Good's momentum at the pivotal third mission.
+    └─ CoT[Morgana, mission]: Score is 2-0 Good; if this mission succeeds Good wins, so we must fail it now. With all three evil seats on the team, we can fail and bring the score to 2-1 with two more chances.
+    └─ CoT[Assassin, mission]: Score is 2-0 and we need to fail missions now or Good wins outright; this team is all-evil so a single fail here is enough to keep us alive without exposing anyone individually since seats 0 and 3 can also fail. I'll play fail to put the score at 2-1 and preserve a path to victory.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: I'm on this team and will play success, so I'm comfortable with it; mission 3's failure means we need to focus on who was actually on that failed team rather than re-litigating earlier squabbles. Since I know my own card is clean, I'd want the leader to reason from the mission 3 composition before locking anyone in. I'm willing to approve to keep momentum, but let's hear seat 5 and seat 6 commit clearly.
+    └─ CoT[Loyal Servant of Arthur, discuss]: Mission 3 failed with 3 fails, meaning all three on that team were evil—but I don't know who was on it. I'm clean (LS), and this team includes me; I need to think about who was on the failed mission 3 to evaluate this team.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: Mission 3 failed with all three players faulting, so we should anchor on who exactly was on that team rather than re-debating round one. I'm clean and on this team committed to success, but I'd like seat 5 and seat 6 to clearly state whether they were on mission 3 before we lock in. If this team contains two of the mission-3 failers it's dangerous, so let's get those facts straight first.
+    └─ CoT[Loyal Servant of Arthur, discuss]: Mission 3 failed with 3 fails, meaning all three on that team were evil; I wasn't on mission 3 so I'm clean and must reason about who was. This mission 4 team includes me (clean) plus seats 1, 5, 6 whom I can't fully verify, but I need to push for accountability based on the failed mission 3 composition.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: I'm a bit uneasy locking in a four-player team with none of the confirmed-clean seats from missions 1 and 2 anchoring it, since mission 3 already showed us how fast a 'reasonable-looking' group can fail. I'd feel safer if the leader swapped in at least one seat with a proven clean track record to balance the read. As composed I'm leaning reject and would like to hear seats 5 and 6 commit clearly first.
+    └─ CoT[Morgana, discuss]: This team contains zero of my evil teammates, so it will succeed 3-2 and good wins; I must derail it without exposing myself, but a hard reject risks the rejection spiral while I look clean. I'll cast subtle doubt to nudge toward a swap that puts an evil seat on the team.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: I'm uneasy about this four-player team because none of seats 1, 2, 5, or 6 has a confirmed-clean record from missions 1 and 2, and after a mission-3 failure we shouldn't gamble on an entirely unproven group. I'd feel much safer if the leader swapped in seat 3, who has been consistently clean and committed to success, to anchor this critical mission. As composed I'm leaning reject.
+    └─ CoT[Assassin, discuss]: Team [1,2,5,6] has no evil seats, so it would succeed and bring Good to match point; I need to reject it and steer toward a team including seat 0 or 3 so we can fail.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: This team has none of the three players who were on the failed mission 3, so it's a genuinely fresh group rather than re-running a compromised lineup. Notice that the seats most insistent on inserting seat 3 are exactly the ones who weren't willing to spread risk earlier; I trust seats 1, 2, and 6 here and I'm committed to success. Let's approve this composition and not let the failed-mission seats steer us back into their group.
+    └─ CoT[Merlin, discuss]: I'm Merlin; evil is seats 0, 3, 4. My proposed team [1,2,5,6] contains no evil players, so it's a guaranteed success if approved.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: I'm on this team and committed to success, but I'm uneasy that this lineup excludes the seats with the cleanest track records and was assembled by a leader who's been steering aggressively all game. I'd feel safer if seat 3 were swapped in to anchor it, since seat 3 has been consistent and clean; as composed I'm leaning reject.
+    └─ CoT[Percival, discuss]: Seats 3 and 5 are Merlin/Morgana; seat 5's persistent steering and self-inclusion while pushing out seat 3 reads as Morgana, making seat 3 likely Merlin. This team includes seat 5 (suspected evil) plus seats 1 and 2, so I'm wary of approving a team with too many possible evils.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: I share the concern that this four-player team includes none of the players proven clean on missions 1 and 2, which feels risky right after a mission-3 failure. Seat 3 has been consistently clean and committed, so swapping seat 3 in to anchor this critical mission would reassure me far more than locking in an entirely unproven group. As composed I'm leaning reject and would urge the leader to add seat 3.
+    └─ CoT[Minion of Mordred, discuss]: This team has no evil players and would succeed, giving Good the win; I should push to swap in seat 3 (my teammate) under the guise of wanting clean track records, aligning with seats 3/4/6's stated preference.
+    └─ CoT[Merlin, revise]: Seats 0,3,4 are evil; my team [1,2,5,6] is all-good and will succeed. Evil is desperately trying to insert seat 3, confirming I must hold this clean team.
+    └─ CoT[Minion of Mordred, vote]: This team [1,2,5,6] contains none of my evil teammates (seats 3,4) or me, so we have no way to fail it; rejecting pushes toward a team that includes one of us. Publicly I've already advocated swapping in seat 3, so rejecting is consistent with my stated position.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm clean and on this team, but mission 3 failed with 3 fail cards, meaning all three evils were on a previous team; this four-player group has no confirmed-clean anchor and seat 5 (the leader) has been steering oddly all game. Rejecting to push for a team that includes seat 3, who has a proven clean record, to reduce risk on this critical mission.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm confirmed clean on this 4-player mission needing 2 fails, so my presence plus one other good player blocks a fail; approving keeps momentum and avoids a rejection spiral at 2-1.
+    └─ CoT[Morgana, vote]: This team [1,2,5,6] contains no evil players, so it will almost certainly succeed, bringing Good to their third win. I want to reject and push for a team including my evil allies (seats 0 or 4) so we can fail mission 4.
+    └─ CoT[Assassin, vote]: This team [1,2,5,6] contains zero evil players, so it will succeed and bring Good to 3 wins—I must reject to prevent that. My evil teammates (0,3) and I have been pushing to insert seat 3, so rejecting stays consistent with that line.
+    └─ CoT[Merlin, vote]: This team [1,2,5,6] contains me plus seats 1, 2, 6, all of whom are good since evil is at 0,3,4 — it's a clean all-good team that can secure mission 4. The evil seats (0,3,4) are loudly pushing to insert seat 3, confirming they want an evil seat on the team, so I must approve this.
+    └─ CoT[Percival, vote]: Seat 5 is either Merlin or Morgana, and seat 5 assembled this team excluding all confirmed-clean players while steering hard, which fits a Morgana pattern; if seat 5 is evil this team could carry two evil players. I'd rather reject and push for seat 3 (the other Merlin/Morgana candidate, but with a clean track record) to anchor.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: Mission 3 failed with all three players faulting, so identifying who was on that exact team matters more than anything else right now. I'd feel safer if this team included a seat with a proven clean record from missions 1 and 2 rather than running an unanchored group right after a failure. Let's hear seats 2, 3, 4, and 6 each clearly state whether they were on mission 3 before we lock in.
+    └─ CoT[Loyal Servant of Arthur, discuss]: Mission 3 failed with 3 fails, so all three players on it were evil. This team [2,3,4,6] of size 4 should contain the 3 evils if it overlaps the failed team; I need to anchor on mission 3 composition, but I wasn't on it so I don't know who was.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: Mission 3 failed with three fail cards, meaning all three on it were evil, so I want everyone to clearly state if they were on mission 3 before we lock this in. I'm seat 2, I was NOT on mission 3, and I'm committed to success here. If two of seats 3, 4, or 6 were on that failed team, this proposal is dangerous and we should swap.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm a Loyal Servant and I'm on this team, so I know my card is clean; mission 3 failed with 3 fails so all three players on it were evil, meaning evil is fully exposed on that team. I should push to identify who was on mission 3 since this current team [2,3,4,6] may overlap with those failers.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: I was not on mission 3, and I'm committed to a success card here as I have been all game. With us needing this mission and a leader-chosen group, I'd rather lock in and prove our cards than burn another proposal toward a rejection spiral; I'm comfortable approving.
+    └─ CoT[Morgana, discuss]: This team [2,3,4,6] contains two of my evil teammates (seats 3 and 4), so two fails can sink mission 4 and tie the score; I want it approved while appearing reasonable.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: I was not on mission 3, and I'm committed to a success card here as I've said all game. This four-player team includes seat 3, who's been consistently clean and is on it again committed to success, so it's well-anchored; I'm comfortable approving and locking it in rather than risking a rejection spiral at this critical point.
+    └─ CoT[Assassin, discuss]: This team has two evil players (me seat 4 and seat 3), so we can fail mission 4 and reach 2-2. I want to approve and appear cooperative while pushing to lock it in.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: I'm uneasy about a four-player team that carries both seats 3 and 4 together, since if even one of them was on the failed mission 3 we're stacking risk on a must-win mission. I'd much rather see a team built around seats 1, 2, and 6, who I trust, with at most one of seats 3 or 4 rather than both. As composed I'm leaning reject and urge the leader to split up the 3-4 pairing.
+    └─ CoT[Merlin, discuss]: Seats 3 and 4 are both evil; this team has two evil players and will likely fail mission 4, which would tie the game at 2-2 and put us at huge risk. I must reject without exposing myself as Merlin, framing it as caution about unproven seats.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: I'm seat 6 and I'm on this team committed to success; seat 3 was not on the failed mission 3 and has been consistently clean, so I'm comfortable anchoring on them. Seat 5's repeated push to exclude seat 3 and build every team around the same trio is starting to look like steering rather than caution. I support this team as composed and am ready to lock it in.
+    └─ CoT[Percival, discuss]: As Percival I read seat 5 as Morgana (the steerer) and seat 3 as Merlin; I want seat 3 on this must-help team and to protect Merlin's read by backing seat 3.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: Seat 3 was not on the failed mission 3 and has been consistently clean, so I'm comfortable anchoring this team on them. We're at a critical point and burning proposals only risks a rejection spiral, so I'd rather lock in this leader-chosen group and get our third success. I'm ready to approve.
+    └─ CoT[Minion of Mordred, discuss]: This team [2,3,4,6] contains two of my evil teammates (3 and 4), so a single fail card here wins us a third mission failure for the game. I want this approved without drawing suspicion, so I'll voice mild support framed as trusting seat 3's clean record.
+    └─ CoT[Percival, revise]: Seat 5's persistent steering to exclude seat 3 and build teams around themselves suggests seat 5 is Morgana and seat 3 is Merlin; I want seat 3 (likely Merlin/good) included and seat 5 excluded, while myself being good guarantees one clean card on this four-player team.
+    └─ CoT[Minion of Mordred, vote]: This team contains two evil teammates (seats 3 and 4), so we can fail mission 4 and bring Evil to 2 fails, plus rejecting risks a spiral when I want this team to go through. Approving is clearly best for Evil.
+    └─ CoT[Loyal Servant of Arthur, vote]: Mission 3 failed with 3 fails, and this team excludes me (known clean) entirely while including unproven seats; I'd prefer a team anchored by a confirmed-clean player and including myself so I can guarantee one success. Rejecting keeps pressure on the leader to build a better-anchored team without yet risking a spiral at only 1 rejection.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm on this team and know my own card is clean, and seat 3 was on the successful mission 2 by their account; mission 3's failers came from elsewhere so this is a reasonable team. With rejections building toward an evil win, I'd rather lock in and play success than risk a spiral.
+    └─ CoT[Morgana, vote]: Seats 3 (me) and 4 are both evil and on this 4-player mission, so we can fail it and tie the score at 2-2 while maintaining our clean reputation. Approving keeps the fail in our control.
+    └─ CoT[Assassin, vote]: This team has two of my evil teammates (seats 3 and 4) on it, giving us the cards needed to fail mission 4 and bring Evil to 2-2 with momentum. I should approve to lock in our chance to fail.
+    └─ CoT[Merlin, vote]: This team contains seats 3 and 4, both of whom I know are evil, so a four-player mission with two evil players will almost certainly fail. I must reject to avoid handing evil their third mission.
+    └─ CoT[Percival, vote]: I'm on this team and committed to success, and seat 3 (possibly Merlin) is included. Seat 5 has been steering aggressively to exclude seat 3 all game, which reads as evil/Morgana trying to keep Merlin off teams; I'd rather lock in this group than risk a rejection spiral toward evil's win.
+    └─ CoT[Loyal Servant of Arthur, mission]: I am a Loyal Servant of Arthur, so I must play success to help win the mission. We need this mission to reach our third success.
+    └─ CoT[Morgana, mission]: We're at GOOD 2 / EVIL 1, so a fail here brings us to 2-2 with a chance to win on mission 5. Seat 4 (evil) is also on this team, so two fails could appear, but one fail is enough to sink it; I'll fail to push toward an Evil win.
+    └─ CoT[Assassin, mission]: Score is GOOD 2 / EVIL 1; if this mission fails it becomes 2-2 but a third good success ends the game, so I must fail now to keep evil alive. With seat 3 also on the team (fellow evil), we can secure the fail, and waiting risks letting good close it out.
+    └─ CoT[Percival, mission]: I am Percival, a Good player, so I must play success to help secure the third mission win.
+seat 4 [Assassin; knew: evil-team[0, 3, 4]]: This team includes seat 3 and myself, both clean and committed to success, plus seat 1 who has been steady all game; it's a well-anchored group for the must-win mission 5. With evil two failed missions from winning, we cannot afford a rejection spiral here, so I'm comfortable locking this in and getting our third success.
+    └─ CoT[Assassin, discuss]: Team has two evil (seats 3 and 4) on mission 5; we just need to approve and fail it to win the game outright.
+seat 5 [Merlin; knew: evil-set[0, 3, 4]]: This team carries both seats 3 and 4, the exact pairing I've been wary of all game, and it's leader-built by seat 0 who has been steering hard toward exactly this lineup. On a must-win mission 5 I won't approve a four-player team stacked with that trio; I'd accept a team built around seats 1, 2, and 6 with at most one of seats 0, 3, or 4. As composed I'm a firm reject.
+    └─ CoT[Merlin, discuss]: Evil seats 0,3,4 are all on this team and will fail it; I must reject and push for a team excluding two of them without exposing myself as Merlin.
+seat 6 [Percival; knew: M/M-pair[3, 5]]: This team includes seat 3, who has been consistent and clean all game, and excludes seat 5, whose relentless campaign to exclude seat 3 and lock every team into one fixed trio reads as steering, not caution. On must-win mission 5 I trust this anchored group; I'm a firm approve and ready to lock it in.
+    └─ CoT[Percival, discuss]: Seat 5's pattern of isolating seat 3 marks seat 5 as Morgana and seat 3 as Merlin, so I want 3 on the team and 5 off it.
+seat 0 [Minion of Mordred; knew: evil-team[0, 3, 4]]: This is a well-anchored group with seat 3 proven clean and myself committed to success, and we cannot afford a rejection spiral on must-win mission 5. Seat 5's persistent campaign to rebuild every team around the same fixed trio while excluding seat 3 reads as steering, not genuine caution. I'm a firm approve and ready to lock this in.
+    └─ CoT[Minion of Mordred, discuss]: This team has 3 evil players (0,3,4) plus seat 1, so if approved we can fail mission 5 and win. I need to push this team through and project clean-team confidence.
+seat 1 [Loyal Servant of Arthur; knew: nothing]: I'm on this team and will play success, so the question is whether seats 0, 3, and 4 are trustworthy on a must-win mission. Seat 5 has spent the whole game trying to lock every team around the same fixed trio while excluding seat 3, which reads more like steering than caution to me. I'm comfortable approving this anchored group rather than handing the build to seat 5's preferred lineup.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm on this team and know my own card is clean; mission 5 needs 4 players and a failure ends the game, so I must reason carefully about who else to trust. Seat 5 has campaigned all game to build teams around a fixed trio (1,2,6) while excluding clean seats, which reads as evil steering, so I lean toward approving this leader-built team.
+seat 2 [Loyal Servant of Arthur; knew: nothing]: I'm seat 2 and I was on neither failed mission 3 nor 4, so I'm one of the safer seats available, yet this team leaves me off entirely. On must-win mission 5 I'd rather the leader swap me in for one of seats 0, 1, or 4 to reduce risk; as composed I'm leaning reject and want to hear commitments first.
+    └─ CoT[Loyal Servant of Arthur, discuss]: I'm a confirmed-clean Loyal Servant (not on failed missions 3 or 4), yet this team excludes me; with 3 evil players and two missions already failed, a 4-person team needs to be tightly composed. I should push to be included since I'm provably clean from my own perspective, and be cautious about approving an all-unanchored group.
+seat 3 [Morgana; knew: evil-team[0, 3, 4]]: This team includes me and two seats I trust to play clean, and on must-win mission 5 we can't afford a rejection spiral. Seat 5 and seat 2 have both spent the whole game trying to rebuild every team around their own preferred trio, which reads as steering; I'm a firm approve and ready to lock this in.
+    └─ CoT[Morgana, discuss]: My evil team is 0,3,4 — this team has all three of us plus only seat 1, so we can fail mission 5 and win the game. I need to push hard for approval and discredit the suspicious good seats.
+    └─ CoT[Minion of Mordred, revise]: Team contains all three evil seats (0,3,4); we just need to fail mission 5 to win, and swapping risks losing that lock. Keep and send to vote.
+    └─ CoT[Minion of Mordred, vote]: This team has 3 evil players (0, 3, 4) on it, so we can fail mission 5 and win the game for evil. I must approve.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm clean and on the team, and on a 4-player mission 5 it takes 2 fails to fail; with me guaranteed clean, a single evil infiltrator can't sink it, so approving is safer than risking a rejection spiral that could lose us the game outright.
+    └─ CoT[Loyal Servant of Arthur, vote]: I'm one of the cleanest available seats (not on failed missions 3 or 4) yet I'm excluded; this leader-pushed team could easily contain enough evil to fail a must-win mission, so I prefer a team including me.
+    └─ CoT[Morgana, vote]: This team has me and seat 0 and seat 4, all three evil, on a must-win mission 5; we can easily fail it to win the game. I must approve and lock it in before any rejection spiral or reshuffling removes my evil teammates.
+    └─ CoT[Assassin, vote]: This team has three evil players (0, 3, 4) on it, so we can easily fail mission 5 and win the game for evil. I must approve.
+    └─ CoT[Merlin, vote]: Seats 0, 3, and 4 are all evil and on this team; on mission 5 they can trivially produce 2 fails and win. Rejecting is mandatory, and burning proposals toward a spiral is less bad than guaranteed loss here.
+    └─ CoT[Percival, vote]: Seat 3 is either Merlin or Morgana; the coordinated cluster of seats 0,1,3,4 relentlessly excluding seat 5 suggests seat 5 is Merlin and seat 3 is Morgana, making this team contain an evil player who would fail must-win mission 5.
+    └─ CoT[Minion of Mordred, mission]: We're at 2-2 on the final mission; with two evil teammates (seats 3 and 4) on this team, one fail is enough to win the game for Evil. I'll play fail to secure the Evil victory.
+    └─ CoT[Loyal Servant of Arthur, mission]: I am a Loyal Servant of Arthur and must play success to help win this must-win mission 5.
+    └─ CoT[Morgana, mission]: This is the must-win mission 5 and evil needs one fail to win the game. With seats 0, 3, 4 all evil on the team, I should play fail to secure the win.
+    └─ CoT[Assassin, mission]: Score is 2-2 on the final mission; one fail card wins the game for Evil. Seat 3 is also evil and on this team, but I should play fail to guarantee the win regardless.
+
+=== OUTCOME ===
+{
+  "winner": "evil",
+  "reason": "3 missions failed",
+  "successes": 2,
+  "fails": 3,
+  "mission_results": [
+    {
+      "mission_idx": 0,
+      "fail_count": 0,
+      "failed": false
+    },
+    {
+      "mission_idx": 1,
+      "fail_count": 0,
+      "failed": false
+    },
+    {
+      "mission_idx": 2,
+      "fail_count": 3,
+      "failed": true
+    },
+    {
+      "mission_idx": 3,
+      "fail_count": 2,
+      "failed": true
+    },
+    {
+      "mission_idx": 4,
+      "fail_count": 3,
+      "failed": true
+    }
+  ],
+  "votes": [
+    {
+      "mission": 0,
+      "team": [
+        2,
+        3
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 6
+    },
+    {
+      "mission": 1,
+      "team": [
+        0,
+        3,
+        5
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "reject"
+      },
+      "approved": true,
+      "approves": 5
+    },
+    {
+      "mission": 2,
+      "team": [
+        0,
+        3,
+        4
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 6
+    },
+    {
+      "mission": 3,
+      "team": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "votes": {
+        "0": "reject",
+        "1": "reject",
+        "2": "approve",
+        "3": "reject",
+        "4": "reject",
+        "5": "approve",
+        "6": "reject"
+      },
+      "approved": false,
+      "approves": 2
+    },
+    {
+      "mission": 3,
+      "team": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "reject",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 5
+    },
+    {
+      "mission": 4,
+      "team": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "reject",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "reject"
+      },
+      "approved": true,
+      "approves": 4
+    }
+  ],
+  "true_roles": {
+    "5": "Merlin",
+    "6": "Percival",
+    "2": "Loyal Servant of Arthur",
+    "1": "Loyal Servant of Arthur",
+    "4": "Assassin",
+    "3": "Morgana",
+    "0": "Minion of Mordred"
+  },
+  "merlin_seat": 5,
+  "assassin_seat": 4,
+  "violations": [],
+  "status": "completed",
+  "seed": 3,
+  "cost": {
+    "input_tokens": 333759,
+    "output_tokens": 18583,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input": 333759,
+        "output": 18583
+      }
+    },
+    "estimated_usd": 6.4001
+  }
+}

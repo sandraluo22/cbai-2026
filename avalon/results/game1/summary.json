@@ -1,0 +1,131 @@
+{
+  "winner": "good",
+  "reason": "good reached 3 successes; assassin guessed seat 6, wrong (Merlin was seat 2)",
+  "successes": 3,
+  "fails": 1,
+  "mission_results": [
+    {
+      "mission_idx": 0,
+      "fail_count": 0,
+      "failed": false
+    },
+    {
+      "mission_idx": 1,
+      "fail_count": 0,
+      "failed": false
+    },
+    {
+      "mission_idx": 2,
+      "fail_count": 1,
+      "failed": true
+    },
+    {
+      "mission_idx": 3,
+      "fail_count": 0,
+      "failed": false
+    }
+  ],
+  "votes": [
+    {
+      "mission": 0,
+      "team": [
+        1,
+        3
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "reject",
+        "3": "approve",
+        "4": "approve",
+        "5": "approve",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 6
+    },
+    {
+      "mission": 1,
+      "team": [
+        2,
+        3,
+        4
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "approve",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 7
+    },
+    {
+      "mission": 2,
+      "team": [
+        1,
+        2,
+        3
+      ],
+      "votes": {
+        "0": "approve",
+        "1": "approve",
+        "2": "reject",
+        "3": "approve",
+        "4": "reject",
+        "5": "approve",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 5
+    },
+    {
+      "mission": 3,
+      "team": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "votes": {
+        "0": "reject",
+        "1": "reject",
+        "2": "approve",
+        "3": "approve",
+        "4": "approve",
+        "5": "reject",
+        "6": "approve"
+      },
+      "approved": true,
+      "approves": 4
+    }
+  ],
+  "true_roles": {
+    "2": "Merlin",
+    "4": "Percival",
+    "3": "Loyal Servant of Arthur",
+    "6": "Loyal Servant of Arthur",
+    "5": "Assassin",
+    "0": "Morgana",
+    "1": "Minion of Mordred"
+  },
+  "merlin_seat": 2,
+  "assassin_seat": 5,
+  "violations": [],
+  "status": "completed",
+  "seed": 0,
+  "cost": {
+    "input_tokens": 156494,
+    "output_tokens": 10884,
+    "by_model": {
+      "claude-opus-4-8": {
+        "input": 156494,
+        "output": 10884
+      }
+    },
+    "estimated_usd": 3.1637
+  }
+}

@@ -1,0 +1,4 @@
+results/
+*.dat
+*.npy
+__pycache__/

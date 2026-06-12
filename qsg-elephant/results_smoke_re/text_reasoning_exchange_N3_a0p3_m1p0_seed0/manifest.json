@@ -1,0 +1,32 @@
+{
+  "run_id": "text_reasoning_exchange_N3_a0p3_m1p0_seed0",
+  "arm": "text",
+  "coupling_mode": "reasoning_exchange",
+  "model_name": "sshleifer/tiny-gpt2",
+  "device": "mps",
+  "object_name": "elephant",
+  "ground_truth_index": 0,
+  "candidates": [
+    "elephant",
+    "snake",
+    "tree",
+    "wall",
+    "rope",
+    "fan",
+    "spear"
+  ],
+  "seed": 0,
+  "N": 3,
+  "alpha": 0.3,
+  "m": 1.0,
+  "rounds": 2,
+  "neutral_ablation": false,
+  "consensus_time": null,
+  "final_U": 0.14286681016420483,
+  "final_V": 2.0274025156686595e-05,
+  "final_group_correct": false,
+  "final_frac_correct": 0.6666666666666666,
+  "degenerate_readouts": 9,
+  "template_hash": "2b7f261ba23ddfe7",
+  "wall_seconds": 42.01
+}

@@ -1,0 +1,27 @@
+# Personal-vs-social interp experiment. Keep the grid small until verified.
+n_companies: 4
+T: 6
+sigma_p: 1.0                 # private noise fixed; sigma_s set per lambda
+lambdas: [0.2, 0.4, 0.6, 0.8]    # social informativeness (KNOB 1) -> sigma_s
+taus: [0.0, 1.5]                 # crowd-vs-fundamental gap (0 = pure info game)
+ws: [0.0, 0.5, 1.0]              # reward weight on social (KNOB 2)
+seeds: [0, 1, 2]
+theta_scale: 3.0
+prior_std: 5.0
+allow_withdraw: false
+
+trial_modes: [counterfactual, disagreement, neutral]
+deltas: [-4.0, -2.0, 2.0, 4.0]   # social shift for counterfactual/disagreement
+targets: [0, 1, 2, 3]            # target company per trial (subsample at runtime)
+
+model:
+  model_name: meta-llama/Llama-3.1-8B-Instruct
+  base: false
+  dtype: bfloat16
+  device: cuda
+  use_chat_template: true
+  marker_char: ":"
+  max_new_tokens: 16
+
+output_root: results/exp
+max_forward_passes: 200          # guard: ask before exceeding (spec constraint)

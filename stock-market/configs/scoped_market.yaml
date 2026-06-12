@@ -1,0 +1,27 @@
+# Scoped first pass: ~224 capture forward passes (verify behavior + probes before patching).
+n_companies: 4
+T: 6
+sigma_p: 1.0
+lambdas: [0.2, 0.8]
+taus: [0.0, 1.5]
+ws: [0.0, 1.0]
+seeds: [0, 1]
+theta_scale: 3.0
+prior_std: 5.0
+allow_withdraw: false
+
+trial_modes: [counterfactual, disagreement, neutral]
+deltas: [-4.0, 4.0]
+targets: [0, 1, 2, 3]
+
+model:
+  model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+  base: false
+  dtype: bfloat16
+  device: cuda
+  use_chat_template: true
+  marker_char: ":"
+  max_new_tokens: 16
+
+output_root: results/scoped_market
+max_forward_passes: 300

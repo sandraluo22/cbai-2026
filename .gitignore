@@ -1,0 +1,32 @@
+# --- secrets: NEVER commit ---
+.env
+*.env
+**/.env
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- large activation / tensor stores (reproducible; not for git) ---
+**/activations/
+**/acts/
+*.dat
+*.memmap
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+
+# --- model / HF caches ---
+**/hf/
+**/.cache/
+**/models--*/
+
+# --- node / misc ---
+node_modules/
+.DS_Store
+remote_logs/

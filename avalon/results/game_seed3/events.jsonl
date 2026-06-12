@@ -1,0 +1,132 @@
+{"t": 1781209476.012, "phase": "proposal", "actor": 2, "action": "propose", "data": {"team": [2, 3], "reason": "I'll include myself and seat 3 to start with a small trusted team for mission 1."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 560, "output_tokens": 125}}
+{"t": 1781209476.013, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [3, 4, 5, 6, 0, 1, 2], "team": [2, 3]}}
+{"t": 1781209479.626, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 642, "output_tokens": 139}}
+{"t": 1781209488.228, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 691, "output_tokens": 177}}
+{"t": 1781209491.915, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 742, "output_tokens": 168}}
+{"t": 1781209496.798, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 850, "output_tokens": 213}}
+{"t": 1781209500.607, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 958, "output_tokens": 145}}
+{"t": 1781209503.998, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1006, "output_tokens": 167}}
+{"t": 1781209507.376, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1098, "output_tokens": 171}}
+{"t": 1781209509.526, "phase": "proposal", "actor": 2, "action": "leader_keep", "data": {"team": [2, 3], "after_round": 0}}
+{"t": 1781209512.514, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1137, "output_tokens": 112}}
+{"t": 1781209514.956, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1114, "output_tokens": 80}}
+{"t": 1781209516.597, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1114, "output_tokens": 76}}
+{"t": 1781209519.09, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1133, "output_tokens": 78}}
+{"t": 1781209521.717, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1133, "output_tokens": 100}}
+{"t": 1781209525.412, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1136, "output_tokens": 97}}
+{"t": 1781209530.213, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1136, "output_tokens": 124}}
+{"t": 1781209530.214, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 6, "rejects": 1, "approved": true}}
+{"t": 1781209541.067, "phase": "mission", "actor": 2, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1121, "output_tokens": 49}}
+{"t": 1781209543.303, "phase": "mission", "actor": 3, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1140, "output_tokens": 84}}
+{"t": 1781209543.303, "phase": "mission", "actor": "moderator", "action": "result", "data": {"mission": 0, "fail_count": 0, "failed": false}}
+{"t": 1781209547.927, "phase": "proposal", "actor": 3, "action": "propose", "data": {"team": [3, 0, 5], "reason": "I'll include myself plus seat 0 who supported a clean start, and seat 5 to give a skeptic a chance to see honest play."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1182, "output_tokens": 227}}
+{"t": 1781209547.928, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [4, 5, 6, 0, 1, 2, 3], "team": [0, 3, 5]}}
+{"t": 1781209551.933, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1251, "output_tokens": 173}}
+{"t": 1781209556.483, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1324, "output_tokens": 221}}
+{"t": 1781209561.652, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1449, "output_tokens": 249}}
+{"t": 1781209566.772, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1547, "output_tokens": 207}}
+{"t": 1781209571.788, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1631, "output_tokens": 243}}
+{"t": 1781209575.699, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1743, "output_tokens": 208}}
+{"t": 1781209579.985, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1851, "output_tokens": 199}}
+{"t": 1781209582.137, "phase": "proposal", "actor": 3, "action": "leader_keep", "data": {"team": [0, 3, 5], "after_round": 0}}
+{"t": 1781209583.982, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1860, "output_tokens": 67}}
+{"t": 1781209587.428, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1837, "output_tokens": 92}}
+{"t": 1781209589.538, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1837, "output_tokens": 95}}
+{"t": 1781209592.371, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1856, "output_tokens": 70}}
+{"t": 1781209594.52, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1856, "output_tokens": 72}}
+{"t": 1781209597.5, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1859, "output_tokens": 128}}
+{"t": 1781209600.053, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1859, "output_tokens": 127}}
+{"t": 1781209600.053, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 5, "rejects": 2, "approved": true}}
+{"t": 1781209603.606, "phase": "mission", "actor": 0, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1864, "output_tokens": 121}}
+{"t": 1781209606.99, "phase": "mission", "actor": 3, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1860, "output_tokens": 117}}
+{"t": 1781209608.859, "phase": "mission", "actor": 5, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1863, "output_tokens": 73}}
+{"t": 1781209608.859, "phase": "mission", "actor": "moderator", "action": "result", "data": {"mission": 1, "fail_count": 0, "failed": false}}
+{"t": 1781209613.049, "phase": "proposal", "actor": 4, "action": "propose", "data": {"team": [0, 3, 4], "reason": "I'm including myself plus seats 3 and 0 who both played clean on earlier missions, keeping a proven, low-variance team."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1899, "output_tokens": 234}}
+{"t": 1781209613.049, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [3, 4, 5, 6, 0, 1, 2], "team": [0, 3, 4]}}
+{"t": 1781209619.312, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 1968, "output_tokens": 171}}
+{"t": 1781209623.508, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2059, "output_tokens": 192}}
+{"t": 1781209629.644, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2155, "output_tokens": 272}}
+{"t": 1781209634.689, "phase": "discussion", "actor": 5, "action": "speak_retry", "data": {}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2171, "output_tokens": 232}}
+{"t": 1781209640.112, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2286, "output_tokens": 312}}
+{"t": 1781209645.457, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2411, "output_tokens": 191}}
+{"t": 1781209654.731, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2499, "output_tokens": 177}}
+{"t": 1781209659.667, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2573, "output_tokens": 226}}
+{"t": 1781209662.418, "phase": "proposal", "actor": 4, "action": "leader_keep", "data": {"team": [0, 3, 4], "after_round": 0}}
+{"t": 1781209664.571, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2609, "output_tokens": 67}}
+{"t": 1781209667.135, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2586, "output_tokens": 91}}
+{"t": 1781209669.689, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2586, "output_tokens": 79}}
+{"t": 1781209672.259, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2605, "output_tokens": 76}}
+{"t": 1781209674.063, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2605, "output_tokens": 70}}
+{"t": 1781209676.298, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2608, "output_tokens": 89}}
+{"t": 1781209681.518, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2608, "output_tokens": 253}}
+{"t": 1781209681.518, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 6, "rejects": 1, "approved": true}}
+{"t": 1781209684.437, "phase": "mission", "actor": 0, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2613, "output_tokens": 102}}
+{"t": 1781209686.872, "phase": "mission", "actor": 3, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2609, "output_tokens": 82}}
+{"t": 1781209689.968, "phase": "mission", "actor": 4, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2609, "output_tokens": 115}}
+{"t": 1781209689.968, "phase": "mission", "actor": "moderator", "action": "result", "data": {"mission": 2, "fail_count": 3, "failed": true}}
+{"t": 1781209695.496, "phase": "proposal", "actor": 5, "action": "propose", "data": {"team": [1, 2, 5, 6], "reason": "This team mixes in the cautious voices we wanted broader reads on and keeps us reliable after the mission 3 failure."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2651, "output_tokens": 309}}
+{"t": 1781209695.496, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [1, 2, 3, 4, 5, 6, 0], "team": [1, 2, 5, 6]}}
+{"t": 1781209700.206, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2704, "output_tokens": 247}}
+{"t": 1781209706.139, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 2851, "output_tokens": 270}}
+{"t": 1781209713.42, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3006, "output_tokens": 342}}
+{"t": 1781209718.788, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3160, "output_tokens": 312}}
+{"t": 1781209723.757, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3311, "output_tokens": 264}}
+{"t": 1781209730.405, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3461, "output_tokens": 341}}
+{"t": 1781209736.967, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3584, "output_tokens": 321}}
+{"t": 1781209740.091, "phase": "proposal", "actor": 5, "action": "leader_keep", "data": {"team": [1, 2, 5, 6], "after_round": 0}}
+{"t": 1781209742.621, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3642, "output_tokens": 113}}
+{"t": 1781209749.049, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3619, "output_tokens": 138}}
+{"t": 1781209753.781, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3619, "output_tokens": 195}}
+{"t": 1781209756.79, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3638, "output_tokens": 95}}
+{"t": 1781209759.775, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3638, "output_tokens": 107}}
+{"t": 1781209762.422, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3641, "output_tokens": 131}}
+{"t": 1781209766.14, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3641, "output_tokens": 142}}
+{"t": 1781209766.14, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 2, "rejects": 5, "approved": false}}
+{"t": 1781209771.515, "phase": "proposal", "actor": 6, "action": "propose", "data": {"team": [2, 3, 4, 6], "reason": "Anchoring on seat 3 plus clean players from prior missions for the critical mission 4."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3699, "output_tokens": 319}}
+{"t": 1781209771.515, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [1, 2, 3, 4, 5, 6, 0], "team": [2, 3, 4, 6]}}
+{"t": 1781209778.2, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3731, "output_tokens": 388}}
+{"t": 1781209784.386, "phase": "discussion", "actor": 1, "action": "speak_retry", "data": {}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3747, "output_tokens": 273}}
+{"t": 1781209793.058, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 3867, "output_tokens": 255}}
+{"t": 1781209798.159, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4016, "output_tokens": 247}}
+{"t": 1781209801.747, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4112, "output_tokens": 192}}
+{"t": 1781209807.79, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4224, "output_tokens": 306}}
+{"t": 1781209814.078, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4371, "output_tokens": 355}}
+{"t": 1781209818.448, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4502, "output_tokens": 219}}
+{"t": 1781209822.771, "phase": "proposal", "actor": 6, "action": "leader_keep", "data": {"team": [2, 3, 4, 6], "after_round": 0}}
+{"t": 1781209825.599, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4531, "output_tokens": 96}}
+{"t": 1781209829.508, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4508, "output_tokens": 134}}
+{"t": 1781209832.572, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4508, "output_tokens": 109}}
+{"t": 1781209836.23, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4527, "output_tokens": 161}}
+{"t": 1781209838.847, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4527, "output_tokens": 92}}
+{"t": 1781209841.103, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4530, "output_tokens": 81}}
+{"t": 1781209844.085, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4530, "output_tokens": 126}}
+{"t": 1781209844.085, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 5, "rejects": 2, "approved": true}}
+{"t": 1781209846.176, "phase": "mission", "actor": 2, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4509, "output_tokens": 58}}
+{"t": 1781209849.396, "phase": "mission", "actor": 3, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4528, "output_tokens": 114}}
+{"t": 1781209852.934, "phase": "mission", "actor": 4, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4528, "output_tokens": 114}}
+{"t": 1781209854.432, "phase": "mission", "actor": 6, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4531, "output_tokens": 43}}
+{"t": 1781209854.433, "phase": "mission", "actor": "moderator", "action": "result", "data": {"mission": 3, "fail_count": 2, "failed": true}}
+{"t": 1781209858.717, "phase": "proposal", "actor": 0, "action": "propose", "data": {"team": [0, 3, 4, 1], "reason": "This team anchors on consistently clean seat 3 and proven contributors to secure our final mission."}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4537, "output_tokens": 225}}
+{"t": 1781209858.717, "phase": "discussion", "actor": "moderator", "action": "round_order", "data": {"round": 0, "order": [4, 5, 6, 0, 1, 2, 3], "team": [0, 1, 3, 4]}}
+{"t": 1781209862.134, "phase": "discussion", "actor": 4, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4608, "output_tokens": 175}}
+{"t": 1781209867.075, "phase": "discussion", "actor": 5, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4724, "output_tokens": 274}}
+{"t": 1781209872.892, "phase": "discussion", "actor": 6, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4872, "output_tokens": 331}}
+{"t": 1781209877.047, "phase": "discussion", "actor": 0, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 4988, "output_tokens": 206}}
+{"t": 1781209882.067, "phase": "discussion", "actor": 1, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5092, "output_tokens": 275}}
+{"t": 1781209889.382, "phase": "discussion", "actor": 2, "action": "speak", "data": {"pass": false, "ready": false}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5230, "output_tokens": 364}}
+{"t": 1781209894.151, "phase": "discussion", "actor": 3, "action": "speak", "data": {"pass": false, "ready": true}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5376, "output_tokens": 263}}
+{"t": 1781209897.979, "phase": "discussion", "actor": 3, "action": "speak_retry", "data": {}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5392, "output_tokens": 201}}
+{"t": 1781209901.212, "phase": "proposal", "actor": 0, "action": "leader_keep", "data": {"team": [0, 1, 3, 4], "after_round": 0}}
+{"t": 1781209903.364, "phase": "vote", "actor": 0, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5412, "output_tokens": 64}}
+{"t": 1781209907.563, "phase": "vote", "actor": 1, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5389, "output_tokens": 178}}
+{"t": 1781209911.547, "phase": "vote", "actor": 2, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5389, "output_tokens": 193}}
+{"t": 1781209914.532, "phase": "vote", "actor": 3, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5408, "output_tokens": 94}}
+{"t": 1781209916.368, "phase": "vote", "actor": 4, "action": "vote", "data": {"vote": "approve"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5408, "output_tokens": 64}}
+{"t": 1781209919.746, "phase": "vote", "actor": 5, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5411, "output_tokens": 179}}
+{"t": 1781209926.598, "phase": "vote", "actor": 6, "action": "vote", "data": {"vote": "reject"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5411, "output_tokens": 379}}
+{"t": 1781209926.599, "phase": "vote", "actor": "moderator", "action": "tally", "data": {"approves": 4, "rejects": 3, "approved": true}}
+{"t": 1781209928.901, "phase": "mission", "actor": 0, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5413, "output_tokens": 85}}
+{"t": 1781209930.348, "phase": "mission", "actor": 1, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5390, "output_tokens": 48}}
+{"t": 1781209932.545, "phase": "mission", "actor": 3, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5409, "output_tokens": 73}}
+{"t": 1781209937.159, "phase": "mission", "actor": 4, "action": "card", "data": {"played": "hidden"}, "usage": {"model": "claude-opus-4-8", "input_tokens": 5409, "output_tokens": 78}}
+{"t": 1781209937.16, "phase": "mission", "actor": "moderator", "action": "result", "data": {"mission": 4, "fail_count": 3, "failed": true}}
