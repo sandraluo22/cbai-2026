@@ -1,0 +1,35 @@
+{
+  "align_layer_a": 3,
+  "align_layer_b": 3,
+  "capture_layers_a": [
+    3
+  ],
+  "capture_layers_b": [
+    3
+  ],
+  "checkpoint_window": 0.2,
+  "context_checkpoints": [
+    5,
+    15,
+    40
+  ],
+  "device": "cpu",
+  "dtype": "float32",
+  "grid_cols": 3,
+  "grid_rows": 3,
+  "model_a": "distilgpt2",
+  "model_b": "distilgpt2",
+  "n_walks": 20,
+  "name": "smoke",
+  "out_dir": "runs",
+  "parallel_min_gb": 50.0,
+  "parallel_models": false,
+  "pca_k": 10,
+  "ridge_alpha": 1.0,
+  "seed": 0,
+  "subword_rule": "last",
+  "test_frac": 0.25,
+  "use_stub_model": true,
+  "walk_length": 60,
+  "wellposed_ratio": 10.0
+}

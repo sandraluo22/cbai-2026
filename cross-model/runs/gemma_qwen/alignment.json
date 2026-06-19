@@ -1,0 +1,111 @@
+{
+  "wellposed": [
+    {
+      "tag": "ridge_full",
+      "n_samples": 150000,
+      "n_params": 14684160,
+      "ratio": 0.010215088912133892,
+      "ok": false,
+      "msg": "[wellposed:ridge_full] n_samples=150,000 vs n_params=14,684,160 (ratio=0.01, need >= 10.0)"
+    },
+    {
+      "tag": "procrustes_subspace",
+      "n_samples": 150000,
+      "n_params": 4950,
+      "ratio": 30.303030303030305,
+      "ok": true,
+      "msg": "[wellposed:procrustes_subspace] n_samples=150,000 vs n_params=4,950 (ratio=30.30, need >= 10.0)"
+    }
+  ],
+  "ridge": {
+    "alpha": 1000.0,
+    "r2_train": 0.9757382427688795,
+    "r2_test": 0.9675793265951477,
+    "n_params": 14684160
+  },
+  "procrustes": {
+    "k": 100,
+    "residual_train": 0.7955402250751102,
+    "residual_test": 0.7908010869906797,
+    "r2_test_subspace": 0.20917419107096902
+  },
+  "cka_overall": 0.06939303160711092,
+  "by_context": [
+    {
+      "context": 10,
+      "n": 250,
+      "ridge_r2": 0.45459490987767115,
+      "procrustes_residual": 0.19812443107614686,
+      "cka": 0.8505217664729031
+    },
+    {
+      "context": 30,
+      "n": 650,
+      "ridge_r2": 0.6811827123225211,
+      "procrustes_residual": 0.163371908158034,
+      "cka": 0.9121687749770221
+    },
+    {
+      "context": 100,
+      "n": 2050,
+      "ridge_r2": 0.797226339968517,
+      "procrustes_residual": 0.1934198926353019,
+      "cka": 0.9136408769527936
+    },
+    {
+      "context": 300,
+      "n": 6050,
+      "ridge_r2": 0.8597430568854779,
+      "procrustes_residual": 0.20550835739762544,
+      "cka": 0.8776267687288722
+    },
+    {
+      "context": 1000,
+      "n": 10050,
+      "ridge_r2": 0.8957080460415925,
+      "procrustes_residual": 0.1966158728014873,
+      "cka": 0.8556524639396254
+    }
+  ],
+  "matched_vs_mismatched": {
+    "per_context": [
+      {
+        "context": 10,
+        "context_other": 30,
+        "r2_matched": 0.45459490987767115,
+        "r2_mismatched": -2.142511785396877,
+        "matched_better": true
+      },
+      {
+        "context": 30,
+        "context_other": 100,
+        "r2_matched": 0.6811827123225211,
+        "r2_mismatched": -1.522047823528443,
+        "matched_better": true
+      },
+      {
+        "context": 100,
+        "context_other": 300,
+        "r2_matched": 0.797226339968517,
+        "r2_mismatched": -1.0853828125595832,
+        "matched_better": true
+      },
+      {
+        "context": 300,
+        "context_other": 1000,
+        "r2_matched": 0.8597430568854779,
+        "r2_mismatched": -0.9423860199277654,
+        "matched_better": true
+      },
+      {
+        "context": 1000,
+        "context_other": 10,
+        "r2_matched": 0.8957080460415925,
+        "r2_mismatched": -1.2024263749246558,
+        "matched_better": true
+      }
+    ],
+    "matched_wins": 5,
+    "total": 5
+  }
+}

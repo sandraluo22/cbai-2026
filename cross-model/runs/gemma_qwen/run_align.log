@@ -1,0 +1,17 @@
+== cross-model alignment :: preset=gemma_qwen stage=align ==
+/workspace/cross-model/align.py:215: UserWarning: UNDER-DETERMINED [wellposed:ridge_full] n_samples=150,000 vs n_params=14,684,160 (ratio=0.01, need >= 10.0)
+  rep.wellposed.append(check_wellposed(
+[align] well-posedness:
+  - [wellposed:ridge_full] n_samples=150,000 vs n_params=14,684,160 (ratio=0.01, need >= 10.0)  *** UNDER-DETERMINED ***
+  - [wellposed:procrustes_subspace] n_samples=150,000 vs n_params=4,950 (ratio=30.30, need >= 10.0)  OK
+[align] ridge  R^2 test = 0.968
+[align] procrustes residual test = 0.791
+[align] linear CKA (held-out) = 0.069
+[align] alignment vs context length:
+    ctx~  10 (n=  250): ridge_r2=0.455  cka=0.851
+    ctx~  30 (n=  650): ridge_r2=0.681  cka=0.912
+    ctx~ 100 (n= 2050): ridge_r2=0.797  cka=0.914
+    ctx~ 300 (n= 6050): ridge_r2=0.860  cka=0.878
+    ctx~1000 (n=10050): ridge_r2=0.896  cka=0.856
+[align] matched>mismatched in 5/5 bins
+[align] wrote /root/cmrun/gemma_qwen/alignment.json

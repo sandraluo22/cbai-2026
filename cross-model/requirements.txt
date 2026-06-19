@@ -1,0 +1,5 @@
+torch>=2.1
+transformers>=4.56        # Gemma-2 support; `dtype=` kwarg on from_pretrained
+numpy>=1.24
+matplotlib>=3.7           # optional: grid-recovery scatter plots
+huggingface_hub>=0.24     # for huggingface-cli login (gated models)

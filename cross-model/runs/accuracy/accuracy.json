@@ -1,0 +1,93 @@
+{
+  "chance_neighbor_mass": 0.1875,
+  "gemma": {
+    "first_token_unique": 16,
+    "by_context": [
+      {
+        "ctx": 10,
+        "n": 560,
+        "accuracy": 0.5964,
+        "neighbor_mass": 0.4624,
+        "kl": 4.3171,
+        "exact": 0.1419
+      },
+      {
+        "ctx": 30,
+        "n": 1400,
+        "accuracy": 0.7943,
+        "neighbor_mass": 0.4343,
+        "kl": 2.0687,
+        "exact": 0.1423
+      },
+      {
+        "ctx": 100,
+        "n": 4000,
+        "accuracy": 0.9535,
+        "neighbor_mass": 0.517,
+        "kl": 1.1126,
+        "exact": 0.1692
+      },
+      {
+        "ctx": 300,
+        "n": 14000,
+        "accuracy": 0.9987,
+        "neighbor_mass": 0.7139,
+        "kl": 0.4973,
+        "exact": 0.2352
+      },
+      {
+        "ctx": 1000,
+        "n": 20000,
+        "accuracy": 1.0,
+        "neighbor_mass": 0.8238,
+        "kl": 0.2645,
+        "exact": 0.2731
+      }
+    ]
+  },
+  "qwen": {
+    "first_token_unique": 16,
+    "by_context": [
+      {
+        "ctx": 10,
+        "n": 560,
+        "accuracy": 0.4768,
+        "neighbor_mass": 0.4084,
+        "kl": 2.92,
+        "exact": 0.124
+      },
+      {
+        "ctx": 30,
+        "n": 1400,
+        "accuracy": 0.6171,
+        "neighbor_mass": 0.3914,
+        "kl": 2.0374,
+        "exact": 0.1249
+      },
+      {
+        "ctx": 100,
+        "n": 4000,
+        "accuracy": 0.8635,
+        "neighbor_mass": 0.523,
+        "kl": 1.2314,
+        "exact": 0.1748
+      },
+      {
+        "ctx": 300,
+        "n": 14000,
+        "accuracy": 0.995,
+        "neighbor_mass": 0.8452,
+        "kl": 0.4921,
+        "exact": 0.2781
+      },
+      {
+        "ctx": 1000,
+        "n": 20000,
+        "accuracy": 1.0,
+        "neighbor_mass": 0.9567,
+        "kl": 0.2645,
+        "exact": 0.3172
+      }
+    ]
+  }
+}

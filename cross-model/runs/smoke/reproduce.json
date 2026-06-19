@@ -1,0 +1,46 @@
+{
+  "model_a": {
+    "tag": "model_a",
+    "layer": 3,
+    "by_context": [
+      {
+        "min_context": 5,
+        "distance_corr": 0.23461944300727047,
+        "n_valid": 9
+      },
+      {
+        "min_context": 15,
+        "distance_corr": 0.24182046327764428,
+        "n_valid": 9
+      },
+      {
+        "min_context": 40,
+        "distance_corr": 0.25807879214915136,
+        "n_valid": 9
+      }
+    ],
+    "top_distance_corr": 0.25807879214915136
+  },
+  "model_b": {
+    "tag": "model_b",
+    "layer": 3,
+    "by_context": [
+      {
+        "min_context": 5,
+        "distance_corr": 0.23461944300727047,
+        "n_valid": 9
+      },
+      {
+        "min_context": 15,
+        "distance_corr": 0.24182046327764428,
+        "n_valid": 9
+      },
+      {
+        "min_context": 40,
+        "distance_corr": 0.25807879214915136,
+        "n_valid": 9
+      }
+    ],
+    "top_distance_corr": 0.25807879214915136
+  }
+}

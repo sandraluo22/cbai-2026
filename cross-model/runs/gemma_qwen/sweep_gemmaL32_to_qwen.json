@@ -1,0 +1,53 @@
+{
+  "gemma_layer": 32,
+  "rows": [
+    {
+      "qwen_layer": 20,
+      "ridge_r2_test": 0.9799198928378641,
+      "procrustes_residual_test": 1.03173926628768,
+      "cka_pooled": 0.020194707149072094,
+      "cka_high_ctx": 0.8774029145026794,
+      "qwen_grid_corr": -0.022717087135300518
+    },
+    {
+      "qwen_layer": 24,
+      "ridge_r2_test": 0.9759171134925562,
+      "procrustes_residual_test": 0.9130663772491009,
+      "cka_pooled": 0.03597392335591579,
+      "cka_high_ctx": 0.8860923383869245,
+      "qwen_grid_corr": 0.00973067930309936
+    },
+    {
+      "qwen_layer": 28,
+      "ridge_r2_test": 0.9675793265951477,
+      "procrustes_residual_test": 0.7908010869906797,
+      "cka_pooled": 0.06939303160711092,
+      "cka_high_ctx": 0.8556524639396254,
+      "qwen_grid_corr": -0.018508354862395708
+    },
+    {
+      "qwen_layer": 32,
+      "ridge_r2_test": 0.9484187989021643,
+      "procrustes_residual_test": 0.7014245186688183,
+      "cka_pooled": 0.14109160246104907,
+      "cka_high_ctx": 0.7958894158473602,
+      "qwen_grid_corr": 0.010476525149875265
+    },
+    {
+      "qwen_layer": 34,
+      "ridge_r2_test": 0.8996173927252361,
+      "procrustes_residual_test": 0.5490849759322505,
+      "cka_pooled": 0.5484731657228644,
+      "cka_high_ctx": 0.7301543332732949,
+      "qwen_grid_corr": -0.012632572815648533
+    },
+    {
+      "qwen_layer": 35,
+      "ridge_r2_test": 0.8882020651901366,
+      "procrustes_residual_test": 0.6544880636790034,
+      "cka_pooled": 0.47259803650319687,
+      "cka_high_ctx": 0.6075737443407984,
+      "qwen_grid_corr": -0.0381071190560883
+    }
+  ]
+}

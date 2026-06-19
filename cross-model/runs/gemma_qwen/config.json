@@ -1,0 +1,48 @@
+{
+  "align_layer_a": 32,
+  "align_layer_b": 28,
+  "capture_layers_a": [
+    24,
+    28,
+    32,
+    36,
+    40,
+    41
+  ],
+  "capture_layers_b": [
+    20,
+    24,
+    28,
+    32,
+    34,
+    35
+  ],
+  "checkpoint_window": 0.2,
+  "context_checkpoints": [
+    10,
+    30,
+    100,
+    300,
+    1000
+  ],
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "free_cache_between": true,
+  "grid_cols": 4,
+  "grid_rows": 4,
+  "model_a": "google/gemma-2-9b",
+  "model_b": "Qwen/Qwen3-8B-Base",
+  "n_walks": 200,
+  "name": "gemma_qwen",
+  "out_dir": "/root/cmrun",
+  "parallel_min_gb": 50.0,
+  "parallel_models": false,
+  "pca_k": 100,
+  "ridge_alpha": 1000.0,
+  "seed": 0,
+  "subword_rule": "last",
+  "test_frac": 0.25,
+  "use_stub_model": false,
+  "walk_length": 1000,
+  "wellposed_ratio": 10.0
+}

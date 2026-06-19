@@ -1,0 +1,66 @@
+{
+  "model_a": {
+    "tag": "model_a",
+    "layer": 32,
+    "by_context": [
+      {
+        "min_context": 10,
+        "distance_corr": 0.2526982555954519,
+        "n_valid": 16
+      },
+      {
+        "min_context": 30,
+        "distance_corr": 0.2541617932022522,
+        "n_valid": 16
+      },
+      {
+        "min_context": 100,
+        "distance_corr": 0.2578046478133657,
+        "n_valid": 16
+      },
+      {
+        "min_context": 300,
+        "distance_corr": 0.26033075865283445,
+        "n_valid": 16
+      },
+      {
+        "min_context": 1000,
+        "distance_corr": 0.24711837259393346,
+        "n_valid": 16
+      }
+    ],
+    "top_distance_corr": 0.24711837259393346
+  },
+  "model_b": {
+    "tag": "model_b",
+    "layer": 28,
+    "by_context": [
+      {
+        "min_context": 10,
+        "distance_corr": -0.020391988802743073,
+        "n_valid": 16
+      },
+      {
+        "min_context": 30,
+        "distance_corr": -0.020443880205894105,
+        "n_valid": 16
+      },
+      {
+        "min_context": 100,
+        "distance_corr": -0.018629951851081777,
+        "n_valid": 16
+      },
+      {
+        "min_context": 300,
+        "distance_corr": -0.01655049846133942,
+        "n_valid": 16
+      },
+      {
+        "min_context": 1000,
+        "distance_corr": -0.018508354862395708,
+        "n_valid": 16
+      }
+    ],
+    "top_distance_corr": -0.018508354862395708
+  }
+}
