@@ -107,3 +107,50 @@ alignment number — it tells you activations were captured correctly.
   `n_occurrences × d × 2 bytes × n_layers`.
 - Everything is seeded (`config.seed`); raw activations are saved so analysis
   re-runs without re-inference.
+
+## Results
+
+### The in-context graph
+The 4×4 grid the walks traverse — semantically unrelated words on the nodes,
+edges between orthogonal neighbours.
+
+![In-context grid](runs/gemma_qwen_all/grid_preview.png)
+
+### In-context emergence (paper-faithful, Nw=50 window + Dirichlet energy)
+Structure vs context length, computed the way Park et al. do it (sliding
+50-token window, per-node means). **Gemma's grid structure emerges with
+context** (grid RSA rises ~0.2 → 0.54, Dirichlet energy falls); **Qwen's does
+not at the tested layer** — though that is partly a massive-activation
+confound (see below).
+
+![Emergence vs context](runs/gemma_qwen_all/paper_faithful_emergence.png)
+
+### Cross-model similarity (RSA on per-node means, every layer pair)
+Rank-correlation of the two models' node-geometries. Unlike the earlier CKA
+version (which peaked at the earliest layers — pure surface-token similarity),
+this peaks at mid/deep layers; where each model actually encodes the grid
+(dashed lines) the geometries align moderately (~0.6–0.7).
+
+![Cross-model RSA heatmap](runs/gemma_qwen_all/cross_model_rsa_heatmap.png)
+
+### Massive-activation confound and the standardization fix
+Qwen's representation is dominated by a single outlier dimension (~94% of
+variance at L12). Demoting it (z-score / drop top-var dims) surfaces grid
+structure that the raw, variance-dominated metrics missed.
+
+![Standardized grid RSA](runs/gemma_qwen_all/standardized_grid.png)
+
+### Grid-peak node maps (per-node-mean PCA)
+Each model at its strongest grid layer. Gemma's grid is far cleaner; Qwen's is
+weak even at its best (and the 2D PCA understates the full-dimensional RSA).
+
+![Grid-peak PCA](runs/gemma_qwen_all/rebuilt_gridpeaks.png)
+
+### Headline
+Both models learn the in-context graph **behaviourally** (next-step neighbour
+prediction → ~ceiling, see `runs/accuracy/`), but a memoryless in-context
+counter matches that, so behavioural accuracy alone is not decisive.
+**Representationally**, Gemma builds a clear grid geometry (RSA ≈ 0.7) while
+Qwen's is weak and buried under massive activations — the models reach
+functionally similar solutions expressed very differently. See `PROCEDURE.md`
+for the full method and `runs/` for all metrics.
