@@ -146,6 +146,14 @@ weak even at its best (and the 2D PCA understates the full-dimensional RSA).
 
 ![Grid-peak PCA](runs/gemma_qwen_all/rebuilt_gridpeaks.png)
 
+### Full per-layer slideshows (PDF)
+Every layer of both models, side by side, as browseable multi-page PDFs:
+- [`pca_per_layer_nodemean.pdf`](runs/gemma_qwen_all/pca_per_layer_nodemean.pdf)
+  — **rebuilt**, paper-style: 16 labelled nodes + grid edges per layer (per-node
+  means). Page 1 is the graph itself.
+- [`pca_per_layer.pdf`](runs/gemma_qwen_all/pca_per_layer.pdf) — original
+  per-occurrence version (every word is a cloud of points; kept for contrast).
+
 ### Headline
 Both models learn the in-context graph **behaviourally** (next-step neighbour
 prediction → ~ceiling, see `runs/accuracy/`), but a memoryless in-context
