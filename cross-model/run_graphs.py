@@ -30,11 +30,16 @@ def spearman(a, b):
 
 
 def GRAPHS():
-    return [
+    allg = [
         ("ring", dict(graph_type="ring", ring_size=16, word_set="concepts")),
         ("hex",  dict(graph_type="hex", hex_rows=4, hex_cols=4, word_set="concepts")),
         ("days", dict(graph_type="ring", ring_size=7, word_set="days")),
     ]
+    only = os.environ.get("GRAPHS_FILTER")           # e.g. "days" or "hex,days"
+    if only:
+        keep = set(only.split(","))
+        return [g for g in allg if g[0] in keep]
+    return allg
 
 
 def analyze(cap, graph, run_dir, tag, deep):
