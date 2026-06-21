@@ -148,10 +148,10 @@ weak even at its best (and the 2D PCA understates the full-dimensional RSA).
 
 ### Full per-layer slideshows (PDF)
 Every layer of both models, side by side, as browseable multi-page PDFs:
-- [`pca_per_layer_nodemean.pdf`](runs/square_grid/pca_per_layer_nodemean.pdf)
+- [`pca_per_layer_nodemean.pdf`](runs/square_grid/slides/pca_per_layer_nodemean.pdf)
   — **rebuilt**, paper-style: 16 labelled nodes + grid edges per layer (per-node
   means). Page 1 is the graph itself.
-- [`pca_per_layer.pdf`](runs/square_grid/pca_per_layer.pdf) — original
+- [`pca_per_layer.pdf`](runs/square_grid/slides/pca_per_layer.pdf) — original
   per-occurrence version (every word is a cloud of points; kept for contrast).
 
 ### Headline
