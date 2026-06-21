@@ -23,18 +23,34 @@ class Graph:
     n_nodes: int
     words: List[str]                       # node_id -> concept word
     adjacency: List[List[int]]             # node_id -> sorted neighbor ids
-    coords: List[Tuple[int, int]]          # node_id -> (row, col) for grid recovery
+    coords: List[Tuple[float, float]]      # node_id -> 2D position (for plotting)
 
     def neighbors(self, node: int) -> List[int]:
         return self.adjacency[node]
 
+    def distance_matrix(self) -> np.ndarray:
+        """Shortest-path (BFS hop) distance between all node pairs -- the true
+        graph geometry, valid for ANY topology (grid/ring/hex). On a grid this
+        equals Manhattan distance. This is the ground truth that RSA / grid
+        recovery correlate the learned representation against."""
+        n = self.n_nodes
+        D = np.full((n, n), np.inf)
+        for s in range(n):
+            D[s, s] = 0.0
+            frontier, seen, d = [s], {s}, 0
+            while frontier:
+                d += 1
+                nxt = []
+                for u in frontier:
+                    for v in self.adjacency[u]:
+                        if v not in seen:
+                            seen.add(v); D[s, v] = d; nxt.append(v)
+                frontier = nxt
+        return D
+
+    # kept for backward compatibility with existing callers (== distance_matrix)
     def grid_distance_matrix(self) -> np.ndarray:
-        """Manhattan distance between node coords -- ground truth for the
-        paper-reproduction check (PCA of high-context node means should recover
-        this geometry)."""
-        c = np.array(self.coords)
-        d = np.abs(c[:, None, :] - c[None, :, :]).sum(-1)
-        return d.astype(float)
+        return self.distance_matrix()
 
 
 def build_grid_graph(cfg: Config) -> Graph:
@@ -59,6 +75,53 @@ def build_grid_graph(cfg: Config) -> Graph:
             adjacency.append(sorted(nbrs))
 
     return Graph(n_nodes=rows * cols, words=words, adjacency=adjacency, coords=coords)
+
+
+def build_ring_graph(cfg: Config) -> Graph:
+    """Cyclic ring: node i connects to (i-1) and (i+1), wrapping around. The
+    paper's ring condition. coords place nodes evenly on a circle for plotting."""
+    n = cfg.ring_size
+    words = cfg.words()
+    adjacency = [sorted([(i - 1) % n, (i + 1) % n]) for i in range(n)]
+    coords = [(float(np.cos(2 * np.pi * i / n)), float(np.sin(2 * np.pi * i / n)))
+              for i in range(n)]
+    return Graph(n_nodes=n, words=words, adjacency=adjacency, coords=coords)
+
+
+def build_hex_graph(cfg: Config) -> Graph:
+    """Hexagonal (triangular) lattice: interior nodes have up to 6 neighbors.
+    Offset-row construction; coords use the standard hex offset for plotting."""
+    rows, cols = cfg.hex_rows, cfg.hex_cols
+    words = cfg.words()
+    coords: List[Tuple[float, float]] = []
+    adjacency: List[List[int]] = []
+
+    def nid(r: int, c: int) -> int:
+        return r * cols + c
+
+    for r in range(rows):
+        for c in range(cols):
+            coords.append((c + 0.5 * (r % 2), -0.866 * r))     # hex offset layout
+            nbrs = []
+            # same-row and vertical neighbors
+            cand = [(r, c - 1), (r, c + 1), (r - 1, c), (r + 1, c)]
+            # the two diagonal neighbors depend on row parity (6-neighbor hex)
+            if r % 2 == 0:
+                cand += [(r - 1, c - 1), (r + 1, c - 1)]
+            else:
+                cand += [(r - 1, c + 1), (r + 1, c + 1)]
+            for rr, cc in cand:
+                if 0 <= rr < rows and 0 <= cc < cols:
+                    nbrs.append(nid(rr, cc))
+            adjacency.append(sorted(nbrs))
+
+    return Graph(n_nodes=rows * cols, words=words, adjacency=adjacency, coords=coords)
+
+
+def build_graph(cfg: Config) -> Graph:
+    """Dispatch on cfg.graph_type: 'grid' | 'ring' | 'hex'."""
+    return {"grid": build_grid_graph, "ring": build_ring_graph,
+            "hex": build_hex_graph}[cfg.graph_type](cfg)
 
 
 @dataclass

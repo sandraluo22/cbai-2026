@@ -42,7 +42,7 @@ def main():
     base = get_config("gemma_qwen")
     # fewer walks than the headline run keeps all-layer RAM ~60GB and the run
     # snappy; still ample occurrences for per-node means and CKA.
-    cfg = replace(base, n_walks=100, name="gemma_qwen_all", out_dir="/root/cmrun")
+    cfg = replace(base, n_walks=100, name="square_grid", out_dir="/root/cmrun")
     GEMMA, QWEN = cfg.model_a, cfg.model_b
     gl, ql = tuple(range(42)), tuple(range(36))
     run_dir = f"{cfg.out_dir}/{cfg.name}"

@@ -114,7 +114,7 @@ alignment number — it tells you activations were captured correctly.
 The 4×4 grid the walks traverse — semantically unrelated words on the nodes,
 edges between orthogonal neighbours.
 
-![In-context grid](runs/gemma_qwen_all/grid_preview.png)
+![In-context grid](runs/square_grid/grid_preview.png)
 
 ### In-context emergence (paper-faithful, Nw=50 window + Dirichlet energy)
 Structure vs context length, computed the way Park et al. do it (sliding
@@ -123,7 +123,7 @@ context** (grid RSA rises ~0.2 → 0.54, Dirichlet energy falls); **Qwen's does
 not at the tested layer** — though that is partly a massive-activation
 confound (see below).
 
-![Emergence vs context](runs/gemma_qwen_all/paper_faithful_emergence.png)
+![Emergence vs context](runs/square_grid/paper_faithful_emergence.png)
 
 ### Cross-model similarity (RSA on per-node means, every layer pair)
 Rank-correlation of the two models' node-geometries. Unlike the earlier CKA
@@ -131,27 +131,27 @@ version (which peaked at the earliest layers — pure surface-token similarity),
 this peaks at mid/deep layers; where each model actually encodes the grid
 (dashed lines) the geometries align moderately (~0.6–0.7).
 
-![Cross-model RSA heatmap](runs/gemma_qwen_all/cross_model_rsa_heatmap.png)
+![Cross-model RSA heatmap](runs/square_grid/cross_model_rsa_heatmap.png)
 
 ### Massive-activation confound and the standardization fix
 Qwen's representation is dominated by a single outlier dimension (~94% of
 variance at L12). Demoting it (z-score / drop top-var dims) surfaces grid
 structure that the raw, variance-dominated metrics missed.
 
-![Standardized grid RSA](runs/gemma_qwen_all/standardized_grid.png)
+![Standardized grid RSA](runs/square_grid/standardized_grid.png)
 
 ### Grid-peak node maps (per-node-mean PCA)
 Each model at its strongest grid layer. Gemma's grid is far cleaner; Qwen's is
 weak even at its best (and the 2D PCA understates the full-dimensional RSA).
 
-![Grid-peak PCA](runs/gemma_qwen_all/rebuilt_gridpeaks.png)
+![Grid-peak PCA](runs/square_grid/rebuilt_gridpeaks.png)
 
 ### Full per-layer slideshows (PDF)
 Every layer of both models, side by side, as browseable multi-page PDFs:
-- [`pca_per_layer_nodemean.pdf`](runs/gemma_qwen_all/pca_per_layer_nodemean.pdf)
+- [`pca_per_layer_nodemean.pdf`](runs/square_grid/pca_per_layer_nodemean.pdf)
   — **rebuilt**, paper-style: 16 labelled nodes + grid edges per layer (per-node
   means). Page 1 is the graph itself.
-- [`pca_per_layer.pdf`](runs/gemma_qwen_all/pca_per_layer.pdf) — original
+- [`pca_per_layer.pdf`](runs/square_grid/pca_per_layer.pdf) — original
   per-occurrence version (every word is a cloud of points; kept for contrast).
 
 ### Headline

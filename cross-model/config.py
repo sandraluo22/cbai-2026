@@ -34,6 +34,14 @@ WORDS: List[str] = [
     "mirror", "jacket", "rocket", "pillow", "anchor",
 ]
 
+# Semantic-conflict condition (days-of-week): the nodes are the 7 weekdays, which
+# carry a STRONG pretrained cyclic order. We arrange them on the 7-ring in a
+# PERMUTED order (each ring step = +3 days) so the in-context ring CONFLICTS with
+# the natural weekday cycle -- the paper's test of context overriding semantics.
+DAYS: List[str] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+                   "Saturday", "Sunday"]
+DAYS_PERMUTED: List[str] = [DAYS[(3 * i) % 7] for i in range(7)]   # Mon,Thu,Sun,...
+
 
 @dataclass(frozen=True)
 class Config:
@@ -43,8 +51,13 @@ class Config:
     seed: int = 0
 
     # ---- graph -----------------------------------------------------------
+    graph_type: str = "grid"           # "grid" | "ring" | "hex"
+    word_set: str = "concepts"         # "concepts" (unrelated) | "days" (semantic conflict)
     grid_rows: int = 4
-    grid_cols: int = 4                 # n_nodes = rows * cols (configurable)
+    grid_cols: int = 4                 # grid: n_nodes = rows * cols
+    ring_size: int = 16                # ring: n_nodes = ring_size
+    hex_rows: int = 4
+    hex_cols: int = 4                  # hex: n_nodes = hex_rows * hex_cols
 
     # ---- walk generation -------------------------------------------------
     # We generate walks of `walk_length` *node steps*. Each step emits one
@@ -106,9 +119,16 @@ class Config:
 
     @property
     def n_nodes(self) -> int:
+        if self.graph_type == "ring":
+            return self.ring_size
+        if self.graph_type == "hex":
+            return self.hex_rows * self.hex_cols
         return self.grid_rows * self.grid_cols
 
     def words(self) -> List[str]:
+        if self.word_set == "days":
+            assert self.n_nodes == 7, "days condition uses the 7-node ring"
+            return list(DAYS_PERMUTED)
         assert self.n_nodes <= len(WORDS), (
             f"need {self.n_nodes} words but only {len(WORDS)} defined"
         )

@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-RUN = "runs/gemma_qwen_all"
+RUN = "runs/square_grid"
 GEMMA_PEAK, QWEN_PEAK = 23, 12          # from grid_per_layer.json
 
 

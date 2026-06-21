@@ -21,7 +21,7 @@ import graph as G
 from reproduce import grid_recovery_score
 from make_pca_pdf import draw_grid_page
 
-RUN = "runs/gemma_qwen_all"
+RUN = "runs/square_grid"
 CFG = get_config("gemma_qwen")
 GRAPH = G.build_grid_graph(CFG)
 WORDS = CFG.words()

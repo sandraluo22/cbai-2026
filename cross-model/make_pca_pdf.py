@@ -16,7 +16,7 @@ from config import get_config
 import graph as G
 
 CFG = get_config("gemma_qwen")
-RUN = "runs/gemma_qwen_all"
+RUN = "runs/square_grid"
 WORDS = CFG.words()                                # 16 node words
 PLOT_N = 2500                                      # points drawn per panel
 

@@ -1,0 +1,47 @@
+{
+  "llama": {
+    "first_token_unique": 16,
+    "by_context": [
+      {
+        "ctx": 10,
+        "n": 560,
+        "accuracy": 0.525,
+        "neighbor_mass": 0.4505,
+        "kl": 3.3386,
+        "exact": 0.1349
+      },
+      {
+        "ctx": 30,
+        "n": 1400,
+        "accuracy": 0.8014,
+        "neighbor_mass": 0.5342,
+        "kl": 1.9724,
+        "exact": 0.1743
+      },
+      {
+        "ctx": 100,
+        "n": 4000,
+        "accuracy": 0.9545,
+        "neighbor_mass": 0.6909,
+        "kl": 0.9724,
+        "exact": 0.2279
+      },
+      {
+        "ctx": 300,
+        "n": 14000,
+        "accuracy": 0.9986,
+        "neighbor_mass": 0.8941,
+        "kl": 0.3689,
+        "exact": 0.2964
+      },
+      {
+        "ctx": 1000,
+        "n": 20000,
+        "accuracy": 1.0,
+        "neighbor_mass": 0.9565,
+        "kl": 0.2004,
+        "exact": 0.3181
+      }
+    ]
+  }
+}
