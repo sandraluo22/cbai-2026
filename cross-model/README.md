@@ -44,26 +44,36 @@ days-of-the-week condition is **not** built yet.
 ```
 cross-model/
   README.md  PROCEDURE.md  requirements.txt
-  src/        all code (run scripts from the project root, e.g. `python src/run.py`)
-  runs/       results: one folder per run/graph; <folder>/slides/ holds the PDFs,
-              runs/overview/ holds cross-cutting summary figures, runs/slides/
-              holds the combined cross-graph PDFs
+  src/                core library: config.py graph.py models.py align.py reproduce.py
+    scripts/
+      capture/        run the models -> activations (run, run_graphs, alllayers, llama_*, accuracy)
+      analysis/       metrics from saved data (align_sweep, paper_faithful, *_grid, rsa_null, compare*, baseline_plot, control_redo)
+      viz/            figures / slideshows (make_pca_pdf, rebuild*, graph_slideshows, *heatmaps*, days_viz)
+  runs/
+    <run-or-graph>/   square_grid, ring, hex, days, gemma_qwen, llama, accuracy, smoke
+      slides/         the PDFs for that folder
+    overview/         cross-cutting summary figures
+    slides/           combined cross-graph PDFs
 ```
 
-## Files (core pipeline, in `src/`)
+**Running scripts:** always from the `cross-model/` project root, with `src` on the
+path so the core modules import (the script's own folder is already on the path for
+its sibling helpers):
+
+```bash
+PYTHONPATH=src python src/scripts/<group>/<name>.py
+```
+
+## Core pipeline (`src/`)
 
 | file           | role |
 |----------------|------|
-| `src/config.py`    | frozen-dataclass config; presets (`DEFAULT`, `SMOKE`, `gemma_qwen`); concept-word + days vocab; graph-type knobs |
-| `src/graph.py`     | grid / ring / hex graph builders + BFS graph-distance + uniform random-walk generation; per-occurrence index |
-| `src/models.py`    | model loading + forward-hook residual-stream capture; tokenizer-alignment (offset mapping) |
-| `src/align.py`     | pairing, splits, well-posedness guard, ridge (a) + PCA-Procrustes (b), CKA, trajectory & matched/mismatched control |
-| `src/reproduce.py` | paper-reproduction sanity check: per-node-mean PCA recovers the grid |
-| `src/run.py`       | orchestration: `capture` → `reproduce` → `align` |
-
-The remaining `src/*.py` are analysis/visualization scripts (per-graph captures,
-RSA sweeps, PCA slideshows, baseline + significance figures). Run any of them
-from the `cross-model/` root so `runs/...` paths and imports resolve.
+| `config.py`    | frozen-dataclass config; presets (`DEFAULT`, `SMOKE`, `gemma_qwen`); concept-word + days vocab; graph-type knobs |
+| `graph.py`     | grid / ring / hex builders + BFS graph-distance + uniform random-walk generation; per-occurrence index |
+| `models.py`    | model loading + forward-hook residual-stream capture; tokenizer-alignment (offset mapping) |
+| `align.py`     | pairing, splits, well-posedness guard, ridge + PCA-Procrustes, CKA, trajectory & matched/mismatched control |
+| `reproduce.py` | paper-reproduction sanity check: per-node-mean PCA recovers the grid |
+| `scripts/capture/run.py` | orchestration: `capture` → `reproduce` → `align` |
 
 ## Usage
 
@@ -76,12 +86,12 @@ huggingface-cli login
 
 ```bash
 # run from the cross-model/ project root
-python src/run.py --preset default --stage all       # full run on the H200
-python src/run.py --preset default --stage capture    # inference only (cache acts)
-python src/run.py --preset default --stage reproduce   # sanity check from cache
-python src/run.py --preset default --stage align       # alignment from cache
+PYTHONPATH=src python src/scripts/capture/run.py --preset default --stage all
+PYTHONPATH=src python src/scripts/capture/run.py --preset default --stage capture
+PYTHONPATH=src python src/scripts/capture/run.py --preset default --stage reproduce
+PYTHONPATH=src python src/scripts/capture/run.py --preset default --stage align
 
-python src/run.py --preset smoke --stage all          # tiny CPU end-to-end test
+PYTHONPATH=src python src/scripts/capture/run.py --preset smoke --stage all   # tiny CPU test
 ```
 
 Artifacts land in `runs/<preset>/`: `acts_model_a.npz`, `acts_model_b.npz`,
