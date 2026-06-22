@@ -28,7 +28,7 @@ rng = np.random.default_rng(1)
 
 def sub_path(g, m):
     if g == "square_grid":
-        return {"Llama": "runs/llama/acts_sub_llama.npz",
+        return {"Llama": "runs/square_grid/llama/acts_sub_llama.npz",
                 "Gemma": "runs/square_grid/acts_sub_gemma.npz",
                 "Qwen":  "runs/square_grid/acts_sub_qwen.npz"}[m]
     return f"runs/{g}/{m}_acts_sub.npz"

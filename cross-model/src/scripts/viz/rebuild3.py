@@ -27,7 +27,7 @@ HICTX = 300
 OUT = "runs/square_grid"
 SPECS = [("Gemma", "runs/square_grid/acts_sub_gemma.npz"),
          ("Qwen",  "runs/square_grid/acts_sub_qwen.npz"),
-         ("Llama", "runs/llama/acts_sub_llama.npz")]
+         ("Llama", "runs/square_grid/llama/acts_sub_llama.npz")]
 
 
 def spearman(a, b):

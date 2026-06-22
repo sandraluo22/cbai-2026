@@ -50,8 +50,13 @@ cross-model/
       analysis/       metrics from saved data (align_sweep, paper_faithful, *_grid, rsa_null, compare*, baseline_plot, control_redo)
       viz/            figures / slideshows (make_pca_pdf, rebuild*, graph_slideshows, *heatmaps*, days_viz)
   runs/
-    <run-or-graph>/   square_grid, ring, hex, days, gemma_qwen, llama, accuracy, smoke
-      slides/         the PDFs for that folder
+    square_grid/      square-grid experiment: all-layer data at root, plus sub-runs:
+      gemma_qwen/       headline 6-layer Gemma<->Qwen alignment capture
+      llama/            Llama all-layer capture
+      accuracy/         behavioural next-step accuracy
+      slides/           the square-grid PDFs
+    ring/  hex/  days/  per-graph runs (ring / hex / days), each with its own slides/
+    smoke/            tiny CPU end-to-end test
     overview/         cross-cutting summary figures
     slides/           combined cross-graph PDFs
 ```
@@ -182,7 +187,7 @@ Every layer of both models, side by side, as browseable multi-page PDFs:
 
 ### Headline
 Both models learn the in-context graph **behaviourally** (next-step neighbour
-prediction → ~ceiling, see `runs/accuracy/`), but a memoryless in-context
+prediction → ~ceiling, see `runs/square_grid/accuracy/`), but a memoryless in-context
 counter matches that, so behavioural accuracy alone is not decisive.
 **Representationally**, Gemma builds a clear grid geometry (RSA ≈ 0.7) while
 Qwen's is weak and buried under massive activations — the models reach

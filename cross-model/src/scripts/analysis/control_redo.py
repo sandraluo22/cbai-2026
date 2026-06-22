@@ -30,8 +30,8 @@ N = 16
 
 # ---------- (1) clean matched vs mismatched ----------
 def clean_match_mismatch():
-    za = np.load("runs/gemma_qwen/acts_model_a.npz", allow_pickle=False)
-    zb = np.load("runs/gemma_qwen/acts_model_b.npz", allow_pickle=False)
+    za = np.load("runs/square_grid/gemma_qwen/acts_model_a.npz", allow_pickle=False)
+    zb = np.load("runs/square_grid/gemma_qwen/acts_model_b.npz", allow_pickle=False)
     meta = {k[5:]: za[k] for k in za.files if k.startswith("meta_")}
     rng = np.random.default_rng(0)
     sub = np.sort(rng.choice(meta["walk_id"].shape[0], 60000, replace=False))
@@ -57,7 +57,7 @@ def clean_match_mismatch():
 
 # ---------- (2) paper's p_seen control + counter ----------
 def pseen_control():
-    acc = json.load(open("runs/accuracy/accuracy.json"))
+    acc = json.load(open("runs/square_grid/accuracy/accuracy.json"))
     ctxs = [r["ctx"] for r in acc["gemma"]["by_context"]]
     gm = [r["neighbor_mass"] for r in acc["gemma"]["by_context"]]
     qm = [r["neighbor_mass"] for r in acc["qwen"]["by_context"]]
@@ -119,8 +119,8 @@ def main():
     ax[1].plot(ctxs, ps2, "--", label="p_seen2 (paper)")
     ax[1].set_xscale("log"); ax[1].set_xlabel("context length"); ax[1].set_ylabel("neighbour mass")
     ax[1].set_title("(2) Paper p_seen memorization control"); ax[1].legend(fontsize=8)
-    fig.tight_layout(); fig.savefig("runs/gemma_qwen/controls_redo.png", dpi=140)
-    print("\nwrote runs/gemma_qwen/controls_redo.png")
+    fig.tight_layout(); fig.savefig("runs/square_grid/gemma_qwen/controls_redo.png", dpi=140)
+    print("\nwrote runs/square_grid/gemma_qwen/controls_redo.png")
 
 
 if __name__ == "__main__":

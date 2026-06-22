@@ -25,8 +25,8 @@ def p_seen2(l, n):
 
 
 # ---- square-grid behavioural data (the only config with logits) ----
-acc = json.load(open("runs/accuracy/accuracy.json"))
-la = json.load(open("runs/llama/llama_accuracy.json"))
+acc = json.load(open("runs/square_grid/accuracy/accuracy.json"))
+la = json.load(open("runs/square_grid/llama/llama_accuracy.json"))
 ctxs = [r["ctx"] for r in acc["gemma"]["by_context"]]
 mass = {"Llama": [r["neighbor_mass"] for r in la["llama"]["by_context"]],
         "Gemma": [r["neighbor_mass"] for r in acc["gemma"]["by_context"]],
