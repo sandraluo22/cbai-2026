@@ -39,5 +39,5 @@ ax[2].legend(); ax[2].axhline(0, color=".85", lw=.6)
 
 fig.suptitle("Three models across topologies: ring, hex, days-of-week (same walks)")
 fig.tight_layout()
-fig.savefig("runs/graph_comparison.png", dpi=140)
-print("wrote runs/graph_comparison.png")
+fig.savefig("runs/overview/graph_comparison.png", dpi=140)
+print("wrote runs/overview/graph_comparison.png")

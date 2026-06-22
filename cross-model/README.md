@@ -39,16 +39,31 @@ days-of-the-week condition is **not** built yet.
   re-runs offline without re-inference and peak memory stays bounded. Weights in
   bf16; activations cached as fp16.
 
-## Files
+## Layout
+
+```
+cross-model/
+  README.md  PROCEDURE.md  requirements.txt
+  src/        all code (run scripts from the project root, e.g. `python src/run.py`)
+  runs/       results: one folder per run/graph; <folder>/slides/ holds the PDFs,
+              runs/overview/ holds cross-cutting summary figures, runs/slides/
+              holds the combined cross-graph PDFs
+```
+
+## Files (core pipeline, in `src/`)
 
 | file           | role |
 |----------------|------|
-| `config.py`    | frozen-dataclass config; `DEFAULT` (H200) and `SMOKE` (CPU) presets; fixed concept-word vocabulary |
-| `graph.py`     | grid graph + node-word assignment + uniform random-walk generation; per-occurrence index |
-| `models.py`    | model loading + forward-hook residual-stream capture; tokenizer-alignment (offset mapping) |
-| `align.py`     | pairing, splits, well-posedness guard, ridge (a) + PCA-Procrustes (b), CKA, trajectory & matched/mismatched control |
-| `reproduce.py` | paper-reproduction sanity check: per-node-mean PCA recovers the grid |
-| `run.py`       | orchestration: `capture` → `reproduce` → `align` |
+| `src/config.py`    | frozen-dataclass config; presets (`DEFAULT`, `SMOKE`, `gemma_qwen`); concept-word + days vocab; graph-type knobs |
+| `src/graph.py`     | grid / ring / hex graph builders + BFS graph-distance + uniform random-walk generation; per-occurrence index |
+| `src/models.py`    | model loading + forward-hook residual-stream capture; tokenizer-alignment (offset mapping) |
+| `src/align.py`     | pairing, splits, well-posedness guard, ridge (a) + PCA-Procrustes (b), CKA, trajectory & matched/mismatched control |
+| `src/reproduce.py` | paper-reproduction sanity check: per-node-mean PCA recovers the grid |
+| `src/run.py`       | orchestration: `capture` → `reproduce` → `align` |
+
+The remaining `src/*.py` are analysis/visualization scripts (per-graph captures,
+RSA sweeps, PCA slideshows, baseline + significance figures). Run any of them
+from the `cross-model/` root so `runs/...` paths and imports resolve.
 
 ## Usage
 
@@ -60,12 +75,13 @@ huggingface-cli login
 ```
 
 ```bash
-python run.py --preset default --stage all       # full run on the H200
-python run.py --preset default --stage capture    # inference only (cache acts)
-python run.py --preset default --stage reproduce   # sanity check from cache
-python run.py --preset default --stage align       # alignment from cache
+# run from the cross-model/ project root
+python src/run.py --preset default --stage all       # full run on the H200
+python src/run.py --preset default --stage capture    # inference only (cache acts)
+python src/run.py --preset default --stage reproduce   # sanity check from cache
+python src/run.py --preset default --stage align       # alignment from cache
 
-python run.py --preset smoke --stage all          # tiny CPU end-to-end test
+python src/run.py --preset smoke --stage all          # tiny CPU end-to-end test
 ```
 
 Artifacts land in `runs/<preset>/`: `acts_model_a.npz`, `acts_model_b.npz`,

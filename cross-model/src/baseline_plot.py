@@ -71,8 +71,8 @@ ax[1].set_title("Baseline saturates fast for small n (our regime)"); ax[1].legen
 
 fig.suptitle("Memorization baseline (p_seen): models atop it, and when it is informative")
 fig.tight_layout()
-fig.savefig("runs/baseline_vs_models.png", dpi=140)
+fig.savefig("runs/overview/baseline_vs_models.png", dpi=140)
 
 print("square grid p_seen1(n=16):", [round(p_seen1(l, 16), 3) for l in ctxs])
 print("days     p_seen1(n=7) :", [round(p_seen1(l, 7), 3) for l in ctxs])
-print("wrote runs/baseline_vs_models.png")
+print("wrote runs/overview/baseline_vs_models.png")
