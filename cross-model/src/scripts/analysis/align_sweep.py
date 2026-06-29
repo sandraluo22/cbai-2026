@@ -5,7 +5,7 @@ For each Qwen layer we report:
   - linear CKA pooled across context, and within the highest context bin
   - the Qwen layer's own grid-recovery distance-corr (does structure live there?)
 
-No GPU / no re-capture; reuses runs/<preset>/acts_model_{a,b}.npz.
+No GPU / no re-capture; reuses runs/v1/<preset>/acts_model_{a,b}.npz.
 Usage: python align_sweep.py [gemma_layer]   (default 32)
 """
 from __future__ import annotations

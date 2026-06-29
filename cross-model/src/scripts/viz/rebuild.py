@@ -18,16 +18,17 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from config import get_config
 import graph as G
+import paths as P
 from reproduce import grid_recovery_score
 from make_pca_pdf import draw_grid_page
 
-RUN = "runs/square_grid"
+RUN = f"{P.ROOT}/square_grid"
 CFG = get_config("gemma_qwen")
 GRAPH = G.build_grid_graph(CFG)
 WORDS = CFG.words()
 IU = np.triu_indices(16, 1)
 GRIDD = GRAPH.grid_distance_matrix()[IU]
-HICTX = 300                                        # use high-context occurrences
+HICTX = P.CTX_LO                                   # version's high-context window start
 
 
 def spearman(a, b):
@@ -79,8 +80,8 @@ def panel(ax, info, tag, L):
 
 
 def main():
-    zg, gl = load(f"{RUN}/acts_sub_gemma.npz")
-    zq, ql = load(f"{RUN}/acts_sub_qwen.npz")
+    zg, gl = load(P.acts_path("square_grid", "Gemma"))
+    zq, ql = load(P.acts_path("square_grid", "Qwen"))
     maskg = zg["meta_context_length"] >= HICTX
     maskq = zq["meta_context_length"] >= HICTX
     Gd = precompute(zg, gl, zg["meta_node"], maskg)

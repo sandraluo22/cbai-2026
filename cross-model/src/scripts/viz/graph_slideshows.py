@@ -23,10 +23,10 @@ GRAPHS = {
 
 def sub_path(g, m):
     if g == "square_grid":
-        return {"Llama": "runs/square_grid/llama/acts_sub_llama.npz",
-                "Gemma": "runs/square_grid/acts_sub_gemma.npz",
-                "Qwen":  "runs/square_grid/acts_sub_qwen.npz"}[m]
-    return f"runs/{g}/{m}_acts_sub.npz"
+        return {"Llama": "runs/v1/square_grid/llama/acts_sub_llama.npz",
+                "Gemma": "runs/v1/square_grid/acts_sub_gemma.npz",
+                "Qwen":  "runs/v1/square_grid/acts_sub_qwen.npz"}[m]
+    return f"runs/v1/{g}/{m}_acts_sub.npz"
 
 
 def spearman(a, b):
@@ -112,7 +112,7 @@ def main():
             data[m] = {"layers": layers, "info": info}
 
         # ---- slideshow (axes labelled) ----
-        out = f"runs/{gname}/pca_per_layer_3models.pdf"
+        out = f"runs/v1/{gname}/pca_per_layer_3models.pdf"
         with PdfPages(out) as pdf:
             draw_graph_page(pdf, graph, words)
             for i in range(max(len(data[m]["layers"]) for m in MODELS)):
@@ -129,7 +129,7 @@ def main():
 
         # ---- pairwise cross-model RSA heatmaps ----
         pairs = [("Gemma", "Qwen"), ("Gemma", "Llama"), ("Qwen", "Llama")]
-        with PdfPages(f"runs/{gname}/cross_model_rsa_heatmaps.pdf") as pdf:
+        with PdfPages(f"runs/v1/{gname}/cross_model_rsa_heatmaps.pdf") as pdf:
             for A, B in pairs:
                 La, Lb = data[A]["layers"], data[B]["layers"]
                 Hm = np.array([[spearman(data[A]["info"][a]["rdm"], data[B]["info"][b]["rdm"])
@@ -144,7 +144,7 @@ def main():
                              f"(max {Hm[bi, bj]:.2f} @ {A} L{La[bi]} / {B} L{Lb[bj]})", fontsize=9)
                 fig.colorbar(im, label="cross-model RSA")
                 fig.tight_layout()
-                fig.savefig(f"runs/{gname}/rsa_{A}_{B}.png", dpi=130)
+                fig.savefig(f"runs/v1/{gname}/rsa_{A}_{B}.png", dpi=130)
                 pdf.savefig(fig); plt.close(fig)
         print(f"{gname}: slideshow + 3 heatmaps written")
 

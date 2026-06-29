@@ -1,7 +1,7 @@
 """Three-model versions of the per-layer PCA slideshow and cross-model RSA
 heatmaps, from the saved all-layer subsamples (Gemma, Qwen, Llama).
 
-Outputs (runs/square_grid/):
+Outputs (runs/v1/square_grid/):
   pca_per_layer_3models.pdf        -- per-node-mean PCA + grid edges, 3 columns
   cross_model_rsa_<A>_<B>.png      -- pairwise RSA heatmaps (3 pairs)
   cross_model_rsa_heatmaps.pdf     -- the 3 heatmaps compiled into one slideshow
@@ -24,10 +24,10 @@ WORDS = CFG.words()
 IU = np.triu_indices(16, 1)
 GRIDD = GRAPH.grid_distance_matrix()[IU]
 HICTX = 300
-OUT = "runs/square_grid"
-SPECS = [("Gemma", "runs/square_grid/acts_sub_gemma.npz"),
-         ("Qwen",  "runs/square_grid/acts_sub_qwen.npz"),
-         ("Llama", "runs/square_grid/llama/acts_sub_llama.npz")]
+OUT = "runs/v1/square_grid"
+SPECS = [("Gemma", "runs/v1/square_grid/acts_sub_gemma.npz"),
+         ("Qwen",  "runs/v1/square_grid/acts_sub_qwen.npz"),
+         ("Llama", "runs/v1/square_grid/llama/acts_sub_llama.npz")]
 
 
 def spearman(a, b):

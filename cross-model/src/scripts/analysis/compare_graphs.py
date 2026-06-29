@@ -10,7 +10,7 @@ C = {"Llama": "tab:blue", "Gemma": "tab:orange", "Qwen": "tab:green"}
 
 
 def load(g, m):
-    return json.load(open(f"runs/{g}/{m}_analysis.json"))
+    return json.load(open(f"runs/v1/{g}/{m}_analysis.json"))
 
 
 fig, ax = plt.subplots(1, 3, figsize=(17, 5))
@@ -39,5 +39,5 @@ ax[2].legend(); ax[2].axhline(0, color=".85", lw=.6)
 
 fig.suptitle("Three models across topologies: ring, hex, days-of-week (same walks)")
 fig.tight_layout()
-fig.savefig("runs/overview/graph_comparison.png", dpi=140)
-print("wrote runs/overview/graph_comparison.png")
+fig.savefig("runs/v1/overview/graph_comparison.png", dpi=140)
+print("wrote runs/v1/overview/graph_comparison.png")

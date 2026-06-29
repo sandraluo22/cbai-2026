@@ -14,6 +14,7 @@ from dataclasses import replace
 
 from config import get_config
 import graph as G
+import paths as P
 
 MODELS = ["Llama", "Gemma", "Qwen"]
 PAIRS = [("Gemma", "Qwen"), ("Gemma", "Llama"), ("Qwen", "Llama")]
@@ -27,11 +28,7 @@ rng = np.random.default_rng(1)
 
 
 def sub_path(g, m):
-    if g == "square_grid":
-        return {"Llama": "runs/square_grid/llama/acts_sub_llama.npz",
-                "Gemma": "runs/square_grid/acts_sub_gemma.npz",
-                "Qwen":  "runs/square_grid/acts_sub_qwen.npz"}[m]
-    return f"runs/{g}/{m}_acts_sub.npz"
+    return P.acts_path(g, m)
 
 
 def sp(a, b):
@@ -72,19 +69,21 @@ def png_to_pdf(pngs, out):
 def main():
     all_pngs = []
     for gname, gkw in GRAPHS.items():
+        if not all(os.path.exists(sub_path(gname, m)) for m in MODELS):
+            print(f"skip {gname}: no acts for {P.VERSION}", flush=True); continue
         cfg = replace(get_config("gemma_qwen"), **gkw)
         graph = G.build_graph(cfg); n = graph.n_nodes; iu = np.triu_indices(n, 1)
         data = {}
         for m in MODELS:
             z = np.load(sub_path(gname, m), allow_pickle=False)
             layers = [int(l) for l in z["_layers"]]
-            node = z["meta_node"]; mask = z["meta_context_length"] >= 300
+            node = z["meta_node"]; mask = z["meta_context_length"] >= P.CTX_LO
             rdms = {L: full_rdm(node_means(z, L, node, mask, n)) for L in layers}
             deep = min(layers, key=lambda L: abs(L - 0.8 * max(layers)))
             data[m] = {"layers": layers, "rdms": rdms, "deep": deep}
 
-        os.makedirs(f"runs/{gname}/slides", exist_ok=True)
-        with PdfPages(f"runs/{gname}/slides/cross_model_rsa_heatmaps.pdf") as pdf:
+        os.makedirs(f"{P.gdir(gname)}/slides", exist_ok=True)
+        with PdfPages(f"{P.gdir(gname)}/slides/cross_model_rsa_heatmaps.pdf") as pdf:
             for A, B in PAIRS:
                 La, Lb = data[A]["layers"], data[B]["layers"]
                 H = np.array([[sp(data[A]["rdms"][a][iu], data[B]["rdms"][b][iu])
@@ -105,14 +104,14 @@ def main():
                 cbar.ax.text(1.6, t95, " perm-null 95%", color="red", fontsize=7, va="center",
                              transform=cbar.ax.get_yaxis_transform())
                 fig.tight_layout()
-                png = f"runs/{gname}/rsa_{A}_{B}.png"
+                png = f"{P.gdir(gname)}/rsa_{A}_{B}.png"
                 fig.savefig(png, dpi=130); all_pngs.append(png)
                 pdf.savefig(fig); plt.close(fig)
                 print(f"{gname} {A}x{B}: perm-null95={t95:.2f}, 99={t99:.2f}")
 
-    os.makedirs("runs/slides", exist_ok=True)
-    png_to_pdf(all_pngs, "runs/slides/all_cross_model_rsa.pdf")
-    print("recompiled runs/slides/all_cross_model_rsa.pdf")
+    os.makedirs(f"{P.ROOT}/slides", exist_ok=True)
+    png_to_pdf(all_pngs, f"{P.ROOT}/slides/all_cross_model_rsa.pdf")
+    print(f"recompiled {P.ROOT}/slides/all_cross_model_rsa.pdf")
 
 
 if __name__ == "__main__":

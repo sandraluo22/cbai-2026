@@ -1,5 +1,5 @@
 """Behavioral next-step accuracy for Llama-3.1-8B (same protocol as accuracy.py),
-so it can be compared to the Gemma/Qwen curves in runs/square_grid/accuracy/accuracy.json.
+so it can be compared to the Gemma/Qwen curves in runs/v1/square_grid/accuracy/accuracy.json.
 """
 from __future__ import annotations
 import os, json

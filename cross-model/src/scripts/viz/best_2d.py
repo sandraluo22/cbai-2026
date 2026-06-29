@@ -1,7 +1,7 @@
 """'Best 2 directions' for each topology: top row = PCA top-2 (max variance),
 bottom row = supervised 2-D (top-6 PCs regressed onto the graph's layout coords).
 Shows the grid is ~2-D-linear but hidden in low-variance directions that PCA
-misses. -> runs/overview/best_2d_projection.png
+misses. -> runs/v1/overview/best_2d_projection.png
 """
 import numpy as np
 import matplotlib
@@ -21,9 +21,9 @@ def rdm(H):
     return np.linalg.norm(H[:, None] - H[None], axis=2)[iu]
 
 
-SPECS = [("square_grid", dict(graph_type="grid", grid_rows=4, grid_cols=4), "runs/square_grid/acts_sub_gemma.npz", 40),
-         ("ring", dict(graph_type="ring", ring_size=16), "runs/ring/Gemma_acts_sub.npz", 39),
-         ("hex", dict(graph_type="hex", hex_rows=4, hex_cols=4), "runs/hex/Gemma_acts_sub.npz", 39)]
+SPECS = [("square_grid", dict(graph_type="grid", grid_rows=4, grid_cols=4), "runs/v1/square_grid/acts_sub_gemma.npz", 40),
+         ("ring", dict(graph_type="ring", ring_size=16), "runs/v1/ring/Gemma_acts_sub.npz", 39),
+         ("hex", dict(graph_type="hex", hex_rows=4, hex_cols=4), "runs/v1/hex/Gemma_acts_sub.npz", 39)]
 
 
 def main():
@@ -49,8 +49,8 @@ def main():
                 a.scatter(*P[i], zorder=2); a.annotate(gr.words[i], P[i], fontsize=7)
             a.set_title(title, fontsize=9); a.set_xticks([]); a.set_yticks([])
     fig.suptitle("Top: PCA top-2 (variance)   |   Bottom: best-2D (top-6 PCs -> graph coords)")
-    fig.tight_layout(); fig.savefig("runs/overview/best_2d_projection.png", dpi=140)
-    print("wrote runs/overview/best_2d_projection.png")
+    fig.tight_layout(); fig.savefig("runs/v1/overview/best_2d_projection.png", dpi=140)
+    print("wrote runs/v1/overview/best_2d_projection.png")
 
 
 if __name__ == "__main__":

@@ -14,9 +14,10 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from config import get_config
 import graph as G
+import paths as P
 
 CFG = get_config("gemma_qwen")
-RUN = "runs/square_grid"
+RUN = f"{P.ROOT}/square_grid"
 WORDS = CFG.words()                                # 16 node words
 PLOT_N = 2500                                      # points drawn per panel
 
@@ -81,8 +82,8 @@ def load(npz):
 
 
 def main():
-    zg, gl = load(f"{RUN}/acts_sub_gemma.npz")
-    zq, ql = load(f"{RUN}/acts_sub_qwen.npz")
+    zg, gl = load(P.acts_path("square_grid", "Gemma"))
+    zq, ql = load(P.acts_path("square_grid", "Qwen"))
     node = zg["meta_node"]
     pidx = np.random.default_rng(0).choice(len(node), min(PLOT_N, len(node)),
                                            replace=False)

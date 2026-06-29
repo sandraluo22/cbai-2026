@@ -14,6 +14,7 @@ from dataclasses import replace
 
 from config import get_config
 import graph as G
+import paths as P
 from make_pca_pdf import top2          # randomized top-2 PCA + % variance (n-agnostic)
 
 MODELS = ["Llama", "Gemma", "Qwen"]
@@ -27,11 +28,7 @@ GRAPHS = {
 
 
 def sub_path(g, m):
-    if g == "square_grid":
-        return {"Llama": "runs/square_grid/llama/acts_sub_llama.npz",
-                "Gemma": "runs/square_grid/acts_sub_gemma.npz",
-                "Qwen":  "runs/square_grid/acts_sub_qwen.npz"}[m]
-    return f"runs/{g}/{m}_acts_sub.npz"
+    return P.acts_path(g, m)
 
 
 def draw_graph_page(pdf, graph, words):
@@ -66,6 +63,8 @@ def panel(ax, X, node, words, n, pidx, tag, L):
 
 def main():
     for gname, gkw in GRAPHS.items():
+        if not all(os.path.exists(sub_path(gname, m)) for m in MODELS):
+            print(f"skip {gname}: no acts for {P.VERSION}", flush=True); continue
         cfg = replace(get_config("gemma_qwen"), **gkw)
         graph = G.build_graph(cfg); n, words = graph.n_nodes, graph.words
         data = {}
@@ -76,8 +75,8 @@ def main():
             pidx = np.random.default_rng(0).choice(len(node), min(PLOT_N, len(node)), replace=False)
             data[m] = {"z": z, "layers": layers, "node": node, "pidx": pidx}
 
-        os.makedirs(f"runs/{gname}/slides", exist_ok=True)
-        out = f"runs/{gname}/slides/pca_per_layer_perocc_3models.pdf"
+        os.makedirs(f"{P.gdir(gname)}/slides", exist_ok=True)
+        out = f"{P.gdir(gname)}/slides/pca_per_layer_perocc_3models.pdf"
         with PdfPages(out) as pdf:
             draw_graph_page(pdf, graph, words)
             for i in range(max(len(data[m]["layers"]) for m in MODELS)):

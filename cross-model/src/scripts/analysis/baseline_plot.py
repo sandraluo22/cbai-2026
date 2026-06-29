@@ -25,8 +25,8 @@ def p_seen2(l, n):
 
 
 # ---- square-grid behavioural data (the only config with logits) ----
-acc = json.load(open("runs/square_grid/accuracy/accuracy.json"))
-la = json.load(open("runs/square_grid/llama/llama_accuracy.json"))
+acc = json.load(open("runs/v1/square_grid/accuracy/accuracy.json"))
+la = json.load(open("runs/v1/square_grid/llama/llama_accuracy.json"))
 ctxs = [r["ctx"] for r in acc["gemma"]["by_context"]]
 mass = {"Llama": [r["neighbor_mass"] for r in la["llama"]["by_context"]],
         "Gemma": [r["neighbor_mass"] for r in acc["gemma"]["by_context"]],
@@ -71,8 +71,8 @@ ax[1].set_title("Baseline saturates fast for small n (our regime)"); ax[1].legen
 
 fig.suptitle("Memorization baseline (p_seen): models atop it, and when it is informative")
 fig.tight_layout()
-fig.savefig("runs/overview/baseline_vs_models.png", dpi=140)
+fig.savefig("runs/v1/overview/baseline_vs_models.png", dpi=140)
 
 print("square grid p_seen1(n=16):", [round(p_seen1(l, 16), 3) for l in ctxs])
 print("days     p_seen1(n=7) :", [round(p_seen1(l, 7), 3) for l in ctxs])
-print("wrote runs/overview/baseline_vs_models.png")
+print("wrote runs/v1/overview/baseline_vs_models.png")

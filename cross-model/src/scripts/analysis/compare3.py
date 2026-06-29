@@ -6,12 +6,12 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-gq = json.load(open("runs/square_grid/rebuild_grid_rsa.json"))
-llama_rsa = json.load(open("runs/square_grid/llama/llama_grid_rsa.json"))
-pf = json.load(open("runs/square_grid/gemma_qwen/paper_faithful.json"))
-le = json.load(open("runs/square_grid/llama/llama_emergence.json"))
-acc = json.load(open("runs/square_grid/accuracy/accuracy.json"))
-la = json.load(open("runs/square_grid/llama/llama_accuracy.json"))
+gq = json.load(open("runs/v1/square_grid/rebuild_grid_rsa.json"))
+llama_rsa = json.load(open("runs/v1/square_grid/llama/llama_grid_rsa.json"))
+pf = json.load(open("runs/v1/square_grid/gemma_qwen/paper_faithful.json"))
+le = json.load(open("runs/v1/square_grid/llama/llama_emergence.json"))
+acc = json.load(open("runs/v1/square_grid/accuracy/accuracy.json"))
+la = json.load(open("runs/v1/square_grid/llama/llama_accuracy.json"))
 
 
 def reldepth(d):
@@ -60,7 +60,7 @@ ax[2].set_title("(3) Behavioural next-step accuracy"); ax[2].legend()
 
 fig.suptitle("Llama-3.1-8B  vs  Gemma-2-9B  vs  Qwen3-8B-Base  (same 4x4 grid, same walks)")
 fig.tight_layout()
-fig.savefig("runs/square_grid/llama/three_model_comparison.png", dpi=140)
+fig.savefig("runs/v1/square_grid/llama/three_model_comparison.png", dpi=140)
 
 print("grid RSA peaks (relative depth):")
 for tag, d in (("Llama", llama_rsa), ("Gemma", gq["gemma"]), ("Qwen", gq["qwen"])):
@@ -73,4 +73,4 @@ print("behavioural neighbour mass @ctx1000:")
 for tag, rows in (("Llama", la["llama"]["by_context"]),
                   ("Gemma", acc["gemma"]["by_context"]), ("Qwen", acc["qwen"]["by_context"])):
     print(f"  {tag:6} {rows[-1]['neighbor_mass']:.3f}")
-print("wrote runs/square_grid/llama/three_model_comparison.png")
+print("wrote runs/v1/square_grid/llama/three_model_comparison.png")

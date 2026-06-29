@@ -46,7 +46,7 @@ MODELS = ["Llama", "Gemma", "Qwen"]
 results = {}
 fig, axes = plt.subplots(2, 3, figsize=(15, 9))
 for col, m in enumerate(MODELS):
-    z = np.load(f"runs/days/{m}_acts_sub.npz", allow_pickle=False)
+    z = np.load(f"runs/v1/days/{m}_acts_sub.npz", allow_pickle=False)
     layers = [int(l) for l in z["_layers"]]
     deep = min(layers, key=lambda L: abs(L - 0.8 * max(layers)))
     node = z["meta_node"]; mask = z["meta_context_length"] >= 300
@@ -76,11 +76,11 @@ for col, m in enumerate(MODELS):
 fig.suptitle("Days-of-week, PC-resolved: top PCs = weekday semantics?  "
              "higher PCs = in-context ring? (edges = the in-context ring)")
 fig.tight_layout()
-fig.savefig("runs/days/days_pc_analysis.png", dpi=140)
-json.dump(results, open("runs/days/days_pc_analysis.json", "w"), indent=2)
+fig.savefig("runs/v1/days/days_pc_analysis.png", dpi=140)
+json.dump(results, open("runs/v1/days/days_pc_analysis.json", "w"), indent=2)
 for m in MODELS:
     r = results[m]
     print(f"{m:6} (L{r['deep_layer']}): "
           f"PC1-2 sem={r['PC1-2']['semantic_rsa']:+.2f}/ctx={r['PC1-2']['context_rsa']:+.2f}  | "
           f"PC3-4 sem={r['PC3-4']['semantic_rsa']:+.2f}/ctx={r['PC3-4']['context_rsa']:+.2f}")
-print("wrote runs/days/days_pc_analysis.png + .json")
+print("wrote runs/v1/days/days_pc_analysis.png + .json")

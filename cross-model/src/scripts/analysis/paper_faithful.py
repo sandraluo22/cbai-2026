@@ -13,7 +13,7 @@ cumulative means (over-averaging -> saturation). Here we use the 50-token
 sliding window and study emergence vs context t, then redo PCA grid-recovery
 and the cross-model similarity on these paper-faithful representations.
 
-Runs from runs/square_grid/gemma_qwen/acts_model_{a,b}.npz (200k occ, per-step tags).
+Runs from runs/v1/square_grid/gemma_qwen/acts_model_{a,b}.npz (200k occ, per-step tags).
 """
 from __future__ import annotations
 import json
@@ -85,8 +85,8 @@ def per_model(npz, layer):
 
 
 def main():
-    g_rows, g_H = per_model("runs/square_grid/gemma_qwen/acts_model_a.npz", GEMMA_LAYER)
-    q_rows, q_H = per_model("runs/square_grid/gemma_qwen/acts_model_b.npz", QWEN_LAYER)
+    g_rows, g_H = per_model("runs/v1/square_grid/gemma_qwen/acts_model_a.npz", GEMMA_LAYER)
+    q_rows, q_H = per_model("runs/v1/square_grid/gemma_qwen/acts_model_b.npz", QWEN_LAYER)
 
     # cross-model similarity on the paper-faithful per-node reps, per context
     cross = []
@@ -95,7 +95,7 @@ def main():
 
     json.dump({"gemma_layer": GEMMA_LAYER, "qwen_layer": QWEN_LAYER, "Nw": NW,
                "gemma": g_rows, "qwen": q_rows, "cross": cross},
-              open("runs/square_grid/gemma_qwen/paper_faithful.json", "w"), indent=2)
+              open("runs/v1/square_grid/gemma_qwen/paper_faithful.json", "w"), indent=2)
 
     for tag, rows in (("Gemma", g_rows), ("Qwen", q_rows)):
         b = max(rows, key=lambda r: r["rsa"])
@@ -121,7 +121,7 @@ def main():
             a.legend(fontsize=8)
     fig.suptitle(f"Paper-faithful (Nw=50 window): structure vs context "
                  f"(Gemma L{GEMMA_LAYER}, Qwen L{QWEN_LAYER})")
-    fig.tight_layout(); fig.savefig("runs/square_grid/gemma_qwen/paper_faithful_emergence.png", dpi=140)
+    fig.tight_layout(); fig.savefig("runs/v1/square_grid/gemma_qwen/paper_faithful_emergence.png", dpi=140)
 
     # ---- PCA grid recovery at high context ----
     fig2, ax2 = plt.subplots(1, 2, figsize=(11, 5.3))
@@ -136,7 +136,7 @@ def main():
             if not np.isnan(c2[n]).any():
                 a.scatter(*c2[n], zorder=2); a.annotate(WORDS[n], c2[n], fontsize=8)
         a.set_title(f"{tag}: PCA of Nw=50 node means @ctx1000 (corr={sc['distance_corr']:.2f})")
-    fig2.tight_layout(); fig2.savefig("runs/square_grid/gemma_qwen/paper_faithful_pca.png", dpi=140)
+    fig2.tight_layout(); fig2.savefig("runs/v1/square_grid/gemma_qwen/paper_faithful_pca.png", dpi=140)
     print("wrote paper_faithful_emergence.png, paper_faithful_pca.png, paper_faithful.json")
 
 

@@ -12,10 +12,10 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from make_pca_pdf import panel, draw_grid_page, load, PLOT_N
 
-OUT = "runs/square_grid/pca_per_layer_perocc_3models.pdf"
-SPECS = [("Gemma", "runs/square_grid/acts_sub_gemma.npz"),
-         ("Qwen",  "runs/square_grid/acts_sub_qwen.npz"),
-         ("Llama", "runs/square_grid/llama/acts_sub_llama.npz")]
+OUT = "runs/v1/square_grid/pca_per_layer_perocc_3models.pdf"
+SPECS = [("Gemma", "runs/v1/square_grid/acts_sub_gemma.npz"),
+         ("Qwen",  "runs/v1/square_grid/acts_sub_qwen.npz"),
+         ("Llama", "runs/v1/square_grid/llama/acts_sub_llama.npz")]
 
 
 def main():

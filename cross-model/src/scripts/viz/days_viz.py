@@ -57,7 +57,7 @@ def pc_rsa(scores, pcs, target):
 
 
 def load(m):
-    z = np.load(f"runs/days/{m}_acts_sub.npz", allow_pickle=False)
+    z = np.load(f"runs/v1/days/{m}_acts_sub.npz", allow_pickle=False)
     layers = [int(l) for l in z["_layers"]]
     return z, layers, z["meta_node"], z["meta_context_length"] >= 300
 
@@ -91,7 +91,7 @@ for col, m in enumerate(MODELS):
 fig.suptitle("Days-of-week (semantic prior):  green = natural weekday cycle (PC1-2),  "
              "purple = in-context ring (PC3-4)", fontsize=11)
 fig.tight_layout(rect=[0, 0, 1, 0.97])
-fig.savefig("runs/days/days_dual_structure.png", dpi=140)
+fig.savefig("runs/v1/days/days_dual_structure.png", dpi=140)
 
 # ---------------- Fig 2: per-layer sweep ----------------
 fig2, axes2 = plt.subplots(1, 3, figsize=(16, 4.5), sharey=True)
@@ -110,5 +110,5 @@ for col, m in enumerate(MODELS):
 axes2[0].set_ylabel("RSA")
 fig2.suptitle("Days-of-week: weekday semantics (PC1-2) vs in-context ring (PC3-4) by layer")
 fig2.tight_layout()
-fig2.savefig("runs/days/days_pc_by_layer.png", dpi=140)
-print("wrote runs/days/days_dual_structure.png + days_pc_by_layer.png")
+fig2.savefig("runs/v1/days/days_pc_by_layer.png", dpi=140)
+print("wrote runs/v1/days/days_dual_structure.png + days_pc_by_layer.png")

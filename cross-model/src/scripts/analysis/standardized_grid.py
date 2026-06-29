@@ -6,7 +6,7 @@ Metric: RSA -- Spearman correlation between each model's 16-node representationa
 dissimilarity matrix (pairwise Euclidean distance of per-node-mean vectors) and
 the true grid (Manhattan) distance matrix. Positive => graph geometry encoded.
 Preprocessings: raw | z-score per dim | drop top-5 highest-variance dims.
-Runs locally from runs/square_grid/acts_sub_*.npz (no GPU).
+Runs locally from runs/v1/square_grid/acts_sub_*.npz (no GPU).
 """
 from __future__ import annotations
 import json
@@ -19,7 +19,7 @@ from config import get_config
 import graph as G
 from reproduce import grid_recovery_score
 
-RUN = "runs/square_grid"
+RUN = "runs/v1/square_grid"
 CFG = get_config("gemma_qwen")
 GRAPH = G.build_grid_graph(CFG)
 IU = np.triu_indices(16, 1)
