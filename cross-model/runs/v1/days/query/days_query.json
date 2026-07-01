@@ -1,0 +1,1136 @@
+{
+  "permuted_ring": [
+    "Monday",
+    "Thursday",
+    "Sunday",
+    "Wednesday",
+    "Saturday",
+    "Tuesday",
+    "Friday"
+  ],
+  "meta": {
+    "Monday": {
+      "natural_next": "Tuesday",
+      "induced_fwd": "Thursday",
+      "induced_bwd": "Friday"
+    },
+    "Tuesday": {
+      "natural_next": "Wednesday",
+      "induced_fwd": "Friday",
+      "induced_bwd": "Saturday"
+    },
+    "Wednesday": {
+      "natural_next": "Thursday",
+      "induced_fwd": "Saturday",
+      "induced_bwd": "Sunday"
+    },
+    "Thursday": {
+      "natural_next": "Friday",
+      "induced_fwd": "Sunday",
+      "induced_bwd": "Monday"
+    },
+    "Friday": {
+      "natural_next": "Saturday",
+      "induced_fwd": "Monday",
+      "induced_bwd": "Tuesday"
+    },
+    "Saturday": {
+      "natural_next": "Sunday",
+      "induced_fwd": "Tuesday",
+      "induced_bwd": "Wednesday"
+    },
+    "Sunday": {
+      "natural_next": "Monday",
+      "induced_fwd": "Wednesday",
+      "induced_bwd": "Thursday"
+    }
+  },
+  "models": {
+    "Llama": {
+      "baseline": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 6.16984034422785e-05,
+              "Tuesday": 0.9942640662193298,
+              "Wednesday": 0.0035858761984854937,
+              "Thursday": 0.0012392457574605942,
+              "Friday": 0.0005499119288288057,
+              "Saturday": 6.991346162976697e-05,
+              "Sunday": 0.0002292373828822747
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9942640662193298,
+            "p_induced": 0.0017891577444970608,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.00030666799284517765,
+              "Tuesday": 0.00023883326502982527,
+              "Wednesday": 0.9731228351593018,
+              "Thursday": 0.020196519792079926,
+              "Friday": 0.0045064534060657024,
+              "Saturday": 0.0013743904419243336,
+              "Sunday": 0.00025423665647394955
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9731228351593018,
+            "p_induced": 0.005880843847990036,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.0011374970199540257,
+              "Tuesday": 0.001996369333937764,
+              "Wednesday": 0.0003469169605523348,
+              "Thursday": 0.9714893102645874,
+              "Friday": 0.020162615925073624,
+              "Saturday": 0.003729709191247821,
+              "Sunday": 0.0011374970199540257
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.9714893102645874,
+            "p_induced": 0.004867206327617168,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.0007936187321320176,
+              "Tuesday": 0.0005123987211845815,
+              "Wednesday": 0.00022737555264029652,
+              "Thursday": 0.00045219031744636595,
+              "Friday": 0.9861888289451599,
+              "Saturday": 0.009668255224823952,
+              "Sunday": 0.0021572792902588844
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9861888289451599,
+            "p_induced": 0.00295089790597558,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.004567895084619522,
+              "Tuesday": 0.0008449755841866136,
+              "Wednesday": 0.0007456883322447538,
+              "Thursday": 0.0003522382176015526,
+              "Friday": 0.0004522828385233879,
+              "Saturday": 0.9863905906677246,
+              "Sunday": 0.006646247580647469
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9863905906677246,
+            "p_induced": 0.005412870552390814,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.006279004737734795,
+              "Tuesday": 0.0005486533045768738,
+              "Wednesday": 0.0003126132651232183,
+              "Thursday": 0.0004014033474959433,
+              "Friday": 0.0003126132651232183,
+              "Saturday": 0.00015719181101303548,
+              "Sunday": 0.9919885396957397
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.9919885396957397,
+            "p_induced": 0.0008612665697000921,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.9912482500076294,
+              "Tuesday": 0.006678978446871042,
+              "Wednesday": 0.0005150274955667555,
+              "Thursday": 0.0009039014112204313,
+              "Friday": 0.00029345383518375456,
+              "Saturday": 0.0002589720825199038,
+              "Sunday": 0.00010141492384718731
+            },
+            "argmax": "Monday",
+            "p_natural": 0.9912482500076294,
+            "p_induced": 0.001418928848579526,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.9849560601370675,
+        "mean_p_induced": 0.0033115959709643255,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "question": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.0001654466614127159,
+              "Tuesday": 0.9972854256629944,
+              "Wednesday": 0.001393245649524033,
+              "Thursday": 0.0006545311189256608,
+              "Friday": 0.00020140197011642158,
+              "Saturday": 3.263726466684602e-05,
+              "Sunday": 0.0002672103582881391
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9972854256629944,
+            "p_induced": 0.000855933059938252,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.00048098713159561157,
+              "Tuesday": 0.0005764331435784698,
+              "Wednesday": 0.9806882739067078,
+              "Thursday": 0.015534144826233387,
+              "Friday": 0.0015190511476248503,
+              "Saturday": 0.0008736727759242058,
+              "Sunday": 0.00032745860517024994
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9806882739067078,
+            "p_induced": 0.002392723923549056,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.001371861668303609,
+              "Tuesday": 0.0021984255872666836,
+              "Wednesday": 0.0009075630805455148,
+              "Thursday": 0.9829844236373901,
+              "Friday": 0.009024461731314659,
+              "Saturday": 0.00226107076741755,
+              "Sunday": 0.001252144342288375
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.9829844236373901,
+            "p_induced": 0.003513215109705925,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.0013023425126448274,
+              "Tuesday": 0.000942039827350527,
+              "Wednesday": 0.0004831224214285612,
+              "Thursday": 0.001559861353598535,
+              "Friday": 0.9819631576538086,
+              "Saturday": 0.010426362976431847,
+              "Sunday": 0.003323077689856291
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9819631576538086,
+            "p_induced": 0.004625420086085796,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.004407612606883049,
+              "Tuesday": 0.000809844525065273,
+              "Wednesday": 0.0006264362600632012,
+              "Thursday": 0.000341398932505399,
+              "Friday": 0.0008101987768895924,
+              "Saturday": 0.9881210327148438,
+              "Sunday": 0.004883508197963238
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9881210327148438,
+            "p_induced": 0.005217457190155983,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.010253524407744408,
+              "Tuesday": 0.0009099848102778196,
+              "Wednesday": 0.0004263953014742583,
+              "Thursday": 0.00036699624615721405,
+              "Friday": 0.00014560723502654582,
+              "Saturday": 0.0002613532997202128,
+              "Sunday": 0.987636148929596
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.987636148929596,
+            "p_induced": 0.0013363801408559084,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.9965713620185852,
+              "Tuesday": 0.002257093321532011,
+              "Wednesday": 0.0002523306757211685,
+              "Thursday": 0.0003950752434320748,
+              "Friday": 0.0001371677208226174,
+              "Saturday": 0.0001397948362864554,
+              "Sunday": 0.00024718407075852156
+            },
+            "argmax": "Monday",
+            "p_natural": 0.9965713620185852,
+            "p_induced": 0.0006474059191532433,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.9878928320748466,
+        "mean_p_induced": 0.0026555050613491665,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "continuation": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.02371125854551792,
+              "Tuesday": 0.03160649165511131,
+              "Wednesday": 0.03153576701879501,
+              "Thursday": 0.46860218048095703,
+              "Friday": 0.41186651587486267,
+              "Saturday": 0.013286256231367588,
+              "Sunday": 0.019391490146517754
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.03160649165511131,
+            "p_induced": 0.8804687261581421,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.016752315685153008,
+              "Tuesday": 0.044686321169137955,
+              "Wednesday": 0.04102841764688492,
+              "Thursday": 0.04025173559784889,
+              "Friday": 0.5348594784736633,
+              "Saturday": 0.3024829030036926,
+              "Sunday": 0.019938837736845016
+            },
+            "argmax": "Friday",
+            "p_natural": 0.04102841764688492,
+            "p_induced": 0.837342381477356,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.02977137453854084,
+              "Tuesday": 0.04429560527205467,
+              "Wednesday": 0.10999587923288345,
+              "Thursday": 0.055149469524621964,
+              "Friday": 0.029171181842684746,
+              "Saturday": 0.4103071391582489,
+              "Sunday": 0.32130929827690125
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.055149469524621964,
+            "p_induced": 0.7316164374351501,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.45662346482276917,
+              "Tuesday": 0.04259977117180824,
+              "Wednesday": 0.06107134371995926,
+              "Thursday": 0.03311380371451378,
+              "Friday": 0.013337049633264542,
+              "Saturday": 0.014182204380631447,
+              "Sunday": 0.379072368144989
+            },
+            "argmax": "Monday",
+            "p_natural": 0.013337049633264542,
+            "p_induced": 0.8356958627700806,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.4267263412475586,
+              "Tuesday": 0.43866950273513794,
+              "Wednesday": 0.032531287521123886,
+              "Thursday": 0.04481584206223488,
+              "Friday": 0.020442990586161613,
+              "Saturday": 0.019499396905303,
+              "Sunday": 0.017314637079834938
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.019499396905303,
+            "p_induced": 0.8653958439826965,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.016329554840922356,
+              "Tuesday": 0.466793417930603,
+              "Wednesday": 0.4264082610607147,
+              "Thursday": 0.03740047290921211,
+              "Friday": 0.014830132015049458,
+              "Saturday": 0.01420014537870884,
+              "Sunday": 0.024037981405854225
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.024037981405854225,
+            "p_induced": 0.8932017087936401,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.033888719975948334,
+              "Tuesday": 0.038935206830501556,
+              "Wednesday": 0.4005085825920105,
+              "Thursday": 0.44954782724380493,
+              "Friday": 0.019809983670711517,
+              "Saturday": 0.01313292421400547,
+              "Sunday": 0.04417678341269493
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.033888719975948334,
+            "p_induced": 0.8500564098358154,
+            "is_induced": true,
+            "is_natural": false
+          }
+        },
+        "mean_p_natural": 0.031221075249569758,
+        "mean_p_induced": 0.841968195778983,
+        "frac_argmax_induced": 1.0,
+        "frac_argmax_natural": 0.0
+      }
+    },
+    "Qwen": {
+      "baseline": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.0003787936584558338,
+              "Tuesday": 0.9964872598648071,
+              "Wednesday": 0.0016976355109363794,
+              "Thursday": 0.0008019061642698944,
+              "Friday": 6.582446803804487e-05,
+              "Saturday": 0.00013935040624346584,
+              "Sunday": 0.0004292294615879655
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9964872598648071,
+            "p_induced": 0.0008677306468598545,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.00132103415671736,
+              "Tuesday": 0.00022956130851525813,
+              "Wednesday": 0.9956690073013306,
+              "Thursday": 0.0021780170500278473,
+              "Friday": 0.0003340097318869084,
+              "Saturday": 0.00020258715085219592,
+              "Sunday": 6.57704149489291e-05
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9956690073013306,
+            "p_induced": 0.0005365968681871891,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.0001580308162374422,
+              "Tuesday": 0.0010304903844371438,
+              "Wednesday": 0.00017907237634062767,
+              "Thursday": 0.9972832202911377,
+              "Friday": 0.0010304903844371438,
+              "Saturday": 0.00026054875343106687,
+              "Sunday": 5.813629104522988e-05
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.9972832202911377,
+            "p_induced": 0.00031868505175225437,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.00029442415689118207,
+              "Tuesday": 0.00017857726197689772,
+              "Wednesday": 0.0004854233702644706,
+              "Thursday": 0.0005500566912814975,
+              "Friday": 0.9945259094238281,
+              "Saturday": 0.003165357979014516,
+              "Sunday": 0.0008003278053365648
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9945259094238281,
+            "p_induced": 0.0010947519913315773,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.0013199412496760488,
+              "Tuesday": 0.00022937139146961272,
+              "Wednesday": 5.799416976515204e-05,
+              "Thursday": 0.0002024195418925956,
+              "Friday": 0.0001786346110748127,
+              "Saturday": 0.9948452711105347,
+              "Sunday": 0.0031663745176047087
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9948452711105347,
+            "p_induced": 0.001549312612041831,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.0027931290678679943,
+              "Tuesday": 0.0005499996477738023,
+              "Wednesday": 0.0001575775386299938,
+              "Thursday": 0.00012272151070646942,
+              "Friday": 0.00025980142527259886,
+              "Saturday": 0.001694118371233344,
+              "Sunday": 0.9944227337837219
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.9944227337837219,
+            "p_induced": 0.0007075772155076265,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.995185911655426,
+              "Tuesday": 0.0019211607286706567,
+              "Wednesday": 0.00015769846504554152,
+              "Thursday": 5.119719935464673e-05,
+              "Friday": 2.1342168111004867e-05,
+              "Saturday": 0.00048574552056379616,
+              "Sunday": 0.0021769602317363024
+            },
+            "argmax": "Monday",
+            "p_natural": 0.995185911655426,
+            "p_induced": 0.00020889566803816706,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.9954884733472552,
+        "mean_p_induced": 0.0007547928648169286,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "question": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.000524731760378927,
+              "Tuesday": 0.9925134181976318,
+              "Wednesday": 0.003335655899718404,
+              "Thursday": 0.0018852886278182268,
+              "Friday": 0.0003413530357647687,
+              "Saturday": 0.0004055238969158381,
+              "Sunday": 0.0009940724121406674
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9925134181976318,
+            "p_induced": 0.002226641634479165,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.0020995475351810455,
+              "Tuesday": 0.0005543051520362496,
+              "Wednesday": 0.9910728335380554,
+              "Thursday": 0.004252511076629162,
+              "Friday": 0.001009498373605311,
+              "Saturday": 0.000703751458786428,
+              "Sunday": 0.0003075598506256938
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9910728335380554,
+            "p_induced": 0.001713249832391739,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.0006359841208904982,
+              "Tuesday": 0.0024088064674288034,
+              "Wednesday": 0.00042609783122316003,
+              "Thursday": 0.992167592048645,
+              "Friday": 0.002679554745554924,
+              "Saturday": 0.0010342838941141963,
+              "Sunday": 0.0006477210554294288
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.992167592048645,
+            "p_induced": 0.0016820048913359642,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.0004982856335118413,
+              "Tuesday": 0.0003208888811059296,
+              "Wednesday": 0.0006290122400969267,
+              "Thursday": 0.0010236840462312102,
+              "Friday": 0.9925553202629089,
+              "Saturday": 0.0025786682963371277,
+              "Sunday": 0.0023942021653056145
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9925553202629089,
+            "p_induced": 0.002892487682402134,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.002754023764282465,
+              "Tuesday": 0.0007773038232699037,
+              "Wednesday": 0.00022653763880953193,
+              "Thursday": 0.0008306705276481807,
+              "Friday": 0.0003190805437043309,
+              "Saturday": 0.9889320135116577,
+              "Sunday": 0.006160417106002569
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9889320135116577,
+            "p_induced": 0.003531327471137047,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.003929757047444582,
+              "Tuesday": 0.0011906486470252275,
+              "Wednesday": 0.0008765205857343972,
+              "Thursday": 0.0005634785047732294,
+              "Friday": 0.001707809860818088,
+              "Saturday": 0.003088031429797411,
+              "Sunday": 0.9886437654495239
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.9886437654495239,
+            "p_induced": 0.002067169174551964,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.9948121309280396,
+              "Tuesday": 0.0016295453533530235,
+              "Wednesday": 0.0003388529294170439,
+              "Thursday": 0.00017774925800040364,
+              "Friday": 9.778821549843997e-05,
+              "Saturday": 0.0008637909777462482,
+              "Sunday": 0.002080195117741823
+            },
+            "argmax": "Monday",
+            "p_natural": 0.9948121309280396,
+            "p_induced": 0.0005166021874174476,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.9915281534194946,
+        "mean_p_induced": 0.002089926124816494,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "continuation": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.006906959228217602,
+              "Tuesday": 0.009168495424091816,
+              "Wednesday": 0.019666016101837158,
+              "Thursday": 0.46453437209129333,
+              "Friday": 0.4861716628074646,
+              "Saturday": 0.0059644016437232494,
+              "Sunday": 0.007588058244436979
+            },
+            "argmax": "Friday",
+            "p_natural": 0.009168495424091816,
+            "p_induced": 0.9507060050964355,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.010114345699548721,
+              "Tuesday": 0.013472940772771835,
+              "Wednesday": 0.02148030512034893,
+              "Thursday": 0.01815277338027954,
+              "Friday": 0.6898719072341919,
+              "Saturday": 0.23138301074504852,
+              "Sunday": 0.015524724498391151
+            },
+            "argmax": "Friday",
+            "p_natural": 0.02148030512034893,
+            "p_induced": 0.9212549328804016,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.017034567892551422,
+              "Tuesday": 0.037469927221536636,
+              "Wednesday": 0.02642539143562317,
+              "Thursday": 0.027129344642162323,
+              "Friday": 0.028047040104866028,
+              "Saturday": 0.6375092267990112,
+              "Sunday": 0.2263844758272171
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.027129344642162323,
+            "p_induced": 0.8638936877250671,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.4157809019088745,
+              "Tuesday": 0.04076387733221054,
+              "Wednesday": 0.0401131771504879,
+              "Thursday": 0.013179364614188671,
+              "Friday": 0.020931566134095192,
+              "Saturday": 0.02082804962992668,
+              "Sunday": 0.44840309023857117
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.020931566134095192,
+            "p_induced": 0.8641840219497681,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.29139721393585205,
+              "Tuesday": 0.6364283561706543,
+              "Wednesday": 0.02890283614397049,
+              "Thursday": 0.011109262704849243,
+              "Friday": 0.010316330008208752,
+              "Saturday": 0.00788645539432764,
+              "Sunday": 0.013959558680653572
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.00788645539432764,
+            "p_induced": 0.9278255701065063,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.03409891948103905,
+              "Tuesday": 0.4798271656036377,
+              "Wednesday": 0.40423157811164856,
+              "Thursday": 0.020601686090230942,
+              "Friday": 0.027948085218667984,
+              "Saturday": 0.012093120254576206,
+              "Sunday": 0.021199408918619156
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.021199408918619156,
+            "p_induced": 0.8840587139129639,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.027485664933919907,
+              "Tuesday": 0.019040139392018318,
+              "Wednesday": 0.3299334943294525,
+              "Thursday": 0.5309704542160034,
+              "Friday": 0.06334487348794937,
+              "Saturday": 0.01324606966227293,
+              "Sunday": 0.015979329124093056
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.027485664933919907,
+            "p_induced": 0.8609039783477783,
+            "is_induced": true,
+            "is_natural": false
+          }
+        },
+        "mean_p_natural": 0.019325891509652138,
+        "mean_p_induced": 0.896118130002703,
+        "frac_argmax_induced": 1.0,
+        "frac_argmax_natural": 0.0
+      }
+    },
+    "Gemma": {
+      "baseline": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.001481778104789555,
+              "Tuesday": 0.9855923652648926,
+              "Wednesday": 0.005171914119273424,
+              "Thursday": 0.003554600989446044,
+              "Friday": 0.0019026407971978188,
+              "Saturday": 0.0006176970200613141,
+              "Sunday": 0.0016790747176855803
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9855923652648926,
+            "p_induced": 0.005457242019474506,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.0014723389176651835,
+              "Tuesday": 0.0024274764582514763,
+              "Wednesday": 0.9793139100074768,
+              "Thursday": 0.010879195295274258,
+              "Friday": 0.004002232104539871,
+              "Saturday": 0.0010119227226823568,
+              "Sunday": 0.0008930186741054058
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9793139100074768,
+            "p_induced": 0.005014155060052872,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.000785839045420289,
+              "Tuesday": 0.0031080537009984255,
+              "Wednesday": 0.0035218861885368824,
+              "Thursday": 0.9765214323997498,
+              "Friday": 0.01229259092360735,
+              "Saturday": 0.0018851298373192549,
+              "Sunday": 0.0018851298373192549
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.9765214323997498,
+            "p_induced": 0.0037702596746385098,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.0024446584284305573,
+              "Tuesday": 0.0007936643669381738,
+              "Wednesday": 0.001019085175357759,
+              "Thursday": 0.0008993395022116601,
+              "Friday": 0.9862455129623413,
+              "Saturday": 0.004567223135381937,
+              "Sunday": 0.00403056014329195
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9862455129623413,
+            "p_induced": 0.0064752185717225075,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.013619004748761654,
+              "Tuesday": 0.0023666282650083303,
+              "Wednesday": 0.0011179159628227353,
+              "Thursday": 0.0005983772571198642,
+              "Friday": 0.0020885420963168144,
+              "Saturday": 0.9547659754753113,
+              "Sunday": 0.025443650782108307
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9547659754753113,
+            "p_induced": 0.015985632315278053,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.012354820966720581,
+              "Tuesday": 0.0014755729353055358,
+              "Wednesday": 0.0010141454404219985,
+              "Thursday": 0.0005428329459391534,
+              "Friday": 0.0014755729353055358,
+              "Saturday": 0.0016720433486625552,
+              "Sunday": 0.9814650416374207
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.9814650416374207,
+            "p_induced": 0.0024897183757275343,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.9859077334403992,
+              "Tuesday": 0.00402917992323637,
+              "Wednesday": 0.002443821169435978,
+              "Thursday": 0.0010187361622229218,
+              "Friday": 0.0010187361622229218,
+              "Saturday": 0.002443821169435978,
+              "Sunday": 0.003137928433716297
+            },
+            "argmax": "Monday",
+            "p_natural": 0.9859077334403992,
+            "p_induced": 0.003462557215243578,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.978544567312513,
+        "mean_p_induced": 0.006093540461733937,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "question": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.0034470693208277225,
+              "Tuesday": 0.9792739748954773,
+              "Wednesday": 0.006039545405656099,
+              "Thursday": 0.0046532913111150265,
+              "Friday": 0.003054059576243162,
+              "Saturday": 0.0010413182899355888,
+              "Sunday": 0.002490746323019266
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.9792739748954773,
+            "p_induced": 0.007707350887358189,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.002122160978615284,
+              "Tuesday": 0.004381248261779547,
+              "Wednesday": 0.9808560609817505,
+              "Thursday": 0.006464208476245403,
+              "Friday": 0.00350739317946136,
+              "Saturday": 0.0013452107086777687,
+              "Sunday": 0.0013237239327281713
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.9808560609817505,
+            "p_induced": 0.004852604120969772,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.0018860179698094726,
+              "Tuesday": 0.006142012774944305,
+              "Wednesday": 0.009213966317474842,
+              "Thursday": 0.9631328582763672,
+              "Friday": 0.012841781601309776,
+              "Saturday": 0.003275585826486349,
+              "Sunday": 0.00350777106359601
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.9631328582763672,
+            "p_induced": 0.006783356890082359,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.006830004975199699,
+              "Tuesday": 0.002757241250947118,
+              "Wednesday": 0.0033216241281479597,
+              "Thursday": 0.002796157030388713,
+              "Friday": 0.9677824974060059,
+              "Saturday": 0.006512722931802273,
+              "Sunday": 0.009999789297580719
+            },
+            "argmax": "Friday",
+            "p_natural": 0.9677824974060059,
+            "p_induced": 0.01682979427278042,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.02558518573641777,
+              "Tuesday": 0.005590451415628195,
+              "Wednesday": 0.0021862974390387535,
+              "Thursday": 0.0009060987504199147,
+              "Friday": 0.0050224787555634975,
+              "Saturday": 0.9340230822563171,
+              "Sunday": 0.026686392724514008
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.9340230822563171,
+            "p_induced": 0.031175637617707253,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.02603277750313282,
+              "Tuesday": 0.004796807654201984,
+              "Wednesday": 0.003608729224652052,
+              "Thursday": 0.001540835713967681,
+              "Friday": 0.002311717951670289,
+              "Saturday": 0.004181488882750273,
+              "Sunday": 0.9575276374816895
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.9575276374816895,
+            "p_induced": 0.008405536413192749,
+            "is_induced": false,
+            "is_natural": true
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.980162501335144,
+              "Tuesday": 0.005238451063632965,
+              "Wednesday": 0.003266065614297986,
+              "Thursday": 0.0017195807304233313,
+              "Friday": 0.0012909637298434973,
+              "Saturday": 0.002362652216106653,
+              "Sunday": 0.0059597487561404705
+            },
+            "argmax": "Monday",
+            "p_natural": 0.980162501335144,
+            "p_induced": 0.004985646344721317,
+            "is_induced": false,
+            "is_natural": true
+          }
+        },
+        "mean_p_natural": 0.9661083732332502,
+        "mean_p_induced": 0.011534275220973151,
+        "frac_argmax_induced": 0.0,
+        "frac_argmax_natural": 1.0
+      },
+      "continuation": {
+        "per_day": {
+          "Monday": {
+            "P": {
+              "Monday": 0.09998296201229095,
+              "Tuesday": 0.1817530244588852,
+              "Wednesday": 0.12987208366394043,
+              "Thursday": 0.30893149971961975,
+              "Friday": 0.1723780632019043,
+              "Saturday": 0.04410881549119949,
+              "Sunday": 0.06297355890274048
+            },
+            "argmax": "Thursday",
+            "p_natural": 0.1817530244588852,
+            "p_induced": 0.48130956292152405,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Tuesday": {
+            "P": {
+              "Monday": 0.044979531317949295,
+              "Tuesday": 0.13389591872692108,
+              "Wednesday": 0.19228650629520416,
+              "Thursday": 0.06147809699177742,
+              "Friday": 0.1940777450799942,
+              "Saturday": 0.3265823721885681,
+              "Sunday": 0.046699829399585724
+            },
+            "argmax": "Saturday",
+            "p_natural": 0.19228650629520416,
+            "p_induced": 0.5206601023674011,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Wednesday": {
+            "P": {
+              "Monday": 0.028939340263605118,
+              "Tuesday": 0.06370915472507477,
+              "Wednesday": 0.19120705127716064,
+              "Thursday": 0.06001553311944008,
+              "Friday": 0.011986625380814075,
+              "Saturday": 0.3139704465866089,
+              "Sunday": 0.3301718831062317
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.06001553311944008,
+            "p_induced": 0.6441423296928406,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Thursday": {
+            "P": {
+              "Monday": 0.3259240984916687,
+              "Tuesday": 0.08210644125938416,
+              "Wednesday": 0.08384900540113449,
+              "Thursday": 0.07879707217216492,
+              "Friday": 0.05239853635430336,
+              "Saturday": 0.039874300360679626,
+              "Sunday": 0.33705055713653564
+            },
+            "argmax": "Sunday",
+            "p_natural": 0.05239853635430336,
+            "p_induced": 0.6629746556282043,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Friday": {
+            "P": {
+              "Monday": 0.46003487706184387,
+              "Tuesday": 0.23045843839645386,
+              "Wednesday": 0.0632290244102478,
+              "Thursday": 0.034599944949150085,
+              "Friday": 0.047611579298973083,
+              "Saturday": 0.09948616474866867,
+              "Sunday": 0.06457994878292084
+            },
+            "argmax": "Monday",
+            "p_natural": 0.09948616474866867,
+            "p_induced": 0.6904933452606201,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Saturday": {
+            "P": {
+              "Monday": 0.08170902729034424,
+              "Tuesday": 0.3831053674221039,
+              "Wednesday": 0.287090539932251,
+              "Thursday": 0.025690583512187004,
+              "Friday": 0.013320633210241795,
+              "Saturday": 0.07640053331851959,
+              "Sunday": 0.13268327713012695
+            },
+            "argmax": "Tuesday",
+            "p_natural": 0.13268327713012695,
+            "p_induced": 0.6701959371566772,
+            "is_induced": true,
+            "is_natural": false
+          },
+          "Sunday": {
+            "P": {
+              "Monday": 0.1091490089893341,
+              "Tuesday": 0.13641555607318878,
+              "Wednesday": 0.31750160455703735,
+              "Thursday": 0.2754513919353485,
+              "Friday": 0.006763730198144913,
+              "Saturday": 0.03156955912709236,
+              "Sunday": 0.12314915657043457
+            },
+            "argmax": "Wednesday",
+            "p_natural": 0.1091490089893341,
+            "p_induced": 0.5929529666900635,
+            "is_induced": true,
+            "is_natural": false
+          }
+        },
+        "mean_p_natural": 0.11825315015656608,
+        "mean_p_induced": 0.6089612713881901,
+        "frac_argmax_induced": 1.0,
+        "frac_argmax_natural": 0.0
+      }
+    }
+  }
+}
