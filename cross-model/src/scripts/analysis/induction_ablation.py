@@ -53,6 +53,7 @@ GKW = {"days": dict(graph_type="ring", ring_size=7, word_set="days"),
        "hex": dict(graph_type="hex", hex_rows=4, hex_cols=4)}
 GRAPHS = os.environ.get("GRAPHS", "square_grid,days").split(",")
 ABLATE_K = int(os.environ.get("ABLATE_K", "15"))
+QK_THRESH = os.environ.get("QK_THRESH")                          # if set, ablate ALL heads with QK>thresh
 NWALKS = int(os.environ.get("NWALKS", "20"))
 WLEN   = int(os.environ.get("WLEN", "300"))
 CTXLO  = int(os.environ.get("CTXLO", "100"))
@@ -185,13 +186,19 @@ def main():
         cm = model.config; blocks = M._decoder_blocks(model)
         nL = cm.num_hidden_layers; nH = getattr(cm, "num_attention_heads", None) or cm.n_head
         cap_layers = sorted(set(int(round(r * (nL - 1))) for r in np.linspace(0.1, 0.95, 10)))
-        # induction heads to ablate: top-K from the FULL generic-score matrix
+        # heads to ablate: ALL with QK>thresh (if set) else top-K from the full QK matrix
         gen = np.array(ind[tag]["generic"])                      # [L, H]
-        flat = np.argsort(gen, axis=None)[::-1][:ABLATE_K]
-        ind_heads = [(int(i // gen.shape[1]), int(i % gen.shape[1])) for i in flat]
+        if QK_THRESH is not None:
+            ys, xs = np.where(gen > float(QK_THRESH))
+            ind_heads = list(zip(ys.tolist(), xs.tolist()))
+        else:
+            flat = np.argsort(gen, axis=None)[::-1][:ABLATE_K]
+            ind_heads = [(int(i // gen.shape[1]), int(i % gen.shape[1])) for i in flat]
+        K = len(ind_heads)
         allh = [(l, h) for l in range(nL) for h in range(nH)]
         pool = [x for x in allh if x not in set(ind_heads)]
-        rand_heads = [pool[i] for i in RNG.choice(len(pool), ABLATE_K, replace=False)]
+        rand_heads = [pool[i] for i in RNG.choice(len(pool), min(K, len(pool)), replace=False)]
+        print(f"[{tag}] ablating {K} heads (QK_THRESH={QK_THRESH})", flush=True)
         def by_layer(heads):
             d = {}
             for l, h in heads:

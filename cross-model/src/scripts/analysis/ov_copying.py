@@ -88,56 +88,75 @@ def o_proj_of(block):
     return block.attn.c_proj                                     # GPT-2
 
 
+def final_norm(model):
+    if hasattr(model, "model") and hasattr(model.model, "norm"):
+        return model.model.norm                                  # Llama/Gemma/Qwen RMSNorm
+    return model.transformer.ln_f                                # GPT-2 LayerNorm
+
+
 @torch.no_grad()
 def copying_score(model, tok):
+    """OV-circuit copying score: for each source token t, the head's write IF it attended
+    fully to t is  W_O_h @ (W_V_h @ x_t); push through the (LN-folded) unembedding and
+    check the self-boost on token t vs all tokens. No repetition / no attention needed."""
     dev = next(model.parameters()).device
     cm = model.config
     nH = getattr(cm, "num_attention_heads", None) or cm.n_head
+    nkv = getattr(cm, "num_key_value_heads", None) or nH
     hd = getattr(cm, "head_dim", None) or (cm.hidden_size // nH)
+    group = nH // nkv
     blocks = blocks_of(model); nL = len(blocks)
-    WU = model.get_output_embeddings().weight                    # [V, d]
-    is_gpt2 = not (hasattr(blocks[0], "self_attn"))
-    # capture o_proj input per layer
-    zin = {}
-    def mk(l):
-        def pre(_m, args): zin[l] = args[0].detach()             # [b, seq, nH*hd] (GPT2: also nH*hd)
-        return pre
-    handles = [o_proj_of(blocks[l]).register_forward_pre_hook(mk(l)) for l in range(nL)]
+    WU = model.get_output_embeddings().weight.float()            # [V, d]
+    is_gpt2 = not hasattr(blocks[0], "self_attn")
+    fn = final_norm(model); is_rms = "rms" in type(fn).__name__.lower()
+    gamma = fn.weight.detach().float()
+    if "gemma" in (getattr(cm, "model_type", "") or "").lower():
+        gamma = 1.0 + gamma
+    # capture per-head VALUE vectors (v_proj output; GPT-2: value third of c_attn)
+    vcap = {}
+    def mkv(l):
+        def hook(_m, _i, out): vcap[l] = (out[0] if isinstance(out, tuple) else out).detach()
+        return hook
+    handles = [(blocks[l].attn.c_attn if is_gpt2 else blocks[l].self_attn.v_proj)
+               .register_forward_hook(mkv(l)) for l in range(nL)]
     pool = token_pool(tok); rng = np.random.default_rng(0)
     sos = tok.bos_token_id if tok.bos_token_id is not None else (tok.eos_token_id or 0)
     score = np.zeros((nL, nH)); cnt = 0
     try:
         for _ in range(NSEQ):
             r = rng.choice(pool, size=GLEN, replace=False).tolist()
-            ids = torch.tensor([[sos] + r], device=dev)          # 25 random toks, NO repeat
-            atts = model(input_ids=ids, output_attentions=True).attentions
-            idrow = ids[0]                                        # [seq]
-            S = idrow.shape[0]
+            ids = torch.tensor([[sos] + r], device=dev)          # 25 random toks, no repeat
+            model(input_ids=ids)
+            idrow = ids[0]
+            present = torch.unique(idrow)                        # tokens the head could copy
             for l in range(nL):
-                z = zin[l][0]                                     # [seq, nH*hd]
-                Wo = o_proj_of(blocks[l]).weight                 # [d, nH*hd] (GPT2 Conv1D: [nH*hd, d])
-                A = atts[l][0]                                    # [H, seq, seq]
-                att_key = A.argmax(dim=-1)                        # [H, seq] -> key attended most
+                V = vcap[l][0]                                    # [seq, nkv*hd] (GPT2: [seq, 3d])
+                if is_gpt2:
+                    V = V[:, 2 * cm.hidden_size:]                # value third
+                    Wo = blocks[l].attn.c_proj.weight            # Conv1D [nH*hd, d]
+                else:
+                    Wo = blocks[l].self_attn.o_proj.weight       # [d, nH*hd]
                 for h in range(nH):
-                    sl = slice(h * hd, (h + 1) * hd)
-                    if is_gpt2:                                   # Conv1D weight is [in, out]
-                        c = z[:, sl] @ Wo[sl, :]                  # [seq, d]
+                    kv = h // group
+                    vh = V[:, kv * hd:(kv + 1) * hd].float()     # [seq, hd] value for this head
+                    if is_gpt2:
+                        ov = vh @ Wo[h * hd:(h + 1) * hd, :].float()      # [seq, d]
                     else:
-                        c = z[:, sl] @ Wo[:, sl].T               # [seq, d]
-                    g = (c @ WU.T).float()                        # [seq, V] direct-path logits
+                        ov = vh @ Wo[:, h * hd:(h + 1) * hd].T.float()    # [seq, d]
+                    if not is_rms:
+                        ov = ov - ov.mean(dim=-1, keepdim=True)
+                    ov = ov * gamma
+                    g = ov @ WU.T                                # [seq, V] copy-this-token logit effect
                     g = g - g.mean(dim=1, keepdim=True)
                     g = torch.relu(g)
-                    tot = g.sum(dim=1) + 1e-9
-                    att_id = idrow[att_key[h]]                    # [seq] attended-to token id
-                    boost = g.gather(1, att_id[:, None]).squeeze(1)
-                    ratio = (boost / tot)[1:]                     # skip SOS position
-                    score[l, h] += float(ratio.mean().cpu())
+                    tot = g[:, present].sum(dim=1) + 1e-9                 # over tokens present in the seq
+                    self_boost = g.gather(1, idrow[:, None]).squeeze(1)   # boost on the token itself
+                    score[l, h] += float((self_boost / tot)[1:].mean().cpu())
             cnt += 1
     finally:
-        for hd_ in handles:
-            hd_.remove()
-    ratio_mean = score / max(cnt, 1)
-    return np.clip(4 * ratio_mean - 1.0, -1.0, 1.0)              # [0,0.5] -> [-1,1]
+        for hnd in handles:
+            hnd.remove()
+    return np.clip(4 * (score / max(cnt, 1)) - 1.0, -1.0, 1.0)   # [0,0.5] -> [-1,1]
 
 
 def main():

@@ -1,0 +1,149 @@
+{
+  "Llama": {
+    "tie_word_embeddings": false,
+    "n_kv_heads": 8,
+    "induction_behaviour_acc": 0.97,
+    "heads": [
+      {
+        "layer": 15,
+        "head": 30,
+        "qk": 0.761,
+        "ov_activation": -0.718,
+        "ov_controlled": -0.878
+      },
+      {
+        "layer": 5,
+        "head": 11,
+        "qk": 0.713,
+        "ov_activation": -0.85,
+        "ov_controlled": -0.927
+      },
+      {
+        "layer": 8,
+        "head": 1,
+        "qk": 0.556,
+        "ov_activation": -0.854,
+        "ov_controlled": -0.936
+      },
+      {
+        "layer": 10,
+        "head": 14,
+        "qk": 0.544,
+        "ov_activation": -0.82,
+        "ov_controlled": -0.94
+      },
+      {
+        "layer": 24,
+        "head": 27,
+        "qk": 0.537,
+        "ov_activation": -0.779,
+        "ov_controlled": -0.927
+      },
+      {
+        "layer": 16,
+        "head": 20,
+        "qk": 0.512,
+        "ov_activation": -0.34,
+        "ov_controlled": -0.805
+      }
+    ]
+  },
+  "Qwen": {
+    "tie_word_embeddings": false,
+    "n_kv_heads": 8,
+    "induction_behaviour_acc": 0.908,
+    "heads": [
+      {
+        "layer": 20,
+        "head": 26,
+        "qk": 0.742,
+        "ov_activation": -0.773,
+        "ov_controlled": -0.926
+      },
+      {
+        "layer": 13,
+        "head": 14,
+        "qk": 0.706,
+        "ov_activation": -0.831,
+        "ov_controlled": -0.93
+      },
+      {
+        "layer": 13,
+        "head": 28,
+        "qk": 0.692,
+        "ov_activation": -0.75,
+        "ov_controlled": -0.93
+      },
+      {
+        "layer": 7,
+        "head": 23,
+        "qk": 0.679,
+        "ov_activation": -0.704,
+        "ov_controlled": -0.923
+      },
+      {
+        "layer": 20,
+        "head": 21,
+        "qk": 0.646,
+        "ov_activation": -0.769,
+        "ov_controlled": -0.931
+      },
+      {
+        "layer": 29,
+        "head": 14,
+        "qk": 0.644,
+        "ov_activation": 0.245,
+        "ov_controlled": -0.786
+      }
+    ]
+  },
+  "Gemma": {
+    "tie_word_embeddings": true,
+    "n_kv_heads": 8,
+    "induction_behaviour_acc": 0.986,
+    "heads": [
+      {
+        "layer": 15,
+        "head": 3,
+        "qk": 0.696,
+        "ov_activation": -0.792,
+        "ov_controlled": -0.897
+      },
+      {
+        "layer": 7,
+        "head": 1,
+        "qk": 0.68,
+        "ov_activation": -0.7,
+        "ov_controlled": -0.689
+      },
+      {
+        "layer": 30,
+        "head": 9,
+        "qk": 0.64,
+        "ov_activation": -0.664,
+        "ov_controlled": -0.985
+      },
+      {
+        "layer": 28,
+        "head": 6,
+        "qk": 0.576,
+        "ov_activation": -0.228,
+        "ov_controlled": -0.896
+      },
+      {
+        "layer": 32,
+        "head": 5,
+        "qk": 0.561,
+        "ov_activation": 0.075,
+        "ov_controlled": -0.792
+      },
+      {
+        "layer": 28,
+        "head": 2,
+        "qk": 0.555,
+        "ov_activation": 0.138,
+        "ov_controlled": -0.661
+      }
+    ]
+  }
+}
