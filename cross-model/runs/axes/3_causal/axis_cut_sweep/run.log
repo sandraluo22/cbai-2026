@@ -1,0 +1,34 @@
+[07:05:41] START Llama
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  19%|█▉        | 55/291 [00:00<00:00, 537.12it/s]Loading weights:  37%|███▋      | 109/291 [00:00<00:00, 195.07it/s]Loading weights:  48%|████▊     | 140/291 [00:00<00:00, 178.90it/s]Loading weights:  56%|█████▋    | 164/291 [00:01<00:00, 135.43it/s]Loading weights:  77%|███████▋  | 224/291 [00:01<00:00, 216.59it/s]Loading weights:  88%|████████▊ | 257/291 [00:01<00:00, 200.63it/s]Loading weights: 100%|██████████| 291/291 [00:01<00:00, 208.60it/s]
+[Llama/x            ] +side mass clean 0.52 -> dose4 1.00  (control +0.48) | val 0.99->0.21
+[Llama/y            ] +side mass clean 0.63 -> dose4 1.00  (control +0.37) | val 0.99->0.22
+[Llama/diagonal     ] +side mass clean 0.44 -> dose4 1.00  (control +0.56) | val 0.99->0.22
+[Llama/anti-diagonal] +side mass clean 0.30 -> dose4 1.00  (control +0.70) | val 0.99->0.12
+[Llama/parity       ] +side mass clean 0.47 -> dose4 0.00  (control -0.47) | val 0.99->0.32
+DONE -> runs/induction-head/2_probes/axis_cut_sweep/axis_cut_sweep_Llama_square_grid.json
+[07:08:07] END Llama rc=0
+[07:08:07] START Gemma
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 101/464 [00:00<00:00, 980.82it/s]Loading weights:  53%|█████▎    | 245/464 [00:00<00:00, 1238.01it/s]Loading weights:  80%|███████▉  | 369/464 [00:00<00:00, 1122.08it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 1129.72it/s]
+[Gemma/x            ] +side mass clean 0.54 -> dose4 1.00  (control +0.46) | val 0.98->0.12
+[Gemma/y            ] +side mass clean 0.60 -> dose4 1.00  (control +0.40) | val 0.98->0.14
+[Gemma/diagonal     ] +side mass clean 0.43 -> dose4 1.00  (control +0.57) | val 0.98->0.15
+[Gemma/anti-diagonal] +side mass clean 0.34 -> dose4 1.00  (control +0.66) | val 0.98->0.12
+[Gemma/parity       ] +side mass clean 0.51 -> dose4 1.00  (control +0.49) | val 0.98->0.07
+DONE -> runs/induction-head/2_probes/axis_cut_sweep/axis_cut_sweep_Gemma_square_grid.json
+[07:08:54] END Gemma rc=0
+[07:08:54] START Qwen
+[Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  40%|███▉      | 158/399 [00:00<00:00, 1579.13it/s]Loading weights:  79%|███████▉  | 316/399 [00:00<00:00, 1471.12it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 1500.44it/s]
+[Qwen/x            ] +side mass clean 0.50 -> dose4 1.00  (control +0.50) | val 0.90->0.15
+[Qwen/y            ] +side mass clean 0.66 -> dose4 1.00  (control +0.34) | val 0.90->0.14
+[Qwen/diagonal     ] +side mass clean 0.47 -> dose4 1.00  (control +0.53) | val 0.90->0.15
+[Qwen/anti-diagonal] +side mass clean 0.30 -> dose4 1.00  (control +0.70) | val 0.90->0.16
+[Qwen/parity       ] +side mass clean 0.49 -> dose4 0.00  (control -0.49) | val 0.90->0.21
+DONE -> runs/induction-head/2_probes/axis_cut_sweep/axis_cut_sweep_Qwen_square_grid.json
+[07:09:32] END Qwen rc=0
+ALL_DONE

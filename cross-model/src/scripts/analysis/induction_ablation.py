@@ -54,6 +54,10 @@ GKW = {"days": dict(graph_type="ring", ring_size=7, word_set="days"),
 GRAPHS = os.environ.get("GRAPHS", "square_grid,days").split(",")
 ABLATE_K = int(os.environ.get("ABLATE_K", "15"))
 QK_THRESH = os.environ.get("QK_THRESH")                          # if set, ablate ALL heads with QK>thresh
+HEADS_MODE = os.environ.get("HEADS_MODE", "qk")                  # "qk" | "dla" (writers) | "rsa" (ΔRSA swap heads) | "logit"
+DLAJSON = os.environ.get("DLAJSON", "/workspace/cross-model/runs/induction-head/attribution/head_attribution_square_grid.json")
+RSAJSON = os.environ.get("RSAJSON", "/workspace/cross-model/runs/induction-head/patch_swap/patch_swap_metrics_12_15.json")
+RSA_KEY = os.environ.get("RSA_KEY", "restore_rsa")               # restore_rsa | restore_logit | restore_kl
 NWALKS = int(os.environ.get("NWALKS", "20"))
 WLEN   = int(os.environ.get("WLEN", "300"))
 CTXLO  = int(os.environ.get("CTXLO", "100"))
@@ -89,6 +93,35 @@ def attn_proj(block, cfg_model):
 
 def sp(a, b):
     return float(np.corrcoef(np.argsort(np.argsort(a)), np.argsort(np.argsort(b)))[0, 1])
+
+
+_ALPHAS = [1.0, 10.0, 100.0, 1000.0, 1e4, 1e5, 1e6]
+
+
+def _r2(y, yh):
+    tot = ((y - y.mean()) ** 2).sum()
+    return float(1.0 - ((y - yh) ** 2).sum() / tot) if tot > 0 else float("nan")
+
+
+def coord_loo_r2(H, coords):
+    """Leave-one-node-out linear coordinate probe (as in coord_decode.py), collapsed to a
+    single scalar per layer = mean over the 2 axes of best-alpha LOO R². This is 'the
+    representation the probe found'; we recompute it under each ablation condition."""
+    n = H.shape[0]; folds = []
+    for k in range(n):
+        idx = [i for i in range(n) if i != k]; Xtr = H[idx]; xk = H[k:k + 1]
+        mu = Xtr.mean(0); sd = Xtr.std(0) + 1e-6
+        U, S, Vt = np.linalg.svd((Xtr - mu) / sd, full_matrices=False)
+        folds.append((np.array(idx), (((xk - mu) / sd) @ Vt.T).ravel(), U.T.copy(), S))
+    best = -9.0
+    for a in _ALPHAS:
+        pred = np.zeros((n, 2))
+        for k, (idx, proj, UT, S) in enumerate(folds):
+            ytr = coords[idx]; ymu = ytr.mean(0)
+            pred[k] = proj @ ((S / (S ** 2 + a))[:, None] * (UT @ (ytr - ymu))) + ymu
+        sc = 0.5 * (_r2(coords[:, 0], pred[:, 0]) + _r2(coords[:, 1], pred[:, 1]))
+        best = max(best, sc)
+    return float(best)
 
 
 def best2d_rsa(H, Gc, GD, iu):
@@ -160,25 +193,28 @@ def run_condition(model, tok, blocks, cfg_model, walks, graph, words, cand_t, de
 
     iu = np.triu_indices(n, 1); GD = graph.distance_matrix()[iu]
     Gc = np.array(graph.coords, float)
-    rsa, rsa_b2d = {}, {}
+    rsa, rsa_b2d, coordp = {}, {}, {}
     for L in cap_layers:
         H = np.where(ncnt[L][:, None] > 0, nsum[L] / np.maximum(ncnt[L][:, None], 1), np.nan)
         if np.isnan(H).any():
-            rsa[L] = float("nan"); rsa_b2d[L] = float("nan"); continue
+            rsa[L] = float("nan"); rsa_b2d[L] = float("nan"); coordp[L] = float("nan"); continue
         R = np.linalg.norm(H[:, None] - H[None], axis=2)[iu]
         rsa[L] = sp(R, GD)                                    # raw Euclidean node-mean RSA
         rsa_b2d[L] = best2d_rsa(H, Gc, GD, iu)                # probed (supervised best-2D) RSA
+        coordp[L] = coord_loo_r2(H, Gc)                       # leave-one-node-out coord probe R²
     acc_by_ctx = {C: {"acc": (acc[C]["correct"] / acc[C]["total"] if acc[C]["total"] else float("nan")),
                       "neighbor_mass": (acc[C]["mass"] / acc[C]["total"] if acc[C]["total"] else float("nan")),
                       "exact": (acc[C]["exact"] / acc[C]["total"] if acc[C]["total"] else float("nan"))}
                   for C in CKPTS}
-    return rsa, rsa_b2d, acc_by_ctx
+    return rsa, rsa_b2d, coordp, acc_by_ctx
 
 
 def main():
     dev = os.environ.get("DEVICE", "cpu" if PRESET == "smoke" else "cuda")
     ind = json.load(open(INDJSON))["models"]
-    out = {"ablate_k": ABLATE_K, "models": {}}
+    dla = json.load(open(DLAJSON))["models"] if (HEADS_MODE == "dla" and os.path.exists(DLAJSON)) else {}
+    rsaj = json.load(open(RSAJSON))["models"] if (HEADS_MODE in ("rsa", "logit", "kl") and os.path.exists(RSAJSON)) else {}
+    out = {"ablate_k": ABLATE_K, "heads_mode": HEADS_MODE, "models": {}}
     for tag, hf, mirror in MODELS:
         cfg = replace(get_config("gemma_qwen"), device=dev)
         print(f"[{tag}] loading", flush=True)
@@ -186,19 +222,29 @@ def main():
         cm = model.config; blocks = M._decoder_blocks(model)
         nL = cm.num_hidden_layers; nH = getattr(cm, "num_attention_heads", None) or cm.n_head
         cap_layers = sorted(set(int(round(r * (nL - 1))) for r in np.linspace(0.1, 0.95, 10)))
-        # heads to ablate: ALL with QK>thresh (if set) else top-K from the full QK matrix
-        gen = np.array(ind[tag]["generic"])                      # [L, H]
-        if QK_THRESH is not None:
-            ys, xs = np.where(gen > float(QK_THRESH))
-            ind_heads = list(zip(ys.tolist(), xs.tolist()))
+        # heads to ablate: ΔRSA swap heads (rsa/logit/kl), DLA writers (dla), or QK>thresh / top-K QK
+        if HEADS_MODE in ("rsa", "logit", "kl"):
+            key = {"rsa": "restore_rsa", "logit": "restore_logit", "kl": "restore_kl"}[HEADS_MODE]
+            sel = np.array(rsaj[tag][key])
+            flat = np.argsort(sel, axis=None)[::-1][:ABLATE_K]
+            ind_heads = [(int(i // sel.shape[1]), int(i % sel.shape[1])) for i in flat]
+        elif HEADS_MODE == "dla":
+            sel = np.array(dla[tag]["head_attr"])                 # [L, H] direct-logit attribution
+            flat = np.argsort(sel, axis=None)[::-1][:ABLATE_K]
+            ind_heads = [(int(i // sel.shape[1]), int(i % sel.shape[1])) for i in flat]
         else:
-            flat = np.argsort(gen, axis=None)[::-1][:ABLATE_K]
-            ind_heads = [(int(i // gen.shape[1]), int(i % gen.shape[1])) for i in flat]
+            gen = np.array(ind[tag]["generic"])                  # [L, H]
+            if QK_THRESH is not None:
+                ys, xs = np.where(gen > float(QK_THRESH))
+                ind_heads = list(zip(ys.tolist(), xs.tolist()))
+            else:
+                flat = np.argsort(gen, axis=None)[::-1][:ABLATE_K]
+                ind_heads = [(int(i // gen.shape[1]), int(i % gen.shape[1])) for i in flat]
         K = len(ind_heads)
         allh = [(l, h) for l in range(nL) for h in range(nH)]
         pool = [x for x in allh if x not in set(ind_heads)]
         rand_heads = [pool[i] for i in RNG.choice(len(pool), min(K, len(pool)), replace=False)]
-        print(f"[{tag}] ablating {K} heads (QK_THRESH={QK_THRESH})", flush=True)
+        print(f"[{tag}] ablating {K} heads (mode={HEADS_MODE}, QK_THRESH={QK_THRESH}): {ind_heads[:8]}...", flush=True)
         def by_layer(heads):
             d = {}
             for l, h in heads:
@@ -215,12 +261,14 @@ def main():
             cand_t = torch.tensor([tok(" " + w, add_special_tokens=False)["input_ids"][0] for w in words], device=dev)
             gres = {}
             for cname, abl in conds.items():
-                rsa, rsa_b2d, accc = run_condition(model, tok, blocks, cm, walks, graph, words, cand_t, dev, abl, cap_layers)
-                gres[cname] = {"rsa_by_layer": rsa, "best2d_by_layer": rsa_b2d, "acc_by_ctx": accc}
+                rsa, rsa_b2d, coordp, accc = run_condition(model, tok, blocks, cm, walks, graph, words, cand_t, dev, abl, cap_layers)
+                gres[cname] = {"rsa_by_layer": rsa, "best2d_by_layer": rsa_b2d,
+                               "coordprobe_by_layer": coordp, "acc_by_ctx": accc}
                 pk = max((v for v in rsa.values() if np.isfinite(v)), default=float("nan"))
                 pkb = max((v for v in rsa_b2d.values() if np.isfinite(v)), default=float("nan"))
+                pkc = max((v for v in coordp.values() if np.isfinite(v)), default=float("nan"))
                 a250 = accc[250]
-                print(f"[{tag}/{gname}/{cname}] rawRSA={pk:+.2f} best2dRSA={pkb:+.2f}  "
+                print(f"[{tag}/{gname}/{cname}] rawRSA={pk:+.2f} best2dRSA={pkb:+.2f} coordProbeR²={pkc:+.2f}  "
                       f"nbr_mass@250={a250['neighbor_mass']:.2f}", flush=True)
             rec["graphs"][gname] = gres
         out["models"][tag] = rec
@@ -244,7 +292,7 @@ def make_fig(out, path):
     colors = {"clean": "k", "ablate_induction": "tab:red", "ablate_random": "tab:blue"}
     with PdfPages(path) as pdf:
         for gname in graphs:
-            fig, ax = plt.subplots(len(models), 3, figsize=(16, 3.4 * len(models)), squeeze=False)
+            fig, ax = plt.subplots(len(models), 4, figsize=(21, 3.4 * len(models)), squeeze=False)
             for row, m in enumerate(models):
                 gr = out["models"][m]["graphs"].get(gname)
                 if not gr:
@@ -255,16 +303,20 @@ def make_fig(out, path):
                         return Ls, [D[str(L)] if str(L) in D else D[L] for L in Ls]
                     Ls, yr = curve("rsa_by_layer"); ax[row, 0].plot(Ls, yr, "-o", ms=3, color=c, label=cname)
                     Ls, yb = curve("best2d_by_layer"); ax[row, 1].plot(Ls, yb, "-o", ms=3, color=c, label=cname)
+                    if "coordprobe_by_layer" in gr[cname]:
+                        Ls, yc = curve("coordprobe_by_layer"); ax[row, 2].plot(Ls, yc, "-o", ms=3, color=c, label=cname)
                     acc = gr[cname]["acc_by_ctx"]; Cs = sorted(int(k) for k in acc)
                     ya = [(acc[str(C)] if str(C) in acc else acc[C])["neighbor_mass"] for C in Cs]
-                    ax[row, 2].plot(Cs, ya, "-o", ms=3, color=c, label=cname)
+                    ax[row, 3].plot(Cs, ya, "-o", ms=3, color=c, label=cname)
                 ax[row, 0].set_title(f"{m}  raw node-mean RSA", fontsize=9)
                 ax[row, 0].set_xlabel("layer"); ax[row, 0].set_ylabel("RSA"); ax[row, 0].legend(fontsize=6)
                 ax[row, 1].set_title(f"{m}  PROBED best-2D RSA (supervised)", fontsize=9)
                 ax[row, 1].set_xlabel("layer"); ax[row, 1].set_ylabel("best-2D RSA")
-                ax[row, 2].set_title(f"{m}  next-step neighbour MASS (graded)", fontsize=9)
-                ax[row, 2].set_xlabel("context length"); ax[row, 2].set_ylabel("neighbour mass"); ax[row, 2].set_ylim(0, 1.05)
-            fig.suptitle(f"Induction-head ablation [{gname}]: raw geometry | PROBED best-2D geometry | behaviour\n"
+                ax[row, 2].set_title(f"{m}  COORD-PROBE leave-1-node-out R²", fontsize=9)
+                ax[row, 2].set_xlabel("layer"); ax[row, 2].set_ylabel("coord-probe R²"); ax[row, 2].axhline(0, color=".7", lw=.6); ax[row, 2].set_ylim(-0.6, 1.0)
+                ax[row, 3].set_title(f"{m}  next-step neighbour MASS (graded)", fontsize=9)
+                ax[row, 3].set_xlabel("context length"); ax[row, 3].set_ylabel("neighbour mass"); ax[row, 3].set_ylim(0, 1.05)
+            fig.suptitle(f"Induction-head ablation [{gname}]: raw geometry | PROBED best-2D geometry | COORD-PROBE R² | behaviour\n"
                          "black = clean, red = ablate induction heads, blue = ablate random heads", fontsize=11)
             fig.tight_layout(); pdf.savefig(fig); plt.close(fig)
 

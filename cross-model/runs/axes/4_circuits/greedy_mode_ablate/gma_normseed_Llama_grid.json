@@ -1,0 +1,190 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "basis": "eig",
+  "lap": "norm",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "mode_meta": {
+    "1": {
+      "lam": 0.2182640400294284,
+      "label": "coord"
+    },
+    "2": {
+      "lam": 0.2182640400294286,
+      "label": "coord"
+    },
+    "3": {
+      "lam": 0.49999999999999967,
+      "label": "other"
+    },
+    "4": {
+      "lam": 0.6666666666666662,
+      "label": "other"
+    },
+    "5": {
+      "lam": 0.6666666666666665,
+      "label": "other"
+    },
+    "6": {
+      "lam": 0.9999999999999991,
+      "label": "other"
+    },
+    "7": {
+      "lam": 0.9999999999999999,
+      "label": "other"
+    },
+    "8": {
+      "lam": 1.0,
+      "label": "other"
+    },
+    "9": {
+      "lam": 1.0,
+      "label": "other"
+    },
+    "10": {
+      "lam": 1.3333333333333333,
+      "label": "other"
+    },
+    "11": {
+      "lam": 1.3333333333333333,
+      "label": "other"
+    },
+    "12": {
+      "lam": 1.4999999999999998,
+      "label": "other"
+    },
+    "13": {
+      "lam": 1.7817359599705709,
+      "label": "other"
+    },
+    "14": {
+      "lam": 1.7817359599705718,
+      "label": "other"
+    },
+    "15": {
+      "lam": 2.0,
+      "label": "parity"
+    }
+  },
+  "greedy": [
+    {
+      "step": 0,
+      "mode": null,
+      "seeded": false,
+      "rand_nbr_v": 0.994375,
+      "rand_par_v": 0.9953125,
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9953125,
+      "n_pred": 3200
+    },
+    {
+      "step": 1,
+      "mode": "1",
+      "lambda": 0.2182640400294284,
+      "label": "coord",
+      "seeded": true,
+      "rand_nbr_v": 0.9927083333333334,
+      "rand_par_v": 0.9938541666666666,
+      "neighbour_validity": 0.9809375,
+      "parity_validity": 0.9915625,
+      "n_pred": 3200
+    },
+    {
+      "step": 2,
+      "mode": "2",
+      "lambda": 0.2182640400294286,
+      "label": "coord",
+      "seeded": true,
+      "rand_nbr_v": 0.9961458333333333,
+      "rand_par_v": 0.9969791666666667,
+      "neighbour_validity": 0.941875,
+      "parity_validity": 0.991875,
+      "n_pred": 3200
+    },
+    {
+      "step": 3,
+      "mode": "15",
+      "lambda": 2.0,
+      "label": "parity",
+      "seeded": true,
+      "rand_nbr_v": 0.9915625,
+      "rand_par_v": 0.9933333333333333,
+      "neighbour_validity": 0.615,
+      "parity_validity": 0.6390625,
+      "n_pred": 3200
+    },
+    {
+      "step": 4,
+      "mode": "14",
+      "lambda": 1.7817359599705718,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9919791666666667,
+      "rand_par_v": 0.9932291666666666,
+      "neighbour_validity": 0.3253125,
+      "parity_validity": 0.5296875,
+      "n_pred": 3200
+    },
+    {
+      "step": 5,
+      "mode": "4",
+      "lambda": 0.6666666666666662,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9882291666666667,
+      "rand_par_v": 0.9904166666666666,
+      "neighbour_validity": 0.283125,
+      "parity_validity": 0.516875,
+      "n_pred": 3200
+    },
+    {
+      "step": 6,
+      "mode": "13",
+      "lambda": 1.7817359599705709,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9917708333333334,
+      "rand_par_v": 0.9933333333333333,
+      "neighbour_validity": 0.260625,
+      "parity_validity": 0.5265625,
+      "n_pred": 3200
+    },
+    {
+      "step": 7,
+      "mode": "11",
+      "lambda": 1.3333333333333333,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9872916666666667,
+      "rand_par_v": 0.9903125,
+      "neighbour_validity": 0.2334375,
+      "parity_validity": 0.5125,
+      "n_pred": 3200
+    },
+    {
+      "step": 8,
+      "mode": "10",
+      "lambda": 1.3333333333333333,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9917708333333334,
+      "rand_par_v": 0.9952083333333333,
+      "neighbour_validity": 0.2025,
+      "parity_validity": 0.5090625,
+      "n_pred": 3200
+    }
+  ],
+  "chosen_modes": [
+    "1",
+    "2",
+    "15",
+    "14",
+    "4",
+    "13",
+    "11",
+    "10"
+  ]
+}

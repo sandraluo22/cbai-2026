@@ -101,15 +101,16 @@ def _decoder_blocks(model):
     raise AttributeError("could not locate decoder blocks on this model")
 
 
-def load_model(name: str, cfg: Config):
+def load_model(name: str, cfg: Config, cache_dir: str = None):
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
-    tok = AutoTokenizer.from_pretrained(name)
+    tok = AutoTokenizer.from_pretrained(name, cache_dir=cache_dir)
     dtype = getattr(torch, cfg.dtype)
     model = AutoModelForCausalLM.from_pretrained(
         name,
         dtype=dtype,                       # transformers >= 4.56 (was torch_dtype)
         output_hidden_states=False,        # we use explicit hooks instead
+        cache_dir=cache_dir,               # per-model hub cache (lets A,B use different HF dirs)
     )
     model.to(cfg.device)
     model.eval()

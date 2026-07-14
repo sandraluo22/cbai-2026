@@ -1,0 +1,155 @@
+[20:10:38] START coord_decode gridnull hex (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 14316.04it/s]
+[Llama/hex] peak L31: row=0.794 (null -0.099±0.126, p=0.005) col=0.781 (null -0.117±0.108, p=0.005)
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 8657.71it/s]
+[Qwen/hex] peak L35: row=0.656 (null -0.121±0.085, p=0.005) col=0.790 (null -0.114±0.095, p=0.005)
+DONE -> runs/induction-head/coord_decode/coord_decode_hex_gridnull.json
+[20:12:03] START coord_decode gridnull hex (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 12520.39it/s]
+[Gemma/hex] peak L40: row=0.742 (null -0.104±0.103, p=0.005) col=0.759 (null -0.108±0.108, p=0.005)
+DONE -> runs/induction-head/coord_decode/coord_decode_hex_gridnull.json
+[20:12:54] END coord_decode gridnull hex
+[20:12:54] START coord_decode gridnull days (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 14526.98it/s]
+[Llama/days] peak L10: row=-0.361 (null -0.247±0.247, p=0.502) col=-0.364 (null -0.231±0.259, p=0.701)
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12513.29it/s]
+[Qwen/days] peak L4: row=-0.322 (null -0.305±0.270, p=0.214) col=-0.398 (null -0.273±0.268, p=0.881)
+DONE -> runs/induction-head/coord_decode/coord_decode_days_gridnull.json
+[20:13:43] START coord_decode gridnull days (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 16232.18it/s]
+[Gemma/days] peak L31: row=-0.360 (null -0.277±0.206, p=0.458) col=-0.364 (null -0.279±0.193, p=0.687)
+DONE -> runs/induction-head/coord_decode/coord_decode_days_gridnull.json
+[20:14:15] END coord_decode gridnull days
+[20:14:15] START ablation_probe HEADS_MODE=qk (Llama,Qwen)
+[Llama] loading
+[Llama] meta-llama/Llama-3.1-8B unavailable (OSError); mirror NousResearch/Meta-Llama-3.1-8B
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 15409.14it/s]
+[Llama] ablating 15 heads (mode=qk, QK_THRESH=None): [(15, 30), (5, 11), (8, 1), (10, 14), (24, 27), (16, 20), (20, 1), (15, 1)]...
+[Llama/square_grid/clean] rawRSA=+0.42 best2dRSA=+0.85 coordProbeR²=+0.69  nbr_mass@250=0.86
+[Llama/square_grid/ablate_induction] rawRSA=+0.64 best2dRSA=+0.88 coordProbeR²=+0.87  nbr_mass@250=0.42
+[Llama/square_grid/ablate_random] rawRSA=+0.45 best2dRSA=+0.85 coordProbeR²=+0.70  nbr_mass@250=0.85
+[Llama/ring/clean] rawRSA=+0.77 best2dRSA=+0.96 coordProbeR²=+0.94  nbr_mass@250=0.94
+[Llama/ring/ablate_induction] rawRSA=+0.91 best2dRSA=+0.98 coordProbeR²=+0.99  nbr_mass@250=0.53
+[Llama/ring/ablate_random] rawRSA=+0.78 best2dRSA=+0.97 coordProbeR²=+0.94  nbr_mass@250=0.93
+[Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11888.89it/s]
+[Qwen] ablating 15 heads (mode=qk, QK_THRESH=None): [(20, 26), (13, 14), (13, 28), (7, 23), (20, 21), (29, 14), (29, 11), (13, 13)]...
+[Qwen/square_grid/clean] rawRSA=+0.18 best2dRSA=+0.70 coordProbeR²=+0.65  nbr_mass@250=0.80
+[Qwen/square_grid/ablate_induction] rawRSA=+0.25 best2dRSA=+0.60 coordProbeR²=+0.65  nbr_mass@250=0.53
+[Qwen/square_grid/ablate_random] rawRSA=+0.43 best2dRSA=+0.68 coordProbeR²=+0.46  nbr_mass@250=0.65
+[Qwen/ring/clean] rawRSA=+0.82 best2dRSA=+0.95 coordProbeR²=+0.95  nbr_mass@250=0.96
+[Qwen/ring/ablate_induction] rawRSA=+0.89 best2dRSA=+0.97 coordProbeR²=+0.96  nbr_mass@250=0.78
+[Qwen/ring/ablate_random] rawRSA=+0.61 best2dRSA=+0.95 coordProbeR²=+0.76  nbr_mass@250=0.77
+DONE -> runs/induction-head/ablation_probe_qk/ablation.json + induction_ablation.pdf
+[20:15:44] START ablation_probe HEADS_MODE=qk (Gemma)
+[Gemma] loading
+[Gemma] google/gemma-2-9b unavailable (OSError); mirror unsloth/gemma-2-9b
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 12203.22it/s]
+[Gemma] ablating 15 heads (mode=qk, QK_THRESH=None): [(15, 3), (7, 1), (30, 9), (28, 6), (32, 5), (28, 2), (11, 2), (31, 15)]...
+[Gemma/square_grid/clean] rawRSA=+0.69 best2dRSA=+0.87 coordProbeR²=+0.76  nbr_mass@250=0.68
+[Gemma/square_grid/ablate_induction] rawRSA=+0.70 best2dRSA=+0.86 coordProbeR²=+0.79  nbr_mass@250=0.46
+[Gemma/square_grid/ablate_random] rawRSA=+0.66 best2dRSA=+0.87 coordProbeR²=+0.75  nbr_mass@250=0.63
+[Gemma/ring/clean] rawRSA=+0.84 best2dRSA=+0.98 coordProbeR²=+0.95  nbr_mass@250=0.82
+[Gemma/ring/ablate_induction] rawRSA=+0.87 best2dRSA=+0.97 coordProbeR²=+0.97  nbr_mass@250=0.56
+[Gemma/ring/ablate_random] rawRSA=+0.83 best2dRSA=+0.98 coordProbeR²=+0.96  nbr_mass@250=0.76
+DONE -> runs/induction-head/ablation_probe_qk/ablation.json + induction_ablation.pdf
+[20:16:29] END ablation_probe HEADS_MODE=qk
+[20:16:29] START ablation_probe HEADS_MODE=dla (Llama,Qwen)
+[Llama] loading
+[Llama] meta-llama/Llama-3.1-8B unavailable (OSError); mirror NousResearch/Meta-Llama-3.1-8B
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 24506.42it/s]
+[Llama] ablating 15 heads (mode=dla, QK_THRESH=None): [(25, 7), (26, 12), (27, 7), (30, 12), (27, 20), (31, 0), (25, 6), (22, 29)]...
+[Llama/square_grid/clean] rawRSA=+0.42 best2dRSA=+0.85 coordProbeR²=+0.69  nbr_mass@250=0.86
+[Llama/square_grid/ablate_induction] rawRSA=+0.42 best2dRSA=+0.83 coordProbeR²=+0.60  nbr_mass@250=0.63
+[Llama/square_grid/ablate_random] rawRSA=+0.44 best2dRSA=+0.86 coordProbeR²=+0.69  nbr_mass@250=0.89
+[Llama/ring/clean] rawRSA=+0.77 best2dRSA=+0.96 coordProbeR²=+0.94  nbr_mass@250=0.94
+[Llama/ring/ablate_induction] rawRSA=+0.70 best2dRSA=+0.94 coordProbeR²=+0.90  nbr_mass@250=0.76
+[Llama/ring/ablate_random] rawRSA=+0.72 best2dRSA=+0.96 coordProbeR²=+0.93  nbr_mass@250=0.96
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11753.95it/s]
+[Qwen] ablating 15 heads (mode=dla, QK_THRESH=None): [(33, 9), (32, 3), (33, 20), (32, 0), (34, 0), (33, 23), (32, 8), (33, 30)]...
+[Qwen/square_grid/clean] rawRSA=+0.18 best2dRSA=+0.70 coordProbeR²=+0.65  nbr_mass@250=0.80
+[Qwen/square_grid/ablate_induction] rawRSA=+0.18 best2dRSA=+0.63 coordProbeR²=+0.62  nbr_mass@250=0.47
+[Qwen/square_grid/ablate_random] rawRSA=+0.40 best2dRSA=+0.68 coordProbeR²=+0.51  nbr_mass@250=0.70
+[Qwen/ring/clean] rawRSA=+0.82 best2dRSA=+0.95 coordProbeR²=+0.95  nbr_mass@250=0.96
+[Qwen/ring/ablate_induction] rawRSA=+0.75 best2dRSA=+0.96 coordProbeR²=+0.92  nbr_mass@250=0.82
+[Qwen/ring/ablate_random] rawRSA=+0.68 best2dRSA=+0.95 coordProbeR²=+0.82  nbr_mass@250=0.85
+DONE -> runs/induction-head/ablation_probe_dla/ablation.json + induction_ablation.pdf
+[20:17:56] START ablation_probe HEADS_MODE=dla (Gemma)
+[Gemma] loading
+[Gemma] google/gemma-2-9b unavailable (OSError); mirror unsloth/gemma-2-9b
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13017.51it/s]
+[Gemma] ablating 15 heads (mode=dla, QK_THRESH=None): [(35, 1), (34, 14), (35, 0), (32, 15), (0, 1), (28, 2), (33, 14), (1, 4)]...
+[Gemma/square_grid/clean] rawRSA=+0.69 best2dRSA=+0.87 coordProbeR²=+0.76  nbr_mass@250=0.68
+[Gemma/square_grid/ablate_induction] rawRSA=+0.60 best2dRSA=+0.84 coordProbeR²=+0.75  nbr_mass@250=0.50
+[Gemma/square_grid/ablate_random] rawRSA=+0.71 best2dRSA=+0.86 coordProbeR²=+0.75  nbr_mass@250=0.67
+[Gemma/ring/clean] rawRSA=+0.84 best2dRSA=+0.98 coordProbeR²=+0.95  nbr_mass@250=0.82
+[Gemma/ring/ablate_induction] rawRSA=+0.79 best2dRSA=+0.97 coordProbeR²=+0.94  nbr_mass@250=0.57
+[Gemma/ring/ablate_random] rawRSA=+0.83 best2dRSA=+0.98 coordProbeR²=+0.95  nbr_mass@250=0.81
+DONE -> runs/induction-head/ablation_probe_dla/ablation.json + induction_ablation.pdf
+[20:18:41] END ablation_probe HEADS_MODE=dla
+[20:18:41] START steer_probe square_grid (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 14373.70it/s]
+[Llama] L*=25 probeR²=0.45 alpha=1000 dev=10.0
+[Llama/square_grid] s=2 probe dE(on-axis)=[+1.851,+1.716] leak=[+0.146,-0.011] random=[+0.012,+0.156]
+[Llama/square_grid] s=4 probe dE(on-axis)=[+1.975,+1.994] leak=[+0.074,-0.254] random=[-0.133,+0.224]
+[Llama/square_grid] s=8 probe dE(on-axis)=[+2.073,+1.943] leak=[+0.534,-0.081] random=[-0.327,+0.551]
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9850.88it/s]
+[Qwen] L*=16 probeR²=0.11 alpha=1000 dev=33.1
+[Qwen/square_grid] s=2 probe dE(on-axis)=[+0.116,+0.414] leak=[+0.056,+0.126] random=[+0.008,-0.009]
+[Qwen/square_grid] s=4 probe dE(on-axis)=[+0.386,+1.063] leak=[+0.256,-0.105] random=[+0.364,-0.054]
+[Qwen/square_grid] s=8 probe dE(on-axis)=[+0.895,+1.503] leak=[+1.360,-0.321] random=[+0.511,-0.767]
+DONE -> runs/induction-head/steer_probe/steer_probe_square_grid.json
+[20:19:50] START steer_probe square_grid (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 12145.04it/s]
+[Gemma] L*=18 probeR²=0.11 alpha=1000 dev=61.9
+[Gemma/square_grid] s=2 probe dE(on-axis)=[+0.224,+0.301] leak=[+0.023,+0.020] random=[+0.007,+0.011]
+[Gemma/square_grid] s=4 probe dE(on-axis)=[+0.517,+0.574] leak=[+0.015,+0.085] random=[-0.085,+0.030]
+[Gemma/square_grid] s=8 probe dE(on-axis)=[+1.181,+1.667] leak=[+0.348,+0.476] random=[-0.169,+0.171]
+DONE -> runs/induction-head/steer_probe/steer_probe_square_grid.json
+[20:20:32] END steer_probe square_grid
+[20:20:32] START steer_probe ring (Llama,Qwen)
+[Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12613.21it/s]
+[Llama] L*=25 probeR²=0.63 alpha=1000 dev=10.7
+[Llama/ring] s=2 probe dE(on-axis)=[+1.335,+1.416] leak=[+0.093,+0.036] random=[+0.064,-0.024]
+[Llama/ring] s=4 probe dE(on-axis)=[+1.609,+1.733] leak=[+0.225,+0.043] random=[+0.176,-0.040]
+[Llama/ring] s=8 probe dE(on-axis)=[+1.635,+1.772] leak=[+0.766,+0.474] random=[+0.527,-0.067]
+[Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11226.75it/s]
+[Qwen] L*=18 probeR²=0.25 alpha=1000 dev=35.1
+[Qwen/ring] s=2 probe dE(on-axis)=[+0.042,+0.021] leak=[-0.003,+0.043] random=[-0.032,-0.007]
+[Qwen/ring] s=4 probe dE(on-axis)=[+0.338,+0.214] leak=[+0.148,+0.127] random=[-0.083,-0.226]
+[Qwen/ring] s=8 probe dE(on-axis)=[+0.534,+0.359] leak=[+0.340,+0.088] random=[-0.443,-0.824]
+DONE -> runs/induction-head/steer_probe/steer_probe_ring.json
+[20:21:42] START steer_probe ring (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 10583.79it/s]
+[Gemma] L*=33 probeR²=0.25 alpha=1000 dev=130.0
+[Gemma/ring] s=2 probe dE(on-axis)=[+1.349,+1.310] leak=[+0.175,+0.022] random=[-0.098,+0.004]
+[Gemma/ring] s=4 probe dE(on-axis)=[+1.561,+1.663] leak=[+0.416,-0.119] random=[-0.251,+0.050]
+[Gemma/ring] s=8 probe dE(on-axis)=[+1.519,+1.734] leak=[+0.974,-0.150] random=[-0.613,+0.510]
+DONE -> runs/induction-head/steer_probe/steer_probe_ring.json
+[20:22:24] END steer_probe ring
+[20:22:24] ALL_DONE

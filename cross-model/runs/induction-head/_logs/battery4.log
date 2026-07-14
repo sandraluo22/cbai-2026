@@ -1,0 +1,131 @@
+[01:02:28] START injection Llama->Qwen square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13332.27it/s]
+[A=Llama] LA_sweep=[6, 11, 16, 20, 25, 29] probeR²=[0.04, 0.23, 0.19, 0.03, 0.45, 0.53]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11128.66it/s]
+[B=Qwen] native peak L34 R²=0.49 beh=0.66 LB_sweep=[5, 9, 13, 17, 21, 25, 29, 33]
+[Llama->Qwen] LA=6: behRatio=[0.97 1.18 1.12 1.09 0.9  0.89 0.91 1.  ]
+[Llama->Qwen] LA=11: behRatio=[0.89 1.13 1.07 1.05 0.87 0.88 0.9  0.98]
+[Llama->Qwen] LA=16: behRatio=[1.04 1.2  1.14 1.09 0.9  0.92 0.94 1.04]
+[Llama->Qwen] LA=20: behRatio=[1.05 1.2  1.15 1.09 0.88 0.91 0.93 1.05]
+[Llama->Qwen] LA=25: behRatio=[1.04 1.2  1.15 1.09 0.89 0.91 0.94 1.04]
+[Llama->Qwen] LA=29: behRatio=[1.01 1.2  1.14 1.1  0.89 0.91 0.93 1.04]
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_square_grid.json
+[01:10:15] START injection Qwen->Llama square_grid
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 14849.40it/s]
+[A=Qwen] LA_sweep=[7, 12, 18, 23, 28, 33] probeR²=[-0.07, -0.06, 0.16, 0.05, -0.02, 0.47]
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 10492.61it/s]
+[B=Llama] native peak L31 R²=0.62 beh=0.84 LB_sweep=[5, 8, 12, 15, 19, 22, 26, 29]
+[Qwen->Llama] LA=7: behRatio=[1.03 1.06 1.04 0.93 0.88 0.85 0.89 0.93]
+[Qwen->Llama] LA=12: behRatio=[1.03 1.05 1.03 0.92 0.88 0.85 0.89 0.92]
+[Qwen->Llama] LA=18: behRatio=[0.96 0.95 0.94 0.83 0.81 0.8  0.83 0.85]
+[Qwen->Llama] LA=23: behRatio=[1.04 1.04 1.02 0.89 0.85 0.82 0.85 0.89]
+[Qwen->Llama] LA=28: behRatio=[1.03 1.02 1.   0.89 0.85 0.82 0.86 0.9 ]
+[Qwen->Llama] LA=33: behRatio=[1.02 0.99 0.98 0.85 0.82 0.8  0.83 0.88]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_square_grid.json
+[01:17:10] END injection square_grid
+[01:17:10] START injection Llama->Qwen ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 34180.25it/s]
+[A=Llama] LA_sweep=[6, 11, 16, 20, 25, 29] probeR²=[0.08, 0.21, 0.2, 0.15, 0.63, 0.73]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10505.31it/s]
+[B=Qwen] native peak L35 R²=0.80 beh=0.88 LB_sweep=[5, 9, 13, 17, 21, 25, 29, 33]
+[Llama->Qwen] LA=6: behRatio=[0.98 1.05 1.06 1.06 0.85 0.82 0.82 0.93]
+[Llama->Qwen] LA=11: behRatio=[0.86 0.96 0.98 0.99 0.76 0.73 0.75 0.88]
+[Llama->Qwen] LA=16: behRatio=[1.01 1.05 1.06 1.06 0.89 0.86 0.88 0.98]
+[Llama->Qwen] LA=20: behRatio=[1.01 1.05 1.07 1.07 0.89 0.86 0.89 0.98]
+[Llama->Qwen] LA=25: behRatio=[1.01 1.05 1.05 1.06 0.87 0.84 0.88 0.97]
+[Llama->Qwen] LA=29: behRatio=[0.99 1.03 1.01 1.04 0.83 0.82 0.85 0.96]
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_ring.json
+[01:24:51] START injection Qwen->Llama ring
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 14334.16it/s]
+[A=Qwen] LA_sweep=[7, 12, 18, 23, 28, 33] probeR²=[-0.04, 0.01, 0.34, 0.21, 0.2, 0.77]
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 10988.35it/s]
+[B=Llama] native peak L31 R²=0.83 beh=0.89 LB_sweep=[5, 8, 12, 15, 19, 22, 26, 29]
+[Qwen->Llama] LA=7: behRatio=[1.04 1.04 1.02 0.78 0.81 0.81 0.92 0.97]
+[Qwen->Llama] LA=12: behRatio=[1.02 1.04 1.01 0.78 0.81 0.82 0.92 0.98]
+[Qwen->Llama] LA=18: behRatio=[0.91 0.95 0.9  0.72 0.74 0.76 0.84 0.89]
+[Qwen->Llama] LA=23: behRatio=[1.02 1.02 1.01 0.79 0.82 0.82 0.91 0.97]
+[Qwen->Llama] LA=28: behRatio=[1.03 1.04 1.02 0.8  0.84 0.85 0.92 0.98]
+[Qwen->Llama] LA=33: behRatio=[0.99 0.96 0.98 0.73 0.78 0.78 0.89 0.96]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_ring.json
+[01:31:42] END injection ring
+[01:31:42] START composition square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12313.66it/s]
+[A] sampled gen validity (n=max) ~ 0.58
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 14248.24it/s]
+[compose n=0] B peak geomR²=+0.41 B_final_nbr=nan Aval=nan
+[compose n=8] B peak geomR²=+0.41 B_final_nbr=0.67 Aval=0.77
+[compose n=16] B peak geomR²=+0.43 B_final_nbr=0.69 Aval=0.77
+[compose n=32] B peak geomR²=+0.42 B_final_nbr=0.64 Aval=0.68
+[compose n=64] B peak geomR²=+0.41 B_final_nbr=0.59 Aval=0.60
+[compose n=128] B peak geomR²=+0.39 B_final_nbr=0.56 Aval=0.58
+DONE -> runs/composition/composition_Llama_to_Qwen_square_grid.json
+[01:35:18] END composition square_grid
+[01:35:18] START composition ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12670.96it/s]
+[A] sampled gen validity (n=max) ~ 0.56
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10191.01it/s]
+[compose n=0] B peak geomR²=+0.79 B_final_nbr=nan Aval=nan
+[compose n=8] B peak geomR²=+0.79 B_final_nbr=0.77 Aval=0.77
+[compose n=16] B peak geomR²=+0.79 B_final_nbr=0.75 Aval=0.73
+[compose n=32] B peak geomR²=+0.79 B_final_nbr=0.68 Aval=0.65
+[compose n=64] B peak geomR²=+0.75 B_final_nbr=0.64 Aval=0.61
+[compose n=128] B peak geomR²=+0.65 B_final_nbr=0.58 Aval=0.56
+DONE -> runs/composition/composition_Llama_to_Qwen_ring.json
+[01:38:55] END composition ring
+[01:38:55] START dynamic remove (Llama,Qwen)
+[Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 21195.49it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[Llama] L_read=31 switch=remove
+[Llama] P(R) base=0.197 -> 0.229..0.089  geom +0.60->+0.65
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11693.34it/s]
+[Qwen] L_read=34 switch=remove
+[Qwen] P(R) base=0.054 -> 0.036..0.008  geom +0.51->+0.58
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[01:39:49] START dynamic remove (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11277.75it/s]
+[Gemma] L_read=40 switch=remove
+[Gemma] P(R) base=0.126 -> 0.145..0.052  geom +0.55->+0.59
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[01:40:20] END dynamic remove
+[01:40:20] START dynamic swap (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13010.24it/s]
+[Llama] L_read=31 switch=swap
+[Llama] swap apple<->math: orig +0.50->+0.42  swapped +0.55->+0.62
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9124.22it/s]
+[Qwen] L_read=34 switch=swap
+[Qwen] swap apple<->math: orig +0.44->+0.45  swapped +0.48->+0.53
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[01:41:21] START dynamic swap (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 10267.47it/s]
+[Gemma] L_read=40 switch=swap
+[Gemma] swap apple<->math: orig +0.42->+0.40  swapped +0.52->+0.59
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[01:41:55] END dynamic swap
+[01:41:55] ALL_DONE

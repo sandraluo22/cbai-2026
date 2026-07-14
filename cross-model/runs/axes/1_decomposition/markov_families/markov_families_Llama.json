@@ -1,0 +1,63 @@
+{
+  "model": "Llama",
+  "N": 16,
+  "seed": 0,
+  "families": {
+    "grid": {
+      "nbr_mass": 0.814751447371828,
+      "validity": 0.9931666666666666,
+      "n_pred": 12000,
+      "edges": 24,
+      "mean_deg": 3.0,
+      "min_occ": 465
+    },
+    "ring": {
+      "nbr_mass": 0.8743398737121995,
+      "validity": 0.9910833333333333,
+      "n_pred": 12000,
+      "edges": 16,
+      "mean_deg": 2.0,
+      "min_occ": 689
+    },
+    "er_random": {
+      "nbr_mass": 0.696100859714672,
+      "validity": 0.9628333333333333,
+      "n_pred": 12000,
+      "edges": 32,
+      "mean_deg": 4.0,
+      "min_occ": 182
+    },
+    "sbm2": {
+      "nbr_mass": 0.6469487280516575,
+      "validity": 0.8239166666666666,
+      "n_pred": 12000,
+      "edges": 54,
+      "mean_deg": 6.75,
+      "min_occ": 480
+    },
+    "sbm4": {
+      "nbr_mass": 0.7039670702957859,
+      "validity": 0.9615833333333333,
+      "n_pred": 12000,
+      "edges": 33,
+      "mean_deg": 4.125,
+      "min_occ": 323
+    },
+    "tree": {
+      "nbr_mass": 0.9034484745133669,
+      "validity": 0.9925,
+      "n_pred": 12000,
+      "edges": 15,
+      "mean_deg": 1.875,
+      "min_occ": 345
+    },
+    "smallworld": {
+      "nbr_mass": 0.7306670499766866,
+      "validity": 0.9730833333333333,
+      "n_pred": 12000,
+      "edges": 30,
+      "mean_deg": 3.75,
+      "min_occ": 559
+    }
+  }
+}

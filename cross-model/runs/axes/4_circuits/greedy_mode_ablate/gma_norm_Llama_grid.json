@@ -1,0 +1,85 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "lap": "norm",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "mode_labels": {
+    "1": "coord",
+    "2": "coord",
+    "3": "other",
+    "4": "other",
+    "5": "other",
+    "6": "other",
+    "7": "other",
+    "8": "other",
+    "9": "other",
+    "10": "other",
+    "11": "other",
+    "12": "other",
+    "13": "other",
+    "14": "other",
+    "15": "parity"
+  },
+  "eigvals": [
+    -2.541098841762901e-16,
+    0.2182640400294284,
+    0.2182640400294286,
+    0.49999999999999967,
+    0.6666666666666662,
+    0.6666666666666665,
+    0.9999999999999991,
+    0.9999999999999999,
+    1.0,
+    1.0,
+    1.3333333333333333,
+    1.3333333333333333,
+    1.4999999999999998,
+    1.7817359599705709,
+    1.7817359599705718,
+    2.0
+  ],
+  "greedy": [
+    {
+      "step": 0,
+      "mode": null,
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9953125,
+      "n_pred": 3200
+    },
+    {
+      "step": 1,
+      "mode": 14,
+      "lambda": 1.7817359599705718,
+      "label": "other",
+      "neighbour_validity": 0.636875,
+      "parity_validity": 0.6953125,
+      "n_pred": 3200
+    },
+    {
+      "step": 2,
+      "mode": 11,
+      "lambda": 1.3333333333333333,
+      "label": "other",
+      "neighbour_validity": 0.3259375,
+      "parity_validity": 0.530625,
+      "n_pred": 3200
+    },
+    {
+      "step": 3,
+      "mode": 2,
+      "lambda": 0.2182640400294286,
+      "label": "coord",
+      "neighbour_validity": 0.206875,
+      "parity_validity": 0.5128125,
+      "n_pred": 3200
+    }
+  ],
+  "chosen_modes": [
+    14,
+    11,
+    2
+  ]
+}

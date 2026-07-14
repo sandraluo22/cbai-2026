@@ -1,0 +1,9 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 9103.70it/s]
+[Llama] L*=13 best2dRSA=0.53
+[Llama] 0->12: clean(Y=0.01) | full(Y=0.39) | plane(Y=0.02) | plane_big(Y=0.03) | rand_big(Y=0.01)  [|plane|/|full|=0.48]
+[Llama] 3->15: clean(Y=0.07) | full(Y=0.42) | plane(Y=0.10) | plane_big(Y=0.17) | rand_big(Y=0.06)  [|plane|/|full|=0.56]
+[Llama] 0->15: clean(Y=0.01) | full(Y=0.35) | plane(Y=0.05) | plane_big(Y=0.13) | rand_big(Y=0.01)  [|plane|/|full|=0.67]
+[Llama] 5->10: clean(Y=0.43) | full(Y=0.74) | plane(Y=0.46) | plane_big(Y=0.56) | rand_big(Y=0.45)  [|plane|/|full|=0.43]
+DONE -> runs/induction-head/steer_normmatched/steer_square_grid.json

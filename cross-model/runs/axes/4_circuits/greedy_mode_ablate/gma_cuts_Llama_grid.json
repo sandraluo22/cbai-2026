@@ -1,0 +1,93 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "basis": "cuts",
+  "lap": "norm",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "mode_meta": {
+    "x": {
+      "lam": null,
+      "label": "x"
+    },
+    "y": {
+      "lam": null,
+      "label": "y"
+    },
+    "diagonal": {
+      "lam": null,
+      "label": "diagonal"
+    },
+    "anti-diagonal": {
+      "lam": null,
+      "label": "anti-diagonal"
+    },
+    "parity": {
+      "lam": null,
+      "label": "parity"
+    }
+  },
+  "greedy": [
+    {
+      "step": 0,
+      "mode": null,
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9953125,
+      "n_pred": 3200
+    },
+    {
+      "step": 1,
+      "mode": "parity",
+      "lambda": null,
+      "label": "parity",
+      "neighbour_validity": 0.738125,
+      "parity_validity": 0.740625,
+      "n_pred": 3200
+    },
+    {
+      "step": 2,
+      "mode": "diagonal",
+      "lambda": null,
+      "label": "diagonal",
+      "neighbour_validity": 0.595,
+      "parity_validity": 0.631875,
+      "n_pred": 3200
+    },
+    {
+      "step": 3,
+      "mode": "y",
+      "lambda": null,
+      "label": "y",
+      "neighbour_validity": 0.558125,
+      "parity_validity": 0.595,
+      "n_pred": 3200
+    },
+    {
+      "step": 4,
+      "mode": "x",
+      "lambda": null,
+      "label": "x",
+      "neighbour_validity": 0.5559375,
+      "parity_validity": 0.5878125,
+      "n_pred": 3200
+    },
+    {
+      "step": 5,
+      "mode": "anti-diagonal",
+      "lambda": null,
+      "label": "anti-diagonal",
+      "neighbour_validity": 0.525625,
+      "parity_validity": 0.566875,
+      "n_pred": 3200
+    }
+  ],
+  "chosen_modes": [
+    "parity",
+    "diagonal",
+    "y",
+    "x",
+    "anti-diagonal"
+  ]
+}

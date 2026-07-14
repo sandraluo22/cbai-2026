@@ -1,0 +1,278 @@
+{
+  "model": "Gemma",
+  "graph": "square_grid",
+  "n_union": 16,
+  "union_heads": [
+    [
+      32,
+      11
+    ],
+    [
+      22,
+      14
+    ],
+    [
+      15,
+      12
+    ],
+    [
+      31,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      31,
+      4
+    ],
+    [
+      20,
+      9
+    ],
+    [
+      27,
+      2
+    ],
+    [
+      27,
+      13
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      15,
+      13
+    ],
+    [
+      15,
+      7
+    ],
+    [
+      32,
+      10
+    ],
+    [
+      27,
+      14
+    ],
+    [
+      26,
+      11
+    ]
+  ],
+  "random_heads": [
+    [
+      12,
+      8
+    ],
+    [
+      26,
+      0
+    ],
+    [
+      20,
+      15
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      30,
+      10
+    ],
+    [
+      25,
+      4
+    ],
+    [
+      34,
+      0
+    ],
+    [
+      38,
+      3
+    ],
+    [
+      35,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      40,
+      11
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      41,
+      12
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      26,
+      15
+    ]
+  ],
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "conditions": {
+    "clean": {
+      "neighbour_validity": 0.9915625,
+      "neighbour_mass": 0.6351625201990828,
+      "parity_validity": 0.9925,
+      "parity_mass": 0.747582363029942,
+      "n_pred": 3200
+    },
+    "coord_only": {
+      "neighbour_validity": 0.92125,
+      "neighbour_mass": 0.5554232273320667,
+      "parity_validity": 0.9521875,
+      "parity_mass": 0.758029736848548,
+      "n_pred": 3200
+    },
+    "parity_only": {
+      "neighbour_validity": 0.631875,
+      "neighbour_mass": 0.5202940814942122,
+      "parity_validity": 0.6328125,
+      "parity_mass": 0.568481164034456,
+      "n_pred": 3200
+    },
+    "both_union": {
+      "neighbour_validity": 0.88,
+      "neighbour_mass": 0.4809703234490007,
+      "parity_validity": 0.8953125,
+      "parity_mass": 0.6395362605806441,
+      "n_pred": 3200
+    },
+    "random_ctrl": {
+      "neighbour_validity": 0.9709375,
+      "neighbour_mass": 0.605419051987119,
+      "parity_validity": 0.9840625,
+      "parity_mass": 0.7350102563388645,
+      "n_pred": 3200
+    }
+  },
+  "progressive_union": [
+    {
+      "step": 0,
+      "neighbour_validity": 0.9915625,
+      "neighbour_mass": 0.6351625201990828,
+      "parity_validity": 0.9925,
+      "parity_mass": 0.747582363029942,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9915625,
+      "rand_par_v": 0.9925
+    },
+    {
+      "step": 1,
+      "n_heads": 2,
+      "neighbour_validity": 0.959375,
+      "neighbour_mass": 0.5164444169169292,
+      "parity_validity": 0.9628125,
+      "parity_mass": 0.6677235637232661,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9911458333333334,
+      "rand_par_v": 0.9919791666666667
+    },
+    {
+      "step": 2,
+      "n_heads": 4,
+      "neighbour_validity": 0.835625,
+      "neighbour_mass": 0.38248628173256294,
+      "parity_validity": 0.864375,
+      "parity_mass": 0.5827582715079188,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9885416666666668,
+      "rand_par_v": 0.9904166666666666
+    },
+    {
+      "step": 3,
+      "n_heads": 6,
+      "neighbour_validity": 0.791875,
+      "neighbour_mass": 0.36144656205317005,
+      "parity_validity": 0.84125,
+      "parity_mass": 0.576098074875772,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9888541666666666,
+      "rand_par_v": 0.9896874999999999
+    },
+    {
+      "step": 4,
+      "n_heads": 8,
+      "neighbour_validity": 0.7153125,
+      "neighbour_mass": 0.35120066200965083,
+      "parity_validity": 0.7765625,
+      "parity_mass": 0.5674988233204931,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9807291666666668,
+      "rand_par_v": 0.9824999999999999
+    },
+    {
+      "step": 5,
+      "n_heads": 10,
+      "neighbour_validity": 0.8290625,
+      "neighbour_mass": 0.4200836609886028,
+      "parity_validity": 0.866875,
+      "parity_mass": 0.6192939146980643,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9890625000000001,
+      "rand_par_v": 0.9913541666666666
+    },
+    {
+      "step": 6,
+      "n_heads": 12,
+      "neighbour_validity": 0.821875,
+      "neighbour_mass": 0.3964419801172335,
+      "parity_validity": 0.8634375,
+      "parity_mass": 0.6061746605113149,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9842708333333333,
+      "rand_par_v": 0.9865625000000001
+    },
+    {
+      "step": 7,
+      "n_heads": 14,
+      "neighbour_validity": 0.8965625,
+      "neighbour_mass": 0.48054189128335567,
+      "parity_validity": 0.9084375,
+      "parity_mass": 0.6477964065782725,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9904166666666666,
+      "rand_par_v": 0.9913541666666666
+    },
+    {
+      "step": 8,
+      "n_heads": 16,
+      "neighbour_validity": 0.88,
+      "neighbour_mass": 0.4809703234490007,
+      "parity_validity": 0.8953125,
+      "parity_mass": 0.6395362605806441,
+      "n_pred": 3200,
+      "rand_nbr_v": 0.9909374999999999,
+      "rand_par_v": 0.9915625
+    }
+  ]
+}

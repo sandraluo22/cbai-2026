@@ -1,0 +1,19 @@
+[20:10:38] START coord_decode gridnull hex (Llama,Qwen)
+[20:12:03] START coord_decode gridnull hex (Gemma)
+[20:12:54] END coord_decode gridnull hex
+[20:12:54] START coord_decode gridnull days (Llama,Qwen)
+[20:13:43] START coord_decode gridnull days (Gemma)
+[20:14:15] END coord_decode gridnull days
+[20:14:15] START ablation_probe HEADS_MODE=qk (Llama,Qwen)
+[20:15:44] START ablation_probe HEADS_MODE=qk (Gemma)
+[20:16:29] END ablation_probe HEADS_MODE=qk
+[20:16:29] START ablation_probe HEADS_MODE=dla (Llama,Qwen)
+[20:17:56] START ablation_probe HEADS_MODE=dla (Gemma)
+[20:18:41] END ablation_probe HEADS_MODE=dla
+[20:18:41] START steer_probe square_grid (Llama,Qwen)
+[20:19:50] START steer_probe square_grid (Gemma)
+[20:20:32] END steer_probe square_grid
+[20:20:32] START steer_probe ring (Llama,Qwen)
+[20:21:42] START steer_probe ring (Gemma)
+[20:22:24] END steer_probe ring
+[20:22:24] ALL_DONE

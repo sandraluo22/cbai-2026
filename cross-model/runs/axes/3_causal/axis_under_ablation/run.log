@@ -1,0 +1,8 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:00, 746.62it/s]Loading weights:  52%|█████▏    | 151/291 [00:00<00:00, 692.30it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1220.13it/s]
+[Llama/square_grid/clean] peak axis power  x=0.120 y=0.170 parity=0.298
+[Llama/square_grid/ablate_induction] peak axis power  x=0.200 y=0.218 parity=0.154
+[Llama/square_grid/ablate_dla] peak axis power  x=0.111 y=0.173 parity=0.309
+[Llama/square_grid/ablate_random] peak axis power  x=0.131 y=0.180 parity=0.262
+DONE -> runs/induction-head/2_probes/axis_under_ablation/axis_under_ablation_square_grid.json

@@ -1,0 +1,9 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 73/291 [00:00<00:00, 709.83it/s]Loading weights:  63%|██████▎   | 182/291 [00:00<00:00, 913.83it/s]Loading weights:  94%|█████████▍| 274/291 [00:00<00:00, 895.40it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 930.05it/s]
+[Llama] KGROUP=15  induction⊂[2, 5, 8, 10, 15, 16, 19, 20, 22, 24, 26, 27]  dla⊂[22, 23, 24, 25, 26, 27, 30, 31]
+[Llama/square_grid/clean] nbr 0.83->0.78  val 0.80->0.79  geom_peak 0.60 (final win 0.22)
+[Llama/square_grid/ablate_induction] nbr 0.34->0.23  val 0.37->0.21  geom_peak 0.35 (final win 0.25)
+[Llama/square_grid/ablate_dla] nbr 0.75->0.60  val 0.71->0.59  geom_peak -0.21 (final win -0.36)
+[Llama/square_grid/ablate_random] nbr 0.71->0.62  val 0.65->0.64  geom_peak 0.52 (final win 0.52)
+DONE -> runs/induction-head/gen_head_ablation/gen_head_ablation_square_grid.json

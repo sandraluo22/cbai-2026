@@ -36,32 +36,32 @@ def main():
             data[m] = {"layers": layers, "rdms": rdms, "deep": deep}
 
         os.makedirs(f"{P.gdir(gname)}/slides", exist_ok=True)
-        with PdfPages(f"{P.gdir(gname)}/slides/cross_model_rsa_significance.pdf") as pdf:
-            for A, B in PAIRS:
-                La, Lb = data[A]["layers"], data[B]["layers"]
-                H = np.array([[sp(data[A]["rdms"][a][iu], data[B]["rdms"][b][iu])
-                               for b in Lb] for a in La])
-                t95, _ = perm_null(data[A]["rdms"][data[A]["deep"]],
-                                   data[B]["rdms"][data[B]["deep"]], n)
-                S = H - t95                                    # significance margin
-                vmax = max(0.05, float(np.nanmax(np.abs(S))))
-                norm = TwoSlopeNorm(vmin=-vmax, vcenter=0.0, vmax=vmax)
-                fig, ax = plt.subplots(figsize=(8, 7))
-                im = ax.imshow(S, origin="lower", aspect="auto", cmap="RdBu_r", norm=norm,
-                               extent=[Lb[0]-.5, Lb[-1]+.5, La[0]-.5, La[-1]+.5])
-                bi, bj = np.unravel_index(int(np.nanargmax(S)), S.shape)
-                ax.plot(Lb[bj], La[bi], "k*", ms=12)
-                ax.set_xlabel(f"{B} layer"); ax.set_ylabel(f"{A} layer")
-                frac = float((S > 0).mean()) * 100
-                ax.set_title(f"{gname} (n={n}): {A} vs {B}  RSA − perm-null95 ({t95:.2f})\n"
-                             f"red = above chance (significant); {frac:.0f}% of cells significant",
-                             fontsize=9)
-                fig.colorbar(im, label="RSA − null95   (>0 significant)")
-                fig.tight_layout()
-                png = f"{P.gdir(gname)}/rsa_sig_{A}_{B}.png"
-                fig.savefig(png, dpi=130); all_pngs.append(png)
-                pdf.savefig(fig); plt.close(fig)
-                print(f"{gname} {A}x{B}: null95={t95:.2f}, {frac:.0f}% significant")
+        # 3 model-pairs as 3 subplots in ONE slide (was one page per pair)
+        fig, axes = plt.subplots(1, len(PAIRS), figsize=(6.6 * len(PAIRS), 6.2))
+        for ax, (A, B) in zip(np.atleast_1d(axes), PAIRS):
+            La, Lb = data[A]["layers"], data[B]["layers"]
+            H = np.array([[sp(data[A]["rdms"][a][iu], data[B]["rdms"][b][iu])
+                           for b in Lb] for a in La])
+            t95, _ = perm_null(data[A]["rdms"][data[A]["deep"]],
+                               data[B]["rdms"][data[B]["deep"]], n)
+            S = H - t95                                    # significance margin
+            vmax = max(0.05, float(np.nanmax(np.abs(S))))
+            norm = TwoSlopeNorm(vmin=-vmax, vcenter=0.0, vmax=vmax)
+            im = ax.imshow(S, origin="lower", aspect="auto", cmap="RdBu_r", norm=norm,
+                           extent=[Lb[0]-.5, Lb[-1]+.5, La[0]-.5, La[-1]+.5])
+            bi, bj = np.unravel_index(int(np.nanargmax(S)), S.shape)
+            ax.plot(Lb[bj], La[bi], "k*", ms=12)
+            ax.set_xlabel(f"{B} layer"); ax.set_ylabel(f"{A} layer")
+            frac = float((S > 0).mean()) * 100
+            ax.set_title(f"{A} vs {B}  (null95={t95:.2f}; {frac:.0f}% sig)", fontsize=9)
+            fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04, label="RSA − null95   (>0 sig)")
+            print(f"{gname} {A}x{B}: null95={t95:.2f}, {frac:.0f}% significant")
+        fig.suptitle(f"{gname} (n={n}): cross-model RSA − perm-null95   "
+                     f"(red = above chance / significant)", fontsize=12)
+        fig.tight_layout(rect=[0, 0, 1, 0.95])
+        fig.savefig(f"{P.gdir(gname)}/slides/cross_model_rsa_significance.pdf")
+        png = f"{P.gdir(gname)}/rsa_sig_3panel.png"
+        fig.savefig(png, dpi=130); all_pngs.append(png); plt.close(fig)
 
     os.makedirs(f"{P.ROOT}/slides", exist_ok=True)
     png_to_pdf(all_pngs, f"{P.ROOT}/slides/all_cross_model_rsa_significance.pdf")

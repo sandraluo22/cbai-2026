@@ -161,15 +161,23 @@ def main():
             v_full = (H[Y] - H[X]) * ALPHA
             v_plane = (B @ (B.T @ (H[Y] - H[X]))) * ALPHA
             v_rand = RNG.standard_normal(H.shape[1]); v_rand *= np.linalg.norm(v_plane) / (np.linalg.norm(v_rand) + 1e-9)
+            # NORM-MATCHED-TO-FULL variants: push ONLY in the geometry plane, but scaled to |v_full|
+            # (plane above is norm-limited to the low-variance in-plane component -> unfair sufficiency test).
+            fn = np.linalg.norm(v_full)
+            vp = B @ (B.T @ (H[Y] - H[X]))
+            v_plane_big = vp * (fn / (np.linalg.norm(vp) + 1e-9))
+            v_rand_big = RNG.standard_normal(H.shape[1]); v_rand_big *= fn / (np.linalg.norm(v_rand_big) + 1e-9)
             res = {"nbrX": nbrX, "nbrY": nbrY}
-            for cname, vec in [("clean", None), ("full", v_full), ("plane", v_plane), ("rand", v_rand)]:
+            for cname, vec in [("clean", None), ("full", v_full), ("plane", v_plane), ("rand", v_rand),
+                               ("plane_big", v_plane_big), ("rand_big", v_rand_big)]:
                 P = measure(model, tok, blocks, graph, cand_t, dev, Lstar, walks, X, vec)
                 res[cname] = {"mass_nbrX": float(P[nbrX].sum()), "mass_nbrY": float(P[nbrY].sum())}
             rec["pairs"][f"{X}->{Y}"] = res
-            print(f"[{tag}] {X}->{Y}: clean(nbrX={res['clean']['mass_nbrX']:.2f} nbrY={res['clean']['mass_nbrY']:.2f}) "
-                  f"| full(X={res['full']['mass_nbrX']:.2f} Y={res['full']['mass_nbrY']:.2f}) "
-                  f"| plane(X={res['plane']['mass_nbrX']:.2f} Y={res['plane']['mass_nbrY']:.2f}) "
-                  f"| rand(X={res['rand']['mass_nbrX']:.2f} Y={res['rand']['mass_nbrY']:.2f})", flush=True)
+            print(f"[{tag}] {X}->{Y}: clean(Y={res['clean']['mass_nbrY']:.2f}) "
+                  f"| full(Y={res['full']['mass_nbrY']:.2f}) "
+                  f"| plane(Y={res['plane']['mass_nbrY']:.2f}) "
+                  f"| plane_big(Y={res['plane_big']['mass_nbrY']:.2f}) "
+                  f"| rand_big(Y={res['rand_big']['mass_nbrY']:.2f})  [|plane|/|full|={np.linalg.norm(v_plane)/(np.linalg.norm(v_full)+1e-9):.2f}]", flush=True)
         out["models"][tag] = rec
         del model, tok; gc.collect()
         if torch and torch.cuda.is_available():

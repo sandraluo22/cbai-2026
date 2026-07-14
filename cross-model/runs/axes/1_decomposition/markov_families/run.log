@@ -1,0 +1,11 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 9330.87it/s]
+[Llama/grid       ] edges= 24 deg=3.0  nbr_mass=0.81  validity=0.99
+[Llama/ring       ] edges= 16 deg=2.0  nbr_mass=0.87  validity=0.99
+[Llama/er_random  ] edges= 32 deg=4.0  nbr_mass=0.70  validity=0.96
+[Llama/sbm2       ] edges= 54 deg=6.8  nbr_mass=0.65  validity=0.82
+[Llama/sbm4       ] edges= 33 deg=4.1  nbr_mass=0.70  validity=0.96
+[Llama/tree       ] edges= 15 deg=1.9  nbr_mass=0.90  validity=0.99
+[Llama/smallworld ] edges= 30 deg=3.8  nbr_mass=0.73  validity=0.97
+DONE -> runs/axes/1_decomposition/markov_families/markov_families_Llama.json

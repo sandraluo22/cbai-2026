@@ -1,0 +1,138 @@
+{
+  "model": "Qwen",
+  "graph": "square_grid",
+  "basis": "eig",
+  "lap": "norm",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "mode_meta": {
+    "1": {
+      "lam": 0.2182640400294284,
+      "label": "coord"
+    },
+    "2": {
+      "lam": 0.2182640400294286,
+      "label": "coord"
+    },
+    "3": {
+      "lam": 0.49999999999999967,
+      "label": "other"
+    },
+    "4": {
+      "lam": 0.6666666666666662,
+      "label": "other"
+    },
+    "5": {
+      "lam": 0.6666666666666665,
+      "label": "other"
+    },
+    "6": {
+      "lam": 0.9999999999999991,
+      "label": "other"
+    },
+    "7": {
+      "lam": 0.9999999999999999,
+      "label": "other"
+    },
+    "8": {
+      "lam": 1.0,
+      "label": "other"
+    },
+    "9": {
+      "lam": 1.0,
+      "label": "other"
+    },
+    "10": {
+      "lam": 1.3333333333333333,
+      "label": "other"
+    },
+    "11": {
+      "lam": 1.3333333333333333,
+      "label": "other"
+    },
+    "12": {
+      "lam": 1.4999999999999998,
+      "label": "other"
+    },
+    "13": {
+      "lam": 1.7817359599705709,
+      "label": "other"
+    },
+    "14": {
+      "lam": 1.7817359599705718,
+      "label": "other"
+    },
+    "15": {
+      "lam": 2.0,
+      "label": "parity"
+    }
+  },
+  "greedy": [
+    {
+      "step": 0,
+      "mode": null,
+      "seeded": false,
+      "rand_nbr_v": 0.9740625,
+      "rand_par_v": 0.9903125,
+      "neighbour_validity": 0.9740625,
+      "parity_validity": 0.9903125,
+      "n_pred": 3200
+    },
+    {
+      "step": 1,
+      "mode": "1",
+      "lambda": 0.2182640400294284,
+      "label": "coord",
+      "seeded": true,
+      "rand_nbr_v": 0.973125,
+      "rand_par_v": 0.9909374999999999,
+      "neighbour_validity": 0.371875,
+      "parity_validity": 0.8246875,
+      "n_pred": 3200
+    },
+    {
+      "step": 2,
+      "mode": "2",
+      "lambda": 0.2182640400294286,
+      "label": "coord",
+      "seeded": true,
+      "rand_nbr_v": 0.9625,
+      "rand_par_v": 0.9819791666666666,
+      "neighbour_validity": 0.406875,
+      "parity_validity": 0.7690625,
+      "n_pred": 3200
+    },
+    {
+      "step": 3,
+      "mode": "15",
+      "lambda": 2.0,
+      "label": "parity",
+      "seeded": true,
+      "rand_nbr_v": 0.9645833333333332,
+      "rand_par_v": 0.988125,
+      "neighbour_validity": 0.1846875,
+      "parity_validity": 0.5,
+      "n_pred": 3200
+    },
+    {
+      "step": 4,
+      "mode": "12",
+      "lambda": 1.4999999999999998,
+      "label": "other",
+      "seeded": false,
+      "rand_nbr_v": 0.9283333333333333,
+      "rand_par_v": 0.9604166666666666,
+      "neighbour_validity": 0.1840625,
+      "parity_validity": 0.4625,
+      "n_pred": 3200
+    }
+  ],
+  "chosen_modes": [
+    "1",
+    "2",
+    "15",
+    "12"
+  ]
+}

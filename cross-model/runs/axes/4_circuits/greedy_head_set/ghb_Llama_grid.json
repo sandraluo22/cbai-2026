@@ -1,0 +1,550 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "ctxlo": 100,
+  "clean": {
+    "neighbour_validity": 0.994375,
+    "neighbour_mass": 0.8271012098214123,
+    "parity_validity": 0.9953125,
+    "parity_mass": 0.8889074840489775,
+    "n_pred": 3200
+  },
+  "objectives": {
+    "coord": [
+      {
+        "step": 0,
+        "heads": [],
+        "head_added": null,
+        "neighbour_validity": 0.994375,
+        "neighbour_mass": 0.8271012098214123,
+        "parity_validity": 0.9953125,
+        "parity_mass": 0.8889074840489775,
+        "n_pred": 3200
+      },
+      {
+        "step": 1,
+        "heads": [
+          [
+            21,
+            10
+          ]
+        ],
+        "head_added": [
+          21,
+          10
+        ],
+        "neighbour_validity": 0.9928125,
+        "neighbour_mass": 0.7832471467345021,
+        "parity_validity": 0.995,
+        "parity_mass": 0.8848093600571155,
+        "n_pred": 3200
+      },
+      {
+        "step": 2,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ]
+        ],
+        "head_added": [
+          1,
+          20
+        ],
+        "neighbour_validity": 0.8696875,
+        "neighbour_mass": 0.557649146124022,
+        "parity_validity": 0.9340625,
+        "parity_mass": 0.7696236158907414,
+        "n_pred": 3200
+      },
+      {
+        "step": 3,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ]
+        ],
+        "head_added": [
+          9,
+          23
+        ],
+        "neighbour_validity": 0.784375,
+        "neighbour_mass": 0.5028720384533517,
+        "parity_validity": 0.905625,
+        "parity_mass": 0.7760120289726182,
+        "n_pred": 3200
+      },
+      {
+        "step": 4,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ],
+          [
+            6,
+            26
+          ]
+        ],
+        "head_added": [
+          6,
+          26
+        ],
+        "neighbour_validity": 0.7540625,
+        "neighbour_mass": 0.5014628147744224,
+        "parity_validity": 0.901875,
+        "parity_mass": 0.8019554433767917,
+        "n_pred": 3200
+      },
+      {
+        "step": 5,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ],
+          [
+            6,
+            26
+          ],
+          [
+            13,
+            18
+          ]
+        ],
+        "head_added": [
+          13,
+          18
+        ],
+        "neighbour_validity": 0.7165625,
+        "neighbour_mass": 0.47896252714883303,
+        "parity_validity": 0.89,
+        "parity_mass": 0.7979891589703039,
+        "n_pred": 3200
+      },
+      {
+        "step": 6,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ],
+          [
+            6,
+            26
+          ],
+          [
+            13,
+            18
+          ],
+          [
+            31,
+            14
+          ]
+        ],
+        "head_added": [
+          31,
+          14
+        ],
+        "neighbour_validity": 0.455,
+        "neighbour_mass": 0.41255621863121633,
+        "parity_validity": 0.6946875,
+        "parity_mass": 0.7446881834912347,
+        "n_pred": 3200
+      },
+      {
+        "step": 7,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ],
+          [
+            6,
+            26
+          ],
+          [
+            13,
+            18
+          ],
+          [
+            31,
+            14
+          ],
+          [
+            12,
+            3
+          ]
+        ],
+        "head_added": [
+          12,
+          3
+        ],
+        "neighbour_validity": 0.4321875,
+        "neighbour_mass": 0.39898778961738574,
+        "parity_validity": 0.6821875,
+        "parity_mass": 0.7406714921898674,
+        "n_pred": 3200
+      },
+      {
+        "step": 8,
+        "heads": [
+          [
+            21,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            9,
+            23
+          ],
+          [
+            6,
+            26
+          ],
+          [
+            13,
+            18
+          ],
+          [
+            31,
+            14
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            4,
+            13
+          ]
+        ],
+        "head_added": [
+          4,
+          13
+        ],
+        "neighbour_validity": 0.4325,
+        "neighbour_mass": 0.40062668015860253,
+        "parity_validity": 0.7075,
+        "parity_mass": 0.7571710593311581,
+        "n_pred": 3200
+      }
+    ],
+    "parity": [
+      {
+        "step": 0,
+        "heads": [],
+        "head_added": null,
+        "neighbour_validity": 0.994375,
+        "neighbour_mass": 0.8271012098214123,
+        "parity_validity": 0.9953125,
+        "parity_mass": 0.8889074840489775,
+        "n_pred": 3200
+      },
+      {
+        "step": 1,
+        "heads": [
+          [
+            2,
+            26
+          ]
+        ],
+        "head_added": [
+          2,
+          26
+        ],
+        "neighbour_validity": 0.9690625,
+        "neighbour_mass": 0.7464721734845079,
+        "parity_validity": 0.975,
+        "parity_mass": 0.8095464843511582,
+        "n_pred": 3200
+      },
+      {
+        "step": 2,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ]
+        ],
+        "head_added": [
+          14,
+          26
+        ],
+        "neighbour_validity": 0.7634375,
+        "neighbour_mass": 0.5103632860025391,
+        "parity_validity": 0.7871875,
+        "parity_mass": 0.6183040335914121,
+        "n_pred": 3200
+      },
+      {
+        "step": 3,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ]
+        ],
+        "head_added": [
+          14,
+          19
+        ],
+        "neighbour_validity": 0.6509375,
+        "neighbour_mass": 0.47468531186925245,
+        "parity_validity": 0.6721875,
+        "parity_mass": 0.5695526327635162,
+        "n_pred": 3200
+      },
+      {
+        "step": 4,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ],
+          [
+            7,
+            23
+          ]
+        ],
+        "head_added": [
+          7,
+          23
+        ],
+        "neighbour_validity": 0.59375,
+        "neighbour_mass": 0.47272812093026007,
+        "parity_validity": 0.6075,
+        "parity_mass": 0.5560846931044944,
+        "n_pred": 3200
+      },
+      {
+        "step": 5,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            1,
+            22
+          ]
+        ],
+        "head_added": [
+          1,
+          22
+        ],
+        "neighbour_validity": 0.518125,
+        "neighbour_mass": 0.46837747750338166,
+        "parity_validity": 0.525625,
+        "parity_mass": 0.5387253084592522,
+        "n_pred": 3200
+      },
+      {
+        "step": 6,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            1,
+            22
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "head_added": [
+          11,
+          6
+        ],
+        "neighbour_validity": 0.523125,
+        "neighbour_mass": 0.47355189284076915,
+        "parity_validity": 0.529375,
+        "parity_mass": 0.5380089301476255,
+        "n_pred": 3200
+      },
+      {
+        "step": 7,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            1,
+            22
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "head_added": [
+          0,
+          2
+        ],
+        "neighbour_validity": 0.474375,
+        "neighbour_mass": 0.4508887653495185,
+        "parity_validity": 0.481875,
+        "parity_mass": 0.517338862400502,
+        "n_pred": 3200
+      },
+      {
+        "step": 8,
+        "heads": [
+          [
+            2,
+            26
+          ],
+          [
+            14,
+            26
+          ],
+          [
+            14,
+            19
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            1,
+            22
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "head_added": [
+          6,
+          8
+        ],
+        "neighbour_validity": 0.4509375,
+        "neighbour_mass": 0.4444544248422608,
+        "parity_validity": 0.4571875,
+        "parity_mass": 0.5094444739585743,
+        "n_pred": 3200
+      }
+    ]
+  }
+}

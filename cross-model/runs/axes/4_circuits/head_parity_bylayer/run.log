@@ -1,0 +1,9 @@
+[20:52:22] Q3 per-layer parity sweep
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  34%|███▎      | 98/291 [00:00<00:00, 977.67it/s]Loading weights:  77%|███████▋  | 225/291 [00:00<00:00, 1147.77it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1163.11it/s]
+abl layer 0/32
+abl layer 8/32
+abl layer 16/32
+abl layer 24/32
+DONE
+ALL_DONE

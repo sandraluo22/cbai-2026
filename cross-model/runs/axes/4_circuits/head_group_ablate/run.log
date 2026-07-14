@@ -1,0 +1,12 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 138/291 [00:00<00:00, 1172.78it/s]Loading weights:  88%|████████▊ | 256/291 [00:00<00:00, 1108.39it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1200.85it/s]
+
+group                   x         y    parity
+clean               0.121     0.168     0.305
+parity_top5         0.213     0.198     0.033
+coord_top5          0.022     0.029     0.518
+induction_top5      0.152     0.183     0.223
+dla_top5            0.115     0.165     0.330
+random(mean±sd)  0.13±0.01  0.18±0.02  0.28±0.04
+DONE -> runs/axes/4_circuits/head_group_ablate/head_group_ablate_Llama_square_grid.json

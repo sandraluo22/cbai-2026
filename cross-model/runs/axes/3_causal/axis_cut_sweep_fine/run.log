@@ -1,0 +1,31 @@
+[07:12:34] START Llama
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13870.12it/s]
+[Llama/x            ] +side mass clean 0.52 -> dose0.8 1.00  (control +0.48) | val 0.99->0.23
+[Llama/y            ] +side mass clean 0.63 -> dose0.8 1.00  (control +0.37) | val 0.99->0.14
+[Llama/diagonal     ] +side mass clean 0.44 -> dose0.8 1.00  (control +0.56) | val 0.99->0.25
+[Llama/anti-diagonal] +side mass clean 0.30 -> dose0.8 1.00  (control +0.70) | val 0.99->0.12
+[Llama/parity       ] +side mass clean 0.47 -> dose0.8 0.00  (control -0.47) | val 0.99->0.31
+DONE -> runs/induction-head/2_probes/axis_cut_sweep_fine/axis_cut_sweep_Llama_square_grid.json
+[07:12:53] START Gemma
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 10269.04it/s]
+[Gemma/x            ] +side mass clean 0.54 -> dose0.8 1.00  (control +0.46) | val 0.98->0.15
+[Gemma/y            ] +side mass clean 0.60 -> dose0.8 1.00  (control +0.40) | val 0.98->0.14
+[Gemma/diagonal     ] +side mass clean 0.43 -> dose0.8 1.00  (control +0.57) | val 0.98->0.34
+[Gemma/anti-diagonal] +side mass clean 0.34 -> dose0.8 1.00  (control +0.66) | val 0.98->0.12
+[Gemma/parity       ] +side mass clean 0.51 -> dose0.8 0.08  (control -0.43) | val 0.98->0.32
+DONE -> runs/induction-head/2_probes/axis_cut_sweep_fine/axis_cut_sweep_Gemma_square_grid.json
+[07:13:20] START Qwen
+[Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11082.08it/s]
+[Qwen/x            ] +side mass clean 0.50 -> dose0.8 1.00  (control +0.50) | val 0.90->0.15
+[Qwen/y            ] +side mass clean 0.66 -> dose0.8 1.00  (control +0.34) | val 0.90->0.14
+[Qwen/diagonal     ] +side mass clean 0.47 -> dose0.8 1.00  (control +0.52) | val 0.90->0.15
+[Qwen/anti-diagonal] +side mass clean 0.30 -> dose0.8 1.00  (control +0.70) | val 0.90->0.16
+[Qwen/parity       ] +side mass clean 0.49 -> dose0.8 0.98  (control +0.49) | val 0.90->0.24
+DONE -> runs/induction-head/2_probes/axis_cut_sweep_fine/axis_cut_sweep_Qwen_square_grid.json
+ALL_DONE

@@ -1,0 +1,63 @@
+{
+  "model": "Gemma",
+  "N": 16,
+  "seed": 0,
+  "families": {
+    "grid": {
+      "nbr_mass": 0.6330181095016499,
+      "validity": 0.9928333333333333,
+      "n_pred": 12000,
+      "edges": 24,
+      "mean_deg": 3.0,
+      "min_occ": 465
+    },
+    "ring": {
+      "nbr_mass": 0.7644944323468953,
+      "validity": 0.9908333333333333,
+      "n_pred": 12000,
+      "edges": 16,
+      "mean_deg": 2.0,
+      "min_occ": 689
+    },
+    "er_random": {
+      "nbr_mass": 0.5555323104187846,
+      "validity": 0.9704166666666667,
+      "n_pred": 12000,
+      "edges": 32,
+      "mean_deg": 4.0,
+      "min_occ": 182
+    },
+    "sbm2": {
+      "nbr_mass": 0.5585584386537472,
+      "validity": 0.92175,
+      "n_pred": 12000,
+      "edges": 54,
+      "mean_deg": 6.75,
+      "min_occ": 480
+    },
+    "sbm4": {
+      "nbr_mass": 0.5513506540562958,
+      "validity": 0.9583333333333334,
+      "n_pred": 12000,
+      "edges": 33,
+      "mean_deg": 4.125,
+      "min_occ": 323
+    },
+    "tree": {
+      "nbr_mass": 0.8452427159069726,
+      "validity": 0.9929166666666667,
+      "n_pred": 12000,
+      "edges": 15,
+      "mean_deg": 1.875,
+      "min_occ": 345
+    },
+    "smallworld": {
+      "nbr_mass": 0.5658797523571799,
+      "validity": 0.9818333333333333,
+      "n_pred": 12000,
+      "edges": 30,
+      "mean_deg": 3.75,
+      "min_occ": 559
+    }
+  }
+}

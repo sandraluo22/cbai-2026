@@ -1,0 +1,70 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "conditions": {
+    "clean": {
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9953125,
+      "neighbour_mass": 0.8271012098214123,
+      "parity_mass": 0.8889074840489775,
+      "n_pred": 3200
+    },
+    "low2 {2 lowest = coords}": {
+      "modes": [
+        1,
+        2
+      ],
+      "neighbour_validity": 0.941875,
+      "parity_validity": 0.991875,
+      "neighbour_mass": 0.6767853026009106,
+      "parity_mass": 0.8513460222072899,
+      "n_pred": 3200
+    },
+    "high1 {highest = parity}": {
+      "modes": [
+        15
+      ],
+      "neighbour_validity": 0.751875,
+      "parity_validity": 0.7534375,
+      "neighbour_mass": 0.6342060715098341,
+      "parity_mass": 0.671480612900923,
+      "n_pred": 3200
+    },
+    "all3 {low2+high1}": {
+      "modes": [
+        1,
+        2,
+        15
+      ],
+      "neighbour_validity": 0.615,
+      "parity_validity": 0.6390625,
+      "neighbour_mass": 0.4871820289432435,
+      "parity_mass": 0.5935094548435882,
+      "n_pred": 3200
+    }
+  },
+  "rand": {
+    "low2 {2 lowest = coords}": {
+      "neighbour_validity": 0.9928125,
+      "parity_validity": 0.9941666666666666,
+      "neighbour_mass": 0.8165980517293793,
+      "parity_mass": 0.8846736989449709
+    },
+    "high1 {highest = parity}": {
+      "neighbour_validity": 0.9938541666666666,
+      "parity_validity": 0.9948958333333334,
+      "neighbour_mass": 0.8310447414844142,
+      "parity_mass": 0.8924922468171766
+    },
+    "all3 {low2+high1}": {
+      "neighbour_validity": 0.9915625,
+      "parity_validity": 0.9933333333333333,
+      "neighbour_mass": 0.8235268831901097,
+      "parity_mass": 0.8872026345009605
+    }
+  }
+}

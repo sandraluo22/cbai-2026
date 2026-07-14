@@ -1,0 +1,70 @@
+{
+  "model": "Qwen",
+  "graph": "square_grid",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "conditions": {
+    "clean": {
+      "neighbour_validity": 0.9740625,
+      "parity_validity": 0.9903125,
+      "neighbour_mass": 0.7405630345689133,
+      "parity_mass": 0.8706400980614126,
+      "n_pred": 3200
+    },
+    "low2 {2 lowest = coords}": {
+      "modes": [
+        1,
+        2
+      ],
+      "neighbour_validity": 0.406875,
+      "parity_validity": 0.7690625,
+      "neighbour_mass": 0.3526761824858214,
+      "parity_mass": 0.7232633463281672,
+      "n_pred": 3200
+    },
+    "high1 {highest = parity}": {
+      "modes": [
+        15
+      ],
+      "neighbour_validity": 0.381875,
+      "parity_validity": 0.5,
+      "neighbour_mass": 0.3845138092674222,
+      "parity_mass": 0.5001557451657618,
+      "n_pred": 3200
+    },
+    "all3 {low2+high1}": {
+      "modes": [
+        1,
+        2,
+        15
+      ],
+      "neighbour_validity": 0.1846875,
+      "parity_validity": 0.5,
+      "neighbour_mass": 0.18682232763434456,
+      "parity_mass": 0.49799440377605836,
+      "n_pred": 3200
+    }
+  },
+  "rand": {
+    "low2 {2 lowest = coords}": {
+      "neighbour_validity": 0.9695833333333334,
+      "parity_validity": 0.9824999999999999,
+      "neighbour_mass": 0.7502754164820847,
+      "parity_mass": 0.8682171539682896
+    },
+    "high1 {highest = parity}": {
+      "neighbour_validity": 0.97375,
+      "parity_validity": 0.9909374999999999,
+      "neighbour_mass": 0.7329910767901069,
+      "parity_mass": 0.8644070981784413
+    },
+    "all3 {low2+high1}": {
+      "neighbour_validity": 0.9645833333333332,
+      "parity_validity": 0.988125,
+      "neighbour_mass": 0.7525883852799113,
+      "parity_mass": 0.874081996968016
+    }
+  }
+}

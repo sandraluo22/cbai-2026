@@ -1,0 +1,70 @@
+{
+  "model": "Gemma",
+  "graph": "square_grid",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "conditions": {
+    "clean": {
+      "neighbour_validity": 0.9915625,
+      "parity_validity": 0.9925,
+      "neighbour_mass": 0.6351625201990828,
+      "parity_mass": 0.747582363029942,
+      "n_pred": 3200
+    },
+    "low2 {2 lowest = coords}": {
+      "modes": [
+        1,
+        2
+      ],
+      "neighbour_validity": 0.8309375,
+      "parity_validity": 0.9715625,
+      "neighbour_mass": 0.45162689951393986,
+      "parity_mass": 0.7035106488224119,
+      "n_pred": 3200
+    },
+    "high1 {highest = parity}": {
+      "modes": [
+        15
+      ],
+      "neighbour_validity": 0.5121875,
+      "parity_validity": 0.5165625,
+      "neighbour_mass": 0.41756400824757295,
+      "parity_mass": 0.5305173801758792,
+      "n_pred": 3200
+    },
+    "all3 {low2+high1}": {
+      "modes": [
+        1,
+        2,
+        15
+      ],
+      "neighbour_validity": 0.3590625,
+      "parity_validity": 0.5028125,
+      "neighbour_mass": 0.29215075304612037,
+      "parity_mass": 0.5095619650345179,
+      "n_pred": 3200
+    }
+  },
+  "rand": {
+    "low2 {2 lowest = coords}": {
+      "neighbour_validity": 0.9897916666666667,
+      "parity_validity": 0.9911458333333334,
+      "neighbour_mass": 0.6456688492551136,
+      "parity_mass": 0.7534811376283566
+    },
+    "high1 {highest = parity}": {
+      "neighbour_validity": 0.9909374999999999,
+      "parity_validity": 0.991875,
+      "neighbour_mass": 0.6373140811547637,
+      "parity_mass": 0.7502095203256856
+    },
+    "all3 {low2+high1}": {
+      "neighbour_validity": 0.9892708333333333,
+      "parity_validity": 0.9901041666666667,
+      "neighbour_mass": 0.6634300838872634,
+      "parity_mass": 0.7686685399338603
+    }
+  }
+}

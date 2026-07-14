@@ -1,0 +1,124 @@
+{
+  "remove": [
+    8,
+    14,
+    0,
+    10
+  ],
+  "models": {
+    "Llama": {
+      "8": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9694692100352478,
+        "raw_full": 0.45841799709724235,
+        "raw_punc": 0.47715115073605635,
+        "best2d_full": 0.8513269749118805,
+        "best2d_punc": 0.8623574538668878
+      },
+      "14": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9812046444121916,
+        "raw_full": 0.42719261870205266,
+        "raw_punc": 0.45949616421314526,
+        "best2d_full": 0.856489736678416,
+        "best2d_punc": 0.8469624714907734
+      },
+      "0": {
+        "degree": 2,
+        "n_pairs_differ": 0,
+        "rsa_gt_full_vs_punc": 0.9999999999999999,
+        "raw_full": 0.48427327389591535,
+        "raw_punc": 0.48427327389591535,
+        "best2d_full": 0.8497200912295251,
+        "best2d_punc": 0.8497200912295251
+      },
+      "10": {
+        "degree": 4,
+        "n_pairs_differ": 2,
+        "rsa_gt_full_vs_punc": 0.957744142649803,
+        "raw_full": 0.4464544889073191,
+        "raw_punc": 0.44168567281774823,
+        "best2d_full": 0.8774103255235332,
+        "best2d_punc": 0.8801057433132905
+      }
+    },
+    "Qwen": {
+      "8": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9694692100352478,
+        "raw_full": 0.3225378395189716,
+        "raw_punc": 0.31071946921003524,
+        "best2d_full": 0.7478540327596931,
+        "best2d_punc": 0.7440182459050383
+      },
+      "14": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9812046444121916,
+        "raw_full": 0.2842940078789135,
+        "raw_punc": 0.30027990877047483,
+        "best2d_full": 0.7819614347916235,
+        "best2d_punc": 0.7774621604810283
+      },
+      "0": {
+        "degree": 2,
+        "n_pairs_differ": 0,
+        "rsa_gt_full_vs_punc": 0.9999999999999999,
+        "raw_full": 0.21092680904001657,
+        "raw_punc": 0.21092680904001657,
+        "best2d_full": 0.7243520630313083,
+        "best2d_punc": 0.7243520630313083
+      },
+      "10": {
+        "degree": 4,
+        "n_pairs_differ": 2,
+        "rsa_gt_full_vs_punc": 0.957744142649803,
+        "raw_full": 0.25622019489944015,
+        "raw_punc": 0.23285299606054324,
+        "best2d_full": 0.8481546755131659,
+        "best2d_punc": 0.8490566037735848
+      }
+    },
+    "Gemma": {
+      "8": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9694692100352478,
+        "raw_full": 0.6460398092473564,
+        "raw_punc": 0.665809662036077,
+        "best2d_full": 0.8879742898610824,
+        "best2d_punc": 0.8863881401617251
+      },
+      "14": {
+        "degree": 3,
+        "n_pairs_differ": 1,
+        "rsa_gt_full_vs_punc": 0.9812046444121916,
+        "raw_full": 0.6991084387310802,
+        "raw_punc": 0.7226622434169604,
+        "best2d_full": 0.8926394360356624,
+        "best2d_punc": 0.8856728177482894
+      },
+      "0": {
+        "degree": 2,
+        "n_pairs_differ": 0,
+        "rsa_gt_full_vs_punc": 0.9999999999999999,
+        "raw_full": 0.726923076923077,
+        "raw_punc": 0.726923076923077,
+        "best2d_full": 0.8883578685465477,
+        "best2d_punc": 0.8883578685465477
+      },
+      "10": {
+        "degree": 4,
+        "n_pairs_differ": 2,
+        "rsa_gt_full_vs_punc": 0.957744142649803,
+        "raw_full": 0.7577441426498029,
+        "raw_punc": 0.7803856520837653,
+        "best2d_full": 0.8791727140783744,
+        "best2d_punc": 0.8882645656230561
+      }
+    }
+  }
+}

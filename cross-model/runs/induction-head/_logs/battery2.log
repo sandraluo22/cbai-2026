@@ -1,0 +1,83 @@
+[21:29:28] START removal_probe square_grid (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 179/291 [00:00<00:00, 1766.49it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1448.97it/s]
+[Llama] L_rem=27 probeR²=0.50 cap=[27, 28, 29, 30, 31]
+[Llama/square_grid/clean] downstream peak coordProbeR²=+0.62 nbr_mass@250=0.86
+[Llama/square_grid/remove_probe] downstream peak coordProbeR²=+0.19 nbr_mass@250=0.79
+[Llama/square_grid/remove_random] downstream peak coordProbeR²=+0.62 nbr_mass@250=0.86
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11397.02it/s]
+[Qwen] L_rem=30 probeR²=0.23 cap=[30, 31, 32, 33, 34, 35]
+[Qwen/square_grid/clean] downstream peak coordProbeR²=+0.49 nbr_mass@250=0.80
+[Qwen/square_grid/remove_probe] downstream peak coordProbeR²=+0.10 nbr_mass@250=0.77
+[Qwen/square_grid/remove_random] downstream peak coordProbeR²=+0.49 nbr_mass@250=0.79
+DONE -> runs/induction-head/removal_probe/removal_probe_square_grid.json
+[21:30:53] START removal_probe square_grid (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13908.18it/s]
+[Gemma] L_rem=35 probeR²=0.34 cap=[35, 36, 37, 38, 39, 40, 41]
+[Gemma/square_grid/clean] downstream peak coordProbeR²=+0.58 nbr_mass@250=0.68
+[Gemma/square_grid/remove_probe] downstream peak coordProbeR²=-0.10 nbr_mass@250=0.63
+[Gemma/square_grid/remove_random] downstream peak coordProbeR²=+0.58 nbr_mass@250=0.69
+DONE -> runs/induction-head/removal_probe/removal_probe_square_grid.json
+[21:31:33] END removal_probe square_grid
+[21:31:33] START removal_probe ring (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12863.93it/s]
+[Llama] L_rem=27 probeR²=0.68 cap=[27, 28, 29, 30, 31]
+[Llama/ring/clean] downstream peak coordProbeR²=+0.82 nbr_mass@250=0.94
+[Llama/ring/remove_probe] downstream peak coordProbeR²=+0.50 nbr_mass@250=0.91
+[Llama/ring/remove_random] downstream peak coordProbeR²=+0.82 nbr_mass@250=0.94
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12482.21it/s]
+[Qwen] L_rem=30 probeR²=0.59 cap=[30, 31, 32, 33, 34, 35]
+[Qwen/ring/clean] downstream peak coordProbeR²=+0.80 nbr_mass@250=0.96
+[Qwen/ring/remove_probe] downstream peak coordProbeR²=+0.68 nbr_mass@250=0.95
+[Qwen/ring/remove_random] downstream peak coordProbeR²=+0.80 nbr_mass@250=0.95
+DONE -> runs/induction-head/removal_probe/removal_probe_ring.json
+[21:32:38] START removal_probe ring (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13822.53it/s]
+[Gemma] L_rem=35 probeR²=0.56 cap=[35, 36, 37, 38, 39, 40, 41]
+[Gemma/ring/clean] downstream peak coordProbeR²=+0.78 nbr_mass@250=0.82
+[Gemma/ring/remove_probe] downstream peak coordProbeR²=+0.45 nbr_mass@250=0.77
+[Gemma/ring/remove_random] downstream peak coordProbeR²=+0.78 nbr_mass@250=0.82
+DONE -> runs/induction-head/removal_probe/removal_probe_ring.json
+[21:33:18] END removal_probe ring
+[21:33:18] START cross_context capture square_grid (Llama,Qwen)
+[Llama] ctx-binned capture (square_grid)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 60393.00it/s]
+[Llama] (8, 32, 16, 4096) -> ctxmeans_square_grid_Llama.npz
+[Qwen] ctx-binned capture (square_grid)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9996.22it/s]
+[Qwen] (8, 36, 16, 4096) -> ctxmeans_square_grid_Qwen.npz
+CAPTURE_DONE
+[21:33:37] START cross_context capture square_grid (Gemma)
+[Gemma] ctx-binned capture (square_grid)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11856.69it/s]
+[Gemma] (8, 42, 16, 3584) -> ctxmeans_square_grid_Gemma.npz
+CAPTURE_DONE
+[21:33:49] END cross_context capture square_grid
+[21:33:49] START cross_context capture ring (Llama,Qwen)
+[Llama] ctx-binned capture (ring)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 10898.09it/s]
+[Llama] (8, 32, 16, 4096) -> ctxmeans_ring_Llama.npz
+[Qwen] ctx-binned capture (ring)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12379.81it/s]
+[Qwen] (8, 36, 16, 4096) -> ctxmeans_ring_Qwen.npz
+CAPTURE_DONE
+[21:34:07] START cross_context capture ring (Gemma)
+[Gemma] ctx-binned capture (ring)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11807.34it/s]
+[Gemma] (8, 42, 16, 3584) -> ctxmeans_ring_Gemma.npz
+CAPTURE_DONE
+[21:34:20] END cross_context capture ring
+[21:34:20] ALL_DONE

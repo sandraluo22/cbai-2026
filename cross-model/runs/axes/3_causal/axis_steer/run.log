@@ -1,0 +1,12 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12552.76it/s]
+[Llama/square_grid/clean       ] NT nbr=0.73 val=0.99 (par+ 0.47/par- 0.53) | LT nbr=0.68 val=0.67
+[Llama/square_grid/remove_x    ] NT nbr=0.66 val=0.92 (par+ 0.48/par- 0.52) | LT nbr=0.72 val=0.73
+[Llama/square_grid/steer_x+    ] NT nbr=0.22 val=0.21 (par+ 0.04/par- 0.96) | LT nbr=0.06 val=0.07
+[Llama/square_grid/remove_y    ] NT nbr=0.65 val=0.92 (par+ 0.45/par- 0.55) | LT nbr=0.45 val=0.42
+[Llama/square_grid/steer_y+    ] NT nbr=0.22 val=0.22 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/remove_parity] NT nbr=0.57 val=0.72 (par+ 0.74/par- 0.26) | LT nbr=0.22 val=0.22
+[Llama/square_grid/steer_parity+] NT nbr=0.26 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+DONE -> runs/induction-head/2_probes/axis_steer/axis_steer_square_grid.json
+ALL_DONE

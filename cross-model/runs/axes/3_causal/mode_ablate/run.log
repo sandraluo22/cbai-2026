@@ -1,0 +1,23 @@
+[03:37:44] START square_grid
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 8227.90it/s]
+[Llama/square_grid/clean] val 0.77  nbr 0.78  decode x=1.00 y=1.00 parity=1.00
+[Llama/square_grid/remove_x] val 0.60  nbr 0.62  decode x=1.00 y=1.00 parity=1.00
+[Llama/square_grid/remove_y] val 0.19  nbr 0.18  decode x=1.00 y=1.00 parity=1.00
+[Llama/square_grid/remove_parity] val 0.11  nbr 0.11  decode x=1.00 y=1.00 parity=1.00
+[Llama/square_grid/remove_random] val 0.66  nbr 0.65  decode x=1.00 y=1.00 parity=1.00
+DONE -> runs/induction-head/2_probes/mode_ablate/mode_ablate_square_grid.json
+[03:39:05] END square_grid rc=0
+[03:39:05] START ring
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 8455.20it/s]
+[Llama/ring/clean] val 0.79  nbr 0.79  decode x=1.00 y=1.00 parity=1.00
+[Llama/ring/remove_x] val 0.64  nbr 0.62  decode x=1.00 y=1.00 parity=1.00
+[Llama/ring/remove_y] val 0.50  nbr 0.48  decode x=1.00 y=1.00 parity=1.00
+[Llama/ring/remove_parity] val 0.36  nbr 0.36  decode x=1.00 y=1.00 parity=1.00
+[Llama/ring/remove_random] val 0.78  nbr 0.77  decode x=1.00 y=1.00 parity=1.00
+DONE -> runs/induction-head/2_probes/mode_ablate/mode_ablate_ring.json
+[03:40:40] END ring rc=0
+ALL_DONE

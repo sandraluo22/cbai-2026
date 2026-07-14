@@ -1,0 +1,20 @@
+[Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 125/291 [00:00<00:00, 1232.93it/s]Loading weights:  86%|████████▌ | 249/291 [00:00<00:00, 1010.77it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1208.92it/s]
+[Llama] clean power x=0.121 y=0.168 parity=0.305
+[Llama/coord] step 1: +L21H10  cum_damage 0.105 (36% of 0.29)
+[Llama/coord] step 2: +L1H20  cum_damage 0.163 (56% of 0.29)
+[Llama/coord] step 3: +L9H23  cum_damage 0.228 (79% of 0.29)
+[Llama/coord] step 4: +L6H26  cum_damage 0.244 (84% of 0.29)
+[Llama/coord] step 5: +L13H18  cum_damage 0.253 (88% of 0.29)
+[Llama/coord] step 6: +L31H14  cum_damage 0.257 (89% of 0.29)
+[Llama/coord] step 7: +L12H3  cum_damage 0.261 (91% of 0.29)
+[Llama/coord] step 8: +L4H13  cum_damage 0.264 (92% of 0.29)
+[Llama/parity] step 1: +L2H26  cum_damage 0.183 (60% of 0.31)
+[Llama/parity] step 2: +L14H26  cum_damage 0.253 (83% of 0.31)
+[Llama/parity] step 3: +L14H19  cum_damage 0.271 (89% of 0.31)
+[Llama/parity] step 4: +L7H23  cum_damage 0.280 (92% of 0.31)
+[Llama/parity] step 5: +L1H22  cum_damage 0.284 (93% of 0.31)
+[Llama/parity] step 6: +L11H6  cum_damage 0.286 (94% of 0.31)
+[Llama/parity] step 7: +L0H2  cum_damage 0.287 (94% of 0.31)
+[Llama/parity] step 8: +L6H8  cum_damage 0.288 (94% of 0.31)
+DONE -> runs/axes/4_circuits/greedy_head_set/greedy_head_set_Llama_square_grid.json

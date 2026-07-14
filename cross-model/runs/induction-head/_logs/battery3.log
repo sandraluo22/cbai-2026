@@ -1,0 +1,229 @@
+[22:12:42] START removal alllayers square_grid (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13174.97it/s]
+[Llama/square_grid/clean] peak coordProbeR²=+0.62 nbr_mass@250=0.86
+[Llama/square_grid/remove_probe_all] peak coordProbeR²=+0.34 nbr_mass@250=0.66
+[Llama/square_grid/remove_random_all] peak coordProbeR²=+0.60 nbr_mass@250=0.83
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10333.80it/s]
+[Qwen/square_grid/clean] peak coordProbeR²=+0.48 nbr_mass@250=0.80
+[Qwen/square_grid/remove_probe_all] peak coordProbeR²=+0.01 nbr_mass@250=0.69
+[Qwen/square_grid/remove_random_all] peak coordProbeR²=+0.47 nbr_mass@250=0.80
+DONE -> runs/induction-head/removal_followup/removal_alllayers_square_grid.json
+[22:13:56] START removal alllayers square_grid (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13194.82it/s]
+[Gemma/square_grid/clean] peak coordProbeR²=+0.56 nbr_mass@250=0.68
+[Gemma/square_grid/remove_probe_all] peak coordProbeR²=-0.14 nbr_mass@250=0.55
+[Gemma/square_grid/remove_random_all] peak coordProbeR²=+0.55 nbr_mass@250=0.69
+DONE -> runs/induction-head/removal_followup/removal_alllayers_square_grid.json
+[22:14:38] END removal alllayers square_grid
+[22:14:38] START removal alllayers ring (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11647.06it/s]
+[Llama/ring/clean] peak coordProbeR²=+0.82 nbr_mass@250=0.94
+[Llama/ring/remove_probe_all] peak coordProbeR²=+0.64 nbr_mass@250=0.74
+[Llama/ring/remove_random_all] peak coordProbeR²=+0.81 nbr_mass@250=0.93
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11435.88it/s]
+[Qwen/ring/clean] peak coordProbeR²=+0.80 nbr_mass@250=0.96
+[Qwen/ring/remove_probe_all] peak coordProbeR²=+0.57 nbr_mass@250=0.65
+[Qwen/ring/remove_random_all] peak coordProbeR²=+0.81 nbr_mass@250=0.95
+DONE -> runs/induction-head/removal_followup/removal_alllayers_ring.json
+[22:15:57] START removal alllayers ring (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 15155.22it/s]
+[Gemma/ring/clean] peak coordProbeR²=+0.76 nbr_mass@250=0.82
+[Gemma/ring/remove_probe_all] peak coordProbeR²=+0.43 nbr_mass@250=0.58
+[Gemma/ring/remove_random_all] peak coordProbeR²=+0.75 nbr_mass@250=0.83
+DONE -> runs/induction-head/removal_followup/removal_alllayers_ring.json
+[22:16:41] END removal alllayers ring
+[22:16:41] START removal generate square_grid (Llama)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 14267.84it/s]
+[Llama] L_rem=27 probeR²=0.39 — generating 150 steps x 4 seeds x 3 conds
+[Llama/square_grid/clean] validity 0.82->0.75  geom(win) +0.48->+0.48
+[Llama/square_grid/remove_probe] validity 0.78->0.75  geom(win) +0.45->+0.33
+[Llama/square_grid/remove_random] validity 0.75->0.90  geom(win) +0.46->+0.44
+DONE -> runs/induction-head/removal_followup/removal_generate_square_grid.json
+[22:17:46] END removal generate square_grid
+[22:17:46] START removal generate ring (Llama)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11444.37it/s]
+[Llama] L_rem=27 probeR²=0.63 — generating 150 steps x 4 seeds x 3 conds
+[Llama/ring/clean] validity 0.93->0.72  geom(win) +0.62->+0.65
+[Llama/ring/remove_probe] validity 0.93->0.60  geom(win) +0.61->+0.39
+[Llama/ring/remove_random] validity 0.93->0.70  geom(win) +0.59->+0.69
+DONE -> runs/induction-head/removal_followup/removal_generate_ring.json
+[22:18:50] END removal generate ring
+[22:18:50] START injection Llama->Qwen square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13748.25it/s]
+[A=Llama] L_A=31 R²=0.63 — capturing residuals
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9553.68it/s]
+[B=Qwen] native peak L34 R²=0.51 nbr_mass={150: 0.5059319610397021, 200: 0.7776186242699623, 250: 0.7834033966064453}
+[Llama->Qwen] LB=5: inj geomR²=+0.54  nbr_mass inj=0.61/nat=0.69
+[Llama->Qwen] LB=8: inj geomR²=+0.52  nbr_mass inj=0.74/nat=0.69
+[Llama->Qwen] LB=11: inj geomR²=+0.49  nbr_mass inj=0.78/nat=0.69
+[Llama->Qwen] LB=14: inj geomR²=+0.50  nbr_mass inj=0.73/nat=0.69
+[Llama->Qwen] LB=17: inj geomR²=+0.46  nbr_mass inj=0.69/nat=0.69
+[Llama->Qwen] LB=20: inj geomR²=+0.37  nbr_mass inj=0.54/nat=0.69
+[Llama->Qwen] LB=23: inj geomR²=+0.51  nbr_mass inj=0.56/nat=0.69
+[Llama->Qwen] LB=26: inj geomR²=+0.53  nbr_mass inj=0.55/nat=0.69
+[Llama->Qwen] LB=29: inj geomR²=+0.56  nbr_mass inj=0.58/nat=0.69
+[Llama->Qwen] LB=32: inj geomR²=+0.59  nbr_mass inj=0.63/nat=0.69
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_square_grid.json
+[22:21:20] START injection Qwen->Llama square_grid
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12759.53it/s]
+[A=Qwen] L_A=34 R²=0.51 — capturing residuals
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 8547.99it/s]
+[B=Llama] native peak L31 R²=0.63 nbr_mass={150: 0.789757639169693, 200: 0.8562309046586355, 250: 0.8642139931519827}
+[Qwen->Llama] LB=5: inj geomR²=+0.56  nbr_mass inj=0.85/nat=0.84
+[Qwen->Llama] LB=7: inj geomR²=+0.56  nbr_mass inj=0.85/nat=0.84
+[Qwen->Llama] LB=10: inj geomR²=+0.58  nbr_mass inj=0.83/nat=0.84
+[Qwen->Llama] LB=13: inj geomR²=+0.51  nbr_mass inj=0.64/nat=0.84
+[Qwen->Llama] LB=15: inj geomR²=+0.53  nbr_mass inj=0.69/nat=0.84
+[Qwen->Llama] LB=18: inj geomR²=+0.60  nbr_mass inj=0.68/nat=0.84
+[Qwen->Llama] LB=21: inj geomR²=+0.59  nbr_mass inj=0.64/nat=0.84
+[Qwen->Llama] LB=23: inj geomR²=+0.61  nbr_mass inj=0.66/nat=0.84
+[Qwen->Llama] LB=26: inj geomR²=+0.65  nbr_mass inj=0.70/nat=0.84
+[Qwen->Llama] LB=29: inj geomR²=+0.67  nbr_mass inj=0.75/nat=0.84
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_square_grid.json
+[22:23:40] END injection square_grid
+[22:23:40] START injection Llama->Qwen ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11745.70it/s]
+[A=Llama] L_A=31 R²=0.82 — capturing residuals
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10903.52it/s]
+[B=Qwen] native peak L35 R²=0.80 nbr_mass={150: 0.8295668264230093, 200: 0.8954024364550909, 250: 0.9530238807201385}
+[Llama->Qwen] LB=5: inj geomR²=+0.81  nbr_mass inj=0.82/nat=0.89
+[Llama->Qwen] LB=8: inj geomR²=+0.79  nbr_mass inj=0.88/nat=0.89
+[Llama->Qwen] LB=11: inj geomR²=+0.75  nbr_mass inj=0.89/nat=0.89
+[Llama->Qwen] LB=14: inj geomR²=+0.75  nbr_mass inj=0.90/nat=0.89
+[Llama->Qwen] LB=17: inj geomR²=+0.79  nbr_mass inj=0.88/nat=0.89
+[Llama->Qwen] LB=20: inj geomR²=+0.75  nbr_mass inj=0.66/nat=0.89
+[Llama->Qwen] LB=23: inj geomR²=+0.80  nbr_mass inj=0.63/nat=0.89
+[Llama->Qwen] LB=26: inj geomR²=+0.82  nbr_mass inj=0.65/nat=0.89
+[Llama->Qwen] LB=29: inj geomR²=+0.83  nbr_mass inj=0.69/nat=0.89
+[Llama->Qwen] LB=32: inj geomR²=+0.86  nbr_mass inj=0.78/nat=0.89
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_ring.json
+[22:26:06] START injection Qwen->Llama ring
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 15487.59it/s]
+[A=Qwen] L_A=35 R²=0.80 — capturing residuals
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11575.49it/s]
+[B=Llama] native peak L31 R²=0.82 nbr_mass={150: 0.8625263969103495, 200: 0.8852691153685252, 250: 0.9409853766361872}
+[Qwen->Llama] LB=5: inj geomR²=+0.77  nbr_mass inj=0.85/nat=0.90
+[Qwen->Llama] LB=7: inj geomR²=+0.78  nbr_mass inj=0.87/nat=0.90
+[Qwen->Llama] LB=10: inj geomR²=+0.79  nbr_mass inj=0.87/nat=0.90
+[Qwen->Llama] LB=13: inj geomR²=+0.79  nbr_mass inj=0.66/nat=0.90
+[Qwen->Llama] LB=15: inj geomR²=+0.79  nbr_mass inj=0.66/nat=0.90
+[Qwen->Llama] LB=18: inj geomR²=+0.82  nbr_mass inj=0.71/nat=0.90
+[Qwen->Llama] LB=21: inj geomR²=+0.82  nbr_mass inj=0.67/nat=0.90
+[Qwen->Llama] LB=23: inj geomR²=+0.84  nbr_mass inj=0.72/nat=0.90
+[Qwen->Llama] LB=26: inj geomR²=+0.87  nbr_mass inj=0.78/nat=0.90
+[Qwen->Llama] LB=29: inj geomR²=+0.87  nbr_mass inj=0.85/nat=0.90
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_ring.json
+[22:28:21] END injection ring
+[22:28:21] START composition Llama->Qwen square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11834.87it/s]
+[A gen walk 0] validity=1.00 tail[:8]=[10, 11, 10, 11, 15, 14, 13, 14]
+[A gen walk 1] validity=1.00 tail[:8]=[6, 10, 6, 10, 14, 15, 11, 7]
+[A gen walk 2] validity=1.00 tail[:8]=[13, 9, 10, 11, 10, 11, 15, 14]
+[A gen walk 3] validity=1.00 tail[:8]=[6, 10, 14, 10, 14, 10, 14, 10]
+[A gen walk 4] validity=1.00 tail[:8]=[4, 8, 4, 8, 4, 8, 4, 8]
+[A gen walk 5] validity=1.00 tail[:8]=[2, 1, 2, 1, 5, 6, 2, 3]
+[A gen walk 6] validity=1.00 tail[:8]=[6, 7, 11, 15, 11, 15, 11, 15]
+[A gen walk 7] validity=1.00 tail[:8]=[13, 12, 13, 9, 8, 4, 5, 6]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12229.36it/s]
+/workspace/cross-model/src/scripts/analysis/composition.py:177: RuntimeWarning: Mean of empty slice
+  by_n[str(n)] = {"B_geom_r2": float(np.nanmean(geoms)), "B_tail_nbr_mass": float(np.nanmean(masses)),
+[compose n=0] B_geomR²=+0.35 B_tail_nbr=nan genA_valid=None
+[compose n=8] B_geomR²=+0.36 B_tail_nbr=0.77 genA_valid=1.0
+[compose n=16] B_geomR²=+0.37 B_tail_nbr=0.84 genA_valid=1.0
+[compose n=32] B_geomR²=+0.36 B_tail_nbr=0.90 genA_valid=1.0
+[compose n=64] B_geomR²=+0.31 B_tail_nbr=0.94 genA_valid=1.0
+[compose n=128] B_geomR²=+0.17 B_tail_nbr=0.97 genA_valid=1.0
+DONE -> runs/composition/composition_Llama_to_Qwen_square_grid.json
+[22:31:02] END composition square_grid
+[22:31:02] START composition Llama->Qwen ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13997.21it/s]
+[A gen walk 0] validity=1.00 tail[:8]=[14, 13, 14, 15, 0, 15, 0, 1]
+[A gen walk 1] validity=1.00 tail[:8]=[3, 4, 5, 6, 5, 4, 3, 4]
+[A gen walk 2] validity=1.00 tail[:8]=[8, 7, 8, 9, 8, 7, 8, 9]
+[A gen walk 3] validity=1.00 tail[:8]=[11, 10, 11, 12, 11, 10, 11, 12]
+[A gen walk 4] validity=1.00 tail[:8]=[2, 1, 2, 1, 2, 1, 2, 1]
+[A gen walk 5] validity=1.00 tail[:8]=[1, 0, 15, 0, 15, 14, 13, 14]
+[A gen walk 6] validity=1.00 tail[:8]=[14, 13, 14, 13, 14, 13, 14, 13]
+[A gen walk 7] validity=1.00 tail[:8]=[9, 10, 9, 10, 9, 10, 9, 10]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9244.63it/s]
+/workspace/cross-model/src/scripts/analysis/composition.py:177: RuntimeWarning: Mean of empty slice
+  by_n[str(n)] = {"B_geom_r2": float(np.nanmean(geoms)), "B_tail_nbr_mass": float(np.nanmean(masses)),
+[compose n=0] B_geomR²=+0.68 B_tail_nbr=nan genA_valid=None
+[compose n=8] B_geomR²=+0.66 B_tail_nbr=0.85 genA_valid=1.0
+[compose n=16] B_geomR²=+0.64 B_tail_nbr=0.88 genA_valid=1.0
+[compose n=32] B_geomR²=+0.61 B_tail_nbr=0.92 genA_valid=1.0
+[compose n=64] B_geomR²=+0.51 B_tail_nbr=0.95 genA_valid=1.0
+[compose n=128] B_geomR²=+0.11 B_tail_nbr=0.97 genA_valid=1.0
+DONE -> runs/composition/composition_Llama_to_Qwen_ring.json
+[22:33:46] END composition ring
+[22:33:46] START dynamic remove square_grid (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12937.42it/s]
+[Llama] L_read=31 switch=remove
+[Llama] P(R) base=0.197 -> 0.229..0.089  geom +0.60->+0.65
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11732.03it/s]
+[Qwen] L_read=34 switch=remove
+[Qwen] P(R) base=0.054 -> 0.036..0.008  geom +0.51->+0.58
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[22:34:43] START dynamic remove square_grid (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 28078.21it/s]
+[Gemma] L_read=40 switch=remove
+[Gemma] P(R) base=0.126 -> 0.145..0.052  geom +0.55->+0.59
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[22:35:13] END dynamic remove
+[22:35:13] START dynamic swap square_grid (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12240.80it/s]
+[Llama] L_read=31 switch=swap
+[Llama] swap apple<->math: orig +0.50->+0.42  swapped +0.55->+0.62
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 9845.32it/s]
+[Qwen] L_read=34 switch=swap
+[Qwen] swap apple<->math: orig +0.44->+0.45  swapped +0.48->+0.53
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[22:36:09] START dynamic swap square_grid (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11687.93it/s]
+[Gemma] L_read=40 switch=swap
+[Gemma] swap apple<->math: orig +0.42->+0.40  swapped +0.52->+0.59
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[22:36:42] END dynamic swap
+[22:36:42] ALL_DONE

@@ -1,0 +1,63 @@
+{
+  "model": "Qwen",
+  "N": 16,
+  "seed": 0,
+  "families": {
+    "grid": {
+      "nbr_mass": 0.7337651235914479,
+      "validity": 0.9708333333333333,
+      "n_pred": 12000,
+      "edges": 24,
+      "mean_deg": 3.0,
+      "min_occ": 465
+    },
+    "ring": {
+      "nbr_mass": 0.8581717427711313,
+      "validity": 0.9879166666666667,
+      "n_pred": 12000,
+      "edges": 16,
+      "mean_deg": 2.0,
+      "min_occ": 689
+    },
+    "er_random": {
+      "nbr_mass": 0.583455004606396,
+      "validity": 0.8806666666666667,
+      "n_pred": 12000,
+      "edges": 32,
+      "mean_deg": 4.0,
+      "min_occ": 182
+    },
+    "sbm2": {
+      "nbr_mass": 0.5587735530200104,
+      "validity": 0.7563333333333333,
+      "n_pred": 12000,
+      "edges": 54,
+      "mean_deg": 6.75,
+      "min_occ": 480
+    },
+    "sbm4": {
+      "nbr_mass": 0.5963503407190244,
+      "validity": 0.9153333333333333,
+      "n_pred": 12000,
+      "edges": 33,
+      "mean_deg": 4.125,
+      "min_occ": 323
+    },
+    "tree": {
+      "nbr_mass": 0.9114740591856341,
+      "validity": 0.9931666666666666,
+      "n_pred": 12000,
+      "edges": 15,
+      "mean_deg": 1.875,
+      "min_occ": 345
+    },
+    "smallworld": {
+      "nbr_mass": 0.6136019269755731,
+      "validity": 0.9215,
+      "n_pred": 12000,
+      "edges": 30,
+      "mean_deg": 3.75,
+      "min_occ": 559
+    }
+  }
+}

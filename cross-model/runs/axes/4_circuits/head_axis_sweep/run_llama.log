@@ -1,0 +1,16 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 136/291 [00:00<00:00, 1173.62it/s]Loading weights:  93%|█████████▎| 272/291 [00:00<00:00, 1269.62it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 1292.03it/s]
+[Llama] peak layers {'x': 31, 'y': 31, 'parity': 31}  clean power {'x': 0.121, 'y': 0.168, 'parity': 0.305}
+[Llama] swept layer 0/32
+[Llama] swept layer 4/32
+[Llama] swept layer 8/32
+[Llama] swept layer 12/32
+[Llama] swept layer 16/32
+[Llama] swept layer 20/32
+[Llama] swept layer 24/32
+[Llama] swept layer 28/32
+[Llama] top heads for x: L21H10(+0.045), L9H23(+0.044), L1H20(+0.041), L2H22(+0.031), L6H23(+0.030), L13H18(+0.028)
+[Llama] top heads for y: L21H10(+0.060), L1H20(+0.052), L9H23(+0.048), L2H22(+0.045), L6H23(+0.032), L1H21(+0.027)
+[Llama] top heads for parity: L2H26(+0.183), L2H27(+0.171), L14H26(+0.157), L8H11(+0.126), L14H19(+0.103), L0H24(+0.098)
+DONE -> runs/induction-head/2_probes/head_axis_sweep/head_axis_sweep_Llama_square_grid.json

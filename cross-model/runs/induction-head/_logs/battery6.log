@@ -1,0 +1,445 @@
+[20:33:05] START injection Llama->Gemma square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11671.46it/s]
+[B=Gemma] loading
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 9681.41it/s]
+[B=Gemma] native beh=0.61 LA=[4, 6, 9, 11, 13, 16, 18, 21, 23, 26, 28, 30] LB=[5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40]
+[Llama->Gemma] LA=4: inj_nbr=[0.61 0.69 0.7  0.73 0.65 0.59 0.55 0.53 0.56 0.57 0.52 0.48 0.49 0.51
+ 0.53 0.55]
+[Llama->Gemma] LA=6: inj_nbr=[0.56 0.66 0.67 0.7  0.63 0.58 0.54 0.53 0.54 0.55 0.52 0.49 0.5  0.53
+ 0.54 0.55]
+[Llama->Gemma] LA=9: inj_nbr=[0.51 0.6  0.61 0.67 0.61 0.56 0.55 0.53 0.54 0.55 0.54 0.51 0.52 0.54
+ 0.55 0.56]
+[Llama->Gemma] LA=11: inj_nbr=[0.52 0.62 0.63 0.68 0.61 0.56 0.53 0.53 0.55 0.55 0.52 0.5  0.51 0.53
+ 0.54 0.55]
+[Llama->Gemma] LA=13: inj_nbr=[0.54 0.64 0.65 0.7  0.63 0.58 0.55 0.54 0.55 0.56 0.52 0.5  0.51 0.52
+ 0.53 0.54]
+[Llama->Gemma] LA=16: inj_nbr=[0.6  0.68 0.69 0.73 0.65 0.57 0.54 0.53 0.56 0.56 0.53 0.5  0.51 0.53
+ 0.54 0.56]
+[Llama->Gemma] LA=18: inj_nbr=[0.59 0.68 0.69 0.73 0.65 0.56 0.52 0.51 0.55 0.56 0.52 0.49 0.5  0.52
+ 0.54 0.55]
+[Llama->Gemma] LA=21: inj_nbr=[0.6  0.68 0.69 0.73 0.65 0.56 0.52 0.51 0.55 0.56 0.52 0.49 0.5  0.53
+ 0.54 0.56]
+[Llama->Gemma] LA=23: inj_nbr=[0.6  0.68 0.69 0.72 0.64 0.56 0.52 0.51 0.55 0.55 0.52 0.49 0.5  0.53
+ 0.54 0.56]
+[Llama->Gemma] LA=26: inj_nbr=[0.6  0.68 0.68 0.72 0.64 0.55 0.52 0.51 0.54 0.55 0.52 0.49 0.5  0.53
+ 0.54 0.56]
+[Llama->Gemma] LA=28: inj_nbr=[0.59 0.68 0.68 0.72 0.64 0.55 0.51 0.51 0.53 0.54 0.52 0.5  0.5  0.53
+ 0.55 0.56]
+[Llama->Gemma] LA=30: inj_nbr=[0.58 0.67 0.67 0.71 0.63 0.55 0.5  0.5  0.52 0.53 0.51 0.49 0.5  0.53
+ 0.54 0.56]
+DONE -> runs/induction-head/injection/injection_Llama_to_Gemma_square_grid.json
+[20:38:30] START injection Llama->Qwen square_grid
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11057.64it/s]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 15389.75it/s]
+[B=Qwen] native beh=0.68 LA=[4, 6, 9, 11, 13, 16, 18, 21, 23, 26, 28, 30] LB=[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]
+[Llama->Qwen] LA=4: inj_nbr=[0.7  0.67 0.8  0.8  0.82 0.79 0.7  0.74 0.61 0.62 0.63 0.6  0.59 0.64
+ 0.67 0.72]
+[Llama->Qwen] LA=6: inj_nbr=[0.67 0.62 0.77 0.78 0.8  0.78 0.7  0.71 0.61 0.62 0.62 0.61 0.59 0.65
+ 0.68 0.73]
+[Llama->Qwen] LA=9: inj_nbr=[0.59 0.56 0.73 0.74 0.76 0.76 0.68 0.68 0.61 0.63 0.63 0.62 0.6  0.65
+ 0.68 0.72]
+[Llama->Qwen] LA=11: inj_nbr=[0.61 0.6  0.74 0.75 0.77 0.75 0.67 0.68 0.59 0.62 0.61 0.6  0.58 0.64
+ 0.67 0.72]
+[Llama->Qwen] LA=13: inj_nbr=[0.61 0.6  0.76 0.76 0.78 0.76 0.68 0.69 0.6  0.6  0.6  0.59 0.57 0.62
+ 0.65 0.71]
+[Llama->Qwen] LA=16: inj_nbr=[0.69 0.67 0.79 0.79 0.81 0.79 0.7  0.72 0.62 0.63 0.63 0.61 0.59 0.65
+ 0.69 0.74]
+[Llama->Qwen] LA=18: inj_nbr=[0.69 0.67 0.79 0.79 0.81 0.79 0.7  0.71 0.62 0.62 0.63 0.61 0.59 0.65
+ 0.68 0.73]
+[Llama->Qwen] LA=21: inj_nbr=[0.7  0.67 0.8  0.8  0.81 0.79 0.7  0.7  0.61 0.62 0.63 0.61 0.59 0.65
+ 0.69 0.74]
+[Llama->Qwen] LA=23: inj_nbr=[0.7  0.68 0.79 0.8  0.81 0.79 0.7  0.71 0.62 0.62 0.63 0.61 0.59 0.65
+ 0.68 0.74]
+[Llama->Qwen] LA=26: inj_nbr=[0.68 0.68 0.8  0.79 0.81 0.79 0.69 0.7  0.61 0.61 0.62 0.6  0.58 0.64
+ 0.67 0.72]
+[Llama->Qwen] LA=28: inj_nbr=[0.68 0.68 0.79 0.8  0.8  0.79 0.7  0.7  0.61 0.61 0.62 0.6  0.58 0.65
+ 0.68 0.73]
+[Llama->Qwen] LA=30: inj_nbr=[0.68 0.66 0.79 0.79 0.8  0.78 0.69 0.7  0.6  0.61 0.61 0.59 0.58 0.64
+ 0.67 0.73]
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_square_grid.json
+[20:43:35] START injection Gemma->Llama square_grid
+[A=Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13025.88it/s]
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 9888.78it/s]
+[B=Llama] native beh=0.85 LA=[5, 8, 11, 15, 18, 21, 24, 27, 30, 34, 37, 40] LB=[4, 6, 7, 9, 11, 13, 14, 16, 18, 20, 22, 23, 25, 27, 29, 30]
+[Gemma->Llama] LA=5: inj_nbr=[0.83 0.87 0.89 0.88 0.91 0.72 0.71 0.78 0.76 0.69 0.69 0.7  0.72 0.74
+ 0.77 0.78]
+[Gemma->Llama] LA=8: inj_nbr=[0.83 0.86 0.89 0.89 0.91 0.73 0.71 0.79 0.76 0.7  0.7  0.71 0.72 0.75
+ 0.77 0.78]
+[Gemma->Llama] LA=11: inj_nbr=[0.83 0.85 0.88 0.88 0.9  0.73 0.71 0.77 0.75 0.69 0.69 0.7  0.72 0.74
+ 0.76 0.76]
+[Gemma->Llama] LA=15: inj_nbr=[0.79 0.83 0.82 0.85 0.87 0.69 0.69 0.72 0.7  0.66 0.67 0.67 0.69 0.71
+ 0.73 0.73]
+[Gemma->Llama] LA=18: inj_nbr=[0.76 0.81 0.83 0.84 0.86 0.7  0.68 0.72 0.7  0.65 0.66 0.67 0.69 0.71
+ 0.73 0.73]
+[Gemma->Llama] LA=21: inj_nbr=[0.75 0.8  0.84 0.83 0.87 0.69 0.69 0.7  0.69 0.64 0.65 0.66 0.68 0.7
+ 0.72 0.72]
+[Gemma->Llama] LA=24: inj_nbr=[0.76 0.81 0.84 0.86 0.88 0.7  0.69 0.72 0.71 0.66 0.66 0.68 0.69 0.71
+ 0.73 0.74]
+[Gemma->Llama] LA=27: inj_nbr=[0.83 0.86 0.89 0.9  0.91 0.73 0.72 0.76 0.74 0.69 0.69 0.69 0.71 0.74
+ 0.76 0.76]
+[Gemma->Llama] LA=30: inj_nbr=[0.84 0.87 0.89 0.87 0.91 0.7  0.72 0.78 0.75 0.69 0.69 0.71 0.72 0.74
+ 0.77 0.77]
+[Gemma->Llama] LA=34: inj_nbr=[0.84 0.86 0.88 0.87 0.9  0.7  0.72 0.77 0.75 0.69 0.69 0.7  0.72 0.75
+ 0.78 0.78]
+[Gemma->Llama] LA=37: inj_nbr=[0.83 0.86 0.88 0.86 0.9  0.69 0.7  0.76 0.74 0.69 0.68 0.69 0.71 0.74
+ 0.77 0.77]
+[Gemma->Llama] LA=40: inj_nbr=[0.82 0.86 0.88 0.86 0.9  0.69 0.69 0.74 0.72 0.67 0.67 0.68 0.69 0.72
+ 0.76 0.77]
+DONE -> runs/induction-head/injection/injection_Gemma_to_Llama_square_grid.json
+[20:48:08] START injection Gemma->Qwen square_grid
+[A=Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 13176.95it/s]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11382.22it/s]
+[B=Qwen] native beh=0.68 LA=[5, 8, 11, 15, 18, 21, 24, 27, 30, 34, 37, 40] LB=[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]
+[Gemma->Qwen] LA=5: inj_nbr=[0.71 0.69 0.79 0.79 0.82 0.8  0.7  0.75 0.61 0.61 0.62 0.6  0.57 0.63
+ 0.68 0.72]
+[Gemma->Qwen] LA=8: inj_nbr=[0.72 0.68 0.8  0.8  0.81 0.79 0.7  0.74 0.62 0.62 0.62 0.6  0.57 0.64
+ 0.68 0.72]
+[Gemma->Qwen] LA=11: inj_nbr=[0.68 0.65 0.79 0.79 0.8  0.79 0.7  0.72 0.6  0.6  0.61 0.59 0.57 0.63
+ 0.67 0.72]
+[Gemma->Qwen] LA=15: inj_nbr=[0.63 0.59 0.76 0.76 0.79 0.75 0.66 0.67 0.59 0.58 0.59 0.56 0.55 0.61
+ 0.64 0.7 ]
+[Gemma->Qwen] LA=18: inj_nbr=[0.58 0.57 0.72 0.74 0.76 0.74 0.66 0.66 0.58 0.58 0.59 0.56 0.55 0.61
+ 0.64 0.7 ]
+[Gemma->Qwen] LA=21: inj_nbr=[0.58 0.54 0.73 0.74 0.76 0.73 0.65 0.64 0.55 0.55 0.55 0.53 0.51 0.58
+ 0.61 0.68]
+[Gemma->Qwen] LA=24: inj_nbr=[0.59 0.57 0.73 0.74 0.76 0.74 0.64 0.65 0.56 0.57 0.58 0.56 0.54 0.6
+ 0.63 0.7 ]
+[Gemma->Qwen] LA=27: inj_nbr=[0.7  0.66 0.8  0.8  0.81 0.79 0.69 0.72 0.6  0.6  0.61 0.59 0.57 0.63
+ 0.67 0.72]
+[Gemma->Qwen] LA=30: inj_nbr=[0.71 0.68 0.79 0.8  0.81 0.78 0.69 0.71 0.6  0.6  0.62 0.59 0.57 0.65
+ 0.67 0.72]
+[Gemma->Qwen] LA=34: inj_nbr=[0.7  0.68 0.8  0.8  0.81 0.79 0.69 0.71 0.6  0.6  0.62 0.59 0.57 0.64
+ 0.67 0.73]
+[Gemma->Qwen] LA=37: inj_nbr=[0.69 0.67 0.8  0.8  0.81 0.79 0.7  0.71 0.59 0.59 0.6  0.58 0.55 0.63
+ 0.66 0.72]
+[Gemma->Qwen] LA=40: inj_nbr=[0.67 0.66 0.79 0.79 0.81 0.79 0.69 0.71 0.59 0.58 0.59 0.57 0.56 0.62
+ 0.65 0.72]
+DONE -> runs/induction-head/injection/injection_Gemma_to_Qwen_square_grid.json
+[20:52:56] START injection Qwen->Llama square_grid
+[A=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12165.80it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11505.65it/s]
+[B=Llama] native beh=0.85 LA=[4, 7, 10, 12, 15, 18, 21, 23, 26, 29, 31, 34] LB=[4, 6, 7, 9, 11, 13, 14, 16, 18, 20, 22, 23, 25, 27, 29, 30]
+[Qwen->Llama] LA=4: inj_nbr=[0.83 0.87 0.89 0.88 0.91 0.73 0.72 0.78 0.75 0.69 0.69 0.7  0.72 0.75
+ 0.77 0.78]
+[Qwen->Llama] LA=7: inj_nbr=[0.83 0.87 0.89 0.88 0.91 0.74 0.72 0.78 0.76 0.7  0.7  0.71 0.73 0.75
+ 0.78 0.79]
+[Qwen->Llama] LA=10: inj_nbr=[0.83 0.86 0.88 0.88 0.91 0.74 0.72 0.79 0.76 0.71 0.71 0.72 0.73 0.76
+ 0.78 0.79]
+[Qwen->Llama] LA=12: inj_nbr=[0.82 0.86 0.87 0.87 0.9  0.74 0.72 0.77 0.75 0.71 0.71 0.72 0.73 0.75
+ 0.78 0.78]
+[Qwen->Llama] LA=15: inj_nbr=[0.8  0.83 0.85 0.86 0.88 0.73 0.7  0.72 0.71 0.67 0.67 0.69 0.7  0.72
+ 0.74 0.75]
+[Qwen->Llama] LA=18: inj_nbr=[0.74 0.79 0.84 0.83 0.83 0.7  0.67 0.69 0.68 0.65 0.66 0.67 0.68 0.7
+ 0.72 0.73]
+[Qwen->Llama] LA=21: inj_nbr=[0.81 0.83 0.86 0.86 0.88 0.71 0.71 0.73 0.71 0.67 0.67 0.68 0.69 0.72
+ 0.74 0.75]
+[Qwen->Llama] LA=23: inj_nbr=[0.83 0.85 0.88 0.87 0.9  0.71 0.71 0.75 0.73 0.68 0.68 0.69 0.7  0.73
+ 0.76 0.77]
+[Qwen->Llama] LA=26: inj_nbr=[0.84 0.85 0.86 0.85 0.88 0.68 0.69 0.75 0.73 0.67 0.68 0.68 0.7  0.72
+ 0.75 0.75]
+[Qwen->Llama] LA=29: inj_nbr=[0.84 0.86 0.87 0.85 0.88 0.68 0.7  0.76 0.74 0.68 0.69 0.69 0.71 0.74
+ 0.77 0.77]
+[Qwen->Llama] LA=31: inj_nbr=[0.83 0.85 0.87 0.84 0.88 0.67 0.69 0.74 0.72 0.67 0.67 0.68 0.7  0.72
+ 0.76 0.76]
+[Qwen->Llama] LA=34: inj_nbr=[0.8  0.83 0.85 0.8  0.85 0.63 0.66 0.71 0.69 0.64 0.64 0.65 0.66 0.69
+ 0.73 0.73]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_square_grid.json
+[20:57:41] START injection Qwen->Gemma square_grid
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 11689.01it/s]
+[B=Gemma] loading
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11841.11it/s]
+[B=Gemma] native beh=0.61 LA=[4, 7, 10, 12, 15, 18, 21, 23, 26, 29, 31, 34] LB=[5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40]
+[Qwen->Gemma] LA=4: inj_nbr=[0.61 0.7  0.7  0.74 0.65 0.57 0.53 0.52 0.55 0.56 0.51 0.48 0.49 0.51
+ 0.53 0.54]
+[Qwen->Gemma] LA=7: inj_nbr=[0.61 0.7  0.7  0.74 0.65 0.58 0.54 0.53 0.56 0.56 0.52 0.49 0.49 0.52
+ 0.54 0.55]
+[Qwen->Gemma] LA=10: inj_nbr=[0.6  0.69 0.7  0.73 0.65 0.58 0.54 0.52 0.55 0.56 0.52 0.49 0.5  0.52
+ 0.54 0.55]
+[Qwen->Gemma] LA=12: inj_nbr=[0.58 0.67 0.68 0.71 0.64 0.58 0.54 0.53 0.55 0.56 0.52 0.5  0.5  0.53
+ 0.54 0.56]
+[Qwen->Gemma] LA=15: inj_nbr=[0.52 0.62 0.63 0.68 0.62 0.56 0.53 0.52 0.53 0.53 0.51 0.48 0.49 0.51
+ 0.52 0.54]
+[Qwen->Gemma] LA=18: inj_nbr=[0.49 0.58 0.59 0.65 0.58 0.54 0.51 0.5  0.51 0.52 0.5  0.48 0.49 0.51
+ 0.52 0.53]
+[Qwen->Gemma] LA=21: inj_nbr=[0.55 0.65 0.66 0.7  0.64 0.56 0.52 0.51 0.54 0.54 0.51 0.49 0.49 0.52
+ 0.53 0.54]
+[Qwen->Gemma] LA=23: inj_nbr=[0.58 0.68 0.69 0.72 0.65 0.57 0.52 0.51 0.54 0.55 0.51 0.49 0.49 0.51
+ 0.52 0.54]
+[Qwen->Gemma] LA=26: inj_nbr=[0.59 0.68 0.68 0.71 0.64 0.55 0.5  0.5  0.53 0.53 0.5  0.48 0.48 0.5
+ 0.52 0.53]
+[Qwen->Gemma] LA=29: inj_nbr=[0.59 0.69 0.69 0.71 0.65 0.54 0.5  0.5  0.53 0.54 0.51 0.48 0.49 0.51
+ 0.53 0.54]
+[Qwen->Gemma] LA=31: inj_nbr=[0.59 0.68 0.68 0.72 0.64 0.54 0.5  0.49 0.52 0.53 0.5  0.48 0.48 0.51
+ 0.53 0.54]
+[Qwen->Gemma] LA=34: inj_nbr=[0.57 0.67 0.67 0.73 0.64 0.52 0.48 0.47 0.5  0.51 0.49 0.47 0.47 0.49
+ 0.51 0.52]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Gemma_square_grid.json
+[21:02:45] END injection square_grid
+[21:02:45] START injection Llama->Gemma ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 18586.28it/s]
+[B=Gemma] loading
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 12337.28it/s]
+[B=Gemma] native beh=0.77 LA=[4, 6, 9, 11, 13, 16, 18, 21, 23, 26, 28, 30] LB=[5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40]
+[Llama->Gemma] LA=4: inj_nbr=[0.76 0.83 0.83 0.84 0.85 0.81 0.84 0.79 0.75 0.77 0.68 0.62 0.61 0.67
+ 0.7  0.73]
+[Llama->Gemma] LA=6: inj_nbr=[0.72 0.8  0.81 0.82 0.82 0.8  0.82 0.78 0.73 0.74 0.66 0.61 0.59 0.64
+ 0.66 0.66]
+[Llama->Gemma] LA=9: inj_nbr=[0.66 0.75 0.77 0.8  0.8  0.78 0.79 0.74 0.7  0.72 0.66 0.62 0.61 0.64
+ 0.64 0.64]
+[Llama->Gemma] LA=11: inj_nbr=[0.66 0.76 0.77 0.8  0.8  0.77 0.78 0.74 0.7  0.71 0.65 0.62 0.6  0.65
+ 0.65 0.65]
+[Llama->Gemma] LA=13: inj_nbr=[0.71 0.78 0.79 0.8  0.81 0.78 0.79 0.75 0.71 0.73 0.67 0.63 0.62 0.66
+ 0.67 0.68]
+[Llama->Gemma] LA=16: inj_nbr=[0.75 0.82 0.83 0.84 0.84 0.81 0.84 0.79 0.75 0.77 0.71 0.66 0.65 0.7
+ 0.72 0.74]
+[Llama->Gemma] LA=18: inj_nbr=[0.75 0.82 0.84 0.84 0.84 0.82 0.83 0.79 0.75 0.77 0.7  0.67 0.65 0.7
+ 0.72 0.73]
+[Llama->Gemma] LA=21: inj_nbr=[0.75 0.82 0.83 0.83 0.84 0.81 0.83 0.79 0.74 0.76 0.69 0.67 0.64 0.69
+ 0.71 0.73]
+[Llama->Gemma] LA=23: inj_nbr=[0.75 0.82 0.83 0.83 0.84 0.8  0.82 0.78 0.74 0.75 0.69 0.66 0.64 0.69
+ 0.71 0.74]
+[Llama->Gemma] LA=26: inj_nbr=[0.75 0.81 0.82 0.84 0.84 0.8  0.82 0.78 0.73 0.75 0.67 0.65 0.63 0.67
+ 0.69 0.72]
+[Llama->Gemma] LA=28: inj_nbr=[0.74 0.81 0.81 0.84 0.83 0.8  0.82 0.77 0.72 0.74 0.68 0.64 0.62 0.67
+ 0.69 0.71]
+[Llama->Gemma] LA=30: inj_nbr=[0.74 0.8  0.81 0.84 0.83 0.79 0.81 0.76 0.71 0.73 0.66 0.63 0.61 0.66
+ 0.68 0.7 ]
+DONE -> runs/induction-head/injection/injection_Llama_to_Gemma_ring.json
+[21:07:42] START injection Llama->Qwen ring
+[A=Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12252.97it/s]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10278.33it/s]
+[B=Qwen] native beh=0.89 LA=[4, 6, 9, 11, 13, 16, 18, 21, 23, 26, 28, 30] LB=[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]
+[Llama->Qwen] LA=4: inj_nbr=[0.92 0.88 0.94 0.93 0.95 0.96 0.93 0.93 0.8  0.8  0.81 0.8  0.78 0.83
+ 0.86 0.88]
+[Llama->Qwen] LA=6: inj_nbr=[0.89 0.84 0.93 0.93 0.94 0.95 0.92 0.91 0.79 0.78 0.79 0.77 0.75 0.79
+ 0.82 0.84]
+[Llama->Qwen] LA=9: inj_nbr=[0.82 0.75 0.9  0.89 0.87 0.92 0.89 0.85 0.78 0.78 0.77 0.76 0.74 0.76
+ 0.78 0.8 ]
+[Llama->Qwen] LA=11: inj_nbr=[0.83 0.78 0.9  0.9  0.88 0.93 0.89 0.85 0.75 0.76 0.76 0.74 0.72 0.75
+ 0.79 0.82]
+[Llama->Qwen] LA=13: inj_nbr=[0.86 0.83 0.92 0.92 0.91 0.94 0.91 0.87 0.77 0.76 0.78 0.77 0.75 0.79
+ 0.82 0.84]
+[Llama->Qwen] LA=16: inj_nbr=[0.91 0.88 0.93 0.93 0.94 0.96 0.93 0.91 0.81 0.81 0.82 0.81 0.8  0.84
+ 0.86 0.89]
+[Llama->Qwen] LA=18: inj_nbr=[0.91 0.87 0.94 0.93 0.94 0.96 0.93 0.89 0.82 0.81 0.82 0.81 0.8  0.84
+ 0.86 0.89]
+[Llama->Qwen] LA=21: inj_nbr=[0.91 0.88 0.94 0.93 0.95 0.96 0.93 0.89 0.81 0.8  0.81 0.8  0.78 0.84
+ 0.86 0.89]
+[Llama->Qwen] LA=23: inj_nbr=[0.91 0.88 0.94 0.93 0.94 0.95 0.93 0.89 0.81 0.79 0.81 0.8  0.79 0.84
+ 0.86 0.89]
+[Llama->Qwen] LA=26: inj_nbr=[0.92 0.88 0.93 0.92 0.93 0.95 0.92 0.89 0.79 0.78 0.8  0.79 0.77 0.83
+ 0.84 0.87]
+[Llama->Qwen] LA=28: inj_nbr=[0.91 0.86 0.92 0.92 0.92 0.94 0.92 0.88 0.77 0.77 0.8  0.78 0.77 0.83
+ 0.84 0.87]
+[Llama->Qwen] LA=30: inj_nbr=[0.89 0.85 0.91 0.91 0.91 0.94 0.91 0.87 0.77 0.75 0.77 0.76 0.75 0.81
+ 0.83 0.87]
+DONE -> runs/induction-head/injection/injection_Llama_to_Qwen_ring.json
+[21:12:46] START injection Gemma->Llama ring
+[A=Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 12376.59it/s]
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 11137.45it/s]
+[B=Llama] native beh=0.88 LA=[5, 8, 11, 15, 18, 21, 24, 27, 30, 34, 37, 40] LB=[4, 6, 7, 9, 11, 13, 14, 16, 18, 20, 22, 23, 25, 27, 29, 30]
+[Gemma->Llama] LA=5: inj_nbr=[0.87 0.92 0.92 0.91 0.92 0.75 0.62 0.76 0.74 0.68 0.72 0.77 0.78 0.81
+ 0.84 0.83]
+[Gemma->Llama] LA=8: inj_nbr=[0.87 0.92 0.92 0.91 0.92 0.73 0.64 0.76 0.75 0.69 0.74 0.78 0.78 0.81
+ 0.83 0.83]
+[Gemma->Llama] LA=11: inj_nbr=[0.85 0.91 0.91 0.9  0.92 0.73 0.65 0.76 0.75 0.7  0.75 0.78 0.78 0.81
+ 0.84 0.83]
+[Gemma->Llama] LA=15: inj_nbr=[0.77 0.85 0.86 0.86 0.89 0.69 0.64 0.73 0.73 0.7  0.73 0.76 0.76 0.79
+ 0.81 0.8 ]
+[Gemma->Llama] LA=18: inj_nbr=[0.7  0.77 0.81 0.8  0.82 0.68 0.63 0.68 0.68 0.66 0.69 0.71 0.72 0.76
+ 0.78 0.77]
+[Gemma->Llama] LA=21: inj_nbr=[0.74 0.79 0.84 0.81 0.84 0.69 0.63 0.7  0.69 0.66 0.71 0.73 0.73 0.76
+ 0.79 0.78]
+[Gemma->Llama] LA=24: inj_nbr=[0.73 0.81 0.85 0.83 0.87 0.7  0.63 0.7  0.69 0.66 0.7  0.73 0.73 0.76
+ 0.78 0.78]
+[Gemma->Llama] LA=27: inj_nbr=[0.86 0.91 0.91 0.91 0.92 0.73 0.65 0.76 0.75 0.71 0.74 0.78 0.78 0.82
+ 0.84 0.84]
+[Gemma->Llama] LA=30: inj_nbr=[0.88 0.92 0.91 0.9  0.93 0.7  0.63 0.77 0.77 0.71 0.75 0.79 0.8  0.83
+ 0.85 0.84]
+[Gemma->Llama] LA=34: inj_nbr=[0.88 0.92 0.91 0.9  0.92 0.7  0.63 0.77 0.76 0.71 0.75 0.79 0.79 0.82
+ 0.85 0.84]
+[Gemma->Llama] LA=37: inj_nbr=[0.86 0.89 0.89 0.88 0.89 0.72 0.6  0.74 0.74 0.69 0.72 0.76 0.76 0.8
+ 0.83 0.83]
+[Gemma->Llama] LA=40: inj_nbr=[0.82 0.84 0.87 0.83 0.84 0.71 0.56 0.71 0.71 0.66 0.69 0.74 0.75 0.79
+ 0.82 0.82]
+DONE -> runs/induction-head/injection/injection_Gemma_to_Llama_ring.json
+[21:17:20] START injection Gemma->Qwen ring
+[A=Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 17891.26it/s]
+[B=Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10602.82it/s]
+[B=Qwen] native beh=0.89 LA=[5, 8, 11, 15, 18, 21, 24, 27, 30, 34, 37, 40] LB=[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]
+[Gemma->Qwen] LA=5: inj_nbr=[0.92 0.89 0.94 0.93 0.95 0.95 0.93 0.93 0.79 0.78 0.8  0.79 0.76 0.82
+ 0.85 0.87]
+[Gemma->Qwen] LA=8: inj_nbr=[0.91 0.88 0.94 0.93 0.94 0.96 0.93 0.94 0.81 0.8  0.8  0.8  0.77 0.82
+ 0.85 0.87]
+[Gemma->Qwen] LA=11: inj_nbr=[0.89 0.85 0.93 0.92 0.93 0.95 0.92 0.91 0.81 0.8  0.81 0.8  0.78 0.82
+ 0.85 0.86]
+[Gemma->Qwen] LA=15: inj_nbr=[0.84 0.77 0.88 0.88 0.87 0.9  0.89 0.85 0.77 0.79 0.79 0.78 0.75 0.79
+ 0.81 0.84]
+[Gemma->Qwen] LA=18: inj_nbr=[0.77 0.67 0.82 0.79 0.8  0.86 0.84 0.83 0.75 0.75 0.76 0.74 0.72 0.75
+ 0.79 0.81]
+[Gemma->Qwen] LA=21: inj_nbr=[0.82 0.74 0.86 0.85 0.87 0.92 0.88 0.85 0.77 0.77 0.77 0.76 0.74 0.75
+ 0.78 0.8 ]
+[Gemma->Qwen] LA=24: inj_nbr=[0.84 0.76 0.87 0.87 0.87 0.93 0.89 0.86 0.79 0.78 0.77 0.75 0.73 0.76
+ 0.79 0.81]
+[Gemma->Qwen] LA=27: inj_nbr=[0.92 0.86 0.93 0.93 0.94 0.96 0.93 0.91 0.82 0.8  0.8  0.79 0.76 0.81
+ 0.85 0.87]
+[Gemma->Qwen] LA=30: inj_nbr=[0.92 0.88 0.94 0.94 0.95 0.96 0.93 0.92 0.8  0.8  0.82 0.8  0.77 0.83
+ 0.86 0.88]
+[Gemma->Qwen] LA=34: inj_nbr=[0.92 0.87 0.94 0.93 0.95 0.96 0.93 0.91 0.79 0.79 0.81 0.8  0.77 0.83
+ 0.86 0.88]
+[Gemma->Qwen] LA=37: inj_nbr=[0.92 0.86 0.93 0.93 0.93 0.95 0.93 0.89 0.76 0.76 0.79 0.78 0.75 0.8
+ 0.83 0.87]
+[Gemma->Qwen] LA=40: inj_nbr=[0.9  0.83 0.91 0.92 0.9  0.93 0.91 0.88 0.73 0.73 0.77 0.75 0.71 0.79
+ 0.83 0.86]
+DONE -> runs/induction-head/injection/injection_Gemma_to_Qwen_ring.json
+[21:22:10] START injection Qwen->Llama ring
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 13721.37it/s]
+[B=Llama] loading
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 10836.65it/s]
+[B=Llama] native beh=0.88 LA=[4, 7, 10, 12, 15, 18, 21, 23, 26, 29, 31, 34] LB=[4, 6, 7, 9, 11, 13, 14, 16, 18, 20, 22, 23, 25, 27, 29, 30]
+[Qwen->Llama] LA=4: inj_nbr=[0.87 0.92 0.92 0.91 0.91 0.73 0.63 0.76 0.75 0.68 0.73 0.77 0.79 0.82
+ 0.85 0.84]
+[Qwen->Llama] LA=7: inj_nbr=[0.86 0.91 0.92 0.91 0.92 0.74 0.62 0.75 0.75 0.68 0.73 0.77 0.78 0.81
+ 0.85 0.84]
+[Qwen->Llama] LA=10: inj_nbr=[0.86 0.92 0.92 0.91 0.92 0.71 0.64 0.76 0.75 0.69 0.74 0.78 0.78 0.81
+ 0.84 0.83]
+[Qwen->Llama] LA=12: inj_nbr=[0.84 0.91 0.91 0.91 0.92 0.74 0.65 0.76 0.75 0.71 0.76 0.8  0.81 0.83
+ 0.86 0.86]
+[Qwen->Llama] LA=15: inj_nbr=[0.8  0.89 0.89 0.88 0.91 0.75 0.67 0.75 0.75 0.71 0.76 0.79 0.78 0.8
+ 0.82 0.81]
+[Qwen->Llama] LA=18: inj_nbr=[0.76 0.86 0.87 0.85 0.88 0.72 0.63 0.71 0.7  0.67 0.72 0.74 0.74 0.76
+ 0.79 0.79]
+[Qwen->Llama] LA=21: inj_nbr=[0.82 0.89 0.9  0.9  0.92 0.75 0.67 0.76 0.75 0.72 0.76 0.79 0.79 0.82
+ 0.84 0.83]
+[Qwen->Llama] LA=23: inj_nbr=[0.85 0.9  0.91 0.91 0.93 0.76 0.65 0.78 0.78 0.73 0.77 0.81 0.8  0.83
+ 0.86 0.85]
+[Qwen->Llama] LA=26: inj_nbr=[0.87 0.92 0.92 0.91 0.93 0.74 0.66 0.79 0.78 0.74 0.78 0.81 0.81 0.83
+ 0.86 0.86]
+[Qwen->Llama] LA=29: inj_nbr=[0.87 0.91 0.91 0.9  0.92 0.74 0.64 0.79 0.78 0.74 0.78 0.81 0.81 0.84
+ 0.87 0.87]
+[Qwen->Llama] LA=31: inj_nbr=[0.86 0.9  0.9  0.89 0.91 0.74 0.62 0.77 0.77 0.73 0.77 0.8  0.8  0.83
+ 0.86 0.86]
+[Qwen->Llama] LA=34: inj_nbr=[0.83 0.86 0.88 0.85 0.87 0.71 0.57 0.72 0.72 0.67 0.71 0.76 0.75 0.79
+ 0.83 0.83]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Llama_ring.json
+[21:26:55] START injection Qwen->Gemma ring
+[A=Qwen] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 13757.24it/s]
+[B=Gemma] loading
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 15870.54it/s]
+[B=Gemma] native beh=0.77 LA=[4, 7, 10, 12, 15, 18, 21, 23, 26, 29, 31, 34] LB=[5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40]
+[Qwen->Gemma] LA=4: inj_nbr=[0.76 0.82 0.83 0.84 0.83 0.8  0.83 0.77 0.73 0.75 0.67 0.6  0.58 0.65
+ 0.69 0.73]
+[Qwen->Gemma] LA=7: inj_nbr=[0.76 0.82 0.83 0.84 0.84 0.81 0.83 0.78 0.74 0.76 0.67 0.61 0.59 0.66
+ 0.69 0.73]
+[Qwen->Gemma] LA=10: inj_nbr=[0.75 0.81 0.82 0.83 0.83 0.8  0.82 0.78 0.73 0.75 0.66 0.61 0.6  0.66
+ 0.68 0.72]
+[Qwen->Gemma] LA=12: inj_nbr=[0.74 0.81 0.82 0.84 0.83 0.81 0.82 0.78 0.74 0.75 0.67 0.63 0.62 0.68
+ 0.7  0.73]
+[Qwen->Gemma] LA=15: inj_nbr=[0.69 0.79 0.8  0.8  0.82 0.79 0.8  0.76 0.72 0.73 0.67 0.63 0.61 0.66
+ 0.67 0.68]
+[Qwen->Gemma] LA=18: inj_nbr=[0.66 0.74 0.75 0.77 0.78 0.76 0.77 0.73 0.68 0.69 0.63 0.6  0.59 0.63
+ 0.65 0.67]
+[Qwen->Gemma] LA=21: inj_nbr=[0.73 0.79 0.8  0.81 0.83 0.8  0.83 0.78 0.73 0.75 0.67 0.63 0.62 0.68
+ 0.69 0.72]
+[Qwen->Gemma] LA=23: inj_nbr=[0.74 0.82 0.83 0.84 0.84 0.81 0.83 0.79 0.75 0.76 0.68 0.64 0.63 0.68
+ 0.71 0.74]
+[Qwen->Gemma] LA=26: inj_nbr=[0.75 0.81 0.83 0.84 0.84 0.81 0.82 0.79 0.74 0.75 0.69 0.65 0.63 0.69
+ 0.71 0.74]
+[Qwen->Gemma] LA=29: inj_nbr=[0.75 0.82 0.82 0.83 0.84 0.8  0.82 0.77 0.73 0.75 0.69 0.64 0.63 0.69
+ 0.72 0.75]
+[Qwen->Gemma] LA=31: inj_nbr=[0.74 0.81 0.82 0.82 0.84 0.8  0.82 0.77 0.72 0.74 0.68 0.64 0.62 0.69
+ 0.71 0.74]
+[Qwen->Gemma] LA=34: inj_nbr=[0.73 0.8  0.8  0.81 0.82 0.76 0.79 0.74 0.67 0.69 0.63 0.59 0.59 0.65
+ 0.67 0.7 ]
+DONE -> runs/induction-head/injection/injection_Qwen_to_Gemma_ring.json
+[21:32:00] END injection ring
+[21:32:00] START removal_generate square_grid (Llama)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12663.86it/s]
+[Llama] L_rem=27 probeR²=0.39 — generating 150 steps x 4 seeds x 3 conds
+[Llama/square_grid/clean] peak-over-layers  val=1.00 nbr=0.98 geom=0.60
+[Llama/square_grid/remove_probe] peak-over-layers  val=0.90 nbr=0.86 geom=0.52
+[Llama/square_grid/remove_random] peak-over-layers  val=0.98 nbr=0.97 geom=0.52
+DONE -> runs/induction-head/removal_followup/removal_generate_square_grid.json
+[21:36:15] END removal_generate square_grid
+[21:36:15] START removal_generate ring (Llama)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 12551.34it/s]
+[Llama] L_rem=27 probeR²=0.63 — generating 150 steps x 4 seeds x 3 conds
+[Llama/ring/clean] peak-over-layers  val=0.99 nbr=0.98 geom=0.73
+[Llama/ring/remove_probe] peak-over-layers  val=1.00 nbr=0.97 geom=0.60
+[Llama/ring/remove_random] peak-over-layers  val=0.99 nbr=0.98 geom=0.76
+DONE -> runs/induction-head/removal_followup/removal_generate_ring.json
+[21:40:25] END removal_generate ring
+[21:40:25] START dynamic remove (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 13889.69it/s]
+[Llama] L_read=31 switch=remove nL=32
+[Llama] P(R) base=0.197 -> 0.229..0.089  geom +0.60->+0.65
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 12457.12it/s]
+[Qwen] L_read=34 switch=remove nL=36
+[Qwen] P(R) base=0.054 -> 0.036..0.008  geom +0.51->+0.58
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[21:41:41] START dynamic remove (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 11916.58it/s]
+[Gemma] L_read=40 switch=remove nL=42
+[Gemma] P(R) base=0.126 -> 0.145..0.052  geom +0.55->+0.59
+DONE -> runs/dynamic/dynamic_remove_square_grid.json
+[21:42:28] END dynamic remove
+[21:42:28] START dynamic swap (Llama,Qwen)
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 62698.03it/s]
+[Llama] L_read=31 switch=swap nL=32
+[Llama] swap apple<->math: orig +0.50->+0.42  swapped +0.55->+0.62
+[Qwen] loading
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 10037.35it/s]
+[Qwen] L_read=34 switch=swap nL=36
+[Qwen] swap apple<->math: orig +0.44->+0.45  swapped +0.48->+0.53
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[21:43:51] START dynamic swap (Gemma)
+[Gemma] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights: 100%|██████████| 464/464 [00:00<00:00, 15369.57it/s]
+[Gemma] L_read=40 switch=swap nL=42
+[Gemma] swap apple<->math: orig +0.42->+0.40  swapped +0.52->+0.59
+DONE -> runs/dynamic/dynamic_swap_square_grid.json
+[21:44:38] END dynamic swap
+[21:44:38] ALL_DONE

@@ -1,0 +1,14 @@
+[Llama] loading
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:01, 140.09it/s]Loading weights:  19%|█▉        | 56/291 [00:00<00:02, 86.22it/s] Loading weights:  22%|██▏       | 65/291 [00:00<00:03, 60.05it/s]Loading weights:  25%|██▍       | 72/291 [00:01<00:04, 52.98it/s]Loading weights:  27%|██▋       | 78/291 [00:01<00:06, 35.16it/s]Loading weights:  28%|██▊       | 82/291 [00:01<00:06, 31.36it/s]Loading weights:  30%|███       | 88/291 [00:01<00:06, 31.06it/s]Loading weights:  44%|████▎     | 127/291 [00:01<00:01, 87.58it/s]Loading weights:  49%|████▉     | 142/291 [00:02<00:01, 83.65it/s]Loading weights:  53%|█████▎    | 155/291 [00:02<00:02, 67.92it/s]Loading weights:  58%|█████▊    | 168/291 [00:02<00:01, 66.80it/s]Loading weights:  61%|██████    | 177/291 [00:03<00:02, 47.10it/s]Loading weights:  63%|██████▎   | 184/291 [00:03<00:02, 44.41it/s]Loading weights:  65%|██████▌   | 190/291 [00:03<00:02, 46.55it/s]Loading weights:  79%|███████▉  | 231/291 [00:03<00:00, 81.06it/s]Loading weights:  82%|████████▏ | 240/291 [00:03<00:00, 71.00it/s]Loading weights:  85%|████████▌ | 248/291 [00:04<00:00, 63.39it/s]Loading weights:  88%|████████▊ | 255/291 [00:04<00:00, 64.17it/s]Loading weights:  95%|█████████▍| 276/291 [00:04<00:00, 91.91it/s]Loading weights: 100%|██████████| 291/291 [00:04<00:00, 67.70it/s]
+[Llama/square_grid/clean       ] NT nbr=0.73 val=0.99 (par+ 0.47/par- 0.53) | LT nbr=0.68 val=0.67
+[Llama/square_grid/steer_parity_0.5] NT nbr=0.30 val=0.40 (par+ 0.33/par- 0.67) | LT nbr=0.15 val=0.13
+[Llama/square_grid/steer_parity_1] NT nbr=0.20 val=0.14 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_1.5] NT nbr=0.25 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_2] NT nbr=0.29 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_3] NT nbr=0.28 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_4] NT nbr=0.26 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_6] NT nbr=0.25 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+[Llama/square_grid/steer_parity_8] NT nbr=0.26 val=0.32 (par+ 0.00/par- 1.00) | LT nbr=0.00 val=0.00
+DONE -> runs/induction-head/2_probes/axis_steer/axis_steer_square_grid.json
+ALL_DONE

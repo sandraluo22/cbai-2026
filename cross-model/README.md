@@ -59,7 +59,14 @@ cross-model/
     smoke/            tiny CPU end-to-end test
     overview/         cross-cutting summary figures
     slides/           combined cross-graph PDFs
+    induction-head/   FOLLOW-ON: QK-vs-DLA two-circuit investigation      (see runs/induction-head/README.md)
+    axes/             FOLLOW-ON: divider-axis decomposition + per-axis circuits (see runs/axes/README.md)
 ```
+
+**Follow-on investigations.** Two later threads live under `runs/` with their own READMEs:
+`induction-head/` (does QK carry behaviour while DLA writes the map?) and `axes/` (the
+representation is a near-orthogonal sum of graph cuts — x ⊕ y ⊕ parity — each with its own head
+circuit; includes an interactive 3-D viewer at `runs/axes/2_geometry/axis_geometry/viewer.html`).
 
 **Running scripts:** always from the `cross-model/` project root, with `src` on the
 path so the core modules import (the script's own folder is already on the path for
