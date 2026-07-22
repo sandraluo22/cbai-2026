@@ -1,0 +1,52 @@
+# QwenInst32 self-play, no-repeat, temp=0.7. Per-seed random start (word2vec) + rollout.
+# seed | start(P1/P2) | P1 words -> | P2 words -> | outcome
+  0 | reminder/sealed | reminder mirror echo | sealed whisper echo | agreed 'echo' @turn2
+  1 | ruled/faced | ruled tested chased matched aligned | faced triumph balanced measured aligned | agreed 'aligned' @turn4
+  2 | begun/paints | begun tapes scent carnage bandage cannon cannoned | paints crown began banned banquet banded cannoned | agreed 'cannoned' @turn6
+  3 | lied/university | lied history tree carrot night moon star fire river earth | university apple orange sky planet light stone sun water earth | agreed 'earth' @turn9
+  4 | diarrhea/romp | diarrhea ballet tango sonnet | romp cacoph serenade sonnet | agreed 'sonnet' @turn3
+  5 | scattered/rails | scattered mirrors whispers tide shadowed dawned reverber resonate resonance | rails dawn echo echoed echoes reflected tides echoing resonance | agreed 'resonance' @turn8
+  6 | clinic/groups | clinic teams chair dance lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp lamp | groups apple banana table plant clock book desk carrot flower flute hat jacket joke knife plate knife plate clock grape cake cup knife knife knife knife knife cake cake cake | no-converge
+  7 | rehearsal/modular | rehearsal symphony | modular symphony | agreed 'symphony' @turn1
+  8 | proudly/graphic | proudly silent bravely calmly quietly loudly | graphic tactfully gracefully boldly shyly loudly | agreed 'loudly' @turn5
+  9 | promptly/boom | promptly echo murmur roar thunder | boom whisper crash hum thunder | agreed 'thunder' @turn4
+ 10 | brief/dried | brief exact damp dry bore dormant dared | dried dorm fence bored fired dare dared | agreed 'dared' @turn6
+ 11 | scripted/acquitted | scripted admitted | acquitted admitted | agreed 'admitted' @turn1
+ 12 | tracks/mine | tracks gold crown iron ring diamond pearl onyx | mine victory silver jewels bronze platinum emerald onyx | agreed 'onyx' @turn7
+ 13 | previously/paradise | previously mirror symphony serenity calm | paradise harmony sunlight silence calm | agreed 'calm' @turn4
+ 14 | vampire/sacked | vampire harmony tango alpha | sacked whisper echo alpha | agreed 'alpha' @turn3
+ 15 | bio/spiral | bio echo | spiral echo | agreed 'echo' @turn1
+ 16 | anyone/lodging | anyone solitude echo hush still rest peace tranquil soft gentle | lodging apple quiet whisper silence murmur calm serenity easy gentle | agreed 'gentle' @turn9
+ 17 | killing/illness | killing stillness tremor trembling storm | illness journey silence calm storm | agreed 'storm' @turn4
+ 18 | fractured/unlocked | fractured whispered resonate cracked balanced | unlocked awakened echoed harmony balanced | agreed 'balanced' @turn4
+ 19 | temperatures/camping | temperatures hiking weather campfire outdoor tent | camping cold fire forecast backpack tent | agreed 'tent' @turn5
+ 20 | hold/covers | hold match | covers match | agreed 'match' @turn1
+ 21 | plaque/slight | plaque gratitude apology praise respect trust love honor | slight compliment admiration sympathy forgiveness appreciation loyalty honor | agreed 'honor' @turn7
+ 22 | rational/medical | rational calm wise bold resilient tenacious determined steadfast | medical clever brave logical courageous daring foolhard steadfast | agreed 'steadfast' @turn7
+ 23 | sailing/clip | sailing rocket | clip rocket | agreed 'rocket' @turn1
+ 24 | charts/sessions | charts routines patterns habits rhythms schedule habitual design system schema procedure process habituated routin rhythmed charted customized custom systematized habitualize customary rhythmization habitually organized systematizing structuredness organizedness organizedly schemat customizing | sessions rhythm pattern routine habit rhythmic plan chart schema method structured methodical structure habit-forming habitualized habitualizing habitualization habitualness habituate systematic systematize scheme systematization methodized methodism methodology methodically structuredly customaryness customizedly | no-converge
+ 25 | narrowly/nations | narrowly narrate | nations narrate | agreed 'narrate' @turn1
+ 26 | ubiquitous/ejected | ubiquitous resilient ephemeral tenacity fortuitous persistent | ejected serendip tenacious voluble persever persistent | agreed 'persistent' @turn5
+ 27 | accusations/fan | accusations cabinet light chair radio shelf | fan mirror lamp clock table shelf | agreed 'shelf' @turn5
+ 28 | jobless/army | jobless bicycle cactus climax symphony eclipse firefly | army ballet harmony dancer daisy echo firefly | agreed 'firefly' @turn6
+ 29 | nonsense/buddies | nonsense trinket whisper daisy eclipse fable zebra riddle zealot phantom rare zealously | buddies sunshine sparkle courage echo shadow mystery zeal zeal zealous phoenix zealously | agreed 'zealously' @turn11
+ 30 | cinema/speedy | cinema guitar bicycle | speedy library bicycle | agreed 'bicycle' @turn2
+ 31 | evolved/unchanged | evolved transformed | unchanged transformed | agreed 'transformed' @turn1
+ 32 | fiscal/bursting | fiscal whispering glacial ephemeral tenacious | bursting resilient lively melancholy tenacious | agreed 'tenacious' @turn4
+ 33 | underneath/heralded | underneath harmonize between besides | heralded beside besiege besides | agreed 'besides' @turn3
+ 34 | shortage/manages | shortage balance | manages balance | agreed 'balance' @turn1
+ 35 | plaza/logging | plaza harmony tango jazz muse symphony echo arena velvet | logging kiosk serendip quasar ballet arena orchestra velvet velvet | agreed 'velvet' @turn8
+ 36 | vegetable/wallet | vegetable sunflower teapot clock star cloud | wallet window mirror moon rainbow cloud | agreed 'cloud' @turn5
+ 37 | equip/precious | equip silver rare | precious unique rare | agreed 'rare' @turn2
+ 38 | exercised/reference | exercised example balance harmony breeze eagle sky sunset horizon sunlight sunrise seashell seashore beach seaside seashells seamlessly seamst seamsman seamstress | reference environment elevated bicycle harbor baked harvest eager skyline baker eaves bake sea shore seam seamless seamstress seams seamster seamstress | agreed 'seamstress' @turn19
+ 39 | longevity/homage | longevity serendip | homage serendip | agreed 'serendip' @turn1
+ 40 | raced/toss | raced match | toss match | agreed 'match' @turn1
+ 41 | chilly/sponsors | chilly guitar rocket | sponsors bicycle rocket | agreed 'rocket' @turn2
+ 42 | belonging/overcame | belonging balance resilience synergy adapt | overcame harmony resonate evolve adapt | agreed 'adapt' @turn4
+ 43 | stir/ingredient | stir bake dice chop grind whisk | ingredient mash blend sift knead whisk | agreed 'whisk' @turn5
+ 44 | accent/split | accent mime glove crown | split apple bingo crown | agreed 'crown' @turn3
+ 45 | publisher/establishes | publisher author | establishes author | agreed 'author' @turn1
+ 46 | estate/exiting | estate exertion eaves evade eager event erase | exiting eerie evoke elate emote ember erase | agreed 'erase' @turn6
+ 47 | pesticides/warmth | pesticides harmony | warmth harmony | agreed 'harmony' @turn1
+ 48 | squandered/reset | squandered match banned taped ban banter batter bandaged battled bandit | reset tangled balance balanced tense band banded battened batten bandit | agreed 'bandit' @turn9
+ 49 | lively/memorabilia | lively vibrant charming adaptable adventurous elegant bold | memorabilia serendip resilient whimsical graceful tenacious bold | agreed 'bold' @turn6

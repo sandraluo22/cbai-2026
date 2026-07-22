@@ -1,0 +1,7681 @@
+[
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 0,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.1466,
+        "fruit": 0.0094,
+        "water": 0.8438,
+        "tool": 0.0002
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1466,
+        "fruit": 0.0094,
+        "water": 0.8438,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 1,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2689,
+      "wolf": 0.731,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 24.5061,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0001,
+        "river": 0.0953,
+        "lake": 0.9045,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0013,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.3197,
+        "hammer": 0.6768,
+        "brush": 0.0022
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.1466,
+        "fruit": 0.0094,
+        "water": 0.8438,
+        "tool": 0.0002
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1466,
+        "fruit": 0.0094,
+        "water": 0.8438,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 2,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": true,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0001,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.007,
+      "river": 0.4928,
+      "lake": 0.5,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 22.9996,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0008,
+        "river": 0.9992,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.5621,
+        "hammer": 0.4377,
+        "brush": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1671,
+      "clue_dist_real_guesser": {
+        "animal": 0.1183,
+        "fruit": 0.0076,
+        "water": 0.8739,
+        "tool": 0.0003
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.3745,
+        "fruit": 0.0078,
+        "water": 0.6175,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 3,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "river",
+      "lake"
+    ],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.3332,
+      "river": 0.3334,
+      "lake": 0.3334,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 22.611,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 1.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.3774,
+        "hammer": 0.6222,
+        "brush": 0.0004
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4611,
+      "clue_dist_real_guesser": {
+        "animal": 0.1062,
+        "fruit": 0.0047,
+        "water": 0.889,
+        "tool": 0.0002
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5547,
+        "fruit": 0.013,
+        "water": 0.432,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 4,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "grape",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.7808,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0583,
+      "wolf": 0.1797,
+      "apple": 0.0004,
+      "lemon": 0.0,
+      "grape": 0.0115,
+      "ocean": 0.25,
+      "river": 0.25,
+      "lake": 0.25,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 9.3432,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.1596,
+        "wolf": 0.0043,
+        "apple": 0.0168,
+        "lemon": 0.0,
+        "grape": 0.8105,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0079,
+        "hammer": 0.0,
+        "brush": 0.0009
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.1066,
+        "hammer": 0.8925,
+        "brush": 0.0009
+      }
+    },
+    "adaptivity": {
+      "kl": 1.1523,
+      "clue_dist_real_guesser": {
+        "animal": 0.5424,
+        "fruit": 0.0347,
+        "water": 0.4225,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9659,
+        "fruit": 0.02,
+        "water": 0.0138,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 5,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "fruit",
+    "guess": "lemon",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.7507,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0014,
+      "wolf": 0.0011,
+      "apple": 0.0272,
+      "lemon": 0.0005,
+      "grape": 0.0,
+      "ocean": 0.3233,
+      "river": 0.3233,
+      "lake": 0.3233,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 2.8882,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0331,
+        "lemon": 0.9669,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0042,
+        "wolf": 0.002,
+        "apple": 0.9092,
+        "lemon": 0.0846,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 1.1523,
+      "clue_dist_real_guesser": {
+        "animal": 0.5424,
+        "fruit": 0.0347,
+        "water": 0.4225,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9659,
+        "fruit": 0.02,
+        "water": 0.0138,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 0,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "apple",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.1394,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 23.7272,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0592,
+        "river": 0.015,
+        "lake": 0.9258,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.1164,
+        "fruit": 0.8601,
+        "water": 0.0202,
+        "tool": 0.0033
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1164,
+        "fruit": 0.8601,
+        "water": 0.0202,
+        "tool": 0.0033
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 1,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "lemon",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.9985,
+      "grape": 0.0015,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 26.775,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.9988,
+        "grape": 0.0012,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0005,
+        "grape": 0.0,
+        "ocean": 0.0008,
+        "river": 0.0474,
+        "lake": 0.9514,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.1164,
+        "fruit": 0.8601,
+        "water": 0.0202,
+        "tool": 0.0033
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1164,
+        "fruit": 0.8601,
+        "water": 0.0202,
+        "tool": 0.0033
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 2,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "grape",
+    "correct": true,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.5,
+      "grape": 0.5,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 15.8161,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 1.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.4002,
+        "ocean": 0.0,
+        "river": 0.0176,
+        "lake": 0.5822,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3133,
+      "clue_dist_real_guesser": {
+        "animal": 0.1441,
+        "fruit": 0.8292,
+        "water": 0.0195,
+        "tool": 0.0072
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5217,
+        "fruit": 0.4604,
+        "water": 0.0139,
+        "tool": 0.004
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 3,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "ocean",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape"
+    ],
+    "target_mass": 0.9985,
+    "belief": {
+      "tiger": 0.0001,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.4999,
+      "grape": 0.4999,
+      "ocean": 0.0001,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 6.7523,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.2675,
+        "horse": 0.0025,
+        "wolf": 0.0023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.727,
+        "river": 0.0007,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.1918,
+        "river": 0.2174,
+        "lake": 0.5908,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 2.2673,
+      "clue_dist_real_guesser": {
+        "animal": 0.4196,
+        "fruit": 0.5388,
+        "water": 0.0304,
+        "tool": 0.0112
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9814,
+        "fruit": 0.0045,
+        "water": 0.0066,
+        "tool": 0.0075
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 4,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape"
+    ],
+    "target_mass": 0.6669,
+    "belief": {
+      "tiger": 0.0037,
+      "horse": 0.0002,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.4966,
+      "grape": 0.4966,
+      "ocean": 0.0,
+      "river": 0.0016,
+      "lake": 0.0014,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 4.8033,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.889,
+        "horse": 0.0268,
+        "wolf": 0.0827,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0012,
+        "lake": 0.0001,
+        "knife": 0.0001,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.2857,
+        "horse": 0.0235,
+        "wolf": 0.0038,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.1529,
+        "lake": 0.5338,
+        "knife": 0.0003,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 2.2673,
+      "clue_dist_real_guesser": {
+        "animal": 0.4196,
+        "fruit": 0.5388,
+        "water": 0.0304,
+        "tool": 0.0112
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9814,
+        "fruit": 0.0045,
+        "water": 0.0066,
+        "tool": 0.0075
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 5,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "wolf",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape"
+    ],
+    "target_mass": 0.9799,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.3288,
+      "wolf": 0.0041,
+      "apple": 0.0,
+      "lemon": 0.3335,
+      "grape": 0.3335,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 4.6783,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.3314,
+        "wolf": 0.6192,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0088,
+        "lake": 0.0396,
+        "knife": 0.0009,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0005,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.9936,
+        "lake": 0.0059,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 2.2673,
+      "clue_dist_real_guesser": {
+        "animal": 0.4196,
+        "fruit": 0.5388,
+        "water": 0.0304,
+        "tool": 0.0112
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9814,
+        "fruit": 0.0045,
+        "water": 0.0066,
+        "tool": 0.0075
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 0,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.023,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.9787,
+        "fruit": 0.0009,
+        "water": 0.0203,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9787,
+        "fruit": 0.0009,
+        "water": 0.0203,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 1,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2689,
+      "wolf": 0.731,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 13.996,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0124,
+        "wolf": 0.9876,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0934,
+        "lemon": 0.5373,
+        "grape": 0.3693,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.9787,
+        "fruit": 0.0009,
+        "water": 0.0203,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9787,
+        "fruit": 0.0009,
+        "water": 0.0203,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 2,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": true,
+    "found_so_far": [
+      "wolf"
+    ],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.4358,
+      "wolf": 0.5641,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 12.3928,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 1.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0715,
+        "lemon": 0.2497,
+        "grape": 0.6787,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0115,
+      "clue_dist_real_guesser": {
+        "animal": 0.9701,
+        "fruit": 0.0005,
+        "water": 0.0293,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9373,
+        "fruit": 0.0026,
+        "water": 0.0599,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 3,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [
+      "horse",
+      "wolf"
+    ],
+    "target_mass": 0.9927,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.4857,
+      "wolf": 0.4857,
+      "apple": 0.0018,
+      "lemon": 0.0001,
+      "grape": 0.0003,
+      "ocean": 0.0023,
+      "river": 0.0002,
+      "lake": 0.022,
+      "knife": 0.0018,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 2.176,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0832,
+        "lemon": 0.0572,
+        "grape": 0.0326,
+        "ocean": 0.2904,
+        "river": 0.006,
+        "lake": 0.4788,
+        "knife": 0.0505,
+        "hammer": 0.0,
+        "brush": 0.0013
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0661,
+        "lemon": 0.5535,
+        "grape": 0.3804,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.308,
+      "clue_dist_real_guesser": {
+        "animal": 0.9459,
+        "fruit": 0.0007,
+        "water": 0.0534,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 4,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "ocean",
+    "correct": false,
+    "found_so_far": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.9234,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2977,
+      "wolf": 0.2977,
+      "apple": 0.0003,
+      "lemon": 0.0,
+      "grape": 0.0007,
+      "ocean": 0.0649,
+      "river": 0.0005,
+      "lake": 0.2977,
+      "knife": 0.0306,
+      "hammer": 0.0,
+      "brush": 0.0099
+    },
+    "coupling": {
+      "kl": 5.7419,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0036,
+        "lemon": 0.0,
+        "grape": 0.0098,
+        "ocean": 0.5369,
+        "river": 0.0011,
+        "lake": 0.0,
+        "knife": 0.4182,
+        "hammer": 0.0,
+        "brush": 0.0303
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.3617,
+        "lemon": 0.3192,
+        "grape": 0.3192,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.013,
+      "clue_dist_real_guesser": {
+        "animal": 0.9695,
+        "fruit": 0.0045,
+        "water": 0.0258,
+        "tool": 0.0002
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9659,
+        "fruit": 0.02,
+        "water": 0.0138,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 5,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "brush",
+    "correct": false,
+    "found_so_far": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.7682,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2569,
+      "wolf": 0.2569,
+      "apple": 0.001,
+      "lemon": 0.0,
+      "grape": 0.0259,
+      "ocean": 0.0,
+      "river": 0.0065,
+      "lake": 0.2569,
+      "knife": 0.0797,
+      "hammer": 0.0001,
+      "brush": 0.116
+    },
+    "coupling": {
+      "kl": 3.0841,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0033,
+        "lemon": 0.0,
+        "grape": 0.1079,
+        "ocean": 0.0,
+        "river": 0.0089,
+        "lake": 0.0,
+        "knife": 0.2588,
+        "hammer": 0.0003,
+        "brush": 0.6209
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.042,
+        "lemon": 0.1142,
+        "grape": 0.8438,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.013,
+      "clue_dist_real_guesser": {
+        "animal": 0.9695,
+        "fruit": 0.0045,
+        "water": 0.0258,
+        "tool": 0.0002
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9659,
+        "fruit": 0.02,
+        "water": 0.0138,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 0,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9999,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.976,
+        "fruit": 0.001,
+        "water": 0.023,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.976,
+        "fruit": 0.001,
+        "water": 0.023,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 1,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": true,
+    "found_so_far": [
+      "tiger"
+    ],
+    "target_mass": 0.9974,
+    "belief": {
+      "tiger": 0.5,
+      "horse": 0.0823,
+      "wolf": 0.4177,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 13.5224,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0052,
+        "wolf": 0.9948,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0144,
+        "lemon": 0.3721,
+        "grape": 0.6134,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0282,
+      "clue_dist_real_guesser": {
+        "animal": 0.9922,
+        "fruit": 0.0002,
+        "water": 0.0076,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9505,
+        "fruit": 0.0021,
+        "water": 0.0473,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 2,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.6667,
+    "belief": {
+      "tiger": 0.3333,
+      "horse": 0.3333,
+      "wolf": 0.3333,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 12.2473,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.9999,
+        "wolf": 0.0,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0661,
+        "lemon": 0.5535,
+        "grape": 0.3804,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3371,
+      "clue_dist_real_guesser": {
+        "animal": 0.9574,
+        "fruit": 0.0005,
+        "water": 0.0421,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 3,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "lemon",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.8998,
+    "belief": {
+      "tiger": 0.4613,
+      "horse": 0.0,
+      "wolf": 0.4613,
+      "apple": 0.031,
+      "lemon": 0.0274,
+      "grape": 0.0048,
+      "ocean": 0.0114,
+      "river": 0.0001,
+      "lake": 0.0008,
+      "knife": 0.0018,
+      "hammer": 0.0,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 0.4798,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.2003,
+        "lemon": 0.4806,
+        "grape": 0.0946,
+        "ocean": 0.2003,
+        "river": 0.0005,
+        "lake": 0.0053,
+        "knife": 0.0145,
+        "hammer": 0.0,
+        "brush": 0.0037
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.02,
+        "lemon": 0.8497,
+        "grape": 0.1303,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3371,
+      "clue_dist_real_guesser": {
+        "animal": 0.9574,
+        "fruit": 0.0005,
+        "water": 0.0421,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 4,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "apple",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.987,
+    "belief": {
+      "tiger": 0.4194,
+      "horse": 0.0,
+      "wolf": 0.4194,
+      "apple": 0.0723,
+      "lemon": 0.0,
+      "grape": 0.0723,
+      "ocean": 0.0161,
+      "river": 0.0,
+      "lake": 0.0001,
+      "knife": 0.0003,
+      "hammer": 0.0,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 0.656,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.3879,
+        "lemon": 0.0,
+        "grape": 0.3879,
+        "ocean": 0.2076,
+        "river": 0.0007,
+        "lake": 0.003,
+        "knife": 0.0091,
+        "hammer": 0.0,
+        "brush": 0.0038
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0851,
+        "lemon": 0.0,
+        "grape": 0.9149,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3371,
+      "clue_dist_real_guesser": {
+        "animal": 0.9574,
+        "fruit": 0.0005,
+        "water": 0.0421,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 5,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "grape",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.9174,
+    "belief": {
+      "tiger": 0.3813,
+      "horse": 0.0,
+      "wolf": 0.3813,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.2299,
+      "ocean": 0.0054,
+      "river": 0.0001,
+      "lake": 0.0002,
+      "knife": 0.0006,
+      "hammer": 0.0,
+      "brush": 0.0012
+    },
+    "coupling": {
+      "kl": 0.4672,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.6267,
+        "ocean": 0.0401,
+        "river": 0.0061,
+        "lake": 0.0275,
+        "knife": 0.0961,
+        "hammer": 0.0,
+        "brush": 0.2035
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 1.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3371,
+      "clue_dist_real_guesser": {
+        "animal": 0.9574,
+        "fruit": 0.0005,
+        "water": 0.0421,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 0,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 1,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2689,
+      "wolf": 0.731,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 13.996,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0124,
+        "wolf": 0.9876,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0934,
+        "lemon": 0.5373,
+        "grape": 0.3693,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 2,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 1.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 14.8607,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 1.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0692,
+        "lemon": 0.6569,
+        "grape": 0.2738,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 3,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.011,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.4544,
+      "lemon": 0.0256,
+      "grape": 0.0373,
+      "ocean": 0.1672,
+      "river": 0.0002,
+      "lake": 0.0017,
+      "knife": 0.3123,
+      "hammer": 0.0001,
+      "brush": 0.0012
+    },
+    "coupling": {
+      "kl": 17.7905,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0003,
+        "river": 0.011,
+        "lake": 0.9887,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.9677,
+        "hammer": 0.0292,
+        "brush": 0.0031
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 4,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "animal",
+    "guess": "grape",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.224,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0003,
+      "lemon": 0.0001,
+      "grape": 0.0002,
+      "ocean": 0.9884,
+      "river": 0.0022,
+      "lake": 0.0,
+      "knife": 0.0086,
+      "hammer": 0.0,
+      "brush": 0.0003
+    },
+    "coupling": {
+      "kl": 4.9653,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0343,
+        "lemon": 0.0008,
+        "grape": 0.5371,
+        "ocean": 0.1539,
+        "river": 0.0001,
+        "lake": 0.0,
+        "knife": 0.05,
+        "hammer": 0.0,
+        "brush": 0.2239
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0373,
+        "lemon": 0.7483,
+        "grape": 0.2144,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 5,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0017,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0319,
+      "lemon": 0.0002,
+      "grape": 0.0,
+      "ocean": 0.932,
+      "river": 0.0005,
+      "lake": 0.0,
+      "knife": 0.0281,
+      "hammer": 0.0001,
+      "brush": 0.0071
+    },
+    "coupling": {
+      "kl": 10.057,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.9982,
+        "river": 0.0017,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.8161,
+        "hammer": 0.1821,
+        "brush": 0.0018
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7481,
+        "fruit": 0.0176,
+        "water": 0.2143,
+        "tool": 0.0199
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 0,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.977,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.847,
+        "fruit": 0.0057,
+        "water": 0.1472,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.847,
+        "fruit": 0.0057,
+        "water": 0.1472,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 1,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": false,
+    "found_so_far": [
+      "tiger"
+    ],
+    "target_mass": 0.5,
+    "belief": {
+      "tiger": 0.5,
+      "horse": 0.0823,
+      "wolf": 0.4177,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 13.5224,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0052,
+        "wolf": 0.9948,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0144,
+        "lemon": 0.3721,
+        "grape": 0.6134,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4311,
+      "clue_dist_real_guesser": {
+        "animal": 0.8499,
+        "fruit": 0.0024,
+        "water": 0.1477,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.4009,
+        "fruit": 0.0155,
+        "water": 0.5833,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 2,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": false,
+    "found_so_far": [
+      "tiger"
+    ],
+    "target_mass": 0.5,
+    "belief": {
+      "tiger": 0.5,
+      "horse": 0.5,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 14.1687,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 1.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.1136,
+        "lemon": 0.7406,
+        "grape": 0.1458,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4311,
+      "clue_dist_real_guesser": {
+        "animal": 0.8499,
+        "fruit": 0.0024,
+        "water": 0.1477,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.4009,
+        "fruit": 0.0155,
+        "water": 0.5833,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 3,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "tiger"
+    ],
+    "target_mass": 0.8405,
+    "belief": {
+      "tiger": 0.619,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.2399,
+      "lemon": 0.0472,
+      "grape": 0.0105,
+      "ocean": 0.0779,
+      "river": 0.0001,
+      "lake": 0.0003,
+      "knife": 0.005,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 0.9221,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.304,
+        "lemon": 0.2683,
+        "grape": 0.0678,
+        "ocean": 0.3445,
+        "river": 0.0004,
+        "lake": 0.0012,
+        "knife": 0.0134,
+        "hammer": 0.0,
+        "brush": 0.0006
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0466,
+        "lemon": 0.8266,
+        "grape": 0.1268,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4311,
+      "clue_dist_real_guesser": {
+        "animal": 0.8499,
+        "fruit": 0.0024,
+        "water": 0.1477,
+        "tool": 0.0001
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.4009,
+        "fruit": 0.0155,
+        "water": 0.5833,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 4,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [
+      "tiger",
+      "ocean"
+    ],
+    "target_mass": 0.957,
+    "belief": {
+      "tiger": 0.4669,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0071,
+      "lemon": 0.0001,
+      "grape": 0.0002,
+      "ocean": 0.4669,
+      "river": 0.0217,
+      "lake": 0.0316,
+      "knife": 0.0055,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 3.2311,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.2071,
+        "lemon": 0.0043,
+        "grape": 0.0117,
+        "ocean": 0.0,
+        "river": 0.028,
+        "lake": 0.6379,
+        "knife": 0.1109,
+        "hammer": 0.0,
+        "brush": 0.0001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.2353,
+        "lemon": 0.4981,
+        "grape": 0.2666,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0063,
+      "clue_dist_real_guesser": {
+        "animal": 0.6464,
+        "fruit": 0.0072,
+        "water": 0.346,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.6108,
+        "fruit": 0.0184,
+        "water": 0.3705,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 5,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "grape",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "target_mass": 0.7721,
+    "belief": {
+      "tiger": 0.3039,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.016,
+      "lemon": 0.0,
+      "grape": 0.0233,
+      "ocean": 0.3039,
+      "river": 0.0013,
+      "lake": 0.3039,
+      "knife": 0.0435,
+      "hammer": 0.0,
+      "brush": 0.004
+    },
+    "coupling": {
+      "kl": 2.1118,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.1001,
+        "lemon": 0.0001,
+        "grape": 0.4487,
+        "ocean": 0.0,
+        "river": 0.0014,
+        "lake": 0.0,
+        "knife": 0.3495,
+        "hammer": 0.0,
+        "brush": 0.1001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.3182,
+        "lemon": 0.2187,
+        "grape": 0.463,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0833,
+      "clue_dist_real_guesser": {
+        "animal": 0.8975,
+        "fruit": 0.0186,
+        "water": 0.0835,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9659,
+        "fruit": 0.02,
+        "water": 0.0138,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 0,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "apple",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.1394,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 23.7272,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0592,
+        "river": 0.015,
+        "lake": 0.9258,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 1,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0013,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.9985,
+      "grape": 0.0015,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 22.7809,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0005,
+        "grape": 0.0,
+        "ocean": 0.0008,
+        "river": 0.0474,
+        "lake": 0.9514,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0325,
+        "grape": 0.0082,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.4487,
+        "hammer": 0.5084,
+        "brush": 0.0021
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 2,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "lemon",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.73,
+      "grape": 0.2686,
+      "ocean": 0.0014,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 23.034,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.9707,
+        "grape": 0.0293,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0011,
+        "grape": 0.0007,
+        "ocean": 0.4066,
+        "river": 0.5916,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0664,
+        "fruit": 0.8092,
+        "water": 0.1241,
+        "tool": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 3,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "grape",
+    "correct": true,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 1.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.5,
+      "grape": 0.5,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 0.7952,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 1.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.9651,
+        "ocean": 0.0019,
+        "river": 0.033,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2767,
+      "clue_dist_real_guesser": {
+        "animal": 0.054,
+        "fruit": 0.8446,
+        "water": 0.1009,
+        "tool": 0.0006
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.3071,
+        "fruit": 0.5063,
+        "water": 0.1863,
+        "tool": 0.0004
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 4,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape"
+    ],
+    "target_mass": 0.788,
+    "belief": {
+      "tiger": 0.2549,
+      "horse": 0.0068,
+      "wolf": 0.0047,
+      "apple": 0.0,
+      "lemon": 0.3586,
+      "grape": 0.3586,
+      "ocean": 0.0163,
+      "river": 0.0002,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 3.4358,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.8492,
+        "horse": 0.0065,
+        "wolf": 0.0137,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.1302,
+        "river": 0.0002,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.6792,
+        "river": 0.3208,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 1.6839,
+      "clue_dist_real_guesser": {
+        "animal": 0.1167,
+        "fruit": 0.5232,
+        "water": 0.3596,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5547,
+        "fruit": 0.013,
+        "water": 0.432,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 5,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape"
+    ],
+    "target_mass": 0.7058,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.307,
+      "wolf": 0.0021,
+      "apple": 0.0,
+      "lemon": 0.3432,
+      "grape": 0.3432,
+      "ocean": 0.0044,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0001,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 10.701,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0159,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.1173,
+        "river": 0.8666,
+        "lake": 0.0,
+        "knife": 0.0002,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0003,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.4683,
+        "hammer": 0.5306,
+        "brush": 0.0008
+      }
+    },
+    "adaptivity": {
+      "kl": 1.6839,
+      "clue_dist_real_guesser": {
+        "animal": 0.1167,
+        "fruit": 0.5232,
+        "water": 0.3596,
+        "tool": 0.0004
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5547,
+        "fruit": 0.013,
+        "water": 0.432,
+        "tool": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 0,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.198,
+      "horse": 0.0127,
+      "wolf": 0.0344,
+      "apple": 0.6097,
+      "lemon": 0.0032,
+      "grape": 0.1201,
+      "ocean": 0.0077,
+      "river": 0.0047,
+      "lake": 0.006,
+      "knife": 0.0036,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 17.3776,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.977,
+        "horse": 0.0001,
+        "wolf": 0.023,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.8606,
+        "lemon": 0.132,
+        "grape": 0.0074,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 1,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.0,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2689,
+      "wolf": 0.731,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 13.996,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0124,
+        "wolf": 0.9876,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0934,
+        "lemon": 0.5373,
+        "grape": 0.3693,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 2,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9466,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 1.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 19.0667,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0005,
+        "river": 0.0534,
+        "lake": 0.9462,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.7048,
+        "hammer": 0.2938,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.5201,
+        "fruit": 0.0178,
+        "water": 0.459,
+        "tool": 0.0031
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 3,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": false,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.5004,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.0,
+      "ocean": 0.013,
+      "river": 0.487,
+      "lake": 0.5,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 12.1044,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.9997,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0001,
+        "ocean": 0.0001,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.089,
+        "lemon": 0.3989,
+        "grape": 0.5121,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4022,
+      "clue_dist_real_guesser": {
+        "animal": 0.4287,
+        "fruit": 0.0129,
+        "water": 0.5505,
+        "tool": 0.0079
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.8232,
+        "fruit": 0.0117,
+        "water": 0.1621,
+        "tool": 0.003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 4,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.75,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0012,
+      "lemon": 0.0,
+      "grape": 0.0026,
+      "ocean": 0.0242,
+      "river": 0.0,
+      "lake": 0.9714,
+      "knife": 0.0003,
+      "hammer": 0.0,
+      "brush": 0.0003
+    },
+    "coupling": {
+      "kl": 13.1821,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.5,
+        "river": 0.5,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.9618,
+        "hammer": 0.0226,
+        "brush": 0.0155
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4022,
+      "clue_dist_real_guesser": {
+        "animal": 0.4287,
+        "fruit": 0.0129,
+        "water": 0.5505,
+        "tool": 0.0079
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.8232,
+        "fruit": 0.0117,
+        "water": 0.1621,
+        "tool": 0.003
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 5,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "lake"
+    ],
+    "target_mass": 0.6667,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.0,
+      "grape": 0.006,
+      "ocean": 0.3334,
+      "river": 0.3272,
+      "lake": 0.3334,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 25.1537,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 1.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.7769,
+        "hammer": 0.2226,
+        "brush": 0.0005
+      }
+    },
+    "adaptivity": {
+      "kl": 0.7557,
+      "clue_dist_real_guesser": {
+        "animal": 0.7149,
+        "fruit": 0.009,
+        "water": 0.263,
+        "tool": 0.0131
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9814,
+        "fruit": 0.0045,
+        "water": 0.0066,
+        "tool": 0.0075
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 0,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9985,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 8.5167,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.181,
+        "river": 0.3832,
+        "lake": 0.4342,
+        "knife": 0.0001,
+        "hammer": 0.0002,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0757,
+        "hammer": 0.9227,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 1,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": true,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.9994,
+    "belief": {
+      "tiger": 0.0009,
+      "horse": 0.0001,
+      "wolf": 0.0002,
+      "apple": 0.0003,
+      "lemon": 0.0001,
+      "grape": 0.0004,
+      "ocean": 0.146,
+      "river": 0.3502,
+      "lake": 0.5009,
+      "knife": 0.0001,
+      "hammer": 0.0009,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 8.465,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0005,
+        "horse": 0.0001,
+        "wolf": 0.0001,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0002,
+        "ocean": 0.3204,
+        "river": 0.6783,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0002,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0002,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0004,
+        "river": 0.0127,
+        "lake": 0.0,
+        "knife": 0.0935,
+        "hammer": 0.887,
+        "brush": 0.006
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 2,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.9994,
+    "belief": {
+      "tiger": 0.0004,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0002,
+      "lemon": 0.0,
+      "grape": 0.0001,
+      "ocean": 0.3263,
+      "river": 0.3364,
+      "lake": 0.3364,
+      "knife": 0.0,
+      "hammer": 0.0001,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 7.9827,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0006,
+        "horse": 0.0001,
+        "wolf": 0.0001,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0002,
+        "ocean": 0.9982,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0003,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0002,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0004,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0948,
+        "hammer": 0.8997,
+        "brush": 0.0047
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 3,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.9924,
+    "belief": {
+      "tiger": 0.0035,
+      "horse": 0.0002,
+      "wolf": 0.0007,
+      "apple": 0.0023,
+      "lemon": 0.0008,
+      "grape": 0.0024,
+      "ocean": 0.3278,
+      "river": 0.3278,
+      "lake": 0.3278,
+      "knife": 0.0001,
+      "hammer": 0.0054,
+      "brush": 0.0014
+    },
+    "coupling": {
+      "kl": 1.4022,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.2849,
+        "horse": 0.0171,
+        "wolf": 0.034,
+        "apple": 0.1264,
+        "lemon": 0.1188,
+        "grape": 0.1116,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0032,
+        "hammer": 0.2514,
+        "brush": 0.0527
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0002,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0751,
+        "hammer": 0.9154,
+        "brush": 0.009
+      }
+    },
+    "adaptivity": {
+      "kl": 8.3916,
+      "clue_dist_real_guesser": {
+        "animal": 0.148,
+        "fruit": 0.0,
+        "water": 0.8519,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 4,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.9801,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0009,
+      "wolf": 0.0015,
+      "apple": 0.0039,
+      "lemon": 0.0057,
+      "grape": 0.0039,
+      "ocean": 0.3195,
+      "river": 0.3195,
+      "lake": 0.3195,
+      "knife": 0.0003,
+      "hammer": 0.0224,
+      "brush": 0.003
+    },
+    "coupling": {
+      "kl": 0.7037,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0246,
+        "wolf": 0.0217,
+        "apple": 0.125,
+        "lemon": 0.1417,
+        "grape": 0.1103,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0062,
+        "hammer": 0.4945,
+        "brush": 0.0758
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0002,
+        "lemon": 0.0002,
+        "grape": 0.0001,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0596,
+        "hammer": 0.9319,
+        "brush": 0.0081
+      }
+    },
+    "adaptivity": {
+      "kl": 8.3916,
+      "clue_dist_real_guesser": {
+        "animal": 0.148,
+        "fruit": 0.0,
+        "water": 0.8519,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 5,
+    "targets": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lemon",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "river",
+      "lake"
+    ],
+    "target_mass": 0.9559,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0009,
+      "wolf": 0.002,
+      "apple": 0.0066,
+      "lemon": 0.0123,
+      "grape": 0.0075,
+      "ocean": 0.3205,
+      "river": 0.3205,
+      "lake": 0.3205,
+      "knife": 0.0017,
+      "hammer": 0.0,
+      "brush": 0.0075
+    },
+    "coupling": {
+      "kl": 2.5358,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0175,
+        "wolf": 0.0328,
+        "apple": 0.1886,
+        "lemon": 0.3523,
+        "grape": 0.2421,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0199,
+        "hammer": 0.0,
+        "brush": 0.1469
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0028,
+        "wolf": 0.0035,
+        "apple": 0.0123,
+        "lemon": 0.0245,
+        "grape": 0.008,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.7164,
+        "hammer": 0.0,
+        "brush": 0.2326
+      }
+    },
+    "adaptivity": {
+      "kl": 8.3916,
+      "clue_dist_real_guesser": {
+        "animal": 0.148,
+        "fruit": 0.0,
+        "water": 0.8519,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 0,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "apple",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.3085,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 9.3716,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.6912,
+        "lemon": 0.1542,
+        "grape": 0.1542,
+        "ocean": 0.0001,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0001,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.181,
+        "river": 0.3832,
+        "lake": 0.4342,
+        "knife": 0.0001,
+        "hammer": 0.0002,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9985,
+        "water": 0.0,
+        "tool": 0.0015
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9985,
+        "water": 0.0,
+        "tool": 0.0015
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 1,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "lemon",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9998,
+    "belief": {
+      "tiger": 0.0001,
+      "horse": 0.0001,
+      "wolf": 0.0001,
+      "apple": 0.0,
+      "lemon": 0.4997,
+      "grape": 0.4997,
+      "ocean": 0.0001,
+      "river": 0.0,
+      "lake": 0.0001,
+      "knife": 0.0,
+      "hammer": 0.0001,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 9.3492,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.562,
+        "grape": 0.4377,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.004,
+        "grape": 0.0084,
+        "ocean": 0.1311,
+        "river": 0.1907,
+        "lake": 0.6657,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9985,
+        "water": 0.0,
+        "tool": 0.0015
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9985,
+        "water": 0.0,
+        "tool": 0.0015
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 2,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "tool",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 0.682,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.5025,
+      "grape": 0.4974,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 7.8212,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0216,
+        "ocean": 0.0,
+        "river": 0.0001,
+        "lake": 0.0003,
+        "knife": 0.3374,
+        "hammer": 0.6303,
+        "brush": 0.0102
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1122,
+        "horse": 0.2374,
+        "wolf": 0.5027,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.144,
+        "ocean": 0.0003,
+        "river": 0.0004,
+        "lake": 0.0004,
+        "knife": 0.0003,
+        "hammer": 0.0022,
+        "brush": 0.0002
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3969,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0474,
+        "water": 0.0,
+        "tool": 0.9526
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.4378,
+        "water": 0.0,
+        "tool": 0.5622
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 3,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "tool",
+    "guess": "knife",
+    "correct": true,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 0.9824,
+    "belief": {
+      "tiger": 0.0002,
+      "horse": 0.0001,
+      "wolf": 0.0002,
+      "apple": 0.0,
+      "lemon": 0.507,
+      "grape": 0.0638,
+      "ocean": 0.0001,
+      "river": 0.0005,
+      "lake": 0.0008,
+      "knife": 0.4162,
+      "hammer": 0.0,
+      "brush": 0.0111
+    },
+    "coupling": {
+      "kl": 7.3473,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0001,
+        "horse": 0.0002,
+        "wolf": 0.0003,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0283,
+        "ocean": 0.0001,
+        "river": 0.001,
+        "lake": 0.0018,
+        "knife": 0.9362,
+        "hammer": 0.0,
+        "brush": 0.032
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1185,
+        "horse": 0.1724,
+        "wolf": 0.6818,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0206,
+        "ocean": 0.0004,
+        "river": 0.0011,
+        "lake": 0.001,
+        "knife": 0.0032,
+        "hammer": 0.0,
+        "brush": 0.0011
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3969,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0474,
+        "water": 0.0,
+        "tool": 0.9526
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.4378,
+        "water": 0.0,
+        "tool": 0.5622
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 4,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "grape",
+    "correct": true,
+    "found_so_far": [
+      "lemon",
+      "knife"
+    ],
+    "target_mass": 0.9997,
+    "belief": {
+      "tiger": 0.0002,
+      "horse": 0.0003,
+      "wolf": 0.0005,
+      "apple": 0.0,
+      "lemon": 0.3435,
+      "grape": 0.245,
+      "ocean": 0.0005,
+      "river": 0.0033,
+      "lake": 0.0013,
+      "knife": 0.3435,
+      "hammer": 0.0,
+      "brush": 0.0619
+    },
+    "coupling": {
+      "kl": 7.4499,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0001,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.999,
+        "ocean": 0.0003,
+        "river": 0.0001,
+        "lake": 0.0002,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0002
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0001,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0158,
+        "ocean": 0.1028,
+        "river": 0.3587,
+        "lake": 0.5219,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0004
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 1.0,
+        "water": 0.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 1.0,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 5,
+    "targets": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "clue": "fruit",
+    "guess": "ocean",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape",
+      "knife"
+    ],
+    "target_mass": 0.9112,
+    "belief": {
+      "tiger": 0.0139,
+      "horse": 0.0008,
+      "wolf": 0.013,
+      "apple": 0.0,
+      "lemon": 0.3054,
+      "grape": 0.3054,
+      "ocean": 0.0377,
+      "river": 0.009,
+      "lake": 0.0033,
+      "knife": 0.3054,
+      "hammer": 0.0,
+      "brush": 0.0062
+    },
+    "coupling": {
+      "kl": 1.5243,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.2268,
+        "horse": 0.0175,
+        "wolf": 0.2001,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.3739,
+        "river": 0.1071,
+        "lake": 0.0327,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0419
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0014,
+        "horse": 0.0002,
+        "wolf": 0.0009,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.1709,
+        "river": 0.3617,
+        "lake": 0.4645,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0005
+      }
+    },
+    "adaptivity": {
+      "kl": 2.8966,
+      "clue_dist_real_guesser": {
+        "animal": 0.0039,
+        "fruit": 0.9478,
+        "water": 0.0011,
+        "tool": 0.0472
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 0,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.8564,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 6.6692,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.1396,
+        "horse": 0.2302,
+        "wolf": 0.6257,
+        "apple": 0.0013,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0005,
+        "river": 0.0006,
+        "lake": 0.0004,
+        "knife": 0.0002,
+        "hammer": 0.0011,
+        "brush": 0.0001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.6912,
+        "lemon": 0.1542,
+        "grape": 0.1542,
+        "ocean": 0.0001,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0001,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.9985,
+        "fruit": 0.0,
+        "water": 0.0015,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9985,
+        "fruit": 0.0,
+        "water": 0.0015,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 1,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "wolf"
+    ],
+    "target_mass": 0.6773,
+    "belief": {
+      "tiger": 0.1996,
+      "horse": 0.2904,
+      "wolf": 0.503,
+      "apple": 0.0017,
+      "lemon": 0.0001,
+      "grape": 0.0004,
+      "ocean": 0.0003,
+      "river": 0.0013,
+      "lake": 0.0005,
+      "knife": 0.0003,
+      "hammer": 0.0022,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 8.451,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0035,
+        "horse": 0.0024,
+        "wolf": 0.0,
+        "apple": 0.0009,
+        "lemon": 0.0001,
+        "grape": 0.0003,
+        "ocean": 0.1885,
+        "river": 0.4522,
+        "lake": 0.3521,
+        "knife": 0.0001,
+        "hammer": 0.0001,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0011,
+        "horse": 0.0025,
+        "wolf": 0.0,
+        "apple": 0.0016,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0001,
+        "river": 0.0004,
+        "lake": 0.001,
+        "knife": 0.2206,
+        "hammer": 0.77,
+        "brush": 0.0028
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1649,
+      "clue_dist_real_guesser": {
+        "animal": 0.0086,
+        "fruit": 0.0,
+        "water": 0.9914,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1824,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 2,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [
+      "wolf"
+    ],
+    "target_mass": 0.8509,
+    "belief": {
+      "tiger": 0.0396,
+      "horse": 0.0272,
+      "wolf": 0.5005,
+      "apple": 0.0022,
+      "lemon": 0.0002,
+      "grape": 0.0003,
+      "ocean": 0.2012,
+      "river": 0.0,
+      "lake": 0.228,
+      "knife": 0.0001,
+      "hammer": 0.0006,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 7.5493,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0047,
+        "horse": 0.0017,
+        "wolf": 0.0,
+        "apple": 0.0012,
+        "lemon": 0.0002,
+        "grape": 0.0002,
+        "ocean": 0.2917,
+        "river": 0.0,
+        "lake": 0.6998,
+        "knife": 0.0001,
+        "hammer": 0.0003,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0009,
+        "horse": 0.0022,
+        "wolf": 0.0,
+        "apple": 0.0028,
+        "lemon": 0.0002,
+        "grape": 0.0001,
+        "ocean": 0.0003,
+        "river": 0.0,
+        "lake": 0.0041,
+        "knife": 0.1994,
+        "hammer": 0.7885,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1649,
+      "clue_dist_real_guesser": {
+        "animal": 0.0086,
+        "fruit": 0.0,
+        "water": 0.9914,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1824,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 3,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": true,
+    "found_so_far": [
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.8402,
+    "belief": {
+      "tiger": 0.0408,
+      "horse": 0.015,
+      "wolf": 0.3344,
+      "apple": 0.0026,
+      "lemon": 0.0003,
+      "grape": 0.0014,
+      "ocean": 0.2659,
+      "river": 0.0,
+      "lake": 0.3344,
+      "knife": 0.0001,
+      "hammer": 0.0049,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 4.8297,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.4511,
+        "horse": 0.5112,
+        "wolf": 0.0,
+        "apple": 0.005,
+        "lemon": 0.0004,
+        "grape": 0.002,
+        "ocean": 0.012,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0006,
+        "hammer": 0.0175,
+        "brush": 0.0002
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0024,
+        "horse": 0.0039,
+        "wolf": 0.0,
+        "apple": 0.5803,
+        "lemon": 0.1295,
+        "grape": 0.2741,
+        "ocean": 0.0039,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0002,
+        "hammer": 0.0057,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 4,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.7542,
+    "belief": {
+      "tiger": 0.2082,
+      "horse": 0.2517,
+      "wolf": 0.2517,
+      "apple": 0.0151,
+      "lemon": 0.0026,
+      "grape": 0.0018,
+      "ocean": 0.0117,
+      "river": 0.0,
+      "lake": 0.2517,
+      "knife": 0.0005,
+      "hammer": 0.0043,
+      "brush": 0.0005
+    },
+    "coupling": {
+      "kl": 2.8201,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.94,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0221,
+        "lemon": 0.0038,
+        "grape": 0.0022,
+        "ocean": 0.0118,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0023,
+        "hammer": 0.0172,
+        "brush": 0.0005
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1108,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.5626,
+        "lemon": 0.1255,
+        "grape": 0.1827,
+        "ocean": 0.0063,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0016,
+        "hammer": 0.0103,
+        "brush": 0.0002
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0731,
+      "clue_dist_real_guesser": {
+        "animal": 0.9981,
+        "fruit": 0.0013,
+        "water": 0.0006,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 5,
+    "targets": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "horse",
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.8289,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.2625,
+      "wolf": 0.2625,
+      "apple": 0.0615,
+      "lemon": 0.02,
+      "grape": 0.02,
+      "ocean": 0.0291,
+      "river": 0.0,
+      "lake": 0.2625,
+      "knife": 0.0065,
+      "hammer": 0.0697,
+      "brush": 0.0057
+    },
+    "coupling": {
+      "kl": 0.9127,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.2249,
+        "lemon": 0.0827,
+        "grape": 0.073,
+        "ocean": 0.0644,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0443,
+        "hammer": 0.4761,
+        "brush": 0.0345
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.4223,
+        "lemon": 0.226,
+        "grape": 0.3289,
+        "ocean": 0.0016,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0017,
+        "hammer": 0.0186,
+        "brush": 0.001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0731,
+      "clue_dist_real_guesser": {
+        "animal": 0.9981,
+        "fruit": 0.0013,
+        "water": 0.0006,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 0,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.7658,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 6.6692,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.1396,
+        "horse": 0.2302,
+        "wolf": 0.6257,
+        "apple": 0.0013,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0005,
+        "river": 0.0006,
+        "lake": 0.0004,
+        "knife": 0.0002,
+        "hammer": 0.0011,
+        "brush": 0.0001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.6912,
+        "lemon": 0.1542,
+        "grape": 0.1542,
+        "ocean": 0.0001,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0001,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.9988,
+        "fruit": 0.0,
+        "water": 0.0012,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9988,
+        "fruit": 0.0,
+        "water": 0.0012,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 1,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "wolf"
+    ],
+    "target_mass": 0.6778,
+    "belief": {
+      "tiger": 0.1996,
+      "horse": 0.2904,
+      "wolf": 0.503,
+      "apple": 0.0017,
+      "lemon": 0.0001,
+      "grape": 0.0004,
+      "ocean": 0.0003,
+      "river": 0.0013,
+      "lake": 0.0005,
+      "knife": 0.0003,
+      "hammer": 0.0022,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 8.451,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0035,
+        "horse": 0.0024,
+        "wolf": 0.0,
+        "apple": 0.0009,
+        "lemon": 0.0001,
+        "grape": 0.0003,
+        "ocean": 0.1885,
+        "river": 0.4522,
+        "lake": 0.3521,
+        "knife": 0.0001,
+        "hammer": 0.0001,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0011,
+        "horse": 0.0025,
+        "wolf": 0.0,
+        "apple": 0.0016,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0001,
+        "river": 0.0004,
+        "lake": 0.001,
+        "knife": 0.2206,
+        "hammer": 0.77,
+        "brush": 0.0028
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1318,
+      "clue_dist_real_guesser": {
+        "animal": 0.0067,
+        "fruit": 0.0,
+        "water": 0.9933,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.148,
+        "fruit": 0.0,
+        "water": 0.852,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 2,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [
+      "wolf"
+    ],
+    "target_mass": 0.8524,
+    "belief": {
+      "tiger": 0.0396,
+      "horse": 0.0272,
+      "wolf": 0.5005,
+      "apple": 0.0022,
+      "lemon": 0.0002,
+      "grape": 0.0003,
+      "ocean": 0.2012,
+      "river": 0.0,
+      "lake": 0.228,
+      "knife": 0.0001,
+      "hammer": 0.0006,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 7.5493,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0047,
+        "horse": 0.0017,
+        "wolf": 0.0,
+        "apple": 0.0012,
+        "lemon": 0.0002,
+        "grape": 0.0002,
+        "ocean": 0.2917,
+        "river": 0.0,
+        "lake": 0.6998,
+        "knife": 0.0001,
+        "hammer": 0.0003,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0009,
+        "horse": 0.0022,
+        "wolf": 0.0,
+        "apple": 0.0028,
+        "lemon": 0.0002,
+        "grape": 0.0001,
+        "ocean": 0.0003,
+        "river": 0.0,
+        "lake": 0.0041,
+        "knife": 0.1994,
+        "hammer": 0.7885,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1318,
+      "clue_dist_real_guesser": {
+        "animal": 0.0067,
+        "fruit": 0.0,
+        "water": 0.9933,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.148,
+        "fruit": 0.0,
+        "water": 0.852,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 3,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "horse",
+    "correct": false,
+    "found_so_far": [
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.8205,
+    "belief": {
+      "tiger": 0.0408,
+      "horse": 0.015,
+      "wolf": 0.3344,
+      "apple": 0.0026,
+      "lemon": 0.0003,
+      "grape": 0.0014,
+      "ocean": 0.2659,
+      "river": 0.0,
+      "lake": 0.3344,
+      "knife": 0.0001,
+      "hammer": 0.0049,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 4.8297,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.4511,
+        "horse": 0.5112,
+        "wolf": 0.0,
+        "apple": 0.005,
+        "lemon": 0.0004,
+        "grape": 0.002,
+        "ocean": 0.012,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0006,
+        "hammer": 0.0175,
+        "brush": 0.0002
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0024,
+        "horse": 0.0039,
+        "wolf": 0.0,
+        "apple": 0.5803,
+        "lemon": 0.1295,
+        "grape": 0.2741,
+        "ocean": 0.0039,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0002,
+        "hammer": 0.0057,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 4,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": true,
+    "found_so_far": [
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.9828,
+    "belief": {
+      "tiger": 0.2983,
+      "horse": 0.0,
+      "wolf": 0.3362,
+      "apple": 0.0116,
+      "lemon": 0.0015,
+      "grape": 0.0008,
+      "ocean": 0.0131,
+      "river": 0.0,
+      "lake": 0.3362,
+      "knife": 0.0004,
+      "hammer": 0.0018,
+      "brush": 0.0002
+    },
+    "coupling": {
+      "kl": 3.2959,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.9471,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0197,
+        "lemon": 0.0032,
+        "grape": 0.0015,
+        "ocean": 0.0135,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0027,
+        "hammer": 0.0119,
+        "brush": 0.0005
+      },
+      "guess_dist_swap": {
+        "tiger": 0.063,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.5973,
+        "lemon": 0.1333,
+        "grape": 0.1939,
+        "ocean": 0.0046,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0012,
+        "hammer": 0.0066,
+        "brush": 0.0002
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 1.0,
+        "fruit": 0.0,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 5,
+    "targets": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "wolf",
+      "lake"
+    ],
+    "target_mass": 0.8232,
+    "belief": {
+      "tiger": 0.2579,
+      "horse": 0.0,
+      "wolf": 0.2579,
+      "apple": 0.0633,
+      "lemon": 0.0233,
+      "grape": 0.0206,
+      "ocean": 0.0493,
+      "river": 0.0,
+      "lake": 0.2579,
+      "knife": 0.0086,
+      "hammer": 0.0559,
+      "brush": 0.0052
+    },
+    "coupling": {
+      "kl": 0.9771,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.1878,
+        "lemon": 0.0887,
+        "grape": 0.0783,
+        "ocean": 0.0538,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0538,
+        "hammer": 0.5105,
+        "brush": 0.0271
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.43,
+        "lemon": 0.2608,
+        "grape": 0.2955,
+        "ocean": 0.0017,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0014,
+        "hammer": 0.0101,
+        "brush": 0.0006
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0736,
+      "clue_dist_real_guesser": {
+        "animal": 0.9987,
+        "fruit": 0.001,
+        "water": 0.0002,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 0,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "tool",
+    "guess": "hammer",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9241,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 10.2685,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0757,
+        "hammer": 0.9227,
+        "brush": 0.0014
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1396,
+        "horse": 0.2302,
+        "wolf": 0.6257,
+        "apple": 0.0013,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0005,
+        "river": 0.0006,
+        "lake": 0.0004,
+        "knife": 0.0002,
+        "hammer": 0.0011,
+        "brush": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.0001,
+        "tool": 0.9999
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.0001,
+        "tool": 0.9999
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 1,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": true,
+    "found_so_far": [
+      "hammer"
+    ],
+    "target_mass": 0.7484,
+    "belief": {
+      "tiger": 0.0002,
+      "horse": 0.0,
+      "wolf": 0.0003,
+      "apple": 0.0002,
+      "lemon": 0.0001,
+      "grape": 0.0,
+      "ocean": 0.0001,
+      "river": 0.0009,
+      "lake": 0.0012,
+      "knife": 0.4664,
+      "hammer": 0.5102,
+      "brush": 0.0205
+    },
+    "coupling": {
+      "kl": 2.4217,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0001,
+        "horse": 0.0001,
+        "wolf": 0.0001,
+        "apple": 0.0003,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0356,
+        "river": 0.492,
+        "lake": 0.3832,
+        "knife": 0.0855,
+        "hammer": 0.0,
+        "brush": 0.0029
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0003,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0002,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0004,
+        "lake": 0.0005,
+        "knife": 0.9843,
+        "hammer": 0.0,
+        "brush": 0.014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1499,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.9707,
+        "tool": 0.0293
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.9999,
+        "tool": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 2,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "tool",
+    "guess": "knife",
+    "correct": false,
+    "found_so_far": [
+      "river",
+      "hammer"
+    ],
+    "target_mass": 0.6881,
+    "belief": {
+      "tiger": 0.0001,
+      "horse": 0.0001,
+      "wolf": 0.0001,
+      "apple": 0.0014,
+      "lemon": 0.0004,
+      "grape": 0.0,
+      "ocean": 0.0228,
+      "river": 0.3366,
+      "lake": 0.1687,
+      "knife": 0.1314,
+      "hammer": 0.3366,
+      "brush": 0.0017
+    },
+    "coupling": {
+      "kl": 7.6496,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0015,
+        "lemon": 0.0006,
+        "grape": 0.0001,
+        "ocean": 0.0005,
+        "river": 0.0,
+        "lake": 0.0061,
+        "knife": 0.9649,
+        "hammer": 0.0,
+        "brush": 0.0257
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1042,
+        "horse": 0.1181,
+        "wolf": 0.7701,
+        "apple": 0.001,
+        "lemon": 0.0004,
+        "grape": 0.0003,
+        "ocean": 0.0009,
+        "river": 0.0,
+        "lake": 0.0013,
+        "knife": 0.0036,
+        "hammer": 0.0,
+        "brush": 0.0003
+      }
+    },
+    "adaptivity": {
+      "kl": 0.025,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0086,
+        "water": 0.0,
+        "tool": 0.9914
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0474,
+        "water": 0.0,
+        "tool": 0.9526
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 3,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "tool",
+    "guess": "brush",
+    "correct": true,
+    "found_so_far": [
+      "river",
+      "hammer"
+    ],
+    "target_mass": 0.9916,
+    "belief": {
+      "tiger": 0.0068,
+      "horse": 0.0011,
+      "wolf": 0.0008,
+      "apple": 0.006,
+      "lemon": 0.0019,
+      "grape": 0.0001,
+      "ocean": 0.0027,
+      "river": 0.4109,
+      "lake": 0.0044,
+      "knife": 0.0,
+      "hammer": 0.4109,
+      "brush": 0.1545
+    },
+    "coupling": {
+      "kl": 4.2227,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0281,
+        "horse": 0.0038,
+        "wolf": 0.0028,
+        "apple": 0.016,
+        "lemon": 0.0067,
+        "grape": 0.0005,
+        "ocean": 0.0059,
+        "river": 0.0,
+        "lake": 0.0052,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.931
+      },
+      "guess_dist_swap": {
+        "tiger": 0.2187,
+        "horse": 0.1703,
+        "wolf": 0.5945,
+        "apple": 0.0018,
+        "lemon": 0.0008,
+        "grape": 0.0002,
+        "ocean": 0.0008,
+        "river": 0.0,
+        "lake": 0.0005,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0123
+      }
+    },
+    "adaptivity": {
+      "kl": 0.025,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0086,
+        "water": 0.0,
+        "tool": 0.9914
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0474,
+        "water": 0.0,
+        "tool": 0.9526
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 4,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": false,
+    "found_so_far": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "target_mass": 0.7924,
+    "belief": {
+      "tiger": 0.0112,
+      "horse": 0.0011,
+      "wolf": 0.0005,
+      "apple": 0.0041,
+      "lemon": 0.0027,
+      "grape": 0.0,
+      "ocean": 0.0064,
+      "river": 0.3225,
+      "lake": 0.0064,
+      "knife": 0.0,
+      "hammer": 0.3225,
+      "brush": 0.3225
+    },
+    "coupling": {
+      "kl": 4.6204,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0037,
+        "horse": 0.0009,
+        "wolf": 0.0003,
+        "apple": 0.0128,
+        "lemon": 0.0069,
+        "grape": 0.0002,
+        "ocean": 0.1297,
+        "river": 0.0,
+        "lake": 0.8455,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.819,
+        "horse": 0.0524,
+        "wolf": 0.011,
+        "apple": 0.016,
+        "lemon": 0.036,
+        "grape": 0.0002,
+        "ocean": 0.0462,
+        "river": 0.0,
+        "lake": 0.0193,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 9.8779,
+      "clue_dist_real_guesser": {
+        "animal": 0.0288,
+        "fruit": 0.0002,
+        "water": 0.9535,
+        "tool": 0.0175
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 5,
+    "targets": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": false,
+    "found_so_far": [
+      "river",
+      "hammer",
+      "brush"
+    ],
+    "target_mass": 0.7807,
+    "belief": {
+      "tiger": 0.024,
+      "horse": 0.0016,
+      "wolf": 0.0007,
+      "apple": 0.01,
+      "lemon": 0.0025,
+      "grape": 0.0003,
+      "ocean": 0.1076,
+      "river": 0.2844,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.2844,
+      "brush": 0.2844
+    },
+    "coupling": {
+      "kl": 1.9584,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0514,
+        "horse": 0.0023,
+        "wolf": 0.0015,
+        "apple": 0.0189,
+        "lemon": 0.0122,
+        "grape": 0.0021,
+        "ocean": 0.9116,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.7244,
+        "horse": 0.0281,
+        "wolf": 0.0193,
+        "apple": 0.0865,
+        "lemon": 0.0281,
+        "grape": 0.0025,
+        "ocean": 0.1111,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 9.8779,
+      "clue_dist_real_guesser": {
+        "animal": 0.0288,
+        "fruit": 0.0002,
+        "water": 0.9535,
+        "tool": 0.0175
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 0,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.6157,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 8.5167,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.181,
+        "river": 0.3832,
+        "lake": 0.4342,
+        "knife": 0.0001,
+        "hammer": 0.0002,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0757,
+        "hammer": 0.9227,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.1824,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.1824,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 1,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "wolf",
+    "correct": false,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.597,
+    "belief": {
+      "tiger": 0.0009,
+      "horse": 0.0001,
+      "wolf": 0.0002,
+      "apple": 0.0003,
+      "lemon": 0.0001,
+      "grape": 0.0004,
+      "ocean": 0.146,
+      "river": 0.3502,
+      "lake": 0.5009,
+      "knife": 0.0001,
+      "hammer": 0.0009,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 6.5811,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.1894,
+        "horse": 0.2756,
+        "wolf": 0.515,
+        "apple": 0.0008,
+        "lemon": 0.0,
+        "grape": 0.0006,
+        "ocean": 0.0045,
+        "river": 0.0121,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0017,
+        "brush": 0.0001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.6273,
+        "lemon": 0.0749,
+        "grape": 0.2963,
+        "ocean": 0.0009,
+        "river": 0.0001,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0003,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2693,
+      "clue_dist_real_guesser": {
+        "animal": 0.4378,
+        "fruit": 0.0,
+        "water": 0.5622,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7773,
+        "fruit": 0.0,
+        "water": 0.2227,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 2,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "tiger",
+    "correct": true,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.7466,
+    "belief": {
+      "tiger": 0.1913,
+      "horse": 0.1315,
+      "wolf": 0.0,
+      "apple": 0.0027,
+      "lemon": 0.0001,
+      "grape": 0.0019,
+      "ocean": 0.0377,
+      "river": 0.1315,
+      "lake": 0.5007,
+      "knife": 0.0001,
+      "hammer": 0.0024,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 5.4892,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.4887,
+        "horse": 0.4887,
+        "wolf": 0.0,
+        "apple": 0.0021,
+        "lemon": 0.0,
+        "grape": 0.0017,
+        "ocean": 0.0026,
+        "river": 0.013,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0029,
+        "brush": 0.0002
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0028,
+        "horse": 0.0052,
+        "wolf": 0.0,
+        "apple": 0.5997,
+        "lemon": 0.0632,
+        "grape": 0.321,
+        "ocean": 0.0022,
+        "river": 0.0005,
+        "lake": 0.0,
+        "knife": 0.0002,
+        "hammer": 0.0052,
+        "brush": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2693,
+      "clue_dist_real_guesser": {
+        "animal": 0.4378,
+        "fruit": 0.0,
+        "water": 0.5622,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.7773,
+        "fruit": 0.0,
+        "water": 0.2227,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 3,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "lake"
+    ],
+    "target_mass": 0.765,
+    "belief": {
+      "tiger": 0.336,
+      "horse": 0.2543,
+      "wolf": 0.0,
+      "apple": 0.0032,
+      "lemon": 0.0002,
+      "grape": 0.0047,
+      "ocean": 0.0077,
+      "river": 0.0501,
+      "lake": 0.336,
+      "knife": 0.0001,
+      "hammer": 0.0068,
+      "brush": 0.001
+    },
+    "coupling": {
+      "kl": 4.7913,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0046,
+        "wolf": 0.0,
+        "apple": 0.0036,
+        "lemon": 0.0013,
+        "grape": 0.0098,
+        "ocean": 0.286,
+        "river": 0.6861,
+        "lake": 0.0,
+        "knife": 0.0004,
+        "hammer": 0.0076,
+        "brush": 0.0005
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0008,
+        "wolf": 0.0,
+        "apple": 0.001,
+        "lemon": 0.0001,
+        "grape": 0.0002,
+        "ocean": 0.0001,
+        "river": 0.0017,
+        "lake": 0.0,
+        "knife": 0.1052,
+        "hammer": 0.8811,
+        "brush": 0.0098
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 4,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "tiger",
+      "lake"
+    ],
+    "target_mass": 0.9549,
+    "belief": {
+      "tiger": 0.3367,
+      "horse": 0.0069,
+      "wolf": 0.0,
+      "apple": 0.0088,
+      "lemon": 0.0025,
+      "grape": 0.0061,
+      "ocean": 0.2929,
+      "river": 0.0,
+      "lake": 0.3367,
+      "knife": 0.0003,
+      "hammer": 0.0088,
+      "brush": 0.0003
+    },
+    "coupling": {
+      "kl": 2.373,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0084,
+        "wolf": 0.0,
+        "apple": 0.0139,
+        "lemon": 0.0123,
+        "grape": 0.0108,
+        "ocean": 0.8616,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0013,
+        "hammer": 0.0908,
+        "brush": 0.0007
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0011,
+        "wolf": 0.0,
+        "apple": 0.0042,
+        "lemon": 0.0015,
+        "grape": 0.0007,
+        "ocean": 0.0037,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0743,
+        "hammer": 0.9055,
+        "brush": 0.0089
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 5,
+    "targets": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "clue": "animal",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "tiger",
+      "ocean",
+      "lake"
+    ],
+    "target_mass": 0.7537,
+    "belief": {
+      "tiger": 0.2534,
+      "horse": 0.0043,
+      "wolf": 0.0,
+      "apple": 0.0118,
+      "lemon": 0.0134,
+      "grape": 0.022,
+      "ocean": 0.2534,
+      "river": 0.0,
+      "lake": 0.2534,
+      "knife": 0.0012,
+      "hammer": 0.1845,
+      "brush": 0.0026
+    },
+    "coupling": {
+      "kl": 1.9045,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.3944,
+        "wolf": 0.0,
+        "apple": 0.0173,
+        "lemon": 0.0135,
+        "grape": 0.0534,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0044,
+        "hammer": 0.5065,
+        "brush": 0.0105
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0038,
+        "wolf": 0.0,
+        "apple": 0.3418,
+        "lemon": 0.2073,
+        "grape": 0.3016,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0012,
+        "hammer": 0.1425,
+        "brush": 0.0019
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0778,
+      "clue_dist_real_guesser": {
+        "animal": 0.9956,
+        "fruit": 0.0019,
+        "water": 0.0025,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 0,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "apple",
+    "correct": false,
+    "found_so_far": [],
+    "target_mass": 0.3085,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 9.3716,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.6912,
+        "lemon": 0.1542,
+        "grape": 0.1542,
+        "ocean": 0.0001,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0001,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.181,
+        "river": 0.3832,
+        "lake": 0.4342,
+        "knife": 0.0001,
+        "hammer": 0.0002,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9981,
+        "water": 0.0019,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9981,
+        "water": 0.0019,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 1,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "lemon",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.9998,
+    "belief": {
+      "tiger": 0.0001,
+      "horse": 0.0001,
+      "wolf": 0.0001,
+      "apple": 0.0,
+      "lemon": 0.4997,
+      "grape": 0.4997,
+      "ocean": 0.0001,
+      "river": 0.0,
+      "lake": 0.0001,
+      "knife": 0.0,
+      "hammer": 0.0001,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 9.3492,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.562,
+        "grape": 0.4377,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.004,
+        "grape": 0.0084,
+        "ocean": 0.1311,
+        "river": 0.1907,
+        "lake": 0.6657,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9981,
+        "water": 0.0019,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.9981,
+        "water": 0.0019,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 2,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": false,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 0.5889,
+    "belief": {
+      "tiger": 0.0,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.5025,
+      "grape": 0.4974,
+      "ocean": 0.0,
+      "river": 0.0,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 8.982,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0711,
+        "ocean": 0.1035,
+        "river": 0.1505,
+        "lake": 0.6747,
+        "knife": 0.0,
+        "hammer": 0.0001,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0216,
+        "ocean": 0.0,
+        "river": 0.0001,
+        "lake": 0.0003,
+        "knife": 0.3374,
+        "hammer": 0.6303,
+        "brush": 0.0102
+      }
+    },
+    "adaptivity": {
+      "kl": 0.9876,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.1192,
+        "water": 0.8808,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.7773,
+        "water": 0.2227,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 3,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "lemon"
+    ],
+    "target_mass": 0.8155,
+    "belief": {
+      "tiger": 0.0002,
+      "horse": 0.0001,
+      "wolf": 0.0001,
+      "apple": 0.0,
+      "lemon": 0.5024,
+      "grape": 0.2611,
+      "ocean": 0.1398,
+      "river": 0.096,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.0003,
+      "brush": 0.0
+    },
+    "coupling": {
+      "kl": 7.4485,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0002,
+        "horse": 0.0001,
+        "wolf": 0.0001,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0933,
+        "ocean": 0.5369,
+        "river": 0.369,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0004,
+        "brush": 0.0001
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0001,
+        "horse": 0.0005,
+        "wolf": 0.0001,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0381,
+        "ocean": 0.0003,
+        "river": 0.0013,
+        "lake": 0.0,
+        "knife": 0.1708,
+        "hammer": 0.7657,
+        "brush": 0.0231
+      }
+    },
+    "adaptivity": {
+      "kl": 0.9876,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.1192,
+        "water": 0.8808,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.7773,
+        "water": 0.2227,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 4,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "fruit",
+    "guess": "grape",
+    "correct": true,
+    "found_so_far": [
+      "lemon",
+      "ocean"
+    ],
+    "target_mass": 0.9995,
+    "belief": {
+      "tiger": 0.0001,
+      "horse": 0.0,
+      "wolf": 0.0,
+      "apple": 0.0,
+      "lemon": 0.3344,
+      "grape": 0.2239,
+      "ocean": 0.3344,
+      "river": 0.1058,
+      "lake": 0.0,
+      "knife": 0.0,
+      "hammer": 0.001,
+      "brush": 0.0003
+    },
+    "coupling": {
+      "kl": 6.4651,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.9986,
+        "ocean": 0.0,
+        "river": 0.0004,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0008,
+        "brush": 0.0002
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0002,
+        "horse": 0.0002,
+        "wolf": 0.0001,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.1324,
+        "ocean": 0.0,
+        "river": 0.8633,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0031,
+        "brush": 0.0007
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 1.0,
+        "water": 0.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 1.0,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 5,
+    "targets": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "lemon",
+      "grape",
+      "ocean"
+    ],
+    "target_mass": 0.7545,
+    "belief": {
+      "tiger": 0.0217,
+      "horse": 0.0014,
+      "wolf": 0.0028,
+      "apple": 0.0,
+      "lemon": 0.3042,
+      "grape": 0.3042,
+      "ocean": 0.3042,
+      "river": 0.0169,
+      "lake": 0.0,
+      "knife": 0.0007,
+      "hammer": 0.0316,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 3.871,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0023,
+        "horse": 0.0003,
+        "wolf": 0.0008,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.9701,
+        "lake": 0.0,
+        "knife": 0.0008,
+        "hammer": 0.0228,
+        "brush": 0.0029
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0004,
+        "horse": 0.0003,
+        "wolf": 0.0003,
+        "apple": 0.0,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0003,
+        "lake": 0.0,
+        "knife": 0.1955,
+        "hammer": 0.7733,
+        "brush": 0.03
+      }
+    },
+    "adaptivity": {
+      "kl": 3.1442,
+      "clue_dist_real_guesser": {
+        "animal": 0.6059,
+        "fruit": 0.0266,
+        "water": 0.3675,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 0,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "lake",
+    "correct": true,
+    "found_so_far": [],
+    "target_mass": 0.6154,
+    "belief": {
+      "tiger": 0.0862,
+      "horse": 0.028,
+      "wolf": 0.0671,
+      "apple": 0.1421,
+      "lemon": 0.017,
+      "grape": 0.0218,
+      "ocean": 0.0862,
+      "river": 0.0977,
+      "lake": 0.2343,
+      "knife": 0.0247,
+      "hammer": 0.1825,
+      "brush": 0.0124
+    },
+    "coupling": {
+      "kl": 8.5167,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0004,
+        "horse": 0.0001,
+        "wolf": 0.0002,
+        "apple": 0.0004,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.181,
+        "river": 0.3832,
+        "lake": 0.4342,
+        "knife": 0.0001,
+        "hammer": 0.0002,
+        "brush": 0.0
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0,
+        "horse": 0.0,
+        "wolf": 0.0,
+        "apple": 0.0001,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0001,
+        "knife": 0.0757,
+        "hammer": 0.9227,
+        "brush": 0.0014
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 1,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "tool",
+    "guess": "hammer",
+    "correct": false,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.5471,
+    "belief": {
+      "tiger": 0.0009,
+      "horse": 0.0001,
+      "wolf": 0.0002,
+      "apple": 0.0003,
+      "lemon": 0.0001,
+      "grape": 0.0004,
+      "ocean": 0.146,
+      "river": 0.3502,
+      "lake": 0.5009,
+      "knife": 0.0001,
+      "hammer": 0.0009,
+      "brush": 0.0001
+    },
+    "coupling": {
+      "kl": 9.3263,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0,
+        "horse": 0.0001,
+        "wolf": 0.0,
+        "apple": 0.0002,
+        "lemon": 0.0,
+        "grape": 0.0,
+        "ocean": 0.0004,
+        "river": 0.0127,
+        "lake": 0.0,
+        "knife": 0.0935,
+        "hammer": 0.887,
+        "brush": 0.006
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1894,
+        "horse": 0.2756,
+        "wolf": 0.515,
+        "apple": 0.0008,
+        "lemon": 0.0,
+        "grape": 0.0006,
+        "ocean": 0.0045,
+        "river": 0.0121,
+        "lake": 0.0,
+        "knife": 0.0001,
+        "hammer": 0.0017,
+        "brush": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 1.4861,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.0373,
+        "tool": 0.9627
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.1824
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 2,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "tool",
+    "guess": "knife",
+    "correct": true,
+    "found_so_far": [
+      "lake"
+    ],
+    "target_mass": 0.9486,
+    "belief": {
+      "tiger": 0.0007,
+      "horse": 0.0001,
+      "wolf": 0.0003,
+      "apple": 0.0005,
+      "lemon": 0.0001,
+      "grape": 0.0001,
+      "ocean": 0.0103,
+      "river": 0.2354,
+      "lake": 0.502,
+      "knife": 0.2354,
+      "hammer": 0.0,
+      "brush": 0.015
+    },
+    "coupling": {
+      "kl": 6.8021,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "tiger": 0.0006,
+        "horse": 0.0002,
+        "wolf": 0.0005,
+        "apple": 0.0007,
+        "lemon": 0.0001,
+        "grape": 0.0001,
+        "ocean": 0.0014,
+        "river": 0.0572,
+        "lake": 0.0,
+        "knife": 0.8947,
+        "hammer": 0.0,
+        "brush": 0.0445
+      },
+      "guess_dist_swap": {
+        "tiger": 0.1569,
+        "horse": 0.1222,
+        "wolf": 0.7031,
+        "apple": 0.0007,
+        "lemon": 0.0001,
+        "grape": 0.0006,
+        "ocean": 0.0024,
+        "river": 0.0114,
+        "lake": 0.0,
+        "knife": 0.0015,
+        "hammer": 0.0,
+        "brush": 0.0012
+      }
+    },
+    "adaptivity": {
+      "kl": 1.4861,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.0373,
+        "tool": 0.9627
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 0.8176,
+        "tool": 0.1824
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 3,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "river",
+    "correct": false,
+    "found_so_far": [
+      "lake",
+      "knife"
+    ],
+    "target_mass": 0.7242,
+    "belief": {
+      "tiger": 0.0023,
+      "horse": 0.0005,
+      "wolf": 0.0012,
+      "apple": 0.0013,
+      "lemon": 0.0002,
+      "grape": 0.0002,
+      "ocean": 0.0055,
+      "river": 0.2057,
+      "lake": 0.3487,
+      "knife": 0.3487,
+      "hammer": 0.0,
+      "brush": 0.0857
+    },
+    "coupling": {
+      "kl": 3.2424,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0011,
+        "horse": 0.0002,
+        "wolf": 0.0005,
+        "apple": 0.0009,
+        "lemon": 0.0003,
+        "grape": 0.0006,
+        "ocean": 0.1633,
+        "river": 0.8293,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0038
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0075,
+        "horse": 0.0046,
+        "wolf": 0.0075,
+        "apple": 0.008,
+        "lemon": 0.0009,
+        "grape": 0.0007,
+        "ocean": 0.0103,
+        "river": 0.2826,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.6778
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 4,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "ocean",
+    "correct": true,
+    "found_so_far": [
+      "lake",
+      "knife"
+    ],
+    "target_mass": 0.992,
+    "belief": {
+      "tiger": 0.0024,
+      "horse": 0.0002,
+      "wolf": 0.0002,
+      "apple": 0.003,
+      "lemon": 0.0009,
+      "grape": 0.0004,
+      "ocean": 0.3108,
+      "river": 0.0,
+      "lake": 0.3399,
+      "knife": 0.3399,
+      "hammer": 0.0,
+      "brush": 0.0024
+    },
+    "coupling": {
+      "kl": 3.226,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.0084,
+        "horse": 0.0005,
+        "wolf": 0.0007,
+        "apple": 0.0084,
+        "lemon": 0.004,
+        "grape": 0.001,
+        "ocean": 0.9738,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.0031
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0643,
+        "horse": 0.0093,
+        "wolf": 0.0072,
+        "apple": 0.0643,
+        "lemon": 0.0184,
+        "grape": 0.0027,
+        "ocean": 0.2243,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.6097
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "clue_dist_real_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.0,
+        "fruit": 0.0,
+        "water": 1.0,
+        "tool": 0.0
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 5,
+    "targets": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "clue": "water",
+    "guess": "tiger",
+    "correct": false,
+    "found_so_far": [
+      "ocean",
+      "lake",
+      "knife"
+    ],
+    "target_mass": 0.9586,
+    "belief": {
+      "tiger": 0.0271,
+      "horse": 0.0009,
+      "wolf": 0.0034,
+      "apple": 0.0186,
+      "lemon": 0.0164,
+      "grape": 0.0113,
+      "ocean": 0.2994,
+      "river": 0.0,
+      "lake": 0.2994,
+      "knife": 0.2994,
+      "hammer": 0.0,
+      "brush": 0.0239
+    },
+    "coupling": {
+      "kl": 0.9532,
+      "clue_swapped_to": "tool",
+      "guess_dist_clean": {
+        "tiger": 0.2492,
+        "horse": 0.0097,
+        "wolf": 0.0382,
+        "apple": 0.2199,
+        "lemon": 0.1941,
+        "grape": 0.1177,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.1713
+      },
+      "guess_dist_swap": {
+        "tiger": 0.0655,
+        "horse": 0.01,
+        "wolf": 0.0107,
+        "apple": 0.0578,
+        "lemon": 0.045,
+        "grape": 0.0137,
+        "ocean": 0.0,
+        "river": 0.0,
+        "lake": 0.0,
+        "knife": 0.0,
+        "hammer": 0.0,
+        "brush": 0.7974
+      }
+    },
+    "adaptivity": {
+      "kl": 5.1432,
+      "clue_dist_real_guesser": {
+        "animal": 0.4367,
+        "fruit": 0.0014,
+        "water": 0.5607,
+        "tool": 0.0012
+      },
+      "clue_dist_naive_guesser": {
+        "animal": 0.9241,
+        "fruit": 0.0759,
+        "water": 0.0,
+        "tool": 0.0
+      }
+    }
+  }
+]

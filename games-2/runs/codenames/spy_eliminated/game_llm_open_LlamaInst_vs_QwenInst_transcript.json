@@ -1,0 +1,8863 @@
+[
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 0,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "frost",
+    "count": 2,
+    "guesses": [
+      "snow",
+      "coal"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.7163,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 9.3192,
+      "clue_swapped_to": "metal",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9996,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0002,
+        "night": 0.0001,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.171,
+      "cond_first": "snow",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.93,
+        "night": 0.0674,
+        "tiger": 0.0002,
+        "wolf": 0.0006,
+        "river": 0.0018
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0001,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.011,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.9876,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0013,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Frost": 0.2164,
+        "Metal": 0.1088,
+        "Winter": 0.0514,
+        "metal": 0.0483,
+        "\"": 0.0454,
+        "Floral": 0.0454,
+        "Jewel": 0.0426,
+        "Flower": 0.0353,
+        "winter": 0.0214,
+        "F": 0.0157
+      },
+      "clue_dist_naive": {
+        "Frost": 0.2164,
+        "Metal": 0.1088,
+        "Winter": 0.0514,
+        "metal": 0.0483,
+        "\"": 0.0454,
+        "Floral": 0.0454,
+        "Jewel": 0.0426,
+        "Flower": 0.0353,
+        "winter": 0.0214,
+        "F": 0.0157
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 1,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "gold",
+      "salt"
+    ],
+    "correct": [
+      false,
+      false
+    ],
+    "found_so_far": [
+      "snow",
+      "coal"
+    ],
+    "target_mass": 0.8514,
+    "belief": {
+      "gold": 0.0001,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.4257,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.0,
+      "coal": 0.4257,
+      "night": 0.1483,
+      "tiger": 0.0002,
+      "wolf": 0.0,
+      "river": 0.0001
+    },
+    "coupling": {
+      "kl": 3.0733,
+      "clue_swapped_to": "jewel",
+      "guess_dist_clean": {
+        "gold": 0.8212,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.1427,
+        "crown": 0.0361,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0331,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9669,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.601,
+      "cond_first": "gold",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.7976,
+        "crown": 0.2017,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0005,
+        "river": 0.0001
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9995,
+        "rose": 0.0005,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0904,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.0892,
+        "Jewel": 0.0787,
+        "Metal": 0.0613,
+        "Floral": 0.0613,
+        "Flower": 0.0349,
+        "flower": 0.0349,
+        "gem": 0.0328,
+        "floral": 0.0272,
+        "pet": 0.0226,
+        "Jewelry": 0.0226
+      },
+      "clue_dist_naive": {
+        "Floral": 0.1197,
+        "Jewel": 0.1057,
+        "metal": 0.0499,
+        "floral": 0.0469,
+        "Flower": 0.044,
+        "flower": 0.0414,
+        "Jewelry": 0.0414,
+        "Metal": 0.0365,
+        "gem": 0.0251,
+        "perfume": 0.0195
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 0,
+    "round": 2,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "flower",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "crown"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "snow",
+      "coal"
+    ],
+    "target_mass": 0.9971,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0003,
+      "lemon": 0.0,
+      "snow": 0.3333,
+      "salt": 0.0,
+      "crown": 0.3263,
+      "rose": 0.0041,
+      "coal": 0.3333,
+      "night": 0.001,
+      "tiger": 0.0004,
+      "wolf": 0.0009,
+      "river": 0.0001
+    },
+    "coupling": {
+      "kl": 5.2727,
+      "clue_swapped_to": "jewel",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0046,
+        "rose": 0.9954,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9903,
+        "rose": 0.0097,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0014,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0006,
+        "lemon": 0.0001,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9985,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0002,
+        "tiger": 0.0007,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 1.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1591,
+      "topn": 50,
+      "clue_dist_real": {
+        "flower": 0.0794,
+        "Jewel": 0.0701,
+        "gem": 0.0546,
+        "Floral": 0.0425,
+        "pet": 0.0425,
+        "Flower": 0.0425,
+        "floral": 0.0375,
+        "metal": 0.0311,
+        "th": 0.0274,
+        "jewel": 0.0242
+      },
+      "clue_dist_naive": {
+        "Jewel": 0.1341,
+        "Floral": 0.0764,
+        "gem": 0.0764,
+        "flower": 0.0493,
+        "floral": 0.0493,
+        "Jewelry": 0.0463,
+        "Flower": 0.0384,
+        "jewel": 0.0281,
+        "precious": 0.0206,
+        "royal": 0.0193
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 0,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "ocean",
+    "count": 2,
+    "guesses": [
+      "snow",
+      "river"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.1559,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 1.1915,
+      "clue_swapped_to": "metal",
+      "guess_dist_clean": {
+        "gold": 0.0325,
+        "honey": 0.0027,
+        "lemon": 0.0002,
+        "snow": 0.3964,
+        "salt": 0.2724,
+        "crown": 0.0,
+        "rose": 0.0012,
+        "coal": 0.0473,
+        "night": 0.0016,
+        "tiger": 0.0013,
+        "wolf": 0.0039,
+        "river": 0.2404
+      },
+      "guess_dist_swap": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 4.8879,
+      "cond_first": "snow",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0076,
+        "night": 0.0,
+        "tiger": 0.0003,
+        "wolf": 0.0001,
+        "river": 0.992
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0001,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.011,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.9876,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0013,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Ocean": 0.1715,
+        "Metal": 0.1514,
+        "\"": 0.0593,
+        "Mineral": 0.0523,
+        "metal": 0.0434,
+        "Frost": 0.028,
+        "Sea": 0.015,
+        "Water": 0.0141,
+        "Season": 0.0141,
+        "ocean": 0.0132
+      },
+      "clue_dist_naive": {
+        "Ocean": 0.1715,
+        "Metal": 0.1514,
+        "\"": 0.0593,
+        "Mineral": 0.0523,
+        "metal": 0.0434,
+        "Frost": 0.028,
+        "Sea": 0.015,
+        "Water": 0.0141,
+        "Season": 0.0141,
+        "ocean": 0.0132
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 1,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "gold",
+      "coal"
+    ],
+    "correct": [
+      false,
+      false
+    ],
+    "found_so_far": [
+      "river"
+    ],
+    "target_mass": 0.9817,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.0024,
+      "crown": 0.0,
+      "rose": 0.0001,
+      "coal": 0.0044,
+      "night": 0.0008,
+      "tiger": 0.0044,
+      "wolf": 0.0094,
+      "river": 0.9785
+    },
+    "coupling": {
+      "kl": 0.4128,
+      "clue_swapped_to": "mineral",
+      "guess_dist_clean": {
+        "gold": 0.523,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.28,
+        "crown": 0.0045,
+        "rose": 0.0,
+        "coal": 0.1924,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.2888,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.6928,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0185,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.9618,
+      "cond_first": "gold",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.2412,
+        "crown": 0.0154,
+        "rose": 0.0,
+        "coal": 0.7431,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0002,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.8932,
+        "crown": 0.0001,
+        "rose": 0.0,
+        "coal": 0.1067,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0994,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.1843,
+        "Metal": 0.1435,
+        "Mineral": 0.0301,
+        "mineral": 0.0265,
+        "sweet": 0.0194,
+        "\"": 0.0182,
+        "metallic": 0.0171,
+        "Night": 0.0171,
+        "Frost": 0.0142,
+        "gem": 0.0125
+      },
+      "clue_dist_naive": {
+        "metal": 0.1218,
+        "Metal": 0.1144,
+        "Mineral": 0.0421,
+        "Jewel": 0.0371,
+        "mineral": 0.0328,
+        "\"": 0.0272,
+        "Season": 0.0212,
+        "Frost": 0.0199,
+        "precious": 0.0165,
+        "gem": 0.0145
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 2,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "mineral",
+    "count": 2,
+    "guesses": [
+      "salt",
+      "crown"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "river"
+    ],
+    "target_mass": 0.9814,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0008,
+      "lemon": 0.0001,
+      "snow": 0.0,
+      "salt": 0.0159,
+      "crown": 0.4653,
+      "rose": 0.0059,
+      "coal": 0.0,
+      "night": 0.0001,
+      "tiger": 0.0022,
+      "wolf": 0.0097,
+      "river": 0.5001
+    },
+    "coupling": {
+      "kl": 3.1512,
+      "clue_swapped_to": "gem",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.3557,
+        "lemon": 0.0016,
+        "snow": 0.0,
+        "salt": 0.5864,
+        "crown": 0.0425,
+        "rose": 0.0138,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.999,
+        "rose": 0.0009,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.3169,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.2332,
+        "lemon": 0.0026,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.7183,
+        "rose": 0.0459,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9964,
+        "rose": 0.0036,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1162,
+      "topn": 50,
+      "clue_dist_real": {
+        "Mineral": 0.0893,
+        "mineral": 0.0788,
+        "metal": 0.0741,
+        "Metal": 0.0449,
+        "gem": 0.0329,
+        "Jewel": 0.0256,
+        "\"": 0.0176,
+        "animal": 0.0165,
+        "Flower": 0.0165,
+        "precious": 0.0137
+      },
+      "clue_dist_naive": {
+        "Mineral": 0.1083,
+        "mineral": 0.1017,
+        "metal": 0.0481,
+        "Jewel": 0.0424,
+        "Metal": 0.0352,
+        "precious": 0.033,
+        "gem": 0.033,
+        "\"": 0.0257,
+        "Prec": 0.0166,
+        "Frost": 0.0156
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 3,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "animal",
+    "count": 1,
+    "guesses": [
+      "wolf"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.7684,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0008,
+      "lemon": 0.0001,
+      "snow": 0.0,
+      "salt": 0.2561,
+      "crown": 0.2561,
+      "rose": 0.2306,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.2561
+    },
+    "coupling": {
+      "kl": 1.3746,
+      "clue_swapped_to": "flower",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.2529,
+        "coal": 0.0,
+        "night": 0.0208,
+        "tiger": 0.1195,
+        "wolf": 0.6068,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 2.3622,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0008,
+        "tiger": 0.9992,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0019,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.2219,
+        "coal": 0.0,
+        "night": 0.0925,
+        "tiger": 0.6836,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3297,
+      "topn": 50,
+      "clue_dist_real": {
+        "animal": 0.0465,
+        "metal": 0.0386,
+        "Flower": 0.034,
+        "flower": 0.03,
+        "gem": 0.022,
+        "Metal": 0.0206,
+        "Frost": 0.0206,
+        "sweet": 0.0171,
+        "dark": 0.0161,
+        "\"": 0.0151
+      },
+      "clue_dist_naive": {
+        "darkness": 0.0511,
+        "dark": 0.048,
+        "Frost": 0.0424,
+        "animal": 0.0374,
+        "cold": 0.031,
+        "Dark": 0.0257,
+        "\"": 0.0213,
+        "Flower": 0.0188,
+        "moon": 0.0188,
+        "frost": 0.0166
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 4,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "flower",
+    "count": 1,
+    "guesses": [
+      "rose"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.7551,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0002,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.2509,
+      "crown": 0.2509,
+      "rose": 0.1953,
+      "coal": 0.0,
+      "night": 0.0025,
+      "tiger": 0.0494,
+      "wolf": 0.0,
+      "river": 0.2509
+    },
+    "coupling": {
+      "kl": 0.0835,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.9999,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0019,
+        "lemon": 0.0076,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.9904,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.7473,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0134,
+        "lemon": 0.0002,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0468,
+        "tiger": 0.9396,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.4784,
+        "lemon": 0.0647,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0347,
+        "tiger": 0.4222,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3932,
+      "topn": 50,
+      "clue_dist_real": {
+        "flower": 0.0654,
+        "Flower": 0.051,
+        "metal": 0.0273,
+        "fruit": 0.0241,
+        "animal": 0.0226,
+        "forest": 0.02,
+        "Tiger": 0.0187,
+        "sweet": 0.0155,
+        "pet": 0.0137,
+        "Honey": 0.0137
+      },
+      "clue_dist_naive": {
+        "dark": 0.0455,
+        "darkness": 0.0377,
+        "Frost": 0.0294,
+        "Flower": 0.0244,
+        "cold": 0.0244,
+        "animal": 0.0244,
+        "Dark": 0.0202,
+        "\"": 0.0202,
+        "moon": 0.0202,
+        "forest": 0.0178
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 5,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "fruit",
+    "count": 1,
+    "guesses": [
+      "lemon"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.8169,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.001,
+      "lemon": 0.0003,
+      "snow": 0.0,
+      "salt": 0.2713,
+      "crown": 0.2713,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0029,
+      "tiger": 0.1817,
+      "wolf": 0.0,
+      "river": 0.2713
+    },
+    "coupling": {
+      "kl": 14.8668,
+      "clue_swapped_to": "dark",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0041,
+        "lemon": 0.9959,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9859,
+        "tiger": 0.0141,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 3.1953,
+      "cond_first": "lemon",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.3103,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0327,
+        "tiger": 0.657,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0004,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9703,
+        "tiger": 0.0293,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.5183,
+      "topn": 50,
+      "clue_dist_real": {
+        "Tiger": 0.0419,
+        "metal": 0.0326,
+        "fruit": 0.027,
+        "tiger": 0.027,
+        "animal": 0.0254,
+        "flower": 0.0164,
+        "dark": 0.0164,
+        "forest": 0.0145,
+        "Metal": 0.0136,
+        "pet": 0.0128
+      },
+      "clue_dist_naive": {
+        "dark": 0.0434,
+        "Frost": 0.0383,
+        "darkness": 0.0383,
+        "cold": 0.0263,
+        "Dark": 0.0233,
+        "\"": 0.0218,
+        "moon": 0.0205,
+        "Season": 0.017,
+        "animal": 0.015,
+        "scent": 0.015
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 6,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "forest",
+    "count": 1,
+    "guesses": [
+      "tiger"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.8987,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0025,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.2951,
+      "crown": 0.2951,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0134,
+      "tiger": 0.0988,
+      "wolf": 0.0,
+      "river": 0.2951
+    },
+    "coupling": {
+      "kl": 3.4743,
+      "clue_swapped_to": "dark",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0015,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0293,
+        "tiger": 0.9693,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9941,
+        "tiger": 0.0059,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0001,
+      "cond_first": "tiger",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9999,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 1.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.6934,
+      "topn": 50,
+      "clue_dist_real": {
+        "Tiger": 0.0751,
+        "tiger": 0.0428,
+        "metal": 0.0355,
+        "animal": 0.0259,
+        "forest": 0.019,
+        "dark": 0.0167,
+        "Metal": 0.0148,
+        "tree": 0.0148,
+        "darkness": 0.0148,
+        "Tree": 0.0123
+      },
+      "clue_dist_naive": {
+        "dark": 0.0415,
+        "darkness": 0.0389,
+        "Frost": 0.0323,
+        "Dark": 0.0285,
+        "cold": 0.0285,
+        "\"": 0.0251,
+        "Season": 0.0251,
+        "moon": 0.0173,
+        "animal": 0.0152,
+        "winter": 0.0152
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 1,
+    "round": 7,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "dark",
+    "count": 1,
+    "guesses": [
+      "night"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.9998,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0002,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.2762,
+      "crown": 0.2762,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.1711,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.2762
+    },
+    "coupling": {
+      "kl": 0.0,
+      "clue_swapped_to": "darkness",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9999,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 1.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 1.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 1.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2655,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.0388,
+        "darkness": 0.0284,
+        "dark": 0.0284,
+        "animal": 0.0267,
+        "tree": 0.0172,
+        "Metal": 0.0162,
+        "mineral": 0.0152,
+        "Night": 0.0134,
+        "Tree": 0.0126,
+        "water": 0.0118
+      },
+      "clue_dist_naive": {
+        "dark": 0.0611,
+        "darkness": 0.0539,
+        "Dark": 0.0394,
+        "cold": 0.0327,
+        "\"": 0.0255,
+        "Season": 0.0211,
+        "moon": 0.0211,
+        "animal": 0.0211,
+        "Frost": 0.0198,
+        "Darkness": 0.0164
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 0,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "sweet",
+    "count": 2,
+    "guesses": [
+      "honey",
+      "rose"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.0239,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 12.1082,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "gold": 0.0006,
+        "honey": 0.9987,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0007,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0001,
+        "honey": 0.0003,
+        "lemon": 0.9988,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0009,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 12.6712,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0022,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.9975,
+        "coal": 0.0001,
+        "night": 0.0001,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.8933,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.1067,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Sweet": 0.1618,
+        "sweet": 0.126,
+        "Fruit": 0.1112,
+        "Frost": 0.0718,
+        "\"": 0.0339,
+        "citrus": 0.0319,
+        "Flower": 0.0319,
+        "F": 0.0233,
+        "fruit": 0.0219,
+        "Floral": 0.0193
+      },
+      "clue_dist_naive": {
+        "Sweet": 0.1618,
+        "sweet": 0.126,
+        "Fruit": 0.1112,
+        "Frost": 0.0718,
+        "\"": 0.0339,
+        "citrus": 0.0319,
+        "Flower": 0.0319,
+        "F": 0.0233,
+        "fruit": 0.0219,
+        "Floral": 0.0193
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 1,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "cold",
+    "count": 2,
+    "guesses": [
+      "snow",
+      "coal"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "honey"
+    ],
+    "target_mass": 0.7571,
+    "belief": {
+      "gold": 0.2429,
+      "honey": 0.7571,
+      "lemon": 0.0001,
+      "snow": 0.0,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.0003,
+      "clue_swapped_to": "frost",
+      "guess_dist_clean": {
+        "gold": 0.0012,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9987,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0001,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0006,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9994,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.038,
+      "cond_first": "snow",
+      "guess_dist2_clean": {
+        "gold": 0.0001,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0001,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.9995,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0002,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0004,
+        "honey": 0.0,
+        "lemon": 0.0003,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.9904,
+        "night": 0.0046,
+        "tiger": 0.0002,
+        "wolf": 0.0036,
+        "river": 0.0004
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2202,
+      "topn": 50,
+      "clue_dist_real": {
+        "cold": 0.1817,
+        "Frost": 0.1707,
+        "Cold": 0.0757,
+        "frost": 0.0489,
+        "Winter": 0.0459,
+        "winter": 0.0459,
+        "bitter": 0.0336,
+        "icy": 0.0316,
+        "\"": 0.0159,
+        "white": 0.0149
+      },
+      "clue_dist_naive": {
+        "Frost": 0.2831,
+        "cold": 0.0672,
+        "frost": 0.0593,
+        "Winter": 0.0434,
+        "winter": 0.036,
+        "citrus": 0.0318,
+        "Cold": 0.0298,
+        "Fruit": 0.028,
+        "bitter": 0.0263,
+        "icy": 0.0263
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 2,
+    "round": 2,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "citrus",
+    "count": 1,
+    "guesses": [
+      "lemon"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "honey",
+      "snow",
+      "coal"
+    ],
+    "target_mass": 0.9365,
+    "belief": {
+      "gold": 0.0628,
+      "honey": 0.3122,
+      "lemon": 0.0,
+      "snow": 0.3122,
+      "salt": 0.0003,
+      "crown": 0.0,
+      "rose": 0.0,
+      "coal": 0.3122,
+      "night": 0.0003,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.0,
+      "clue_swapped_to": "sour",
+      "guess_dist_clean": {
+        "gold": 0.0036,
+        "honey": 0.0,
+        "lemon": 0.9964,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0032,
+        "honey": 0.0,
+        "lemon": 0.9968,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.2478,
+      "cond_first": "lemon",
+      "guess_dist2_clean": {
+        "gold": 0.8109,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0048,
+        "crown": 0.1809,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0005,
+        "tiger": 0.0014,
+        "wolf": 0.0014,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.9123,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0583,
+        "crown": 0.013,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0014,
+        "tiger": 0.0033,
+        "wolf": 0.0115,
+        "river": 0.0003
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1727,
+      "topn": 50,
+      "clue_dist_real": {
+        "citrus": 0.2403,
+        "sour": 0.0941,
+        "yellow": 0.0571,
+        "bitter": 0.0504,
+        "Cit": 0.0504,
+        "Fruit": 0.0418,
+        "tart": 0.0392,
+        "Acid": 0.0368,
+        "fruit": 0.0287,
+        "Sour": 0.0197
+      },
+      "clue_dist_naive": {
+        "citrus": 0.2406,
+        "Fruit": 0.1003,
+        "sour": 0.0832,
+        "fruit": 0.0474,
+        "Cit": 0.0393,
+        "tart": 0.0369,
+        "Acid": 0.0347,
+        "Sour": 0.0306,
+        "F": 0.0198,
+        "juice": 0.0164
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 0,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "salt",
+      "coal"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.2537,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 16.8171,
+      "clue_swapped_to": "fruit",
+      "guess_dist_clean": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0001,
+        "honey": 0.0003,
+        "lemon": 0.9988,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0009,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 14.7104,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0229,
+        "rose": 0.0,
+        "coal": 0.9742,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0151,
+        "honey": 0.0412,
+        "lemon": 0.5016,
+        "snow": 0.0063,
+        "salt": 0.0,
+        "crown": 0.0043,
+        "rose": 0.3042,
+        "coal": 0.1268,
+        "night": 0.0002,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Metal": 0.2207,
+        "Fruit": 0.1339,
+        "Sweet": 0.0763,
+        "metal": 0.0763,
+        "sweet": 0.0558,
+        "\"": 0.0281,
+        "fruit": 0.0281,
+        "Flower": 0.0219,
+        "Mineral": 0.0205,
+        "citrus": 0.017
+      },
+      "clue_dist_naive": {
+        "Metal": 0.2207,
+        "Fruit": 0.1339,
+        "Sweet": 0.0763,
+        "metal": 0.0763,
+        "sweet": 0.0558,
+        "\"": 0.0281,
+        "fruit": 0.0281,
+        "Flower": 0.0219,
+        "Mineral": 0.0205,
+        "citrus": 0.017
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 1,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "sweet",
+    "count": 2,
+    "guesses": [
+      "honey",
+      "rose"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "coal"
+    ],
+    "target_mass": 0.7942,
+    "belief": {
+      "gold": 0.0039,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0008,
+      "salt": 0.0,
+      "crown": 0.1007,
+      "rose": 0.0,
+      "coal": 0.7902,
+      "night": 0.0003,
+      "tiger": 0.0006,
+      "wolf": 0.1007,
+      "river": 0.0027
+    },
+    "coupling": {
+      "kl": 0.1446,
+      "clue_swapped_to": "yellow",
+      "guess_dist_clean": {
+        "gold": 0.0133,
+        "honey": 0.934,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0527,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0948,
+        "honey": 0.8997,
+        "lemon": 0.0006,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0001,
+        "rose": 0.0047,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.7246,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0952,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0002,
+        "salt": 0.0,
+        "crown": 0.0001,
+        "rose": 0.9033,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0012
+      },
+      "guess_dist2_swap": {
+        "gold": 0.6238,
+        "honey": 0.0,
+        "lemon": 0.0745,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0069,
+        "rose": 0.2947,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.164,
+      "topn": 50,
+      "clue_dist_real": {
+        "sweet": 0.2343,
+        "yellow": 0.1254,
+        "Sweet": 0.081,
+        "fruit": 0.0556,
+        "Fruit": 0.0359,
+        "Yellow": 0.028,
+        "precious": 0.0263,
+        "metal": 0.0205,
+        "citrus": 0.0192,
+        "mineral": 0.0124
+      },
+      "clue_dist_naive": {
+        "sweet": 0.2555,
+        "Sweet": 0.1065,
+        "Fruit": 0.1001,
+        "fruit": 0.0829,
+        "yellow": 0.0417,
+        "citrus": 0.0368,
+        "Yellow": 0.0135,
+        "metal": 0.0119,
+        "food": 0.0112,
+        "edible": 0.0112
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 3,
+    "round": 2,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "yellow",
+    "count": 2,
+    "guesses": [
+      "gold",
+      "lemon"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "honey",
+      "coal"
+    ],
+    "target_mass": 0.9849,
+    "belief": {
+      "gold": 0.3176,
+      "honey": 0.3336,
+      "lemon": 0.0,
+      "snow": 0.0011,
+      "salt": 0.0,
+      "crown": 0.014,
+      "rose": 0.0,
+      "coal": 0.3336,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.8189,
+      "clue_swapped_to": "precious",
+      "guess_dist_clean": {
+        "gold": 0.7058,
+        "honey": 0.0,
+        "lemon": 0.2942,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.9325,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0675,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 4.2662,
+      "cond_first": "gold",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.9839,
+        "snow": 0.0003,
+        "salt": 0.0,
+        "crown": 0.014,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0003,
+        "tiger": 0.0015,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 1.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.128,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.0993,
+        "yellow": 0.0993,
+        "precious": 0.0726,
+        "mine": 0.0602,
+        "mineral": 0.0531,
+        "Metal": 0.0414,
+        "Mineral": 0.0322,
+        "fruit": 0.0251,
+        "shiny": 0.0221,
+        "Jewel": 0.0221
+      },
+      "clue_dist_naive": {
+        "Fruit": 0.069,
+        "precious": 0.069,
+        "metal": 0.0572,
+        "fruit": 0.0572,
+        "mine": 0.0537,
+        "yellow": 0.0505,
+        "mineral": 0.0505,
+        "citrus": 0.0369,
+        "Mineral": 0.0347,
+        "Jewel": 0.0347
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 0,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "floral",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "crown"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.5856,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 0.0,
+      "clue_swapped_to": "flower",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0169,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0141,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9858,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0001,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0258,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.97,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0035,
+        "tiger": 0.0006,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Floral": 0.2019,
+        "Flower": 0.115,
+        "F": 0.0842,
+        "\"": 0.045,
+        "Animal": 0.0398,
+        "Pet": 0.0257,
+        "animal": 0.0226,
+        "flower": 0.0226,
+        "Wild": 0.0213,
+        "floral": 0.0213
+      },
+      "clue_dist_naive": {
+        "Floral": 0.2019,
+        "Flower": 0.115,
+        "F": 0.0842,
+        "\"": 0.045,
+        "Animal": 0.0398,
+        "Pet": 0.0257,
+        "animal": 0.0226,
+        "flower": 0.0226,
+        "Wild": 0.0213,
+        "floral": 0.0213
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 1,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "wild",
+    "count": 2,
+    "guesses": [
+      "tiger",
+      "wolf"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "rose"
+    ],
+    "target_mass": 0.9996,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0004,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.9996,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.6731,
+      "clue_swapped_to": "animal",
+      "guess_dist_clean": {
+        "gold": 0.0068,
+        "honey": 0.3724,
+        "lemon": 0.027,
+        "snow": 0.0008,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0003,
+        "night": 0.1067,
+        "tiger": 0.4781,
+        "wolf": 0.0047,
+        "river": 0.0032
+      },
+      "guess_dist_swap": {
+        "gold": 0.0007,
+        "honey": 0.0014,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0247,
+        "tiger": 0.9269,
+        "wolf": 0.0461,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0003,
+      "cond_first": "tiger",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0003,
+        "tiger": 0.0,
+        "wolf": 0.9997,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 1.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0712,
+      "topn": 50,
+      "clue_dist_real": {
+        "wild": 0.1294,
+        "animal": 0.1142,
+        "Wild": 0.0889,
+        "F": 0.0737,
+        "Animal": 0.065,
+        "predator": 0.0239,
+        "Beast": 0.0175,
+        "furry": 0.0164,
+        "beast": 0.0154,
+        "f": 0.0136
+      },
+      "clue_dist_naive": {
+        "F": 0.1039,
+        "Wild": 0.1039,
+        "wild": 0.0976,
+        "animal": 0.0809,
+        "Animal": 0.063,
+        "predator": 0.0298,
+        "prey": 0.028,
+        "Forest": 0.0218,
+        "Beast": 0.0205,
+        "\"": 0.0181
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 4,
+    "round": 2,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "aquatic",
+    "count": 1,
+    "guesses": [
+      "river"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.9799,
+    "belief": {
+      "gold": 0.0001,
+      "honey": 0.0094,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.3265,
+      "coal": 0.0,
+      "night": 0.0106,
+      "tiger": 0.3265,
+      "wolf": 0.3265,
+      "river": 0.0002
+    },
+    "coupling": {
+      "kl": 3.2876,
+      "clue_swapped_to": "metal",
+      "guess_dist_clean": {
+        "gold": 0.0372,
+        "honey": 0.0008,
+        "lemon": 0.0,
+        "snow": 0.0011,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0004,
+        "night": 0.0013,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.9592
+      },
+      "guess_dist_swap": {
+        "gold": 0.9989,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0009,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.2505,
+      "cond_first": "river",
+      "guess_dist2_clean": {
+        "gold": 0.1782,
+        "honey": 0.0017,
+        "lemon": 0.0005,
+        "snow": 0.4276,
+        "salt": 0.0114,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.3773,
+        "night": 0.0033,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.1528,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.1349,
+        "salt": 0.0266,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.685,
+        "night": 0.0006,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1703,
+      "topn": 50,
+      "clue_dist_real": {
+        "aquatic": 0.0914,
+        "metal": 0.046,
+        "wet": 0.046,
+        "sweet": 0.0406,
+        "metallic": 0.0336,
+        "Metal": 0.0246,
+        "Fresh": 0.0204,
+        "F": 0.0204,
+        "Sweet": 0.018,
+        "natural": 0.0169
+      },
+      "clue_dist_naive": {
+        "aquatic": 0.135,
+        "\"": 0.0412,
+        "Fresh": 0.0387,
+        "F": 0.0301,
+        "wet": 0.0266,
+        "floral": 0.0266,
+        "sweet": 0.025,
+        "Floral": 0.0207,
+        "metal": 0.0172,
+        "fresh": 0.0161
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 0,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "salt",
+      "coal"
+    ],
+    "correct": [
+      false,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.8156,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 12.8945,
+      "clue_swapped_to": "flower",
+      "guess_dist_clean": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 15.8935,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0229,
+        "rose": 0.0,
+        "coal": 0.9742,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0001,
+        "honey": 0.0004,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.018,
+        "rose": 0.9814,
+        "coal": 0.0001,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Metal": 0.1931,
+        "Flower": 0.1033,
+        "Jewel": 0.0756,
+        "metal": 0.0627,
+        "Floral": 0.0488,
+        "\"": 0.038,
+        "flower": 0.0296,
+        "Pet": 0.0158,
+        "F": 0.0131,
+        "Fruit": 0.0116
+      },
+      "clue_dist_naive": {
+        "Metal": 0.1931,
+        "Flower": 0.1033,
+        "Jewel": 0.0756,
+        "metal": 0.0627,
+        "Floral": 0.0488,
+        "\"": 0.038,
+        "flower": 0.0296,
+        "Pet": 0.0158,
+        "F": 0.0131,
+        "Fruit": 0.0116
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 1,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "precious",
+    "count": 2,
+    "guesses": [
+      "crown",
+      "gold"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.2015,
+    "belief": {
+      "gold": 0.2012,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0007,
+      "salt": 0.0,
+      "crown": 0.7958,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0002,
+      "wolf": 0.002,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.302,
+      "clue_swapped_to": "jewel",
+      "guess_dist_clean": {
+        "gold": 0.32,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.6775,
+        "rose": 0.0024,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0203,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.977,
+        "rose": 0.0027,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 2.2064,
+      "cond_first": "crown",
+      "guess_dist2_clean": {
+        "gold": 0.8933,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.1067,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0036,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.9964,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0356,
+      "topn": 50,
+      "clue_dist_real": {
+        "precious": 0.099,
+        "Jewel": 0.0873,
+        "Prec": 0.053,
+        "metal": 0.0413,
+        "flower": 0.0342,
+        "Flower": 0.0321,
+        "Metal": 0.0284,
+        "yellow": 0.0284,
+        "treasure": 0.025,
+        "shiny": 0.0221
+      },
+      "clue_dist_naive": {
+        "precious": 0.1066,
+        "Jewel": 0.0884,
+        "Prec": 0.0445,
+        "Flower": 0.0306,
+        "metal": 0.0306,
+        "gem": 0.0287,
+        "flower": 0.027,
+        "treasure": 0.0238,
+        "mineral": 0.0238,
+        "Metal": 0.0238
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 2,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "flower",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "honey"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "gold"
+    ],
+    "target_mass": 0.9642,
+    "belief": {
+      "gold": 0.9621,
+      "honey": 0.0358,
+      "lemon": 0.0,
+      "snow": 0.0,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.002,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 0.0001,
+      "clue_swapped_to": "floral",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.9999,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0108,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.9714,
+        "lemon": 0.0157,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0019,
+        "tiger": 0.0108,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.9916,
+        "lemon": 0.0059,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0007,
+        "tiger": 0.0017,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0784,
+      "topn": 50,
+      "clue_dist_real": {
+        "flower": 0.0757,
+        "Floral": 0.0711,
+        "Flower": 0.0628,
+        "Jewel": 0.0554,
+        "floral": 0.0554,
+        "gem": 0.0381,
+        "pet": 0.0297,
+        "sweet": 0.0231,
+        "Pet": 0.0217,
+        "metal": 0.0204
+      },
+      "clue_dist_naive": {
+        "Floral": 0.1017,
+        "Flower": 0.0617,
+        "floral": 0.0544,
+        "flower": 0.048,
+        "Jewel": 0.0374,
+        "pet": 0.0274,
+        "Pet": 0.0242,
+        "F": 0.0227,
+        "scent": 0.0227,
+        "gem": 0.0188
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 3,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "animal",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [
+      "gold",
+      "rose"
+    ],
+    "target_mass": 0.8905,
+    "belief": {
+      "gold": 0.443,
+      "honey": 0.0,
+      "lemon": 0.0998,
+      "snow": 0.0093,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.443,
+      "coal": 0.0,
+      "night": 0.0018,
+      "tiger": 0.0027,
+      "wolf": 0.0002,
+      "river": 0.0003
+    },
+    "coupling": {
+      "kl": 0.0326,
+      "clue_swapped_to": "wild",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0033,
+        "tiger": 0.3763,
+        "wolf": 0.6204,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0006,
+        "tiger": 0.4997,
+        "wolf": 0.4997,
+        "river": 0.0001
+      }
+    },
+    "coupling2": {
+      "kl": 0.004,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0004,
+        "tiger": 0.9996,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0032,
+        "tiger": 0.9968,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0761,
+      "topn": 50,
+      "clue_dist_real": {
+        "animal": 0.2082,
+        "Animal": 0.0676,
+        "metal": 0.0436,
+        "wild": 0.0265,
+        "Jewel": 0.0194,
+        "Metal": 0.0182,
+        "mineral": 0.0182,
+        "beast": 0.0171,
+        "F": 0.0161,
+        "dark": 0.0151
+      },
+      "clue_dist_naive": {
+        "animal": 0.1442,
+        "Animal": 0.064,
+        "wild": 0.0235,
+        "Jewel": 0.0235,
+        "F": 0.0235,
+        "mineral": 0.0221,
+        "metal": 0.0183,
+        "Mineral": 0.0172,
+        "\"": 0.0162,
+        "beast": 0.0162
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 5,
+    "round": 4,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "mineral",
+    "count": 1,
+    "guesses": [
+      "night"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "gold",
+      "rose",
+      "tiger"
+    ],
+    "target_mass": 0.9866,
+    "belief": {
+      "gold": 0.3282,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0001,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.3282,
+      "coal": 0.0,
+      "night": 0.002,
+      "tiger": 0.3282,
+      "wolf": 0.0,
+      "river": 0.0133
+    },
+    "coupling": {
+      "kl": 0.0201,
+      "clue_swapped_to": "gem",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0003,
+        "snow": 0.0314,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.6307,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.3376
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0003,
+        "snow": 0.0046,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.6759,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.3193
+      }
+    },
+    "coupling2": {
+      "kl": 0.0253,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.1192,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.8808
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0534,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.9466
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2973,
+      "topn": 50,
+      "clue_dist_real": {
+        "river": 0.0833,
+        "metal": 0.0505,
+        "mineral": 0.0446,
+        "gem": 0.0419,
+        "precious": 0.0393,
+        "River": 0.0239,
+        "dark": 0.0224,
+        "Mineral": 0.0186,
+        "Metal": 0.0164,
+        "darkness": 0.0154
+      },
+      "clue_dist_naive": {
+        "dark": 0.053,
+        "mineral": 0.0413,
+        "cold": 0.0413,
+        "darkness": 0.0284,
+        "gem": 0.0266,
+        "Frost": 0.0266,
+        "Mineral": 0.0221,
+        "metal": 0.0207,
+        "Dark": 0.0183,
+        "winter": 0.0152
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 0,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "salt",
+      "coal"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.1606,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 5.6882,
+      "clue_swapped_to": "ocean",
+      "guess_dist_clean": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0325,
+        "honey": 0.0027,
+        "lemon": 0.0002,
+        "snow": 0.3964,
+        "salt": 0.2724,
+        "crown": 0.0,
+        "rose": 0.0012,
+        "coal": 0.0473,
+        "night": 0.0016,
+        "tiger": 0.0013,
+        "wolf": 0.0039,
+        "river": 0.2404
+      }
+    },
+    "coupling2": {
+      "kl": 12.2842,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0229,
+        "rose": 0.0,
+        "coal": 0.9742,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0042,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0847,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.911
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Metal": 0.1931,
+        "Ocean": 0.0756,
+        "metal": 0.071,
+        "\"": 0.0667,
+        "Mineral": 0.0627,
+        "Animal": 0.0488,
+        "F": 0.0336,
+        "animal": 0.0169,
+        "mineral": 0.0109,
+        "Sea": 0.0102
+      },
+      "clue_dist_naive": {
+        "Metal": 0.1931,
+        "Ocean": 0.0756,
+        "metal": 0.071,
+        "\"": 0.0667,
+        "Mineral": 0.0627,
+        "Animal": 0.0488,
+        "F": 0.0336,
+        "animal": 0.0169,
+        "mineral": 0.0109,
+        "Sea": 0.0102
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 1,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "animal",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "salt"
+    ],
+    "target_mass": 0.8112,
+    "belief": {
+      "gold": 0.1886,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0002,
+      "salt": 0.5002,
+      "crown": 0.311,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.0,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 10.2005,
+      "clue_swapped_to": "mineral",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0019,
+        "tiger": 0.2223,
+        "wolf": 0.7757,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.9859,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0141,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 17.0157,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 1.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0308,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0015,
+        "salt": 0.0,
+        "crown": 0.7942,
+        "rose": 0.01,
+        "coal": 0.0,
+        "night": 0.0042,
+        "tiger": 0.138,
+        "wolf": 0.0,
+        "river": 0.0212
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0987,
+      "topn": 50,
+      "clue_dist_real": {
+        "animal": 0.1046,
+        "Animal": 0.0526,
+        "metal": 0.0494,
+        "Mineral": 0.0282,
+        "mineral": 0.0282,
+        "Natural": 0.0264,
+        "Jewel": 0.0248,
+        "precious": 0.0233,
+        "Metal": 0.0206,
+        "F": 0.0182
+      },
+      "clue_dist_naive": {
+        "animal": 0.1208,
+        "Animal": 0.0884,
+        "metal": 0.0444,
+        "Mineral": 0.0418,
+        "Jewel": 0.0368,
+        "mineral": 0.0346,
+        "F": 0.0325,
+        "gem": 0.0224,
+        "Metal": 0.0224,
+        "precious": 0.0174
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 2,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "mineral",
+    "count": 2,
+    "guesses": [
+      "gold",
+      "crown"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [
+      "salt",
+      "wolf"
+    ],
+    "target_mass": 0.9762,
+    "belief": {
+      "gold": 0.0089,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0002,
+      "salt": 0.3582,
+      "crown": 0.2598,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0147,
+      "tiger": 0.0,
+      "wolf": 0.3582,
+      "river": 0.0
+    },
+    "coupling": {
+      "kl": 2.2309,
+      "clue_swapped_to": "gem",
+      "guess_dist_clean": {
+        "gold": 0.9705,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0293,
+        "rose": 0.0001,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.221,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.7714,
+        "rose": 0.0076,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.015,
+      "cond_first": "gold",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0018,
+        "lemon": 0.0,
+        "snow": 0.0002,
+        "salt": 0.0,
+        "crown": 0.9505,
+        "rose": 0.0473,
+        "coal": 0.0,
+        "night": 0.0001,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9149,
+        "rose": 0.0851,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0665,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.0618,
+        "Mineral": 0.0452,
+        "mineral": 0.0452,
+        "gem": 0.0425,
+        "Jewel": 0.0399,
+        "precious": 0.0331,
+        "Flower": 0.0242,
+        "Metal": 0.0242,
+        "floral": 0.0227,
+        "flower": 0.0213
+      },
+      "clue_dist_naive": {
+        "Mineral": 0.0593,
+        "Jewel": 0.0593,
+        "metal": 0.0523,
+        "gem": 0.0523,
+        "mineral": 0.0434,
+        "precious": 0.0317,
+        "Metal": 0.0247,
+        "jewel": 0.0218,
+        "\"": 0.0192,
+        "bridge": 0.0132
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 3,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "gem",
+    "count": 1,
+    "guesses": [
+      "rose"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "wolf"
+    ],
+    "target_mass": 0.7688,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.1195,
+      "lemon": 0.0,
+      "snow": 0.0009,
+      "salt": 0.2562,
+      "crown": 0.2562,
+      "rose": 0.1055,
+      "coal": 0.0,
+      "night": 0.0053,
+      "tiger": 0.0,
+      "wolf": 0.2562,
+      "river": 0.0002
+    },
+    "coupling": {
+      "kl": 1.0829,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.1468,
+        "lemon": 0.0004,
+        "snow": 0.0004,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.8449,
+        "coal": 0.0,
+        "night": 0.0073,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0003
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0212,
+        "lemon": 0.0001,
+        "snow": 0.0047,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.7945,
+        "coal": 0.0,
+        "night": 0.0022,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.1773
+      }
+    },
+    "coupling2": {
+      "kl": 2.2631,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.9857,
+        "lemon": 0.0001,
+        "snow": 0.0003,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0124,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0015
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.4959,
+        "lemon": 0.0001,
+        "snow": 0.0071,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0592,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.4377
+      }
+    },
+    "adaptivity": {
+      "kl": 0.1927,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.0607,
+        "Mineral": 0.0444,
+        "gem": 0.0238,
+        "water": 0.0223,
+        "Ocean": 0.021,
+        "metal": 0.021,
+        "aquatic": 0.0163,
+        "ocean": 0.0153,
+        "": 0.0135,
+        "\"": 0.0135
+      },
+      "clue_dist_naive": {
+        "water": 0.0421,
+        "aquatic": 0.0395,
+        "\"": 0.0255,
+        "Water": 0.0255,
+        "flow": 0.024,
+        "mineral": 0.024,
+        "Mineral": 0.0212,
+        "fish": 0.0175,
+        "wet": 0.0175,
+        "fluid": 0.0165
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 4,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "ocean",
+    "count": 1,
+    "guesses": [
+      "snow"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "wolf"
+    ],
+    "target_mass": 0.764,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.1527,
+      "lemon": 0.0005,
+      "snow": 0.0265,
+      "salt": 0.2546,
+      "crown": 0.2546,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0562,
+      "tiger": 0.0,
+      "wolf": 0.2546,
+      "river": 0.0003
+    },
+    "coupling": {
+      "kl": 4.3907,
+      "clue_swapped_to": "water",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.1358,
+        "lemon": 0.0002,
+        "snow": 0.5369,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.3256,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0015
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0051,
+        "lemon": 0.0,
+        "snow": 0.191,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0483,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.7556
+      }
+    },
+    "coupling2": {
+      "kl": 2.4624,
+      "cond_first": "snow",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.7111,
+        "lemon": 0.0003,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.2037,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0849
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0003,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.9997
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2565,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.0473,
+        "Mineral": 0.0368,
+        "Ocean": 0.0305,
+        "Night": 0.0287,
+        "water": 0.0253,
+        "metal": 0.021,
+        "night": 0.021,
+        "ocean": 0.0197,
+        "gem": 0.0185,
+        "Water": 0.0153
+      },
+      "clue_dist_naive": {
+        "water": 0.0448,
+        "aquatic": 0.0371,
+        "Water": 0.0289,
+        "flow": 0.0271,
+        "\"": 0.0225,
+        "Flow": 0.0211,
+        "mineral": 0.0187,
+        "flowing": 0.0175,
+        "fluid": 0.0175,
+        "wet": 0.0175
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 5,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "water",
+    "count": 1,
+    "guesses": [
+      "honey"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "wolf"
+    ],
+    "target_mass": 0.8071,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0429,
+      "lemon": 0.0002,
+      "snow": 0.0,
+      "salt": 0.2687,
+      "crown": 0.2687,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.1498,
+      "tiger": 0.0,
+      "wolf": 0.2687,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 0.569,
+      "clue_swapped_to": "shore",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.8606,
+        "lemon": 0.0108,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.08,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0486
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.4825,
+        "lemon": 0.0061,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.4825,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.029
+      }
+    },
+    "coupling2": {
+      "kl": 0.0019,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.4378,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.5622
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.4688,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.5312
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2962,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.038,
+        "water": 0.0336,
+        "Night": 0.0296,
+        "Mineral": 0.0261,
+        "night": 0.0231,
+        "river": 0.0191,
+        "metal": 0.018,
+        "shore": 0.0169,
+        "Water": 0.0159,
+        "fish": 0.0149
+      },
+      "clue_dist_naive": {
+        "water": 0.0495,
+        "Water": 0.034,
+        "flow": 0.03,
+        "aquatic": 0.0282,
+        "\"": 0.0282,
+        "Flow": 0.0249,
+        "wet": 0.0206,
+        "current": 0.0206,
+        "flowing": 0.0206,
+        "Current": 0.0182
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 6,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "shore",
+    "count": 1,
+    "guesses": [
+      "night"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "wolf"
+    ],
+    "target_mass": 0.9117,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.0002,
+      "snow": 0.0,
+      "salt": 0.3028,
+      "crown": 0.3028,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0881,
+      "tiger": 0.0,
+      "wolf": 0.3028,
+      "river": 0.0034
+    },
+    "coupling": {
+      "kl": 0.079,
+      "clue_swapped_to": "fish",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0007,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.817,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.1823
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0025,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.6497,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.3478
+      }
+    },
+    "coupling2": {
+      "kl": 0.0,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 1.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 1.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.271,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.0323,
+        "Mineral": 0.0285,
+        "Night": 0.0251,
+        "shore": 0.0222,
+        "metal": 0.0222,
+        "river": 0.0196,
+        "fish": 0.0184,
+        "night": 0.0162,
+        "current": 0.0162,
+        "flow": 0.0143
+      },
+      "clue_dist_naive": {
+        "Flow": 0.0363,
+        "Current": 0.032,
+        "flow": 0.032,
+        "aquatic": 0.0283,
+        "current": 0.0283,
+        "\"": 0.025,
+        "F": 0.0207,
+        "wet": 0.0207,
+        "Fresh": 0.0194,
+        "flowing": 0.0194
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 6,
+    "round": 7,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "fish",
+    "count": 1,
+    "guesses": [
+      "river"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "salt",
+      "crown",
+      "wolf"
+    ],
+    "target_mass": 0.9999,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.0001,
+      "snow": 0.0,
+      "salt": 0.3188,
+      "crown": 0.3188,
+      "rose": 0.0,
+      "coal": 0.0,
+      "night": 0.0,
+      "tiger": 0.0,
+      "wolf": 0.3188,
+      "river": 0.0435
+    },
+    "coupling": {
+      "kl": 0.2924,
+      "clue_swapped_to": "tide",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.3775,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.6225
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0534,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.9466
+      }
+    },
+    "coupling2": {
+      "kl": 0.0,
+      "cond_first": "river",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 1.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 1.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.2302,
+      "topn": 50,
+      "clue_dist_real": {
+        "metal": 0.0365,
+        "Mineral": 0.0322,
+        "mineral": 0.0322,
+        "fish": 0.0236,
+        "river": 0.0208,
+        "tide": 0.0195,
+        "current": 0.0172,
+        "shore": 0.0143,
+        "Metal": 0.0143,
+        "F": 0.0143
+      },
+      "clue_dist_naive": {
+        "flow": 0.0335,
+        "Flow": 0.0315,
+        "\"": 0.0296,
+        "Current": 0.0278,
+        "current": 0.0278,
+        "aquatic": 0.0245,
+        "F": 0.0203,
+        "flowing": 0.0179,
+        "wet": 0.0179,
+        "fish": 0.0179
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 0,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "metal",
+    "count": 2,
+    "guesses": [
+      "salt",
+      "coal"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.5928,
+    "belief": {
+      "gold": 0.2358,
+      "honey": 0.0151,
+      "lemon": 0.0011,
+      "snow": 0.0059,
+      "salt": 0.0014,
+      "crown": 0.143,
+      "rose": 0.5656,
+      "coal": 0.0018,
+      "night": 0.0104,
+      "tiger": 0.0038,
+      "wolf": 0.0151,
+      "river": 0.0011
+    },
+    "coupling": {
+      "kl": 12.8945,
+      "clue_swapped_to": "flower",
+      "guess_dist_clean": {
+        "gold": 0.1931,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.5249,
+        "crown": 0.0008,
+        "rose": 0.0,
+        "coal": 0.281,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 1.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 15.8935,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0229,
+        "rose": 0.0,
+        "coal": 0.9742,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0001,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0001,
+        "honey": 0.0004,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.018,
+        "rose": 0.9814,
+        "coal": 0.0001,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Flower": 0.1042,
+        "Metal": 0.1042,
+        "\"": 0.0673,
+        "Frost": 0.0524,
+        "Floral": 0.0434,
+        "Pet": 0.0408,
+        "metal": 0.0383,
+        "F": 0.0318,
+        "flower": 0.0247,
+        "scent": 0.0247
+      },
+      "clue_dist_naive": {
+        "Flower": 0.1042,
+        "Metal": 0.1042,
+        "\"": 0.0673,
+        "Frost": 0.0524,
+        "Floral": 0.0434,
+        "Pet": 0.0408,
+        "metal": 0.0383,
+        "F": 0.0318,
+        "flower": 0.0247,
+        "scent": 0.0247
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 1,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "flower",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "crown"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "coal"
+    ],
+    "target_mass": 0.8913,
+    "belief": {
+      "gold": 0.0039,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0008,
+      "salt": 0.0,
+      "crown": 0.1007,
+      "rose": 0.0,
+      "coal": 0.7902,
+      "night": 0.0003,
+      "tiger": 0.0006,
+      "wolf": 0.1007,
+      "river": 0.0027
+    },
+    "coupling": {
+      "kl": 0.0614,
+      "clue_swapped_to": "floral",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0953,
+        "rose": 0.9045,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0124,
+        "rose": 0.9875,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.0002,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0009,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9989,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0013,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.9986,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0881,
+      "topn": 50,
+      "clue_dist_real": {
+        "Flower": 0.0475,
+        "flower": 0.037,
+        "Floral": 0.0347,
+        "dark": 0.0306,
+        "Frost": 0.0288,
+        "Dark": 0.0288,
+        "animal": 0.0288,
+        "sweet": 0.027,
+        "F": 0.0254,
+        "floral": 0.0254
+      },
+      "clue_dist_naive": {
+        "Flower": 0.0706,
+        "Floral": 0.0623,
+        "Frost": 0.0402,
+        "scent": 0.0313,
+        "F": 0.0313,
+        "flower": 0.0294,
+        "floral": 0.0244,
+        "\"": 0.0202,
+        "Pet": 0.019,
+        "animal": 0.0179
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 2,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "animal",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "rose",
+      "coal"
+    ],
+    "target_mass": 0.7374,
+    "belief": {
+      "gold": 0.0967,
+      "honey": 0.1242,
+      "lemon": 0.0016,
+      "snow": 0.002,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.3529,
+      "coal": 0.3529,
+      "night": 0.0245,
+      "tiger": 0.0191,
+      "wolf": 0.007,
+      "river": 0.0191
+    },
+    "coupling": {
+      "kl": 0.5536,
+      "clue_swapped_to": "forest",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0071,
+        "tiger": 0.267,
+        "wolf": 0.7258,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0013,
+        "honey": 0.0013,
+        "lemon": 0.0001,
+        "snow": 0.0041,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.135,
+        "tiger": 0.5338,
+        "wolf": 0.3238,
+        "river": 0.0007
+      }
+    },
+    "coupling2": {
+      "kl": 0.4852,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0008,
+        "tiger": 0.9992,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.1192,
+        "tiger": 0.8807,
+        "wolf": 0.0,
+        "river": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0437,
+      "topn": 50,
+      "clue_dist_real": {
+        "animal": 0.2184,
+        "Animal": 0.0709,
+        "forest": 0.0278,
+        "wild": 0.023,
+        "F": 0.023,
+        "furry": 0.0216,
+        "metal": 0.0191,
+        "Forest": 0.0191,
+        "dark": 0.0179,
+        "cold": 0.0179
+      },
+      "clue_dist_naive": {
+        "animal": 0.167,
+        "Animal": 0.0696,
+        "forest": 0.0329,
+        "Forest": 0.0309,
+        "F": 0.0241,
+        "wild": 0.0212,
+        "\"": 0.0187,
+        "beast": 0.0187,
+        "Frost": 0.0165,
+        "predator": 0.0165
+      }
+    }
+  },
+  {
+    "pair": "LlamaInst->QwenInst",
+    "spymaster": "LlamaInst",
+    "guesser": "QwenInst",
+    "game": 7,
+    "round": 3,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "dark",
+    "count": 1,
+    "guesses": [
+      "night"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "coal",
+      "wolf"
+    ],
+    "target_mass": 0.9929,
+    "belief": {
+      "gold": 0.0055,
+      "honey": 0.0,
+      "lemon": 0.0,
+      "snow": 0.0014,
+      "salt": 0.0,
+      "crown": 0.0,
+      "rose": 0.3174,
+      "coal": 0.3174,
+      "night": 0.0406,
+      "tiger": 0.0,
+      "wolf": 0.3174,
+      "river": 0.0002
+    },
+    "coupling": {
+      "kl": 5.7585,
+      "clue_swapped_to": "cold",
+      "guess_dist_clean": {
+        "gold": 0.0012,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0015,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.9972,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0131,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9202,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0667,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.8568,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.544,
+        "honey": 0.0053,
+        "lemon": 0.0,
+        "snow": 0.4236,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0271
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0002,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9998,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0742,
+      "topn": 50,
+      "clue_dist_real": {
+        "dark": 0.0465,
+        "river": 0.034,
+        "mineral": 0.03,
+        "Frost": 0.03,
+        "metal": 0.03,
+        "cold": 0.03,
+        "darkness": 0.0282,
+        "winter": 0.0234,
+        "gem": 0.0194,
+        "frost": 0.0194
+      },
+      "clue_dist_naive": {
+        "Frost": 0.0484,
+        "dark": 0.0427,
+        "cold": 0.0401,
+        "darkness": 0.0294,
+        "mineral": 0.0215,
+        "winter": 0.019,
+        "river": 0.0167,
+        "frost": 0.0157,
+        "metal": 0.0157,
+        "\"": 0.0157
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 0,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "winter",
+    "count": 2,
+    "guesses": [
+      "snow",
+      "night"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.3739,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 0.108,
+      "clue_swapped_to": "white",
+      "guess_dist_clean": {
+        "gold": 0.0006,
+        "honey": 0.0,
+        "lemon": 0.0003,
+        "snow": 0.9943,
+        "salt": 0.0004,
+        "crown": 0.0002,
+        "rose": 0.0005,
+        "coal": 0.0015,
+        "night": 0.0007,
+        "tiger": 0.0003,
+        "wolf": 0.0006,
+        "river": 0.0005
+      },
+      "guess_dist_swap": {
+        "gold": 0.0019,
+        "honey": 0.0009,
+        "lemon": 0.0007,
+        "snow": 0.9419,
+        "salt": 0.0081,
+        "crown": 0.0087,
+        "rose": 0.0046,
+        "coal": 0.0036,
+        "night": 0.0173,
+        "tiger": 0.0036,
+        "wolf": 0.0068,
+        "river": 0.0018
+      }
+    },
+    "coupling2": {
+      "kl": 0.2068,
+      "cond_first": "snow",
+      "guess_dist2_clean": {
+        "gold": 0.016,
+        "honey": 0.011,
+        "lemon": 0.016,
+        "snow": 0.0,
+        "salt": 0.0182,
+        "crown": 0.016,
+        "rose": 0.016,
+        "coal": 0.1342,
+        "night": 0.4134,
+        "tiger": 0.016,
+        "wolf": 0.2508,
+        "river": 0.0922
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0032,
+        "honey": 0.0097,
+        "lemon": 0.0036,
+        "snow": 0.0,
+        "salt": 0.0281,
+        "crown": 0.0463,
+        "rose": 0.0409,
+        "coal": 0.0409,
+        "night": 0.3421,
+        "tiger": 0.0281,
+        "wolf": 0.4392,
+        "river": 0.0181
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Winter": 0.4449,
+        "White": 0.1637,
+        "Frost": 0.1275,
+        "white": 0.1125,
+        "Ice": 0.0414,
+        "winter": 0.0251,
+        "royal": 0.0195,
+        "Snow": 0.0092,
+        "Cold": 0.0077,
+        "Royal": 0.0068
+      },
+      "clue_dist_naive": {
+        "Winter": 0.4449,
+        "White": 0.1637,
+        "Frost": 0.1275,
+        "white": 0.1125,
+        "Ice": 0.0414,
+        "winter": 0.0251,
+        "royal": 0.0195,
+        "Snow": 0.0092,
+        "Cold": 0.0077,
+        "Royal": 0.0068
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 1,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "red",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "coal"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "snow"
+    ],
+    "target_mass": 0.7642,
+    "belief": {
+      "gold": 0.0337,
+      "honey": 0.0169,
+      "lemon": 0.0521,
+      "snow": 0.6034,
+      "salt": 0.0132,
+      "crown": 0.0279,
+      "rose": 0.0521,
+      "coal": 0.0807,
+      "night": 0.0,
+      "tiger": 0.0217,
+      "wolf": 0.0521,
+      "river": 0.046
+    },
+    "coupling": {
+      "kl": 0.4595,
+      "clue_swapped_to": "bloom",
+      "guess_dist_clean": {
+        "gold": 0.0455,
+        "honey": 0.0229,
+        "lemon": 0.085,
+        "snow": 0.0,
+        "salt": 0.0167,
+        "crown": 0.0549,
+        "rose": 0.4891,
+        "coal": 0.1799,
+        "night": 0.0,
+        "tiger": 0.0259,
+        "wolf": 0.0705,
+        "river": 0.0095
+      },
+      "guess_dist_swap": {
+        "gold": 0.0049,
+        "honey": 0.0388,
+        "lemon": 0.0498,
+        "snow": 0.0,
+        "salt": 0.001,
+        "crown": 0.0081,
+        "rose": 0.8824,
+        "coal": 0.0034,
+        "night": 0.0,
+        "tiger": 0.0032,
+        "wolf": 0.0009,
+        "river": 0.0076
+      }
+    },
+    "coupling2": {
+      "kl": 1.5355,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0267,
+        "honey": 0.0184,
+        "lemon": 0.1057,
+        "snow": 0.0,
+        "salt": 0.0134,
+        "crown": 0.1975,
+        "rose": 0.0,
+        "coal": 0.2874,
+        "night": 0.0,
+        "tiger": 0.0499,
+        "wolf": 0.2874,
+        "river": 0.0134
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0287,
+        "honey": 0.3496,
+        "lemon": 0.4489,
+        "snow": 0.0,
+        "salt": 0.0053,
+        "crown": 0.0688,
+        "rose": 0.0,
+        "coal": 0.0253,
+        "night": 0.0,
+        "tiger": 0.0287,
+        "wolf": 0.0077,
+        "river": 0.0369
+      }
+    },
+    "adaptivity": {
+      "kl": 4.2135,
+      "topn": 50,
+      "clue_dist_real": {
+        "Red": 0.4874,
+        "bloom": 0.1793,
+        "red": 0.1232,
+        "flower": 0.0353,
+        "Th": 0.0275,
+        "Bloom": 0.0243,
+        "Flower": 0.0189,
+        "th": 0.0147,
+        "\u82b1\u74e3": 0.0108,
+        "blooms": 0.0084
+      },
+      "clue_dist_naive": {
+        "bloom": 0.6389,
+        "flower": 0.1615,
+        "blossom": 0.0299,
+        "flora": 0.0219,
+        "bloss": 0.0193,
+        "floral": 0.017,
+        "winter": 0.015,
+        "blooms": 0.0125,
+        "flowers": 0.0125,
+        "Winter": 0.011
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 0,
+    "round": 2,
+    "targets": [
+      "snow",
+      "crown",
+      "rose",
+      "coal"
+    ],
+    "clue": "royal",
+    "count": 1,
+    "guesses": [
+      "crown"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "snow",
+      "rose",
+      "coal"
+    ],
+    "target_mass": 0.8085,
+    "belief": {
+      "gold": 0.0199,
+      "honey": 0.0328,
+      "lemon": 0.0612,
+      "snow": 0.2555,
+      "salt": 0.0088,
+      "crown": 0.0421,
+      "rose": 0.2555,
+      "coal": 0.2555,
+      "night": 0.0,
+      "tiger": 0.0328,
+      "wolf": 0.0255,
+      "river": 0.0106
+    },
+    "coupling": {
+      "kl": 0.0039,
+      "clue_swapped_to": "royalty",
+      "guess_dist_clean": {
+        "gold": 0.06,
+        "honey": 0.0152,
+        "lemon": 0.0283,
+        "snow": 0.0,
+        "salt": 0.0092,
+        "crown": 0.8276,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0467,
+        "wolf": 0.0104,
+        "river": 0.0026
+      },
+      "guess_dist_swap": {
+        "gold": 0.0615,
+        "honey": 0.0114,
+        "lemon": 0.02,
+        "snow": 0.0,
+        "salt": 0.0061,
+        "crown": 0.8494,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0423,
+        "wolf": 0.0083,
+        "river": 0.001
+      }
+    },
+    "coupling2": {
+      "kl": 0.0957,
+      "cond_first": "crown",
+      "guess_dist2_clean": {
+        "gold": 0.2946,
+        "honey": 0.0844,
+        "lemon": 0.1392,
+        "snow": 0.0,
+        "salt": 0.0844,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.26,
+        "wolf": 0.1228,
+        "river": 0.0147
+      },
+      "guess_dist2_swap": {
+        "gold": 0.496,
+        "honey": 0.0761,
+        "lemon": 0.0977,
+        "snow": 0.0,
+        "salt": 0.0592,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.1825,
+        "wolf": 0.0862,
+        "river": 0.0023
+      }
+    },
+    "adaptivity": {
+      "kl": 0.7941,
+      "topn": 50,
+      "clue_dist_real": {
+        "royal": 0.3171,
+        "royalty": 0.2179,
+        "reg": 0.1697,
+        "Reg": 0.103,
+        "Royal": 0.0708,
+        "precious": 0.0245,
+        "Jewel": 0.0179,
+        "jewel": 0.0075,
+        "\u7687\u5bb6": 0.007,
+        "King": 0.0042
+      },
+      "clue_dist_naive": {
+        "royalty": 0.3651,
+        "royal": 0.3222,
+        "reg": 0.2844,
+        "Royal": 0.011,
+        "Reg": 0.0059,
+        "roy": 0.0019,
+        "\u7687\u5bb6": 0.0017,
+        "noble": 0.0014,
+        "Roy": 0.0007
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 0,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "royal",
+    "count": 2,
+    "guesses": [
+      "crown",
+      "gold"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.2859,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 2.1283,
+      "clue_swapped_to": "reg",
+      "guess_dist_clean": {
+        "gold": 0.0086,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0004,
+        "crown": 0.9898,
+        "rose": 0.0007,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0004,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.1257,
+        "honey": 0.0263,
+        "lemon": 0.0091,
+        "snow": 0.015,
+        "salt": 0.0248,
+        "crown": 0.5292,
+        "rose": 0.0632,
+        "coal": 0.0141,
+        "night": 0.0524,
+        "tiger": 0.0434,
+        "wolf": 0.0103,
+        "river": 0.0864
+      }
+    },
+    "coupling2": {
+      "kl": 0.2848,
+      "cond_first": "crown",
+      "guess_dist2_clean": {
+        "gold": 0.7284,
+        "honey": 0.0151,
+        "lemon": 0.0032,
+        "snow": 0.0086,
+        "salt": 0.0986,
+        "crown": 0.0,
+        "rose": 0.0678,
+        "coal": 0.0076,
+        "night": 0.0151,
+        "tiger": 0.0411,
+        "wolf": 0.0133,
+        "river": 0.0012
+      },
+      "guess_dist2_swap": {
+        "gold": 0.4966,
+        "honey": 0.0232,
+        "lemon": 0.0052,
+        "snow": 0.0205,
+        "salt": 0.0462,
+        "crown": 0.0,
+        "rose": 0.207,
+        "coal": 0.0218,
+        "night": 0.0523,
+        "tiger": 0.0593,
+        "wolf": 0.036,
+        "river": 0.0317
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Night": 0.7783,
+        "Royal": 0.093,
+        "Reg": 0.0342,
+        "royal": 0.0302,
+        "Crown": 0.0104,
+        "night": 0.0072,
+        "Water": 0.0063,
+        "royalty": 0.0041,
+        "Roy": 0.0038,
+        "River": 0.003
+      },
+      "clue_dist_naive": {
+        "Night": 0.7783,
+        "Royal": 0.093,
+        "Reg": 0.0342,
+        "royal": 0.0302,
+        "Crown": 0.0104,
+        "night": 0.0072,
+        "Water": 0.0063,
+        "royalty": 0.0041,
+        "Roy": 0.0038,
+        "River": 0.003
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 1,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "dark",
+    "count": 2,
+    "guesses": [
+      "night",
+      "coal"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "crown"
+    ],
+    "target_mass": 0.7272,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0188,
+      "lemon": 0.0177,
+      "snow": 0.0107,
+      "salt": 0.0792,
+      "crown": 0.6424,
+      "rose": 0.19,
+      "coal": 0.0029,
+      "night": 0.0025,
+      "tiger": 0.0274,
+      "wolf": 0.0054,
+      "river": 0.0031
+    },
+    "coupling": {
+      "kl": 6.5727,
+      "clue_swapped_to": "flow",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0049,
+        "lemon": 0.0134,
+        "snow": 0.053,
+        "salt": 0.0251,
+        "crown": 0.0,
+        "rose": 0.0235,
+        "coal": 0.1123,
+        "night": 0.7321,
+        "tiger": 0.0111,
+        "wolf": 0.0235,
+        "river": 0.001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0095,
+        "lemon": 0.0051,
+        "snow": 0.0029,
+        "salt": 0.0016,
+        "crown": 0.0,
+        "rose": 0.0107,
+        "coal": 0.0002,
+        "night": 0.0009,
+        "tiger": 0.0025,
+        "wolf": 0.0006,
+        "river": 0.9659
+      }
+    },
+    "coupling2": {
+      "kl": 6.4659,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0008,
+        "lemon": 0.0015,
+        "snow": 0.0332,
+        "salt": 0.0108,
+        "crown": 0.0,
+        "rose": 0.0006,
+        "coal": 0.5889,
+        "night": 0.0,
+        "tiger": 0.0058,
+        "wolf": 0.3572,
+        "river": 0.0013
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0058,
+        "lemon": 0.0019,
+        "snow": 0.0031,
+        "salt": 0.0019,
+        "crown": 0.0,
+        "rose": 0.0013,
+        "coal": 0.0004,
+        "night": 0.0,
+        "tiger": 0.0027,
+        "wolf": 0.0045,
+        "river": 0.9783
+      }
+    },
+    "adaptivity": {
+      "kl": 0.7401,
+      "topn": 50,
+      "clue_dist_real": {
+        "Dark": 0.5019,
+        "dark": 0.1438,
+        "Flow": 0.0988,
+        "noct": 0.0563,
+        "wat": 0.0301,
+        "flow": 0.0207,
+        "Wat": 0.0161,
+        "Night": 0.0142,
+        "black": 0.0081,
+        "moon": 0.0072
+      },
+      "clue_dist_naive": {
+        "Flow": 0.2857,
+        "Dark": 0.1963,
+        "Wat": 0.1733,
+        "wat": 0.0528,
+        "flow": 0.0466,
+        "flowing": 0.022,
+        "W": 0.0207,
+        "Fluid": 0.0172,
+        "Black": 0.0172,
+        "dark": 0.0151
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 2,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "flowing",
+    "count": 2,
+    "guesses": [
+      "river",
+      "honey"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "crown",
+      "night"
+    ],
+    "target_mass": 0.7134,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0087,
+      "lemon": 0.0197,
+      "snow": 0.0688,
+      "salt": 0.0223,
+      "crown": 0.3417,
+      "rose": 0.1001,
+      "coal": 0.0,
+      "night": 0.3417,
+      "tiger": 0.0287,
+      "wolf": 0.0607,
+      "river": 0.0077
+    },
+    "coupling": {
+      "kl": 0.0012,
+      "clue_swapped_to": "flow",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.003,
+        "lemon": 0.0064,
+        "snow": 0.0061,
+        "salt": 0.0011,
+        "crown": 0.0,
+        "rose": 0.0136,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0078,
+        "wolf": 0.0061,
+        "river": 0.9559
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0053,
+        "lemon": 0.0064,
+        "snow": 0.0057,
+        "salt": 0.0015,
+        "crown": 0.0,
+        "rose": 0.0106,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0083,
+        "wolf": 0.0064,
+        "river": 0.9557
+      }
+    },
+    "coupling2": {
+      "kl": 0.0067,
+      "cond_first": "river",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.4,
+        "lemon": 0.1668,
+        "snow": 0.2426,
+        "salt": 0.0256,
+        "crown": 0.0,
+        "rose": 0.0176,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0328,
+        "wolf": 0.1146,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.4192,
+        "lemon": 0.1361,
+        "snow": 0.2244,
+        "salt": 0.0268,
+        "crown": 0.0,
+        "rose": 0.0184,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.039,
+        "wolf": 0.1361,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.3109,
+      "topn": 50,
+      "clue_dist_real": {
+        "flowing": 0.3246,
+        "flow": 0.2865,
+        "Flow": 0.1194,
+        "wat": 0.053,
+        "\u6d41\u52a8": 0.0342,
+        "dual": 0.0284,
+        "dry": 0.0134,
+        "fluid": 0.0111,
+        "Dual": 0.0104,
+        "downstream": 0.0098
+      },
+      "clue_dist_naive": {
+        "flow": 0.4407,
+        "flowing": 0.2359,
+        "Flow": 0.1263,
+        "fluid": 0.041,
+        "liquid": 0.03,
+        "\u6d41\u52a8": 0.0206,
+        "Fluid": 0.0182,
+        "\u6d41\u5411": 0.0151,
+        "wat": 0.0063,
+        "flows": 0.0059
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 3,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "marine",
+    "count": 1,
+    "guesses": [
+      "wolf"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "crown",
+      "night",
+      "river"
+    ],
+    "target_mass": 0.8011,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.026,
+      "snow": 0.0706,
+      "salt": 0.0378,
+      "crown": 0.2544,
+      "rose": 0.055,
+      "coal": 0.0,
+      "night": 0.2544,
+      "tiger": 0.0179,
+      "wolf": 0.0294,
+      "river": 0.2544
+    },
+    "coupling": {
+      "kl": 1.3321,
+      "clue_swapped_to": "flavored",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0489,
+        "snow": 0.1036,
+        "salt": 0.2484,
+        "crown": 0.0,
+        "rose": 0.0669,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.1707,
+        "wolf": 0.3615,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.5543,
+        "snow": 0.075,
+        "salt": 0.1091,
+        "crown": 0.0,
+        "rose": 0.2039,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0244,
+        "wolf": 0.0333,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.5888,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.089,
+        "snow": 0.089,
+        "salt": 0.4522,
+        "crown": 0.0,
+        "rose": 0.0175,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.3522,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.821,
+        "snow": 0.0281,
+        "salt": 0.0981,
+        "crown": 0.0,
+        "rose": 0.0281,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0248,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.6264,
+      "topn": 50,
+      "clue_dist_real": {
+        "marine": 0.1271,
+        "flavored": 0.1194,
+        "mineral": 0.0639,
+        "salty": 0.0564,
+        "Fl": 0.053,
+        "savory": 0.0467,
+        "flavor": 0.0412,
+        "wat": 0.0364,
+        "Mineral": 0.0302,
+        "wet": 0.025
+      },
+      "clue_dist_naive": {
+        "savory": 0.3034,
+        "salty": 0.1188,
+        "mineral": 0.0636,
+        "flavor": 0.0527,
+        "marine": 0.0465,
+        "flavored": 0.0362,
+        "culinary": 0.0265,
+        "Mineral": 0.0234,
+        "edible": 0.0161,
+        "Sav": 0.0142
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 1,
+    "round": 4,
+    "targets": [
+      "salt",
+      "crown",
+      "night",
+      "river"
+    ],
+    "clue": "mineral",
+    "count": 1,
+    "guesses": [
+      "salt"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "crown",
+      "night",
+      "river"
+    ],
+    "target_mass": 0.8594,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.0242,
+      "snow": 0.0453,
+      "salt": 0.0959,
+      "crown": 0.2545,
+      "rose": 0.04,
+      "coal": 0.0,
+      "night": 0.2545,
+      "tiger": 0.0311,
+      "wolf": 0.0,
+      "river": 0.2545
+    },
+    "coupling": {
+      "kl": 0.7314,
+      "clue_swapped_to": "flavored",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0287,
+        "snow": 0.1653,
+        "salt": 0.7408,
+        "crown": 0.0,
+        "rose": 0.0346,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0306,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.321,
+        "snow": 0.1042,
+        "salt": 0.3638,
+        "crown": 0.0,
+        "rose": 0.1516,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0594,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.1052,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.1956,
+        "snow": 0.6026,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0495,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.1524,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.8722,
+        "snow": 0.0632,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0383,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0263,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.5831,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.2051,
+        "flavored": 0.0855,
+        "marine": 0.0709,
+        "Mineral": 0.0709,
+        "Fl": 0.0709,
+        "savory": 0.0458,
+        "salty": 0.0335,
+        "flavor": 0.0278,
+        "snowy": 0.0245,
+        "spark": 0.0216
+      },
+      "clue_dist_naive": {
+        "savory": 0.2516,
+        "salty": 0.1729,
+        "mineral": 0.1347,
+        "flavor": 0.0386,
+        "culinary": 0.0362,
+        "flavored": 0.0341,
+        "marine": 0.03,
+        "Mineral": 0.0161,
+        "edible": 0.0161,
+        "\u54b8": 0.0151
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 0,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "sweet",
+    "count": 2,
+    "guesses": [
+      "honey",
+      "rose"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.3475,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 9.3429,
+      "clue_swapped_to": "winter",
+      "guess_dist_clean": {
+        "gold": 0.0024,
+        "honey": 0.984,
+        "lemon": 0.0066,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0066,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0006,
+        "honey": 0.0,
+        "lemon": 0.0003,
+        "snow": 0.9943,
+        "salt": 0.0004,
+        "crown": 0.0002,
+        "rose": 0.0005,
+        "coal": 0.0015,
+        "night": 0.0007,
+        "tiger": 0.0003,
+        "wolf": 0.0006,
+        "river": 0.0005
+      }
+    },
+    "coupling2": {
+      "kl": 5.7714,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0657,
+        "honey": 0.0,
+        "lemon": 0.3781,
+        "snow": 0.0029,
+        "salt": 0.0006,
+        "crown": 0.0011,
+        "rose": 0.5501,
+        "coal": 0.0004,
+        "night": 0.0004,
+        "tiger": 0.0001,
+        "wolf": 0.0004,
+        "river": 0.0003
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0005,
+        "honey": 0.0,
+        "lemon": 0.0005,
+        "snow": 0.9905,
+        "salt": 0.0009,
+        "crown": 0.0001,
+        "rose": 0.0022,
+        "coal": 0.0022,
+        "night": 0.0008,
+        "tiger": 0.0001,
+        "wolf": 0.0017,
+        "river": 0.0005
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Sweet": 0.0056,
+        "sweet": 0.2875,
+        "Winter": 0.1198,
+        "white": 0.0267,
+        "White": 0.0208,
+        "Frost": 0.0143,
+        "winter": 0.0092,
+        "Cold": 0.0087,
+        "sweetness": 0.0072
+      },
+      "clue_dist_naive": {
+        "Sweet": 0.0056,
+        "sweet": 0.2875,
+        "Winter": 0.1198,
+        "white": 0.0267,
+        "White": 0.0208,
+        "Frost": 0.0143,
+        "winter": 0.0092,
+        "Cold": 0.0087,
+        "sweetness": 0.0072
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 1,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "white",
+    "count": 2,
+    "guesses": [
+      "lemon",
+      "snow"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "honey"
+    ],
+    "target_mass": 0.9115,
+    "belief": {
+      "gold": 0.0798,
+      "honey": 0.5471,
+      "lemon": 0.3576,
+      "snow": 0.0054,
+      "salt": 0.004,
+      "crown": 0.0009,
+      "rose": 0.0,
+      "coal": 0.0014,
+      "night": 0.002,
+      "tiger": 0.0009,
+      "wolf": 0.0003,
+      "river": 0.0006
+    },
+    "coupling": {
+      "kl": 0.3012,
+      "clue_swapped_to": "cold",
+      "guess_dist_clean": {
+        "gold": 0.0481,
+        "honey": 0.0,
+        "lemon": 0.5166,
+        "snow": 0.355,
+        "salt": 0.0617,
+        "crown": 0.0051,
+        "rose": 0.0,
+        "coal": 0.0083,
+        "night": 0.0022,
+        "tiger": 0.0011,
+        "wolf": 0.0004,
+        "river": 0.0015
+      },
+      "guess_dist_swap": {
+        "gold": 0.016,
+        "honey": 0.0,
+        "lemon": 0.2355,
+        "snow": 0.7254,
+        "salt": 0.0076,
+        "crown": 0.0004,
+        "rose": 0.0,
+        "coal": 0.0086,
+        "night": 0.0041,
+        "tiger": 0.0006,
+        "wolf": 0.0006,
+        "river": 0.0013
+      }
+    },
+    "coupling2": {
+      "kl": 0.1569,
+      "cond_first": "lemon",
+      "guess_dist2_clean": {
+        "gold": 0.0399,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.8012,
+        "salt": 0.1229,
+        "crown": 0.0129,
+        "rose": 0.0,
+        "coal": 0.0147,
+        "night": 0.0013,
+        "tiger": 0.0023,
+        "wolf": 0.0019,
+        "river": 0.0031
+      },
+      "guess_dist2_swap": {
+        "gold": 0.004,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.9706,
+        "salt": 0.0058,
+        "crown": 0.0001,
+        "rose": 0.0,
+        "coal": 0.0122,
+        "night": 0.0024,
+        "tiger": 0.0007,
+        "wolf": 0.0021,
+        "river": 0.0021
+      }
+    },
+    "adaptivity": {
+      "kl": 1.4026,
+      "topn": 50,
+      "clue_dist_real": {
+        "White": 0.001,
+        "white": 0.0007,
+        "Cold": 0.0928,
+        "cold": 0.0006,
+        "\u767d": 0.0013,
+        "Frost": 0.0007,
+        "_white": 0.0001
+      },
+      "clue_dist_naive": {
+        "white": 0.0008,
+        "White": 0.0006,
+        "cold": 0.0003,
+        "Cold": 0.0062,
+        "\u767d": 0.0006,
+        "frost": 0.0002,
+        "_white": 0.0002
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 2,
+    "round": 2,
+    "targets": [
+      "honey",
+      "lemon",
+      "snow",
+      "coal"
+    ],
+    "clue": "black",
+    "count": 1,
+    "guesses": [
+      "coal"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "honey",
+      "lemon",
+      "snow"
+    ],
+    "target_mass": 0.8475,
+    "belief": {
+      "gold": 0.069,
+      "honey": 0.2763,
+      "lemon": 0.2763,
+      "snow": 0.2763,
+      "salt": 0.0288,
+      "crown": 0.0099,
+      "rose": 0.0,
+      "coal": 0.0186,
+      "night": 0.0037,
+      "tiger": 0.0224,
+      "wolf": 0.0041,
+      "river": 0.0145
+    },
+    "coupling": {
+      "kl": 0.4064,
+      "clue_swapped_to": "dark",
+      "guess_dist_clean": {
+        "gold": 0.1512,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.1334,
+        "crown": 0.0263,
+        "rose": 0.0,
+        "coal": 0.411,
+        "night": 0.028,
+        "tiger": 0.1713,
+        "wolf": 0.0491,
+        "river": 0.0298
+      },
+      "guess_dist_swap": {
+        "gold": 0.079,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.0742,
+        "crown": 0.0156,
+        "rose": 0.0,
+        "coal": 0.2935,
+        "night": 0.2591,
+        "tiger": 0.178,
+        "wolf": 0.0655,
+        "river": 0.0351
+      }
+    },
+    "coupling2": {
+      "kl": 0.6353,
+      "cond_first": "coal",
+      "guess_dist2_clean": {
+        "gold": 0.0207,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.4713,
+        "crown": 0.0497,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.1965,
+        "tiger": 0.1734,
+        "wolf": 0.0723,
+        "river": 0.0161
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0029,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0,
+        "salt": 0.1028,
+        "crown": 0.0096,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.6702,
+        "tiger": 0.0907,
+        "wolf": 0.1165,
+        "river": 0.0074
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0406,
+      "topn": 50,
+      "clue_dist_real": {
+        "black": 0.0026,
+        "Black": 0.0403,
+        "dark": 0.0168,
+        "Dark": 0.0055,
+        "\u9ed1": 0.0043,
+        "carbon": 0.0038,
+        "Carbon": 0.002,
+        "charcoal": 0.0016,
+        "_black": 0.0014
+      },
+      "clue_dist_naive": {
+        "black": 0.0026,
+        "dark": 0.0365,
+        "Black": 0.0004,
+        "Dark": 0.0026,
+        "\u9ed1": 0.0023,
+        "carbon": 0.0012,
+        "_black": 0.0012,
+        "charcoal": 0.0006
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 0,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "sweet",
+    "count": 2,
+    "guesses": [
+      "honey",
+      "rose"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.3858,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 0.002,
+      "clue_swapped_to": "sweetness",
+      "guess_dist_clean": {
+        "gold": 0.0024,
+        "honey": 0.984,
+        "lemon": 0.0066,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0066,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0022,
+        "honey": 0.9909,
+        "lemon": 0.0032,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0036,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0001
+      }
+    },
+    "coupling2": {
+      "kl": 0.0251,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0657,
+        "honey": 0.0,
+        "lemon": 0.3781,
+        "snow": 0.0029,
+        "salt": 0.0006,
+        "crown": 0.0011,
+        "rose": 0.5501,
+        "coal": 0.0004,
+        "night": 0.0004,
+        "tiger": 0.0001,
+        "wolf": 0.0004,
+        "river": 0.0003
+      },
+      "guess_dist2_swap": {
+        "gold": 0.1049,
+        "honey": 0.0,
+        "lemon": 0.2851,
+        "snow": 0.0036,
+        "salt": 0.0006,
+        "crown": 0.0007,
+        "rose": 0.6037,
+        "coal": 0.0003,
+        "night": 0.0003,
+        "tiger": 0.0001,
+        "wolf": 0.0003,
+        "river": 0.0004
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Sweet": 0.0043,
+        "sweet": 0.0015,
+        "sweetness": 0.0056,
+        "\u751c": 0.0056,
+        "S": 0.0013,
+        "Treasure": 0.001,
+        "**": 0.0005,
+        "precious": 0.0004
+      },
+      "clue_dist_naive": {
+        "Sweet": 0.0043,
+        "sweet": 0.0015,
+        "sweetness": 0.0056,
+        "\u751c": 0.0056,
+        "S": 0.0013,
+        "Treasure": 0.001,
+        "**": 0.0005,
+        "precious": 0.0004
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 1,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "yellow",
+    "count": 2,
+    "guesses": [
+      "lemon",
+      "gold"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "honey"
+    ],
+    "target_mass": 0.9859,
+    "belief": {
+      "gold": 0.0798,
+      "honey": 0.5471,
+      "lemon": 0.3576,
+      "snow": 0.0054,
+      "salt": 0.004,
+      "crown": 0.0009,
+      "rose": 0.0,
+      "coal": 0.0014,
+      "night": 0.002,
+      "tiger": 0.0009,
+      "wolf": 0.0003,
+      "river": 0.0006
+    },
+    "coupling": {
+      "kl": 0.0568,
+      "clue_swapped_to": "acid",
+      "guess_dist_clean": {
+        "gold": 0.0598,
+        "honey": 0.0,
+        "lemon": 0.936,
+        "snow": 0.0012,
+        "salt": 0.001,
+        "crown": 0.0011,
+        "rose": 0.0,
+        "coal": 0.0002,
+        "night": 0.0001,
+        "tiger": 0.0004,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0013,
+        "honey": 0.0,
+        "lemon": 0.9951,
+        "snow": 0.0012,
+        "salt": 0.0012,
+        "crown": 0.0,
+        "rose": 0.0,
+        "coal": 0.0006,
+        "night": 0.0002,
+        "tiger": 0.0001,
+        "wolf": 0.0001,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 3.4059,
+      "cond_first": "lemon",
+      "guess_dist2_clean": {
+        "gold": 0.9471,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0064,
+        "salt": 0.0105,
+        "crown": 0.0252,
+        "rose": 0.0,
+        "coal": 0.0015,
+        "night": 0.0004,
+        "tiger": 0.0082,
+        "wolf": 0.0003,
+        "river": 0.0003
+      },
+      "guess_dist2_swap": {
+        "gold": 0.1251,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.1606,
+        "salt": 0.2063,
+        "crown": 0.0033,
+        "rose": 0.0,
+        "coal": 0.3401,
+        "night": 0.0406,
+        "tiger": 0.0406,
+        "wolf": 0.0759,
+        "river": 0.0075
+      }
+    },
+    "adaptivity": {
+      "kl": 3.4029,
+      "topn": 50,
+      "clue_dist_real": {
+        "Yellow": 0.5469,
+        "Acid": 0.1567,
+        "yellow": 0.0839,
+        "\u9178": 0.0576,
+        "acid": 0.0212,
+        "Sour": 0.0212,
+        "Prec": 0.0165,
+        "precious": 0.0137,
+        "Metal": 0.0121,
+        "Black": 0.0078
+      },
+      "clue_dist_naive": {
+        "sour": 0.4967,
+        "yellow": 0.1423,
+        "acid": 0.1256,
+        "\u9178": 0.1108,
+        "Sour": 0.0672,
+        "Acid": 0.0193,
+        "citrus": 0.0091,
+        "acidic": 0.008,
+        "Yellow": 0.0071,
+        "bitter": 0.0043
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 3,
+    "round": 2,
+    "targets": [
+      "gold",
+      "honey",
+      "lemon",
+      "coal"
+    ],
+    "clue": "black",
+    "count": 1,
+    "guesses": [
+      "coal"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "gold",
+      "honey",
+      "lemon"
+    ],
+    "target_mass": 0.9148,
+    "belief": {
+      "gold": 0.3027,
+      "honey": 0.3027,
+      "lemon": 0.3027,
+      "snow": 0.0104,
+      "salt": 0.0283,
+      "crown": 0.0072,
+      "rose": 0.0,
+      "coal": 0.0067,
+      "night": 0.0026,
+      "tiger": 0.0321,
+      "wolf": 0.0018,
+      "river": 0.0028
+    },
+    "coupling": {
+      "kl": 0.9613,
+      "clue_swapped_to": "dark",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.1388,
+        "salt": 0.1388,
+        "crown": 0.0094,
+        "rose": 0.0,
+        "coal": 0.5489,
+        "night": 0.033,
+        "tiger": 0.0954,
+        "wolf": 0.031,
+        "river": 0.0047
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.0935,
+        "salt": 0.0643,
+        "crown": 0.006,
+        "rose": 0.0,
+        "coal": 0.2542,
+        "night": 0.475,
+        "tiger": 0.0728,
+        "wolf": 0.0285,
+        "river": 0.0056
+      }
+    },
+    "coupling2": {
+      "kl": 0.6935,
+      "cond_first": "coal",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.1109,
+        "salt": 0.3417,
+        "crown": 0.0117,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.3872,
+        "tiger": 0.0864,
+        "wolf": 0.0594,
+        "river": 0.0028
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0,
+        "snow": 0.015,
+        "salt": 0.0117,
+        "crown": 0.0006,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.929,
+        "tiger": 0.015,
+        "wolf": 0.0281,
+        "river": 0.0006
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0511,
+      "topn": 50,
+      "clue_dist_real": {
+        "black": 0.0018,
+        "dark": 0.0252,
+        "Black": 0.0153,
+        "Dark": 0.0034,
+        "\u9ed1": 0.0027,
+        "carbon": 0.0023,
+        "charcoal": 0.0011,
+        "_black": 0.0008,
+        "Carbon": 0.0007
+      },
+      "clue_dist_naive": {
+        "black": 0.0015,
+        "dark": 0.0746,
+        "cold": 0.0079,
+        "Black": 0.0026,
+        "Dark": 0.0015,
+        "\u9ed1": 0.0011,
+        "carbon": 0.0006,
+        "_black": 0.0006,
+        "Cold": 0.0003
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 0,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "flower",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "lemon"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.3097,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 0.0012,
+      "clue_swapped_to": "floral",
+      "guess_dist_clean": {
+        "gold": 0.0003,
+        "honey": 0.002,
+        "lemon": 0.0028,
+        "snow": 0.0004,
+        "salt": 0.0001,
+        "crown": 0.0006,
+        "rose": 0.9933,
+        "coal": 0.0001,
+        "night": 0.0001,
+        "tiger": 0.0002,
+        "wolf": 0.0,
+        "river": 0.0001
+      },
+      "guess_dist_swap": {
+        "gold": 0.0001,
+        "honey": 0.0013,
+        "lemon": 0.0012,
+        "snow": 0.0001,
+        "salt": 0.0001,
+        "crown": 0.0003,
+        "rose": 0.9967,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0,
+        "river": 0.0001
+      }
+    },
+    "coupling2": {
+      "kl": 0.0192,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0343,
+        "honey": 0.418,
+        "lemon": 0.4736,
+        "snow": 0.0143,
+        "salt": 0.0056,
+        "crown": 0.0208,
+        "rose": 0.0,
+        "coal": 0.0036,
+        "night": 0.0184,
+        "tiger": 0.0081,
+        "wolf": 0.0021,
+        "river": 0.0012
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0103,
+        "honey": 0.4642,
+        "lemon": 0.4642,
+        "snow": 0.0046,
+        "salt": 0.0062,
+        "crown": 0.0204,
+        "rose": 0.0,
+        "coal": 0.0031,
+        "night": 0.0159,
+        "tiger": 0.008,
+        "wolf": 0.0024,
+        "river": 0.0007
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "F": 0.2747,
+        "Flower": 0.2425,
+        "Fl": 0.1298,
+        "Floral": 0.0739,
+        "Rose": 0.0739,
+        "Flowers": 0.0372,
+        "Carn": 0.0165,
+        "Animal": 0.0129,
+        "Wild": 0.0113,
+        "floral": 0.0107
+      },
+      "clue_dist_naive": {
+        "F": 0.2747,
+        "Flower": 0.2425,
+        "Fl": 0.1298,
+        "Floral": 0.0739,
+        "Rose": 0.0739,
+        "Flowers": 0.0372,
+        "Carn": 0.0165,
+        "Animal": 0.0129,
+        "Wild": 0.0113,
+        "floral": 0.0107
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 1,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "predator",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [
+      "rose"
+    ],
+    "target_mass": 0.5579,
+    "belief": {
+      "gold": 0.0554,
+      "honey": 0.361,
+      "lemon": 0.0,
+      "snow": 0.009,
+      "salt": 0.0015,
+      "crown": 0.0116,
+      "rose": 0.5457,
+      "coal": 0.0011,
+      "night": 0.0026,
+      "tiger": 0.0096,
+      "wolf": 0.0012,
+      "river": 0.0014
+    },
+    "coupling": {
+      "kl": 3.8259,
+      "clue_swapped_to": "carn",
+      "guess_dist_clean": {
+        "gold": 0.0033,
+        "honey": 0.0084,
+        "lemon": 0.0,
+        "snow": 0.0065,
+        "salt": 0.0008,
+        "crown": 0.0019,
+        "rose": 0.0,
+        "coal": 0.0009,
+        "night": 0.0019,
+        "tiger": 0.4576,
+        "wolf": 0.5185,
+        "river": 0.0003
+      },
+      "guess_dist_swap": {
+        "gold": 0.0793,
+        "honey": 0.7522,
+        "lemon": 0.0,
+        "snow": 0.0213,
+        "salt": 0.0079,
+        "crown": 0.07,
+        "rose": 0.0,
+        "coal": 0.0079,
+        "night": 0.0061,
+        "tiger": 0.0424,
+        "wolf": 0.0095,
+        "river": 0.0035
+      }
+    },
+    "coupling2": {
+      "kl": 5.273,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0001,
+        "honey": 0.0002,
+        "lemon": 0.0,
+        "snow": 0.0005,
+        "salt": 0.0003,
+        "crown": 0.0001,
+        "rose": 0.0,
+        "coal": 0.0002,
+        "night": 0.0028,
+        "tiger": 0.9957,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0446,
+        "honey": 0.423,
+        "lemon": 0.0,
+        "snow": 0.0446,
+        "salt": 0.0505,
+        "crown": 0.1069,
+        "rose": 0.0,
+        "coal": 0.0393,
+        "night": 0.1373,
+        "tiger": 0.1373,
+        "wolf": 0.0,
+        "river": 0.0164
+      }
+    },
+    "adaptivity": {
+      "kl": 0.7795,
+      "topn": 50,
+      "clue_dist_real": {
+        "predator": 0.6594,
+        "Predator": 0.1011,
+        "Carn": 0.0576,
+        "night": 0.0272,
+        "prey": 0.0212,
+        "Pred": 0.0165,
+        "Pack": 0.0155,
+        "animal": 0.0146,
+        "Night": 0.0121,
+        "carniv": 0.0069
+      },
+      "clue_dist_naive": {
+        "predator": 0.758,
+        "animal": 0.0905,
+        "prey": 0.0799,
+        "stripe": 0.0115,
+        "Carn": 0.0102,
+        "carniv": 0.0095,
+        "beast": 0.007,
+        "Predator": 0.0042,
+        "striped": 0.0029,
+        "cat": 0.0021
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 4,
+    "round": 2,
+    "targets": [
+      "rose",
+      "tiger",
+      "wolf",
+      "river"
+    ],
+    "clue": "flow",
+    "count": 1,
+    "guesses": [
+      "river"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "tiger",
+      "wolf"
+    ],
+    "target_mass": 0.874,
+    "belief": {
+      "gold": 0.0113,
+      "honey": 0.042,
+      "lemon": 0.0,
+      "snow": 0.0255,
+      "salt": 0.0069,
+      "crown": 0.0211,
+      "rose": 0.2899,
+      "coal": 0.0073,
+      "night": 0.012,
+      "tiger": 0.2899,
+      "wolf": 0.2899,
+      "river": 0.0044
+    },
+    "coupling": {
+      "kl": 1.4676,
+      "clue_swapped_to": "liquid",
+      "guess_dist_clean": {
+        "gold": 0.0142,
+        "honey": 0.0722,
+        "lemon": 0.0,
+        "snow": 0.0235,
+        "salt": 0.0016,
+        "crown": 0.0012,
+        "rose": 0.0,
+        "coal": 0.0016,
+        "night": 0.0056,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.8801
+      },
+      "guess_dist_swap": {
+        "gold": 0.0254,
+        "honey": 0.7419,
+        "lemon": 0.0,
+        "snow": 0.0288,
+        "salt": 0.0032,
+        "crown": 0.0005,
+        "rose": 0.0,
+        "coal": 0.0027,
+        "night": 0.0099,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.1876
+      }
+    },
+    "coupling2": {
+      "kl": 0.5017,
+      "cond_first": "river",
+      "guess_dist2_clean": {
+        "gold": 0.1595,
+        "honey": 0.3826,
+        "lemon": 0.0,
+        "snow": 0.2979,
+        "salt": 0.0116,
+        "crown": 0.0075,
+        "rose": 0.0,
+        "coal": 0.0168,
+        "night": 0.1242,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0429,
+        "honey": 0.8626,
+        "lemon": 0.0,
+        "snow": 0.0551,
+        "salt": 0.0085,
+        "crown": 0.0003,
+        "rose": 0.0,
+        "coal": 0.0045,
+        "night": 0.026,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 1.3547,
+      "topn": 50,
+      "clue_dist_real": {
+        "flow": 0.2648,
+        "liquid": 0.2648,
+        "water": 0.182,
+        "flowing": 0.086,
+        "\u6d41\u5411": 0.0669,
+        "fluid": 0.0231,
+        "Flow": 0.0204,
+        "Water": 0.0159,
+        "\u6d41": 0.0085,
+        "stream": 0.0043
+      },
+      "clue_dist_naive": {
+        "liquid": 0.0026,
+        "flow": 0.0436,
+        "fluid": 0.0384,
+        "water": 0.0125,
+        "flowing": 0.0067,
+        "\u6d41\u5411": 0.0046,
+        "\u6db2\u4f53": 0.0032,
+        "Liquid": 0.003,
+        "\u6d41": 0.0028
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 0,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "love",
+    "count": 2,
+    "guesses": [
+      "rose",
+      "honey"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.3609,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 0.4173,
+      "clue_swapped_to": "bloom",
+      "guess_dist_clean": {
+        "gold": 0.0255,
+        "honey": 0.3107,
+        "lemon": 0.001,
+        "snow": 0.0057,
+        "salt": 0.0017,
+        "crown": 0.0612,
+        "rose": 0.5804,
+        "coal": 0.0009,
+        "night": 0.0011,
+        "tiger": 0.0044,
+        "wolf": 0.0047,
+        "river": 0.0027
+      },
+      "guess_dist_swap": {
+        "gold": 0.0027,
+        "honey": 0.0226,
+        "lemon": 0.0042,
+        "snow": 0.0029,
+        "salt": 0.0004,
+        "crown": 0.0011,
+        "rose": 0.9625,
+        "coal": 0.0006,
+        "night": 0.0004,
+        "tiger": 0.0008,
+        "wolf": 0.0001,
+        "river": 0.0016
+      }
+    },
+    "coupling2": {
+      "kl": 0.8062,
+      "cond_first": "rose",
+      "guess_dist2_clean": {
+        "gold": 0.0668,
+        "honey": 0.8137,
+        "lemon": 0.002,
+        "snow": 0.008,
+        "salt": 0.0018,
+        "crown": 0.052,
+        "rose": 0.0,
+        "coal": 0.0018,
+        "night": 0.0217,
+        "tiger": 0.009,
+        "wolf": 0.0217,
+        "river": 0.0015
+      },
+      "guess_dist2_swap": {
+        "gold": 0.1586,
+        "honey": 0.4885,
+        "lemon": 0.14,
+        "snow": 0.0849,
+        "salt": 0.0079,
+        "crown": 0.0148,
+        "rose": 0.0,
+        "coal": 0.0189,
+        "night": 0.0583,
+        "tiger": 0.013,
+        "wolf": 0.002,
+        "river": 0.013
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Love": 0.5481,
+        "Night": 0.157,
+        "Bloom": 0.0655,
+        "Color": 0.051,
+        "Red": 0.035,
+        "bloom": 0.0309,
+        "Floral": 0.0146,
+        "Flowers": 0.0083,
+        "Flower": 0.0069,
+        "Crown": 0.0057
+      },
+      "clue_dist_naive": {
+        "Love": 0.5481,
+        "Night": 0.157,
+        "Bloom": 0.0655,
+        "Color": 0.051,
+        "Red": 0.035,
+        "bloom": 0.0309,
+        "Floral": 0.0146,
+        "Flowers": 0.0083,
+        "Flower": 0.0069,
+        "Crown": 0.0057
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 1,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "dark",
+    "count": 2,
+    "guesses": [
+      "night",
+      "coal"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "rose"
+    ],
+    "target_mass": 0.8188,
+    "belief": {
+      "gold": 0.2441,
+      "honey": 0.0,
+      "lemon": 0.031,
+      "snow": 0.0274,
+      "salt": 0.0114,
+      "crown": 0.0898,
+      "rose": 0.5425,
+      "coal": 0.0089,
+      "night": 0.02,
+      "tiger": 0.0122,
+      "wolf": 0.0095,
+      "river": 0.0033
+    },
+    "coupling": {
+      "kl": 0.0703,
+      "clue_swapped_to": "darkness",
+      "guess_dist_clean": {
+        "gold": 0.0679,
+        "honey": 0.0,
+        "lemon": 0.0467,
+        "snow": 0.06,
+        "salt": 0.0235,
+        "crown": 0.0302,
+        "rose": 0.0,
+        "coal": 0.1269,
+        "night": 0.5689,
+        "tiger": 0.0266,
+        "wolf": 0.0467,
+        "river": 0.0026
+      },
+      "guess_dist_swap": {
+        "gold": 0.0475,
+        "honey": 0.0,
+        "lemon": 0.0271,
+        "snow": 0.037,
+        "salt": 0.0113,
+        "crown": 0.0078,
+        "rose": 0.0,
+        "coal": 0.0783,
+        "night": 0.743,
+        "tiger": 0.0154,
+        "wolf": 0.0307,
+        "river": 0.002
+      }
+    },
+    "coupling2": {
+      "kl": 0.0063,
+      "cond_first": "night",
+      "guess_dist2_clean": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0057,
+        "snow": 0.0473,
+        "salt": 0.0174,
+        "crown": 0.0082,
+        "rose": 0.0,
+        "coal": 0.5086,
+        "night": 0.0,
+        "tiger": 0.012,
+        "wolf": 0.3961,
+        "river": 0.0021
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0027,
+        "honey": 0.0,
+        "lemon": 0.0064,
+        "snow": 0.0608,
+        "salt": 0.0093,
+        "crown": 0.0034,
+        "rose": 0.0,
+        "coal": 0.509,
+        "night": 0.0,
+        "tiger": 0.0093,
+        "wolf": 0.3964,
+        "river": 0.0027
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0271,
+      "topn": 50,
+      "clue_dist_real": {
+        "Night": 0.0015,
+        "Dark": 0.3663,
+        "night": 0.0046,
+        "dark": 0.0041,
+        "Darkness": 0.0028,
+        "Black": 0.0025,
+        "noct": 0.0018,
+        "Moon": 0.0016,
+        "Light": 0.0013
+      },
+      "clue_dist_naive": {
+        "Night": 0.5028,
+        "Dark": 0.4437,
+        "Darkness": 0.0092,
+        "dark": 0.0072,
+        "night": 0.0052,
+        "darkness": 0.0046,
+        "Light": 0.0038,
+        "Black": 0.0034,
+        "Moon": 0.0026,
+        "noct": 0.0025
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 2,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "prey",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "night"
+    ],
+    "target_mass": 0.7776,
+    "belief": {
+      "gold": 0.0458,
+      "honey": 0.0,
+      "lemon": 0.0519,
+      "snow": 0.0856,
+      "salt": 0.0158,
+      "crown": 0.0191,
+      "rose": 0.3481,
+      "coal": 0.0,
+      "night": 0.3481,
+      "tiger": 0.0357,
+      "wolf": 0.0404,
+      "river": 0.0096
+    },
+    "coupling": {
+      "kl": 0.8415,
+      "clue_swapped_to": "str",
+      "guess_dist_clean": {
+        "gold": 0.0358,
+        "honey": 0.0,
+        "lemon": 0.0246,
+        "snow": 0.0758,
+        "salt": 0.0192,
+        "crown": 0.0066,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.3396,
+        "wolf": 0.4941,
+        "river": 0.0043
+      },
+      "guess_dist_swap": {
+        "gold": 0.1276,
+        "honey": 0.0,
+        "lemon": 0.1276,
+        "snow": 0.2701,
+        "salt": 0.0824,
+        "crown": 0.0994,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.1446,
+        "wolf": 0.1276,
+        "river": 0.0208
+      }
+    },
+    "coupling2": {
+      "kl": 0.9295,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0018,
+        "honey": 0.0,
+        "lemon": 0.0039,
+        "snow": 0.0198,
+        "salt": 0.012,
+        "crown": 0.0039,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.9546,
+        "wolf": 0.0,
+        "river": 0.0039
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0166,
+        "honey": 0.0,
+        "lemon": 0.0513,
+        "snow": 0.2028,
+        "salt": 0.123,
+        "crown": 0.0746,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.4865,
+        "wolf": 0.0,
+        "river": 0.0452
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4641,
+      "topn": 50,
+      "clue_dist_real": {
+        "prey": 0.3462,
+        "Str": 0.1853,
+        "(strip": 0.0726,
+        "striped": 0.0602,
+        "stripes": 0.0499,
+        "strip": 0.0343,
+        "King": 0.0303,
+        "king": 0.0195,
+        "\u8c93": 0.0183,
+        "stripe": 0.0143
+      },
+      "clue_dist_naive": {
+        "prey": 0.6245,
+        "stripes": 0.0375,
+        "precious": 0.0258,
+        "Str": 0.0258,
+        "Gold": 0.0214,
+        "stripe": 0.0214,
+        "strip": 0.0177,
+        "(strip": 0.0177,
+        "King": 0.0166,
+        "Prec": 0.0147
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 5,
+    "round": 3,
+    "targets": [
+      "gold",
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "clue": "precious",
+    "count": 1,
+    "guesses": [
+      "gold"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "night",
+      "tiger"
+    ],
+    "target_mass": 0.8491,
+    "belief": {
+      "gold": 0.0422,
+      "honey": 0.0,
+      "lemon": 0.0199,
+      "snow": 0.0695,
+      "salt": 0.0256,
+      "crown": 0.029,
+      "rose": 0.269,
+      "coal": 0.0,
+      "night": 0.269,
+      "tiger": 0.269,
+      "wolf": 0.0,
+      "river": 0.0069
+    },
+    "coupling": {
+      "kl": 0.1586,
+      "clue_swapped_to": "metal",
+      "guess_dist_clean": {
+        "gold": 0.5482,
+        "honey": 0.0,
+        "lemon": 0.0146,
+        "snow": 0.035,
+        "salt": 0.0226,
+        "crown": 0.3768,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0027
+      },
+      "guess_dist_swap": {
+        "gold": 0.7097,
+        "honey": 0.0,
+        "lemon": 0.0167,
+        "snow": 0.066,
+        "salt": 0.066,
+        "crown": 0.1397,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0019
+      }
+    },
+    "coupling2": {
+      "kl": 0.3711,
+      "cond_first": "gold",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0195,
+        "snow": 0.0092,
+        "salt": 0.0284,
+        "crown": 0.9411,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0017
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.055,
+        "snow": 0.055,
+        "salt": 0.2175,
+        "crown": 0.6698,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0027
+      }
+    },
+    "adaptivity": {
+      "kl": 0.6172,
+      "topn": 50,
+      "clue_dist_real": {
+        "precious": 0.3777,
+        "Metal": 0.1784,
+        "Wealth": 0.0843,
+        "Treasure": 0.0511,
+        "Prec": 0.0511,
+        "treasure": 0.0451,
+        "royalty": 0.0257,
+        "metal": 0.0166,
+        "Reg": 0.0166,
+        "wealth": 0.0156
+      },
+      "clue_dist_naive": {
+        "precious": 0.742,
+        "Prec": 0.069,
+        "Metal": 0.0537,
+        "Wealth": 0.0288,
+        "metal": 0.0198,
+        "metallic": 0.0164,
+        "treasure": 0.0082,
+        "wealth": 0.0064,
+        "valuable": 0.0044,
+        "\u91d1\u5c5e": 0.003
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 0,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "reg",
+    "count": 2,
+    "guesses": [
+      "crown",
+      "gold"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [],
+    "target_mass": 0.2915,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 0.5885,
+      "clue_swapped_to": "royal",
+      "guess_dist_clean": {
+        "gold": 0.1257,
+        "honey": 0.0263,
+        "lemon": 0.0091,
+        "snow": 0.015,
+        "salt": 0.0248,
+        "crown": 0.5292,
+        "rose": 0.0632,
+        "coal": 0.0141,
+        "night": 0.0524,
+        "tiger": 0.0434,
+        "wolf": 0.0103,
+        "river": 0.0864
+      },
+      "guess_dist_swap": {
+        "gold": 0.0086,
+        "honey": 0.0001,
+        "lemon": 0.0,
+        "snow": 0.0001,
+        "salt": 0.0004,
+        "crown": 0.9898,
+        "rose": 0.0007,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0004,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.2033,
+      "cond_first": "crown",
+      "guess_dist2_clean": {
+        "gold": 0.4966,
+        "honey": 0.0232,
+        "lemon": 0.0052,
+        "snow": 0.0205,
+        "salt": 0.0462,
+        "crown": 0.0,
+        "rose": 0.207,
+        "coal": 0.0218,
+        "night": 0.0523,
+        "tiger": 0.0593,
+        "wolf": 0.036,
+        "river": 0.0317
+      },
+      "guess_dist2_swap": {
+        "gold": 0.7284,
+        "honey": 0.0151,
+        "lemon": 0.0032,
+        "snow": 0.0086,
+        "salt": 0.0986,
+        "crown": 0.0,
+        "rose": 0.0678,
+        "coal": 0.0076,
+        "night": 0.0151,
+        "tiger": 0.0411,
+        "wolf": 0.0133,
+        "river": 0.0012
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Reg": 0.3598,
+        "Royal": 0.2473,
+        "royal": 0.1031,
+        "royalty": 0.0708,
+        "Roy": 0.0552,
+        "Reign": 0.0335,
+        "Crown": 0.0245,
+        "Power": 0.014,
+        "Kingdom": 0.0131,
+        "reg": 0.0116
+      },
+      "clue_dist_naive": {
+        "Reg": 0.3598,
+        "Royal": 0.2473,
+        "royal": 0.1031,
+        "royalty": 0.0708,
+        "Roy": 0.0552,
+        "Reign": 0.0335,
+        "Crown": 0.0245,
+        "Power": 0.014,
+        "Kingdom": 0.0131,
+        "reg": 0.0116
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 1,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "water",
+    "count": 2,
+    "guesses": [
+      "river",
+      "snow"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "crown"
+    ],
+    "target_mass": 0.6576,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0922,
+      "lemon": 0.0384,
+      "snow": 0.0233,
+      "salt": 0.0922,
+      "crown": 0.5393,
+      "rose": 0.1521,
+      "coal": 0.0067,
+      "night": 0.0091,
+      "tiger": 0.0206,
+      "wolf": 0.011,
+      "river": 0.0151
+    },
+    "coupling": {
+      "kl": 0.1806,
+      "clue_swapped_to": "flow",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0926,
+        "lemon": 0.0562,
+        "snow": 0.0636,
+        "salt": 0.0265,
+        "crown": 0.0,
+        "rose": 0.0496,
+        "coal": 0.0032,
+        "night": 0.0056,
+        "tiger": 0.0125,
+        "wolf": 0.0059,
+        "river": 0.6843
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0317,
+        "lemon": 0.0097,
+        "snow": 0.0091,
+        "salt": 0.0023,
+        "crown": 0.0,
+        "rose": 0.0097,
+        "coal": 0.0005,
+        "night": 0.0023,
+        "tiger": 0.0062,
+        "wolf": 0.0026,
+        "river": 0.926
+      }
+    },
+    "coupling2": {
+      "kl": 0.2458,
+      "cond_first": "river",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.1185,
+        "lemon": 0.2214,
+        "snow": 0.4136,
+        "salt": 0.0923,
+        "crown": 0.0,
+        "rose": 0.0086,
+        "coal": 0.0097,
+        "night": 0.0814,
+        "tiger": 0.016,
+        "wolf": 0.0385,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.32,
+        "lemon": 0.1039,
+        "snow": 0.2824,
+        "salt": 0.0298,
+        "crown": 0.0,
+        "rose": 0.0085,
+        "coal": 0.0066,
+        "night": 0.1512,
+        "tiger": 0.0263,
+        "wolf": 0.0714,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 5.672,
+      "topn": 50,
+      "clue_dist_real": {
+        "Night": 0.0031,
+        "night": 0.0462,
+        "Water": 0.0193,
+        "Flow": 0.017,
+        "River": 0.0124,
+        "Waters": 0.0038,
+        "Dark": 0.0018,
+        "Cold": 0.0016,
+        "Frost": 0.0016
+      },
+      "clue_dist_naive": {
+        "Water": 0.47,
+        "Flow": 0.1265,
+        "River": 0.0926,
+        "Waters": 0.0411,
+        "Frost": 0.022,
+        "Stream": 0.0207,
+        "Wet": 0.0207,
+        "Pack": 0.0118,
+        "Flo": 0.0104,
+        "Bark": 0.0104
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 2,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "fur",
+    "count": 2,
+    "guesses": [
+      "wolf",
+      "tiger"
+    ],
+    "correct": [
+      true,
+      false
+    ],
+    "found_so_far": [
+      "crown",
+      "river"
+    ],
+    "target_mass": 0.7192,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.135,
+      "lemon": 0.0723,
+      "snow": 0.0,
+      "salt": 0.0126,
+      "crown": 0.34,
+      "rose": 0.0301,
+      "coal": 0.0032,
+      "night": 0.0207,
+      "tiger": 0.0195,
+      "wolf": 0.0266,
+      "river": 0.34
+    },
+    "coupling": {
+      "kl": 0.3698,
+      "clue_swapped_to": "flesh",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.1937,
+        "lemon": 0.1037,
+        "snow": 0.0,
+        "salt": 0.0062,
+        "crown": 0.0,
+        "rose": 0.046,
+        "coal": 0.0071,
+        "night": 0.014,
+        "tiger": 0.2194,
+        "wolf": 0.41,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.4198,
+        "lemon": 0.2247,
+        "snow": 0.0,
+        "salt": 0.0127,
+        "crown": 0.0,
+        "rose": 0.0937,
+        "coal": 0.0163,
+        "night": 0.0237,
+        "tiger": 0.0729,
+        "wolf": 0.1363,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 0.4936,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0441,
+        "lemon": 0.0208,
+        "snow": 0.0,
+        "salt": 0.0036,
+        "crown": 0.0,
+        "rose": 0.0015,
+        "coal": 0.006,
+        "night": 0.0389,
+        "tiger": 0.8851,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.1277,
+        "lemon": 0.1447,
+        "snow": 0.0,
+        "salt": 0.0173,
+        "crown": 0.0,
+        "rose": 0.0173,
+        "coal": 0.0603,
+        "night": 0.1277,
+        "tiger": 0.505,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 1.5194,
+      "topn": 50,
+      "clue_dist_real": {
+        "night": 0.2846,
+        "flesh": 0.1956,
+        "fur": 0.1956,
+        "meat": 0.0495,
+        "Night": 0.0362,
+        "predator": 0.03,
+        "Flesh": 0.0219,
+        "Carn": 0.0171,
+        "prey": 0.0171,
+        "furry": 0.0161
+      },
+      "clue_dist_naive": {
+        "Flesh": 0.2331,
+        "flesh": 0.0913,
+        "F": 0.0806,
+        "fur": 0.0627,
+        "Fur": 0.0589,
+        "Fang": 0.0489,
+        "Carn": 0.0381,
+        "Pack": 0.0381,
+        "meat": 0.0217,
+        "Frost": 0.0204
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 3,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "flavor",
+    "count": 1,
+    "guesses": [
+      "honey"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "target_mass": 0.7658,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.1355,
+      "lemon": 0.0499,
+      "snow": 0.0,
+      "salt": 0.0072,
+      "crown": 0.2529,
+      "rose": 0.0343,
+      "coal": 0.0053,
+      "night": 0.0092,
+      "tiger": 0.0,
+      "wolf": 0.2529,
+      "river": 0.2529
+    },
+    "coupling": {
+      "kl": 4.0368,
+      "clue_swapped_to": "mineral",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.7043,
+        "lemon": 0.2591,
+        "snow": 0.0,
+        "salt": 0.0069,
+        "crown": 0.0,
+        "rose": 0.0273,
+        "coal": 0.0015,
+        "night": 0.0009,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0825,
+        "lemon": 0.0825,
+        "snow": 0.0,
+        "salt": 0.1979,
+        "crown": 0.0,
+        "rose": 0.0268,
+        "coal": 0.6094,
+        "night": 0.001,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 4.5538,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.9805,
+        "snow": 0.0,
+        "salt": 0.0096,
+        "crown": 0.0,
+        "rose": 0.0085,
+        "coal": 0.001,
+        "night": 0.0004,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0861,
+        "snow": 0.0,
+        "salt": 0.3404,
+        "crown": 0.0,
+        "rose": 0.0116,
+        "coal": 0.5612,
+        "night": 0.0007,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.5193,
+      "topn": 50,
+      "clue_dist_real": {
+        "flavor": 0.2603,
+        "mineral": 0.2158,
+        "Mineral": 0.1789,
+        "Fl": 0.1309,
+        "taste": 0.0227,
+        "S": 0.0177,
+        "Flavor": 0.0147,
+        "br": 0.0107,
+        "\u0e23\u0e2a": 0.0074,
+        "Taste": 0.0069
+      },
+      "clue_dist_naive": {
+        "flavor": 0.6365,
+        "mineral": 0.0809,
+        "taste": 0.076,
+        "Mineral": 0.0592,
+        "Fl": 0.0337,
+        "Flavor": 0.028,
+        "Taste": 0.0085,
+        "savory": 0.0059,
+        "Sav": 0.0036,
+        "FL": 0.0031
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 6,
+    "round": 4,
+    "targets": [
+      "salt",
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "clue": "mineral",
+    "count": 1,
+    "guesses": [
+      "salt"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "crown",
+      "wolf",
+      "river"
+    ],
+    "target_mass": 0.7775,
+    "belief": {
+      "gold": 0.0,
+      "honey": 0.0,
+      "lemon": 0.1883,
+      "snow": 0.0,
+      "salt": 0.0175,
+      "crown": 0.2533,
+      "rose": 0.0289,
+      "coal": 0.0037,
+      "night": 0.0016,
+      "tiger": 0.0,
+      "wolf": 0.2533,
+      "river": 0.2533
+    },
+    "coupling": {
+      "kl": 1.1265,
+      "clue_swapped_to": "taste",
+      "guess_dist_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.2096,
+        "snow": 0.0,
+        "salt": 0.4437,
+        "crown": 0.0,
+        "rose": 0.0413,
+        "coal": 0.3049,
+        "night": 0.0006,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.8311,
+        "snow": 0.0,
+        "salt": 0.0469,
+        "crown": 0.0,
+        "rose": 0.1125,
+        "coal": 0.0077,
+        "night": 0.0019,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "coupling2": {
+      "kl": 1.878,
+      "cond_first": "salt",
+      "guess_dist2_clean": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.1316,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0095,
+        "coal": 0.858,
+        "night": 0.0008,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.9622,
+        "snow": 0.0,
+        "salt": 0.0,
+        "crown": 0.0,
+        "rose": 0.0226,
+        "coal": 0.0137,
+        "night": 0.0014,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.4949,
+      "topn": 50,
+      "clue_dist_real": {
+        "mineral": 0.4666,
+        "Mineral": 0.2498,
+        "flavor": 0.0811,
+        "Fl": 0.0524,
+        "br": 0.0383,
+        "taste": 0.008,
+        "Flavor": 0.0067,
+        "\u77ff": 0.0059,
+        "Min": 0.0052,
+        "minerals": 0.0052
+      },
+      "clue_dist_naive": {
+        "flavor": 0.35,
+        "mineral": 0.2123,
+        "Mineral": 0.1003,
+        "taste": 0.0781,
+        "br": 0.0326,
+        "Fl": 0.0287,
+        "Flavor": 0.0186,
+        "Sav": 0.0093,
+        "season": 0.0088,
+        "savory": 0.0082
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 0,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "black",
+    "count": 2,
+    "guesses": [
+      "coal",
+      "night"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "found_so_far": [],
+    "target_mass": 0.2414,
+    "belief": {
+      "gold": 0.1223,
+      "honey": 0.2016,
+      "lemon": 0.0329,
+      "snow": 0.084,
+      "salt": 0.0397,
+      "crown": 0.1385,
+      "rose": 0.1223,
+      "coal": 0.029,
+      "night": 0.0423,
+      "tiger": 0.0742,
+      "wolf": 0.0479,
+      "river": 0.0654
+    },
+    "coupling": {
+      "kl": 1.2459,
+      "clue_swapped_to": "dark",
+      "guess_dist_clean": {
+        "gold": 0.0039,
+        "honey": 0.002,
+        "lemon": 0.0007,
+        "snow": 0.0155,
+        "salt": 0.0121,
+        "crown": 0.0024,
+        "rose": 0.0025,
+        "coal": 0.6582,
+        "night": 0.1664,
+        "tiger": 0.0061,
+        "wolf": 0.1296,
+        "river": 0.0007
+      },
+      "guess_dist_swap": {
+        "gold": 0.0008,
+        "honey": 0.0003,
+        "lemon": 0.0004,
+        "snow": 0.0067,
+        "salt": 0.0003,
+        "crown": 0.0002,
+        "rose": 0.0003,
+        "coal": 0.093,
+        "night": 0.8823,
+        "tiger": 0.0012,
+        "wolf": 0.0143,
+        "river": 0.0003
+      }
+    },
+    "coupling2": {
+      "kl": 0.2066,
+      "cond_first": "coal",
+      "guess_dist2_clean": {
+        "gold": 0.0011,
+        "honey": 0.0013,
+        "lemon": 0.0002,
+        "snow": 0.1,
+        "salt": 0.0153,
+        "crown": 0.0093,
+        "rose": 0.001,
+        "coal": 0.0,
+        "night": 0.7386,
+        "tiger": 0.0044,
+        "wolf": 0.1283,
+        "river": 0.0005
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0002,
+        "lemon": 0.0001,
+        "snow": 0.0051,
+        "salt": 0.0001,
+        "crown": 0.0003,
+        "rose": 0.0001,
+        "coal": 0.0,
+        "night": 0.9706,
+        "tiger": 0.0006,
+        "wolf": 0.0228,
+        "river": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 0.0,
+      "topn": 50,
+      "clue_dist_real": {
+        "Night": 0.0015,
+        "Black": 0.0066,
+        "Dark": 0.0066,
+        "night": 0.0002,
+        "NIGHT": 0.0008,
+        "Midnight": 0.0004,
+        "Twilight": 0.0001,
+        "Darkness": 0.0001
+      },
+      "clue_dist_naive": {
+        "Night": 0.0015,
+        "Black": 0.0066,
+        "Dark": 0.0066,
+        "night": 0.0002,
+        "NIGHT": 0.0008,
+        "Midnight": 0.0004,
+        "Twilight": 0.0001,
+        "Darkness": 0.0001
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 1,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "carn",
+    "count": 2,
+    "guesses": [
+      "honey",
+      "rose"
+    ],
+    "correct": [
+      false,
+      true
+    ],
+    "found_so_far": [
+      "coal",
+      "night"
+    ],
+    "target_mass": 0.7569,
+    "belief": {
+      "gold": 0.0162,
+      "honey": 0.0152,
+      "lemon": 0.0036,
+      "snow": 0.0993,
+      "salt": 0.0683,
+      "crown": 0.0105,
+      "rose": 0.0111,
+      "coal": 0.3342,
+      "night": 0.3342,
+      "tiger": 0.0251,
+      "wolf": 0.0773,
+      "river": 0.0049
+    },
+    "coupling": {
+      "kl": 2.0209,
+      "clue_swapped_to": "floral",
+      "guess_dist_clean": {
+        "gold": 0.0247,
+        "honey": 0.2202,
+        "lemon": 0.017,
+        "snow": 0.0862,
+        "salt": 0.0862,
+        "crown": 0.0761,
+        "rose": 0.1178,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.1178,
+        "wolf": 0.2202,
+        "river": 0.0338
+      },
+      "guess_dist_swap": {
+        "gold": 0.0006,
+        "honey": 0.0096,
+        "lemon": 0.0035,
+        "snow": 0.0011,
+        "salt": 0.0006,
+        "crown": 0.001,
+        "rose": 0.9816,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0011,
+        "wolf": 0.0006,
+        "river": 0.0002
+      }
+    },
+    "coupling2": {
+      "kl": 1.1335,
+      "cond_first": "honey",
+      "guess_dist2_clean": {
+        "gold": 0.023,
+        "honey": 0.0,
+        "lemon": 0.1498,
+        "snow": 0.1322,
+        "salt": 0.0708,
+        "crown": 0.0551,
+        "rose": 0.3172,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0486,
+        "wolf": 0.1698,
+        "river": 0.0334
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0,
+        "honey": 0.0,
+        "lemon": 0.0017,
+        "snow": 0.0001,
+        "salt": 0.0,
+        "crown": 0.0001,
+        "rose": 0.9979,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0001,
+        "wolf": 0.0001,
+        "river": 0.0
+      }
+    },
+    "adaptivity": {
+      "kl": 0.8233,
+      "topn": 50,
+      "clue_dist_real": {
+        "Carn": 0.1297,
+        "Floral": 0.1219,
+        "Night": 0.101,
+        "furry": 0.0694,
+        "Fle": 0.0421,
+        "Flower": 0.0396,
+        "night": 0.0396,
+        "prey": 0.029,
+        "flower": 0.0255,
+        "floral": 0.024
+      },
+      "clue_dist_naive": {
+        "Night": 0.0105,
+        "night": 0.2255,
+        "Carn": 0.0392,
+        "Floral": 0.0269,
+        "furry": 0.0269,
+        "noct": 0.0163,
+        "prey": 0.012,
+        "Fle": 0.0099,
+        "Animal": 0.0064
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 2,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "forest",
+    "count": 1,
+    "guesses": [
+      "tiger"
+    ],
+    "correct": [
+      false
+    ],
+    "found_so_far": [
+      "rose",
+      "coal",
+      "night"
+    ],
+    "target_mass": 0.8021,
+    "belief": {
+      "gold": 0.014,
+      "honey": 0.0,
+      "lemon": 0.0432,
+      "snow": 0.0381,
+      "salt": 0.0432,
+      "crown": 0.0091,
+      "rose": 0.2547,
+      "coal": 0.2547,
+      "night": 0.2547,
+      "tiger": 0.0432,
+      "wolf": 0.0381,
+      "river": 0.0071
+    },
+    "coupling": {
+      "kl": 0.3192,
+      "clue_swapped_to": "predator",
+      "guess_dist_clean": {
+        "gold": 0.0286,
+        "honey": 0.0,
+        "lemon": 0.0828,
+        "snow": 0.1754,
+        "salt": 0.0828,
+        "crown": 0.0324,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.2892,
+        "wolf": 0.2552,
+        "river": 0.0535
+      },
+      "guess_dist_swap": {
+        "gold": 0.0078,
+        "honey": 0.0,
+        "lemon": 0.0242,
+        "snow": 0.058,
+        "salt": 0.0177,
+        "crown": 0.0057,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.3335,
+        "wolf": 0.5499,
+        "river": 0.0033
+      }
+    },
+    "coupling2": {
+      "kl": 0.2491,
+      "cond_first": "tiger",
+      "guess_dist2_clean": {
+        "gold": 0.004,
+        "honey": 0.0,
+        "lemon": 0.0485,
+        "snow": 0.0905,
+        "salt": 0.0333,
+        "crown": 0.0108,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.758,
+        "river": 0.0549
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0002,
+        "honey": 0.0,
+        "lemon": 0.0008,
+        "snow": 0.0036,
+        "salt": 0.001,
+        "crown": 0.0002,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.9941,
+        "river": 0.0001
+      }
+    },
+    "adaptivity": {
+      "kl": 2.3532,
+      "topn": 50,
+      "clue_dist_real": {
+        "night": 0.1631,
+        "forest": 0.0873,
+        "predator": 0.0639,
+        "furry": 0.0639,
+        "fierce": 0.0564,
+        "stealth": 0.0564,
+        "pack": 0.0529,
+        "dark": 0.0497,
+        "Pack": 0.0497,
+        "wild": 0.0283
+      },
+      "clue_dist_naive": {
+        "night": 0.9141,
+        "noct": 0.0102,
+        "forest": 0.0102,
+        "lone": 0.0084,
+        "predator": 0.0062,
+        "fur": 0.0054,
+        "\u591c": 0.0054,
+        "Night": 0.004,
+        "flesh": 0.0037,
+        "furry": 0.0037
+      }
+    }
+  },
+  {
+    "pair": "QwenInst->LlamaInst",
+    "spymaster": "QwenInst",
+    "guesser": "LlamaInst",
+    "game": 7,
+    "round": 3,
+    "targets": [
+      "rose",
+      "coal",
+      "night",
+      "wolf"
+    ],
+    "clue": "pack",
+    "count": 1,
+    "guesses": [
+      "wolf"
+    ],
+    "correct": [
+      true
+    ],
+    "found_so_far": [
+      "rose",
+      "coal",
+      "night"
+    ],
+    "target_mass": 0.8432,
+    "belief": {
+      "gold": 0.0121,
+      "honey": 0.0,
+      "lemon": 0.033,
+      "snow": 0.0617,
+      "salt": 0.0291,
+      "crown": 0.0101,
+      "rose": 0.2547,
+      "coal": 0.2547,
+      "night": 0.2547,
+      "tiger": 0.0,
+      "wolf": 0.0792,
+      "river": 0.0107
+    },
+    "coupling": {
+      "kl": 0.0331,
+      "clue_swapped_to": "lone",
+      "guess_dist_clean": {
+        "gold": 0.0194,
+        "honey": 0.0,
+        "lemon": 0.0563,
+        "snow": 0.1964,
+        "salt": 0.0722,
+        "crown": 0.0207,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.6049,
+        "river": 0.0301
+      },
+      "guess_dist_swap": {
+        "gold": 0.0403,
+        "honey": 0.0,
+        "lemon": 0.0852,
+        "snow": 0.2316,
+        "salt": 0.0852,
+        "crown": 0.0295,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.4904,
+        "river": 0.0378
+      }
+    },
+    "coupling2": {
+      "kl": 0.0309,
+      "cond_first": "wolf",
+      "guess_dist2_clean": {
+        "gold": 0.0098,
+        "honey": 0.0,
+        "lemon": 0.0934,
+        "snow": 0.4745,
+        "salt": 0.2241,
+        "crown": 0.0441,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.154
+      },
+      "guess_dist2_swap": {
+        "gold": 0.0184,
+        "honey": 0.0,
+        "lemon": 0.1541,
+        "snow": 0.4189,
+        "salt": 0.2242,
+        "crown": 0.0642,
+        "rose": 0.0,
+        "coal": 0.0,
+        "night": 0.0,
+        "tiger": 0.0,
+        "wolf": 0.0,
+        "river": 0.12
+      }
+    },
+    "adaptivity": {
+      "kl": 2.5799,
+      "topn": 50,
+      "clue_dist_real": {
+        "pack": 0.2679,
+        "night": 0.2517,
+        "Pack": 0.1117,
+        "lone": 0.0411,
+        "flesh": 0.0301,
+        "fur": 0.022,
+        "dark": 0.0182,
+        "snow": 0.0171,
+        "furry": 0.0161,
+        "stealth": 0.0142
+      },
+      "clue_dist_naive": {
+        "night": 0.9257,
+        "lone": 0.015,
+        "flesh": 0.0075,
+        "fur": 0.0066,
+        "noct": 0.0062,
+        "prey": 0.0046,
+        "\u591c": 0.0038,
+        "forest": 0.0033,
+        "Night": 0.0033,
+        "furry": 0.0024
+      }
+    }
+  }
+]

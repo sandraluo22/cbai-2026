@@ -1,0 +1,32 @@
+{
+  "models": [
+    "LlamaInst",
+    "QwenInst"
+  ],
+  "N": 12,
+  "M": 4,
+  "topn": 50,
+  "games": 12,
+  "pairs": {
+    "LlamaInst->QwenInst": {
+      "spymaster": "LlamaInst",
+      "guesser": "QwenInst",
+      "n_scored_rounds": 42,
+      "kl_none_true_mean": 0.10071663469785735,
+      "kl_inf_true_mean": 0.06331620254509505,
+      "gap_closed_frac": 0.3713431476832094,
+      "precision_mean": 0.6175213675213674,
+      "recall_mean": 0.5157738095238096
+    },
+    "QwenInst->LlamaInst": {
+      "spymaster": "QwenInst",
+      "guesser": "LlamaInst",
+      "n_scored_rounds": 34,
+      "kl_none_true_mean": 0.542012380929116,
+      "kl_inf_true_mean": 0.07763032001607559,
+      "gap_closed_frac": 0.856773898996547,
+      "precision_mean": 0.5441176470588235,
+      "recall_mean": 0.5464646464646465
+    }
+  }
+}

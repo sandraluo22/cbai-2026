@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 106/707 [00:00<00:00, 1024.74it/s]Loading weights:  33%|███▎      | 235/707 [00:00<00:00, 1123.70it/s]Loading weights:  63%|██████▎   | 444/707 [00:00<00:00, 1539.08it/s]Loading weights:  85%|████████▍ | 599/707 [00:00<00:00, 1379.32it/s]Loading weights: 100%|██████████| 707/707 [00:00<00:00, 1318.82it/s]
+[graph] === directions ===
+[graph/directions] game 0: MET @round 63
+[graph/directions] game 1: MET @round 13
+[graph/directions] game 2: no-meet
+[graph/directions] game 3: no-meet
+[graph/directions] game 4: no-meet
+[graph/directions] game 5: MET @round 112
+[graph/directions] game 6: no-meet
+[graph/directions] game 7: MET @round 116
+/workspace/mm/games-2/src/game1_graph.py:205: RuntimeWarning: Mean of empty slice
+  "couplingA_by_round": np.nanmean(coupA_by_round, 0).tolist(),
+[graph] directions: met 50%  rounds-to-meet 76.0  grid-dist 8.9->7.2
+[graph] DONE -> runs/game-1-graph/prefill20_8x8

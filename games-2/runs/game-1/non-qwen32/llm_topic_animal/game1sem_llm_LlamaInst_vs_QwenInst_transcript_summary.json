@@ -1,0 +1,7 @@
+{
+  "converged_frac": 0.8,
+  "turns_to_converge": 1.75,
+  "coupling_LlamaInst": 2.2406573333333335,
+  "coupling_QwenInst": 4.751917333333333,
+  "n_games": 5
+}

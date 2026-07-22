@@ -1,0 +1,108 @@
+{
+  "guesser": {
+    "QwenInst": {
+      "beta": 10.30118170390365,
+      "kl_fit": 0.4934415152115086,
+      "kl_null": 0.8534817080411048,
+      "n": 165
+    },
+    "LlamaInst": {
+      "beta": 10.287258049511095,
+      "kl_fit": 0.5468810598292134,
+      "kl_null": 1.0818774731493694,
+      "n": 158
+    }
+  },
+  "speaker": {
+    "llm_codenames_open | LlamaInst": {
+      "inform_remaining": -0.2745488507504247,
+      "inform_all": 0.7213548334724063,
+      "found_assoc": -0.11737759246573237,
+      "dead_assoc": 0.887823108905478,
+      "kl_fit": 0.20769479197485033,
+      "kl_null": 0.21059913725129117,
+      "n": 36
+    },
+    "llm_codenames_open | QwenInst": {
+      "inform_remaining": -1.6650703081385771,
+      "inform_all": 5.519345887212932,
+      "found_assoc": -0.167778034605082,
+      "dead_assoc": 1.6174130650983811,
+      "kl_fit": 0.8921701810036541,
+      "kl_null": 0.9379979090455685,
+      "n": 31
+    },
+    "llm_codenames_open_mem | LlamaInst": {
+      "inform_remaining": 0.5340406861307739,
+      "inform_all": 1.673341822525968,
+      "found_assoc": -1.0514825410220388,
+      "dead_assoc": 0.766997903097475,
+      "kl_fit": 0.1983062814033547,
+      "kl_null": 0.2070841348352691,
+      "n": 36
+    },
+    "llm_codenames_open_mem | QwenInst": {
+      "inform_remaining": 2.923711393744352,
+      "inform_all": -0.6487761177567156,
+      "found_assoc": 4.300829209070817,
+      "dead_assoc": 0.5929530891883675,
+      "kl_fit": 0.7385472285092662,
+      "kl_null": 0.8045398679958737,
+      "n": 32
+    },
+    "spy_remaining | LlamaInst": {
+      "inform_remaining": 0.5340406861307739,
+      "inform_all": 1.673341822525968,
+      "found_assoc": -1.0514825410220388,
+      "dead_assoc": 0.766997903097475,
+      "kl_fit": 0.1983062814033547,
+      "kl_null": 0.2070841348352691,
+      "n": 36
+    },
+    "spy_remaining | QwenInst": {
+      "inform_remaining": 2.923711393744352,
+      "inform_all": -0.6487761177567156,
+      "found_assoc": 4.300829209070817,
+      "dead_assoc": 0.5929530891883675,
+      "kl_fit": 0.7385472285092662,
+      "kl_null": 0.8045398679958737,
+      "n": 32
+    },
+    "spy_eliminated | LlamaInst": {
+      "inform_remaining": -0.7181006408105639,
+      "inform_all": 3.11961560425026,
+      "found_assoc": -1.545322863048953,
+      "dead_assoc": 0.08804409654703245,
+      "kl_fit": 0.20350614033229997,
+      "kl_null": 0.20787299838767995,
+      "n": 37
+    },
+    "spy_eliminated | QwenInst": {
+      "inform_remaining": -0.5341026754656655,
+      "inform_all": 2.1627825622641192,
+      "found_assoc": 1.2474658527220055,
+      "dead_assoc": 4.379633119087995,
+      "kl_fit": 0.6783584328857419,
+      "kl_null": 0.7243324545582042,
+      "n": 30
+    },
+    "spy_inferred | LlamaInst": {
+      "inform_remaining": 0.6768339929484507,
+      "inform_all": 1.7514729028422396,
+      "found_assoc": -0.6006797728690051,
+      "dead_assoc": -0.1176943300713872,
+      "kl_fit": 0.21767296824622406,
+      "kl_null": 0.22677877974779737,
+      "n": 30
+    },
+    "spy_inferred | QwenInst": {
+      "inform_remaining": 0.2712020899766005,
+      "inform_all": 1.0985840920535073,
+      "found_assoc": 1.9003779540210535,
+      "dead_assoc": 3.0567644149174575,
+      "kl_fit": 0.7128186351924116,
+      "kl_null": 0.7473851734617043,
+      "n": 33
+    }
+  }
+}

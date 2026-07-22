@@ -1,0 +1,883 @@
+[
+  {
+    "game": 0,
+    "turn": 0,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "match"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    },
+    "QwenInst#2": {
+      "pick": "match",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    }
+  },
+  {
+    "game": 0,
+    "turn": 1,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "match"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "Strategy": 0.0,
+        "match": 0.0008,
+        "Match": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_strategy": 0.0,
+        "(strategy": 0.0,
+        ".strategy": 0.0,
+        "**": 0.0,
+        "\"": 0.0,
+        "strategies": 0.0,
+        "strateg": 0.0
+      },
+      "coupling": {
+        "kl": 0.0038,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "**": 0.0002,
+          "Strategy": 0.0,
+          "`": 0.0,
+          "\u7b56\u7565": 0.0,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "(strategy": 0.0,
+          ".strategy": 0.0,
+          "_": 0.0,
+          "You": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.0576
+      }
+    },
+    "QwenInst#2": {
+      "pick": "match",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.0,
+        "Match": 0.0004,
+        "Strategy": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_match": 0.0,
+        ".match": 0.0,
+        "strategies": 0.0,
+        "**": 0.0,
+        "Strategies": 0.0,
+        "(strategy": 0.0,
+        "-match": 0.0
+      },
+      "coupling": {
+        "kl": 0.0057,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0005,
+          "**": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "_match": 0.0,
+          "MATCH": 0.0,
+          "*": 0.0,
+          "-match": 0.0,
+          ".match": 0.0,
+          "matches": 0.0,
+          "(match": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.7928
+      }
+    }
+  },
+  {
+    "game": 0,
+    "turn": 2,
+    "picks": {
+      "QwenInst#1": "match",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "match",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.2002,
+        "Match": 0.0042,
+        "Strategy": 0.0025,
+        "**": 0.0008,
+        "": 0.0003,
+        "`": 0.0002,
+        "\u7b56\u7565": 0.0,
+        "*": 0.0,
+        "None": 0.0,
+        "_": 0.0,
+        "\"": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 1.5911,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "match": 0.0012,
+          "Strategy": 0.001,
+          "**": 0.0009,
+          "": 0.0001,
+          "`": 0.0001,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "Match": 0.0,
+          "(strategy": 0.0,
+          "\u7b56\u7565": 0.0,
+          ".strategy": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1767
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "match": 0.0059,
+        "Strategy": 0.0,
+        "**": 0.0004,
+        "": 0.0001,
+        "Match": 0.0,
+        "`": 0.0,
+        "_strategy": 0.0,
+        "*": 0.0,
+        "\u7b56\u7565": 0.0,
+        ".strategy": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 5.0952,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0025,
+          "strategy": 0.0022,
+          "**": 0.0006,
+          "": 0.0005,
+          "Strategy": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "*": 0.0,
+          "\"": 0.0,
+          "Round": 0.0,
+          ".match": 0.0,
+          "_match": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1846
+      }
+    }
+  },
+  {
+    "game": 0,
+    "turn": 3,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": true,
+    "semantic_dist": 0.0,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "match": 0.0001,
+        "strategy": 0.3517,
+        "Round": 0.0785,
+        "": 0.0003,
+        "**": 0.0024,
+        "Match": 0.0018,
+        "Strategy": 0.0014,
+        "round": 0.0011,
+        "`": 0.0003,
+        "None": 0.0001,
+        "You": 0.0001
+      },
+      "coupling": {
+        "kl": 0.6058,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "strategy": 0.0075,
+          "": 0.0,
+          "Match": 0.0012,
+          "Round": 0.0002,
+          "Strategy": 0.0002,
+          "**": 0.0001,
+          "round": 0.0001,
+          "`": 0.0001,
+          "\"": 0.0,
+          "*": 0.0
+        }
+      },
+      "step": {
+        "kl": 0.999
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "match": 0.0001,
+        "strategy": 0.4221,
+        "Round": 0.0571,
+        "": 0.0004,
+        "Strategy": 0.0025,
+        "Match": 0.0022,
+        "**": 0.002,
+        "round": 0.0013,
+        "You": 0.0004,
+        "`": 0.0002,
+        "\u7b56\u7565": 0.0001
+      },
+      "coupling": {
+        "kl": 0.5066,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "match": 0.0827,
+          "": 0.0001,
+          "Strategy": 0.0019,
+          "**": 0.0006,
+          "Round": 0.0004,
+          "Match": 0.0002,
+          "`": 0.0001,
+          "round": 0.0001,
+          "*": 0.0,
+          "\u7b56\u7565": 0.0
+        }
+      },
+      "step": {
+        "kl": 2.6792
+      }
+    }
+  },
+  {
+    "game": 1,
+    "turn": 0,
+    "picks": {
+      "QwenInst#1": "match",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "match",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    }
+  },
+  {
+    "game": 1,
+    "turn": 1,
+    "picks": {
+      "QwenInst#1": "match",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "match",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.0,
+        "Match": 0.0004,
+        "Strategy": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_match": 0.0,
+        ".match": 0.0,
+        "strategies": 0.0,
+        "**": 0.0,
+        "Strategies": 0.0,
+        "(strategy": 0.0,
+        "-match": 0.0
+      },
+      "coupling": {
+        "kl": 0.0057,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0005,
+          "**": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "_match": 0.0,
+          "MATCH": 0.0,
+          "*": 0.0,
+          "-match": 0.0,
+          ".match": 0.0,
+          "matches": 0.0,
+          "(match": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.7928
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "Strategy": 0.0,
+        "match": 0.0008,
+        "Match": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_strategy": 0.0,
+        "(strategy": 0.0,
+        ".strategy": 0.0,
+        "**": 0.0,
+        "\"": 0.0,
+        "strategies": 0.0,
+        "strateg": 0.0
+      },
+      "coupling": {
+        "kl": 0.0038,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "**": 0.0002,
+          "Strategy": 0.0,
+          "`": 0.0,
+          "\u7b56\u7565": 0.0,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "(strategy": 0.0,
+          ".strategy": 0.0,
+          "_": 0.0,
+          "You": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.0576
+      }
+    }
+  },
+  {
+    "game": 1,
+    "turn": 2,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": true,
+    "semantic_dist": 0.0,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "match": 0.0059,
+        "Strategy": 0.0,
+        "**": 0.0004,
+        "": 0.0001,
+        "Match": 0.0,
+        "`": 0.0,
+        "_strategy": 0.0,
+        "*": 0.0,
+        "\u7b56\u7565": 0.0,
+        ".strategy": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 5.0952,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0025,
+          "strategy": 0.0022,
+          "**": 0.0006,
+          "": 0.0005,
+          "Strategy": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "*": 0.0,
+          "\"": 0.0,
+          "Round": 0.0,
+          ".match": 0.0,
+          "_match": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1846
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.2002,
+        "Match": 0.0042,
+        "Strategy": 0.0025,
+        "**": 0.0008,
+        "": 0.0003,
+        "`": 0.0002,
+        "\u7b56\u7565": 0.0,
+        "*": 0.0,
+        "None": 0.0,
+        "_": 0.0,
+        "\"": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 1.5911,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "match": 0.0012,
+          "Strategy": 0.001,
+          "**": 0.0009,
+          "": 0.0001,
+          "`": 0.0001,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "Match": 0.0,
+          "(strategy": 0.0,
+          "\u7b56\u7565": 0.0,
+          ".strategy": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1767
+      }
+    }
+  },
+  {
+    "game": 2,
+    "turn": 0,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "match"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    },
+    "QwenInst#2": {
+      "pick": "match",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    }
+  },
+  {
+    "game": 2,
+    "turn": 1,
+    "picks": {
+      "QwenInst#1": "strategy",
+      "QwenInst#2": "match"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "Strategy": 0.0,
+        "match": 0.0008,
+        "Match": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_strategy": 0.0,
+        "(strategy": 0.0,
+        ".strategy": 0.0,
+        "**": 0.0,
+        "\"": 0.0,
+        "strategies": 0.0,
+        "strateg": 0.0
+      },
+      "coupling": {
+        "kl": 0.0038,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "**": 0.0002,
+          "Strategy": 0.0,
+          "`": 0.0,
+          "\u7b56\u7565": 0.0,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "(strategy": 0.0,
+          ".strategy": 0.0,
+          "_": 0.0,
+          "You": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.0576
+      }
+    },
+    "QwenInst#2": {
+      "pick": "match",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.0,
+        "Match": 0.0004,
+        "Strategy": 0.0,
+        "\u7b56\u7565": 0.0,
+        "_match": 0.0,
+        ".match": 0.0,
+        "strategies": 0.0,
+        "**": 0.0,
+        "Strategies": 0.0,
+        "(strategy": 0.0,
+        "-match": 0.0
+      },
+      "coupling": {
+        "kl": 0.0057,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0005,
+          "**": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "_match": 0.0,
+          "MATCH": 0.0,
+          "*": 0.0,
+          "-match": 0.0,
+          ".match": 0.0,
+          "matches": 0.0,
+          "(match": 0.0
+        }
+      },
+      "step": {
+        "kl": 8.7928
+      }
+    }
+  },
+  {
+    "game": 2,
+    "turn": 2,
+    "picks": {
+      "QwenInst#1": "match",
+      "QwenInst#2": "strategy"
+    },
+    "agreed": false,
+    "semantic_dist": 0.632,
+    "QwenInst#1": {
+      "pick": "match",
+      "top": {
+        "match": 0.0,
+        "strategy": 0.2002,
+        "Match": 0.0042,
+        "Strategy": 0.0025,
+        "**": 0.0008,
+        "": 0.0003,
+        "`": 0.0002,
+        "\u7b56\u7565": 0.0,
+        "*": 0.0,
+        "None": 0.0,
+        "_": 0.0,
+        "\"": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 1.5911,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "match": 0.0012,
+          "Strategy": 0.001,
+          "**": 0.0009,
+          "": 0.0001,
+          "`": 0.0001,
+          "*": 0.0,
+          "_strategy": 0.0,
+          "Match": 0.0,
+          "(strategy": 0.0,
+          "\u7b56\u7565": 0.0,
+          ".strategy": 0.0,
+          "\"": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1767
+      }
+    },
+    "QwenInst#2": {
+      "pick": "strategy",
+      "top": {
+        "strategy": 0.0,
+        "match": 0.0059,
+        "Strategy": 0.0,
+        "**": 0.0004,
+        "": 0.0001,
+        "Match": 0.0,
+        "`": 0.0,
+        "_strategy": 0.0,
+        "*": 0.0,
+        "\u7b56\u7565": 0.0,
+        ".strategy": 0.0,
+        "(strategy": 0.0
+      },
+      "coupling": {
+        "kl": 5.0952,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "Match": 0.0025,
+          "strategy": 0.0022,
+          "**": 0.0006,
+          "": 0.0005,
+          "Strategy": 0.0001,
+          "`": 0.0,
+          "_": 0.0,
+          "*": 0.0,
+          "\"": 0.0,
+          "Round": 0.0,
+          ".match": 0.0,
+          "_match": 0.0
+        }
+      },
+      "step": {
+        "kl": 5.1846
+      }
+    }
+  },
+  {
+    "game": 2,
+    "turn": 3,
+    "picks": {
+      "QwenInst#1": "match",
+      "QwenInst#2": "match"
+    },
+    "agreed": true,
+    "semantic_dist": -0.0,
+    "QwenInst#1": {
+      "pick": "match",
+      "top": {
+        "match": 0.0001,
+        "strategy": 0.3517,
+        "Round": 0.0785,
+        "": 0.0003,
+        "**": 0.0024,
+        "Match": 0.0018,
+        "Strategy": 0.0014,
+        "round": 0.0011,
+        "`": 0.0003,
+        "None": 0.0001,
+        "You": 0.0001
+      },
+      "coupling": {
+        "kl": 0.6058,
+        "swap_other_to": "match",
+        "swap_top": {
+          "match": 0.0,
+          "strategy": 0.0075,
+          "": 0.0,
+          "Match": 0.0012,
+          "Round": 0.0002,
+          "Strategy": 0.0002,
+          "**": 0.0001,
+          "round": 0.0001,
+          "`": 0.0001,
+          "\"": 0.0,
+          "*": 0.0
+        }
+      },
+      "step": {
+        "kl": 0.999
+      }
+    },
+    "QwenInst#2": {
+      "pick": "match",
+      "top": {
+        "match": 0.0001,
+        "strategy": 0.4221,
+        "Round": 0.0571,
+        "": 0.0004,
+        "Strategy": 0.0025,
+        "Match": 0.0022,
+        "**": 0.002,
+        "round": 0.0013,
+        "You": 0.0004,
+        "`": 0.0002,
+        "\u7b56\u7565": 0.0001
+      },
+      "coupling": {
+        "kl": 0.5066,
+        "swap_other_to": "strategy",
+        "swap_top": {
+          "strategy": 0.0,
+          "match": 0.0827,
+          "": 0.0001,
+          "Strategy": 0.0019,
+          "**": 0.0006,
+          "Round": 0.0004,
+          "Match": 0.0002,
+          "`": 0.0001,
+          "round": 0.0001,
+          "*": 0.0,
+          "\u7b56\u7565": 0.0
+        }
+      },
+      "step": {
+        "kl": 2.6792
+      }
+    }
+  },
+  {
+    "game": 3,
+    "turn": 0,
+    "picks": {
+      "QwenInst#1": "love",
+      "QwenInst#2": "love"
+    },
+    "agreed": true,
+    "semantic_dist": 0.0,
+    "QwenInst#1": {
+      "pick": "love",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    },
+    "QwenInst#2": {
+      "pick": "love",
+      "top": {
+        "Match": 0.1096,
+        "Challenge": 0.0909,
+        "Strategy": 0.0854,
+        "Love": 0.0753,
+        "Apple": 0.0551,
+        "Cat": 0.0551,
+        "\"": 0.0356,
+        "Game": 0.0314,
+        "**": 0.0277,
+        "Word": 0.019,
+        "Puzzle": 0.0179,
+        "Echo": 0.0158,
+        "Win": 0.0116,
+        "Start": 0.0102
+      }
+    }
+  }
+]

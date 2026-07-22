@@ -1,0 +1,123 @@
+{
+  "models": [
+    "LlamaInst",
+    "QwenInst"
+  ],
+  "vocab": 28,
+  "games": 6,
+  "norepeat": true,
+  "modes": {
+    "words": {
+      "converged_frac": 1.0,
+      "turns_to_converge": 9.5,
+      "outcomes": [
+        "converged",
+        "converged",
+        "converged",
+        "converged",
+        "converged",
+        "converged"
+      ],
+      "coupling_LlamaInst": 0.1627292140933596,
+      "coupling_QwenInst": 0.554058926914485,
+      "per_turn_kl_LlamaInst": [
+        NaN,
+        0.3118107909120079,
+        0.17170377213784763,
+        0.09621346909125308,
+        0.09613577446110622,
+        0.1228367469756412,
+        0.12766270041785277,
+        0.18405129726682065,
+        0.170719487310469,
+        0.20460887960443191,
+        0.17208315376159344,
+        0.16657448916765782,
+        0.24027081113515636,
+        0.9738923169726708,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      "per_turn_kl_QwenInst": [
+        NaN,
+        0.7514126159697796,
+        0.20479317963299848,
+        0.5398456750510705,
+        0.9562621239103603,
+        1.1832847119123375,
+        0.6071347983376294,
+        0.7902487952638971,
+        0.8604424529815189,
+        0.5591632476172362,
+        1.5005439774992502,
+        0.1042268420931477,
+        0.42670633512807,
+        0.08741328268441821,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "numbers": {
+      "converged_frac": 0.6666666666666666,
+      "turns_to_converge": 2.25,
+      "outcomes": [
+        "converged",
+        "exhausted",
+        "converged",
+        "exhausted",
+        "converged",
+        "converged"
+      ],
+      "coupling_LlamaInst": 0.0,
+      "coupling_QwenInst": 0.0,
+      "per_turn_kl_LlamaInst": [
+        NaN,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      "per_turn_kl_QwenInst": [
+        NaN,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    }
+  }
+}

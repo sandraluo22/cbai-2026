@@ -1,0 +1,109 @@
+{
+  "memory_paired": [
+    {
+      "metric": "turns",
+      "nomem_mean": 4.625,
+      "mem_mean": 4.3125,
+      "mean_diff(mem-nomem)": -0.3125,
+      "wilcoxon_p": 0.4314014169471778,
+      "n_pairs": 16
+    },
+    {
+      "metric": "final_recovery",
+      "nomem_mean": 0.903075,
+      "mem_mean": 0.9059937499999999,
+      "mean_diff(mem-nomem)": 0.002918749999999991,
+      "wilcoxon_p": 0.8587939623673958,
+      "n_pairs": 16
+    },
+    {
+      "metric": "repeat_rate",
+      "nomem_mean": 0.271875,
+      "mem_mean": 0.0,
+      "mean_diff(mem-nomem)": -0.271875,
+      "wilcoxon_p": 0.007579281943389729,
+      "n_pairs": 16
+    },
+    {
+      "metric": "mean_coupling",
+      "nomem_mean": 4.715380297619048,
+      "mem_mean": 4.932711696428571,
+      "mean_diff(mem-nomem)": 0.21733139880952373,
+      "wilcoxon_p": 0.7764250047999479,
+      "n_pairs": 16
+    },
+    {
+      "metric": "mean_adaptivity",
+      "nomem_mean": 0.20367186011904762,
+      "mem_mean": 0.14937267857142855,
+      "mean_diff(mem-nomem)": -0.05429918154761905,
+      "wilcoxon_p": 0.02496337890625,
+      "n_pairs": 16
+    }
+  ],
+  "regressions": {
+    "recovery ~ round + adaptivity + memory + spy_qwen": {
+      "r2": 0.36694685812213734,
+      "coef": {
+        "Intercept": 0.5094941107481906,
+        "round": 0.07165296598162722,
+        "adaptivity": 0.22347449229344726,
+        "memory": 0.019821736319687797,
+        "spy_qwen": -0.06848579633430965
+      },
+      "p": {
+        "Intercept": 4.355419415692699e-26,
+        "round": 2.7981364972203155e-09,
+        "adaptivity": 3.672431893200078e-05,
+        "memory": 0.5111226559004701,
+        "spy_qwen": 0.031975062008262674
+      }
+    },
+    "recovery ~ round + adaptivity*memory + spy_qwen  (does memory shift the slope?)": {
+      "r2": 0.3697614618562257,
+      "coef": {
+        "Intercept": 0.5166796016398483,
+        "round": 0.07395478141166512,
+        "adaptivity": 0.16220890240275962,
+        "memory": -0.0006692823769197413,
+        "adaptivity:memory": 0.11442816441077126,
+        "spy_qwen": -0.07050271417085405
+      },
+      "p": {
+        "Intercept": 3.9906311848586782e-25,
+        "round": 1.8091001589984924e-08,
+        "adaptivity": 0.1447165642692354,
+        "memory": 0.9862406652111544,
+        "adaptivity:memory": 0.3510185203636971,
+        "spy_qwen": 0.02820098858800542
+      }
+    },
+    "coupling ~ round + adaptivity + memory + spy_qwen": {
+      "r2": 0.3559098223175968,
+      "coef": {
+        "Intercept": 11.29338630277387,
+        "round": -1.3250320761139038,
+        "adaptivity": 0.7645788750769774,
+        "memory": 0.6867627325073338,
+        "spy_qwen": -6.670887344153581
+      },
+      "p": {
+        "Intercept": 3.1248475395386766e-18,
+        "round": 4.033966910467416e-05,
+        "adaptivity": 0.6178472263199042,
+        "memory": 0.463533633497733,
+        "spy_qwen": 2.233866814315287e-13
+      }
+    }
+  },
+  "fwl_partial": {
+    "nomem": {
+      "slope": 0.1737130082151034,
+      "p": 0.18979812784413067
+    },
+    "mem": {
+      "slope": 0.2953958064265563,
+      "p": 0.008049087908284208
+    }
+  }
+}
