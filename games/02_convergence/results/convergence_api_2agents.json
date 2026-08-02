@@ -1,0 +1,560 @@
+{
+  "backend": "api",
+  "n_agents": 2,
+  "agents": [
+    "Opus",
+    "Haiku"
+  ],
+  "sim_thresh": 0.6,
+  "stable_rounds": 3,
+  "max_rounds_ceiling": 60,
+  "no_repeats": true,
+  "converged": false,
+  "converged_at_round": null,
+  "final_words": {
+    "Opus": "wayfinding",
+    "Haiku": "navigation"
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "words": {
+        "Opus": "start",
+        "Haiku": "start"
+      },
+      "sim": 1.0000000032730634,
+      "spread": 0.0
+    },
+    {
+      "round": 1,
+      "words": {
+        "Opus": "could",
+        "Haiku": "journey"
+      },
+      "sim": 0.1964376660432756,
+      "spread": 0.633862139643044
+    },
+    {
+      "round": 2,
+      "words": {
+        "Opus": "begin",
+        "Haiku": "destination"
+      },
+      "sim": 0.32061786422517613,
+      "spread": 0.5828302331065228
+    },
+    {
+      "round": 3,
+      "words": {
+        "Opus": "used",
+        "Haiku": "travel"
+      },
+      "sim": 0.18856561370289276,
+      "spread": 0.6369593477012381
+    },
+    {
+      "round": 4,
+      "words": {
+        "Opus": "need",
+        "Haiku": "voyage"
+      },
+      "sim": 0.25927495864964417,
+      "spread": 0.6085741932958245
+    },
+    {
+      "round": 5,
+      "words": {
+        "Opus": "play",
+        "Haiku": "adventure"
+      },
+      "sim": 0.35777240269603244,
+      "spread": 0.5666690391929134
+    },
+    {
+      "round": 6,
+      "words": {
+        "Opus": "we're",
+        "Haiku": "exploration"
+      },
+      "sim": 0.19845246476947825,
+      "spread": 0.6330669971426031
+    },
+    {
+      "round": 7,
+      "words": {
+        "Opus": "used",
+        "Haiku": "discovery"
+      },
+      "sim": 0.26200228113306384,
+      "spread": 0.6074527671170039
+    },
+    {
+      "round": 8,
+      "words": {
+        "Opus": "already",
+        "Haiku": "maps"
+      },
+      "sim": 0.18752157866897498,
+      "spread": 0.6373690129585853
+    },
+    {
+      "round": 9,
+      "words": {
+        "Opus": "converged",
+        "Haiku": "compass"
+      },
+      "sim": 0.18490582683891688,
+      "spread": 0.6383941763545202
+    },
+    {
+      "round": 10,
+      "words": {
+        "Opus": "looking",
+        "Haiku": "navigation"
+      },
+      "sim": 0.24588016495128717,
+      "spread": 0.6140520797639699
+    },
+    {
+      "round": 11,
+      "words": {
+        "Opus": "fits",
+        "Haiku": "expedition"
+      },
+      "sim": 0.19449191624870402,
+      "spread": 0.6346290893091583
+    },
+    {
+      "round": 12,
+      "words": {
+        "Opus": "trek",
+        "Haiku": "direction"
+      },
+      "sim": 0.2791754866013644,
+      "spread": 0.600343462060784
+    },
+    {
+      "round": 13,
+      "words": {
+        "Opus": "me",
+        "Haiku": "pathfinding"
+      },
+      "sim": 0.1557575060565562,
+      "spread": 0.6497085741888898
+    },
+    {
+      "round": 14,
+      "words": {
+        "Opus": "clearly",
+        "Haiku": "routes"
+      },
+      "sim": 0.15319566766711828,
+      "spread": 0.650693627410211
+    },
+    {
+      "round": 15,
+      "words": {
+        "Opus": "i'",
+        "Haiku": "landmarks"
+      },
+      "sim": 0.1497206833129221,
+      "spread": 0.652027366568107
+    },
+    {
+      "round": 16,
+      "words": {
+        "Opus": "converging",
+        "Haiku": "wayfinding"
+      },
+      "sim": 0.37235245995086547,
+      "spread": 0.5601997861754083
+    },
+    {
+      "round": 17,
+      "words": {
+        "Opus": "us",
+        "Haiku": "coordinates"
+      },
+      "sim": 0.2055053844321284,
+      "spread": 0.6302756139056714
+    },
+    {
+      "round": 18,
+      "words": {
+        "Opus": "north",
+        "Haiku": "destination"
+      },
+      "sim": 0.38163751246166894,
+      "spread": 0.5560406863605767
+    },
+    {
+      "round": 19,
+      "words": {
+        "Opus": "can't",
+        "Haiku": "map"
+      },
+      "sim": 0.24051200053785235,
+      "spread": 0.61623371965722
+    },
+    {
+      "round": 20,
+      "words": {
+        "Opus": "pools",
+        "Haiku": "guidance"
+      },
+      "sim": 0.2027008376324208,
+      "spread": 0.6313870685709965
+    },
+    {
+      "round": 21,
+      "words": {
+        "Opus": "keep",
+        "Haiku": "orientation"
+      },
+      "sim": 0.059457841708709804,
+      "spread": 0.6857631642305756
+    },
+    {
+      "round": 22,
+      "words": {
+        "Opus": "seem",
+        "Haiku": "searching"
+      },
+      "sim": 0.2447803763159325,
+      "spread": 0.6144996516509331
+    },
+    {
+      "round": 23,
+      "words": {
+        "Opus": "trail",
+        "Haiku": "finding"
+      },
+      "sim": 0.34850844059473246,
+      "spread": 0.5707414623066109
+    },
+    {
+      "round": 24,
+      "words": {
+        "Opus": "notice",
+        "Haiku": "location"
+      },
+      "sim": 0.27946986314777433,
+      "spread": 0.6002208676018576
+    },
+    {
+      "round": 25,
+      "words": {
+        "Opus": "like",
+        "Haiku": "waypoint"
+      },
+      "sim": 0.16097826553869546,
+      "spread": 0.6476966320920822
+    },
+    {
+      "round": 26,
+      "words": {
+        "Opus": "bearings",
+        "Haiku": "path"
+      },
+      "sim": 0.16563969261390277,
+      "spread": 0.6458948667360915
+    },
+    {
+      "round": 27,
+      "words": {
+        "Opus": "compass-rose",
+        "Haiku": "goal"
+      },
+      "sim": 0.16041167705098403,
+      "spread": 0.6479152717784371
+    },
+    {
+      "round": 28,
+      "words": {
+        "Opus": "seems",
+        "Haiku": "convergence"
+      },
+      "sim": 0.05535194239707189,
+      "spread": 0.6872583577133877
+    },
+    {
+      "round": 29,
+      "words": {
+        "Opus": "guide",
+        "Haiku": "guides"
+      },
+      "sim": 0.8606245075248715,
+      "spread": 0.2639843864925471
+    },
+    {
+      "round": 30,
+      "words": {
+        "Opus": "guidance",
+        "Haiku": "waypoin"
+      },
+      "sim": 0.2264166254957922,
+      "spread": 0.6219257630507171
+    },
+    {
+      "round": 31,
+      "words": {
+        "Opus": "seem",
+        "Haiku": "positioning"
+      },
+      "sim": 0.10230750085763199,
+      "spread": 0.6699599211881268
+    },
+    {
+      "round": 32,
+      "words": {
+        "Opus": "compass",
+        "Haiku": "convergence"
+      },
+      "sim": 0.0837995975907338,
+      "spread": 0.6768310133203893
+    },
+    {
+      "round": 33,
+      "words": {
+        "Opus": "sextant",
+        "Haiku": "targeting"
+      },
+      "sim": 0.21222607354359907,
+      "spread": 0.6276041808576546
+    },
+    {
+      "round": 34,
+      "words": {
+        "Opus": "atlas",
+        "Haiku": "navigation"
+      },
+      "sim": 0.42871384755483566,
+      "spread": 0.5344558715591284
+    },
+    {
+      "round": 35,
+      "words": {
+        "Opus": "guiding",
+        "Haiku": "route"
+      },
+      "sim": 0.48392824822159003,
+      "spread": 0.5079723198029088
+    },
+    {
+      "round": 36,
+      "words": {
+        "Opus": "guide",
+        "Haiku": "landmarks"
+      },
+      "sim": 0.2922512995474756,
+      "spread": 0.5948734186021751
+    },
+    {
+      "round": 37,
+      "words": {
+        "Opus": "navigate",
+        "Haiku": "navigating"
+      },
+      "sim": 0.8610745517205733,
+      "spread": 0.2635578804459117
+    },
+    {
+      "round": 38,
+      "words": {
+        "Opus": "orienting",
+        "Haiku": "charting"
+      },
+      "sim": 0.2587429908895309,
+      "spread": 0.6087926699693318
+    },
+    {
+      "round": 39,
+      "words": {
+        "Opus": "cartography",
+        "Haiku": "course"
+      },
+      "sim": 0.15187603486316498,
+      "spread": 0.6512004407035392
+    },
+    {
+      "round": 40,
+      "words": {
+        "Opus": "direction",
+        "Haiku": "heading"
+      },
+      "sim": 0.44718153019784956,
+      "spread": 0.5257464019085063
+    },
+    {
+      "round": 41,
+      "words": {
+        "Opus": "trail",
+        "Haiku": "trajectory"
+      },
+      "sim": 0.3858264296771736,
+      "spread": 0.554154132429281
+    },
+    {
+      "round": 42,
+      "words": {
+        "Opus": "mapmaking",
+        "Haiku": "pathfinding"
+      },
+      "sim": 0.37450935001783464,
+      "spread": 0.5592363909451538
+    },
+    {
+      "round": 43,
+      "words": {
+        "Opus": "landmark",
+        "Haiku": "orient"
+      },
+      "sim": 0.3170197239020912,
+      "spread": 0.5843715530387611
+    },
+    {
+      "round": 44,
+      "words": {
+        "Opus": "beacon",
+        "Haiku": "coordinate"
+      },
+      "sim": 0.19671468818700097,
+      "spread": 0.633752859211022
+    },
+    {
+      "round": 45,
+      "words": {
+        "Opus": "bearings",
+        "Haiku": "mapping"
+      },
+      "sim": 0.1874965656874878,
+      "spread": 0.6373788239659097
+    },
+    {
+      "round": 46,
+      "words": {
+        "Opus": "compass",
+        "Haiku": "chartography"
+      },
+      "sim": 0.32326315269850875,
+      "spread": 0.5816944932325402
+    },
+    {
+      "round": 47,
+      "words": {
+        "Opus": "converged",
+        "Haiku": "navigation"
+      },
+      "sim": 0.1985776507418126,
+      "spread": 0.6330175367048707
+    },
+    {
+      "round": 48,
+      "words": {
+        "Opus": "notice",
+        "Haiku": "coordinates"
+      },
+      "sim": 0.17452285308544996,
+      "spread": 0.642447339286807
+    },
+    {
+      "round": 49,
+      "words": {
+        "Opus": "like",
+        "Haiku": "pathway"
+      },
+      "sim": 0.2093196357558835,
+      "spread": 0.6287608647936023
+    },
+    {
+      "round": 50,
+      "words": {
+        "Opus": "anchor",
+        "Haiku": "navigation"
+      },
+      "sim": 0.36643518812732123,
+      "spread": 0.5628342907675506
+    },
+    {
+      "round": 51,
+      "words": {
+        "Opus": "lighthouse",
+        "Haiku": "pinpoint"
+      },
+      "sim": 0.2606102586629089,
+      "spread": 0.6080253952099912
+    },
+    {
+      "round": 52,
+      "words": {
+        "Opus": "compass",
+        "Haiku": "navigation"
+      },
+      "sim": 0.45097079093142145,
+      "spread": 0.5239414518641707
+    },
+    {
+      "round": 53,
+      "words": {
+        "Opus": "guiding",
+        "Haiku": "navigating"
+      },
+      "sim": 0.36832090509291776,
+      "spread": 0.5619960716432587
+    },
+    {
+      "round": 54,
+      "words": {
+        "Opus": "orient",
+        "Haiku": "orienting"
+      },
+      "sim": 0.8554797780343844,
+      "spread": 0.26881239145943897
+    },
+    {
+      "round": 55,
+      "words": {
+        "Opus": "bearings",
+        "Haiku": "navigation"
+      },
+      "sim": 0.20286380159843745,
+      "spread": 0.6313225399410864
+    },
+    {
+      "round": 56,
+      "words": {
+        "Opus": "compass",
+        "Haiku": "mapping"
+      },
+      "sim": 0.4013941760824946,
+      "spread": 0.5470858710047491
+    },
+    {
+      "round": 57,
+      "words": {
+        "Opus": "navigate",
+        "Haiku": "charting"
+      },
+      "sim": 0.20564895024205487,
+      "spread": 0.6302186474186464
+    },
+    {
+      "round": 58,
+      "words": {
+        "Opus": "plotting",
+        "Haiku": "orientation"
+      },
+      "sim": 0.1428150851338879,
+      "spread": 0.654669762046756
+    },
+    {
+      "round": 59,
+      "words": {
+        "Opus": "wayfinding",
+        "Haiku": "navigation"
+      },
+      "sim": 0.4707906047602939,
+      "spread": 0.5143974584803531
+    }
+  ]
+}

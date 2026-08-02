@@ -35,6 +35,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--out", default="results/game1")
+    ap.add_argument("--model", default="claude-opus-4-8")
+    ap.add_argument("--max-rounds", type=int, default=3, help="max discussion rounds (keep/swap loop cap)")
     args = ap.parse_args()
 
     if not api_key_present():
@@ -43,7 +45,7 @@ def main():
               file=sys.stderr)
         sys.exit(2)
 
-    cfg = GameConfig(seed=args.seed)
+    cfg = GameConfig(seed=args.seed, default_model=args.model, max_discussion_rounds=args.max_rounds)
     engine = Engine(cfg)                       # assigns roles (seeded)
     logger = GameLogger(args.out, engine.assignment, engine.knowledge)
     engine.logger = logger

@@ -1,0 +1,2207 @@
+[
+  {
+    "rollout": 0,
+    "turn": 1,
+    "A": "frost",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 2,
+    "A": "cloud",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 3,
+    "A": "storm",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 4,
+    "A": "breeze",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 5,
+    "A": "sunset",
+    "B": "auckland",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 6,
+    "A": "hurricane",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 7,
+    "A": "typhoon",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 8,
+    "A": "tokyo",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 9,
+    "A": "weather",
+    "B": "manchester",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 10,
+    "A": "rainbow",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 11,
+    "A": "fog",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 12,
+    "A": "thunder",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 13,
+    "A": "snow",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 14,
+    "A": "sleet",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 15,
+    "A": "blizzard",
+    "B": "edinburgh",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 16,
+    "A": "denver",
+    "B": "montreal",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 17,
+    "A": "hail",
+    "B": "malaga",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 18,
+    "A": "wind",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 19,
+    "A": "lightning",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 20,
+    "A": "avalanche",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 21,
+    "A": "toronto",
+    "B": "valencia",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 22,
+    "A": "cyclone",
+    "B": "baltimore",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 23,
+    "A": "tornado",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 1,
+    "A": "cursed",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 2,
+    "A": "blamed",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 3,
+    "A": "stamped",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 4,
+    "A": "flamed",
+    "B": "halifax",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 5,
+    "A": "claimed",
+    "B": "baltimore",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 6,
+    "A": "shamed",
+    "B": "savannah",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 7,
+    "A": "framed",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 8,
+    "A": "hounded",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 9,
+    "A": "named",
+    "B": "omaha",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 10,
+    "A": "miami",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 11,
+    "A": "atlanta",
+    "B": "chicago",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 12,
+    "A": "dallas",
+    "B": "orlando",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 13,
+    "A": "austin",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 14,
+    "A": "denver",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 15,
+    "A": "phoenix",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 16,
+    "A": "toronto",
+    "B": "sanfrancisco",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 17,
+    "A": "portland",
+    "B": "houston",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 18,
+    "A": "losangeles",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 19,
+    "A": "seoul",
+    "B": "minneapolis",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 20,
+    "A": "newyork",
+    "B": "montreal",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 21,
+    "A": "cleveland",
+    "B": "perth",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 22,
+    "A": "cairo",
+    "B": "cincinnati",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 23,
+    "A": "philadelphia",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 1,
+    "A": "cloud",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 2,
+    "A": "frog",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 3,
+    "A": "stamp",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 4,
+    "A": "space",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 5,
+    "A": "tiger",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 6,
+    "A": "ocean",
+    "B": "hongkong",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 7,
+    "A": "paper",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 8,
+    "A": "flower",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 9,
+    "A": "diamond",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 10,
+    "A": "house",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 11,
+    "A": "gold",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 12,
+    "A": "pearl",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 13,
+    "A": "silver",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 14,
+    "A": "computer",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 15,
+    "A": "radio",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 16,
+    "A": "piano",
+    "B": "kolkata",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 17,
+    "A": "helicopter",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 18,
+    "A": "berlin",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 19,
+    "A": "telescope",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 20,
+    "A": "paris",
+    "B": "newyork",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 21,
+    "A": "microscope",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 22,
+    "A": "telephone",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 23,
+    "A": "bicycle",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 1,
+    "A": "ocean",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 2,
+    "A": "cloud",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 3,
+    "A": "mountain",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 4,
+    "A": "river",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 5,
+    "A": "space",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 6,
+    "A": "forest",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 7,
+    "A": "valley",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 8,
+    "A": "city",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 9,
+    "A": "moon",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 10,
+    "A": "lake",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 11,
+    "A": "tree",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 12,
+    "A": "flower",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 13,
+    "A": "island",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 14,
+    "A": "berlin",
+    "B": "hongkong",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 15,
+    "A": "house",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 16,
+    "A": "snow",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 17,
+    "A": "paris",
+    "B": "zurich",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 18,
+    "A": "computer",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 19,
+    "A": "garden",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 20,
+    "A": "train",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 21,
+    "A": "car",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 22,
+    "A": "road",
+    "B": "stuttgart",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 23,
+    "A": "bridge",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 1,
+    "A": "pineapple",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 2,
+    "A": "mango",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 3,
+    "A": "papaya",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 4,
+    "A": "banana",
+    "B": "malibu",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 5,
+    "A": "orange",
+    "B": "genoa",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 6,
+    "A": "coconut",
+    "B": "savona",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 7,
+    "A": "guava",
+    "B": "monaco",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 8,
+    "A": "watermelon",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 9,
+    "A": "cantaloupe",
+    "B": "tacoma",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 10,
+    "A": "cranberry",
+    "B": "valencia",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 11,
+    "A": "paprika",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 12,
+    "A": "passionfruit",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 13,
+    "A": "grape",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 14,
+    "A": "strawberry",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 15,
+    "A": "kiwi",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 16,
+    "A": "lemon",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 17,
+    "A": "apple",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 18,
+    "A": "fig",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 19,
+    "A": "cherry",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 20,
+    "A": "pear",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 21,
+    "A": "blueberry",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 22,
+    "A": "peach",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 23,
+    "A": "raspberry",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 1,
+    "A": "frost",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 2,
+    "A": "nimbus",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 3,
+    "A": "cloud",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 4,
+    "A": "glacier",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 5,
+    "A": "aurora",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 6,
+    "A": "nebula",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 7,
+    "A": "oasis",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 8,
+    "A": "auckland",
+    "B": "valletta",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 9,
+    "A": "stockholm",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 10,
+    "A": "moscow",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 11,
+    "A": "cairo",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 12,
+    "A": "beijing",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 13,
+    "A": "toronto",
+    "B": "hamburg",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 14,
+    "A": "barcelona",
+    "B": "wellington",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 15,
+    "A": "athens",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 16,
+    "A": "madrid",
+    "B": "limassol",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 17,
+    "A": "manila",
+    "B": "cannes",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 18,
+    "A": "kyoto",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 19,
+    "A": "zurich",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 20,
+    "A": "pariss",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 21,
+    "A": "lyon",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 22,
+    "A": "bangkok",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 23,
+    "A": "warsaw",
+    "B": "hongkong",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 1,
+    "A": "hospital",
+    "B": "halifax",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 2,
+    "A": "laboratory",
+    "B": "baltimore",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 3,
+    "A": "library",
+    "B": "savannah",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 4,
+    "A": "gallery",
+    "B": "chicago",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 5,
+    "A": "orlando",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 6,
+    "A": "atlanta",
+    "B": "neworleans",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 7,
+    "A": "montreal",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 8,
+    "A": "sanfrancisco",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 9,
+    "A": "denver",
+    "B": "denver",
+    "agreed": true
+  },
+  {
+    "rollout": 7,
+    "turn": 1,
+    "A": "harmony",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 2,
+    "A": "melody",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 3,
+    "A": "rhythm",
+    "B": "caspian",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 4,
+    "A": "symphony",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 5,
+    "A": "cadence",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 6,
+    "A": "orchestrate",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 7,
+    "A": "aria",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 8,
+    "A": "copenhagen",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 9,
+    "A": "fugue",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 10,
+    "A": "oslo",
+    "B": "oslo",
+    "agreed": true
+  },
+  {
+    "rollout": 8,
+    "turn": 1,
+    "A": "cloud",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 2,
+    "A": "frost",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 3,
+    "A": "stamp",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 4,
+    "A": "frosty",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 5,
+    "A": "denver",
+    "B": "chicago",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 6,
+    "A": "ranger",
+    "B": "orlando",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 7,
+    "A": "austin",
+    "B": "savannah",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 8,
+    "A": "phoenix",
+    "B": "sanfrancisco",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 9,
+    "A": "portland",
+    "B": "dallas",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 10,
+    "A": "atlanta",
+    "B": "atlanta",
+    "agreed": true
+  },
+  {
+    "rollout": 9,
+    "turn": 1,
+    "A": "cloud",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 2,
+    "A": "frost",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 3,
+    "A": "tiger",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 4,
+    "A": "nile",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 5,
+    "A": "rome",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 6,
+    "A": "denver",
+    "B": "hongkong",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 7,
+    "A": "london",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 8,
+    "A": "paris",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 9,
+    "A": "berlin",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 10,
+    "A": "tokyo",
+    "B": "tokyo",
+    "agreed": true
+  },
+  {
+    "rollout": 10,
+    "turn": 1,
+    "A": "frost",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 2,
+    "A": "stamp",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 3,
+    "A": "cloud",
+    "B": "casablanca",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 4,
+    "A": "flame",
+    "B": "genoa",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 5,
+    "A": "ribbon",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 6,
+    "A": "fable",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 7,
+    "A": "tango",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 8,
+    "A": "tulip",
+    "B": "malta",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 9,
+    "A": "oasis",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 10,
+    "A": "fog",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 11,
+    "A": "mango",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 12,
+    "A": "nimbus",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 13,
+    "A": "santiago",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 14,
+    "A": "salsa",
+    "B": "isthmus",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 15,
+    "A": "walnut",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 16,
+    "A": "maple",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 17,
+    "A": "lima",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 18,
+    "A": "cedar",
+    "B": "beirut",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 19,
+    "A": "lemon",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 20,
+    "A": "olive",
+    "B": "valletta",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 21,
+    "A": "lime",
+    "B": "porto",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 22,
+    "A": "coral",
+    "B": "bergen",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 23,
+    "A": "pearl",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 1,
+    "A": "narrative",
+    "B": "shanghai",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 2,
+    "A": "eclipse",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 3,
+    "A": "finesse",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 4,
+    "A": "cascade",
+    "B": "savannah",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 5,
+    "A": "luminary",
+    "B": "auckland",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 6,
+    "A": "rhapsody",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 7,
+    "A": "kyoto",
+    "B": "galveston",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 8,
+    "A": "symbiosis",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 9,
+    "A": "nebula",
+    "B": "malaga",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 10,
+    "A": "rhythm",
+    "B": "aalborg",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 11,
+    "A": "odyssey",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 12,
+    "A": "paragon",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 13,
+    "A": "palindrome",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 14,
+    "A": "calgary",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 15,
+    "A": "vancouver",
+    "B": "genoa",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 16,
+    "A": "copenhagen",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 17,
+    "A": "oslo",
+    "B": "valencia",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 18,
+    "A": "boston",
+    "B": "limassol",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 19,
+    "A": "adelaide",
+    "B": "kolkata",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 20,
+    "A": "zurich",
+    "B": "syraku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 21,
+    "A": "lyon",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 22,
+    "A": "atlanta",
+    "B": "belgrade",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 23,
+    "A": "athens",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 1,
+    "A": "tunnel",
+    "B": "coast",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 2,
+    "A": "cloud",
+    "B": "shore",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 3,
+    "A": "frost",
+    "B": "bay",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 4,
+    "A": "lake",
+    "B": "port",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 5,
+    "A": "hill",
+    "B": "dock",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 6,
+    "A": "ridge",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 7,
+    "A": "peak",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 8,
+    "A": "cave",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 9,
+    "A": "cliff",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 10,
+    "A": "valley",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 11,
+    "A": "mountain",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 12,
+    "A": "beach",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 13,
+    "A": "wave",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 14,
+    "A": "river",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 15,
+    "A": "glacier",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 16,
+    "A": "snow",
+    "B": "bergen",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 17,
+    "A": "ice",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 18,
+    "A": "fjord",
+    "B": "reykjavik",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 19,
+    "A": "storm",
+    "B": "gothenburg",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 20,
+    "A": "sea",
+    "B": "auckland",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 21,
+    "A": "ocean",
+    "B": "stpetersburg",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 22,
+    "A": "waterfall",
+    "B": "malmo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 23,
+    "A": "snowflake",
+    "B": "calgary",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 1,
+    "A": "perfectly",
+    "B": "auckland",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 2,
+    "A": "harmony",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 3,
+    "A": "symphony",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 4,
+    "A": "melody",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 5,
+    "A": "rhythm",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 6,
+    "A": "vienna",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 7,
+    "A": "kyoto",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 8,
+    "A": "zurich",
+    "B": "galway",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 9,
+    "A": "orchestra",
+    "B": "wellington",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 10,
+    "A": "lyon",
+    "B": "valletta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 11,
+    "A": "geneva",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 12,
+    "A": "berlin",
+    "B": "casablanca",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 13,
+    "A": "munich",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 14,
+    "A": "frankfurt",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 15,
+    "A": "budapest",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 16,
+    "A": "prague",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 17,
+    "A": "madrid",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 18,
+    "A": "cairo",
+    "B": "venezia",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 19,
+    "A": "barcelona",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 20,
+    "A": "munster",
+    "B": "cannes",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 21,
+    "A": "oslo",
+    "B": "ankorage",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 22,
+    "A": "toronto",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 23,
+    "A": "beijing",
+    "B": "manchester",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 1,
+    "A": "tiger",
+    "B": "halifax",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 2,
+    "A": "panda",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 3,
+    "A": "ninja",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 4,
+    "A": "dragon",
+    "B": "genova",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 5,
+    "A": "falcon",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 6,
+    "A": "eagle",
+    "B": "malta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 7,
+    "A": "phoenix",
+    "B": "constanta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 8,
+    "A": "python",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 9,
+    "A": "dolphin",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 10,
+    "A": "copenhagen",
+    "B": "istria",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 11,
+    "A": "leopard",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 12,
+    "A": "jaguar",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 13,
+    "A": "koala",
+    "B": "bergen",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 14,
+    "A": "lion",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 15,
+    "A": "bear",
+    "B": "valletta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 16,
+    "A": "zebra",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 17,
+    "A": "gorilla",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 18,
+    "A": "wolf",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 19,
+    "A": "rome",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 20,
+    "A": "shark",
+    "B": "singapore",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 21,
+    "A": "fox",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 22,
+    "A": "rhino",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 23,
+    "A": "kangaroo",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 1,
+    "A": "cloud",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 2,
+    "A": "frost",
+    "B": "tampa",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 3,
+    "A": "flame",
+    "B": "reno",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 4,
+    "A": "bloom",
+    "B": "omaha",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 5,
+    "A": "storm",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 6,
+    "A": "mango",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 7,
+    "A": "pulse",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 8,
+    "A": "tango",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 9,
+    "A": "lava",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 10,
+    "A": "pearl",
+    "B": "sidney",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 11,
+    "A": "ruby",
+    "B": "casablanca",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 12,
+    "A": "sage",
+    "B": "venice",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 13,
+    "A": "onyx",
+    "B": "honolulu",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 14,
+    "A": "emerald",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 15,
+    "A": "nexus",
+    "B": "delhi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 16,
+    "A": "coral",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 17,
+    "A": "oasis",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 18,
+    "A": "glace",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 19,
+    "A": "zinc",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 20,
+    "A": "dawn",
+    "B": "valencia",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 21,
+    "A": "jade",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 22,
+    "A": "silk",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 23,
+    "A": "chrome",
+    "B": "oslo",
+    "agreed": false
+  }
+]

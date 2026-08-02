@@ -1,0 +1,75 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "table",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "coal",
+   "trail",
+   "board",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "round",
+   "trail",
+   "map",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "black",
+   "trail",
+   "map",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "film",
+   "trail",
+   "lamp",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

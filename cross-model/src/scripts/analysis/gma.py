@@ -154,7 +154,7 @@ def main():
     dev = os.environ.get("DEVICE", "cuda")
     os.makedirs(OUTDIR, exist_ok=True)
     tag = GEN_MODEL; hf, mirror = ALLSPEC[tag]
-    cfg = replace(get_config("gemma_qwen"), **GKW[GRAPH], n_walks=NWALKS, walk_length=300, device=dev)
+    cfg = replace(get_config("gemma_qwen"), **GKW[GRAPH], n_walks=NWALKS, walk_length=int(os.environ.get("WLEN","300")), device=dev)
     graph = G.build_graph(cfg); n = graph.n_nodes; col = two_colour(graph)
     A = np.zeros((n, n))
     for a in range(n):

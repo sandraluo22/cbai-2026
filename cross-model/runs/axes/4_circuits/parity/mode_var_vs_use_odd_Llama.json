@@ -1,0 +1,1217 @@
+{
+  "model": "Llama",
+  "grids": {
+    "3x3": {
+      "k": 3,
+      "n": 9,
+      "base_nbr": 1.0,
+      "pearson": 0.554,
+      "spearman": 0.405,
+      "top_variance_mode": {
+        "mode": 8,
+        "eigenvalue": 2.000000000000001,
+        "label": "parity",
+        "variance_frac": 0.2067,
+        "usage_d_nbr": 0.2731
+      },
+      "top_used_mode": {
+        "mode": 8,
+        "eigenvalue": 2.000000000000001,
+        "label": "parity",
+        "variance_frac": 0.2067,
+        "usage_d_nbr": 0.2731
+      },
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 0.4226497308103737,
+          "label": "coord",
+          "variance_frac": 0.1629,
+          "usage_d_nbr": 0.1
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 0.42264973081037416,
+          "label": "coord",
+          "variance_frac": 0.1658,
+          "usage_d_nbr": 0.0491
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0955,
+          "usage_d_nbr": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0679,
+          "usage_d_nbr": 0.1574
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 1.0,
+          "label": "other",
+          "variance_frac": 0.0789,
+          "usage_d_nbr": 0.0074
+        },
+        {
+          "mode": 6,
+          "eigenvalue": 1.5773502691896253,
+          "label": "other",
+          "variance_frac": 0.1293,
+          "usage_d_nbr": 0.0167
+        },
+        {
+          "mode": 7,
+          "eigenvalue": 1.5773502691896257,
+          "label": "other",
+          "variance_frac": 0.093,
+          "usage_d_nbr": 0.013
+        },
+        {
+          "mode": 8,
+          "eigenvalue": 2.000000000000001,
+          "label": "parity",
+          "variance_frac": 0.2067,
+          "usage_d_nbr": 0.2731
+        }
+      ]
+    },
+    "5x5": {
+      "k": 5,
+      "n": 25,
+      "base_nbr": 0.984,
+      "pearson": 0.445,
+      "spearman": 0.66,
+      "top_variance_mode": {
+        "mode": 2,
+        "eigenvalue": 0.1313008896684266,
+        "label": "coord",
+        "variance_frac": 0.1596,
+        "usage_d_nbr": 0.1107
+      },
+      "top_used_mode": {
+        "mode": 24,
+        "eigenvalue": 2.0,
+        "label": "parity",
+        "variance_frac": 0.0433,
+        "usage_d_nbr": 0.296
+      },
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 0.1313008896684265,
+          "label": "coord",
+          "variance_frac": 0.1356,
+          "usage_d_nbr": 0.1357
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 0.1313008896684266,
+          "label": "coord",
+          "variance_frac": 0.1596,
+          "usage_d_nbr": 0.1107
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 0.2928932188134517,
+          "label": "other",
+          "variance_frac": 0.0778,
+          "usage_d_nbr": 0.2503
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 0.44722920160743307,
+          "label": "other",
+          "variance_frac": 0.0517,
+          "usage_d_nbr": 0.0723
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 0.44722920160743324,
+          "label": "other",
+          "variance_frac": 0.0452,
+          "usage_d_nbr": 0.0403
+        },
+        {
+          "mode": 6,
+          "eigenvalue": 0.6422548092860473,
+          "label": "other",
+          "variance_frac": 0.0318,
+          "usage_d_nbr": 0.01
+        },
+        {
+          "mode": 7,
+          "eigenvalue": 0.6422548092860476,
+          "label": "other",
+          "variance_frac": 0.035,
+          "usage_d_nbr": 0.0213
+        },
+        {
+          "mode": 8,
+          "eigenvalue": 0.7810575651324636,
+          "label": "other",
+          "variance_frac": 0.0254,
+          "usage_d_nbr": 0.0467
+        },
+        {
+          "mode": 9,
+          "eigenvalue": 0.7810575651324639,
+          "label": "other",
+          "variance_frac": 0.0228,
+          "usage_d_nbr": 0.018
+        },
+        {
+          "mode": 10,
+          "eigenvalue": 0.999999999999999,
+          "label": "other",
+          "variance_frac": 0.0226,
+          "usage_d_nbr": 0.036
+        },
+        {
+          "mode": 11,
+          "eigenvalue": 0.9999999999999993,
+          "label": "other",
+          "variance_frac": 0.0185,
+          "usage_d_nbr": 0.0193
+        },
+        {
+          "mode": 12,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0246,
+          "usage_d_nbr": 0.0053
+        },
+        {
+          "mode": 13,
+          "eigenvalue": 0.9999999999999999,
+          "label": "other",
+          "variance_frac": 0.0194,
+          "usage_d_nbr": 0.0123
+        },
+        {
+          "mode": 14,
+          "eigenvalue": 1.0000000000000002,
+          "label": "other",
+          "variance_frac": 0.0245,
+          "usage_d_nbr": 0.01
+        },
+        {
+          "mode": 15,
+          "eigenvalue": 1.2189424348675348,
+          "label": "other",
+          "variance_frac": 0.0269,
+          "usage_d_nbr": 0.0263
+        },
+        {
+          "mode": 16,
+          "eigenvalue": 1.2189424348675357,
+          "label": "other",
+          "variance_frac": 0.0197,
+          "usage_d_nbr": 0.0173
+        },
+        {
+          "mode": 17,
+          "eigenvalue": 1.3577451907139522,
+          "label": "other",
+          "variance_frac": 0.0191,
+          "usage_d_nbr": 0.0167
+        },
+        {
+          "mode": 18,
+          "eigenvalue": 1.357745190713953,
+          "label": "other",
+          "variance_frac": 0.0294,
+          "usage_d_nbr": 0.0187
+        },
+        {
+          "mode": 19,
+          "eigenvalue": 1.552770798392566,
+          "label": "other",
+          "variance_frac": 0.031,
+          "usage_d_nbr": 0.0213
+        },
+        {
+          "mode": 20,
+          "eigenvalue": 1.552770798392566,
+          "label": "other",
+          "variance_frac": 0.0358,
+          "usage_d_nbr": 0.1677
+        },
+        {
+          "mode": 21,
+          "eigenvalue": 1.7071067811865466,
+          "label": "other",
+          "variance_frac": 0.023,
+          "usage_d_nbr": 0.1157
+        },
+        {
+          "mode": 22,
+          "eigenvalue": 1.868699110331574,
+          "label": "other",
+          "variance_frac": 0.0414,
+          "usage_d_nbr": 0.0593
+        },
+        {
+          "mode": 23,
+          "eigenvalue": 1.8686991103315742,
+          "label": "other",
+          "variance_frac": 0.0359,
+          "usage_d_nbr": 0.0293
+        },
+        {
+          "mode": 24,
+          "eigenvalue": 2.0,
+          "label": "parity",
+          "variance_frac": 0.0433,
+          "usage_d_nbr": 0.296
+        }
+      ]
+    },
+    "7x7": {
+      "k": 7,
+      "n": 49,
+      "base_nbr": 0.9780612244897959,
+      "pearson": 0.118,
+      "spearman": 0.575,
+      "top_variance_mode": {
+        "mode": 2,
+        "eigenvalue": 0.062022005334389854,
+        "label": "other",
+        "variance_frac": 0.1468,
+        "usage_d_nbr": 0.0173
+      },
+      "top_used_mode": {
+        "mode": 32,
+        "eigenvalue": 1.2506696143076281,
+        "label": "other",
+        "variance_frac": 0.0114,
+        "usage_d_nbr": 0.1497
+      },
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 0.062022005334389535,
+          "label": "other",
+          "variance_frac": 0.129,
+          "usage_d_nbr": 0.0789
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 0.062022005334389854,
+          "label": "other",
+          "variance_frac": 0.1468,
+          "usage_d_nbr": 0.0173
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 0.13397459621556163,
+          "label": "other",
+          "variance_frac": 0.0487,
+          "usage_d_nbr": 0.0139
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 0.23005985225014144,
+          "label": "other",
+          "variance_frac": 0.0516,
+          "usage_d_nbr": 0.0861
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 0.23005985225014158,
+          "label": "other",
+          "variance_frac": 0.0387,
+          "usage_d_nbr": 0.0245
+        },
+        {
+          "mode": 6,
+          "eigenvalue": 0.3150225181266685,
+          "label": "other",
+          "variance_frac": 0.03,
+          "usage_d_nbr": 0.0514
+        },
+        {
+          "mode": 7,
+          "eigenvalue": 0.31502251812666926,
+          "label": "other",
+          "variance_frac": 0.0373,
+          "usage_d_nbr": 0.056
+        },
+        {
+          "mode": 8,
+          "eigenvalue": 0.4586196203358744,
+          "label": "other",
+          "variance_frac": 0.0199,
+          "usage_d_nbr": 0.0594
+        },
+        {
+          "mode": 9,
+          "eigenvalue": 0.4586196203358745,
+          "label": "other",
+          "variance_frac": 0.0196,
+          "usage_d_nbr": 0.0327
+        },
+        {
+          "mode": 10,
+          "eigenvalue": 0.5000000000000001,
+          "label": "other",
+          "variance_frac": 0.0205,
+          "usage_d_nbr": 0.0509
+        },
+        {
+          "mode": 11,
+          "eigenvalue": 0.5590414481559016,
+          "label": "other",
+          "variance_frac": 0.0163,
+          "usage_d_nbr": 0.0393
+        },
+        {
+          "mode": 12,
+          "eigenvalue": 0.5590414481559021,
+          "label": "other",
+          "variance_frac": 0.0137,
+          "usage_d_nbr": 0.0083
+        },
+        {
+          "mode": 13,
+          "eigenvalue": 0.6922790730500665,
+          "label": "other",
+          "variance_frac": 0.0118,
+          "usage_d_nbr": 0.0085
+        },
+        {
+          "mode": 14,
+          "eigenvalue": 0.6922790730500668,
+          "label": "other",
+          "variance_frac": 0.0132,
+          "usage_d_nbr": 0.0211
+        },
+        {
+          "mode": 15,
+          "eigenvalue": 0.7493303856923706,
+          "label": "other",
+          "variance_frac": 0.0118,
+          "usage_d_nbr": 0.0104
+        },
+        {
+          "mode": 16,
+          "eigenvalue": 0.7493303856923709,
+          "label": "other",
+          "variance_frac": 0.0115,
+          "usage_d_nbr": 0.025
+        },
+        {
+          "mode": 17,
+          "eigenvalue": 0.8046270150222258,
+          "label": "other",
+          "variance_frac": 0.0087,
+          "usage_d_nbr": 0.0116
+        },
+        {
+          "mode": 18,
+          "eigenvalue": 0.8046270150222263,
+          "label": "other",
+          "variance_frac": 0.0099,
+          "usage_d_nbr": 0.0065
+        },
+        {
+          "mode": 19,
+          "eigenvalue": 0.8823182214084876,
+          "label": "other",
+          "variance_frac": 0.0097,
+          "usage_d_nbr": 0.007
+        },
+        {
+          "mode": 20,
+          "eigenvalue": 0.882318221408488,
+          "label": "other",
+          "variance_frac": 0.0109,
+          "usage_d_nbr": 0.0177
+        },
+        {
+          "mode": 21,
+          "eigenvalue": 0.9999999999999993,
+          "label": "other",
+          "variance_frac": 0.0099,
+          "usage_d_nbr": 0.0197
+        },
+        {
+          "mode": 22,
+          "eigenvalue": 0.9999999999999994,
+          "label": "other",
+          "variance_frac": 0.0087,
+          "usage_d_nbr": 0.0128
+        },
+        {
+          "mode": 23,
+          "eigenvalue": 0.9999999999999996,
+          "label": "other",
+          "variance_frac": 0.0095,
+          "usage_d_nbr": 0.0136
+        },
+        {
+          "mode": 24,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0093,
+          "usage_d_nbr": 0.0124
+        },
+        {
+          "mode": 25,
+          "eigenvalue": 1.0,
+          "label": "other",
+          "variance_frac": 0.0101,
+          "usage_d_nbr": 0.0247
+        },
+        {
+          "mode": 26,
+          "eigenvalue": 1.0000000000000002,
+          "label": "other",
+          "variance_frac": 0.0097,
+          "usage_d_nbr": 0.0185
+        },
+        {
+          "mode": 27,
+          "eigenvalue": 1.0000000000000007,
+          "label": "other",
+          "variance_frac": 0.0099,
+          "usage_d_nbr": 0.023
+        },
+        {
+          "mode": 28,
+          "eigenvalue": 1.1176817785915119,
+          "label": "other",
+          "variance_frac": 0.0091,
+          "usage_d_nbr": 0.0583
+        },
+        {
+          "mode": 29,
+          "eigenvalue": 1.1176817785915123,
+          "label": "other",
+          "variance_frac": 0.0094,
+          "usage_d_nbr": 0.0163
+        },
+        {
+          "mode": 30,
+          "eigenvalue": 1.1953729849777728,
+          "label": "other",
+          "variance_frac": 0.0103,
+          "usage_d_nbr": 0.0151
+        },
+        {
+          "mode": 31,
+          "eigenvalue": 1.195372984977774,
+          "label": "other",
+          "variance_frac": 0.0086,
+          "usage_d_nbr": 0.0109
+        },
+        {
+          "mode": 32,
+          "eigenvalue": 1.2506696143076281,
+          "label": "other",
+          "variance_frac": 0.0114,
+          "usage_d_nbr": 0.1497
+        },
+        {
+          "mode": 33,
+          "eigenvalue": 1.2506696143076288,
+          "label": "other",
+          "variance_frac": 0.0079,
+          "usage_d_nbr": 0.0071
+        },
+        {
+          "mode": 34,
+          "eigenvalue": 1.307720926949933,
+          "label": "other",
+          "variance_frac": 0.0083,
+          "usage_d_nbr": 0.0134
+        },
+        {
+          "mode": 35,
+          "eigenvalue": 1.307720926949934,
+          "label": "other",
+          "variance_frac": 0.0088,
+          "usage_d_nbr": 0.009
+        },
+        {
+          "mode": 36,
+          "eigenvalue": 1.4409585518440982,
+          "label": "other",
+          "variance_frac": 0.0106,
+          "usage_d_nbr": 0.0304
+        },
+        {
+          "mode": 37,
+          "eigenvalue": 1.4409585518440982,
+          "label": "other",
+          "variance_frac": 0.0106,
+          "usage_d_nbr": 0.0898
+        },
+        {
+          "mode": 38,
+          "eigenvalue": 1.4999999999999998,
+          "label": "other",
+          "variance_frac": 0.0148,
+          "usage_d_nbr": 0.0432
+        },
+        {
+          "mode": 39,
+          "eigenvalue": 1.541380379664125,
+          "label": "other",
+          "variance_frac": 0.0127,
+          "usage_d_nbr": 0.0908
+        },
+        {
+          "mode": 40,
+          "eigenvalue": 1.5413803796641252,
+          "label": "other",
+          "variance_frac": 0.0148,
+          "usage_d_nbr": 0.0614
+        },
+        {
+          "mode": 41,
+          "eigenvalue": 1.68497748187333,
+          "label": "other",
+          "variance_frac": 0.0143,
+          "usage_d_nbr": 0.0391
+        },
+        {
+          "mode": 42,
+          "eigenvalue": 1.6849774818733303,
+          "label": "other",
+          "variance_frac": 0.0176,
+          "usage_d_nbr": 0.0442
+        },
+        {
+          "mode": 43,
+          "eigenvalue": 1.7699401477498575,
+          "label": "other",
+          "variance_frac": 0.0136,
+          "usage_d_nbr": 0.0456
+        },
+        {
+          "mode": 44,
+          "eigenvalue": 1.7699401477498584,
+          "label": "other",
+          "variance_frac": 0.0184,
+          "usage_d_nbr": 0.1396
+        },
+        {
+          "mode": 45,
+          "eigenvalue": 1.8660254037844397,
+          "label": "other",
+          "variance_frac": 0.0148,
+          "usage_d_nbr": 0.0474
+        },
+        {
+          "mode": 46,
+          "eigenvalue": 1.9379779946656104,
+          "label": "other",
+          "variance_frac": 0.0189,
+          "usage_d_nbr": 0.0597
+        },
+        {
+          "mode": 47,
+          "eigenvalue": 1.937977994665612,
+          "label": "other",
+          "variance_frac": 0.0191,
+          "usage_d_nbr": 0.0884
+        },
+        {
+          "mode": 48,
+          "eigenvalue": 1.9999999999999991,
+          "label": "parity",
+          "variance_frac": 0.0191,
+          "usage_d_nbr": 0.1439
+        }
+      ]
+    },
+    "9x9": {
+      "k": 9,
+      "n": 81,
+      "base_nbr": 0.9556410256410256,
+      "pearson": 0.193,
+      "spearman": 0.467,
+      "top_variance_mode": {
+        "mode": 1,
+        "eigenvalue": 0.03587404826134939,
+        "label": "other",
+        "variance_frac": 0.0983,
+        "usage_d_nbr": 0.0619
+      },
+      "top_used_mode": {
+        "mode": 7,
+        "eigenvalue": 0.18366426894456458,
+        "label": "other",
+        "variance_frac": 0.0282,
+        "usage_d_nbr": 0.1153
+      },
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 0.03587404826134939,
+          "label": "other",
+          "variance_frac": 0.0983,
+          "usage_d_nbr": 0.0619
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 0.03587404826134981,
+          "label": "other",
+          "variance_frac": 0.0949,
+          "usage_d_nbr": 0.0056
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 0.07612046748871304,
+          "label": "other",
+          "variance_frac": 0.0526,
+          "usage_d_nbr": 0.0344
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 0.1373670895100041,
+          "label": "other",
+          "variance_frac": 0.0536,
+          "usage_d_nbr": 0.0176
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 0.13736708951000412,
+          "label": "other",
+          "variance_frac": 0.0442,
+          "usage_d_nbr": 0.0449
+        },
+        {
+          "mode": 6,
+          "eigenvalue": 0.18366426894456456,
+          "label": "other",
+          "variance_frac": 0.0269,
+          "usage_d_nbr": 0.0395
+        },
+        {
+          "mode": 7,
+          "eigenvalue": 0.18366426894456458,
+          "label": "other",
+          "variance_frac": 0.0282,
+          "usage_d_nbr": 0.1153
+        },
+        {
+          "mode": 8,
+          "eigenvalue": 0.2880750129330205,
+          "label": "other",
+          "variance_frac": 0.0161,
+          "usage_d_nbr": 0.0087
+        },
+        {
+          "mode": 9,
+          "eigenvalue": 0.2880750129330206,
+          "label": "other",
+          "variance_frac": 0.0258,
+          "usage_d_nbr": 0.0537
+        },
+        {
+          "mode": 10,
+          "eigenvalue": 0.2928932188134524,
+          "label": "other",
+          "variance_frac": 0.0178,
+          "usage_d_nbr": 0.03
+        },
+        {
+          "mode": 11,
+          "eigenvalue": 0.3425699291081727,
+          "label": "other",
+          "variance_frac": 0.0167,
+          "usage_d_nbr": 0.0053
+        },
+        {
+          "mode": 12,
+          "eigenvalue": 0.3425699291081732,
+          "label": "other",
+          "variance_frac": 0.0181,
+          "usage_d_nbr": 0.0215
+        },
+        {
+          "mode": 13,
+          "eigenvalue": 0.4545937565106221,
+          "label": "other",
+          "variance_frac": 0.0105,
+          "usage_d_nbr": 0.04
+        },
+        {
+          "mode": 14,
+          "eigenvalue": 0.45459375651062267,
+          "label": "other",
+          "variance_frac": 0.0113,
+          "usage_d_nbr": 0.0458
+        },
+        {
+          "mode": 15,
+          "eigenvalue": 0.46553021199600686,
+          "label": "other",
+          "variance_frac": 0.011,
+          "usage_d_nbr": 0.0206
+        },
+        {
+          "mode": 16,
+          "eigenvalue": 0.46553021199600775,
+          "label": "other",
+          "variance_frac": 0.0116,
+          "usage_d_nbr": 0.0555
+        },
+        {
+          "mode": 17,
+          "eigenvalue": 0.5281750950061163,
+          "label": "other",
+          "variance_frac": 0.0114,
+          "usage_d_nbr": 0.0273
+        },
+        {
+          "mode": 18,
+          "eigenvalue": 0.5281750950061168,
+          "label": "other",
+          "variance_frac": 0.008,
+          "usage_d_nbr": 0.0141
+        },
+        {
+          "mode": 19,
+          "eigenvalue": 0.6173165676349099,
+          "label": "other",
+          "variance_frac": 0.009,
+          "usage_d_nbr": 0.01
+        },
+        {
+          "mode": 20,
+          "eigenvalue": 0.6444760819564262,
+          "label": "other",
+          "variance_frac": 0.0081,
+          "usage_d_nbr": 0.0123
+        },
+        {
+          "mode": 21,
+          "eigenvalue": 0.6444760819564264,
+          "label": "other",
+          "variance_frac": 0.0091,
+          "usage_d_nbr": 0.0303
+        },
+        {
+          "mode": 22,
+          "eigenvalue": 0.645235841921965,
+          "label": "other",
+          "variance_frac": 0.0079,
+          "usage_d_nbr": 0.0115
+        },
+        {
+          "mode": 23,
+          "eigenvalue": 0.6452358419219653,
+          "label": "other",
+          "variance_frac": 0.0084,
+          "usage_d_nbr": 0.0162
+        },
+        {
+          "mode": 24,
+          "eigenvalue": 0.7142123327082567,
+          "label": "other",
+          "variance_frac": 0.0055,
+          "usage_d_nbr": 0.0012
+        },
+        {
+          "mode": 25,
+          "eigenvalue": 0.714212332708257,
+          "label": "other",
+          "variance_frac": 0.0073,
+          "usage_d_nbr": 0.026
+        },
+        {
+          "mode": 26,
+          "eigenvalue": 0.8044144801016282,
+          "label": "other",
+          "variance_frac": 0.0073,
+          "usage_d_nbr": 0.0073
+        },
+        {
+          "mode": 27,
+          "eigenvalue": 0.8044144801016285,
+          "label": "other",
+          "variance_frac": 0.0089,
+          "usage_d_nbr": 0.0358
+        },
+        {
+          "mode": 28,
+          "eigenvalue": 0.808482857353876,
+          "label": "other",
+          "variance_frac": 0.007,
+          "usage_d_nbr": 0.0227
+        },
+        {
+          "mode": 29,
+          "eigenvalue": 0.8084828573538771,
+          "label": "other",
+          "variance_frac": 0.0069,
+          "usage_d_nbr": 0.0112
+        },
+        {
+          "mode": 30,
+          "eigenvalue": 0.8346576205515277,
+          "label": "other",
+          "variance_frac": 0.0064,
+          "usage_d_nbr": 0.0026
+        },
+        {
+          "mode": 31,
+          "eigenvalue": 0.8346576205515281,
+          "label": "other",
+          "variance_frac": 0.0063,
+          "usage_d_nbr": 0.0182
+        },
+        {
+          "mode": 32,
+          "eigenvalue": 0.8771887275546203,
+          "label": "other",
+          "variance_frac": 0.0074,
+          "usage_d_nbr": 0.0197
+        },
+        {
+          "mode": 33,
+          "eigenvalue": 0.8771887275546207,
+          "label": "other",
+          "variance_frac": 0.0077,
+          "usage_d_nbr": 0.035
+        },
+        {
+          "mode": 34,
+          "eigenvalue": 0.9257745108869259,
+          "label": "other",
+          "variance_frac": 0.0066,
+          "usage_d_nbr": 0.0117
+        },
+        {
+          "mode": 35,
+          "eigenvalue": 0.9257745108869265,
+          "label": "other",
+          "variance_frac": 0.007,
+          "usage_d_nbr": 0.019
+        },
+        {
+          "mode": 36,
+          "eigenvalue": 0.999999999999999,
+          "label": "other",
+          "variance_frac": 0.0056,
+          "usage_d_nbr": 0.0259
+        },
+        {
+          "mode": 37,
+          "eigenvalue": 0.9999999999999996,
+          "label": "other",
+          "variance_frac": 0.0054,
+          "usage_d_nbr": 0.005
+        },
+        {
+          "mode": 38,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0044,
+          "usage_d_nbr": 0.0086
+        },
+        {
+          "mode": 39,
+          "eigenvalue": 0.9999999999999998,
+          "label": "other",
+          "variance_frac": 0.0055,
+          "usage_d_nbr": 0.0026
+        },
+        {
+          "mode": 40,
+          "eigenvalue": 0.9999999999999999,
+          "label": "other",
+          "variance_frac": 0.0046,
+          "usage_d_nbr": 0.0056
+        },
+        {
+          "mode": 41,
+          "eigenvalue": 0.9999999999999999,
+          "label": "other",
+          "variance_frac": 0.0062,
+          "usage_d_nbr": 0.0138
+        },
+        {
+          "mode": 42,
+          "eigenvalue": 1.0000000000000004,
+          "label": "other",
+          "variance_frac": 0.0051,
+          "usage_d_nbr": 0.0197
+        },
+        {
+          "mode": 43,
+          "eigenvalue": 1.0000000000000004,
+          "label": "other",
+          "variance_frac": 0.0055,
+          "usage_d_nbr": 0.0195
+        },
+        {
+          "mode": 44,
+          "eigenvalue": 1.0000000000000009,
+          "label": "other",
+          "variance_frac": 0.0049,
+          "usage_d_nbr": 0.0247
+        },
+        {
+          "mode": 45,
+          "eigenvalue": 1.074225489113074,
+          "label": "other",
+          "variance_frac": 0.0051,
+          "usage_d_nbr": 0.0097
+        },
+        {
+          "mode": 46,
+          "eigenvalue": 1.0742254891130745,
+          "label": "other",
+          "variance_frac": 0.0054,
+          "usage_d_nbr": 0.0321
+        },
+        {
+          "mode": 47,
+          "eigenvalue": 1.122811272445379,
+          "label": "other",
+          "variance_frac": 0.0058,
+          "usage_d_nbr": 0.0038
+        },
+        {
+          "mode": 48,
+          "eigenvalue": 1.1228112724453796,
+          "label": "other",
+          "variance_frac": 0.0052,
+          "usage_d_nbr": 0.011
+        },
+        {
+          "mode": 49,
+          "eigenvalue": 1.1653423794484716,
+          "label": "other",
+          "variance_frac": 0.0053,
+          "usage_d_nbr": -0.0021
+        },
+        {
+          "mode": 50,
+          "eigenvalue": 1.165342379448472,
+          "label": "other",
+          "variance_frac": 0.0053,
+          "usage_d_nbr": 0.0244
+        },
+        {
+          "mode": 51,
+          "eigenvalue": 1.1915171426461226,
+          "label": "other",
+          "variance_frac": 0.0058,
+          "usage_d_nbr": 0.0118
+        },
+        {
+          "mode": 52,
+          "eigenvalue": 1.1915171426461229,
+          "label": "other",
+          "variance_frac": 0.0057,
+          "usage_d_nbr": 0.0276
+        },
+        {
+          "mode": 53,
+          "eigenvalue": 1.195585519898372,
+          "label": "other",
+          "variance_frac": 0.0058,
+          "usage_d_nbr": 0.0249
+        },
+        {
+          "mode": 54,
+          "eigenvalue": 1.1955855198983723,
+          "label": "other",
+          "variance_frac": 0.0052,
+          "usage_d_nbr": 0.0176
+        },
+        {
+          "mode": 55,
+          "eigenvalue": 1.2857876672917432,
+          "label": "other",
+          "variance_frac": 0.0057,
+          "usage_d_nbr": 0.0246
+        },
+        {
+          "mode": 56,
+          "eigenvalue": 1.2857876672917432,
+          "label": "other",
+          "variance_frac": 0.0066,
+          "usage_d_nbr": 0.0649
+        },
+        {
+          "mode": 57,
+          "eigenvalue": 1.3547641580780336,
+          "label": "other",
+          "variance_frac": 0.0066,
+          "usage_d_nbr": 0.0155
+        },
+        {
+          "mode": 58,
+          "eigenvalue": 1.3547641580780356,
+          "label": "other",
+          "variance_frac": 0.0071,
+          "usage_d_nbr": 0.021
+        },
+        {
+          "mode": 59,
+          "eigenvalue": 1.3555239180435732,
+          "label": "other",
+          "variance_frac": 0.0071,
+          "usage_d_nbr": 0.0087
+        },
+        {
+          "mode": 60,
+          "eigenvalue": 1.3555239180435739,
+          "label": "other",
+          "variance_frac": 0.0061,
+          "usage_d_nbr": 0.0078
+        },
+        {
+          "mode": 61,
+          "eigenvalue": 1.3826834323650894,
+          "label": "other",
+          "variance_frac": 0.0077,
+          "usage_d_nbr": 0.0535
+        },
+        {
+          "mode": 62,
+          "eigenvalue": 1.471824904993883,
+          "label": "other",
+          "variance_frac": 0.0054,
+          "usage_d_nbr": 0.0291
+        },
+        {
+          "mode": 63,
+          "eigenvalue": 1.4718249049938839,
+          "label": "other",
+          "variance_frac": 0.0063,
+          "usage_d_nbr": 0.0192
+        },
+        {
+          "mode": 64,
+          "eigenvalue": 1.534469788003993,
+          "label": "other",
+          "variance_frac": 0.007,
+          "usage_d_nbr": 0.0049
+        },
+        {
+          "mode": 65,
+          "eigenvalue": 1.5344697880039946,
+          "label": "other",
+          "variance_frac": 0.0076,
+          "usage_d_nbr": 0.0131
+        },
+        {
+          "mode": 66,
+          "eigenvalue": 1.5454062434893778,
+          "label": "other",
+          "variance_frac": 0.0062,
+          "usage_d_nbr": 0.0381
+        },
+        {
+          "mode": 67,
+          "eigenvalue": 1.5454062434893783,
+          "label": "other",
+          "variance_frac": 0.0086,
+          "usage_d_nbr": 0.0187
+        },
+        {
+          "mode": 68,
+          "eigenvalue": 1.6574300708918275,
+          "label": "other",
+          "variance_frac": 0.0086,
+          "usage_d_nbr": 0.0385
+        },
+        {
+          "mode": 69,
+          "eigenvalue": 1.657430070891828,
+          "label": "other",
+          "variance_frac": 0.0065,
+          "usage_d_nbr": 0.0095
+        },
+        {
+          "mode": 70,
+          "eigenvalue": 1.707106781186547,
+          "label": "other",
+          "variance_frac": 0.0073,
+          "usage_d_nbr": 0.0753
+        },
+        {
+          "mode": 71,
+          "eigenvalue": 1.7119249870669793,
+          "label": "other",
+          "variance_frac": 0.0116,
+          "usage_d_nbr": 0.0823
+        },
+        {
+          "mode": 72,
+          "eigenvalue": 1.7119249870669797,
+          "label": "other",
+          "variance_frac": 0.0082,
+          "usage_d_nbr": 0.0237
+        },
+        {
+          "mode": 73,
+          "eigenvalue": 1.8163357310554347,
+          "label": "other",
+          "variance_frac": 0.0088,
+          "usage_d_nbr": 0.0754
+        },
+        {
+          "mode": 74,
+          "eigenvalue": 1.8163357310554349,
+          "label": "other",
+          "variance_frac": 0.0103,
+          "usage_d_nbr": 0.034
+        },
+        {
+          "mode": 75,
+          "eigenvalue": 1.8626329104899948,
+          "label": "other",
+          "variance_frac": 0.007,
+          "usage_d_nbr": 0.029
+        },
+        {
+          "mode": 76,
+          "eigenvalue": 1.8626329104899957,
+          "label": "other",
+          "variance_frac": 0.0147,
+          "usage_d_nbr": 0.0688
+        },
+        {
+          "mode": 77,
+          "eigenvalue": 1.923879532511287,
+          "label": "other",
+          "variance_frac": 0.0087,
+          "usage_d_nbr": 0.0204
+        },
+        {
+          "mode": 78,
+          "eigenvalue": 1.9641259517386496,
+          "label": "other",
+          "variance_frac": 0.0113,
+          "usage_d_nbr": 0.0585
+        },
+        {
+          "mode": 79,
+          "eigenvalue": 1.9641259517386496,
+          "label": "other",
+          "variance_frac": 0.0131,
+          "usage_d_nbr": 0.109
+        },
+        {
+          "mode": 80,
+          "eigenvalue": 1.9999999999999996,
+          "label": "parity",
+          "variance_frac": 0.01,
+          "usage_d_nbr": 0.0478
+        }
+      ]
+    }
+  }
+}

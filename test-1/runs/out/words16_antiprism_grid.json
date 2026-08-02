@@ -1,0 +1,26 @@
+{
+  "pair": [
+    "antiprism",
+    "grid"
+  ],
+  "words16": [
+    "pencil",
+    "river",
+    "mirror",
+    "jacket",
+    "ocean",
+    "coin",
+    "brush",
+    "planet",
+    "anchor",
+    "apple",
+    "bird",
+    "clock",
+    "bread",
+    "chair",
+    "candle",
+    "tiger"
+  ],
+  "max_edge_prior": 0.0034412093104374958,
+  "baseline_max_edge_prior": 0.2201396745342628
+}

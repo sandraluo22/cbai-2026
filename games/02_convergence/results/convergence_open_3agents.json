@@ -1,0 +1,622 @@
+{
+  "backend": "open",
+  "n_agents": 3,
+  "agents": [
+    "Llama",
+    "Gemma",
+    "Qwen"
+  ],
+  "sim_thresh": 0.6,
+  "stable_rounds": 3,
+  "max_rounds_ceiling": 60,
+  "no_repeats": true,
+  "converged": false,
+  "converged_at_round": null,
+  "final_words": {
+    "Llama": "forbid",
+    "Gemma": "summit",
+    "Qwen": "climbing"
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "words": {
+        "Llama": "mountain",
+        "Gemma": "ocean",
+        "Qwen": "start"
+      },
+      "sim": 0.3131476256589237,
+      "spread": 0.6755897573219745
+    },
+    {
+      "round": 1,
+      "words": {
+        "Llama": "waves",
+        "Gemma": "trek",
+        "Qwen": "journey"
+      },
+      "sim": 0.3054028701040302,
+      "spread": 0.6763558059422997
+    },
+    {
+      "round": 2,
+      "words": {
+        "Llama": "seaside",
+        "Gemma": "summit",
+        "Qwen": "trail"
+      },
+      "sim": 0.3568905445615071,
+      "spread": 0.6544580499607057
+    },
+    {
+      "round": 3,
+      "words": {
+        "Llama": "cliff",
+        "Gemma": "climb",
+        "Qwen": "path"
+      },
+      "sim": 0.4470129025654665,
+      "spread": 0.6047238150890376
+    },
+    {
+      "round": 4,
+      "words": {
+        "Llama": "qwen",
+        "Gemma": "view",
+        "Qwen": "mountain"
+      },
+      "sim": 0.2590085722236409,
+      "spread": 0.7027377603634122
+    },
+    {
+      "round": 5,
+      "words": {
+        "Llama": "repeated",
+        "Gemma": "top",
+        "Qwen": "trail"
+      },
+      "sim": 0.29617712732580853,
+      "spread": 0.6849387136945085
+    },
+    {
+      "round": 6,
+      "words": {
+        "Llama": "see",
+        "Gemma": "trek",
+        "Qwen": "summit"
+      },
+      "sim": 0.2073186654274106,
+      "spread": 0.7265804603990884
+    },
+    {
+      "round": 7,
+      "words": {
+        "Llama": "made",
+        "Gemma": "ocean",
+        "Qwen": "view"
+      },
+      "sim": 0.20936458534711333,
+      "spread": 0.7259737467817411
+    },
+    {
+      "round": 8,
+      "words": {
+        "Llama": "think",
+        "Gemma": "waves",
+        "Qwen": "climb"
+      },
+      "sim": 0.1783758185498072,
+      "spread": 0.7398862865329336
+    },
+    {
+      "round": 9,
+      "words": {
+        "Llama": "surge",
+        "Gemma": "path",
+        "Qwen": "journey"
+      },
+      "sim": 0.3426000281228668,
+      "spread": 0.6568222895957428
+    },
+    {
+      "round": 10,
+      "words": {
+        "Llama": "vessel",
+        "Gemma": "summit",
+        "Qwen": "seaseite"
+      },
+      "sim": 0.25273723421643796,
+      "spread": 0.7035032951690999
+    },
+    {
+      "round": 11,
+      "words": {
+        "Llama": "seems",
+        "Gemma": "ocean",
+        "Qwen": "sea"
+      },
+      "sim": 0.4090860632301057,
+      "spread": 0.6057402411556868
+    },
+    {
+      "round": 12,
+      "words": {
+        "Llama": "note",
+        "Gemma": "wave",
+        "Qwen": "trough"
+      },
+      "sim": 0.3184845085662143,
+      "spread": 0.6737099465642337
+    },
+    {
+      "round": 13,
+      "words": {
+        "Llama": "tide",
+        "Gemma": "journey",
+        "Qwen": "tide"
+      },
+      "sim": 0.4772181675510299,
+      "spread": 0.5565938057427156
+    },
+    {
+      "round": 14,
+      "words": {
+        "Llama": "already",
+        "Gemma": "ocean",
+        "Qwen": "start"
+      },
+      "sim": 0.2623121126284453,
+      "spread": 0.7008572332019848
+    },
+    {
+      "round": 15,
+      "words": {
+        "Llama": "can't",
+        "Gemma": "waves",
+        "Qwen": "mountain"
+      },
+      "sim": 0.16607479367647543,
+      "spread": 0.7454787636244196
+    },
+    {
+      "round": 16,
+      "words": {
+        "Llama": "previous",
+        "Gemma": "summit",
+        "Qwen": "trek"
+      },
+      "sim": 0.25202173234177533,
+      "spread": 0.7060747285714521
+    },
+    {
+      "round": 17,
+      "words": {
+        "Llama": "you",
+        "Gemma": "path",
+        "Qwen": "climb"
+      },
+      "sim": 0.2887953320009698,
+      "spread": 0.6867962240090447
+    },
+    {
+      "round": 18,
+      "words": {
+        "Llama": "cannot",
+        "Gemma": "cliff",
+        "Qwen": "trail"
+      },
+      "sim": 0.265260161056013,
+      "spread": 0.6978509444271058
+    },
+    {
+      "round": 19,
+      "words": {
+        "Llama": "never",
+        "Gemma": "view",
+        "Qwen": "seaside"
+      },
+      "sim": 0.132222556310991,
+      "spread": 0.7605679728324192
+    },
+    {
+      "round": 20,
+      "words": {
+        "Llama": "wait",
+        "Gemma": "journey",
+        "Qwen": "summit"
+      },
+      "sim": 0.24975536769951834,
+      "spread": 0.7061921269223351
+    },
+    {
+      "round": 21,
+      "words": {
+        "Llama": "appears",
+        "Gemma": "ocean",
+        "Qwen": "ocean"
+      },
+      "sim": 0.4714570136135677,
+      "spread": 0.5596523046930416
+    },
+    {
+      "round": 22,
+      "words": {
+        "Llama": "you're",
+        "Gemma": "waves",
+        "Qwen": "waves"
+      },
+      "sim": 0.42188159364173644,
+      "spread": 0.5853107959112253
+    },
+    {
+      "round": 23,
+      "words": {
+        "Llama": "like",
+        "Gemma": "surf",
+        "Qwen": "climber"
+      },
+      "sim": 0.18463540198222858,
+      "spread": 0.7371258249314203
+    },
+    {
+      "round": 24,
+      "words": {
+        "Llama": "doesn't",
+        "Gemma": "trail",
+        "Qwen": "surfer"
+      },
+      "sim": 0.23187908504040025,
+      "spread": 0.7139399162486785
+    },
+    {
+      "round": 25,
+      "words": {
+        "Llama": "does",
+        "Gemma": "ocean",
+        "Qwen": "wave"
+      },
+      "sim": 0.2840356062596526,
+      "spread": 0.6873037838273657
+    },
+    {
+      "round": 26,
+      "words": {
+        "Llama": "doesnt",
+        "Gemma": "shore",
+        "Qwen": "summit"
+      },
+      "sim": 0.21159524550687317,
+      "spread": 0.7236706901347677
+    },
+    {
+      "round": 27,
+      "words": {
+        "Llama": "does",
+        "Gemma": "view",
+        "Qwen": "view"
+      },
+      "sim": 0.4705816726122937,
+      "spread": 0.5601155335578174
+    },
+    {
+      "round": 28,
+      "words": {
+        "Llama": "involves",
+        "Gemma": "mountain",
+        "Qwen": "mountain"
+      },
+      "sim": 0.49290772142678585,
+      "spread": 0.5481780420592107
+    },
+    {
+      "round": 29,
+      "words": {
+        "Llama": "doesn't",
+        "Gemma": "trail",
+        "Qwen": "climbing"
+      },
+      "sim": 0.28349399014539484,
+      "spread": 0.6877860278437108
+    },
+    {
+      "round": 30,
+      "words": {
+        "Llama": "involved",
+        "Gemma": "climber",
+        "Qwen": "climb"
+      },
+      "sim": 0.4081965419798142,
+      "spread": 0.6098791864929786
+    },
+    {
+      "round": 31,
+      "words": {
+        "Llama": "repeated",
+        "Gemma": "cliff",
+        "Qwen": "trail"
+      },
+      "sim": 0.3405659546109647,
+      "spread": 0.6623718523345999
+    },
+    {
+      "round": 32,
+      "words": {
+        "Llama": "see",
+        "Gemma": "summit",
+        "Qwen": "summit"
+      },
+      "sim": 0.4317546104450582,
+      "spread": 0.5802913217856818
+    },
+    {
+      "round": 33,
+      "words": {
+        "Llama": "invalid",
+        "Gemma": "view",
+        "Qwen": "climber"
+      },
+      "sim": 0.2217445869629756,
+      "spread": 0.7201997098876248
+    },
+    {
+      "round": 34,
+      "words": {
+        "Llama": "made",
+        "Gemma": "mountain",
+        "Qwen": "mountain"
+      },
+      "sim": 0.49792384679750806,
+      "spread": 0.5454600435639874
+    },
+    {
+      "round": 35,
+      "words": {
+        "Llama": "isn't",
+        "Gemma": "trek",
+        "Qwen": "climbing"
+      },
+      "sim": 0.22029541152470097,
+      "spread": 0.7205934742279148
+    },
+    {
+      "round": 36,
+      "words": {
+        "Llama": "involve",
+        "Gemma": "path",
+        "Qwen": "trail"
+      },
+      "sim": 0.4076007574428992,
+      "spread": 0.6247038940078453
+    },
+    {
+      "round": 37,
+      "words": {
+        "Llama": "forbidden",
+        "Gemma": "cliff",
+        "Qwen": "climber"
+      },
+      "sim": 0.31057138815810287,
+      "spread": 0.6724991862086444
+    },
+    {
+      "round": 38,
+      "words": {
+        "Llama": "qwen",
+        "Gemma": "summit",
+        "Qwen": "summit"
+      },
+      "sim": 0.4471661414698545,
+      "spread": 0.5723681289966737
+    },
+    {
+      "round": 39,
+      "words": {
+        "Llama": "continue",
+        "Gemma": "view",
+        "Qwen": "climbing"
+      },
+      "sim": 0.2809167935858783,
+      "spread": 0.692156621206959
+    },
+    {
+      "round": 40,
+      "words": {
+        "Llama": "forbids",
+        "Gemma": "peak",
+        "Qwen": "trail"
+      },
+      "sim": 0.2612443384134375,
+      "spread": 0.7002618026412338
+    },
+    {
+      "round": 41,
+      "words": {
+        "Llama": "has",
+        "Gemma": "mountain",
+        "Qwen": "climber"
+      },
+      "sim": 0.2972118942208792,
+      "spread": 0.6790830137423237
+    },
+    {
+      "round": 42,
+      "words": {
+        "Llama": "involves",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.30112413731202387,
+      "spread": 0.6792972505483802
+    },
+    {
+      "round": 43,
+      "words": {
+        "Llama": "appears",
+        "Gemma": "path",
+        "Qwen": "trail"
+      },
+      "sim": 0.3624368316539852,
+      "spread": 0.6471420614032795
+    },
+    {
+      "round": 44,
+      "words": {
+        "Llama": "converged",
+        "Gemma": "climber",
+        "Qwen": "climbing"
+      },
+      "sim": 0.3788198755647736,
+      "spread": 0.6265231901731755
+    },
+    {
+      "round": 45,
+      "words": {
+        "Llama": "forbid",
+        "Gemma": "peak",
+        "Qwen": "climber"
+      },
+      "sim": 0.2889989775588117,
+      "spread": 0.6854521214307829
+    },
+    {
+      "round": 46,
+      "words": {
+        "Llama": "hasn't",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.23351416636342748,
+      "spread": 0.7098051432653506
+    },
+    {
+      "round": 47,
+      "words": {
+        "Llama": "does",
+        "Gemma": "path",
+        "Qwen": "climber"
+      },
+      "sim": 0.20956051878905171,
+      "spread": 0.7254892056389916
+    },
+    {
+      "round": 48,
+      "words": {
+        "Llama": "invokes",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.290479423693843,
+      "spread": 0.6843377979821664
+    },
+    {
+      "round": 49,
+      "words": {
+        "Llama": "already",
+        "Gemma": "ocean",
+        "Qwen": "climbing"
+      },
+      "sim": 0.23746377429919088,
+      "spread": 0.7126914231416815
+    },
+    {
+      "round": 50,
+      "words": {
+        "Llama": "converge",
+        "Gemma": "path",
+        "Qwen": "climbing"
+      },
+      "sim": 0.25077267491603644,
+      "spread": 0.7054122058457714
+    },
+    {
+      "round": 51,
+      "words": {
+        "Llama": "repeated",
+        "Gemma": "summit",
+        "Qwen": "trail"
+      },
+      "sim": 0.31645986114328695,
+      "spread": 0.6738530884935466
+    },
+    {
+      "round": 52,
+      "words": {
+        "Llama": "doesnt",
+        "Gemma": "climber",
+        "Qwen": "climber"
+      },
+      "sim": 0.44670293775891284,
+      "spread": 0.572607860584512
+    },
+    {
+      "round": 53,
+      "words": {
+        "Llama": "does",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.29198319819712354,
+      "spread": 0.6835862774492175
+    },
+    {
+      "round": 54,
+      "words": {
+        "Llama": "not",
+        "Gemma": "ocean",
+        "Qwen": "climber"
+      },
+      "sim": 0.20258471266206157,
+      "spread": 0.7290670245658095
+    },
+    {
+      "round": 55,
+      "words": {
+        "Llama": "invoke",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.28168860251052724,
+      "spread": 0.6883042497688149
+    },
+    {
+      "round": 56,
+      "words": {
+        "Llama": "forbids",
+        "Gemma": "summit",
+        "Qwen": "climber"
+      },
+      "sim": 0.264754834646392,
+      "spread": 0.6951618882775786
+    },
+    {
+      "round": 57,
+      "words": {
+        "Llama": "doesn't",
+        "Gemma": "summit",
+        "Qwen": "climber"
+      },
+      "sim": 0.2833229978441085,
+      "spread": 0.6868024671174965
+    },
+    {
+      "round": 58,
+      "words": {
+        "Llama": "invalid",
+        "Gemma": "peak",
+        "Qwen": "climber"
+      },
+      "sim": 0.2969263040681813,
+      "spread": 0.681996883890672
+    },
+    {
+      "round": 59,
+      "words": {
+        "Llama": "forbid",
+        "Gemma": "summit",
+        "Qwen": "climbing"
+      },
+      "sim": 0.2903796458817129,
+      "spread": 0.6843871625344796
+    }
+  ]
+}

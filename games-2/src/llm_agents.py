@@ -37,6 +37,8 @@ SPEC = {
     "LlamaInst": ("meta-llama/Llama-3.1-8B-Instruct", "NousResearch/Meta-Llama-3.1-8B-Instruct"),
     "QwenInst":  ("Qwen/Qwen2.5-7B-Instruct", None),
     "QwenInst32": ("Qwen/Qwen3-32B", None),            # Qwen3 = thinking model; see _render (thinking disabled)
+    "LlamaInst70": ("meta-llama/Llama-3.1-70B-Instruct", "NousResearch/Meta-Llama-3.1-70B-Instruct"),  # ~141GB bf16: loaded with device_map=auto (may offload a few layers to CPU on a single H200)
+    "QwenInst72": ("Qwen/Qwen2.5-72B-Instruct", "/workspace/models/Qwen2.5-72B-Instruct"),  # ~145GB bf16, device_map=auto like the 70B; mirror = ModelScope download on the pod
     "GemmaInst": ("google/gemma-2-9b-it", "unsloth/gemma-2-9b-it"),
 }
 
@@ -60,10 +62,20 @@ def load(tag, device):
             continue
         try:
             tok = AutoTokenizer.from_pretrained(name)
-            model = AutoModelForCausalLM.from_pretrained(name, dtype=torch.bfloat16).to(device).eval()
+            if tag.endswith(("70", "72")):  # too big for one GPU in bf16
+                try:                        # prefer 8-bit (fits fully on-GPU, much faster
+                    from transformers import BitsAndBytesConfig  # than CPU-offloaded bf16)
+                    model = AutoModelForCausalLM.from_pretrained(
+                        name, device_map="auto",
+                        quantization_config=BitsAndBytesConfig(load_in_8bit=True)).eval()
+                except ImportError:
+                    model = AutoModelForCausalLM.from_pretrained(
+                        name, dtype=torch.bfloat16, device_map="auto").eval()
+            else:
+                model = AutoModelForCausalLM.from_pretrained(name, dtype=torch.bfloat16).to(device).eval()
             return model, tok
         except Exception as e:  # pragma: no cover
-            print(f"[llm] {tag}: {name} failed ({type(e).__name__})", flush=True)
+            print(f"[llm] {tag}: {name} failed ({type(e).__name__}: {str(e)[:300]})", flush=True)
     raise RuntimeError(f"could not load {tag}")
 
 

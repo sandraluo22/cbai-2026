@@ -1,0 +1,17 @@
+{
+  "Llama-8B": {
+    "peak": 30,
+    "best2d_peak_rsa": 0.8666643516910896,
+    "full_peak_rsa": 0.44519758316549757
+  },
+  "Qwen-8B": {
+    "peak": 34,
+    "best2d_peak_rsa": 0.7331550802139036,
+    "full_peak_rsa": 0.2113063407181054
+  },
+  "Qwen-32B": {
+    "peak": 63,
+    "best2d_peak_rsa": 0.8706785193416208,
+    "full_peak_rsa": 0.3218070699354122
+  }
+}

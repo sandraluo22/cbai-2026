@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Vesper\": 0.7, \"Casey\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Vesper has a higher accuracy rate (6/10) than Casey (5/10), but Casey's accuracy is not significantly lower, and both sources have a single incorrect measurement in the verification log.\"\n}", "trial_id": "labels-0-0002"}

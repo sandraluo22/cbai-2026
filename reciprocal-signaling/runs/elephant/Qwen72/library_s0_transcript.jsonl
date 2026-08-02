@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "library", "true": "library", "clues": ["quiet", "a building", "full of books", "you can borrow things there", "open to everyone"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["whisper", "house", "library", "library", "public"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["whisper", "house", "library", "library", "public"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["whisper", "house", "library", "library", "public"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["whisper", "house", "library", "library", "public"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["whisper", "house", "library", "library", "public"], "all_true": false, "clue_violations": []}

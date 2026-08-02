@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "n36", "true": "36", "clues": ["a multiple of 12", "divisible by 9", "it has 2 digits", "composite", "smaller than 50"], "kind": "number", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["1", "1", "?", "?", "?"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["12", "?", "1", "2", "?"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["24", "18", "13", "4", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["36", "45", "13", "6", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["24", "27", "10", "8", "16"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["24", "36", "10", "8", "27"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["36", "81", "13", "6", "24"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["36", "72", "13", "6", "40"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["36", "72", "13", "8", "24"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["72", "?", "13", "20", "27"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["36", "72", "13", "6", "40"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["36", "81", "36", "36", "40"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["72", "72", "13", "?", "27"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["36", "72", "?", "36", "40"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["36", "72", "13", "36", "27"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["36", "81", "24", "36", "27"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["72", "81", "24", "36", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["36", "72", "?", "36", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["36", "72", "13", "36", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["24", "81", "36", "36", "25"], "all_true": false, "clue_violations": []}

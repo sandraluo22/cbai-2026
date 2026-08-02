@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "n17", "true": "17", "clues": ["a prime number", "it has 2 digits", "smaller than 20", "odd", "the sum of its digits is 8"], "kind": "number", "wrong_agent": null, "rounds": 5, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["2", "12", "15", "1", "17"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["3", "12", "10", "3", "16"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["5", "12", "8", "5", "17"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["7", "12", "7", "7", "17"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["11", "12", "9", "9", "17"], "all_true": false, "clue_violations": []}

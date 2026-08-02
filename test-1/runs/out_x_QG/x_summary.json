@@ -1,0 +1,79 @@
+{
+  "instances": [
+    [
+      "Qwen",
+      "grid",
+      4
+    ],
+    [
+      "Gemma",
+      "ring",
+      2
+    ]
+  ],
+  "stream_mass_late": {
+    "grid": 0.9602999558888399,
+    "ring": 0.8262020291133657,
+    "union": 0.9810322011468902
+  },
+  "top_oscillating_pairs": [
+    [
+      "clock",
+      "lemon",
+      0.298
+    ],
+    [
+      "mirror",
+      "apple",
+      0.196
+    ],
+    [
+      "chair",
+      "apple",
+      0.098
+    ]
+  ],
+  "r2_deep": {
+    "Qwen-grid": {
+      "base": {
+        "grid": 0.20656390284478204,
+        "ring": 0.13994953762031978
+      },
+      "late": {
+        "grid": 0.17826470783817308,
+        "ring": 0.46286289981046314
+      }
+    },
+    "Gemma-ring": {
+      "base": {
+        "grid": 0.1698917089263297,
+        "ring": 0.360718705696135
+      },
+      "late": {
+        "grid": 0.18916341678763018,
+        "ring": 0.4293778391767795
+      }
+    },
+    "fresh-Qwen": {
+      "late": {
+        "grid": 0.18081664254419053,
+        "ring": 0.47716935532536603
+      }
+    },
+    "fresh-Gemma": {
+      "late": {
+        "grid": 0.19267038895877384,
+        "ring": 0.4323645769371623
+      }
+    }
+  },
+  "procrustes_deep": {
+    "Qwen-grid vs Gemma-ring | base": 0.8891733788071929,
+    "Qwen-grid vs Gemma-ring | late": 0.9840994713977054,
+    "Qwen-grid vs fresh-Qwen | late": 0.9987156171952121,
+    "Qwen-grid | base vs late": 0.6332624475430695,
+    "Gemma-ring vs fresh-Gemma | late": 0.9982629234379017,
+    "Gemma-ring | base vs late": 0.7576536097436535,
+    "fresh-Qwen vs fresh-Gemma | late": 0.9818604861432687
+  }
+}

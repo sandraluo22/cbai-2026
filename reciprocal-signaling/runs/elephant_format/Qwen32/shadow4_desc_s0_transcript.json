@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow4_desc",
+  "true": "shadow",
+  "clues": [
+   "it is dark",
+   "it follows you around",
+   "it is completely flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "plane",
+   "photo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "darkness",
+   "trail",
+   "board",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "coal",
+   "track",
+   "map",
+   "lightning"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "obsidian",
+   "track",
+   "floor",
+   "sunscreen"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "eclipse",
+   "track",
+   "map",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "eclipse",
+   "track",
+   "map",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "eclipse",
+   "track",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "eclipse",
+   "track",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "eclipse",
+   "trail",
+   "map",
+   "sunroom"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

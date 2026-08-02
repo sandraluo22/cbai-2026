@@ -1,0 +1,157 @@
+{
+  "model": "Llama",
+  "graph": "ring",
+  "lap": "norm",
+  "walk_length": 300,
+  "ctxlo": 100,
+  "chance": {
+    "neighbour": 0.13333333333333333,
+    "parity": 0.5333333333333333
+  },
+  "baseline": {
+    "neighbour_validity": 0.99125,
+    "parity_validity": 0.991875,
+    "n_pred": 3200
+  },
+  "random_rank1": {
+    "neighbour_validity": 0.9909374999999999,
+    "parity_validity": 0.9915625
+  },
+  "modes": [
+    {
+      "mode": 1,
+      "eigenvalue": 0.07612046748871346,
+      "label": "coord",
+      "neighbour_validity": 0.894375,
+      "parity_validity": 0.929375,
+      "d_nbr": 0.09687499999999993,
+      "d_par": 0.0625
+    },
+    {
+      "mode": 2,
+      "eigenvalue": 0.07612046748871412,
+      "label": "coord",
+      "neighbour_validity": 0.935,
+      "parity_validity": 0.9575,
+      "d_nbr": 0.05624999999999991,
+      "d_par": 0.03437499999999993
+    },
+    {
+      "mode": 3,
+      "eigenvalue": 0.2928932188134522,
+      "label": "other",
+      "neighbour_validity": 0.9409375,
+      "parity_validity": 0.9575,
+      "d_nbr": 0.05031249999999998,
+      "d_par": 0.03437499999999993
+    },
+    {
+      "mode": 4,
+      "eigenvalue": 0.29289321881345254,
+      "label": "other",
+      "neighbour_validity": 0.9346875,
+      "parity_validity": 0.9540625,
+      "d_nbr": 0.05656249999999996,
+      "d_par": 0.037812499999999916
+    },
+    {
+      "mode": 5,
+      "eigenvalue": 0.6173165676349099,
+      "label": "other",
+      "neighbour_validity": 0.9871875,
+      "parity_validity": 0.9903125,
+      "d_nbr": 0.004062499999999969,
+      "d_par": 0.0015624999999999112
+    },
+    {
+      "mode": 6,
+      "eigenvalue": 0.6173165676349099,
+      "label": "other",
+      "neighbour_validity": 0.9703125,
+      "parity_validity": 0.9734375,
+      "d_nbr": 0.020937499999999942,
+      "d_par": 0.018437499999999996
+    },
+    {
+      "mode": 7,
+      "eigenvalue": 0.9999999999999997,
+      "label": "other",
+      "neighbour_validity": 0.97125,
+      "parity_validity": 0.975625,
+      "d_nbr": 0.020000000000000018,
+      "d_par": 0.016249999999999987
+    },
+    {
+      "mode": 8,
+      "eigenvalue": 1.0000000000000002,
+      "label": "other",
+      "neighbour_validity": 0.96375,
+      "parity_validity": 0.9653125,
+      "d_nbr": 0.02749999999999997,
+      "d_par": 0.026562499999999933
+    },
+    {
+      "mode": 9,
+      "eigenvalue": 1.3826834323650898,
+      "label": "other",
+      "neighbour_validity": 0.9615625,
+      "parity_validity": 0.964375,
+      "d_nbr": 0.029687499999999978,
+      "d_par": 0.02749999999999997
+    },
+    {
+      "mode": 10,
+      "eigenvalue": 1.3826834323650898,
+      "label": "other",
+      "neighbour_validity": 0.97125,
+      "parity_validity": 0.9725,
+      "d_nbr": 0.020000000000000018,
+      "d_par": 0.01937499999999992
+    },
+    {
+      "mode": 11,
+      "eigenvalue": 1.707106781186547,
+      "label": "other",
+      "neighbour_validity": 0.96,
+      "parity_validity": 0.963125,
+      "d_nbr": 0.03125,
+      "d_par": 0.028749999999999942
+    },
+    {
+      "mode": 12,
+      "eigenvalue": 1.7071067811865475,
+      "label": "other",
+      "neighbour_validity": 0.955,
+      "parity_validity": 0.955625,
+      "d_nbr": 0.036250000000000004,
+      "d_par": 0.036250000000000004
+    },
+    {
+      "mode": 13,
+      "eigenvalue": 1.9238795325112863,
+      "label": "other",
+      "neighbour_validity": 0.9234375,
+      "parity_validity": 0.925,
+      "d_nbr": 0.06781249999999994,
+      "d_par": 0.0668749999999999
+    },
+    {
+      "mode": 14,
+      "eigenvalue": 1.9238795325112867,
+      "label": "other",
+      "neighbour_validity": 0.6475,
+      "parity_validity": 0.665,
+      "d_nbr": 0.34375,
+      "d_par": 0.3268749999999999
+    },
+    {
+      "mode": 15,
+      "eigenvalue": 1.9999999999999996,
+      "label": "parity",
+      "neighbour_validity": 0.7496875,
+      "parity_validity": 0.7521875,
+      "d_nbr": 0.2415625,
+      "d_par": 0.23968749999999994
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal"
+  ],
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "elephant",
+   "is",
+   "is"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "rhinoceros",
+   "mountain",
+   "monkey"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "say",
+   "sun",
+   "lion"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "player",
+   "giant",
+   "kangaroo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "gray",
+   "whale",
+   "tiger"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   1
+  ]
+ }
+]

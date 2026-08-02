@@ -1,0 +1,196 @@
+{
+  "model": "Llama",
+  "rank_from": "ring16",
+  "KS": [
+    2,
+    4,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256
+  ],
+  "ranked_top": [
+    "L14H26",
+    "L2H22",
+    "L1H20",
+    "L31H14",
+    "L1H21",
+    "L14H19",
+    "L16H20",
+    "L14H8",
+    "L25H7",
+    "L21H7",
+    "L14H10",
+    "L2H26"
+  ],
+  "structs": {
+    "grid4x4": {
+      "base": 0.806,
+      "floor_none": 0.266,
+      "keep": {
+        "2": {
+          "validity": 0.27,
+          "recovered": 0.008
+        },
+        "4": {
+          "validity": 0.261,
+          "recovered": -0.009
+        },
+        "8": {
+          "validity": 0.413,
+          "recovered": 0.273
+        },
+        "16": {
+          "validity": 0.476,
+          "recovered": 0.389
+        },
+        "24": {
+          "validity": 0.562,
+          "recovered": 0.548
+        },
+        "32": {
+          "validity": 0.631,
+          "recovered": 0.675
+        },
+        "48": {
+          "validity": 0.651,
+          "recovered": 0.712
+        },
+        "64": {
+          "validity": 0.482,
+          "recovered": 0.4
+        },
+        "96": {
+          "validity": 0.451,
+          "recovered": 0.342
+        },
+        "128": {
+          "validity": 0.31,
+          "recovered": 0.081
+        },
+        "192": {
+          "validity": 0.661,
+          "recovered": 0.731
+        },
+        "256": {
+          "validity": 0.616,
+          "recovered": 0.649
+        }
+      }
+    },
+    "ring16": {
+      "base": 0.872,
+      "floor_none": 0.126,
+      "keep": {
+        "2": {
+          "validity": 0.129,
+          "recovered": 0.004
+        },
+        "4": {
+          "validity": 0.126,
+          "recovered": -0.0
+        },
+        "8": {
+          "validity": 0.257,
+          "recovered": 0.176
+        },
+        "16": {
+          "validity": 0.358,
+          "recovered": 0.311
+        },
+        "24": {
+          "validity": 0.49,
+          "recovered": 0.488
+        },
+        "32": {
+          "validity": 0.508,
+          "recovered": 0.512
+        },
+        "48": {
+          "validity": 0.578,
+          "recovered": 0.606
+        },
+        "64": {
+          "validity": 0.409,
+          "recovered": 0.38
+        },
+        "96": {
+          "validity": 0.498,
+          "recovered": 0.498
+        },
+        "128": {
+          "validity": 0.264,
+          "recovered": 0.185
+        },
+        "192": {
+          "validity": 0.674,
+          "recovered": 0.735
+        },
+        "256": {
+          "validity": 0.741,
+          "recovered": 0.824
+        }
+      }
+    },
+    "path1x16": {
+      "base": 0.881,
+      "floor_none": 0.15,
+      "keep": {
+        "2": {
+          "validity": 0.154,
+          "recovered": 0.006
+        },
+        "4": {
+          "validity": 0.15,
+          "recovered": 0.0
+        },
+        "8": {
+          "validity": 0.316,
+          "recovered": 0.227
+        },
+        "16": {
+          "validity": 0.412,
+          "recovered": 0.359
+        },
+        "24": {
+          "validity": 0.542,
+          "recovered": 0.536
+        },
+        "32": {
+          "validity": 0.58,
+          "recovered": 0.588
+        },
+        "48": {
+          "validity": 0.663,
+          "recovered": 0.702
+        },
+        "64": {
+          "validity": 0.535,
+          "recovered": 0.526
+        },
+        "96": {
+          "validity": 0.551,
+          "recovered": 0.549
+        },
+        "128": {
+          "validity": 0.304,
+          "recovered": 0.21
+        },
+        "192": {
+          "validity": 0.742,
+          "recovered": 0.81
+        },
+        "256": {
+          "validity": 0.804,
+          "recovered": 0.895
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,818 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": "public"
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "trail",
+   "table",
+   "photo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "P1: \"Night feels too short; maybe something deeper than darkness?\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "Maybe the word is something that \"follows\" in a non-literal sense \u2014 like a pattern or idea.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "\"Let's think about words that can be both flat and common in different contexts.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "\"Photo is my guess\u2014my clue: it needs light to exist.\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "shadow",
+   "track",
+   "shelf",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "\"Dark could mean absence\u2014let\u2019s consider what disappears or hides in the dark.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "Maybe the word is something intangible\u2014like a feeling or concept that sticks with you.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "\"Flat could mean level, surface, or even a type of housing\u2014let\u2019s explore those angles.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "\"Let\u2019s focus on things that literally *require* light\u2014maybe something visual or alive?\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "void",
+   "trail",
+   "shelf",
+   "glow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "\"Let\u2019s think beyond the literal\u2014dark might hint at something hidden, emotional, or conceptual.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "\"Let\u2019s consider what lingers in both mind and light\u2014maybe something seen or felt.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "\"Flat might hint at a surface or a state\u2014think about what can be both flat and illuminated.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "\"Let\u2019s think of things that *can\u2019t* exist without light\u2014maybe something that *glows* or *grows* because of it?\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "abyss",
+   "track",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "Let\u2019s think of what exists between light and dark\u2014something seen, felt, or needed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Let\u2019s think about what *follows* in both shadow and light\u2014maybe something that *lingers* or *echoes*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "\"Let\u2019s consider 'shelf'\u2014it can be flat, holds things, and might tie to light or display.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "\"Let\u2019s consider things that *live* or *form* only when light is present\u2014what can\u2019t exist in darkness?\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "obscurity",
+   "trail",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "\"Let\u2019s think of something that exists between absence and presence, shaped by light but not light itself.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "Let\u2019s think about what *follows* in both shadow and light\u2014maybe something that *lingers* or *echoes*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Let\u2019s think about how \"shelf\" could connect to light, display, or even time.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "\"Let\u2019s think of what *depends on light*\u2014maybe something that *grows*, *forms*, or *reveals* only with it.\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "\"Let\u2019s think of something shaped by light but defined by its absence\u2014darkness leaves a form.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a memory or a shape.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Let\u2019s consider how \"shelf\" could link to light, support, or even something that casts a shadow.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "\"Let\u2019s think of things that *form or appear* only when light is present\u2014what relies on it to be seen or exist?\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "Let\u2019s think of something that *forms in light* but *remains in the dark*\u2014a shape, a trace, or a memory.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a memory or a shape.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Let\u2019s think of something that *supports* in the dark and *reveals* in the light\u2014maybe a surface that *holds* both.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "\"Let\u2019s think of what *forms in light* but *follows you in the dark*\u2014maybe a memory or a shape.\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014a shape, a trace, or a memory.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "Let\u2019s consider what *forms in light* but *follows you in the dark*\u2014maybe a memory, a shadow, or a shape.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Let\u2019s consider how \"shelf\" could both *hold* light and *cast* its absence\u2014maybe it\u2019s a surface that *bears* both.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Let\u2019s think of what *forms in light* but *follows you in the dark*\u2014maybe a memory or a shape.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shelf",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a memory, a shadow, or a shape.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *shape*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Let\u2019s think of something that *holds light* and *casts shadow*\u2014a surface that *bears both*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a memory, a shadow, or a shape.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *silhouette*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "Let\u2019s consider what *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *silhouette*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "\"Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *shape*.\"",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *shape*.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "Let\u2019s focus on something that *forms in light* but *follows you in the dark*\u2014maybe a *silhouette*, *shadow*, or *memory*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "Let\u2019s consider that the secret word might be \"shadow\"\u2014it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Let\u2019s think of something that *forms in light* but *follows you in the dark*\u2014maybe a *memory*, a *shadow*, or a *silhouette*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "Let\u2019s consider \"sunlight\" \u2014 it needs light to exist, and it *is* light. Could this be the word?",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "silhouette",
+   "trail",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "Let\u2019s narrow it down\u2014could the word be *shadow*, *silhouette*, or something that *forms in light* but *lingers in dark*?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "Let\u2019s consider \"shadow\"\u2014it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Let\u2019s consider \"shadow\"\u2014it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "Let\u2019s test \"sunlight\"\u2014does it *need light to exist*, or is it *light itself*?",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "silhouette",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "Let\u2019s confirm: is the word something that *forms in light* but *follows in the dark*\u2014a *silhouette* or *shadow*?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "Let\u2019s test \"shadow\"\u2014it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Let\u2019s test \"shadow\"\u2014it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "Let\u2019s test \"sunlight\"\u2014if it *is* light, does that mean it *needs* light to exist? Maybe the answer is simpler than we think.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "silhouette",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "Let\u2019s finalize\u2014does the word *form in light* but *follow you in the dark*? Think one step beyond the obvious.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "Let\u2019s test \"shadow\" \u2014 it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Let\u2019s test \"shadow\"\u2014it fits *flat* as in two-dimensional and *forms in light, lingers in dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "Let\u2019s test \"sunlight\" \u2014 if it *is* light, does that mean it *needs* light to exist? Maybe the answer is simpler than we think.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "silhouette",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "Let\u2019s test **\"shadow\"** in the next round \u2014 it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "Let\u2019s consider if \"shadow\" is the word that *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Let\u2019s confirm\u2014does \"shadow\" fit *flat*, *forms in light*, and *follows in dark*?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "Let\u2019s test \"sunlight\"\u2014if it *is* light, does that mean it *needs* light to exist? Maybe the answer is simpler than we think.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "Let\u2019s confirm\u2014does **\"shadow\"** fit all clues: *dark*, *flat*, and something that *forms in light but follows in the dark*?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "Let\u2019s finalize\u2014**\"shadow\"** forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Let\u2019s finalize\u2014\u201cshadow\u201d fits *flat*, forms in light, and follows in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "Let\u2019s test \"sunlight\" one last time\u2014does light *need* light to exist, or is it *light itself*?",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "Let\u2019s confirm\u2014**\"shadow\"** fits *dark*, *flat*, and *forms in light but follows in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "Let\u2019s go with **\"shadow\"** \u2014 it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Let\u2019s finalize\u2014**\"shadow\"** fits *flat*, forms in light, and follows in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "\"Let\u2019s decide: does the word *need light to exist*, or is it *light itself*? One final round.\"",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "Let\u2019s finalize our guess\u2014**\"shadow\"** fits all clues and reasoning.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "Let\u2019s decide on **\"shadow\"** \u2014 it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Let\u2019s finalize\u2014**\"shadow\"** is flat, forms in light, and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "Let\u2019s finalize: the word needs light to exist \u2014 is it **sunlight**, or does it **form because of light**? One last guess.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "Let\u2019s go with **\"shadow\"** \u2014 it *forms in light* and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "Let\u2019s finalize: the word that *forms in light* and *follows you in the dark* is **shadow**.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Let\u2019s go with **\"shadow\"** \u2014 it *forms in light*, is *flat*, and *follows you in the dark*.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "Let\u2019s finalize: the word needs light to exist \u2014 my answer is **sunlight**.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "The secret word is **shadow** \u2014 it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "The secret word is **shadow** \u2014 it forms in light and follows you in the dark.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "The secret word is **shadow** \u2014 it forms in light, follows in the dark, and can be flat.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "The secret word needs light to exist\u2014perhaps it is **not** sunlight, but something that **forms because of it**.",
+  "public": true
+ }
+]

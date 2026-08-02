@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "elephant", "true": "elephant", "clues": ["gray", "large", "an animal"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["ash", "mountain", "lion"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["ashen", "volcano", "tiger"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["grey", "erupt", "zebra"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["smoke", "volcanic", "giraffe"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["ashen", "eruption", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["ashen", "erupted", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["ashen", "erupted", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["ashen", "erupted", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["ashen", "erupted", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["ashen", "volcano", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["ashen", "volcano", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["volcanic", "volcano", "camel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["volcano", "volcano", "volcano"], "all_true": false, "clue_violations": []}

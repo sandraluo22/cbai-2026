@@ -1,0 +1,24 @@
+{
+  "model": "LlamaInst70",
+  "temp": 0.7,
+  "safety": 24,
+  "n": 16,
+  "conditions": {
+    "reactive": {
+      "n": 16,
+      "met_frac": 0.875,
+      "met_se": 0.08267972847076846,
+      "turns_to_meet_mean": 4.285714285714286,
+      "turns_to_meet_se": 1.1624594415947467,
+      "n_met": 14
+    },
+    "restrict-city": {
+      "n": 16,
+      "met_frac": 0.3125,
+      "met_se": 0.11587810136086973,
+      "turns_to_meet_mean": 9.8,
+      "turns_to_meet_se": 0.867179335547152,
+      "n_met": 5
+    }
+  }
+}

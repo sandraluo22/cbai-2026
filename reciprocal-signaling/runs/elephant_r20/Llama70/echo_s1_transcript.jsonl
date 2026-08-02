@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "echo", "true": "echo", "clues": ["you can hear it", "it repeats", "you notice it in the mountains", "you cannot see it", "it fades away"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["you", "is", "is", "since", "start"], "all_true": false, "clue_violations": [1]}
+{"type": "round", "round": 2, "guesses": ["sound", "go", "mountain", "air", "cloud"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["say", "echo", "glacier", "light", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["said", "repeat", "ice", "sky", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["you", "repeat", "stone", "say", "sun"], "all_true": false, "clue_violations": [1]}
+{"type": "round", "round": 6, "guesses": ["going", "sun", "peak", "you", "sun"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 7, "guesses": ["going", "sun", "sun", "now", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["going", "sun", "sun", "cloud", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["sun", "sun", "sun", "going", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["sun", "sun", "sun", "going", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["pattern", "sun", "sun", "sun", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["sun", "sun", "sun", "sun", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["sun", "sun", "sun", "given", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["sun", "sun", "sun", "sun", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["sun", "sun", "sun", "sun", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["sound", "sun", "sun", "sun", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["sun", "sun", "sun", "sun", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["sound", "sun", "sun", "sun", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["sun", "sun", "sun", "sun", "snow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["sun", "sun", "sun", "sun", "sun"], "all_true": false, "clue_violations": []}

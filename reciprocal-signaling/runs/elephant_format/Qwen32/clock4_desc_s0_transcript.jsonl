@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "clock4_desc", "true": "clock", "clues": ["it is round in shape", "it has moving hands", "it hangs on a wall", "it tells you the time"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["circle", "clock", "mirror", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["moon", "clock", "mirror", "mirror"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["marble", "clock", "mirror", "sun"], "all_true": false, "clue_violations": []}

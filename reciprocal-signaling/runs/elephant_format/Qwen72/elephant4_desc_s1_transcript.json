@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant4_desc",
+  "true": "elephant",
+  "clues": [
+   "its color is gray",
+   "it is very large in size",
+   "it is a kind of animal",
+   "it has a long trunk"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "elephant",
+   "whale",
+   "dog",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

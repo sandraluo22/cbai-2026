@@ -31,6 +31,7 @@ PRESET = os.environ.get("PRESET", "gemma_qwen")
 ALLSPEC = {"Llama": ("meta-llama/Llama-3.1-8B", "NousResearch/Meta-Llama-3.1-8B"),
            "Gemma": ("google/gemma-2-9b", "unsloth/gemma-2-9b"),
            "Qwen":  ("Qwen/Qwen3-8B-Base", None),
+           "Qwen32": ("Qwen/Qwen3-32B", None),
            "distilgpt2": ("distilgpt2", None)}
 TAG = os.environ.get("TAG", "Llama" if PRESET != "smoke" else "distilgpt2")
 GKW = {"square_grid": dict(graph_type="grid", grid_rows=4, grid_cols=4),

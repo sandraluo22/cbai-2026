@@ -1,0 +1,291 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "entities": {
+    "coord": [
+      [
+        21,
+        10
+      ],
+      [
+        1,
+        20
+      ],
+      [
+        9,
+        23
+      ],
+      [
+        6,
+        26
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        31,
+        14
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        4,
+        13
+      ]
+    ],
+    "parity": [
+      [
+        2,
+        26
+      ],
+      [
+        14,
+        26
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        7,
+        23
+      ],
+      [
+        1,
+        22
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "QK": [
+      [
+        16,
+        20
+      ],
+      [
+        15,
+        30
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        15,
+        1
+      ]
+    ],
+    "DLA": [
+      [
+        25,
+        7
+      ],
+      [
+        26,
+        12
+      ],
+      [
+        27,
+        7
+      ],
+      [
+        30,
+        12
+      ],
+      [
+        27,
+        20
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        22,
+        29
+      ],
+      [
+        23,
+        27
+      ],
+      [
+        23,
+        6
+      ]
+    ]
+  },
+  "clean": {
+    "neighbour_validity": 0.994375,
+    "parity_validity": 0.9953125
+  },
+  "combos": {
+    "none": {
+      "groups": [],
+      "n_heads": 0,
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.5903125
+    },
+    "coord": {
+      "groups": [
+        "coord"
+      ],
+      "n_heads": 8,
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.611875
+    },
+    "parity": {
+      "groups": [
+        "parity"
+      ],
+      "n_heads": 8,
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.58875
+    },
+    "QK": {
+      "groups": [
+        "QK"
+      ],
+      "n_heads": 5,
+      "neighbour_validity": 0.418125,
+      "parity_validity": 0.65
+    },
+    "DLA": {
+      "groups": [
+        "DLA"
+      ],
+      "n_heads": 10,
+      "neighbour_validity": 0.4290625,
+      "parity_validity": 0.6678125
+    },
+    "coord+parity": {
+      "groups": [
+        "coord",
+        "parity"
+      ],
+      "n_heads": 16,
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.609375
+    },
+    "coord+QK": {
+      "groups": [
+        "coord",
+        "QK"
+      ],
+      "n_heads": 13,
+      "neighbour_validity": 0.430625,
+      "parity_validity": 0.6390625
+    },
+    "coord+DLA": {
+      "groups": [
+        "coord",
+        "DLA"
+      ],
+      "n_heads": 18,
+      "neighbour_validity": 0.3740625,
+      "parity_validity": 0.6371875
+    },
+    "parity+QK": {
+      "groups": [
+        "parity",
+        "QK"
+      ],
+      "n_heads": 13,
+      "neighbour_validity": 0.8225,
+      "parity_validity": 0.890625
+    },
+    "parity+DLA": {
+      "groups": [
+        "parity",
+        "DLA"
+      ],
+      "n_heads": 18,
+      "neighbour_validity": 0.4334375,
+      "parity_validity": 0.6503125
+    },
+    "QK+DLA": {
+      "groups": [
+        "QK",
+        "DLA"
+      ],
+      "n_heads": 15,
+      "neighbour_validity": 0.3446875,
+      "parity_validity": 0.5621875
+    },
+    "coord+parity+QK": {
+      "groups": [
+        "coord",
+        "parity",
+        "QK"
+      ],
+      "n_heads": 21,
+      "neighbour_validity": 0.8353125,
+      "parity_validity": 0.9046875
+    },
+    "coord+parity+DLA": {
+      "groups": [
+        "coord",
+        "parity",
+        "DLA"
+      ],
+      "n_heads": 26,
+      "neighbour_validity": 0.4053125,
+      "parity_validity": 0.6409375
+    },
+    "coord+QK+DLA": {
+      "groups": [
+        "coord",
+        "QK",
+        "DLA"
+      ],
+      "n_heads": 23,
+      "neighbour_validity": 0.36875,
+      "parity_validity": 0.5971875
+    },
+    "parity+QK+DLA": {
+      "groups": [
+        "parity",
+        "QK",
+        "DLA"
+      ],
+      "n_heads": 23,
+      "neighbour_validity": 0.9390625,
+      "parity_validity": 0.9671875
+    },
+    "coord+parity+QK+DLA": {
+      "groups": [
+        "coord",
+        "parity",
+        "QK",
+        "DLA"
+      ],
+      "n_heads": 31,
+      "neighbour_validity": 0.958125,
+      "parity_validity": 0.98
+    }
+  }
+}

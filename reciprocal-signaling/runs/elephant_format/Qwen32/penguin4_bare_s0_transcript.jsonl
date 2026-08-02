@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "penguin4_bare", "true": "penguin", "clues": ["black and white", "a bird", "flightless", "polar"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["tiger", "sparrow", "emu", "north"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["zebra", "owl", "penguin", "pole"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["checkerboard", "eagle", "penguin", "ice"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["chess", "eagle", "penguin", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["eagle", "eagle", "penguin", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["penguin", "eagle", "penguin", "tundra"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["penguin", "eagle", "penguin", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["penguin", "eagle", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 9, "guesses": ["penguin", "eagle", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 10, "guesses": ["penguin", "eagle", "penguin", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["penguin", "eagle", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 12, "guesses": ["penguin", "eagle", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 13, "guesses": ["polar", "eagle", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 14, "guesses": ["polar", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 15, "guesses": ["polar", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 16, "guesses": ["polar", "penguin", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 17, "guesses": ["penguin", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 18, "guesses": ["polar", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 19, "guesses": ["polar", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 20, "guesses": ["polar", "polar", "penguin", "polar"], "all_true": false, "clue_violations": [4]}

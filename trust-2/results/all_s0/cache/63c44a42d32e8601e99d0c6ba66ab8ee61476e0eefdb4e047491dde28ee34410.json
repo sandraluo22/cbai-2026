@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Uma\": 0.7, \"Casey\": 0.3},\n  \"confidence\": 0.5,\n  \"justification\": \"Uma has a slightly higher accuracy rate (8/12) than Casey (6/12), but Casey's errors are mostly minor, and Uma's errors are more significant, so I trust Uma's value slightly more.\"\n}", "trial_id": "order-0-0021"}

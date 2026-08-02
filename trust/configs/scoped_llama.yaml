@@ -1,0 +1,40 @@
+# Scoped run on local GPU with Llama-3.1-8B-Instruct (HF transformers, batched).
+# Same design as scoped.yaml; backend swapped to llama.
+env:
+  M: 3
+  T: 16
+  mu: 300.0
+  theta_scale: 120.0
+  sigma_B: 12.0
+
+prior:
+  sig0_A: 15.0
+  sig0_B: 45.0
+  nu0_A: 6.0
+  nu0_B: 2.0
+
+model:
+  backend: llama
+  model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+  max_new_tokens: 64
+  dtype: bfloat16
+  device: cuda
+  max_input_tokens: 8192
+
+design:
+  gaps: [1.5, 2.0, 3.0, 5.0]
+  anchor_gap: 2.0
+  rep_strengths: [faint, moderate, strong]
+  info_levels: [lean, self_history, summary, full]
+  main_rep: moderate
+  main_info: lean
+  games: 20
+  robust_games: 12
+  robustness: [swap, order, paraphrase]
+
+seed_base: 0
+bootstrap: 2000
+comprehension_games: 4
+smoke_T: 6
+output_root: results/scoped
+max_calls: 100000

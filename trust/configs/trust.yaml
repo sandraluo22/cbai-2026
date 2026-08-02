@@ -1,0 +1,38 @@
+# FULL run — tight bootstrap CIs (>=1000 games/condition per the spec). EXPENSIVE:
+# ~700k+ Opus calls. Guarded by max_calls; requires `--yes`. Same schema as scoped.yaml.
+env:
+  M: 3
+  T: 24
+  mu: 300.0
+  theta_scale: 120.0
+  sigma_B: 12.0
+
+prior:
+  sig0_A: 15.0
+  sig0_B: 45.0
+  nu0_A: 6.0
+  nu0_B: 2.0
+
+model:
+  model_name: claude-opus-4-8
+  max_tokens: 1024
+  thinking: disabled
+  effort: null
+
+design:
+  gaps: [1.5, 2.0, 3.0, 5.0]
+  anchor_gap: 2.0
+  rep_strengths: [faint, moderate, strong]
+  info_levels: [lean, self_history, summary, full]
+  main_rep: moderate
+  main_info: lean
+  games: 1000
+  robust_games: 500
+  robustness: [swap, order, paraphrase]
+
+seed_base: 0
+bootstrap: 2000
+comprehension_games: 20
+smoke_T: 6
+output_root: results/full
+max_calls: 8000        # full run far exceeds this on purpose — must pass --yes

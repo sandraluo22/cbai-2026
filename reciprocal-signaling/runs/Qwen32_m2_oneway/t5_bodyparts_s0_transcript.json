@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t5_bodyparts",
+  "cond": "oneway",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for parts of the body",
+  "decoy_A": "words for things that come in pairs",
+  "decoy_B": "words for things on the face",
+  "A_examples": [
+   [
+    "ear",
+    true,
+    "trap"
+   ],
+   [
+    "knee",
+    true,
+    "key"
+   ],
+   [
+    "lamp",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "eye",
+    true,
+    "trap"
+   ],
+   [
+    "nose",
+    true,
+    "key"
+   ],
+   [
+    "carpet",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "liver",
+    true,
+    "both"
+   ],
+   [
+    "spine",
+    true,
+    "both"
+   ],
+   [
+    "stomach",
+    true,
+    "both"
+   ],
+   [
+    "elbow",
+    true,
+    "B"
+   ],
+   [
+    "chin",
+    true,
+    "A"
+   ],
+   [
+    "gloves",
+    false,
+    "A"
+   ],
+   [
+    "socks",
+    false,
+    "A"
+   ],
+   [
+    "beard",
+    false,
+    "B"
+   ],
+   [
+    "glasses",
+    false,
+    "both"
+   ],
+   [
+    "window",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it contains exactly two syllables.**  \n\n- \"Ear\" and \"knee\" are both two syllables and are labeled \"dax.\"\n- \"Lamp\" is one syllable and is labeled \"not d",
+   "label": "decoy_A"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **a word is \"dax\" if it is a body part**. \n\nThis is supported by the examples: \"eye\" and \"nose\" are body parts and are labeled \"dax,\" while \"carpet\" is not a body part and is",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "shoulder is dax. Let's test body parts.",
+  "msg_B": null,
+  "word_A": "shoulder",
+  "word_B": null,
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "hand is dax. Testing more body parts.",
+  "msg_B": null,
+  "word_A": "hand",
+  "word_B": null,
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "foot is dax. Body parts pattern seems consistent.",
+  "msg_B": null,
+  "word_A": "foot",
+  "word_B": null,
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is \"dax\" if it names a body part.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "liver",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "spine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "stomach",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "elbow",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "chin",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gloves",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "socks",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "beard",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "glasses",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "window",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is \"dax\" if it is a body part.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "liver",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "spine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "stomach",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "elbow",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "chin",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gloves",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "socks",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "beard",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "glasses",
+    "gold": false,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "window",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

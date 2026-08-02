@@ -1,0 +1,77 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "is",
+   "guess",
+   "is",
+   "needs"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "black",
+   "shadow",
+   "house",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "night",
+   "shadow",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "night",
+   "dark",
+   "house",
+   "cloud"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "night",
+   "dark",
+   "board",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

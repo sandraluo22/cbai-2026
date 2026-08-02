@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin",
+  "true": "penguin",
+  "clues": [
+   "black and white",
+   "a bird",
+   "it cannot fly",
+   "it lives somewhere cold"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "panda",
+   "robin",
+   "cat",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "elephant",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "giraffe",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "panda",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "dog",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

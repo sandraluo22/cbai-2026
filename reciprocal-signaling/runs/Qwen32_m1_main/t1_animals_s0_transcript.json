@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "main",
+  "m": 1,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for large things",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "horse",
+    true,
+    "trap"
+   ],
+   [
+    "whale",
+    true,
+    "key"
+   ],
+   [
+    "coin",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: *A word is \"dax\" if it is the name of an animal.*",
+   "label": "true"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **a word is \"dax\" if it contains exactly one syllable**.  \n\n- \"Horse\" and \"whale\" are each one syllable and are labeled *dax*.  \n- \"Coin\" is also one syllable but is labeled *",
+   "label": "other"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "duck",
+  "msg_B": "zebra",
+  "word_A": "duck",
+  "word_B": "zebra",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "guitar",
+  "msg_B": "guitar",
+  "word_A": "guitar",
+  "word_B": "guitar",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "lamb",
+  "msg_B": "message",
+  "word_A": "lamb",
+  "word_B": "message",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is likely: **a word is \"dax\" if it is the name of an animal**.  \n\nThis is supported by your examples: *cow* and *hen* are animals (dax), while *spoon* is not (not dax). Your guesses in",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is likely: **a word is \"dax\" if it contains exactly three syllables**.  \n\n- *horse* (1), *whale* (1) \u2192 not dax  \n- *coin* (1) \u2192 not dax  \n- *zebra*",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

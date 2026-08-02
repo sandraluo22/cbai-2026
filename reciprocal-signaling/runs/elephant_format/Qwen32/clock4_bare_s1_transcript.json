@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "clock4_bare",
+  "true": "clock",
+  "clues": [
+   "round",
+   "hands",
+   "wall-mounted",
+   "time"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "orb",
+   "gesture",
+   "shelf",
+   "clock"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "circle",
+   "signal",
+   "shelf",
+   "clock"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "orbit",
+   "sign",
+   "shelf",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "orbit",
+   "symbol",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "orbit",
+   "symbol",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "orbit",
+   "symbol",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "orbit",
+   "symbol",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "orbit",
+   "gesture",
+   "mirror",
+   "epoch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

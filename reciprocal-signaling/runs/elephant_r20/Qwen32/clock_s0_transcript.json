@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "clock",
+  "true": "clock",
+  "clues": [
+   "round",
+   "it has hands",
+   "it hangs on a wall",
+   "it tells you something"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "circle",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "moon",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "sphere",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "year",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "statement"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "planet",
+   "clock",
+   "mirror",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "planet",
+   "clock",
+   "calendar",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "planet",
+   "clock",
+   "calendar",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "planet",
+   "calendar",
+   "calendar",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "planet",
+   "calendar",
+   "calendar",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "planet",
+   "calendar",
+   "calendar",
+   "message"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "planet",
+   "calendar",
+   "calendar",
+   "calendar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

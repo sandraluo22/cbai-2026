@@ -1,0 +1,979 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n17",
+  "true": "17",
+  "clues": [
+   "a prime number",
+   "it has 2 digits",
+   "smaller than 20",
+   "odd",
+   "the sum of its digits is 8"
+  ],
+  "kind": "number",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": "public"
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "2",
+   "12",
+   "15",
+   "1",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "Let's focus on narrowing down possibilities. I suggest considering unique properties of numbers.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers and adjust our guesses based on everyone's choices.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "Let's narrow it down; I'm thinking the number is in the middle range. What do you think?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "Let's focus on narrowing down the possibilities. My guess for this round is 1.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 5,
+  "text": "Let's narrow it down; my guess reflects the sum of digits being a key factor.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "3",
+   "13",
+   "10",
+   "3",
+   "16"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "Let's consider the uniqueness and properties of prime numbers as we narrow down our guesses.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "Let's keep adjusting our guesses within the two-digit range, focusing on common patterns or properties.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "Let's consider the clues that point towards a smaller number and adjust our guesses accordingly.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "Let's consider the clues more carefully and avoid repeating numbers already guessed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 5,
+  "text": "Let's consider the sum of digits and focus on two-digit numbers that fit all clues.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "5",
+   "14",
+   "8",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "Let's focus on prime numbers and avoid repeating previous guesses to refine our options.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers and consider the uniqueness and properties suggested by everyone's remarks.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "Let's focus on numbers less than 20 and consider the properties mentioned. Adjust guesses to reflect these constraints.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "Let's focus on odd numbers and avoid repeating previous guesses to narrow down the options efficiently.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers where the sum of digits equals 8, like 17.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "7",
+   "19",
+   "7",
+   "7",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "Let's continue focusing on prime numbers and avoid repetition to efficiently narrow down the possibilities.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Let's focus on unique two-digit numbers that haven't been guessed yet, considering all properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "Let's focus on unique single-digit primes and avoid repetition to converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "Let's avoid repeating numbers and focus on unique, odd numbers that fit all given clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers where the sum of digits is 8, such as 17, and avoid repeating guesses.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "11",
+   "18",
+   "7",
+   "9",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "Let's focus on prime numbers greater than 10 and consider all unique properties mentioned.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers that haven't been guessed and consider all properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Let's focus on unique, single-digit numbers and avoid repetition to converge on the secret number efficiently.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit primes and avoid repeating any numbers already guessed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "13",
+   "23",
+   "7",
+   "11",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 10 and consider all unique properties mentioned to converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "Let's focus on unique two-digit numbers, considering all properties and avoiding repeats.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Let's focus on unique, single-digit numbers and avoid repetition to efficiently converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers and avoid repeating any numbers already guessed to narrow down efficiently.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 5,
+  "text": "Let's focus on unique two-digit numbers with a digit sum of 8, avoiding repeats and considering all clues.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "17",
+   "29",
+   "7",
+   "13",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 10, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "Let's focus on unique two-digit numbers, considering all properties and avoiding repeats to efficiently converge.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Let's focus on unique, single-digit numbers and avoid repetition to efficiently converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 5,
+  "text": "Let's focus on unique two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "19",
+   "23",
+   "7",
+   "15",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 10, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "Let's focus on unique two-digit numbers, considering all properties and avoiding repeats to efficiently converge.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Let's focus on single-digit numbers, especially primes, and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 5,
+  "text": "Let's focus on unique two-digit numbers with a digit sum of 8, avoiding repeats and considering all clues.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "23",
+   "21",
+   "7",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 20, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "Let's focus on unique two-digit numbers, considering all properties and avoiding repeats to efficiently converge.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Let's focus on single-digit numbers, especially primes, and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "29",
+   "22",
+   "7",
+   "19",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 20, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, avoiding repeats, and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "31",
+   "28",
+   "7",
+   "21",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 20, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, considering all properties and avoiding repeats to efficiently converge.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "37",
+   "24",
+   "7",
+   "23",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 30, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, avoiding repeats, and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Let's focus on single-digit numbers, especially primes, and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 5,
+  "text": "Let's consider all clues and focus on unique two-digit numbers with a digit sum of 8, avoiding repeats.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "41",
+   "25",
+   "7",
+   "25",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 40, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers not yet guessed and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "43",
+   "26",
+   "7",
+   "27",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 40, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, avoiding repeats, and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "47",
+   "28",
+   "7",
+   "29",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 40, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "Let's consider all clues and focus on unique two-digit numbers not yet guessed, aiming to converge efficiently.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "53",
+   "34",
+   "7",
+   "31",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 50, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, considering all properties and avoiding repeats to efficiently converge.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "59",
+   "35",
+   "7",
+   "33",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 50, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, avoiding repeats, and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 5,
+  "text": "Let's consider all clues and focus on two-digit numbers with a digit sum of 8, avoiding repeats.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "61",
+   "36",
+   "7",
+   "35",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "Let's focus on prime numbers over 60, avoiding repeats, and consider all unique properties discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers, avoiding repeats, and consider all properties and clues shared so far.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 5,
+  "text": "Let's consider all clues and focus on two-digit numbers with a digit sum of 8, avoiding repeats.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "67",
+   "37",
+   "7",
+   "37",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "Let's consider all clues and focus on prime numbers over 60, avoiding repeats, to efficiently converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "Let's focus on two-digit numbers not yet guessed, considering all properties and avoiding repeats.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Let's focus on single-digit primes and avoid repeats to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "Let's focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "71",
+   "38",
+   "7",
+   "39",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "Let's review all clues and focus on prime numbers over 70, avoiding repeats, to efficiently converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "Let's review all clues and focus on unguessed two-digit numbers to find the secret number efficiently.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "Let's confirm if the secret number is a single-digit prime, as it must be smaller than 20 and unique.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "Let's review all clues and focus on odd, single-digit numbers not yet guessed to efficiently narrow down the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 5,
+  "text": "Let's focus on two-digit numbers with a digit sum of 8, avoiding repeats and considering all properties.",
+  "public": true
+ }
+]

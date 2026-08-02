@@ -1,0 +1,293 @@
+[
+ {
+  "type": "meta",
+  "quiz": "echo",
+  "true": "echo",
+  "clues": [
+   "you can hear it",
+   "it repeats",
+   "you notice it in the mountains",
+   "you cannot see it",
+   "it fades away"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "start",
+   "is",
+   "excited",
+   "you",
+   "fades"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4,
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "since",
+   "go",
+   "peak",
+   "said",
+   "dream"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "sound",
+   "echo",
+   "height",
+   "you",
+   "dream"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "sound",
+   "echo",
+   "peak",
+   "shadow",
+   "fades"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "since",
+   "echo",
+   "peak",
+   "since",
+   "cloud"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "sound",
+   "since",
+   "take",
+   "shadow",
+   "dream"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "sound",
+   "echo",
+   "mountain",
+   "shadow",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "going",
+   "echo",
+   "you",
+   "shadow",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3
+  ]
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "since",
+   "echo",
+   "now",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "after",
+   "echo",
+   "cloud",
+   "shadow",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "after",
+   "echo",
+   "after",
+   "cloud",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "sound",
+   "echo",
+   "cloud",
+   "shadow",
+   "fades"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "first",
+   "is",
+   "given",
+   "after",
+   "fades"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "echo",
+   "echo",
+   "is",
+   "shadow",
+   "fades"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "sound",
+   "echo",
+   "cloud",
+   "shadow",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "going",
+   "since",
+   "mountain",
+   "night",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "noise",
+   "night",
+   "peak",
+   "take",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "sound",
+   "echo",
+   "night",
+   "night",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "after",
+   "night",
+   "night",
+   "night",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "night",
+   "echo",
+   "peak",
+   "night",
+   "night"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

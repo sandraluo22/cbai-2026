@@ -1,0 +1,67 @@
+{
+ "model": "LlamaInst70",
+ "cells": {
+  "city-p0": {
+   "met_frac": 0.25,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.005681818181818182
+  },
+  "city-p1": {
+   "met_frac": 0.0,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.005681818181818182
+  },
+  "fruit-p0": {
+   "met_frac": 1.0,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "fruit-p1": {
+   "met_frac": 1.0,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.005681818181818182
+  },
+  "animal-p0": {
+   "met_frac": 0.75,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "animal-p1": {
+   "met_frac": 0.5,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "color-p0": {
+   "met_frac": 0.75,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.005681818181818182
+  },
+  "color-p1": {
+   "met_frac": 0.375,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.011363636363636364
+  },
+  "sport-p0": {
+   "met_frac": 0.75,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.01871657754010695
+  },
+  "sport-p1": {
+   "met_frac": 0.5,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.011363636363636364
+  },
+  "vegetable-p0": {
+   "met_frac": 0.625,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.007352941176470588
+  },
+  "vegetable-p1": {
+   "met_frac": 0.625,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.005681818181818182
+  }
+ },
+ "n_snapshots": 0,
+ "branches": []
+}

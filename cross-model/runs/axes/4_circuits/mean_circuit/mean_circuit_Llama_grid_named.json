@@ -1,0 +1,177 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "M": [
+    [
+      1,
+      20
+    ],
+    [
+      2,
+      26
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      6,
+      23
+    ],
+    [
+      6,
+      26
+    ],
+    [
+      9,
+      23
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      14,
+      26
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      21,
+      8
+    ],
+    [
+      21,
+      10
+    ]
+  ],
+  "DLA": [
+    [
+      25,
+      7
+    ],
+    [
+      26,
+      12
+    ],
+    [
+      27,
+      7
+    ],
+    [
+      30,
+      12
+    ],
+    [
+      27,
+      20
+    ],
+    [
+      31,
+      0
+    ],
+    [
+      25,
+      6
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      23,
+      27
+    ],
+    [
+      23,
+      6
+    ]
+  ],
+  "induction": [
+    [
+      16,
+      20
+    ],
+    [
+      15,
+      30
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      2,
+      22
+    ],
+    [
+      15,
+      1
+    ]
+  ],
+  "named": {
+    "clean": {
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9953125
+    },
+    "keep_M": {
+      "neighbour_validity": 0.40125,
+      "parity_validity": 0.5740625
+    },
+    "keep_M+DLA": {
+      "neighbour_validity": 0.4625,
+      "parity_validity": 0.7009375
+    },
+    "keep_M+ind": {
+      "neighbour_validity": 0.843125,
+      "parity_validity": 0.8975
+    },
+    "keep_M+DLA+ind": {
+      "neighbour_validity": 0.9653125,
+      "parity_validity": 0.984375
+    },
+    "keep_ind_only": {
+      "neighbour_validity": 0.418125,
+      "parity_validity": 0.65
+    },
+    "keep_DLA_only": {
+      "neighbour_validity": 0.4290625,
+      "parity_validity": 0.6678125
+    },
+    "keep_ind+DLA": {
+      "neighbour_validity": 0.3446875,
+      "parity_validity": 0.5621875
+    },
+    "keep_none": {
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.5903125
+    }
+  },
+  "restore": [
+    {
+      "step": 0,
+      "head": null,
+      "neighbour_validity": 0.39375,
+      "parity_validity": 0.5903125
+    }
+  ],
+  "restored_set": []
+}

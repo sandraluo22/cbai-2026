@@ -1,0 +1,280 @@
+[
+ {
+  "type": "meta",
+  "quiz": "library",
+  "true": "library",
+  "clues": [
+   "quiet",
+   "a building",
+   "full of books",
+   "you can borrow things there",
+   "open to everyone"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "whisper",
+   "house",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "silent",
+   "building",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "library",
+   "library",
+   "library",
+   "library",
+   "public"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

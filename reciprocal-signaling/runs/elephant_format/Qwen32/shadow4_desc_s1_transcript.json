@@ -1,0 +1,260 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow4_desc",
+  "true": "shadow",
+  "clues": [
+   "it is dark",
+   "it follows you around",
+   "it is completely flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "darkness",
+   "trail",
+   "table",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "round",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "dark",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   1
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "darkness",
+   "trail",
+   "floor",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

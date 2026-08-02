@@ -1,0 +1,78 @@
+{
+  "graph": "square_grid",
+  "n_occ": 1608,
+  "alpha": 10000.0,
+  "pairs": [
+    {
+      "reldepth": 0.25,
+      "LA": 8,
+      "LB": 9,
+      "sad_matched": 0.028387307293220976,
+      "sad_mismatched": -0.0012002446448252523,
+      "joy_matched": 0.03142254489284573,
+      "joy_mismatched": -0.016755367996860344
+    },
+    {
+      "reldepth": 0.4,
+      "LA": 13,
+      "LB": 14,
+      "sad_matched": 0.027600568636541315,
+      "sad_mismatched": 0.020960119819065606,
+      "joy_matched": 0.06164867780112474,
+      "joy_mismatched": -0.012000351846216532
+    },
+    {
+      "reldepth": 0.55,
+      "LA": 18,
+      "LB": 20,
+      "sad_matched": 0.02962174825192587,
+      "sad_mismatched": 0.048085197755579234,
+      "joy_matched": 0.026135420385716562,
+      "joy_mismatched": -0.027597153863272342
+    },
+    {
+      "reldepth": 0.7,
+      "LA": 22,
+      "LB": 25,
+      "sad_matched": 0.003923882189183476,
+      "sad_mismatched": -0.0034293414477609397,
+      "joy_matched": 0.03604651227637597,
+      "joy_mismatched": -0.01408869159244146
+    },
+    {
+      "reldepth": 0.85,
+      "LA": 27,
+      "LB": 31,
+      "sad_matched": -0.0123823403851309,
+      "sad_mismatched": -0.006402341627412985,
+      "joy_matched": 0.04300915578147099,
+      "joy_mismatched": 0.006702320167369448
+    }
+  ],
+  "best_pair": {
+    "LA": 18,
+    "LB": 20,
+    "sad_matched": 0.02962174825192587,
+    "cos_transported_vs_ownQwen": 0.02962174825192579
+  },
+  "steer_dose": 6.0,
+  "meas_layer": 24,
+  "causal": {
+    "none": {
+      "sad_word_frac": 0.0,
+      "sad_proj": -40.06038291565628
+    },
+    "transported": {
+      "sad_word_frac": 0.0,
+      "sad_proj": -42.2279370412853
+    },
+    "own_qwen": {
+      "sad_word_frac": 0.008477011494252874,
+      "sad_proj": -20.367926005674875
+    },
+    "random": {
+      "sad_word_frac": 0.0,
+      "sad_proj": -33.70636646438015
+    }
+  }
+}

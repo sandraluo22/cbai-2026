@@ -1,0 +1,22 @@
+{
+  "words16": [
+    "clock",
+    "lemon",
+    "jacket",
+    "wheel",
+    "tiger",
+    "pencil",
+    "coin",
+    "bird",
+    "anchor",
+    "ocean",
+    "chair",
+    "candle",
+    "bread",
+    "mirror",
+    "apple",
+    "river"
+  ],
+  "max_edge_prior": 0.0015486298164573806,
+  "baseline_max_edge_prior": 0.2085778140041035
+}

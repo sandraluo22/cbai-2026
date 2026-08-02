@@ -1,0 +1,32 @@
+=== 13 conditions, ~3648 API calls (model NousResearch/Meta-Llama-3.1-8B-Instruct) ===
+  [main   ] gap1.5_moderate_lean                       games=20
+  [main   ] gap2.0_moderate_lean                       games=20
+  [main   ] gap3.0_moderate_lean                       games=20
+  [main   ] gap5.0_moderate_lean                       games=20
+  [rep    ] gap2.0_faint_lean                          games=20
+  [rep    ] gap2.0_strong_lean                         games=20
+  [info   ] gap2.0_moderate_self_history               games=20
+  [info   ] gap2.0_moderate_summary                    games=20
+  [info   ] gap2.0_moderate_full                       games=20
+  [robust ] gap2.0_robust_swaplabels                   games=12
+  [robust ] gap2.0_robust_order                        games=12
+  [robust ] gap2.0_robust_paraphrase                   games=12
+  [sanity ] gap2.0_moderate_no_advisor                 games=12
+=== llama full run: loading NousResearch/Meta-Llama-3.1-8B-Instruct ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:42,  6.90it/s]Loading weights:   1%|          | 2/291 [00:00<00:46,  6.19it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:06, 44.33it/s]Loading weights:  10%|▉         | 28/291 [00:00<00:03, 74.77it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 88.25it/s]Loading weights:  17%|█▋        | 50/291 [00:00<00:02, 91.49it/s]Loading weights:  21%|██        | 60/291 [00:00<00:02, 92.85it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:01, 111.18it/s]Loading weights:  30%|███       | 88/291 [00:01<00:01, 112.19it/s]Loading weights:  35%|███▌      | 103/291 [00:01<00:01, 116.28it/s]Loading weights:  40%|███▉      | 115/291 [00:01<00:01, 106.88it/s]Loading weights:  43%|████▎     | 126/291 [00:01<00:01, 104.89it/s]Loading weights:  47%|████▋     | 137/291 [00:01<00:01, 101.57it/s]Loading weights:  51%|█████     | 148/291 [00:01<00:01, 91.87it/s] Loading weights:  55%|█████▍    | 159/291 [00:01<00:01, 94.57it/s]Loading weights:  60%|█████▉    | 174/291 [00:01<00:01, 99.27it/s]Loading weights:  66%|██████▌   | 192/291 [00:02<00:00, 119.84it/s]Loading weights:  70%|███████   | 205/291 [00:02<00:00, 106.17it/s]Loading weights:  76%|███████▌  | 220/291 [00:02<00:00, 114.29it/s]Loading weights:  80%|███████▉  | 232/291 [00:02<00:00, 107.34it/s]Loading weights:  84%|████████▍ | 244/291 [00:02<00:00, 109.75it/s]Loading weights:  88%|████████▊ | 257/291 [00:02<00:00, 110.30it/s]Loading weights:  92%|█████████▏| 269/291 [00:02<00:00, 112.77it/s]Loading weights:  97%|█████████▋| 283/291 [00:02<00:00, 118.73it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 100.44it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+  [gap1.5_moderate_lean] done  (20/228 games)
+  [gap2.0_moderate_lean] done  (40/228 games)
+  [gap3.0_moderate_lean] done  (60/228 games)
+  [gap5.0_moderate_lean] done  (80/228 games)
+  [gap2.0_faint_lean] done  (100/228 games)
+  [gap2.0_strong_lean] done  (120/228 games)
+  [gap2.0_moderate_self_history] done  (140/228 games)
+  [gap2.0_moderate_summary] done  (160/228 games)
+  [gap2.0_moderate_full] done  (180/228 games)
+  [gap2.0_robust_swaplabels] done  (192/228 games)
+  [gap2.0_robust_order] done  (204/228 games)
+  [gap2.0_robust_paraphrase] done  (216/228 games)
+  [gap2.0_moderate_no_advisor] done  (228/228 games)
+wrote results/scoped/rounds.jsonl

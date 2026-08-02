@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t2_foods",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for foods",
+  "decoy_A": "words for red things",
+  "decoy_B": "words for sweet things",
+  "A_examples": [
+   [
+    "strawberry",
+    true,
+    "trap"
+   ],
+   [
+    "tomato",
+    true,
+    "key"
+   ],
+   [
+    "cloud",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "cherry",
+    true,
+    "trap"
+   ],
+   [
+    "honey",
+    true,
+    "key"
+   ],
+   [
+    "stone",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "bread",
+    true,
+    "both"
+   ],
+   [
+    "rice",
+    true,
+    "both"
+   ],
+   [
+    "lemon",
+    true,
+    "both"
+   ],
+   [
+    "cake",
+    true,
+    "A"
+   ],
+   [
+    "butter",
+    true,
+    "both"
+   ],
+   [
+    "rose",
+    false,
+    "A"
+   ],
+   [
+    "ruby",
+    false,
+    "A"
+   ],
+   [
+    "brick",
+    false,
+    "A"
+   ],
+   [
+    "pencil",
+    false,
+    "none"
+   ],
+   [
+    "violin",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "Based on the labeled examples, my best guess of the hidden rule is that a word is \"dax\" if it is a type of fruit.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "My best guess of the hidden rule is that a word is labeled 'dax' if it is a type of food or something edible.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "I think the rule is related to food. My word is \"pineapple\" - I believe it's dax.",
+  "msg_B": "Round 1: I'm going to take a guess that 'sugar' is dax. I notice that all the 'dax' examples so far are sweet or edible.",
+  "word_A": "related",
+  "word_B": "round",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "I'm starting to think the rule is about taste or edibility. My word is \"carrot\" - I believe it's dax. I'm curious about your examples, especially 'sugar' since it's not typically considered a food on its own.",
+  "msg_B": "I'll propose \"cinnamon\" as dax. I'm intrigued by your food theory, and I think it might be true. If so, I wonder if the rule is specifically about sweet foods.",
+  "word_A": "m",
+  "word_B": "ll",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "I think we're close to the rule. My word is \"honey\" - I believe it's dax. I'm guessing the rule is about sweet foods, or foods that are typically sweet. I'd love to hear your final thoughts and see if our examples align.",
+  "msg_B": "I'll propose \"truffle\" as dax. I think the rule is specifically about sweet foods, and I'm leaning towards a sub-rule that it's about foods typically used as desserts. I'm curious to see if your \"carrot\" guess was correct, and if you think the rule is more about the type of food or its typical use.",
+  "word_A": "we",
+  "word_B": "ll",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is a type of food that is typically sweet or used as a dessert.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the conversation, I would guess that the word 'ruby' is 'not dax'. The reasoning is that",
+    "correct": true
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is a type of sweet food or a food that is typically used as a dessert.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

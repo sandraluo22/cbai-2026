@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for large things",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "horse",
+    true,
+    "trap"
+   ],
+   [
+    "whale",
+    true,
+    "key"
+   ],
+   [
+    "coin",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The rule is: \"dax\" if the word has a double letter.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "My best guess of the hidden rule is that a word is \"dax\" if it is a noun that refers to a living thing, particularly an animal.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "goat is dax,",
+  "msg_B": "elephant is dax because it is an animal",
+  "word_A": "goat",
+  "word_B": "elephant",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "tiger is dax,",
+  "msg_B": "giraffe is dax because it is an animal",
+  "word_A": "tiger",
+  "word_B": "giraffe",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "horse is dax because it is an animal",
+  "msg_B": "kangaroo is dax because it is an animal",
+  "word_A": "horse",
+  "word_B": "kangaroo",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is an animal.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, I would answer that the word 'sparrow' is 'dax'.",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the pattern observed in the messages, I would answer that the word 'barn' is 'not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the pattern observed in the messages, I would answer that the word 'mountain' is 'not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": false
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "Based on the pattern observed in the messages, the word 'fork' is not dax.",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is an animal.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": false
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": false
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the examples and the pattern observed, I would answer that the word 'mountain' is 'not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "Based on the examples and the messages exchanged, it appears that the hidden rule is that a word is \"dax\"",
+    "correct": false
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": false
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the pattern observed in the messages, it appears that the rule for a word to be labeled 'dax'",
+    "correct": false
+   }
+  ]
+ }
+]

@@ -1,0 +1,11853 @@
+[
+  {
+    "rollout": 0,
+    "turn": 1,
+    "A": "mirror",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 2,
+    "A": "cage",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 3,
+    "A": "echo",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 4,
+    "A": "rome",
+    "B": "rome",
+    "agreed": true
+  },
+  {
+    "rollout": 1,
+    "turn": 1,
+    "A": "tested",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 2,
+    "A": "match",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 3,
+    "A": "spain",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 4,
+    "A": "rome",
+    "B": "rome",
+    "agreed": true
+  },
+  {
+    "rollout": 2,
+    "turn": 1,
+    "A": "tapes",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 2,
+    "A": "spare",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 3,
+    "A": "spite",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 4,
+    "A": "veins",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 5,
+    "A": "spine",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 6,
+    "A": "envies",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 7,
+    "A": "livens",
+    "B": "bern",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 8,
+    "A": "buns",
+    "B": "munich",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 9,
+    "A": "spines",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 10,
+    "A": "spineless",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 11,
+    "A": "spined",
+    "B": "bruges",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 12,
+    "A": "spiny",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 13,
+    "A": "spun",
+    "B": "bordeaux",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 14,
+    "A": "bespoke",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 15,
+    "A": "besp",
+    "B": "zurich",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 16,
+    "A": "bespoke",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 17,
+    "A": "spun",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 18,
+    "A": "spurn",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 19,
+    "A": "spurned",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 20,
+    "A": "spurner",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 21,
+    "A": "spurners",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 22,
+    "A": "spurnless",
+    "B": "lisboa",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 23,
+    "A": "spurningly",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 24,
+    "A": "spurningly",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 25,
+    "A": "spurningly",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 26,
+    "A": "spurningly",
+    "B": "vaduz",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 27,
+    "A": "vader",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 28,
+    "A": "vaderless",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 29,
+    "A": "vaderingly",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 30,
+    "A": "vadered",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 31,
+    "A": "spurningly",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 32,
+    "A": "spurningly",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 33,
+    "A": "spurningly",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 34,
+    "A": "spurningly",
+    "B": "almaty",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 35,
+    "A": "spurningly",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 36,
+    "A": "spurningly",
+    "B": "alger",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 37,
+    "A": "algerian",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 38,
+    "A": "algiers",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 39,
+    "A": "bakuless",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 40,
+    "A": "bakuingly",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 41,
+    "A": "bakulessly",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 42,
+    "A": "bakufully",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 43,
+    "A": "tiranas",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 44,
+    "A": "skops",
+    "B": "budva",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 45,
+    "A": "bakuized",
+    "B": "damascus",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 46,
+    "A": "damascuses",
+    "B": "kabul",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 47,
+    "A": "skopless",
+    "B": "ankara",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 48,
+    "A": "ankh-m",
+    "B": "kuwait",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 49,
+    "A": "damascened",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 50,
+    "A": "ankh",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 51,
+    "A": "skopfully",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 52,
+    "A": "vaderlessly",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 53,
+    "A": "bakuful",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 54,
+    "A": "skopify",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 55,
+    "A": "bakuize",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 56,
+    "A": "accraless",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 57,
+    "A": "bakuizing",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 58,
+    "A": "skopized",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 59,
+    "A": "skopizing",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 60,
+    "A": "vaderless",
+    "B": "dhaka",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 61,
+    "A": "moscowed",
+    "B": "kigali",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 62,
+    "A": "bakuless",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 63,
+    "A": "skoplessly",
+    "B": "yaound",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 64,
+    "A": "damascening",
+    "B": "saraje",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 65,
+    "A": "skopifying",
+    "B": "bogota",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 66,
+    "A": "skopifies",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 67,
+    "A": "vaderfully",
+    "B": "dakar",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 68,
+    "A": "bakuless",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 69,
+    "A": "damascening",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 70,
+    "A": "bakuless",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 71,
+    "A": "bakuless",
+    "B": "mogad",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 72,
+    "A": "bakuless",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 73,
+    "A": "bakued",
+    "B": "luxor",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 74,
+    "A": "bespo",
+    "B": "adana",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 75,
+    "A": "adans",
+    "B": "admira",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 76,
+    "A": "admirs",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 77,
+    "A": "admirably",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 78,
+    "A": "admired",
+    "B": "auckland",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 79,
+    "A": "admire",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 80,
+    "A": "admirably",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 81,
+    "A": "admiringly",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 82,
+    "A": "bakuing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 83,
+    "A": "admirers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 84,
+    "A": "admires",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 85,
+    "A": "admiring",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 86,
+    "A": "admirably",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 87,
+    "A": "admirer",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 88,
+    "A": "vaderizing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 89,
+    "A": "vaderized",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 90,
+    "A": "admired",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 91,
+    "A": "bespoken",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 92,
+    "A": "admirably",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 93,
+    "A": "admire",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 94,
+    "A": "admiringly",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 95,
+    "A": "vaderizing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 96,
+    "A": "bespoke",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 97,
+    "A": "bespoke",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 98,
+    "A": "admire",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 99,
+    "A": "vaderizes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 100,
+    "A": "vaderized",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 101,
+    "A": "baker",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 102,
+    "A": "bakery",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 103,
+    "A": "baked",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 104,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 105,
+    "A": "bakerized",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 106,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 107,
+    "A": "bakered",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 108,
+    "A": "bakerizing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 109,
+    "A": "bakerizes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 110,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 111,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 112,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 113,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 114,
+    "A": "bakerify",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 115,
+    "A": "bakerify",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 116,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 117,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 118,
+    "A": "bakerizing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 119,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 120,
+    "A": "bakerizing",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 121,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 122,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 123,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 124,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 125,
+    "A": "bakerized",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 126,
+    "A": "baker",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 127,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 128,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 129,
+    "A": "bakerified",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 130,
+    "A": "bakerified",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 131,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 132,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 133,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 134,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 135,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 136,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 137,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 138,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 139,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 140,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 141,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 142,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 143,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 144,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 145,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 146,
+    "A": "bakered",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 147,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 148,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 149,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 150,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 151,
+    "A": "bakerify",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 152,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 153,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 154,
+    "A": "bakerifying",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 155,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 156,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 157,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 158,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 159,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 160,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 161,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 162,
+    "A": "bakerified",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 163,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 164,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 165,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 166,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 167,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 168,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 169,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 170,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 171,
+    "A": "bakerized",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 172,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 173,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 174,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 175,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 176,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 177,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 178,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 179,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 180,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 181,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 182,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 183,
+    "A": "bakus",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 184,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 185,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 186,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 187,
+    "A": "bakerless",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 188,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 189,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 190,
+    "A": "bakeryless",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 191,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 192,
+    "A": "bakerys",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 193,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 194,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 195,
+    "A": "bakers",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 196,
+    "A": "bakered",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 197,
+    "A": "bakerifies",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 198,
+    "A": "bakeryed",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 199,
+    "A": "bakeryed",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 1,
+    "A": "history",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 2,
+    "A": "truth",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 3,
+    "A": "myth",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 4,
+    "A": "romeo",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 5,
+    "A": "viennese",
+    "B": "constantinople",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 6,
+    "A": "constantinopolitan",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 7,
+    "A": "athletic",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 8,
+    "A": "athleticism",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 9,
+    "A": "athlete",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 10,
+    "A": "city",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 11,
+    "A": "capital",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 12,
+    "A": "capitalism",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 13,
+    "A": "capitalist",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 14,
+    "A": "capitalized",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 15,
+    "A": "capitalize",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 16,
+    "A": "capitalism",
+    "B": "athabasca",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 17,
+    "A": "athabas",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 18,
+    "A": "athabaskan",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 19,
+    "A": "athan",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 20,
+    "A": "capitalized",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 21,
+    "A": "capitalizing",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 22,
+    "A": "capitalistically",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 23,
+    "A": "capitalistic",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 24,
+    "A": "capitalistize",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 25,
+    "A": "capitalistized",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 26,
+    "A": "capitalised",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 27,
+    "A": "capitalistises",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 28,
+    "A": "capitalizes",
+    "B": "so",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 29,
+    "A": "capitalises",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 30,
+    "A": "capitalistization",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 31,
+    "A": "capitalization",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 32,
+    "A": "capitalistise",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 33,
+    "A": "capitalizations",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 34,
+    "A": "capitalistizations",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 35,
+    "A": "capitalistising",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 36,
+    "A": "capitalising",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 37,
+    "A": "capitalistisations",
+    "B": "caracas",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 38,
+    "A": "capitalisations",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 39,
+    "A": "capitalisation",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 40,
+    "A": "capitalistised",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 41,
+    "A": "capitalizations",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 42,
+    "A": "capitalistises",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 43,
+    "A": "capitalistisations",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 44,
+    "A": "capitalistises",
+    "B": "braslia",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 45,
+    "A": "capitalistises",
+    "B": "kabul",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 46,
+    "A": "capitalising",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 47,
+    "A": "capitalisticly",
+    "B": "almaty",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 48,
+    "A": "capitalises",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 49,
+    "A": "capitalistises",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 50,
+    "A": "capitalistises",
+    "B": "riyadh",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 51,
+    "A": "capitalises",
+    "B": "tunis",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 52,
+    "A": "capitalised",
+    "B": "amman",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 53,
+    "A": "capitalises",
+    "B": "dakar",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 54,
+    "A": "capitalises",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 55,
+    "A": "capitalised",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 56,
+    "A": "capitalises",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 57,
+    "A": "capitalises",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 58,
+    "A": "capitalises",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 59,
+    "A": "capitalises",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 60,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 61,
+    "A": "capitalises",
+    "B": "buchara",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 62,
+    "A": "capitalises",
+    "B": "vatican",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 63,
+    "A": "capitalises",
+    "B": "astana",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 64,
+    "A": "capitalises",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 65,
+    "A": "capitalises",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 66,
+    "A": "capitalises",
+    "B": "zagreb",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 67,
+    "A": "capitalises",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 68,
+    "A": "capitalises",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 69,
+    "A": "capitalises",
+    "B": "dhaka",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 70,
+    "A": "capitalises",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 71,
+    "A": "capitalises",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 72,
+    "A": "capitalises",
+    "B": "kigali",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 73,
+    "A": "capitalises",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 74,
+    "A": "capitalises",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 75,
+    "A": "capitalises",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 76,
+    "A": "capitalises",
+    "B": "pyongyang",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 77,
+    "A": "capitalises",
+    "B": "brisbane",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 78,
+    "A": "capitalises",
+    "B": "limassol",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 79,
+    "A": "capitalises",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 80,
+    "A": "capitalises",
+    "B": "budva",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 81,
+    "A": "capitalises",
+    "B": "kampala",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 82,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 83,
+    "A": "capitalises",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 84,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 85,
+    "A": "capitalises",
+    "B": "yerev",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 86,
+    "A": "capitalises",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 87,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 88,
+    "A": "capitalises",
+    "B": "vientiane",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 89,
+    "A": "capitalises",
+    "B": "bujumb",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 90,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 91,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 92,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 93,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 94,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 95,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 96,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 97,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 98,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 99,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 100,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 101,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 102,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 103,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 104,
+    "A": "capitalises",
+    "B": "dushan",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 105,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 106,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 107,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 108,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 109,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 110,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 111,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 112,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 113,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 114,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 115,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 116,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 117,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 118,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 119,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 120,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 121,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 122,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 123,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 124,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 125,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 126,
+    "A": "capitalises",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 127,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 128,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 129,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 130,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 131,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 132,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 133,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 134,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 135,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 136,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 137,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 138,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 139,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 140,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 141,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 142,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 143,
+    "A": "capitalises",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 144,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 145,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 146,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 147,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 148,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 149,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 150,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 151,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 152,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 153,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 154,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 155,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 156,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 157,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 158,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 159,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 160,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 161,
+    "A": "capitalises",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 162,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 163,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 164,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 165,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 166,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 167,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 168,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 169,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 170,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 171,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 172,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 173,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 174,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 175,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 176,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 177,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 178,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 179,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 180,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 181,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 182,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 183,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 184,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 185,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 186,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 187,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 188,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 189,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 190,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 191,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 192,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 193,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 194,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 195,
+    "A": "capitalises",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 196,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 197,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 198,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 199,
+    "A": "capitalised",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 1,
+    "A": "ballet",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 2,
+    "A": "tango",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 3,
+    "A": "waltz",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 4,
+    "A": "salsa",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 5,
+    "A": "samba",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 6,
+    "A": "flamenco",
+    "B": "rio",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 7,
+    "A": "cha-cha",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 8,
+    "A": "jazz",
+    "B": "marrake",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 9,
+    "A": "jig",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 10,
+    "A": "bourbon",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 11,
+    "A": "minuet",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 12,
+    "A": "chalet",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 13,
+    "A": "polka",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 14,
+    "A": "foxtrot",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 15,
+    "A": "requiem",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 16,
+    "A": "serenade",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 17,
+    "A": "can-can",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 18,
+    "A": "viennese",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 19,
+    "A": "seoul",
+    "B": "munich",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 20,
+    "A": "seattle",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 21,
+    "A": "kyoto",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 22,
+    "A": "berlin",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 23,
+    "A": "nice",
+    "B": "nashville",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 24,
+    "A": "milan",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 25,
+    "A": "nice",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 26,
+    "A": "venezia",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 27,
+    "A": "bern",
+    "B": "montreal",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 28,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 29,
+    "A": "bern",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 30,
+    "A": "bern",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 31,
+    "A": "bern",
+    "B": "zurich",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 32,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 33,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 34,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 35,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 36,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 37,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 38,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 39,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 40,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 41,
+    "A": "bern",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 42,
+    "A": "bern",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 43,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 44,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 45,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 46,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 47,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 48,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 49,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 50,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 51,
+    "A": "bern",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 52,
+    "A": "bern",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 53,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 54,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 55,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 56,
+    "A": "bern",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 57,
+    "A": "bern",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 58,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 59,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 60,
+    "A": "bern",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 61,
+    "A": "bern",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 62,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 63,
+    "A": "bern",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 64,
+    "A": "bern",
+    "B": "vaduz",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 65,
+    "A": "bern",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 66,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 67,
+    "A": "bern",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 68,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 69,
+    "A": "bern",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 70,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 71,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 72,
+    "A": "bern",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 73,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 74,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 75,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 76,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 77,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 78,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 79,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 80,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 81,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 82,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 83,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 84,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 85,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 86,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 87,
+    "A": "bern",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 88,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 89,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 90,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 91,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 92,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 93,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 94,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 95,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 96,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 97,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 98,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 99,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 100,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 101,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 102,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 103,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 104,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 105,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 106,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 107,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 108,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 109,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 110,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 111,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 112,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 113,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 114,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 115,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 116,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 117,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 118,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 119,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 120,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 121,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 122,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 123,
+    "A": "bern",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 124,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 125,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 126,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 127,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 128,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 129,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 130,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 131,
+    "A": "bern",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 132,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 133,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 134,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 135,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 136,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 137,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 138,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 139,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 140,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 141,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 142,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 143,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 144,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 145,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 146,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 147,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 148,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 149,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 150,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 151,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 152,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 153,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 154,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 155,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 156,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 157,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 158,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 159,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 160,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 161,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 162,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 163,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 164,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 165,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 166,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 167,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 168,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 169,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 170,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 171,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 172,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 173,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 174,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 175,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 176,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 177,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 178,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 179,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 180,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 181,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 182,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 183,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 184,
+    "A": "bern",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 185,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 186,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 187,
+    "A": "bern",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 188,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 189,
+    "A": "bern",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 190,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 191,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 192,
+    "A": "nice",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 193,
+    "A": "nice",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 194,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 195,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 196,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 197,
+    "A": "bern",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 198,
+    "A": "nice",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 199,
+    "A": "bern",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 1,
+    "A": "mirrors",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 2,
+    "A": "echoes",
+    "B": "marseille",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 3,
+    "A": "twin",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 4,
+    "A": "tango",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 5,
+    "A": "harmony",
+    "B": "barcelona",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 6,
+    "A": "silence",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 7,
+    "A": "melody",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 8,
+    "A": "seashell",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 9,
+    "A": "seam",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 10,
+    "A": "paris",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 11,
+    "A": "september",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 12,
+    "A": "viennese",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 13,
+    "A": "waltz",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 14,
+    "A": "symphony",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 15,
+    "A": "echo",
+    "B": "munich",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 16,
+    "A": "windsor",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 17,
+    "A": "seamstress",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 18,
+    "A": "seamst",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 19,
+    "A": "seams",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 20,
+    "A": "seamsman",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 21,
+    "A": "seamster",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 22,
+    "A": "seamsters",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 23,
+    "A": "seamst",
+    "B": "vilni",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 24,
+    "A": "seamst",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 25,
+    "A": "seamst",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 26,
+    "A": "seamstress",
+    "B": "budva",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 27,
+    "A": "seamstress",
+    "B": "belfast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 28,
+    "A": "seamst",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 29,
+    "A": "seamst",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 30,
+    "A": "seamstress",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 31,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 32,
+    "A": "seamst",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 33,
+    "A": "seamst",
+    "B": "athina",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 34,
+    "A": "seamst",
+    "B": "saraje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 35,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 36,
+    "A": "seamstress",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 37,
+    "A": "seamstress",
+    "B": "kyiv",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 38,
+    "A": "seamstress",
+    "B": "vaduz",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 39,
+    "A": "seamst",
+    "B": "zagreb",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 40,
+    "A": "seamstress",
+    "B": "buchara",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 41,
+    "A": "seamst",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 42,
+    "A": "seamstress",
+    "B": "almaty",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 43,
+    "A": "seamstress",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 44,
+    "A": "seamstress",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 45,
+    "A": "seamst",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 46,
+    "A": "seamstress",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 47,
+    "A": "seamst",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 48,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 49,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 50,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 51,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 52,
+    "A": "seamstress",
+    "B": "yerevan",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 53,
+    "A": "seamstress",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 54,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 55,
+    "A": "seamst",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 56,
+    "A": "seamst",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 57,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 58,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 59,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 60,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 61,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 62,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 63,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 64,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 65,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 66,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 67,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 68,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 69,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 70,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 71,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 72,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 73,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 74,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 75,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 76,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 77,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 78,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 79,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 80,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 81,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 82,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 83,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 84,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 85,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 86,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 87,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 88,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 89,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 90,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 91,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 92,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 93,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 94,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 95,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 96,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 97,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 98,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 99,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 100,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 101,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 102,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 103,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 104,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 105,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 106,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 107,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 108,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 109,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 110,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 111,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 112,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 113,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 114,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 115,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 116,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 117,
+    "A": "seamst",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 118,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 119,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 120,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 121,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 122,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 123,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 124,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 125,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 126,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 127,
+    "A": "seamst",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 128,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 129,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 130,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 131,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 132,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 133,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 134,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 135,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 136,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 137,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 138,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 139,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 140,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 141,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 142,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 143,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 144,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 145,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 146,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 147,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 148,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 149,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 150,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 151,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 152,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 153,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 154,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 155,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 156,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 157,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 158,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 159,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 160,
+    "A": "seamst",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 161,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 162,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 163,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 164,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 165,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 166,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 167,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 168,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 169,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 170,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 171,
+    "A": "seamst",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 172,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 173,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 174,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 175,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 176,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 177,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 178,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 179,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 180,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 181,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 182,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 183,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 184,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 185,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 186,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 187,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 188,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 189,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 190,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 191,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 192,
+    "A": "seamstress",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 193,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 194,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 195,
+    "A": "seamst",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 196,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 197,
+    "A": "seamstress",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 198,
+    "A": "seamstress",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 199,
+    "A": "seamst",
+    "B": "tirane",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 1,
+    "A": "teams",
+    "B": "austin",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 2,
+    "A": "study",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 3,
+    "A": "research",
+    "B": "chicago",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 4,
+    "A": "seminar",
+    "B": "new",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 5,
+    "A": "houston",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 6,
+    "A": "dallas",
+    "B": "dallas",
+    "agreed": true
+  },
+  {
+    "rollout": 7,
+    "turn": 1,
+    "A": "symphony",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 2,
+    "A": "paris",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 3,
+    "A": "violin",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 4,
+    "A": "romeo",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 5,
+    "A": "violinist",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 6,
+    "A": "amsterdam",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 7,
+    "A": "violinists",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 8,
+    "A": "amadeus",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 9,
+    "A": "viennese",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 10,
+    "A": "madrigal",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 11,
+    "A": "sonata",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 12,
+    "A": "bach",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 13,
+    "A": "mozart",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 14,
+    "A": "waltz",
+    "B": "copenhagen",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 15,
+    "A": "sonatas",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 16,
+    "A": "viennas",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 17,
+    "A": "salzburg",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 18,
+    "A": "melody",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 19,
+    "A": "melodrama",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 20,
+    "A": "melodious",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 21,
+    "A": "melodist",
+    "B": "vaduz",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 22,
+    "A": "melodrama",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 23,
+    "A": "melodrama",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 24,
+    "A": "melodram",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 25,
+    "A": "melodrama",
+    "B": "belfast",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 26,
+    "A": "melodrama",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 27,
+    "A": "melodram",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 28,
+    "A": "melodram",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 29,
+    "A": "melodram",
+    "B": "zagreb",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 30,
+    "A": "melodram",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 31,
+    "A": "sketche",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 32,
+    "A": "sketches",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 33,
+    "A": "sketcher",
+    "B": "kabul",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 34,
+    "A": "symphonies",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 35,
+    "A": "sketchers",
+    "B": "kigali",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 36,
+    "A": "sketchiest",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 37,
+    "A": "symphonist",
+    "B": "almaty",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 38,
+    "A": "symphonic",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 39,
+    "A": "symphonists",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 40,
+    "A": "modulate",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 41,
+    "A": "modularist",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 42,
+    "A": "modularized",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 43,
+    "A": "modularization",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 44,
+    "A": "modularizations",
+    "B": "brunei",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 45,
+    "A": "modularities",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 46,
+    "A": "modularisations",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 47,
+    "A": "modularisation",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 48,
+    "A": "modularising",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 49,
+    "A": "modularise",
+    "B": "porto",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 50,
+    "A": "modularised",
+    "B": "kampala",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 51,
+    "A": "modularity",
+    "B": "dakar",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 52,
+    "A": "modularizing",
+    "B": "kuwait",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 53,
+    "A": "modularly",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 54,
+    "A": "modularise",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 55,
+    "A": "modulariser",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 56,
+    "A": "symphonize",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 57,
+    "A": "symphonizers",
+    "B": "managua",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 58,
+    "A": "symphonizing",
+    "B": "manama",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 59,
+    "A": "symphonized",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 60,
+    "A": "symphonically",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 61,
+    "A": "symphonian",
+    "B": "dhaka",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 62,
+    "A": "symphoniser",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 63,
+    "A": "symphonise",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 64,
+    "A": "symphonizer",
+    "B": "budva",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 65,
+    "A": "sketchy",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 66,
+    "A": "sketch",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 67,
+    "A": "modularised",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 68,
+    "A": "modularisation",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 69,
+    "A": "modularized",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 70,
+    "A": "modularised",
+    "B": "riyadh",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 71,
+    "A": "modularises",
+    "B": "vientiane",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 72,
+    "A": "modularized",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 73,
+    "A": "symphonizers",
+    "B": "port",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 74,
+    "A": "sketchism",
+    "B": "luxor",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 75,
+    "A": "sketches",
+    "B": "hamburg",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 76,
+    "A": "modulars",
+    "B": "tunis",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 77,
+    "A": "modularised",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 78,
+    "A": "symphonization",
+    "B": "nouak",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 79,
+    "A": "modularisation",
+    "B": "port-au-",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 80,
+    "A": "modularised",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 81,
+    "A": "modularised",
+    "B": "port-vila",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 82,
+    "A": "modularisation",
+    "B": "saraje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 83,
+    "A": "modularised",
+    "B": "port-of-s",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 84,
+    "A": "melodically",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 85,
+    "A": "modularised",
+    "B": "port-louis",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 86,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 87,
+    "A": "melodists",
+    "B": "port-sa",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 88,
+    "A": "modularised",
+    "B": "port-saint",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 89,
+    "A": "melodiously",
+    "B": "port-roy",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 90,
+    "A": "symphonizers",
+    "B": "cape",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 91,
+    "A": "melodiest",
+    "B": "port-soud",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 92,
+    "A": "modularised",
+    "B": "port-lis",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 93,
+    "A": "modularised",
+    "B": "london",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 94,
+    "A": "melodrama",
+    "B": "port-sid",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 95,
+    "A": "symphonias",
+    "B": "porto-vec",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 96,
+    "A": "modularisation",
+    "B": "port-sal",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 97,
+    "A": "symphonizers",
+    "B": "porto-aux",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 98,
+    "A": "modularisations",
+    "B": "port-luz",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 99,
+    "A": "sketchism",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 100,
+    "A": "symphonisations",
+    "B": "port-rose",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 101,
+    "A": "symphonizations",
+    "B": "port-of-sp",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 102,
+    "A": "symphonisations",
+    "B": "port-gent",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 103,
+    "A": "modularisations",
+    "B": "port-ville",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 104,
+    "A": "symphonization",
+    "B": "port-ve",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 105,
+    "A": "modularisation",
+    "B": "port-bou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 106,
+    "A": "sketches",
+    "B": "port-vieux",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 107,
+    "A": "melodrama",
+    "B": "port-ale",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 108,
+    "A": "symphonisation",
+    "B": "port-lya",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 109,
+    "A": "symphonising",
+    "B": "port-laos",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 110,
+    "A": "sketchy",
+    "B": "port-lyon",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 111,
+    "A": "symphonisations",
+    "B": "port-moh",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 112,
+    "A": "melodrams",
+    "B": "port-mad",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 113,
+    "A": "sketchism",
+    "B": "port-dou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 114,
+    "A": "melodrama",
+    "B": "port-lis",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 115,
+    "A": "melodram",
+    "B": "port-ni",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 116,
+    "A": "modularised",
+    "B": "port-lou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 117,
+    "A": "modularised",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 118,
+    "A": "symphonisations",
+    "B": "port-sud",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 119,
+    "A": "symphonisation",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 120,
+    "A": "sketchism",
+    "B": "bangui",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 121,
+    "A": "sketchy",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 122,
+    "A": "modularised",
+    "B": "porto-novo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 123,
+    "A": "symphonisation",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 124,
+    "A": "symphonised",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 125,
+    "A": "symphonisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 126,
+    "A": "modularisation",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 127,
+    "A": "modularising",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 128,
+    "A": "sketchism",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 129,
+    "A": "symphonizing",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 130,
+    "A": "modularised",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 131,
+    "A": "melodram",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 132,
+    "A": "modularisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 133,
+    "A": "melodram",
+    "B": "port-mores",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 134,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 135,
+    "A": "symphonisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 136,
+    "A": "modularisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 137,
+    "A": "modularising",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 138,
+    "A": "modularisation",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 139,
+    "A": "symphonisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 140,
+    "A": "modularisation",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 141,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 142,
+    "A": "modularised",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 143,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 144,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 145,
+    "A": "sketchism",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 146,
+    "A": "modularising",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 147,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 148,
+    "A": "melodram",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 149,
+    "A": "sketchism",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 150,
+    "A": "modularised",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 151,
+    "A": "modularised",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 152,
+    "A": "symphonisations",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 153,
+    "A": "modularisation",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 154,
+    "A": "modularised",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 155,
+    "A": "symphonisations",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 156,
+    "A": "symphonisation",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 157,
+    "A": "modularised",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 158,
+    "A": "modularised",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 159,
+    "A": "symphonisation",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 160,
+    "A": "symphonisations",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 161,
+    "A": "symphonisations",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 162,
+    "A": "modularisations",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 163,
+    "A": "symphonisations",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 164,
+    "A": "melodrama",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 165,
+    "A": "modularise",
+    "B": "port-nou",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 166,
+    "A": "skopje",
+    "B": "skopje",
+    "agreed": true
+  },
+  {
+    "rollout": 8,
+    "turn": 1,
+    "A": "silent",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 2,
+    "A": "tango",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 3,
+    "A": "daring",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 4,
+    "A": "madrid",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 5,
+    "A": "rome",
+    "B": "rome",
+    "agreed": true
+  },
+  {
+    "rollout": 9,
+    "turn": 1,
+    "A": "echo",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 2,
+    "A": "mimic",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 3,
+    "A": "muse",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 4,
+    "A": "siren",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 5,
+    "A": "victory",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 6,
+    "A": "violin",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 7,
+    "A": "silence",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 8,
+    "A": "novelty",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 9,
+    "A": "wax",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 10,
+    "A": "waltz",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 11,
+    "A": "verve",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 12,
+    "A": "voyage",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 13,
+    "A": "solemn",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 14,
+    "A": "solo",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 15,
+    "A": "sydney",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 16,
+    "A": "zanzib",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 17,
+    "A": "osman",
+    "B": "canberra",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 18,
+    "A": "canary",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 19,
+    "A": "canopic",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 20,
+    "A": "acapul",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 21,
+    "A": "amsterdam",
+    "B": "dubrovnik",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 22,
+    "A": "dance",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 23,
+    "A": "palace",
+    "B": "munich",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 24,
+    "A": "palindrom",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 25,
+    "A": "palimpsest",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 26,
+    "A": "palimony",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 27,
+    "A": "palaver",
+    "B": "bern",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 28,
+    "A": "palpable",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 29,
+    "A": "palatable",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 30,
+    "A": "palisade",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 31,
+    "A": "palimony",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 32,
+    "A": "palatinate",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 33,
+    "A": "palmyra",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 34,
+    "A": "palmist",
+    "B": "palanga",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 35,
+    "A": "palatal",
+    "B": "palmer",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 36,
+    "A": "palm",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 37,
+    "A": "palladium",
+    "B": "palau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 38,
+    "A": "pallid",
+    "B": "palikir",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 39,
+    "A": "palliative",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 40,
+    "A": "pallor",
+    "B": "palus",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 41,
+    "A": "pall",
+    "B": "palencia",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 42,
+    "A": "paltry",
+    "B": "palmas",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 43,
+    "A": "palliate",
+    "B": "palu",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 44,
+    "A": "palpitate",
+    "B": "palayam",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 45,
+    "A": "palmistry",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 46,
+    "A": "pallbearer",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 47,
+    "A": "pallial",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 48,
+    "A": "palpably",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 49,
+    "A": "pallium",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 50,
+    "A": "palatable",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 51,
+    "A": "palmy",
+    "B": "palu",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 52,
+    "A": "palpitation",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 53,
+    "A": "palp",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 54,
+    "A": "pal",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 55,
+    "A": "pal",
+    "B": "palau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 56,
+    "A": "pal",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 57,
+    "A": "palaver",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 58,
+    "A": "pal",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 59,
+    "A": "palatable",
+    "B": "palu",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 60,
+    "A": "pals",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 61,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 62,
+    "A": "palatable",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 63,
+    "A": "pally",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 64,
+    "A": "palsied",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 65,
+    "A": "palsy",
+    "B": "palmyra",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 66,
+    "A": "palsgrave",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 67,
+    "A": "pals",
+    "B": "palau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 68,
+    "A": "palsied",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 69,
+    "A": "pals",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 70,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 71,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 72,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 73,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 74,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 75,
+    "A": "palsgrave",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 76,
+    "A": "palsgrave",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 77,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 78,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 79,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 80,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 81,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 82,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 83,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 84,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 85,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 86,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 87,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 88,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 89,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 90,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 91,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 92,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 93,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 94,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 95,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 96,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 97,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 98,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 99,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 100,
+    "A": "pal",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 101,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 102,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 103,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 104,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 105,
+    "A": "palsgrave",
+    "B": "palau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 106,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 107,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 108,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 109,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 110,
+    "A": "palms",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 111,
+    "A": "palmsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 112,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 113,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 114,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 115,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 116,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 117,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 118,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 119,
+    "A": "pal",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 120,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 121,
+    "A": "palsgrave",
+    "B": "palau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 122,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 123,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 124,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 125,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 126,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 127,
+    "A": "pal",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 128,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 129,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 130,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 131,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 132,
+    "A": "palatable",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 133,
+    "A": "palaver",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 134,
+    "A": "palaver",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 135,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 136,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 137,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 138,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 139,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 140,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 141,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 142,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 143,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 144,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 145,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 146,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 147,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 148,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 149,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 150,
+    "A": "palatable",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 151,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 152,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 153,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 154,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 155,
+    "A": "palsgrave",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 156,
+    "A": "palatable",
+    "B": "palatine",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 157,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 158,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 159,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 160,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 161,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 162,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 163,
+    "A": "palsgrave",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 164,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 165,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 166,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 167,
+    "A": "pal",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 168,
+    "A": "palatable",
+    "B": "palatka",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 169,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 170,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 171,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 172,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 173,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 174,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 175,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 176,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 177,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 178,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 179,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 180,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 181,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 182,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 183,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 184,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 185,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 186,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 187,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 188,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 189,
+    "A": "palatable",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 190,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 191,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 192,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 193,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 194,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 195,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 196,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 197,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 198,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 199,
+    "A": "palsgrave",
+    "B": "palma",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 1,
+    "A": "exact",
+    "B": "dresden",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 2,
+    "A": "drier",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 3,
+    "A": "viennese",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 4,
+    "A": "berliner",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 5,
+    "A": "romeo",
+    "B": "parisian",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 6,
+    "A": "rome",
+    "B": "rome",
+    "agreed": true
+  },
+  {
+    "rollout": 11,
+    "turn": 1,
+    "A": "admitted",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 2,
+    "A": "abacuses",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 3,
+    "A": "cabaret",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 4,
+    "A": "acapul",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 5,
+    "A": "cabana",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 6,
+    "A": "buenas",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 7,
+    "A": "cabanas",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 8,
+    "A": "accede",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 9,
+    "A": "bogota",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 10,
+    "A": "acacia",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 11,
+    "A": "academic",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 12,
+    "A": "academies",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 13,
+    "A": "academia",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 14,
+    "A": "acclaim",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 15,
+    "A": "accepted",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 16,
+    "A": "acclaiming",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 17,
+    "A": "accolades",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 18,
+    "A": "accolade",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 19,
+    "A": "accoladed",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 20,
+    "A": "accost",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 21,
+    "A": "acceded",
+    "B": "algeria",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 22,
+    "A": "accolading",
+    "B": "amman",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 23,
+    "A": "accosted",
+    "B": "tunis",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 24,
+    "A": "accommod",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 25,
+    "A": "accustom",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 26,
+    "A": "acclimat",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 27,
+    "A": "acclimating",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 28,
+    "A": "acclimated",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 29,
+    "A": "accedes",
+    "B": "ankara",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 30,
+    "A": "acclimate",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 31,
+    "A": "acceding",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 32,
+    "A": "accustoming",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 33,
+    "A": "accustomed",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 34,
+    "A": "acclim",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 35,
+    "A": "acclaims",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 36,
+    "A": "acclime",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 37,
+    "A": "acclimation",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 38,
+    "A": "acclimes",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 39,
+    "A": "acclimations",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 40,
+    "A": "acclimates",
+    "B": "bengal",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 41,
+    "A": "acclaimingly",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 42,
+    "A": "acclim",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 43,
+    "A": "acclims",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 44,
+    "A": "acceding",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 45,
+    "A": "acclim",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 46,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 47,
+    "A": "acclimed",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 48,
+    "A": "acclimes",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 49,
+    "A": "acclimat",
+    "B": "budva",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 50,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 51,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 52,
+    "A": "acclim",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 53,
+    "A": "acclims",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 54,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 55,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 56,
+    "A": "acclims",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 57,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 58,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 59,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 60,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 61,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 62,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 63,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 64,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 65,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 66,
+    "A": "acclims",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 67,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 68,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 69,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 70,
+    "A": "acclimate",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 71,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 72,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 73,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 74,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 75,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 76,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 77,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 78,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 79,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 80,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 81,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 82,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 83,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 84,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 85,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 86,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 87,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 88,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 89,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 90,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 91,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 92,
+    "A": "acclims",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 93,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 94,
+    "A": "acclims",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 95,
+    "A": "acclim",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 96,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 97,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 98,
+    "A": "acclim",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 99,
+    "A": "baku",
+    "B": "baku",
+    "agreed": true
+  },
+  {
+    "rollout": 12,
+    "turn": 1,
+    "A": "gold",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 2,
+    "A": "silver",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 3,
+    "A": "bronze",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 4,
+    "A": "paris",
+    "B": "paris",
+    "agreed": true
+  },
+  {
+    "rollout": 13,
+    "turn": 1,
+    "A": "mirror",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 2,
+    "A": "echo",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 3,
+    "A": "serendip",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 4,
+    "A": "sydney",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 5,
+    "A": "canberra",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 6,
+    "A": "vienna",
+    "B": "vienna",
+    "agreed": true
+  },
+  {
+    "rollout": 14,
+    "turn": 1,
+    "A": "harmony",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 2,
+    "A": "jungle",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 3,
+    "A": "mosquito",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 4,
+    "A": "desert",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 5,
+    "A": "amazon",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 6,
+    "A": "forest",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 7,
+    "A": "rainbow",
+    "B": "london",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 8,
+    "A": "tundra",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 9,
+    "A": "plains",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 10,
+    "A": "tropical",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 11,
+    "A": "savannah",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 12,
+    "A": "alpine",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 13,
+    "A": "antarctic",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 14,
+    "A": "alpine",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 15,
+    "A": "alpine",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 16,
+    "A": "tropical",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 17,
+    "A": "tropical",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 18,
+    "A": "arctic",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 19,
+    "A": "taiga",
+    "B": "mexico",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 20,
+    "A": "alps",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 21,
+    "A": "sahara",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 22,
+    "A": "steppe",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 23,
+    "A": "prairie",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 24,
+    "A": "alpine",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 25,
+    "A": "alpine",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 26,
+    "A": "alpine",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 27,
+    "A": "alpine",
+    "B": "dhaka",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 28,
+    "A": "alpine",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 29,
+    "A": "alpine",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 30,
+    "A": "savanna",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 31,
+    "A": "alpine",
+    "B": "teheran",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 32,
+    "A": "tundra",
+    "B": "kabul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 33,
+    "A": "alpine",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 34,
+    "A": "alpine",
+    "B": "riyadh",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 35,
+    "A": "alpine",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 36,
+    "A": "alpine",
+    "B": "kigali",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 37,
+    "A": "alpine",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 38,
+    "A": "alpine",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 39,
+    "A": "alpine",
+    "B": "dakar",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 40,
+    "A": "alpine",
+    "B": "amman",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 41,
+    "A": "steppe",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 42,
+    "A": "alpine",
+    "B": "kampala",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 43,
+    "A": "alpine",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 44,
+    "A": "steppe",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 45,
+    "A": "alpine",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 46,
+    "A": "alpine",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 47,
+    "A": "steppe",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 48,
+    "A": "alpine",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 49,
+    "A": "alpine",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 50,
+    "A": "alpine",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 51,
+    "A": "steppe",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 52,
+    "A": "alpine",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 53,
+    "A": "steppe",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 54,
+    "A": "grassland",
+    "B": "tunis",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 55,
+    "A": "steppe",
+    "B": "kuala",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 56,
+    "A": "steppes",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 57,
+    "A": "steppe",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 58,
+    "A": "steppe",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 59,
+    "A": "pampas",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 60,
+    "A": "steppe",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 61,
+    "A": "tundra",
+    "B": "mogad",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 62,
+    "A": "steppe",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 63,
+    "A": "tundra",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 64,
+    "A": "steppes",
+    "B": "brisbane",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 65,
+    "A": "alpine",
+    "B": "bogota",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 66,
+    "A": "alpine",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 67,
+    "A": "steppes",
+    "B": "kuwait",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 68,
+    "A": "steppe",
+    "B": "zagreb",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 69,
+    "A": "steppe",
+    "B": "nouak",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 70,
+    "A": "steppe",
+    "B": "adana",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 71,
+    "A": "steppe",
+    "B": "abu",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 72,
+    "A": "steppe",
+    "B": "managua",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 73,
+    "A": "steppe",
+    "B": "brasilia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 74,
+    "A": "tundra",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 75,
+    "A": "savanna",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 76,
+    "A": "steppe",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 77,
+    "A": "steppes",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 78,
+    "A": "alpine",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 79,
+    "A": "steppe",
+    "B": "dubrov",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 80,
+    "A": "alpine",
+    "B": "noume",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 81,
+    "A": "alpine",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 82,
+    "A": "steppe",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 83,
+    "A": "alpine",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 84,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 85,
+    "A": "steppe",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 86,
+    "A": "alpine",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 87,
+    "A": "steppe",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 88,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 89,
+    "A": "steppe",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 90,
+    "A": "steppe",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 91,
+    "A": "tundra",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 92,
+    "A": "steppe",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 93,
+    "A": "alpine",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 94,
+    "A": "steppe",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 95,
+    "A": "alpine",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 96,
+    "A": "savanna",
+    "B": "port",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 97,
+    "A": "alpine",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 98,
+    "A": "steppes",
+    "B": "port-au-",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 99,
+    "A": "alpine",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 100,
+    "A": "steppe",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 101,
+    "A": "steppe",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 102,
+    "A": "savanna",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 103,
+    "A": "steppe",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 104,
+    "A": "steppes",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 105,
+    "A": "steppe",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 106,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 107,
+    "A": "steppe",
+    "B": "riga",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 108,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 109,
+    "A": "steppes",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 110,
+    "A": "steppes",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 111,
+    "A": "steppes",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 112,
+    "A": "alpine",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 113,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 114,
+    "A": "alpine",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 115,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 116,
+    "A": "alpine",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 117,
+    "A": "savanna",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 118,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 119,
+    "A": "steppes",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 120,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 121,
+    "A": "alpine",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 122,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 123,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 124,
+    "A": "alpine",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 125,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 126,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 127,
+    "A": "steppes",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 128,
+    "A": "savanna",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 129,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 130,
+    "A": "steppes",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 131,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 132,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 133,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 134,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 135,
+    "A": "alpine",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 136,
+    "A": "alpine",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 137,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 138,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 139,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 140,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 141,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 142,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 143,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 144,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 145,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 146,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 147,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 148,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 149,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 150,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 151,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 152,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 153,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 154,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 155,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 156,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 157,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 158,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 159,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 160,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 161,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 162,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 163,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 164,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 165,
+    "A": "tundra",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 166,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 167,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 168,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 169,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 170,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 171,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 172,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 173,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 174,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 175,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 176,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 177,
+    "A": "steppe",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 178,
+    "A": "steppe",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 179,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 180,
+    "A": "steppes",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 181,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 182,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 183,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 184,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 185,
+    "A": "alpine",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 186,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 187,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 188,
+    "A": "steppes",
+    "B": "nicosia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 189,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 190,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 191,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 192,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 193,
+    "A": "steppes",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 194,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 195,
+    "A": "steppe",
+    "B": "nice",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 196,
+    "A": "steppe",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 197,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 198,
+    "A": "steppe",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 199,
+    "A": "steppes",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 1,
+    "A": "echo",
+    "B": "kyoto",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 2,
+    "A": "alpha",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 3,
+    "A": "delta",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 4,
+    "A": "gamma",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 5,
+    "A": "beta",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 6,
+    "A": "theta",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 7,
+    "A": "romeo",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 8,
+    "A": "zulu",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 9,
+    "A": "charlie",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 10,
+    "A": "november",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 11,
+    "A": "foxtrot",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 12,
+    "A": "phi",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 13,
+    "A": "psi",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 14,
+    "A": "tau",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 15,
+    "A": "epsilon",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 16,
+    "A": "sigma",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 17,
+    "A": "mu",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 18,
+    "A": "omega",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 19,
+    "A": "lambda",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 20,
+    "A": "xi",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 21,
+    "A": "upsilon",
+    "B": "tehran",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 22,
+    "A": "kilo",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 23,
+    "A": "bravo",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 24,
+    "A": "nu",
+    "B": "hong",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 25,
+    "A": "kappa",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 26,
+    "A": "omicron",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 27,
+    "A": "eta",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 28,
+    "A": "zeta",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 29,
+    "A": "chi",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 30,
+    "A": "alpha",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 31,
+    "A": "zeta",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 32,
+    "A": "alpha",
+    "B": "bangalore",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 33,
+    "A": "alpha",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 34,
+    "A": "alpha",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 35,
+    "A": "alpha",
+    "B": "hanoi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 36,
+    "A": "alpha",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 37,
+    "A": "alpha",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 38,
+    "A": "alpha",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 39,
+    "A": "alpha",
+    "B": "kiev",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 40,
+    "A": "alpha",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 41,
+    "A": "alpha",
+    "B": "tallinn",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 42,
+    "A": "alpha",
+    "B": "tirana",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 43,
+    "A": "alpha",
+    "B": "bogota",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 44,
+    "A": "alpha",
+    "B": "almaty",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 45,
+    "A": "alpha",
+    "B": "kolkata",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 46,
+    "A": "alpha",
+    "B": "kabul",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 47,
+    "A": "alpha",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 48,
+    "A": "alpha",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 49,
+    "A": "alpha",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 50,
+    "A": "alpha",
+    "B": "tashk",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 51,
+    "A": "alpha",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 52,
+    "A": "alpha",
+    "B": "astana",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 53,
+    "A": "alpha",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 54,
+    "A": "alpha",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 55,
+    "A": "bravo",
+    "B": "brisbane",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 56,
+    "A": "alpha",
+    "B": "dakar",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 57,
+    "A": "alpha",
+    "B": "kigali",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 58,
+    "A": "alpha",
+    "B": "doha",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 59,
+    "A": "alpha",
+    "B": "vientiane",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 60,
+    "A": "alpha",
+    "B": "kampala",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 61,
+    "A": "alpha",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 62,
+    "A": "bravo",
+    "B": "ankara",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 63,
+    "A": "alpha",
+    "B": "lome",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 64,
+    "A": "bravo",
+    "B": "brazz",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 65,
+    "A": "bravo",
+    "B": "skopje",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 66,
+    "A": "bravo",
+    "B": "tunis",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 67,
+    "A": "bravo",
+    "B": "mogad",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 68,
+    "A": "alpha",
+    "B": "amman",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 69,
+    "A": "bravo",
+    "B": "adana",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 70,
+    "A": "bravo",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 71,
+    "A": "bravo",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 72,
+    "A": "bravo",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 73,
+    "A": "bravo",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 74,
+    "A": "bravo",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 75,
+    "A": "bravo",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 76,
+    "A": "bravo",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 77,
+    "A": "bravo",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 78,
+    "A": "bravo",
+    "B": "accra",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 79,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 80,
+    "A": "bravo",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 81,
+    "A": "bravo",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 82,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 83,
+    "A": "bravo",
+    "B": "minsk",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 84,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 85,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 86,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 87,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 88,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 89,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 90,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 91,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 92,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 93,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 94,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 95,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 96,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 97,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 98,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 99,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 100,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 101,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 102,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 103,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 104,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 105,
+    "A": "alpha",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 106,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 107,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 108,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 109,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 110,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 111,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 112,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 113,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 114,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 115,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 116,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 117,
+    "A": "alpha",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 118,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 119,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 120,
+    "A": "alpha",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 121,
+    "A": "bravo",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 122,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 123,
+    "A": "bravo",
+    "B": "brisbane",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 124,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 125,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 126,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 127,
+    "A": "bravo",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 128,
+    "A": "bravo",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 129,
+    "A": "bravo",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 130,
+    "A": "bravo",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 131,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 132,
+    "A": "bravo",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 133,
+    "A": "bravo",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 134,
+    "A": "psi",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 135,
+    "A": "alpha",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 136,
+    "A": "alpha",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 137,
+    "A": "psi",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 138,
+    "A": "psi",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 139,
+    "A": "bravo",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 140,
+    "A": "psi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 141,
+    "A": "psi",
+    "B": "bishkek",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 142,
+    "A": "psi",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 143,
+    "A": "psi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 144,
+    "A": "psi",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 145,
+    "A": "psi",
+    "B": "baku",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 146,
+    "A": "psi",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 147,
+    "A": "psi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 148,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 149,
+    "A": "ksi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 150,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 151,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 152,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 153,
+    "A": "ksi",
+    "B": "bratisl",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 154,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 155,
+    "A": "ksi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 156,
+    "A": "ksi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 157,
+    "A": "ksi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 158,
+    "A": "ksi",
+    "B": "bamako",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 159,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 160,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 161,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 162,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 163,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 164,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 165,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 166,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 167,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 168,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 169,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 170,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 171,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 172,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 173,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 174,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 175,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 176,
+    "A": "ksi",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 177,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 178,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 179,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 180,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 181,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 182,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 183,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 184,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 185,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 186,
+    "A": "ksi",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 187,
+    "A": "ksi",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 188,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 189,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 190,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 191,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 192,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 193,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 194,
+    "A": "ksi",
+    "B": "tbilisi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 195,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 196,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 197,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 198,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 199,
+    "A": "ksi",
+    "B": "bucharest",
+    "agreed": false
+  }
+]

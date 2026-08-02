@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "onion",
+  "true": "onion",
+  "clues": [
+   "a vegetable",
+   "it has layers",
+   "it makes you cry",
+   "round"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "carrot",
+   "onion",
+   "champagne",
+   "circle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "potato",
+   "onion",
+   "pear",
+   "circle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "pear",
+   "cylinder"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "beet",
+   "onion",
+   "pear",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "beet",
+   "onion",
+   "pear",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "beet",
+   "onion",
+   "pear",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "beet",
+   "onion",
+   "pear",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "beet",
+   "onion",
+   "pear",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "beet",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "beetroot",
+   "onion",
+   "onion",
+   "pear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

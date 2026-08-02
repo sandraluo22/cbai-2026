@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t2_foods",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for foods",
+  "decoy_A": "words for red things",
+  "decoy_B": "words for sweet things",
+  "A_examples": [
+   [
+    "strawberry",
+    true,
+    "trap"
+   ],
+   [
+    "tomato",
+    true,
+    "key"
+   ],
+   [
+    "cloud",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "cherry",
+    true,
+    "trap"
+   ],
+   [
+    "honey",
+    true,
+    "key"
+   ],
+   [
+    "stone",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "bread",
+    true,
+    "both"
+   ],
+   [
+    "rice",
+    true,
+    "both"
+   ],
+   [
+    "lemon",
+    true,
+    "both"
+   ],
+   [
+    "cake",
+    true,
+    "A"
+   ],
+   [
+    "butter",
+    true,
+    "both"
+   ],
+   [
+    "rose",
+    false,
+    "A"
+   ],
+   [
+    "ruby",
+    false,
+    "A"
+   ],
+   [
+    "brick",
+    false,
+    "A"
+   ],
+   [
+    "pencil",
+    false,
+    "none"
+   ],
+   [
+    "violin",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **\"Words that contain the letter 'a' are dax.\"**  \n\n- \"Strawberry\" and \"tomato\" both contain the letter 'a'.  \n- \"Cloud\" does not contain the letter 'a'.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it is a type of fruit or a sweet substance**. \n\nThis explains why \"cherry\" (a fruit) and \"honey\" (a sweet substance) are dax, while \"stone\" (not a",
+   "label": "decoy_B"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "peach is dax. I think fruits are labeled dax.",
+  "msg_B": "pear is dax. I think soft words are dax.",
+  "word_A": "peach",
+  "word_B": "pear",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "blue is not dax. I think colors are not dax.",
+  "msg_B": "milk is dax. I think creamy words are dax.",
+  "word_A": "blue",
+  "word_B": "milk",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "sky is not dax. I think dax words are edible.",
+  "msg_B": "butter is dax. I think words that feel smooth are dax.",
+  "word_A": "sky",
+  "word_B": "butter",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is: **A word is \"dax\" if it refers to something that is a food or can be eaten.**",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is: **A word is \"dax\" if it refers to something that is soft or has a soft, smooth texture.**",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

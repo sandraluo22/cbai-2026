@@ -1,0 +1,231 @@
+[
+ {
+  "type": "meta",
+  "task": "t3_vehicles",
+  "cond": "shuffled",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for vehicles",
+  "decoy_A": "words for things with wheels",
+  "decoy_B": "words for fast things",
+  "A_examples": [
+   [
+    "racecar",
+    true,
+    "trap"
+   ],
+   [
+    "bicycle",
+    true,
+    "key"
+   ],
+   [
+    "ladder",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "motorcycle",
+    true,
+    "trap"
+   ],
+   [
+    "speedboat",
+    true,
+    "key"
+   ],
+   [
+    "pillow",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "canoe",
+    true,
+    "both"
+   ],
+   [
+    "sailboat",
+    true,
+    "both"
+   ],
+   [
+    "submarine",
+    true,
+    "both"
+   ],
+   [
+    "bus",
+    true,
+    "B"
+   ],
+   [
+    "sled",
+    true,
+    "both"
+   ],
+   [
+    "wheelbarrow",
+    false,
+    "A"
+   ],
+   [
+    "cart",
+    false,
+    "A"
+   ],
+   [
+    "cheetah",
+    false,
+    "B"
+   ],
+   [
+    "bullet",
+    false,
+    "B"
+   ],
+   [
+    "lamp",
+    false,
+    "none"
+   ]
+  ],
+  "shuffled_from": "t1_animals_s0_transcript.jsonl"
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it contains the letter 'c'**. \n\nBoth \"racecar\" and \"bicycle\" contain the letter 'c', while \"ladder\" does not.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **\"Words with exactly six letters are 'dax'.\"**  \n- *motorcycle* (10 letters) is **not dax** (contradicts this, so my hypothesis is wrong).  \n- *speedboat* (9 letters) is",
+   "label": "decoy_B"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "motorcycle is dax. Looking for words with repeated syllables or patterns.",
+  "msg_B": "duck is dax. I think water-related words are dax.",
+  "word_A": "motorcycle",
+  "word_B": "duck",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "motorboat is dax. Testing if water-related and repeated patterns both matter.",
+  "msg_B": "goat is not dax. I think the rule is about aquatic animals.",
+  "word_A": "motorboat",
+  "word_B": "goat",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "seashell is dax. Testing if water-related objects with repeated letters work.",
+  "msg_B": "shark is dax. I think the rule is about animals that live in water.",
+  "word_A": "seashell",
+  "word_B": "shark",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is: **A word is \"dax\" if it contains a repeated letter pattern or refers to something related to water.**",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

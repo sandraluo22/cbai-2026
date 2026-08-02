@@ -1,0 +1,134 @@
+{
+  "model": "Llama",
+  "rings": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "nrand": 5,
+  "rows": {
+    "3": {
+      "base": 1.0,
+      "own": 0.671,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.329,
+      "rand_drop": 0.0
+    },
+    "4": {
+      "base": 1.0,
+      "own": 1.0,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.0,
+      "rand_drop": 0.0
+    },
+    "5": {
+      "base": 1.0,
+      "own": 0.896,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.104,
+      "rand_drop": 0.0
+    },
+    "6": {
+      "base": 1.0,
+      "own": 0.572,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.428,
+      "rand_drop": 0.0
+    },
+    "7": {
+      "base": 1.0,
+      "own": 0.726,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.274,
+      "rand_drop": 0.0
+    },
+    "8": {
+      "base": 1.0,
+      "own": 0.652,
+      "rand_mean": 1.0,
+      "rand_std": 0.0,
+      "own_drop": 0.348,
+      "rand_drop": 0.0
+    },
+    "9": {
+      "base": 1.0,
+      "own": 0.548,
+      "rand_mean": 0.999,
+      "rand_std": 0.0,
+      "own_drop": 0.452,
+      "rand_drop": 0.001
+    },
+    "10": {
+      "base": 0.998,
+      "own": 0.516,
+      "rand_mean": 0.998,
+      "rand_std": 0.0,
+      "own_drop": 0.482,
+      "rand_drop": 0.0
+    },
+    "11": {
+      "base": 0.998,
+      "own": 0.533,
+      "rand_mean": 0.997,
+      "rand_std": 0.0,
+      "own_drop": 0.465,
+      "rand_drop": 0.001
+    },
+    "12": {
+      "base": 0.994,
+      "own": 0.452,
+      "rand_mean": 0.994,
+      "rand_std": 0.001,
+      "own_drop": 0.543,
+      "rand_drop": 0.001
+    },
+    "13": {
+      "base": 0.995,
+      "own": 0.607,
+      "rand_mean": 0.995,
+      "rand_std": 0.001,
+      "own_drop": 0.389,
+      "rand_drop": 0.0
+    },
+    "14": {
+      "base": 0.98,
+      "own": 0.69,
+      "rand_mean": 0.976,
+      "rand_std": 0.004,
+      "own_drop": 0.291,
+      "rand_drop": 0.005
+    },
+    "15": {
+      "base": 0.992,
+      "own": 0.527,
+      "rand_mean": 0.991,
+      "rand_std": 0.0,
+      "own_drop": 0.465,
+      "rand_drop": 0.001
+    },
+    "16": {
+      "base": 0.99,
+      "own": 0.691,
+      "rand_mean": 0.989,
+      "rand_std": 0.001,
+      "own_drop": 0.299,
+      "rand_drop": 0.001
+    }
+  }
+}

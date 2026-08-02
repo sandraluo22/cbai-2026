@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "elephant4_syn", "true": "elephant", "clues": ["ashen", "enormous", "creature", "snout"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["ghost", "giant", "beast", "pig"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["pallid", "gargantuan", "dragon", "hog"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["pale", "colossus", "dragon", "boar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["ash", "colossal", "dragon", "snout"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 5, "guesses": ["ashen", "colossus", "dragon", "hog"], "all_true": false, "clue_violations": [1]}
+{"type": "round", "round": 6, "guesses": ["dragon", "colossus", "dragon", "hog"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["dragon", "colossus", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["dragon", "dragon", "dragon", "dragon"], "all_true": false, "clue_violations": []}

@@ -1,0 +1,1212 @@
+{
+  "model": "Llama",
+  "head": [
+    14,
+    26
+  ],
+  "grids": [
+    "3x3",
+    "4x4",
+    "5x5",
+    "6x6",
+    "7x7",
+    "8x8",
+    "9x9",
+    "10x10",
+    "11x11",
+    "12x12",
+    "13x13",
+    "14x14",
+    "15x15",
+    "16x16"
+  ],
+  "per_grid": {
+    "3x3": {
+      "n": 9,
+      "balance": "5/4",
+      "within_grid_axis_consistency": 0.19,
+      "sep_own": 0.394,
+      "parity_mode_idx": 8,
+      "parity_mode_power": 0.415,
+      "parity_axis_eig_corr": 0.963,
+      "top3_write_modes": [
+        [
+          8,
+          0.415,
+          2.0
+        ],
+        [
+          2,
+          0.166,
+          0.423
+        ],
+        [
+          1,
+          0.152,
+          0.423
+        ]
+      ]
+    },
+    "4x4": {
+      "n": 16,
+      "balance": "8/8",
+      "within_grid_axis_consistency": 0.238,
+      "sep_own": 0.211,
+      "parity_mode_idx": 15,
+      "parity_mode_power": 0.116,
+      "parity_axis_eig_corr": 0.921,
+      "top3_write_modes": [
+        [
+          1,
+          0.26,
+          0.218
+        ],
+        [
+          13,
+          0.155,
+          1.782
+        ],
+        [
+          2,
+          0.137,
+          0.218
+        ]
+      ]
+    },
+    "5x5": {
+      "n": 25,
+      "balance": "13/12",
+      "within_grid_axis_consistency": 0.207,
+      "sep_own": 0.173,
+      "parity_mode_idx": 24,
+      "parity_mode_power": 0.089,
+      "parity_axis_eig_corr": 0.873,
+      "top3_write_modes": [
+        [
+          1,
+          0.133,
+          0.131
+        ],
+        [
+          3,
+          0.109,
+          0.293
+        ],
+        [
+          2,
+          0.104,
+          0.131
+        ]
+      ]
+    },
+    "6x6": {
+      "n": 36,
+      "balance": "18/18",
+      "within_grid_axis_consistency": 0.184,
+      "sep_own": 0.169,
+      "parity_mode_idx": 35,
+      "parity_mode_power": 0.076,
+      "parity_axis_eig_corr": 0.857,
+      "top3_write_modes": [
+        [
+          1,
+          0.176,
+          0.087
+        ],
+        [
+          2,
+          0.077,
+          0.087
+        ],
+        [
+          34,
+          0.077,
+          1.913
+        ]
+      ]
+    },
+    "7x7": {
+      "n": 49,
+      "balance": "25/24",
+      "within_grid_axis_consistency": 0.246,
+      "sep_own": 0.115,
+      "parity_mode_idx": 48,
+      "parity_mode_power": 0.041,
+      "parity_axis_eig_corr": 0.603,
+      "top3_write_modes": [
+        [
+          1,
+          0.101,
+          0.062
+        ],
+        [
+          2,
+          0.101,
+          0.062
+        ],
+        [
+          3,
+          0.072,
+          0.134
+        ]
+      ]
+    },
+    "8x8": {
+      "n": 64,
+      "balance": "32/32",
+      "within_grid_axis_consistency": 0.18,
+      "sep_own": 0.119,
+      "parity_mode_idx": 63,
+      "parity_mode_power": 0.04,
+      "parity_axis_eig_corr": 0.819,
+      "top3_write_modes": [
+        [
+          5,
+          0.094,
+          0.175
+        ],
+        [
+          1,
+          0.075,
+          0.046
+        ],
+        [
+          2,
+          0.067,
+          0.046
+        ]
+      ]
+    },
+    "9x9": {
+      "n": 81,
+      "balance": "41/40",
+      "within_grid_axis_consistency": 0.152,
+      "sep_own": 0.099,
+      "parity_mode_idx": 80,
+      "parity_mode_power": 0.027,
+      "parity_axis_eig_corr": 0.625,
+      "top3_write_modes": [
+        [
+          5,
+          0.078,
+          0.137
+        ],
+        [
+          2,
+          0.065,
+          0.036
+        ],
+        [
+          1,
+          0.063,
+          0.036
+        ]
+      ]
+    },
+    "10x10": {
+      "n": 100,
+      "balance": "50/50",
+      "within_grid_axis_consistency": 0.236,
+      "sep_own": 0.093,
+      "parity_mode_idx": 99,
+      "parity_mode_power": 0.022,
+      "parity_axis_eig_corr": 0.681,
+      "top3_write_modes": [
+        [
+          1,
+          0.081,
+          0.029
+        ],
+        [
+          4,
+          0.062,
+          0.11
+        ],
+        [
+          2,
+          0.06,
+          0.029
+        ]
+      ]
+    },
+    "11x11": {
+      "n": 121,
+      "balance": "61/60",
+      "within_grid_axis_consistency": 0.214,
+      "sep_own": 0.056,
+      "parity_mode_idx": 120,
+      "parity_mode_power": 0.009,
+      "parity_axis_eig_corr": 0.468,
+      "top3_write_modes": [
+        [
+          1,
+          0.106,
+          0.023
+        ],
+        [
+          2,
+          0.063,
+          0.023
+        ],
+        [
+          4,
+          0.057,
+          0.091
+        ]
+      ]
+    },
+    "12x12": {
+      "n": 144,
+      "balance": "72/72",
+      "within_grid_axis_consistency": 0.174,
+      "sep_own": 0.07,
+      "parity_mode_idx": 143,
+      "parity_mode_power": 0.013,
+      "parity_axis_eig_corr": 0.53,
+      "top3_write_modes": [
+        [
+          2,
+          0.099,
+          0.019
+        ],
+        [
+          5,
+          0.056,
+          0.076
+        ],
+        [
+          1,
+          0.047,
+          0.019
+        ]
+      ]
+    },
+    "13x13": {
+      "n": 169,
+      "balance": "85/84",
+      "within_grid_axis_consistency": 0.189,
+      "sep_own": 0.063,
+      "parity_mode_idx": 168,
+      "parity_mode_power": 0.01,
+      "parity_axis_eig_corr": 0.457,
+      "top3_write_modes": [
+        [
+          2,
+          0.067,
+          0.016
+        ],
+        [
+          1,
+          0.039,
+          0.016
+        ],
+        [
+          4,
+          0.038,
+          0.064
+        ]
+      ]
+    },
+    "14x14": {
+      "n": 196,
+      "balance": "98/98",
+      "within_grid_axis_consistency": 0.206,
+      "sep_own": 0.054,
+      "parity_mode_idx": 195,
+      "parity_mode_power": 0.008,
+      "parity_axis_eig_corr": 0.492,
+      "top3_write_modes": [
+        [
+          1,
+          0.054,
+          0.014
+        ],
+        [
+          2,
+          0.049,
+          0.014
+        ],
+        [
+          5,
+          0.038,
+          0.055
+        ]
+      ]
+    },
+    "15x15": {
+      "n": 225,
+      "balance": "113/112",
+      "within_grid_axis_consistency": 0.251,
+      "sep_own": 0.053,
+      "parity_mode_idx": 224,
+      "parity_mode_power": 0.007,
+      "parity_axis_eig_corr": 0.405,
+      "top3_write_modes": [
+        [
+          2,
+          0.088,
+          0.012
+        ],
+        [
+          5,
+          0.036,
+          0.048
+        ],
+        [
+          1,
+          0.032,
+          0.012
+        ]
+      ]
+    },
+    "16x16": {
+      "n": 256,
+      "balance": "128/128",
+      "within_grid_axis_consistency": 0.207,
+      "sep_own": 0.068,
+      "parity_mode_idx": 255,
+      "parity_mode_power": 0.012,
+      "parity_axis_eig_corr": 0.438,
+      "top3_write_modes": [
+        [
+          2,
+          0.049,
+          0.011
+        ],
+        [
+          1,
+          0.034,
+          0.011
+        ],
+        [
+          4,
+          0.034,
+          0.042
+        ]
+      ]
+    }
+  },
+  "parity_axis_cosine_across_sizes": {
+    "3x3_vs_4x4": 0.062,
+    "3x3_vs_5x5": 0.441,
+    "3x3_vs_6x6": 0.629,
+    "3x3_vs_7x7": 0.688,
+    "3x3_vs_8x8": 0.035,
+    "3x3_vs_9x9": 0.668,
+    "3x3_vs_10x10": 0.274,
+    "3x3_vs_11x11": 0.446,
+    "3x3_vs_12x12": 0.33,
+    "3x3_vs_13x13": 0.469,
+    "3x3_vs_14x14": 0.234,
+    "3x3_vs_15x15": 0.336,
+    "3x3_vs_16x16": 0.432,
+    "4x4_vs_5x5": 0.357,
+    "4x4_vs_6x6": 0.115,
+    "4x4_vs_7x7": 0.075,
+    "4x4_vs_8x8": 0.11,
+    "4x4_vs_9x9": 0.046,
+    "4x4_vs_10x10": 0.087,
+    "4x4_vs_11x11": 0.049,
+    "4x4_vs_12x12": 0.2,
+    "4x4_vs_13x13": 0.192,
+    "4x4_vs_14x14": 0.004,
+    "4x4_vs_15x15": 0.021,
+    "4x4_vs_16x16": 0.007,
+    "5x5_vs_6x6": 0.12,
+    "5x5_vs_7x7": 0.548,
+    "5x5_vs_8x8": 0.209,
+    "5x5_vs_9x9": 0.392,
+    "5x5_vs_10x10": 0.002,
+    "5x5_vs_11x11": 0.297,
+    "5x5_vs_12x12": 0.424,
+    "5x5_vs_13x13": 0.267,
+    "5x5_vs_14x14": 0.006,
+    "5x5_vs_15x15": 0.202,
+    "5x5_vs_16x16": 0.429,
+    "6x6_vs_7x7": 0.342,
+    "6x6_vs_8x8": 0.234,
+    "6x6_vs_9x9": 0.342,
+    "6x6_vs_10x10": 0.301,
+    "6x6_vs_11x11": 0.21,
+    "6x6_vs_12x12": 0.26,
+    "6x6_vs_13x13": 0.25,
+    "6x6_vs_14x14": 0.454,
+    "6x6_vs_15x15": 0.215,
+    "6x6_vs_16x16": 0.429,
+    "7x7_vs_8x8": 0.008,
+    "7x7_vs_9x9": 0.841,
+    "7x7_vs_10x10": 0.079,
+    "7x7_vs_11x11": 0.602,
+    "7x7_vs_12x12": 0.251,
+    "7x7_vs_13x13": 0.616,
+    "7x7_vs_14x14": 0.041,
+    "7x7_vs_15x15": 0.509,
+    "7x7_vs_16x16": 0.42,
+    "8x8_vs_9x9": 0.017,
+    "8x8_vs_10x10": 0.014,
+    "8x8_vs_11x11": 0.078,
+    "8x8_vs_12x12": 0.335,
+    "8x8_vs_13x13": 0.08,
+    "8x8_vs_14x14": 0.258,
+    "8x8_vs_15x15": 0.08,
+    "8x8_vs_16x16": 0.12,
+    "9x9_vs_10x10": 0.243,
+    "9x9_vs_11x11": 0.679,
+    "9x9_vs_12x12": 0.372,
+    "9x9_vs_13x13": 0.563,
+    "9x9_vs_14x14": 0.2,
+    "9x9_vs_15x15": 0.427,
+    "9x9_vs_16x16": 0.36,
+    "10x10_vs_11x11": 0.153,
+    "10x10_vs_12x12": 0.028,
+    "10x10_vs_13x13": 0.041,
+    "10x10_vs_14x14": 0.064,
+    "10x10_vs_15x15": 0.165,
+    "10x10_vs_16x16": 0.15,
+    "11x11_vs_12x12": 0.3,
+    "11x11_vs_13x13": 0.793,
+    "11x11_vs_14x14": 0.044,
+    "11x11_vs_15x15": 0.701,
+    "11x11_vs_16x16": 0.21,
+    "12x12_vs_13x13": 0.273,
+    "12x12_vs_14x14": 0.056,
+    "12x12_vs_15x15": 0.254,
+    "12x12_vs_16x16": 0.073,
+    "13x13_vs_14x14": 0.076,
+    "13x13_vs_15x15": 0.854,
+    "13x13_vs_16x16": 0.22,
+    "14x14_vs_15x15": 0.161,
+    "14x14_vs_16x16": 0.199,
+    "15x15_vs_16x16": 0.036
+  },
+  "cross_transfer": {
+    "3x3_axis_on_4x4": {
+      "sep": -0.013,
+      "sep_vs_own": -0.062
+    },
+    "3x3_axis_on_5x5": {
+      "sep": 0.076,
+      "sep_vs_own": 0.441
+    },
+    "3x3_axis_on_6x6": {
+      "sep": 0.106,
+      "sep_vs_own": 0.629
+    },
+    "3x3_axis_on_7x7": {
+      "sep": 0.079,
+      "sep_vs_own": 0.688
+    },
+    "3x3_axis_on_8x8": {
+      "sep": 0.004,
+      "sep_vs_own": 0.035
+    },
+    "3x3_axis_on_9x9": {
+      "sep": 0.066,
+      "sep_vs_own": 0.668
+    },
+    "3x3_axis_on_10x10": {
+      "sep": 0.025,
+      "sep_vs_own": 0.274
+    },
+    "3x3_axis_on_11x11": {
+      "sep": 0.025,
+      "sep_vs_own": 0.446
+    },
+    "3x3_axis_on_12x12": {
+      "sep": 0.023,
+      "sep_vs_own": 0.33
+    },
+    "3x3_axis_on_13x13": {
+      "sep": 0.029,
+      "sep_vs_own": 0.469
+    },
+    "3x3_axis_on_14x14": {
+      "sep": 0.013,
+      "sep_vs_own": 0.234
+    },
+    "3x3_axis_on_15x15": {
+      "sep": 0.018,
+      "sep_vs_own": 0.336
+    },
+    "3x3_axis_on_16x16": {
+      "sep": -0.029,
+      "sep_vs_own": -0.432
+    },
+    "4x4_axis_on_3x3": {
+      "sep": -0.024,
+      "sep_vs_own": -0.062
+    },
+    "4x4_axis_on_5x5": {
+      "sep": -0.062,
+      "sep_vs_own": -0.357
+    },
+    "4x4_axis_on_6x6": {
+      "sep": 0.019,
+      "sep_vs_own": 0.115
+    },
+    "4x4_axis_on_7x7": {
+      "sep": 0.009,
+      "sep_vs_own": 0.075
+    },
+    "4x4_axis_on_8x8": {
+      "sep": -0.013,
+      "sep_vs_own": -0.11
+    },
+    "4x4_axis_on_9x9": {
+      "sep": 0.005,
+      "sep_vs_own": 0.046
+    },
+    "4x4_axis_on_10x10": {
+      "sep": 0.008,
+      "sep_vs_own": 0.087
+    },
+    "4x4_axis_on_11x11": {
+      "sep": 0.003,
+      "sep_vs_own": 0.049
+    },
+    "4x4_axis_on_12x12": {
+      "sep": 0.014,
+      "sep_vs_own": 0.2
+    },
+    "4x4_axis_on_13x13": {
+      "sep": 0.012,
+      "sep_vs_own": 0.192
+    },
+    "4x4_axis_on_14x14": {
+      "sep": 0.0,
+      "sep_vs_own": 0.004
+    },
+    "4x4_axis_on_15x15": {
+      "sep": 0.001,
+      "sep_vs_own": 0.021
+    },
+    "4x4_axis_on_16x16": {
+      "sep": 0.0,
+      "sep_vs_own": 0.007
+    },
+    "5x5_axis_on_3x3": {
+      "sep": 0.174,
+      "sep_vs_own": 0.441
+    },
+    "5x5_axis_on_4x4": {
+      "sep": -0.076,
+      "sep_vs_own": -0.357
+    },
+    "5x5_axis_on_6x6": {
+      "sep": 0.02,
+      "sep_vs_own": 0.12
+    },
+    "5x5_axis_on_7x7": {
+      "sep": 0.063,
+      "sep_vs_own": 0.548
+    },
+    "5x5_axis_on_8x8": {
+      "sep": 0.025,
+      "sep_vs_own": 0.209
+    },
+    "5x5_axis_on_9x9": {
+      "sep": 0.039,
+      "sep_vs_own": 0.392
+    },
+    "5x5_axis_on_10x10": {
+      "sep": -0.0,
+      "sep_vs_own": -0.002
+    },
+    "5x5_axis_on_11x11": {
+      "sep": 0.017,
+      "sep_vs_own": 0.297
+    },
+    "5x5_axis_on_12x12": {
+      "sep": -0.03,
+      "sep_vs_own": -0.424
+    },
+    "5x5_axis_on_13x13": {
+      "sep": 0.017,
+      "sep_vs_own": 0.267
+    },
+    "5x5_axis_on_14x14": {
+      "sep": 0.0,
+      "sep_vs_own": 0.006
+    },
+    "5x5_axis_on_15x15": {
+      "sep": 0.011,
+      "sep_vs_own": 0.202
+    },
+    "5x5_axis_on_16x16": {
+      "sep": -0.029,
+      "sep_vs_own": -0.429
+    },
+    "6x6_axis_on_3x3": {
+      "sep": 0.248,
+      "sep_vs_own": 0.629
+    },
+    "6x6_axis_on_4x4": {
+      "sep": 0.024,
+      "sep_vs_own": 0.115
+    },
+    "6x6_axis_on_5x5": {
+      "sep": 0.021,
+      "sep_vs_own": 0.12
+    },
+    "6x6_axis_on_7x7": {
+      "sep": 0.039,
+      "sep_vs_own": 0.342
+    },
+    "6x6_axis_on_8x8": {
+      "sep": -0.028,
+      "sep_vs_own": -0.234
+    },
+    "6x6_axis_on_9x9": {
+      "sep": 0.034,
+      "sep_vs_own": 0.342
+    },
+    "6x6_axis_on_10x10": {
+      "sep": 0.028,
+      "sep_vs_own": 0.301
+    },
+    "6x6_axis_on_11x11": {
+      "sep": 0.012,
+      "sep_vs_own": 0.21
+    },
+    "6x6_axis_on_12x12": {
+      "sep": 0.018,
+      "sep_vs_own": 0.26
+    },
+    "6x6_axis_on_13x13": {
+      "sep": 0.016,
+      "sep_vs_own": 0.25
+    },
+    "6x6_axis_on_14x14": {
+      "sep": 0.024,
+      "sep_vs_own": 0.454
+    },
+    "6x6_axis_on_15x15": {
+      "sep": 0.011,
+      "sep_vs_own": 0.215
+    },
+    "6x6_axis_on_16x16": {
+      "sep": -0.029,
+      "sep_vs_own": -0.429
+    },
+    "7x7_axis_on_3x3": {
+      "sep": 0.271,
+      "sep_vs_own": 0.688
+    },
+    "7x7_axis_on_4x4": {
+      "sep": 0.016,
+      "sep_vs_own": 0.075
+    },
+    "7x7_axis_on_5x5": {
+      "sep": 0.095,
+      "sep_vs_own": 0.548
+    },
+    "7x7_axis_on_6x6": {
+      "sep": 0.058,
+      "sep_vs_own": 0.342
+    },
+    "7x7_axis_on_8x8": {
+      "sep": 0.001,
+      "sep_vs_own": 0.008
+    },
+    "7x7_axis_on_9x9": {
+      "sep": 0.083,
+      "sep_vs_own": 0.841
+    },
+    "7x7_axis_on_10x10": {
+      "sep": 0.007,
+      "sep_vs_own": 0.079
+    },
+    "7x7_axis_on_11x11": {
+      "sep": 0.034,
+      "sep_vs_own": 0.602
+    },
+    "7x7_axis_on_12x12": {
+      "sep": 0.018,
+      "sep_vs_own": 0.251
+    },
+    "7x7_axis_on_13x13": {
+      "sep": 0.039,
+      "sep_vs_own": 0.616
+    },
+    "7x7_axis_on_14x14": {
+      "sep": 0.002,
+      "sep_vs_own": 0.041
+    },
+    "7x7_axis_on_15x15": {
+      "sep": 0.027,
+      "sep_vs_own": 0.509
+    },
+    "7x7_axis_on_16x16": {
+      "sep": -0.028,
+      "sep_vs_own": -0.42
+    },
+    "8x8_axis_on_3x3": {
+      "sep": 0.014,
+      "sep_vs_own": 0.035
+    },
+    "8x8_axis_on_4x4": {
+      "sep": -0.023,
+      "sep_vs_own": -0.11
+    },
+    "8x8_axis_on_5x5": {
+      "sep": 0.036,
+      "sep_vs_own": 0.209
+    },
+    "8x8_axis_on_6x6": {
+      "sep": -0.039,
+      "sep_vs_own": -0.234
+    },
+    "8x8_axis_on_7x7": {
+      "sep": 0.001,
+      "sep_vs_own": 0.008
+    },
+    "8x8_axis_on_9x9": {
+      "sep": -0.002,
+      "sep_vs_own": -0.017
+    },
+    "8x8_axis_on_10x10": {
+      "sep": 0.001,
+      "sep_vs_own": 0.014
+    },
+    "8x8_axis_on_11x11": {
+      "sep": 0.004,
+      "sep_vs_own": 0.078
+    },
+    "8x8_axis_on_12x12": {
+      "sep": -0.024,
+      "sep_vs_own": -0.335
+    },
+    "8x8_axis_on_13x13": {
+      "sep": 0.005,
+      "sep_vs_own": 0.08
+    },
+    "8x8_axis_on_14x14": {
+      "sep": -0.014,
+      "sep_vs_own": -0.258
+    },
+    "8x8_axis_on_15x15": {
+      "sep": 0.004,
+      "sep_vs_own": 0.08
+    },
+    "8x8_axis_on_16x16": {
+      "sep": -0.008,
+      "sep_vs_own": -0.12
+    },
+    "9x9_axis_on_3x3": {
+      "sep": 0.263,
+      "sep_vs_own": 0.668
+    },
+    "9x9_axis_on_4x4": {
+      "sep": 0.01,
+      "sep_vs_own": 0.046
+    },
+    "9x9_axis_on_5x5": {
+      "sep": 0.068,
+      "sep_vs_own": 0.392
+    },
+    "9x9_axis_on_6x6": {
+      "sep": 0.058,
+      "sep_vs_own": 0.342
+    },
+    "9x9_axis_on_7x7": {
+      "sep": 0.097,
+      "sep_vs_own": 0.841
+    },
+    "9x9_axis_on_8x8": {
+      "sep": -0.002,
+      "sep_vs_own": -0.017
+    },
+    "9x9_axis_on_10x10": {
+      "sep": -0.022,
+      "sep_vs_own": -0.243
+    },
+    "9x9_axis_on_11x11": {
+      "sep": 0.038,
+      "sep_vs_own": 0.679
+    },
+    "9x9_axis_on_12x12": {
+      "sep": 0.026,
+      "sep_vs_own": 0.372
+    },
+    "9x9_axis_on_13x13": {
+      "sep": 0.035,
+      "sep_vs_own": 0.563
+    },
+    "9x9_axis_on_14x14": {
+      "sep": 0.011,
+      "sep_vs_own": 0.2
+    },
+    "9x9_axis_on_15x15": {
+      "sep": 0.023,
+      "sep_vs_own": 0.427
+    },
+    "9x9_axis_on_16x16": {
+      "sep": -0.024,
+      "sep_vs_own": -0.36
+    },
+    "10x10_axis_on_3x3": {
+      "sep": 0.108,
+      "sep_vs_own": 0.274
+    },
+    "10x10_axis_on_4x4": {
+      "sep": 0.018,
+      "sep_vs_own": 0.087
+    },
+    "10x10_axis_on_5x5": {
+      "sep": -0.0,
+      "sep_vs_own": -0.002
+    },
+    "10x10_axis_on_6x6": {
+      "sep": 0.051,
+      "sep_vs_own": 0.301
+    },
+    "10x10_axis_on_7x7": {
+      "sep": 0.009,
+      "sep_vs_own": 0.079
+    },
+    "10x10_axis_on_8x8": {
+      "sep": 0.002,
+      "sep_vs_own": 0.014
+    },
+    "10x10_axis_on_9x9": {
+      "sep": -0.024,
+      "sep_vs_own": -0.243
+    },
+    "10x10_axis_on_11x11": {
+      "sep": -0.009,
+      "sep_vs_own": -0.153
+    },
+    "10x10_axis_on_12x12": {
+      "sep": 0.002,
+      "sep_vs_own": 0.028
+    },
+    "10x10_axis_on_13x13": {
+      "sep": 0.003,
+      "sep_vs_own": 0.041
+    },
+    "10x10_axis_on_14x14": {
+      "sep": -0.003,
+      "sep_vs_own": -0.064
+    },
+    "10x10_axis_on_15x15": {
+      "sep": 0.009,
+      "sep_vs_own": 0.165
+    },
+    "10x10_axis_on_16x16": {
+      "sep": -0.01,
+      "sep_vs_own": -0.15
+    },
+    "11x11_axis_on_3x3": {
+      "sep": 0.176,
+      "sep_vs_own": 0.446
+    },
+    "11x11_axis_on_4x4": {
+      "sep": 0.01,
+      "sep_vs_own": 0.049
+    },
+    "11x11_axis_on_5x5": {
+      "sep": 0.051,
+      "sep_vs_own": 0.297
+    },
+    "11x11_axis_on_6x6": {
+      "sep": 0.035,
+      "sep_vs_own": 0.21
+    },
+    "11x11_axis_on_7x7": {
+      "sep": 0.069,
+      "sep_vs_own": 0.602
+    },
+    "11x11_axis_on_8x8": {
+      "sep": 0.009,
+      "sep_vs_own": 0.078
+    },
+    "11x11_axis_on_9x9": {
+      "sep": 0.067,
+      "sep_vs_own": 0.679
+    },
+    "11x11_axis_on_10x10": {
+      "sep": -0.014,
+      "sep_vs_own": -0.153
+    },
+    "11x11_axis_on_12x12": {
+      "sep": 0.021,
+      "sep_vs_own": 0.3
+    },
+    "11x11_axis_on_13x13": {
+      "sep": 0.05,
+      "sep_vs_own": 0.793
+    },
+    "11x11_axis_on_14x14": {
+      "sep": 0.002,
+      "sep_vs_own": 0.044
+    },
+    "11x11_axis_on_15x15": {
+      "sep": 0.037,
+      "sep_vs_own": 0.701
+    },
+    "11x11_axis_on_16x16": {
+      "sep": -0.014,
+      "sep_vs_own": -0.21
+    },
+    "12x12_axis_on_3x3": {
+      "sep": 0.13,
+      "sep_vs_own": 0.33
+    },
+    "12x12_axis_on_4x4": {
+      "sep": 0.042,
+      "sep_vs_own": 0.2
+    },
+    "12x12_axis_on_5x5": {
+      "sep": -0.073,
+      "sep_vs_own": -0.424
+    },
+    "12x12_axis_on_6x6": {
+      "sep": 0.044,
+      "sep_vs_own": 0.26
+    },
+    "12x12_axis_on_7x7": {
+      "sep": 0.029,
+      "sep_vs_own": 0.251
+    },
+    "12x12_axis_on_8x8": {
+      "sep": -0.04,
+      "sep_vs_own": -0.335
+    },
+    "12x12_axis_on_9x9": {
+      "sep": 0.037,
+      "sep_vs_own": 0.372
+    },
+    "12x12_axis_on_10x10": {
+      "sep": 0.003,
+      "sep_vs_own": 0.028
+    },
+    "12x12_axis_on_11x11": {
+      "sep": 0.017,
+      "sep_vs_own": 0.3
+    },
+    "12x12_axis_on_13x13": {
+      "sep": 0.017,
+      "sep_vs_own": 0.273
+    },
+    "12x12_axis_on_14x14": {
+      "sep": -0.003,
+      "sep_vs_own": -0.056
+    },
+    "12x12_axis_on_15x15": {
+      "sep": 0.014,
+      "sep_vs_own": 0.254
+    },
+    "12x12_axis_on_16x16": {
+      "sep": -0.005,
+      "sep_vs_own": -0.073
+    },
+    "13x13_axis_on_3x3": {
+      "sep": 0.185,
+      "sep_vs_own": 0.469
+    },
+    "13x13_axis_on_4x4": {
+      "sep": 0.041,
+      "sep_vs_own": 0.192
+    },
+    "13x13_axis_on_5x5": {
+      "sep": 0.046,
+      "sep_vs_own": 0.267
+    },
+    "13x13_axis_on_6x6": {
+      "sep": 0.042,
+      "sep_vs_own": 0.25
+    },
+    "13x13_axis_on_7x7": {
+      "sep": 0.071,
+      "sep_vs_own": 0.616
+    },
+    "13x13_axis_on_8x8": {
+      "sep": 0.01,
+      "sep_vs_own": 0.08
+    },
+    "13x13_axis_on_9x9": {
+      "sep": 0.056,
+      "sep_vs_own": 0.563
+    },
+    "13x13_axis_on_10x10": {
+      "sep": 0.004,
+      "sep_vs_own": 0.041
+    },
+    "13x13_axis_on_11x11": {
+      "sep": 0.044,
+      "sep_vs_own": 0.793
+    },
+    "13x13_axis_on_12x12": {
+      "sep": 0.019,
+      "sep_vs_own": 0.273
+    },
+    "13x13_axis_on_14x14": {
+      "sep": -0.004,
+      "sep_vs_own": -0.076
+    },
+    "13x13_axis_on_15x15": {
+      "sep": 0.046,
+      "sep_vs_own": 0.854
+    },
+    "13x13_axis_on_16x16": {
+      "sep": -0.015,
+      "sep_vs_own": -0.22
+    },
+    "14x14_axis_on_3x3": {
+      "sep": 0.092,
+      "sep_vs_own": 0.234
+    },
+    "14x14_axis_on_4x4": {
+      "sep": 0.001,
+      "sep_vs_own": 0.004
+    },
+    "14x14_axis_on_5x5": {
+      "sep": 0.001,
+      "sep_vs_own": 0.006
+    },
+    "14x14_axis_on_6x6": {
+      "sep": 0.077,
+      "sep_vs_own": 0.454
+    },
+    "14x14_axis_on_7x7": {
+      "sep": 0.005,
+      "sep_vs_own": 0.041
+    },
+    "14x14_axis_on_8x8": {
+      "sep": -0.031,
+      "sep_vs_own": -0.258
+    },
+    "14x14_axis_on_9x9": {
+      "sep": 0.02,
+      "sep_vs_own": 0.2
+    },
+    "14x14_axis_on_10x10": {
+      "sep": -0.006,
+      "sep_vs_own": -0.064
+    },
+    "14x14_axis_on_11x11": {
+      "sep": 0.002,
+      "sep_vs_own": 0.044
+    },
+    "14x14_axis_on_12x12": {
+      "sep": -0.004,
+      "sep_vs_own": -0.056
+    },
+    "14x14_axis_on_13x13": {
+      "sep": -0.005,
+      "sep_vs_own": -0.076
+    },
+    "14x14_axis_on_15x15": {
+      "sep": -0.009,
+      "sep_vs_own": -0.161
+    },
+    "14x14_axis_on_16x16": {
+      "sep": -0.013,
+      "sep_vs_own": -0.199
+    },
+    "15x15_axis_on_3x3": {
+      "sep": 0.133,
+      "sep_vs_own": 0.336
+    },
+    "15x15_axis_on_4x4": {
+      "sep": 0.004,
+      "sep_vs_own": 0.021
+    },
+    "15x15_axis_on_5x5": {
+      "sep": 0.035,
+      "sep_vs_own": 0.202
+    },
+    "15x15_axis_on_6x6": {
+      "sep": 0.036,
+      "sep_vs_own": 0.215
+    },
+    "15x15_axis_on_7x7": {
+      "sep": 0.059,
+      "sep_vs_own": 0.509
+    },
+    "15x15_axis_on_8x8": {
+      "sep": 0.01,
+      "sep_vs_own": 0.08
+    },
+    "15x15_axis_on_9x9": {
+      "sep": 0.042,
+      "sep_vs_own": 0.427
+    },
+    "15x15_axis_on_10x10": {
+      "sep": 0.015,
+      "sep_vs_own": 0.165
+    },
+    "15x15_axis_on_11x11": {
+      "sep": 0.039,
+      "sep_vs_own": 0.701
+    },
+    "15x15_axis_on_12x12": {
+      "sep": 0.018,
+      "sep_vs_own": 0.254
+    },
+    "15x15_axis_on_13x13": {
+      "sep": 0.054,
+      "sep_vs_own": 0.854
+    },
+    "15x15_axis_on_14x14": {
+      "sep": -0.009,
+      "sep_vs_own": -0.161
+    },
+    "15x15_axis_on_16x16": {
+      "sep": -0.002,
+      "sep_vs_own": -0.036
+    },
+    "16x16_axis_on_3x3": {
+      "sep": -0.17,
+      "sep_vs_own": -0.432
+    },
+    "16x16_axis_on_4x4": {
+      "sep": 0.001,
+      "sep_vs_own": 0.007
+    },
+    "16x16_axis_on_5x5": {
+      "sep": -0.074,
+      "sep_vs_own": -0.429
+    },
+    "16x16_axis_on_6x6": {
+      "sep": -0.072,
+      "sep_vs_own": -0.429
+    },
+    "16x16_axis_on_7x7": {
+      "sep": -0.048,
+      "sep_vs_own": -0.42
+    },
+    "16x16_axis_on_8x8": {
+      "sep": -0.014,
+      "sep_vs_own": -0.12
+    },
+    "16x16_axis_on_9x9": {
+      "sep": -0.036,
+      "sep_vs_own": -0.36
+    },
+    "16x16_axis_on_10x10": {
+      "sep": -0.014,
+      "sep_vs_own": -0.15
+    },
+    "16x16_axis_on_11x11": {
+      "sep": -0.012,
+      "sep_vs_own": -0.21
+    },
+    "16x16_axis_on_12x12": {
+      "sep": -0.005,
+      "sep_vs_own": -0.073
+    },
+    "16x16_axis_on_13x13": {
+      "sep": -0.014,
+      "sep_vs_own": -0.22
+    },
+    "16x16_axis_on_14x14": {
+      "sep": -0.011,
+      "sep_vs_own": -0.199
+    },
+    "16x16_axis_on_15x15": {
+      "sep": -0.002,
+      "sep_vs_own": -0.036
+    }
+  }
+}

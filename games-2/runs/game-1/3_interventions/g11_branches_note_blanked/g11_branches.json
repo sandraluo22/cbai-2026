@@ -1,0 +1,102 @@
+[
+ {
+  "roll": 11,
+  "branch": "quiz",
+  "could_say": "helsinki, lagos, quito, chicago.",
+  "in_named": [
+   "chicago",
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [],
+  "expect_next": "**Draught**\n\n### Explanation:"
+ },
+ {
+  "roll": 11,
+  "branch": "note_blanked",
+  "picks": [
+   "drifted",
+   "adrift",
+   "draft",
+   "drafted",
+   "rafted",
+   "farted",
+   "darted",
+   "dart",
+   "radar",
+   "darting"
+  ],
+  "loop_exit": false,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 2,
+  "branch": "quiz",
+  "could_say": "**quito, helsinki, chicago, lagos**",
+  "in_named": [
+   "chicago",
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [],
+  "expect_next": "**start**\n\n### Here's why:"
+ },
+ {
+  "roll": 2,
+  "branch": "note_blanked",
+  "picks": [
+   "finish",
+   "finishing",
+   "finishes",
+   "finisher",
+   "finishers",
+   "finished",
+   "done",
+   "starting",
+   "finishable",
+   "startable"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 14,
+  "branch": "quiz",
+  "could_say": "banana, guitar, helsinki, lagos, puddle, quito, sorrow.",
+  "in_named": [
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [
+   "banana",
+   "sorrow",
+   "guitar",
+   "puddle"
+  ],
+  "expect_next": "**Warsaw**\n\n### Reasoning:"
+ },
+ {
+  "roll": 14,
+  "branch": "note_blanked",
+  "picks": [
+   "vienna",
+   "vienna",
+   "vienna",
+   "vienna",
+   "algiers",
+   "algiers",
+   "algiers",
+   "algiers",
+   "algiers",
+   "algiers"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ }
+]

@@ -1,0 +1,241 @@
+{
+ "per_branch": [
+  {
+   "cat": "city",
+   "stream": 0,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 1.0,
+   "onset": 1,
+   "fam_hits": 9,
+   "fallbacks": 3
+  },
+  {
+   "cat": "city",
+   "stream": 0,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 0,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 10,
+   "fam_hits": 2,
+   "fallbacks": 3
+  },
+  {
+   "cat": "city",
+   "stream": 2,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.0625,
+   "onset": 13,
+   "fam_hits": 1,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 2,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 4,
+   "fam_hits": 1,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 2,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 7,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.109375,
+   "onset": 5,
+   "fam_hits": 6,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 7,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 6,
+   "fam_hits": 6,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 7,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 3,
+   "fam_hits": 10,
+   "fallbacks": 1
+  },
+  {
+   "cat": "city",
+   "stream": 9,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.25,
+   "onset": 2,
+   "fam_hits": 11,
+   "fallbacks": 0
+  },
+  {
+   "cat": "city",
+   "stream": 9,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 5,
+   "fam_hits": 7,
+   "fallbacks": 1
+  },
+  {
+   "cat": "city",
+   "stream": 9,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 9,
+   "fam_hits": 3,
+   "fallbacks": 2
+  },
+  {
+   "cat": "fruit",
+   "stream": 6,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.90625,
+   "onset": 1,
+   "fam_hits": 14,
+   "fallbacks": 11
+  },
+  {
+   "cat": "fruit",
+   "stream": 6,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 8,
+   "fam_hits": 7,
+   "fallbacks": 7
+  },
+  {
+   "cat": "fruit",
+   "stream": 6,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 5,
+   "fam_hits": 6,
+   "fallbacks": 1
+  },
+  {
+   "cat": "fruit",
+   "stream": 9,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.6875,
+   "onset": 1,
+   "fam_hits": 7,
+   "fallbacks": 0
+  },
+  {
+   "cat": "fruit",
+   "stream": 9,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  },
+  {
+   "cat": "fruit",
+   "stream": 9,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.015625,
+   "onset": 10,
+   "fam_hits": 1,
+   "fallbacks": 1
+  },
+  {
+   "cat": "fruit",
+   "stream": 11,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.921875,
+   "onset": 1,
+   "fam_hits": 14,
+   "fallbacks": 2
+  },
+  {
+   "cat": "fruit",
+   "stream": 11,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.015625,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  },
+  {
+   "cat": "fruit",
+   "stream": 11,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.046875,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  },
+  {
+   "cat": "fruit",
+   "stream": 12,
+   "cond": "loop_seed",
+   "seed_fam_proposal_mass": 0.625,
+   "onset": 2,
+   "fam_hits": 11,
+   "fallbacks": 1
+  },
+  {
+   "cat": "fruit",
+   "stream": 12,
+   "cond": "met_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": 7,
+   "fam_hits": 8,
+   "fallbacks": 8
+  },
+  {
+   "cat": "fruit",
+   "stream": 12,
+   "cond": "neutral_seed",
+   "seed_fam_proposal_mass": 0.0,
+   "onset": null,
+   "fam_hits": 0,
+   "fallbacks": 0
+  }
+ ],
+ "loop_seed": {
+  "n": 8,
+  "onset_frac": 1.0,
+  "mean_fam_hits": 9.125,
+  "mean_prop_mass": 0.5703125,
+  "mean_fallbacks": 2.125
+ },
+ "met_seed": {
+  "n": 8,
+  "onset_frac": 0.625,
+  "mean_fam_hits": 3.625,
+  "mean_prop_mass": 0.001953125,
+  "mean_fallbacks": 2.0
+ },
+ "neutral_seed": {
+  "n": 8,
+  "onset_frac": 0.625,
+  "mean_fam_hits": 2.75,
+  "mean_prop_mass": 0.0078125,
+  "mean_fallbacks": 1.0
+ }
+}

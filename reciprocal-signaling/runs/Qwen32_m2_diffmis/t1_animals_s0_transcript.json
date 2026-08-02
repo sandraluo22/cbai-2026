@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "diffmis",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for things that live in water",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "duck",
+    true,
+    "trap"
+   ],
+   [
+    "dolphin",
+    true,
+    "key"
+   ],
+   [
+    "chair",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it is the name of an animal.**  \n\n- \"Cow\" and \"hen\" are animals and are labeled *dax*.  \n- \"Spoon\" is not an animal and is labeled *not dax*.",
+   "label": "true"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **\"Words with more than one syllable are 'dax'.\"**  \n\n- \"Duck\" and \"dolphin\" are dax (2+ syllables).  \n- \"Chair\" is not dax (1 syllable).  \n- This",
+   "label": "other"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "duck is dax. Let's confirm if waterfowl are always dax.",
+  "msg_B": "shark is dax. I think it swims like dolphin and duck.",
+  "word_A": "duck",
+  "word_B": "shark",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "goat is not dax. Let's test if land animals are usually not dax.",
+  "msg_B": "shark is dax. Let's test if all sea creatures are dax.",
+  "word_A": "goat",
+  "word_B": "shark",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "dolphin is dax. Testing if all sea mammals are dax.",
+  "msg_B": "shark is dax. Let's see if all fish are dax.",
+  "word_A": "dolphin",
+  "word_B": "shark",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is: **a word is \"dax\" if it is the name of a mammal**.  \n\nThis is supported by the examples: *cow* and *hen* are dax (cow is a mammal, hen is not, but this might be an exception or",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is: *Words are \"dax\" if they are marine animals.*",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

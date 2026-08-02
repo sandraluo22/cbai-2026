@@ -1,0 +1,231 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "shuffled",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for large things",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "horse",
+    true,
+    "trap"
+   ],
+   [
+    "whale",
+    true,
+    "key"
+   ],
+   [
+    "coin",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ],
+  "shuffled_from": "t2_foods_s0_transcript.jsonl"
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it is the name of an animal.**  \n\n- \"Cow\" and \"hen\" are animals and are labeled *dax*.  \n- \"Spoon\" is not an animal and is labeled *not dax*.",
+   "label": "true"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **\"Words with an even number of letters are 'dax'.\"**  \n\n- \"Horse\" (5 letters) is **not dax** (but this contradicts the label, so maybe it's odd/even for \"not dax\"/\"",
+   "label": "other"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "duck is dax. Let's confirm if waterfowl are always dax.",
+  "msg_B": "pear is dax. I think soft words are dax.",
+  "word_A": "duck",
+  "word_B": "pear",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "goat is dax. Testing if mammals follow the dax rule.",
+  "msg_B": "milk is dax. I think creamy words are dax.",
+  "word_A": "goat",
+  "word_B": "milk",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "spoonful is not dax. Testing if suffixes change the dax status.",
+  "msg_B": "butter is dax. I think words that feel smooth are dax.",
+  "word_A": "spoonful",
+  "word_B": "butter",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is: **Words that refer to animals are dax, and non-animal words are not dax.**",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

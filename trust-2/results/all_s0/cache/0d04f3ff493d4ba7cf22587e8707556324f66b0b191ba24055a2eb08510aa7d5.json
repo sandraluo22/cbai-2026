@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Harlow\": 0.7, \"Wren\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Harlow has a higher accuracy rate (24/30) than Wren (14/30), and their disagreement on the final value is not consistent with their past performance.\"\n}", "trial_id": "dose-0-0015"}

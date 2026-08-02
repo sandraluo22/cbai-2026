@@ -1,0 +1,278 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n17",
+  "true": "17",
+  "clues": [
+   "a prime number",
+   "it has 2 digits",
+   "smaller than 20",
+   "odd",
+   "the sum of its digits is 8"
+  ],
+  "kind": "number",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "2",
+   "12",
+   "15",
+   "1",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "3",
+   "12",
+   "10",
+   "3",
+   "80"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "5",
+   "12",
+   "5",
+   "5",
+   "16"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "7",
+   "12",
+   "7",
+   "7",
+   "26"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "11",
+   "12",
+   "9",
+   "9",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "13",
+   "12",
+   "8",
+   "13",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "17",
+   "12",
+   "6",
+   "15",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "19",
+   "12",
+   "4",
+   "19",
+   "26"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "23",
+   "12",
+   "3",
+   "21",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "29",
+   "12",
+   "2",
+   "25",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "31",
+   "12",
+   "14",
+   "27",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "37",
+   "12",
+   "12",
+   "29",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "41",
+   "12",
+   "12",
+   "31",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "43",
+   "12",
+   "12",
+   "33",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "47",
+   "12",
+   "12",
+   "35",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "53",
+   "12",
+   "12",
+   "37",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "59",
+   "12",
+   "12",
+   "39",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "61",
+   "12",
+   "12",
+   "41",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "67",
+   "12",
+   "12",
+   "43",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "71",
+   "12",
+   "12",
+   "45",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,360 @@
+{
+  "rows": 4,
+  "cols": 4,
+  "products": [
+    "const\u00d7const",
+    "const\u00d7grad",
+    "const\u00d7fold",
+    "const\u00d7alt",
+    "grad\u00d7const",
+    "grad\u00d7grad",
+    "grad\u00d7fold",
+    "grad\u00d7alt",
+    "fold\u00d7const",
+    "fold\u00d7grad",
+    "fold\u00d7fold",
+    "fold\u00d7alt",
+    "alt\u00d7const",
+    "alt\u00d7grad",
+    "alt\u00d7fold",
+    "alt\u00d7alt"
+  ],
+  "modes": [
+    {
+      "mode": 0,
+      "eigenvalue": -2.0019926463729725e-16,
+      "label": "fold",
+      "best_match": "const\u00d7fold",
+      "best_sim": 0.7058281060085932,
+      "top3": [
+        [
+          0.706,
+          "fold\u00d7const"
+        ],
+        [
+          0.706,
+          "const\u00d7fold"
+        ],
+        [
+          0.06,
+          "fold\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "eigenvalue": 0.21826404002942823,
+      "label": "coord",
+      "best_match": "grad\u00d7const",
+      "best_sim": 0.7252253550951135,
+      "top3": [
+        [
+          0.725,
+          "grad\u00d7const"
+        ],
+        [
+          0.666,
+          "const\u00d7grad"
+        ],
+        [
+          0.108,
+          "grad\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "eigenvalue": 0.21826404002942906,
+      "label": "coord",
+      "best_match": "const\u00d7grad",
+      "best_sim": 0.7252253550951137,
+      "top3": [
+        [
+          0.725,
+          "const\u00d7grad"
+        ],
+        [
+          0.666,
+          "grad\u00d7const"
+        ],
+        [
+          0.108,
+          "fold\u00d7grad"
+        ]
+      ]
+    },
+    {
+      "mode": 3,
+      "eigenvalue": 0.49999999999999994,
+      "label": "coord",
+      "best_match": "grad\u00d7grad",
+      "best_sim": 0.9773873793882079,
+      "top3": [
+        [
+          0.977,
+          "grad\u00d7grad"
+        ],
+        [
+          0.149,
+          "grad\u00d7alt"
+        ],
+        [
+          0.149,
+          "alt\u00d7grad"
+        ]
+      ]
+    },
+    {
+      "mode": 4,
+      "eigenvalue": 0.6666666666666665,
+      "label": "fold",
+      "best_match": "fold\u00d7const",
+      "best_sim": 0.6738650669888342,
+      "top3": [
+        [
+          0.674,
+          "fold\u00d7const"
+        ],
+        [
+          0.656,
+          "const\u00d7fold"
+        ],
+        [
+          0.339,
+          "fold\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 5,
+      "eigenvalue": 0.6666666666666673,
+      "label": "fold",
+      "best_match": "const\u00d7fold",
+      "best_sim": 0.7151457952171892,
+      "top3": [
+        [
+          0.715,
+          "const\u00d7fold"
+        ],
+        [
+          0.699,
+          "fold\u00d7const"
+        ],
+        [
+          0.004,
+          "fold\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 6,
+      "eigenvalue": 0.9999999999999997,
+      "label": "grad\u00d7fold",
+      "best_match": "grad\u00d7fold",
+      "best_sim": 0.6720981668681211,
+      "top3": [
+        [
+          0.672,
+          "grad\u00d7fold"
+        ],
+        [
+          0.554,
+          "fold\u00d7grad"
+        ],
+        [
+          0.322,
+          "const\u00d7alt"
+        ]
+      ]
+    },
+    {
+      "mode": 7,
+      "eigenvalue": 1.0,
+      "label": "const\u00d7alt",
+      "best_match": "const\u00d7alt",
+      "best_sim": 0.854181149930394,
+      "top3": [
+        [
+          0.854,
+          "const\u00d7alt"
+        ],
+        [
+          0.361,
+          "fold\u00d7alt"
+        ],
+        [
+          0.338,
+          "fold\u00d7grad"
+        ]
+      ]
+    },
+    {
+      "mode": 8,
+      "eigenvalue": 1.0000000000000002,
+      "label": "fold\u00d7grad",
+      "best_match": "fold\u00d7grad",
+      "best_sim": 0.6804704726455797,
+      "top3": [
+        [
+          0.68,
+          "fold\u00d7grad"
+        ],
+        [
+          0.447,
+          "alt\u00d7const"
+        ],
+        [
+          0.425,
+          "grad\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 9,
+      "eigenvalue": 1.0000000000000009,
+      "label": "alt\u00d7const",
+      "best_match": "alt\u00d7const",
+      "best_sim": 0.8069344455835783,
+      "top3": [
+        [
+          0.807,
+          "alt\u00d7const"
+        ],
+        [
+          0.535,
+          "grad\u00d7fold"
+        ],
+        [
+          0.195,
+          "fold\u00d7grad"
+        ]
+      ]
+    },
+    {
+      "mode": 10,
+      "eigenvalue": 1.3333333333333333,
+      "label": "parity\u00d7coord",
+      "best_match": "grad\u00d7alt",
+      "best_sim": 0.6739132644957349,
+      "top3": [
+        [
+          0.674,
+          "grad\u00d7alt"
+        ],
+        [
+          0.574,
+          "alt\u00d7grad"
+        ],
+        [
+          0.422,
+          "alt\u00d7alt"
+        ]
+      ]
+    },
+    {
+      "mode": 11,
+      "eigenvalue": 1.3333333333333335,
+      "label": "parity\u00d7coord",
+      "best_match": "alt\u00d7grad",
+      "best_sim": 0.7494491682637446,
+      "top3": [
+        [
+          0.749,
+          "alt\u00d7grad"
+        ],
+        [
+          0.661,
+          "grad\u00d7alt"
+        ],
+        [
+          0.03,
+          "alt\u00d7alt"
+        ]
+      ]
+    },
+    {
+      "mode": 12,
+      "eigenvalue": 1.5,
+      "label": "fold",
+      "best_match": "fold\u00d7fold",
+      "best_sim": 0.9425045019349008,
+      "top3": [
+        [
+          0.943,
+          "fold\u00d7fold"
+        ],
+        [
+          0.236,
+          "fold\u00d7const"
+        ],
+        [
+          0.236,
+          "const\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 13,
+      "eigenvalue": 1.7817359599705715,
+      "label": "parity\u00d7fold",
+      "best_match": "fold\u00d7alt",
+      "best_sim": 0.9214019780253343,
+      "top3": [
+        [
+          0.921,
+          "fold\u00d7alt"
+        ],
+        [
+          0.287,
+          "const\u00d7alt"
+        ],
+        [
+          0.234,
+          "fold\u00d7grad"
+        ]
+      ]
+    },
+    {
+      "mode": 14,
+      "eigenvalue": 1.7817359599705718,
+      "label": "parity\u00d7fold",
+      "best_match": "alt\u00d7fold",
+      "best_sim": 0.9214019780253345,
+      "top3": [
+        [
+          0.921,
+          "alt\u00d7fold"
+        ],
+        [
+          0.287,
+          "alt\u00d7const"
+        ],
+        [
+          0.234,
+          "grad\u00d7fold"
+        ]
+      ]
+    },
+    {
+      "mode": 15,
+      "eigenvalue": 2.0,
+      "label": "parity",
+      "best_match": "alt\u00d7alt",
+      "best_sim": 0.9061392483527311,
+      "top3": [
+        [
+          0.906,
+          "alt\u00d7alt"
+        ],
+        [
+          0.294,
+          "grad\u00d7alt"
+        ],
+        [
+          0.294,
+          "alt\u00d7grad"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2578 @@
+[
+  {
+    "rollout": 0,
+    "turn": 1,
+    "A": "current",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 2,
+    "A": "aquifer",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 3,
+    "A": "reservoir",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 4,
+    "A": "spring",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 5,
+    "A": "fountain",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 6,
+    "A": "well",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 7,
+    "A": "source",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 8,
+    "A": "stream",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 9,
+    "A": "delta",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 10,
+    "A": "ocean",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 11,
+    "A": "river",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 12,
+    "A": "tide",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 13,
+    "A": "basin",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 14,
+    "A": "lake",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 15,
+    "A": "aqueduct",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 16,
+    "A": "canal",
+    "B": "sofia",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 17,
+    "A": "waterfall",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 18,
+    "A": "marsh",
+    "B": "bucharest",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 19,
+    "A": "estuary",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 20,
+    "A": "bay",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 21,
+    "A": "aquamarine",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 22,
+    "A": "gulf",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 23,
+    "A": "gutter",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 1,
+    "A": "tide",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 2,
+    "A": "current",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 3,
+    "A": "delta",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 4,
+    "A": "bay",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 5,
+    "A": "gulf",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 6,
+    "A": "river",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 7,
+    "A": "estuary",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 8,
+    "A": "spring",
+    "B": "canberra",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 9,
+    "A": "fjord",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 10,
+    "A": "lake",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 11,
+    "A": "ocean",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 12,
+    "A": "stream",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 13,
+    "A": "pond",
+    "B": "bogot",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 14,
+    "A": "creek",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 15,
+    "A": "cove",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 16,
+    "A": "lagoon",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 17,
+    "A": "canyon",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 18,
+    "A": "bath",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 19,
+    "A": "marsh",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 20,
+    "A": "wetland",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 21,
+    "A": "reservoir",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 22,
+    "A": "bog",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 23,
+    "A": "bodies",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 1,
+    "A": "tide",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 2,
+    "A": "bay",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 3,
+    "A": "delta",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 4,
+    "A": "estuary",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 5,
+    "A": "cove",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 6,
+    "A": "fjord",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 7,
+    "A": "lagoon",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 8,
+    "A": "sound",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 9,
+    "A": "harbor",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 10,
+    "A": "gulf",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 11,
+    "A": "inlet",
+    "B": "teheran",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 12,
+    "A": "strait",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 13,
+    "A": "bight",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 14,
+    "A": "basin",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 15,
+    "A": "gulch",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 16,
+    "A": "canyon",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 17,
+    "A": "loch",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 18,
+    "A": "wadi",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 19,
+    "A": "gutter",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 20,
+    "A": "bayou",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 21,
+    "A": "creek",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 22,
+    "A": "lakes",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 23,
+    "A": "river",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 1,
+    "A": "river",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 2,
+    "A": "canal",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 3,
+    "A": "aquifer",
+    "B": "london",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 4,
+    "A": "delta",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 5,
+    "A": "spring",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 6,
+    "A": "estuary",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 7,
+    "A": "marsh",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 8,
+    "A": "reservoir",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 9,
+    "A": "bay",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 10,
+    "A": "lake",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 11,
+    "A": "fjord",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 12,
+    "A": "ocean",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 13,
+    "A": "glacier",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 14,
+    "A": "creek",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 15,
+    "A": "stream",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 16,
+    "A": "pond",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 17,
+    "A": "well",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 18,
+    "A": "sluice",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 19,
+    "A": "wetland",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 20,
+    "A": "bog",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 21,
+    "A": "lagoon",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 22,
+    "A": "canyon",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 23,
+    "A": "aqueduct",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 1,
+    "A": "tidal",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 2,
+    "A": "whirlpool",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 3,
+    "A": "aqua",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 4,
+    "A": "current",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 5,
+    "A": "delta",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 6,
+    "A": "bay",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 7,
+    "A": "stream",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 8,
+    "A": "reservoir",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 9,
+    "A": "spring",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 10,
+    "A": "river",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 11,
+    "A": "fjord",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 12,
+    "A": "lagoon",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 13,
+    "A": "ocean",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 14,
+    "A": "estuary",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 15,
+    "A": "marsh",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 16,
+    "A": "pond",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 17,
+    "A": "creek",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 18,
+    "A": "bog",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 19,
+    "A": "swamp",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 20,
+    "A": "lake",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 21,
+    "A": "gulf",
+    "B": "casablan",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 22,
+    "A": "canal",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 23,
+    "A": "delta",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 1,
+    "A": "current",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 2,
+    "A": "wharf",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 3,
+    "A": "tide",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 4,
+    "A": "delta",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 5,
+    "A": "bay",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 6,
+    "A": "bayou",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 7,
+    "A": "estuary",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 8,
+    "A": "lagoon",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 9,
+    "A": "cove",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 10,
+    "A": "marsh",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 11,
+    "A": "reservoir",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 12,
+    "A": "ocean",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 13,
+    "A": "river",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 14,
+    "A": "stream",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 15,
+    "A": "fjord",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 16,
+    "A": "pond",
+    "B": "montevideo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 17,
+    "A": "lake",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 18,
+    "A": "bog",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 19,
+    "A": "spring",
+    "B": "luxembourg",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 20,
+    "A": "marshland",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 21,
+    "A": "wetland",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 22,
+    "A": "swamp",
+    "B": "amman",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 23,
+    "A": "lakebed",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 1,
+    "A": "current",
+    "B": "austin",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 2,
+    "A": "bay",
+    "B": "boston",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 3,
+    "A": "delta",
+    "B": "chicago",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 4,
+    "A": "estuary",
+    "B": "houston",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 5,
+    "A": "lagoon",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 6,
+    "A": "marine",
+    "B": "new",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 7,
+    "A": "marsh",
+    "B": "denver",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 8,
+    "A": "reef",
+    "B": "atlanta",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 9,
+    "A": "fjord",
+    "B": "miami",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 10,
+    "A": "wetland",
+    "B": "phoenix",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 11,
+    "A": "ocean",
+    "B": "las",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 12,
+    "A": "reservoir",
+    "B": "san",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 13,
+    "A": "spring",
+    "B": "portland",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 14,
+    "A": "pond",
+    "B": "dallas",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 15,
+    "A": "stream",
+    "B": "kansas",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 16,
+    "A": "river",
+    "B": "indianapolis",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 17,
+    "A": "creek",
+    "B": "salem",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 18,
+    "A": "canyon",
+    "B": "memphis",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 19,
+    "A": "gulf",
+    "B": "nashville",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 20,
+    "A": "bog",
+    "B": "tulsa",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 21,
+    "A": "lake",
+    "B": "charlotte",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 22,
+    "A": "cove",
+    "B": "colorado",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 23,
+    "A": "sound",
+    "B": "albuquerque",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 1,
+    "A": "tidal",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 2,
+    "A": "delta",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 3,
+    "A": "current",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 4,
+    "A": "bay",
+    "B": "stockholm",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 5,
+    "A": "estuary",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 6,
+    "A": "lagoon",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 7,
+    "A": "reservoir",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 8,
+    "A": "spring",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 9,
+    "A": "fjord",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 10,
+    "A": "marsh",
+    "B": "naples",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 11,
+    "A": "creek",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 12,
+    "A": "pond",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 13,
+    "A": "lake",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 14,
+    "A": "ocean",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 15,
+    "A": "swamp",
+    "B": "munich",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 16,
+    "A": "stream",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 17,
+    "A": "bog",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 18,
+    "A": "river",
+    "B": "palermo",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 19,
+    "A": "well",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 20,
+    "A": "canal",
+    "B": "milan",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 21,
+    "A": "cove",
+    "B": "amsterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 22,
+    "A": "gulf",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 23,
+    "A": "gutter",
+    "B": "zurich",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 1,
+    "A": "river",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 2,
+    "A": "bay",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 3,
+    "A": "canal",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 4,
+    "A": "delta",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 5,
+    "A": "bayou",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 6,
+    "A": "stream",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 7,
+    "A": "estuary",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 8,
+    "A": "fjord",
+    "B": "nile",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 9,
+    "A": "lake",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 10,
+    "A": "pond",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 11,
+    "A": "ocean",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 12,
+    "A": "gulf",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 13,
+    "A": "reservoir",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 14,
+    "A": "sound",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 15,
+    "A": "strait",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 16,
+    "A": "marsh",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 17,
+    "A": "lagoon",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 18,
+    "A": "wetland",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 19,
+    "A": "tributary",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 20,
+    "A": "spring",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 21,
+    "A": "creek",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 22,
+    "A": "aquifer",
+    "B": "montreal",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 23,
+    "A": "wadi",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 1,
+    "A": "splash",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 2,
+    "A": "flood",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 3,
+    "A": "current",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 4,
+    "A": "surge",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 5,
+    "A": "tidal",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 6,
+    "A": "ripple",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 7,
+    "A": "flow",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 8,
+    "A": "wave",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 9,
+    "A": "stream",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 10,
+    "A": "eddy",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 11,
+    "A": "backwash",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 12,
+    "A": "whirlpool",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 13,
+    "A": "swell",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 14,
+    "A": "fountain",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 15,
+    "A": "delta",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 16,
+    "A": "rain",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 17,
+    "A": "ocean",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 18,
+    "A": "brook",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 19,
+    "A": "spring",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 20,
+    "A": "gulf",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 21,
+    "A": "river",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 22,
+    "A": "bay",
+    "B": "braslia",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 23,
+    "A": "aquifer",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 1,
+    "A": "rain",
+    "B": "dresden",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 2,
+    "A": "current",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 3,
+    "A": "delta",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 4,
+    "A": "estuary",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 5,
+    "A": "bay",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 6,
+    "A": "fjord",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 7,
+    "A": "loch",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 8,
+    "A": "lagoon",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 9,
+    "A": "canyon",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 10,
+    "A": "reservoir",
+    "B": "nile",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 11,
+    "A": "aquifer",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 12,
+    "A": "spring",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 13,
+    "A": "ocean",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 14,
+    "A": "watershed",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 15,
+    "A": "wetland",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 16,
+    "A": "aqueduct",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 17,
+    "A": "aquamarine",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 18,
+    "A": "gulf",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 19,
+    "A": "marsh",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 20,
+    "A": "river",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 21,
+    "A": "lake",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 22,
+    "A": "aquatory",
+    "B": "prague",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 23,
+    "A": "pond",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 1,
+    "A": "aquifer",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 2,
+    "A": "delta",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 3,
+    "A": "reservoir",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 4,
+    "A": "bay",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 5,
+    "A": "tidal",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 6,
+    "A": "current",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 7,
+    "A": "aqueduct",
+    "B": "seville",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 8,
+    "A": "waterfall",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 9,
+    "A": "spring",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 10,
+    "A": "stream",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 11,
+    "A": "fjord",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 12,
+    "A": "river",
+    "B": "khartou",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 13,
+    "A": "lake",
+    "B": "lagos",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 14,
+    "A": "canal",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 15,
+    "A": "ocean",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 16,
+    "A": "pond",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 17,
+    "A": "tributary",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 18,
+    "A": "bog",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 19,
+    "A": "estuary",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 20,
+    "A": "wetland",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 21,
+    "A": "lagoon",
+    "B": "teheran",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 22,
+    "A": "swamp",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 23,
+    "A": "creek",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 1,
+    "A": "river",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 2,
+    "A": "bay",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 3,
+    "A": "delta",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 4,
+    "A": "glacier",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 5,
+    "A": "fjord",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 6,
+    "A": "spring",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 7,
+    "A": "creek",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 8,
+    "A": "lake",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 9,
+    "A": "canyon",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 10,
+    "A": "ocean",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 11,
+    "A": "coast",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 12,
+    "A": "harbor",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 13,
+    "A": "bloom",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 14,
+    "A": "stream",
+    "B": "vancouver",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 15,
+    "A": "flood",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 16,
+    "A": "current",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 17,
+    "A": "swamp",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 18,
+    "A": "well",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 19,
+    "A": "pond",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 20,
+    "A": "rain",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 21,
+    "A": "tidal",
+    "B": "baghdad",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 22,
+    "A": "fog",
+    "B": "rabat",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 23,
+    "A": "bath",
+    "B": "teheran",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 1,
+    "A": "ocean",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 2,
+    "A": "harbor",
+    "B": "sydney",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 3,
+    "A": "seashell",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 4,
+    "A": "bay",
+    "B": "rio",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 5,
+    "A": "delta",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 6,
+    "A": "coast",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 7,
+    "A": "lagoon",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 8,
+    "A": "estuary",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 9,
+    "A": "atoll",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 10,
+    "A": "reef",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 11,
+    "A": "marsh",
+    "B": "ho",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 12,
+    "A": "fjord",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 13,
+    "A": "canyon",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 14,
+    "A": "gulf",
+    "B": "tahiti",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 15,
+    "A": "strait",
+    "B": "helsinki",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 16,
+    "A": "lakeside",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 17,
+    "A": "waterfall",
+    "B": "geneva",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 18,
+    "A": "river",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 19,
+    "A": "wetland",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 20,
+    "A": "basin",
+    "B": "rotterdam",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 21,
+    "A": "delta",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 22,
+    "A": "inlet",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 23,
+    "A": "sound",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 1,
+    "A": "whirlpool",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 2,
+    "A": "current",
+    "B": "berlin",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 3,
+    "A": "delta",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 4,
+    "A": "bay",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 5,
+    "A": "tidal",
+    "B": "moscow",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 6,
+    "A": "estuary",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 7,
+    "A": "fjord",
+    "B": "vienna",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 8,
+    "A": "canal",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 9,
+    "A": "gulf",
+    "B": "istanbul",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 10,
+    "A": "ocean",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 11,
+    "A": "river",
+    "B": "budapest",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 12,
+    "A": "stream",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 13,
+    "A": "spring",
+    "B": "dubai",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 14,
+    "A": "lake",
+    "B": "warsaw",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 15,
+    "A": "wetland",
+    "B": "brussels",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 16,
+    "A": "reservoir",
+    "B": "lisbon",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 17,
+    "A": "floodplain",
+    "B": "oslo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 18,
+    "A": "aquifer",
+    "B": "havana",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 19,
+    "A": "aqueduct",
+    "B": "dublin",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 20,
+    "A": "canyon",
+    "B": "reykjav",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 21,
+    "A": "aquatory",
+    "B": "braslia",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 22,
+    "A": "aquamarine",
+    "B": "algiers",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 23,
+    "A": "aquaculture",
+    "B": "tripoli",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 1,
+    "A": "tidal",
+    "B": "kyoto",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 2,
+    "A": "current",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 3,
+    "A": "aqua",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 4,
+    "A": "hydro",
+    "B": "seoul",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 5,
+    "A": "marine",
+    "B": "manila",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 6,
+    "A": "brine",
+    "B": "jakarta",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 7,
+    "A": "aquaflow",
+    "B": "delhi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 8,
+    "A": "hydrocurrent",
+    "B": "beijing",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 9,
+    "A": "hydroflow",
+    "B": "bangkok",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 10,
+    "A": "brackish",
+    "B": "hanoi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 11,
+    "A": "estuary",
+    "B": "nairobi",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 12,
+    "A": "saltwater",
+    "B": "dhaka",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 13,
+    "A": "lagoon",
+    "B": "riyadh",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 14,
+    "A": "wetland",
+    "B": "santiago",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 15,
+    "A": "delta",
+    "B": "mumbai",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 16,
+    "A": "ocean",
+    "B": "nassau",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 17,
+    "A": "reservoir",
+    "B": "buenos",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 18,
+    "A": "aquifer",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 19,
+    "A": "spring",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 20,
+    "A": "fjord",
+    "B": "lima",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 21,
+    "A": "stream",
+    "B": "athens",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 22,
+    "A": "floodplain",
+    "B": "madrid",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 23,
+    "A": "gulf",
+    "B": "dubai",
+    "agreed": false
+  }
+]

@@ -1,0 +1,58 @@
+{
+ "model": "QwenInst32",
+ "temp": 0.7,
+ "safety": 24,
+ "n": 16,
+ "board": [
+  "river",
+  "wave",
+  "ice",
+  "mist",
+  "star",
+  "flame",
+  "dawn",
+  "glow",
+  "stone",
+  "moss",
+  "sand",
+  "peak",
+  "wind",
+  "cloud",
+  "echo",
+  "storm"
+ ],
+ "conditions": {
+  "fewshot": {
+   "n": 16,
+   "met_frac": 1.0,
+   "met_se": 0.0,
+   "turns_mean": 3.3125,
+   "turns_se": 0.958998297378572,
+   "n_met": 16
+  },
+  "city-coastal": {
+   "n": 16,
+   "met_frac": 0.5625,
+   "met_se": 0.12401959270615269,
+   "turns_mean": 11.555555555555555,
+   "turns_se": 1.8599821525169957,
+   "n_met": 9
+  },
+  "board16": {
+   "n": 16,
+   "met_frac": 1.0,
+   "met_se": 0.0,
+   "turns_mean": 3.0,
+   "turns_se": 0.375,
+   "n_met": 16
+  },
+  "softrepeat": {
+   "n": 16,
+   "met_frac": 1.0,
+   "met_se": 0.0,
+   "turns_mean": 2.25,
+   "turns_se": 0.4375,
+   "n_met": 16
+  }
+ }
+}

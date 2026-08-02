@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t3_vehicles",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for vehicles",
+  "decoy_A": "words for things with wheels",
+  "decoy_B": "words for fast things",
+  "A_examples": [
+   [
+    "racecar",
+    true,
+    "trap"
+   ],
+   [
+    "bicycle",
+    true,
+    "key"
+   ],
+   [
+    "ladder",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "motorcycle",
+    true,
+    "trap"
+   ],
+   [
+    "speedboat",
+    true,
+    "key"
+   ],
+   [
+    "pillow",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "canoe",
+    true,
+    "both"
+   ],
+   [
+    "sailboat",
+    true,
+    "both"
+   ],
+   [
+    "submarine",
+    true,
+    "both"
+   ],
+   [
+    "bus",
+    true,
+    "B"
+   ],
+   [
+    "sled",
+    true,
+    "both"
+   ],
+   [
+    "wheelbarrow",
+    false,
+    "A"
+   ],
+   [
+    "cart",
+    false,
+    "A"
+   ],
+   [
+    "cheetah",
+    false,
+    "B"
+   ],
+   [
+    "bullet",
+    false,
+    "B"
+   ],
+   [
+    "lamp",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it contains the letter 'c'**. \n\nBoth \"racecar\" and \"bicycle\" contain the letter 'c', while \"ladder\" does not.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **\"Words with exactly six letters are 'dax'.\"**  \n- *motorcycle* (10 letters) is **not dax** (contradicts this, so my hypothesis is wrong).  \n- *speedboat* (9 letters) is",
+   "label": "decoy_B"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "motorcycle is dax. Looking for words with repeated syllables or patterns.",
+  "msg_B": "canoe is dax. I think it shares a key feature with the examples.",
+  "word_A": "motorcycle",
+  "word_B": "canoe",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "tent is not dax. I think it lacks a repeated element.",
+  "msg_B": "skyscraper is not dax. Testing if length or complexity matters.",
+  "word_A": "tent",
+  "word_B": "skyscraper",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "palindrome is dax. The rule might be checking for mirrored letters.",
+  "msg_B": "bridge is dax. I think it has a structured, repeated pattern.",
+  "word_A": "palindrome",
+  "word_B": "bridge",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is \"dax\" if it is a **palindrome** (i.e., it reads the same forwards and backwards).",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is \"dax\" if it contains a **repeated pattern or structure**, such as repeated syllables, mirrored letters (as in palindromes), or components that follow a consistent, structured form.",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Blake\": 0.7, \"Perry\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Blake has a higher accuracy rate (6/10) than Perry (4/10), but Perry's correct answers are often in a row, suggesting a possible pattern of correct guesses, while Blake's errors are more varied and seem to be due to actual mistakes.\"\n}", "trial_id": "labels-0-0026"}

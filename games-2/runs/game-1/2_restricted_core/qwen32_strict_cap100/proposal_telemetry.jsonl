@@ -1,0 +1,725 @@
+{"cat": "city", "rollout": 0, "turn": 1, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 2, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 0, "turn": 3, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.8125, "category": 0.078125, "used": 0.109375}}
+{"cat": "city", "rollout": 0, "turn": 4, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 5, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 6, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 7, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 8, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.890625, "category": 0.09375, "used": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 9, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 10, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 11, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.671875, "used": 0.328125}}
+{"cat": "city", "rollout": 0, "turn": 12, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.734375, "used": 0.21875, "category": 0.046875}}
+{"cat": "city", "rollout": 0, "turn": 13, "onset": 19, "met": false, "resamplesA": 2, "frac": {"other": 0.375, "used": 0.609375, "category": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 14, "onset": 19, "met": false, "resamplesA": 1, "frac": {"used": 0.40625, "other": 0.5, "category": 0.078125, "self_family": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 15, "onset": 19, "met": false, "resamplesA": 4, "frac": {"other": 0.6875, "used": 0.28125, "category": 0.03125}}
+{"cat": "city", "rollout": 0, "turn": 16, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 0, "turn": 17, "onset": 19, "met": false, "resamplesA": 5, "frac": {"used": 0.359375, "other": 0.625, "self_family": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 18, "onset": 19, "met": false, "resamplesA": 5, "frac": {"other": 0.34375, "used": 0.65625}}
+{"cat": "city", "rollout": 0, "turn": 19, "onset": 19, "met": false, "resamplesA": 2, "frac": {"used": 0.546875, "other": 0.40625, "self_family": 0.046875}}
+{"cat": "city", "rollout": 0, "turn": 20, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "city", "rollout": 0, "turn": 21, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 0.640625, "used": 0.328125, "junk": 0.03125}}
+{"cat": "city", "rollout": 0, "turn": 22, "onset": 19, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 0, "turn": 23, "onset": 19, "met": false, "resamplesA": 1, "frac": {"used": 0.71875, "other": 0.265625, "category": 0.015625}}
+{"cat": "city", "rollout": 0, "turn": 24, "onset": 19, "met": false, "resamplesA": 9, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "city", "rollout": 1, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "city", "rollout": 1, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 1, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.578125, "used": 0.25, "category": 0.171875}}
+{"cat": "city", "rollout": 1, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.484375, "other": 0.46875, "used": 0.046875}}
+{"cat": "city", "rollout": 1, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.90625, "other": 0.03125, "used": 0.0625}}
+{"cat": "city", "rollout": 2, "turn": 1, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "city", "rollout": 2, "turn": 2, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 2, "turn": 3, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 2, "turn": 4, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.859375, "self_family": 0.140625}}
+{"cat": "city", "rollout": 2, "turn": 5, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.859375, "self_family": 0.140625}}
+{"cat": "city", "rollout": 2, "turn": 6, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 2, "turn": 7, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 2, "turn": 8, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 2, "turn": 9, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.78125, "used": 0.203125, "self_family": 0.015625}}
+{"cat": "city", "rollout": 2, "turn": 10, "onset": 10, "met": false, "resamplesA": 2, "frac": {"other": 0.375, "used": 0.328125, "self_family": 0.296875}}
+{"cat": "city", "rollout": 2, "turn": 11, "onset": 10, "met": false, "resamplesA": 2, "frac": {"other": 0.359375, "used": 0.359375, "self_family": 0.28125}}
+{"cat": "city", "rollout": 2, "turn": 12, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.359375, "used": 0.625, "self_family": 0.015625}}
+{"cat": "city", "rollout": 2, "turn": 13, "onset": 10, "met": false, "resamplesA": 2, "frac": {"other": 0.578125, "used": 0.421875}}
+{"cat": "city", "rollout": 2, "turn": 14, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.53125, "used": 0.46875}}
+{"cat": "city", "rollout": 2, "turn": 15, "onset": 10, "met": false, "resamplesA": 6, "frac": {"used": 0.640625, "other": 0.359375}}
+{"cat": "city", "rollout": 2, "turn": 16, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.265625, "used": 0.609375, "self_family": 0.125}}
+{"cat": "city", "rollout": 2, "turn": 17, "onset": 10, "met": false, "resamplesA": 1, "frac": {"self_family": 0.15625, "other": 0.359375, "used": 0.484375}}
+{"cat": "city", "rollout": 2, "turn": 18, "onset": 10, "met": false, "resamplesA": 1, "frac": {"used": 0.578125, "other": 0.15625, "self_family": 0.265625}}
+{"cat": "city", "rollout": 2, "turn": 19, "onset": 10, "met": false, "resamplesA": 1, "frac": {"used": 0.1875, "other": 0.515625, "self_family": 0.296875}}
+{"cat": "city", "rollout": 2, "turn": 20, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.578125, "self_family": 0.25, "used": 0.171875}}
+{"cat": "city", "rollout": 2, "turn": 21, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.765625, "used": 0.140625, "self_family": 0.09375}}
+{"cat": "city", "rollout": 2, "turn": 22, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.3125, "self_family": 0.484375, "used": 0.203125}}
+{"cat": "city", "rollout": 2, "turn": 23, "onset": 10, "met": false, "resamplesA": 1, "frac": {"used": 0.171875, "self_family": 0.4375, "other": 0.390625}}
+{"cat": "city", "rollout": 2, "turn": 24, "onset": 10, "met": false, "resamplesA": 1, "frac": {"other": 0.859375, "self_family": 0.125, "used": 0.015625}}
+{"cat": "city", "rollout": 3, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 3, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.1875, "other": 0.671875, "used": 0.140625}}
+{"cat": "city", "rollout": 4, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.015625, "used": 0.015625}}
+{"cat": "city", "rollout": 4, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "used": 0.078125}}
+{"cat": "city", "rollout": 4, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "category": 0.046875, "used": 0.015625}}
+{"cat": "city", "rollout": 4, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.796875, "category": 0.03125, "used": 0.171875}}
+{"cat": "city", "rollout": 4, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 4, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "used": 0.03125, "category": 0.046875}}
+{"cat": "city", "rollout": 4, "turn": 7, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.234375, "used": 0.25, "other": 0.515625}}
+{"cat": "city", "rollout": 4, "turn": 8, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.75, "other": 0.234375, "used": 0.015625}}
+{"cat": "city", "rollout": 4, "turn": 9, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.375, "other": 0.4375, "category": 0.1875}}
+{"cat": "city", "rollout": 4, "turn": 10, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.5625, "category": 0.296875, "used": 0.140625}}
+{"cat": "city", "rollout": 4, "turn": 11, "onset": null, "met": true, "resamplesA": 2, "frac": {"other": 0.265625, "category": 0.53125, "used": 0.203125}}
+{"cat": "city", "rollout": 4, "turn": 12, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.40625, "used": 0.40625, "other": 0.1875}}
+{"cat": "city", "rollout": 4, "turn": 13, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.28125, "used": 0.46875, "self_family": 0.015625, "category": 0.234375}}
+{"cat": "city", "rollout": 4, "turn": 14, "onset": null, "met": true, "resamplesA": 17, "frac": {"used": 0.828125, "other": 0.09375, "category": 0.078125}}
+{"cat": "city", "rollout": 4, "turn": 15, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.09375, "used": 0.8125, "other": 0.09375}}
+{"cat": "city", "rollout": 4, "turn": 16, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.671875, "category": 0.203125, "other": 0.125}}
+{"cat": "city", "rollout": 5, "turn": 1, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 5, "turn": 2, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 5, "turn": 3, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 0.65625, "category": 0.328125, "self_family": 0.015625}}
+{"cat": "city", "rollout": 5, "turn": 4, "onset": 9, "met": true, "resamplesA": 1, "frac": {"category": 0.46875, "other": 0.421875, "used": 0.078125, "self_family": 0.03125}}
+{"cat": "city", "rollout": 5, "turn": 5, "onset": 9, "met": true, "resamplesA": 1, "frac": {"used": 0.078125, "category": 0.71875, "other": 0.203125}}
+{"cat": "city", "rollout": 5, "turn": 6, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 0.75, "category": 0.234375, "used": 0.015625}}
+{"cat": "city", "rollout": 5, "turn": 7, "onset": 9, "met": true, "resamplesA": 6, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "city", "rollout": 5, "turn": 8, "onset": 9, "met": true, "resamplesA": 3, "frac": {"used": 0.484375, "other": 0.484375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 5, "turn": 9, "onset": 9, "met": true, "resamplesA": 12, "frac": {"self_family": 0.1875, "used": 0.8125}}
+{"cat": "city", "rollout": 5, "turn": 10, "onset": 9, "met": true, "resamplesA": 2, "frac": {"other": 0.046875, "used": 0.921875, "self_family": 0.03125}}
+{"cat": "city", "rollout": 5, "turn": 11, "onset": 9, "met": true, "resamplesA": 2, "frac": {"used": 0.765625, "other": 0.09375, "self_family": 0.140625}}
+{"cat": "city", "rollout": 5, "turn": 12, "onset": 9, "met": true, "resamplesA": 17, "frac": {"used": 0.921875, "self_family": 0.0625, "other": 0.015625}}
+{"cat": "city", "rollout": 5, "turn": 13, "onset": 9, "met": true, "resamplesA": 1, "frac": {"used": 0.703125, "self_family": 0.296875}}
+{"cat": "city", "rollout": 5, "turn": 14, "onset": 9, "met": true, "resamplesA": 1, "frac": {"self_family": 0.375, "used": 0.59375, "other": 0.03125}}
+{"cat": "city", "rollout": 5, "turn": 15, "onset": 9, "met": true, "resamplesA": 1, "frac": {"used": 0.859375, "other": 0.078125, "self_family": 0.0625}}
+{"cat": "city", "rollout": 5, "turn": 16, "onset": 9, "met": true, "resamplesA": 3, "frac": {"self_family": 0.4375, "used": 0.5625}}
+{"cat": "city", "rollout": 5, "turn": 17, "onset": 9, "met": true, "resamplesA": 1, "frac": {"used": 0.328125, "self_family": 0.671875}}
+{"cat": "city", "rollout": 5, "turn": 18, "onset": 9, "met": true, "resamplesA": 2, "frac": {"self_family": 0.921875, "used": 0.078125}}
+{"cat": "city", "rollout": 5, "turn": 19, "onset": 9, "met": true, "resamplesA": 13, "frac": {"used": 0.953125, "self_family": 0.046875}}
+{"cat": "city", "rollout": 5, "turn": 20, "onset": 9, "met": true, "resamplesA": 33, "frac": {"used": 0.9375, "self_family": 0.0625}}
+{"cat": "city", "rollout": 5, "turn": 21, "onset": 9, "met": true, "resamplesA": 10, "frac": {"used": 0.984375, "self_family": 0.015625}}
+{"cat": "city", "rollout": 5, "turn": 22, "onset": 9, "met": true, "resamplesA": 11, "frac": {"used": 0.859375, "self_family": 0.140625}}
+{"cat": "city", "rollout": 5, "turn": 23, "onset": 9, "met": true, "resamplesA": 13, "frac": {"used": 0.9375, "self_family": 0.0625}}
+{"cat": "city", "rollout": 5, "turn": 24, "onset": 9, "met": true, "resamplesA": 3, "frac": {"used": 0.875, "self_family": 0.125}}
+{"cat": "city", "rollout": 6, "turn": 1, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 2, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 6, "turn": 3, "onset": 9, "met": true, "resamplesA": 1, "frac": {"other": 0.53125, "category": 0.265625, "used": 0.203125}}
+{"cat": "city", "rollout": 6, "turn": 4, "onset": 9, "met": true, "resamplesA": 3, "frac": {"category": 0.578125, "used": 0.375, "other": 0.046875}}
+{"cat": "city", "rollout": 6, "turn": 5, "onset": 9, "met": true, "resamplesA": 5, "frac": {"used": 0.734375, "other": 0.265625}}
+{"cat": "city", "rollout": 6, "turn": 6, "onset": 9, "met": true, "resamplesA": 2, "frac": {"used": 0.703125, "other": 0.265625, "category": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 7, "onset": 9, "met": true, "resamplesA": 1, "frac": {"used": 0.453125, "category": 0.4375, "other": 0.109375}}
+{"cat": "city", "rollout": 6, "turn": 8, "onset": 9, "met": true, "resamplesA": 5, "frac": {"used": 0.859375, "category": 0.046875, "other": 0.09375}}
+{"cat": "city", "rollout": 6, "turn": 9, "onset": 9, "met": true, "resamplesA": 5, "frac": {"category": 0.21875, "used": 0.578125, "self_family": 0.09375, "other": 0.109375}}
+{"cat": "city", "rollout": 6, "turn": 10, "onset": 9, "met": true, "resamplesA": 3, "frac": {"used": 0.890625, "other": 0.078125, "category": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 11, "onset": 9, "met": true, "resamplesA": 16, "frac": {"used": 0.890625, "category": 0.09375, "other": 0.015625}}
+{"cat": "city", "rollout": 6, "turn": 12, "onset": 9, "met": true, "resamplesA": 7, "frac": {"category": 0.046875, "used": 0.921875, "other": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 13, "onset": 9, "met": true, "resamplesA": 25, "frac": {"used": 0.90625, "category": 0.0625, "other": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 14, "onset": 9, "met": true, "resamplesA": 9, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 6, "turn": 15, "onset": 9, "met": true, "resamplesA": 6, "frac": {"category": 0.046875, "other": 0.078125, "used": 0.875}}
+{"cat": "city", "rollout": 6, "turn": 16, "onset": 9, "met": true, "resamplesA": 13, "frac": {"used": 0.875, "category": 0.09375, "other": 0.03125}}
+{"cat": "city", "rollout": 6, "turn": 17, "onset": 9, "met": true, "resamplesA": 21, "frac": {"used": 0.96875, "other": 0.015625, "category": 0.015625}}
+{"cat": "city", "rollout": 6, "turn": 18, "onset": 9, "met": true, "resamplesA": 3, "frac": {"used": 0.921875, "category": 0.015625, "other": 0.0625}}
+{"cat": "city", "rollout": 6, "turn": 19, "onset": 9, "met": true, "resamplesA": 5, "frac": {"other": 0.265625, "used": 0.5625, "category": 0.171875}}
+{"cat": "city", "rollout": 7, "turn": 1, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 7, "turn": 2, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 7, "turn": 3, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "city", "rollout": 7, "turn": 4, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.75, "category": 0.25}}
+{"cat": "city", "rollout": 7, "turn": 5, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.84375, "category": 0.0625, "used": 0.09375}}
+{"cat": "city", "rollout": 7, "turn": 6, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.796875, "self_family": 0.03125, "category": 0.171875}}
+{"cat": "city", "rollout": 7, "turn": 7, "onset": 27, "met": false, "resamplesA": 1, "frac": {"used": 0.4375, "other": 0.515625, "category": 0.03125, "self_family": 0.015625}}
+{"cat": "city", "rollout": 7, "turn": 8, "onset": 27, "met": false, "resamplesA": 1, "frac": {"used": 0.03125, "other": 0.96875}}
+{"cat": "city", "rollout": 7, "turn": 9, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 7, "turn": 10, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "city", "rollout": 7, "turn": 11, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 7, "turn": 12, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 7, "turn": 13, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.859375, "used": 0.140625}}
+{"cat": "city", "rollout": 7, "turn": 14, "onset": 27, "met": false, "resamplesA": 2, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 7, "turn": 15, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "self_family": 0.03125, "used": 0.03125}}
+{"cat": "city", "rollout": 7, "turn": 16, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.390625, "used": 0.53125, "self_family": 0.078125}}
+{"cat": "city", "rollout": 7, "turn": 17, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 7, "turn": 18, "onset": 27, "met": false, "resamplesA": 1, "frac": {"used": 0.25, "other": 0.75}}
+{"cat": "city", "rollout": 7, "turn": 19, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.5625, "used": 0.375, "self_family": 0.0625}}
+{"cat": "city", "rollout": 7, "turn": 20, "onset": 27, "met": false, "resamplesA": 3, "frac": {"other": 0.515625, "used": 0.40625, "self_family": 0.078125}}
+{"cat": "city", "rollout": 7, "turn": 21, "onset": 27, "met": false, "resamplesA": 3, "frac": {"used": 0.515625, "other": 0.46875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 7, "turn": 22, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.734375, "used": 0.234375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 7, "turn": 23, "onset": 27, "met": false, "resamplesA": 6, "frac": {"other": 0.46875, "used": 0.5, "self_family": 0.03125}}
+{"cat": "city", "rollout": 7, "turn": 24, "onset": 27, "met": false, "resamplesA": 1, "frac": {"other": 0.53125, "self_family": 0.1875, "used": 0.28125}}
+{"cat": "city", "rollout": 8, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 8, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 8, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.515625, "category": 0.453125, "used": 0.03125}}
+{"cat": "city", "rollout": 8, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.296875, "category": 0.515625, "used": 0.1875}}
+{"cat": "city", "rollout": 8, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.671875, "used": 0.1875, "other": 0.140625}}
+{"cat": "city", "rollout": 8, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.359375, "used": 0.03125, "category": 0.609375}}
+{"cat": "city", "rollout": 8, "turn": 7, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.421875, "category": 0.40625, "used": 0.15625, "self_family": 0.015625}}
+{"cat": "city", "rollout": 8, "turn": 8, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.59375, "used": 0.125, "other": 0.28125}}
+{"cat": "city", "rollout": 8, "turn": 9, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.75, "category": 0.09375, "used": 0.15625}}
+{"cat": "city", "rollout": 8, "turn": 10, "onset": null, "met": true, "resamplesA": 2, "frac": {"used": 0.59375, "other": 0.375, "category": 0.03125}}
+{"cat": "city", "rollout": 8, "turn": 11, "onset": null, "met": true, "resamplesA": 5, "frac": {"used": 0.671875, "category": 0.109375, "other": 0.21875}}
+{"cat": "city", "rollout": 8, "turn": 12, "onset": null, "met": true, "resamplesA": 7, "frac": {"used": 0.859375, "other": 0.109375, "category": 0.03125}}
+{"cat": "city", "rollout": 8, "turn": 13, "onset": null, "met": true, "resamplesA": 19, "frac": {"used": 0.90625, "other": 0.09375}}
+{"cat": "city", "rollout": 8, "turn": 14, "onset": null, "met": true, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 8, "turn": 15, "onset": null, "met": true, "resamplesA": 15, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 8, "turn": 16, "onset": null, "met": true, "resamplesA": 53, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "city", "rollout": 9, "turn": 1, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 9, "turn": 2, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.125, "other": 0.875}}
+{"cat": "city", "rollout": 9, "turn": 3, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "used": 0.109375, "self_family": 0.015625}}
+{"cat": "city", "rollout": 9, "turn": 4, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.78125, "used": 0.03125, "category": 0.1875}}
+{"cat": "city", "rollout": 9, "turn": 5, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "used": 0.015625, "category": 0.109375}}
+{"cat": "city", "rollout": 9, "turn": 6, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.765625, "used": 0.203125, "category": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 7, "onset": 28, "met": false, "resamplesA": 1, "frac": {"self_family": 0.09375, "other": 0.375, "used": 0.53125}}
+{"cat": "city", "rollout": 9, "turn": 8, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.578125, "used": 0.296875, "self_family": 0.125}}
+{"cat": "city", "rollout": 9, "turn": 9, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "city", "rollout": 9, "turn": 10, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.921875, "used": 0.046875, "category": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 11, "onset": 28, "met": false, "resamplesA": 2, "frac": {"other": 0.734375, "used": 0.234375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 12, "onset": 28, "met": false, "resamplesA": 6, "frac": {"other": 0.4375, "used": 0.5625}}
+{"cat": "city", "rollout": 9, "turn": 13, "onset": 28, "met": false, "resamplesA": 2, "frac": {"other": 0.546875, "used": 0.453125}}
+{"cat": "city", "rollout": 9, "turn": 14, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.484375, "other": 0.515625}}
+{"cat": "city", "rollout": 9, "turn": 15, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "self_family": 0.03125, "used": 0.09375}}
+{"cat": "city", "rollout": 9, "turn": 16, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.140625, "other": 0.78125, "self_family": 0.078125}}
+{"cat": "city", "rollout": 9, "turn": 17, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.234375, "other": 0.734375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 18, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 19, "onset": 28, "met": false, "resamplesA": 2, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 9, "turn": 20, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.0625, "other": 0.9375}}
+{"cat": "city", "rollout": 9, "turn": 21, "onset": 28, "met": false, "resamplesA": 3, "frac": {"other": 0.75, "used": 0.21875, "self_family": 0.03125}}
+{"cat": "city", "rollout": 9, "turn": 22, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.796875, "used": 0.203125}}
+{"cat": "city", "rollout": 9, "turn": 23, "onset": 28, "met": false, "resamplesA": 1, "frac": {"other": 0.578125, "used": 0.375, "self_family": 0.046875}}
+{"cat": "city", "rollout": 9, "turn": 24, "onset": 28, "met": false, "resamplesA": 1, "frac": {"used": 0.625, "other": 0.34375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 10, "turn": 1, "onset": 11, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 10, "turn": 2, "onset": 11, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 10, "turn": 3, "onset": 11, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 10, "turn": 4, "onset": 11, "met": true, "resamplesA": 4, "frac": {"used": 0.515625, "other": 0.484375}}
+{"cat": "city", "rollout": 10, "turn": 5, "onset": 11, "met": true, "resamplesA": 2, "frac": {"other": 0.578125, "category": 0.1875, "used": 0.234375}}
+{"cat": "city", "rollout": 10, "turn": 6, "onset": 11, "met": true, "resamplesA": 23, "frac": {"other": 0.203125, "used": 0.796875}}
+{"cat": "city", "rollout": 10, "turn": 7, "onset": 11, "met": true, "resamplesA": 17, "frac": {"used": 0.9375, "other": 0.0625}}
+{"cat": "city", "rollout": 10, "turn": 8, "onset": 11, "met": true, "resamplesA": 5, "frac": {"used": 0.640625, "other": 0.359375}}
+{"cat": "city", "rollout": 10, "turn": 9, "onset": 11, "met": true, "resamplesA": 2, "frac": {"other": 0.0625, "used": 0.9375}}
+{"cat": "city", "rollout": 10, "turn": 10, "onset": 11, "met": true, "resamplesA": 2, "frac": {"used": 0.84375, "other": 0.15625}}
+{"cat": "city", "rollout": 10, "turn": 11, "onset": 11, "met": true, "resamplesA": 3, "frac": {"used": 0.765625, "other": 0.03125, "self_family": 0.203125}}
+{"cat": "city", "rollout": 10, "turn": 12, "onset": 11, "met": true, "resamplesA": 17, "frac": {"other": 0.03125, "used": 0.96875}}
+{"cat": "city", "rollout": 10, "turn": 13, "onset": 11, "met": true, "resamplesA": 3, "frac": {"used": 0.65625, "self_family": 0.25, "other": 0.09375}}
+{"cat": "city", "rollout": 10, "turn": 14, "onset": 11, "met": true, "resamplesA": 2, "frac": {"used": 0.140625, "self_family": 0.640625, "other": 0.21875}}
+{"cat": "city", "rollout": 10, "turn": 15, "onset": 11, "met": true, "resamplesA": 1, "frac": {"self_family": 0.71875, "used": 0.203125, "other": 0.078125}}
+{"cat": "city", "rollout": 10, "turn": 16, "onset": 11, "met": true, "resamplesA": 1, "frac": {"used": 0.125, "self_family": 0.703125, "other": 0.171875}}
+{"cat": "city", "rollout": 10, "turn": 17, "onset": 11, "met": true, "resamplesA": 6, "frac": {"used": 0.703125, "self_family": 0.296875}}
+{"cat": "city", "rollout": 10, "turn": 18, "onset": 11, "met": true, "resamplesA": 2, "frac": {"self_family": 0.265625, "used": 0.71875, "other": 0.015625}}
+{"cat": "city", "rollout": 10, "turn": 19, "onset": 11, "met": true, "resamplesA": 2, "frac": {"used": 0.75, "self_family": 0.21875, "other": 0.03125}}
+{"cat": "city", "rollout": 10, "turn": 20, "onset": 11, "met": true, "resamplesA": 1, "frac": {"used": 0.75, "self_family": 0.1875, "other": 0.0625}}
+{"cat": "city", "rollout": 10, "turn": 21, "onset": 11, "met": true, "resamplesA": 14, "frac": {"used": 0.890625, "self_family": 0.109375}}
+{"cat": "city", "rollout": 10, "turn": 22, "onset": 11, "met": true, "resamplesA": 4, "frac": {"used": 0.875, "self_family": 0.125}}
+{"cat": "city", "rollout": 10, "turn": 23, "onset": 11, "met": true, "resamplesA": 3, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 10, "turn": 24, "onset": 11, "met": true, "resamplesA": 29, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 11, "turn": 1, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 11, "turn": 2, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 11, "turn": 3, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 11, "turn": 4, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "self_family": 0.078125}}
+{"cat": "city", "rollout": 11, "turn": 5, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 0.515625, "used": 0.328125, "self_family": 0.15625}}
+{"cat": "city", "rollout": 11, "turn": 6, "onset": 5, "met": true, "resamplesA": 1, "frac": {"other": 0.6875, "used": 0.25, "self_family": 0.0625}}
+{"cat": "city", "rollout": 11, "turn": 7, "onset": 5, "met": true, "resamplesA": 1, "frac": {"category": 0.25, "other": 0.625, "used": 0.125}}
+{"cat": "city", "rollout": 11, "turn": 8, "onset": 5, "met": true, "resamplesA": 2, "frac": {"other": 0.46875, "used": 0.484375, "category": 0.046875}}
+{"cat": "city", "rollout": 11, "turn": 9, "onset": 5, "met": true, "resamplesA": 6, "frac": {"used": 0.59375, "category": 0.234375, "other": 0.15625, "self_family": 0.015625}}
+{"cat": "city", "rollout": 11, "turn": 10, "onset": 5, "met": true, "resamplesA": 1, "frac": {"used": 0.359375, "category": 0.28125, "other": 0.328125, "self_family": 0.03125}}
+{"cat": "city", "rollout": 12, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "city", "rollout": 12, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 13, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 13, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 13, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.546875, "category": 0.265625, "used": 0.1875}}
+{"cat": "city", "rollout": 13, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.859375, "other": 0.140625}}
+{"cat": "city", "rollout": 13, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 13, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.78125, "category": 0.21875}}
+{"cat": "city", "rollout": 13, "turn": 7, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.890625, "category": 0.109375}}
+{"cat": "city", "rollout": 14, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 14, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "city", "rollout": 14, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.421875, "category": 0.578125}}
+{"cat": "city", "rollout": 15, "turn": 1, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 2, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 3, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 4, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 5, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 6, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 7, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 8, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 9, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 10, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 15, "turn": 11, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 15, "turn": 12, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.859375, "category": 0.140625}}
+{"cat": "city", "rollout": 15, "turn": 13, "onset": 26, "met": false, "resamplesA": 2, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "city", "rollout": 15, "turn": 14, "onset": 26, "met": false, "resamplesA": 2, "frac": {"other": 0.9375, "category": 0.03125, "used": 0.03125}}
+{"cat": "city", "rollout": 15, "turn": 15, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 15, "turn": 16, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.890625, "category": 0.046875, "used": 0.0625}}
+{"cat": "city", "rollout": 15, "turn": 17, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "city", "rollout": 15, "turn": 18, "onset": 26, "met": false, "resamplesA": 1, "frac": {"other": 0.71875, "used": 0.21875, "category": 0.0625}}
+{"cat": "city", "rollout": 15, "turn": 19, "onset": 26, "met": false, "resamplesA": 1, "frac": {"used": 0.125, "category": 0.8125, "other": 0.0625}}
+{"cat": "city", "rollout": 15, "turn": 20, "onset": 26, "met": false, "resamplesA": 3, "frac": {"used": 0.5625, "other": 0.4375}}
+{"cat": "city", "rollout": 15, "turn": 21, "onset": 26, "met": false, "resamplesA": 2, "frac": {"other": 0.5625, "used": 0.4375}}
+{"cat": "city", "rollout": 15, "turn": 22, "onset": 26, "met": false, "resamplesA": 4, "frac": {"used": 0.6875, "other": 0.296875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 15, "turn": 23, "onset": 26, "met": false, "resamplesA": 11, "frac": {"other": 0.171875, "used": 0.828125}}
+{"cat": "city", "rollout": 15, "turn": 24, "onset": 26, "met": false, "resamplesA": 14, "frac": {"used": 0.921875, "other": 0.078125}}
+{"cat": "city", "rollout": 16, "turn": 1, "onset": 13, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 16, "turn": 2, "onset": 13, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 3, "onset": 13, "met": true, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "city", "rollout": 16, "turn": 4, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.546875, "other": 0.453125}}
+{"cat": "city", "rollout": 16, "turn": 5, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.484375, "other": 0.484375, "category": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 6, "onset": 13, "met": true, "resamplesA": 1, "frac": {"other": 0.484375, "self_family": 0.09375, "used": 0.359375, "category": 0.0625}}
+{"cat": "city", "rollout": 16, "turn": 7, "onset": 13, "met": true, "resamplesA": 1, "frac": {"other": 0.625, "used": 0.375}}
+{"cat": "city", "rollout": 16, "turn": 8, "onset": 13, "met": true, "resamplesA": 5, "frac": {"other": 0.34375, "used": 0.546875, "self_family": 0.109375}}
+{"cat": "city", "rollout": 16, "turn": 9, "onset": 13, "met": true, "resamplesA": 3, "frac": {"other": 0.6875, "used": 0.28125, "category": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 10, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.40625, "self_family": 0.140625, "other": 0.453125}}
+{"cat": "city", "rollout": 16, "turn": 11, "onset": 13, "met": true, "resamplesA": 3, "frac": {"used": 0.96875, "other": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 12, "onset": 13, "met": true, "resamplesA": 3, "frac": {"used": 0.734375, "other": 0.265625}}
+{"cat": "city", "rollout": 16, "turn": 13, "onset": 13, "met": true, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 16, "turn": 14, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.859375, "other": 0.078125, "self_family": 0.03125, "category": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 15, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.640625, "other": 0.34375, "self_family": 0.015625}}
+{"cat": "city", "rollout": 16, "turn": 16, "onset": 13, "met": true, "resamplesA": 18, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 16, "turn": 17, "onset": 13, "met": true, "resamplesA": 8, "frac": {"used": 0.71875, "other": 0.078125, "self_family": 0.203125}}
+{"cat": "city", "rollout": 16, "turn": 18, "onset": 13, "met": true, "resamplesA": 3, "frac": {"used": 0.71875, "other": 0.109375, "self_family": 0.125, "category": 0.046875}}
+{"cat": "city", "rollout": 16, "turn": 19, "onset": 13, "met": true, "resamplesA": 3, "frac": {"self_family": 0.53125, "used": 0.421875, "other": 0.03125, "category": 0.015625}}
+{"cat": "city", "rollout": 16, "turn": 20, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.75, "self_family": 0.109375, "other": 0.109375, "category": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 21, "onset": 13, "met": true, "resamplesA": 9, "frac": {"used": 0.84375, "self_family": 0.046875, "other": 0.109375}}
+{"cat": "city", "rollout": 16, "turn": 22, "onset": 13, "met": true, "resamplesA": 2, "frac": {"used": 0.890625, "self_family": 0.078125, "other": 0.03125}}
+{"cat": "city", "rollout": 16, "turn": 23, "onset": 13, "met": true, "resamplesA": 1, "frac": {"used": 0.78125, "self_family": 0.171875, "other": 0.046875}}
+{"cat": "city", "rollout": 16, "turn": 24, "onset": 13, "met": true, "resamplesA": 2, "frac": {"self_family": 0.65625, "used": 0.328125, "other": 0.015625}}
+{"cat": "city", "rollout": 17, "turn": 1, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 17, "turn": 2, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 17, "turn": 3, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 17, "turn": 4, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 17, "turn": 5, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.578125, "self_family": 0.03125, "other": 0.390625}}
+{"cat": "city", "rollout": 17, "turn": 6, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 0.453125, "used": 0.53125, "category": 0.015625}}
+{"cat": "city", "rollout": 17, "turn": 7, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.578125, "other": 0.34375, "category": 0.078125}}
+{"cat": "city", "rollout": 17, "turn": 8, "onset": 24, "met": false, "resamplesA": 2, "frac": {"other": 0.15625, "used": 0.65625, "category": 0.1875}}
+{"cat": "city", "rollout": 17, "turn": 9, "onset": 24, "met": false, "resamplesA": 4, "frac": {"other": 0.296875, "used": 0.5, "category": 0.203125}}
+{"cat": "city", "rollout": 17, "turn": 10, "onset": 24, "met": false, "resamplesA": 13, "frac": {"other": 0.109375, "used": 0.703125, "category": 0.171875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 17, "turn": 11, "onset": 24, "met": false, "resamplesA": 1, "frac": {"category": 0.15625, "used": 0.515625, "other": 0.328125}}
+{"cat": "city", "rollout": 17, "turn": 12, "onset": 24, "met": false, "resamplesA": 4, "frac": {"other": 0.53125, "used": 0.40625, "category": 0.0625}}
+{"cat": "city", "rollout": 17, "turn": 13, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.671875, "other": 0.203125, "self_family": 0.125}}
+{"cat": "city", "rollout": 17, "turn": 14, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.59375, "other": 0.375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 17, "turn": 15, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.28125, "other": 0.671875, "self_family": 0.046875}}
+{"cat": "city", "rollout": 17, "turn": 16, "onset": 24, "met": false, "resamplesA": 2, "frac": {"used": 0.40625, "other": 0.59375}}
+{"cat": "city", "rollout": 17, "turn": 17, "onset": 24, "met": false, "resamplesA": 1, "frac": {"other": 0.5, "self_family": 0.0625, "used": 0.4375}}
+{"cat": "city", "rollout": 17, "turn": 18, "onset": 24, "met": false, "resamplesA": 5, "frac": {"used": 0.90625, "self_family": 0.015625, "other": 0.078125}}
+{"cat": "city", "rollout": 17, "turn": 19, "onset": 24, "met": false, "resamplesA": 2, "frac": {"used": 0.765625, "other": 0.21875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 17, "turn": 20, "onset": 24, "met": false, "resamplesA": 3, "frac": {"used": 0.6875, "other": 0.28125, "self_family": 0.03125}}
+{"cat": "city", "rollout": 17, "turn": 21, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.53125, "other": 0.4375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 17, "turn": 22, "onset": 24, "met": false, "resamplesA": 3, "frac": {"used": 0.828125, "self_family": 0.0625, "other": 0.109375}}
+{"cat": "city", "rollout": 17, "turn": 23, "onset": 24, "met": false, "resamplesA": 1, "frac": {"self_family": 0.046875, "used": 0.796875, "other": 0.15625}}
+{"cat": "city", "rollout": 17, "turn": 24, "onset": 24, "met": false, "resamplesA": 1, "frac": {"used": 0.625, "other": 0.34375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 18, "turn": 1, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 18, "turn": 2, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 18, "turn": 3, "onset": 3, "met": false, "resamplesA": 6, "frac": {"used": 0.765625, "other": 0.15625, "self_family": 0.046875, "category": 0.03125}}
+{"cat": "city", "rollout": 18, "turn": 4, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 0.25, "self_family": 0.234375, "used": 0.453125, "category": 0.0625}}
+{"cat": "city", "rollout": 18, "turn": 5, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.453125, "used": 0.46875, "category": 0.015625, "other": 0.0625}}
+{"cat": "city", "rollout": 18, "turn": 6, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 0.453125, "used": 0.390625, "self_family": 0.15625}}
+{"cat": "city", "rollout": 18, "turn": 7, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.625, "used": 0.265625, "other": 0.078125, "category": 0.03125}}
+{"cat": "city", "rollout": 18, "turn": 8, "onset": 3, "met": false, "resamplesA": 1, "frac": {"category": 0.15625, "self_family": 0.59375, "used": 0.234375, "other": 0.015625}}
+{"cat": "city", "rollout": 18, "turn": 9, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.28125, "other": 0.21875, "used": 0.453125, "category": 0.046875}}
+{"cat": "city", "rollout": 18, "turn": 10, "onset": 3, "met": false, "resamplesA": 1, "frac": {"used": 0.375, "self_family": 0.578125, "other": 0.046875}}
+{"cat": "city", "rollout": 18, "turn": 11, "onset": 3, "met": false, "resamplesA": 3, "frac": {"used": 0.65625, "self_family": 0.28125, "other": 0.0625}}
+{"cat": "city", "rollout": 18, "turn": 12, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.515625, "self_family": 0.484375}}
+{"cat": "city", "rollout": 18, "turn": 13, "onset": 3, "met": false, "resamplesA": 3, "frac": {"used": 0.9375, "self_family": 0.046875, "other": 0.015625}}
+{"cat": "city", "rollout": 18, "turn": 14, "onset": 3, "met": false, "resamplesA": 64, "frac": {"used": 0.984375, "self_family": 0.015625}}
+{"cat": "city", "rollout": 18, "turn": 15, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.890625, "self_family": 0.0625, "other": 0.046875}}
+{"cat": "city", "rollout": 18, "turn": 16, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 0.171875, "used": 0.703125, "self_family": 0.125}}
+{"cat": "city", "rollout": 18, "turn": 17, "onset": 3, "met": false, "resamplesA": 2, "frac": {"other": 0.34375, "used": 0.375, "self_family": 0.28125}}
+{"cat": "city", "rollout": 18, "turn": 18, "onset": 3, "met": false, "resamplesA": 5, "frac": {"used": 0.828125, "other": 0.125, "self_family": 0.046875}}
+{"cat": "city", "rollout": 18, "turn": 19, "onset": 3, "met": false, "resamplesA": 4, "frac": {"used": 0.828125, "self_family": 0.171875}}
+{"cat": "city", "rollout": 18, "turn": 20, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.90625, "other": 0.015625, "self_family": 0.078125}}
+{"cat": "city", "rollout": 18, "turn": 21, "onset": 3, "met": false, "resamplesA": 9, "frac": {"used": 0.875, "self_family": 0.109375, "other": 0.015625}}
+{"cat": "city", "rollout": 18, "turn": 22, "onset": 3, "met": false, "resamplesA": 11, "frac": {"used": 0.96875, "self_family": 0.03125}}
+{"cat": "city", "rollout": 18, "turn": 23, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.6875, "self_family": 0.3125}}
+{"cat": "city", "rollout": 18, "turn": 24, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.328125, "used": 0.671875}}
+{"cat": "city", "rollout": 19, "turn": 1, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 19, "turn": 2, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "city", "rollout": 19, "turn": 3, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "city", "rollout": 19, "turn": 4, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 19, "turn": 5, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 19, "turn": 6, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "category": 0.046875}}
+{"cat": "city", "rollout": 19, "turn": 7, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.015625, "used": 0.015625}}
+{"cat": "city", "rollout": 19, "turn": 8, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "category": 0.09375}}
+{"cat": "city", "rollout": 19, "turn": 9, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.015625, "used": 0.015625}}
+{"cat": "city", "rollout": 19, "turn": 10, "onset": 50, "met": false, "resamplesA": 1, "frac": {"used": 0.0625, "other": 0.9375}}
+{"cat": "city", "rollout": 19, "turn": 11, "onset": 50, "met": false, "resamplesA": 1, "frac": {"used": 0.171875, "other": 0.828125}}
+{"cat": "city", "rollout": 19, "turn": 12, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.65625, "used": 0.265625, "category": 0.078125}}
+{"cat": "city", "rollout": 19, "turn": 13, "onset": 50, "met": false, "resamplesA": 4, "frac": {"used": 0.46875, "other": 0.53125}}
+{"cat": "city", "rollout": 19, "turn": 14, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.8125, "used": 0.1875}}
+{"cat": "city", "rollout": 19, "turn": 15, "onset": 50, "met": false, "resamplesA": 1, "frac": {"used": 0.421875, "other": 0.578125}}
+{"cat": "city", "rollout": 19, "turn": 16, "onset": 50, "met": false, "resamplesA": 7, "frac": {"used": 0.515625, "other": 0.484375}}
+{"cat": "city", "rollout": 19, "turn": 17, "onset": 50, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 19, "turn": 18, "onset": 50, "met": false, "resamplesA": 38, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 19, "turn": 19, "onset": 50, "met": false, "resamplesA": 8, "frac": {"used": 0.890625, "other": 0.109375}}
+{"cat": "city", "rollout": 19, "turn": 20, "onset": 50, "met": false, "resamplesA": 2, "frac": {"other": 0.265625, "used": 0.734375}}
+{"cat": "city", "rollout": 19, "turn": 21, "onset": 50, "met": false, "resamplesA": 1, "frac": {"used": 0.828125, "other": 0.171875}}
+{"cat": "city", "rollout": 19, "turn": 22, "onset": 50, "met": false, "resamplesA": 8, "frac": {"used": 0.8125, "other": 0.1875}}
+{"cat": "city", "rollout": 19, "turn": 23, "onset": 50, "met": false, "resamplesA": 4, "frac": {"other": 0.4375, "used": 0.5625}}
+{"cat": "city", "rollout": 19, "turn": 24, "onset": 50, "met": false, "resamplesA": 2, "frac": {"used": 0.921875, "other": 0.078125}}
+{"cat": "city", "rollout": 20, "turn": 1, "onset": 4, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 20, "turn": 2, "onset": 4, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "city", "rollout": 20, "turn": 3, "onset": 4, "met": false, "resamplesA": 1, "frac": {"self_family": 0.328125, "used": 0.375, "other": 0.296875}}
+{"cat": "city", "rollout": 20, "turn": 4, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.390625, "other": 0.171875, "category": 0.421875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 20, "turn": 5, "onset": 4, "met": false, "resamplesA": 1, "frac": {"self_family": 0.171875, "other": 0.640625, "used": 0.1875}}
+{"cat": "city", "rollout": 20, "turn": 6, "onset": 4, "met": false, "resamplesA": 14, "frac": {"used": 0.90625, "other": 0.09375}}
+{"cat": "city", "rollout": 20, "turn": 7, "onset": 4, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 20, "turn": 8, "onset": 4, "met": false, "resamplesA": 11, "frac": {"used": 0.765625, "other": 0.21875, "self_family": 0.015625}}
+{"cat": "city", "rollout": 20, "turn": 9, "onset": 4, "met": false, "resamplesA": 5, "frac": {"used": 0.59375, "other": 0.375, "self_family": 0.03125}}
+{"cat": "city", "rollout": 20, "turn": 10, "onset": 4, "met": false, "resamplesA": 2, "frac": {"used": 0.828125, "other": 0.140625, "self_family": 0.03125}}
+{"cat": "city", "rollout": 20, "turn": 11, "onset": 4, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "self_family": 0.046875, "used": 0.015625}}
+{"cat": "city", "rollout": 20, "turn": 12, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.046875, "other": 0.890625, "self_family": 0.0625}}
+{"cat": "city", "rollout": 20, "turn": 13, "onset": 4, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 20, "turn": 14, "onset": 4, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 20, "turn": 15, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.703125, "other": 0.296875}}
+{"cat": "city", "rollout": 20, "turn": 16, "onset": 4, "met": false, "resamplesA": 2, "frac": {"used": 0.953125, "other": 0.046875}}
+{"cat": "city", "rollout": 20, "turn": 17, "onset": 4, "met": false, "resamplesA": 4, "frac": {"used": 0.765625, "other": 0.234375}}
+{"cat": "city", "rollout": 20, "turn": 18, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.890625, "other": 0.109375}}
+{"cat": "city", "rollout": 20, "turn": 19, "onset": 4, "met": false, "resamplesA": 5, "frac": {"other": 0.328125, "used": 0.671875}}
+{"cat": "city", "rollout": 20, "turn": 20, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.96875, "other": 0.03125}}
+{"cat": "city", "rollout": 20, "turn": 21, "onset": 4, "met": false, "resamplesA": 12, "frac": {"used": 0.96875, "other": 0.03125}}
+{"cat": "city", "rollout": 20, "turn": 22, "onset": 4, "met": false, "resamplesA": 28, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "city", "rollout": 20, "turn": 23, "onset": 4, "met": false, "resamplesA": 1, "frac": {"used": 0.78125, "other": 0.21875}}
+{"cat": "city", "rollout": 20, "turn": 24, "onset": 4, "met": false, "resamplesA": 14, "frac": {"used": 0.890625, "other": 0.109375}}
+{"cat": "city", "rollout": 21, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 21, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 21, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.671875, "used": 0.328125}}
+{"cat": "city", "rollout": 21, "turn": 4, "onset": null, "met": true, "resamplesA": 3, "frac": {"used": 0.5, "category": 0.3125, "other": 0.1875}}
+{"cat": "city", "rollout": 22, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "city", "rollout": 22, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.828125, "used": 0.171875}}
+{"cat": "city", "rollout": 22, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.3125, "other": 0.5625, "used": 0.125}}
+{"cat": "city", "rollout": 22, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.96875, "other": 0.03125}}
+{"cat": "city", "rollout": 22, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 1.0}}
+{"cat": "city", "rollout": 23, "turn": 1, "onset": 17, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "city", "rollout": 23, "turn": 2, "onset": 17, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "city", "rollout": 23, "turn": 3, "onset": 17, "met": false, "resamplesA": 1, "frac": {"other": 0.65625, "category": 0.203125, "used": 0.140625}}
+{"cat": "city", "rollout": 23, "turn": 4, "onset": 17, "met": false, "resamplesA": 1, "frac": {"other": 0.5625, "category": 0.296875, "used": 0.140625}}
+{"cat": "city", "rollout": 23, "turn": 5, "onset": 17, "met": false, "resamplesA": 64, "frac": {"used": 0.984375, "category": 0.015625}}
+{"cat": "city", "rollout": 23, "turn": 6, "onset": 17, "met": false, "resamplesA": 21, "frac": {"used": 0.9375, "other": 0.015625, "category": 0.046875}}
+{"cat": "city", "rollout": 23, "turn": 7, "onset": 17, "met": false, "resamplesA": 4, "frac": {"category": 0.515625, "used": 0.4375, "other": 0.046875}}
+{"cat": "city", "rollout": 23, "turn": 8, "onset": 17, "met": false, "resamplesA": 2, "frac": {"category": 0.65625, "other": 0.21875, "used": 0.125}}
+{"cat": "city", "rollout": 23, "turn": 9, "onset": 17, "met": false, "resamplesA": 1, "frac": {"category": 0.890625, "used": 0.046875, "other": 0.0625}}
+{"cat": "city", "rollout": 23, "turn": 10, "onset": 17, "met": false, "resamplesA": 1, "frac": {"category": 0.4375, "used": 0.484375, "other": 0.078125}}
+{"cat": "city", "rollout": 23, "turn": 11, "onset": 17, "met": false, "resamplesA": 3, "frac": {"category": 0.140625, "used": 0.84375, "other": 0.015625}}
+{"cat": "city", "rollout": 23, "turn": 12, "onset": 17, "met": false, "resamplesA": 4, "frac": {"category": 0.09375, "used": 0.828125, "other": 0.078125}}
+{"cat": "city", "rollout": 23, "turn": 13, "onset": 17, "met": false, "resamplesA": 6, "frac": {"self_family": 0.03125, "other": 0.0625, "used": 0.875, "category": 0.03125}}
+{"cat": "city", "rollout": 23, "turn": 14, "onset": 17, "met": false, "resamplesA": 1, "frac": {"used": 0.9375, "category": 0.046875, "other": 0.015625}}
+{"cat": "city", "rollout": 23, "turn": 15, "onset": 17, "met": false, "resamplesA": 9, "frac": {"used": 0.96875, "category": 0.03125}}
+{"cat": "city", "rollout": 23, "turn": 16, "onset": 17, "met": false, "resamplesA": 4, "frac": {"used": 0.921875, "category": 0.078125}}
+{"cat": "city", "rollout": 23, "turn": 17, "onset": 17, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 23, "turn": 18, "onset": 17, "met": false, "resamplesA": 15, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "city", "rollout": 23, "turn": 19, "onset": 17, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "city", "rollout": 23, "turn": 20, "onset": 17, "met": false, "resamplesA": 1, "frac": {"used": 0.6875, "self_family": 0.3125}}
+{"cat": "city", "rollout": 23, "turn": 21, "onset": 17, "met": false, "resamplesA": 23, "frac": {"used": 0.875, "self_family": 0.125}}
+{"cat": "city", "rollout": 23, "turn": 22, "onset": 17, "met": false, "resamplesA": 8, "frac": {"used": 0.78125, "self_family": 0.21875}}
+{"cat": "city", "rollout": 23, "turn": 23, "onset": 17, "met": false, "resamplesA": 1, "frac": {"self_family": 0.90625, "used": 0.09375}}
+{"cat": "city", "rollout": 23, "turn": 24, "onset": 17, "met": false, "resamplesA": 6, "frac": {"used": 0.65625, "self_family": 0.34375}}
+{"cat": "fruit", "rollout": 0, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 0, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.28125, "other": 0.703125, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 1, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 1, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.78125, "category": 0.015625, "used": 0.203125}}
+{"cat": "fruit", "rollout": 1, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.453125, "category": 0.53125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 1, "onset": 14, "met": true, "resamplesA": 1, "frac": {"used": 0.046875, "other": 0.921875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 2, "turn": 2, "onset": 14, "met": true, "resamplesA": 1, "frac": {"other": 0.90625, "category": 0.078125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 3, "onset": 14, "met": true, "resamplesA": 1, "frac": {"other": 0.640625, "used": 0.203125, "self_family": 0.046875, "category": 0.109375}}
+{"cat": "fruit", "rollout": 2, "turn": 4, "onset": 14, "met": true, "resamplesA": 2, "frac": {"other": 0.28125, "used": 0.703125, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 5, "onset": 14, "met": true, "resamplesA": 1, "frac": {"used": 0.453125, "other": 0.40625, "self_family": 0.109375, "category": 0.03125}}
+{"cat": "fruit", "rollout": 2, "turn": 6, "onset": 14, "met": true, "resamplesA": 2, "frac": {"other": 0.578125, "used": 0.25, "category": 0.125, "self_family": 0.046875}}
+{"cat": "fruit", "rollout": 2, "turn": 7, "onset": 14, "met": true, "resamplesA": 1, "frac": {"used": 0.25, "other": 0.546875, "category": 0.15625, "self_family": 0.046875}}
+{"cat": "fruit", "rollout": 2, "turn": 8, "onset": 14, "met": true, "resamplesA": 2, "frac": {"used": 0.453125, "other": 0.296875, "category": 0.203125, "self_family": 0.046875}}
+{"cat": "fruit", "rollout": 2, "turn": 9, "onset": 14, "met": true, "resamplesA": 1, "frac": {"used": 0.25, "other": 0.640625, "category": 0.109375}}
+{"cat": "fruit", "rollout": 2, "turn": 10, "onset": 14, "met": true, "resamplesA": 5, "frac": {"other": 0.1875, "used": 0.578125, "category": 0.21875, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 11, "onset": 14, "met": true, "resamplesA": 8, "frac": {"used": 0.90625, "other": 0.078125, "category": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 12, "onset": 14, "met": true, "resamplesA": 2, "frac": {"used": 0.6875, "category": 0.09375, "self_family": 0.15625, "other": 0.0625}}
+{"cat": "fruit", "rollout": 2, "turn": 13, "onset": 14, "met": true, "resamplesA": 1, "frac": {"used": 0.65625, "self_family": 0.1875, "other": 0.15625}}
+{"cat": "fruit", "rollout": 2, "turn": 14, "onset": 14, "met": true, "resamplesA": 12, "frac": {"other": 0.125, "used": 0.625, "self_family": 0.25}}
+{"cat": "fruit", "rollout": 2, "turn": 15, "onset": 14, "met": true, "resamplesA": 3, "frac": {"used": 0.609375, "self_family": 0.296875, "other": 0.09375}}
+{"cat": "fruit", "rollout": 2, "turn": 16, "onset": 14, "met": true, "resamplesA": 2, "frac": {"used": 0.46875, "self_family": 0.421875, "other": 0.109375}}
+{"cat": "fruit", "rollout": 2, "turn": 17, "onset": 14, "met": true, "resamplesA": 1, "frac": {"other": 0.15625, "self_family": 0.578125, "used": 0.25, "category": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 18, "onset": 14, "met": true, "resamplesA": 1, "frac": {"self_family": 0.609375, "used": 0.140625, "other": 0.25}}
+{"cat": "fruit", "rollout": 2, "turn": 19, "onset": 14, "met": true, "resamplesA": 1, "frac": {"self_family": 0.75, "other": 0.0625, "category": 0.015625, "used": 0.171875}}
+{"cat": "fruit", "rollout": 2, "turn": 20, "onset": 14, "met": true, "resamplesA": 2, "frac": {"used": 0.359375, "self_family": 0.578125, "other": 0.0625}}
+{"cat": "fruit", "rollout": 2, "turn": 21, "onset": 14, "met": true, "resamplesA": 1, "frac": {"self_family": 0.671875, "used": 0.234375, "other": 0.0625, "category": 0.03125}}
+{"cat": "fruit", "rollout": 2, "turn": 22, "onset": 14, "met": true, "resamplesA": 2, "frac": {"used": 0.65625, "self_family": 0.328125, "category": 0.015625}}
+{"cat": "fruit", "rollout": 2, "turn": 23, "onset": 14, "met": true, "resamplesA": 1, "frac": {"self_family": 0.484375, "used": 0.515625}}
+{"cat": "fruit", "rollout": 2, "turn": 24, "onset": 14, "met": true, "resamplesA": 24, "frac": {"used": 0.96875, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 3, "turn": 1, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "category": 0.046875, "used": 0.015625}}
+{"cat": "fruit", "rollout": 3, "turn": 2, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.703125, "category": 0.21875, "used": 0.078125}}
+{"cat": "fruit", "rollout": 3, "turn": 3, "onset": 16, "met": true, "resamplesA": 2, "frac": {"category": 0.578125, "used": 0.078125, "other": 0.34375}}
+{"cat": "fruit", "rollout": 3, "turn": 4, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.8125, "used": 0.1875}}
+{"cat": "fruit", "rollout": 3, "turn": 5, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 3, "turn": 6, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 3, "turn": 7, "onset": 16, "met": true, "resamplesA": 3, "frac": {"used": 0.671875, "other": 0.3125, "category": 0.015625}}
+{"cat": "fruit", "rollout": 3, "turn": 8, "onset": 16, "met": true, "resamplesA": 9, "frac": {"other": 0.328125, "used": 0.59375, "category": 0.078125}}
+{"cat": "fruit", "rollout": 3, "turn": 9, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 3, "turn": 10, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 3, "turn": 11, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 3, "turn": 12, "onset": 16, "met": true, "resamplesA": 1, "frac": {"used": 0.46875, "other": 0.484375, "category": 0.046875}}
+{"cat": "fruit", "rollout": 3, "turn": 13, "onset": 16, "met": true, "resamplesA": 1, "frac": {"used": 0.421875, "other": 0.40625, "category": 0.171875}}
+{"cat": "fruit", "rollout": 3, "turn": 14, "onset": 16, "met": true, "resamplesA": 1, "frac": {"category": 0.140625, "other": 0.4375, "used": 0.421875}}
+{"cat": "fruit", "rollout": 3, "turn": 15, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "fruit", "rollout": 3, "turn": 16, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.03125, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 3, "turn": 17, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "fruit", "rollout": 3, "turn": 18, "onset": 16, "met": true, "resamplesA": 1, "frac": {"used": 0.09375, "other": 0.90625}}
+{"cat": "fruit", "rollout": 3, "turn": 19, "onset": 16, "met": true, "resamplesA": 3, "frac": {"other": 0.6875, "used": 0.3125}}
+{"cat": "fruit", "rollout": 3, "turn": 20, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 3, "turn": 21, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "fruit", "rollout": 3, "turn": 22, "onset": 16, "met": true, "resamplesA": 3, "frac": {"used": 0.453125, "other": 0.5, "self_family": 0.046875}}
+{"cat": "fruit", "rollout": 3, "turn": 23, "onset": 16, "met": true, "resamplesA": 1, "frac": {"other": 0.6875, "used": 0.265625, "self_family": 0.046875}}
+{"cat": "fruit", "rollout": 3, "turn": 24, "onset": 16, "met": true, "resamplesA": 1, "frac": {"used": 0.609375, "other": 0.390625}}
+{"cat": "fruit", "rollout": 4, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 4, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "category": 0.078125}}
+{"cat": "fruit", "rollout": 4, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.703125, "used": 0.1875, "category": 0.109375}}
+{"cat": "fruit", "rollout": 4, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.0625, "other": 0.484375, "category": 0.453125}}
+{"cat": "fruit", "rollout": 5, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.109375, "other": 0.890625}}
+{"cat": "fruit", "rollout": 5, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.265625, "other": 0.734375}}
+{"cat": "fruit", "rollout": 5, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.046875, "other": 0.90625, "category": 0.046875}}
+{"cat": "fruit", "rollout": 5, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 5, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.28125, "used": 0.09375, "other": 0.625}}
+{"cat": "fruit", "rollout": 5, "turn": 7, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.390625, "used": 0.21875, "self_family": 0.046875, "other": 0.34375}}
+{"cat": "fruit", "rollout": 5, "turn": 8, "onset": null, "met": true, "resamplesA": 3, "frac": {"used": 0.4375, "category": 0.40625, "other": 0.140625, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 5, "turn": 9, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 10, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 11, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 12, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 13, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 14, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 5, "turn": 15, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "used": 0.078125}}
+{"cat": "fruit", "rollout": 5, "turn": 16, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.71875, "other": 0.28125}}
+{"cat": "fruit", "rollout": 6, "turn": 1, "onset": 13, "met": false, "resamplesA": 1, "frac": {"used": 0.078125, "other": 0.921875}}
+{"cat": "fruit", "rollout": 6, "turn": 2, "onset": 13, "met": false, "resamplesA": 2, "frac": {"other": 0.78125, "category": 0.1875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 6, "turn": 3, "onset": 13, "met": false, "resamplesA": 2, "frac": {"used": 0.359375, "other": 0.21875, "category": 0.421875}}
+{"cat": "fruit", "rollout": 6, "turn": 4, "onset": 13, "met": false, "resamplesA": 1, "frac": {"used": 0.328125, "other": 0.640625, "category": 0.03125}}
+{"cat": "fruit", "rollout": 6, "turn": 5, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 6, "turn": 6, "onset": 13, "met": false, "resamplesA": 7, "frac": {"used": 0.890625, "other": 0.109375}}
+{"cat": "fruit", "rollout": 6, "turn": 7, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.8125, "used": 0.1875}}
+{"cat": "fruit", "rollout": 6, "turn": 8, "onset": 13, "met": false, "resamplesA": 3, "frac": {"used": 0.484375, "other": 0.515625}}
+{"cat": "fruit", "rollout": 6, "turn": 9, "onset": 13, "met": false, "resamplesA": 2, "frac": {"other": 0.6875, "used": 0.3125}}
+{"cat": "fruit", "rollout": 6, "turn": 10, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.8125, "used": 0.1875}}
+{"cat": "fruit", "rollout": 6, "turn": 11, "onset": 13, "met": false, "resamplesA": 2, "frac": {"used": 0.46875, "other": 0.515625, "category": 0.015625}}
+{"cat": "fruit", "rollout": 6, "turn": 12, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.25, "self_family": 0.1875, "used": 0.5625}}
+{"cat": "fruit", "rollout": 6, "turn": 13, "onset": 13, "met": false, "resamplesA": 2, "frac": {"used": 0.234375, "other": 0.671875, "self_family": 0.09375}}
+{"cat": "fruit", "rollout": 6, "turn": 14, "onset": 13, "met": false, "resamplesA": 1, "frac": {"used": 0.5625, "other": 0.140625, "self_family": 0.296875}}
+{"cat": "fruit", "rollout": 6, "turn": 15, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.5, "self_family": 0.109375, "used": 0.390625}}
+{"cat": "fruit", "rollout": 6, "turn": 16, "onset": 13, "met": false, "resamplesA": 2, "frac": {"other": 0.15625, "used": 0.828125, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 6, "turn": 17, "onset": 13, "met": false, "resamplesA": 3, "frac": {"used": 0.828125, "other": 0.140625, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 6, "turn": 18, "onset": 13, "met": false, "resamplesA": 1, "frac": {"used": 0.546875, "self_family": 0.390625, "other": 0.0625}}
+{"cat": "fruit", "rollout": 6, "turn": 19, "onset": 13, "met": false, "resamplesA": 1, "frac": {"other": 0.0625, "self_family": 0.328125, "used": 0.609375}}
+{"cat": "fruit", "rollout": 6, "turn": 20, "onset": 13, "met": false, "resamplesA": 8, "frac": {"used": 0.59375, "other": 0.28125, "self_family": 0.125}}
+{"cat": "fruit", "rollout": 6, "turn": 21, "onset": 13, "met": false, "resamplesA": 2, "frac": {"self_family": 0.4375, "used": 0.484375, "other": 0.078125}}
+{"cat": "fruit", "rollout": 6, "turn": 22, "onset": 13, "met": false, "resamplesA": 1, "frac": {"self_family": 0.59375, "used": 0.40625}}
+{"cat": "fruit", "rollout": 6, "turn": 23, "onset": 13, "met": false, "resamplesA": 1, "frac": {"self_family": 0.859375, "used": 0.140625}}
+{"cat": "fruit", "rollout": 6, "turn": 24, "onset": 13, "met": false, "resamplesA": 1, "frac": {"self_family": 0.921875, "used": 0.078125}}
+{"cat": "fruit", "rollout": 7, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 7, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.375, "category": 0.625}}
+{"cat": "fruit", "rollout": 8, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "fruit", "rollout": 8, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.03125, "category": 0.0625}}
+{"cat": "fruit", "rollout": 8, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.625, "other": 0.375}}
+{"cat": "fruit", "rollout": 9, "turn": 1, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 2, "onset": 46, "met": false, "resamplesA": 11, "frac": {"used": 0.609375, "other": 0.390625}}
+{"cat": "fruit", "rollout": 9, "turn": 3, "onset": 46, "met": false, "resamplesA": 1, "frac": {"category": 0.296875, "other": 0.703125}}
+{"cat": "fruit", "rollout": 9, "turn": 4, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 5, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 6, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "category": 0.125}}
+{"cat": "fruit", "rollout": 9, "turn": 7, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "category": 0.125}}
+{"cat": "fruit", "rollout": 9, "turn": 8, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 9, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 10, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 11, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 12, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 9, "turn": 13, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "fruit", "rollout": 9, "turn": 14, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 9, "turn": 15, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 9, "turn": 16, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 17, "onset": 46, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 18, "onset": 46, "met": false, "resamplesA": 4, "frac": {"used": 0.8125, "other": 0.1875}}
+{"cat": "fruit", "rollout": 9, "turn": 19, "onset": 46, "met": false, "resamplesA": 4, "frac": {"other": 0.171875, "used": 0.828125}}
+{"cat": "fruit", "rollout": 9, "turn": 20, "onset": 46, "met": false, "resamplesA": 2, "frac": {"used": 0.71875, "other": 0.28125}}
+{"cat": "fruit", "rollout": 9, "turn": 21, "onset": 46, "met": false, "resamplesA": 3, "frac": {"used": 0.765625, "other": 0.234375}}
+{"cat": "fruit", "rollout": 9, "turn": 22, "onset": 46, "met": false, "resamplesA": 29, "frac": {"used": 0.9375, "other": 0.0625}}
+{"cat": "fruit", "rollout": 9, "turn": 23, "onset": 46, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 9, "turn": 24, "onset": 46, "met": false, "resamplesA": 2, "frac": {"used": 0.5, "other": 0.5}}
+{"cat": "fruit", "rollout": 10, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 10, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.59375, "category": 0.40625}}
+{"cat": "fruit", "rollout": 10, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.828125, "other": 0.171875}}
+{"cat": "fruit", "rollout": 10, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.984375, "other": 0.015625}}
+{"cat": "fruit", "rollout": 10, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 1.0}}
+{"cat": "fruit", "rollout": 11, "turn": 1, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 11, "turn": 2, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.71875, "category": 0.25, "used": 0.03125}}
+{"cat": "fruit", "rollout": 11, "turn": 3, "onset": 7, "met": false, "resamplesA": 1, "frac": {"category": 0.296875, "used": 0.03125, "other": 0.671875}}
+{"cat": "fruit", "rollout": 11, "turn": 4, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "category": 0.09375}}
+{"cat": "fruit", "rollout": 11, "turn": 5, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.625, "category": 0.375}}
+{"cat": "fruit", "rollout": 11, "turn": 6, "onset": 7, "met": false, "resamplesA": 6, "frac": {"other": 0.328125, "used": 0.578125, "category": 0.09375}}
+{"cat": "fruit", "rollout": 11, "turn": 7, "onset": 7, "met": false, "resamplesA": 4, "frac": {"used": 0.671875, "self_family": 0.078125, "category": 0.0625, "other": 0.1875}}
+{"cat": "fruit", "rollout": 11, "turn": 8, "onset": 7, "met": false, "resamplesA": 36, "frac": {"used": 0.875, "other": 0.09375, "category": 0.03125}}
+{"cat": "fruit", "rollout": 11, "turn": 9, "onset": 7, "met": false, "resamplesA": 1, "frac": {"used": 0.21875, "other": 0.71875, "self_family": 0.0625}}
+{"cat": "fruit", "rollout": 11, "turn": 10, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.6875, "used": 0.171875, "self_family": 0.140625}}
+{"cat": "fruit", "rollout": 11, "turn": 11, "onset": 7, "met": false, "resamplesA": 1, "frac": {"self_family": 0.15625, "other": 0.59375, "used": 0.25}}
+{"cat": "fruit", "rollout": 11, "turn": 12, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.65625, "used": 0.3125, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 11, "turn": 13, "onset": 7, "met": false, "resamplesA": 1, "frac": {"other": 0.265625, "self_family": 0.578125, "used": 0.15625}}
+{"cat": "fruit", "rollout": 11, "turn": 14, "onset": 7, "met": false, "resamplesA": 3, "frac": {"used": 0.640625, "self_family": 0.28125, "other": 0.078125}}
+{"cat": "fruit", "rollout": 11, "turn": 15, "onset": 7, "met": false, "resamplesA": 2, "frac": {"used": 0.6875, "other": 0.109375, "self_family": 0.203125}}
+{"cat": "fruit", "rollout": 11, "turn": 16, "onset": 7, "met": false, "resamplesA": 16, "frac": {"used": 0.90625, "self_family": 0.0625, "other": 0.03125}}
+{"cat": "fruit", "rollout": 11, "turn": 17, "onset": 7, "met": false, "resamplesA": 4, "frac": {"self_family": 0.359375, "other": 0.21875, "used": 0.421875}}
+{"cat": "fruit", "rollout": 11, "turn": 18, "onset": 7, "met": false, "resamplesA": 2, "frac": {"self_family": 0.46875, "used": 0.453125, "other": 0.078125}}
+{"cat": "fruit", "rollout": 11, "turn": 19, "onset": 7, "met": false, "resamplesA": 7, "frac": {"self_family": 0.59375, "used": 0.40625}}
+{"cat": "fruit", "rollout": 11, "turn": 20, "onset": 7, "met": false, "resamplesA": 1, "frac": {"self_family": 0.71875, "used": 0.28125}}
+{"cat": "fruit", "rollout": 11, "turn": 21, "onset": 7, "met": false, "resamplesA": 2, "frac": {"self_family": 0.5625, "used": 0.4375}}
+{"cat": "fruit", "rollout": 11, "turn": 22, "onset": 7, "met": false, "resamplesA": 3, "frac": {"used": 0.59375, "self_family": 0.40625}}
+{"cat": "fruit", "rollout": 11, "turn": 23, "onset": 7, "met": false, "resamplesA": 1, "frac": {"used": 0.65625, "self_family": 0.34375}}
+{"cat": "fruit", "rollout": 11, "turn": 24, "onset": 7, "met": false, "resamplesA": 1, "frac": {"used": 0.671875, "self_family": 0.328125}}
+{"cat": "fruit", "rollout": 12, "turn": 1, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 12, "turn": 2, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "fruit", "rollout": 12, "turn": 3, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 12, "turn": 4, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 5, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 6, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 7, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "fruit", "rollout": 12, "turn": 8, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 12, "turn": 9, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 10, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 11, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 12, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 13, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 14, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 15, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "fruit", "rollout": 12, "turn": 16, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.84375, "used": 0.140625, "category": 0.015625}}
+{"cat": "fruit", "rollout": 12, "turn": 17, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.875, "used": 0.09375, "category": 0.03125}}
+{"cat": "fruit", "rollout": 12, "turn": 18, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.734375, "used": 0.265625}}
+{"cat": "fruit", "rollout": 12, "turn": 19, "onset": 33, "met": false, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 12, "turn": 20, "onset": 33, "met": false, "resamplesA": 1, "frac": {"used": 0.171875, "other": 0.828125}}
+{"cat": "fruit", "rollout": 12, "turn": 21, "onset": 33, "met": false, "resamplesA": 24, "frac": {"used": 0.921875, "other": 0.078125}}
+{"cat": "fruit", "rollout": 12, "turn": 22, "onset": 33, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 23, "onset": 33, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 12, "turn": 24, "onset": 33, "met": false, "resamplesA": 64, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "fruit", "rollout": 13, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 13, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"used": 0.328125, "other": 0.484375, "category": 0.1875}}
+{"cat": "fruit", "rollout": 13, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"self_family": 0.078125, "category": 0.28125, "other": 0.453125, "used": 0.1875}}
+{"cat": "fruit", "rollout": 13, "turn": 4, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.453125, "category": 0.484375, "used": 0.046875, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 13, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.296875, "self_family": 0.609375, "other": 0.078125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 14, "turn": 1, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 2, "onset": 3, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 3, "onset": 3, "met": false, "resamplesA": 1, "frac": {"used": 0.609375, "other": 0.328125, "self_family": 0.0625}}
+{"cat": "fruit", "rollout": 14, "turn": 4, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.859375, "other": 0.140625}}
+{"cat": "fruit", "rollout": 14, "turn": 5, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.90625, "used": 0.015625, "other": 0.078125}}
+{"cat": "fruit", "rollout": 14, "turn": 6, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.921875, "other": 0.0625, "used": 0.015625}}
+{"cat": "fruit", "rollout": 14, "turn": 7, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 8, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 9, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 10, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 11, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.703125, "self_family": 0.296875}}
+{"cat": "fruit", "rollout": 14, "turn": 12, "onset": 3, "met": false, "resamplesA": 3, "frac": {"used": 0.71875, "self_family": 0.28125}}
+{"cat": "fruit", "rollout": 14, "turn": 13, "onset": 3, "met": false, "resamplesA": 3, "frac": {"used": 0.703125, "self_family": 0.296875}}
+{"cat": "fruit", "rollout": 14, "turn": 14, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.5625, "used": 0.4375}}
+{"cat": "fruit", "rollout": 14, "turn": 15, "onset": 3, "met": false, "resamplesA": 1, "frac": {"used": 0.390625, "self_family": 0.609375}}
+{"cat": "fruit", "rollout": 14, "turn": 16, "onset": 3, "met": false, "resamplesA": 1, "frac": {"used": 0.265625, "self_family": 0.734375}}
+{"cat": "fruit", "rollout": 14, "turn": 17, "onset": 3, "met": false, "resamplesA": 3, "frac": {"self_family": 0.40625, "used": 0.59375}}
+{"cat": "fruit", "rollout": 14, "turn": 18, "onset": 3, "met": false, "resamplesA": 2, "frac": {"used": 0.84375, "self_family": 0.15625}}
+{"cat": "fruit", "rollout": 14, "turn": 19, "onset": 3, "met": false, "resamplesA": 1, "frac": {"self_family": 0.765625, "used": 0.234375}}
+{"cat": "fruit", "rollout": 14, "turn": 20, "onset": 3, "met": false, "resamplesA": 8, "frac": {"self_family": 0.109375, "used": 0.890625}}
+{"cat": "fruit", "rollout": 14, "turn": 21, "onset": 3, "met": false, "resamplesA": 20, "frac": {"used": 0.96875, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 14, "turn": 22, "onset": 3, "met": false, "resamplesA": 4, "frac": {"self_family": 0.0625, "used": 0.9375}}
+{"cat": "fruit", "rollout": 14, "turn": 23, "onset": 3, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 14, "turn": 24, "onset": 3, "met": false, "resamplesA": 1, "frac": {"used": 0.984375, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 15, "turn": 1, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 15, "turn": 2, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 3, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 4, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 5, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.84375, "category": 0.15625}}
+{"cat": "fruit", "rollout": 15, "turn": 6, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 7, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 8, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 9, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 15, "turn": 10, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 11, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 12, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 13, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 14, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 15, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 16, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 17, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 18, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 19, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 20, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 21, "onset": 50, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 15, "turn": 22, "onset": 50, "met": false, "resamplesA": 2, "frac": {"other": 0.890625, "used": 0.109375}}
+{"cat": "fruit", "rollout": 15, "turn": 23, "onset": 50, "met": false, "resamplesA": 2, "frac": {"used": 0.828125, "other": 0.171875}}
+{"cat": "fruit", "rollout": 15, "turn": 24, "onset": 50, "met": false, "resamplesA": 54, "frac": {"used": 0.984375, "other": 0.015625}}
+{"cat": "fruit", "rollout": 16, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 16, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 16, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.59375, "category": 0.34375, "used": 0.0625}}
+{"cat": "fruit", "rollout": 17, "turn": 1, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 17, "turn": 2, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.09375}}
+{"cat": "fruit", "rollout": 17, "turn": 3, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 17, "turn": 4, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 17, "turn": 5, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.890625, "used": 0.09375, "category": 0.015625}}
+{"cat": "fruit", "rollout": 17, "turn": 6, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.640625, "category": 0.03125, "used": 0.328125}}
+{"cat": "fruit", "rollout": 17, "turn": 7, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.171875, "category": 0.6875, "used": 0.140625}}
+{"cat": "fruit", "rollout": 17, "turn": 8, "onset": 9, "met": false, "resamplesA": 1, "frac": {"other": 0.90625, "used": 0.0625, "category": 0.03125}}
+{"cat": "fruit", "rollout": 17, "turn": 9, "onset": 9, "met": false, "resamplesA": 4, "frac": {"used": 0.40625, "self_family": 0.40625, "other": 0.1875}}
+{"cat": "fruit", "rollout": 17, "turn": 10, "onset": 9, "met": false, "resamplesA": 12, "frac": {"used": 0.84375, "self_family": 0.15625}}
+{"cat": "fruit", "rollout": 17, "turn": 11, "onset": 9, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 17, "turn": 12, "onset": 9, "met": false, "resamplesA": 1, "frac": {"used": 0.765625, "self_family": 0.171875, "other": 0.0625}}
+{"cat": "fruit", "rollout": 17, "turn": 13, "onset": 9, "met": false, "resamplesA": 3, "frac": {"self_family": 0.390625, "used": 0.609375}}
+{"cat": "fruit", "rollout": 17, "turn": 14, "onset": 9, "met": false, "resamplesA": 1, "frac": {"self_family": 0.890625, "used": 0.109375}}
+{"cat": "fruit", "rollout": 17, "turn": 15, "onset": 9, "met": false, "resamplesA": 1, "frac": {"self_family": 0.953125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 17, "turn": 16, "onset": 9, "met": false, "resamplesA": 1, "frac": {"self_family": 0.71875, "used": 0.28125}}
+{"cat": "fruit", "rollout": 17, "turn": 17, "onset": 9, "met": false, "resamplesA": 2, "frac": {"self_family": 0.609375, "used": 0.390625}}
+{"cat": "fruit", "rollout": 17, "turn": 18, "onset": 9, "met": false, "resamplesA": 1, "frac": {"used": 0.28125, "self_family": 0.71875}}
+{"cat": "fruit", "rollout": 17, "turn": 19, "onset": 9, "met": false, "resamplesA": 5, "frac": {"used": 0.71875, "self_family": 0.28125}}
+{"cat": "fruit", "rollout": 17, "turn": 20, "onset": 9, "met": false, "resamplesA": 1, "frac": {"used": 0.890625, "self_family": 0.109375}}
+{"cat": "fruit", "rollout": 17, "turn": 21, "onset": 9, "met": false, "resamplesA": 56, "frac": {"used": 0.984375, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 17, "turn": 22, "onset": 9, "met": false, "resamplesA": 64, "frac": {"used": 0.984375, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 17, "turn": 23, "onset": 9, "met": false, "resamplesA": 33, "frac": {"used": 0.96875, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 17, "turn": 24, "onset": 9, "met": false, "resamplesA": 64, "frac": {"used": 1.0}}
+{"cat": "fruit", "rollout": 18, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 18, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "category": 0.046875}}
+{"cat": "fruit", "rollout": 18, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.921875, "used": 0.015625, "category": 0.0625}}
+{"cat": "fruit", "rollout": 18, "turn": 4, "onset": null, "met": true, "resamplesA": 2, "frac": {"other": 0.53125, "category": 0.078125, "used": 0.390625}}
+{"cat": "fruit", "rollout": 18, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.453125, "category": 0.53125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 18, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 1.0}}
+{"cat": "fruit", "rollout": 18, "turn": 7, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 19, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 19, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.3125, "category": 0.6875}}
+{"cat": "fruit", "rollout": 20, "turn": 1, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 20, "turn": 2, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 20, "turn": 3, "onset": 29, "met": true, "resamplesA": 1, "frac": {"self_family": 0.265625, "other": 0.578125, "category": 0.125, "used": 0.03125}}
+{"cat": "fruit", "rollout": 20, "turn": 4, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 20, "turn": 5, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 6, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 7, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 8, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 9, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 10, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 11, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 12, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 13, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "self_family": 0.015625}}
+{"cat": "fruit", "rollout": 20, "turn": 14, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 15, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 20, "turn": 16, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 20, "turn": 17, "onset": 29, "met": true, "resamplesA": 1, "frac": {"used": 0.34375, "other": 0.65625}}
+{"cat": "fruit", "rollout": 20, "turn": 18, "onset": 29, "met": true, "resamplesA": 2, "frac": {"used": 0.390625, "other": 0.609375}}
+{"cat": "fruit", "rollout": 20, "turn": 19, "onset": 29, "met": true, "resamplesA": 2, "frac": {"other": 0.421875, "used": 0.578125}}
+{"cat": "fruit", "rollout": 20, "turn": 20, "onset": 29, "met": true, "resamplesA": 51, "frac": {"used": 0.953125, "other": 0.046875}}
+{"cat": "fruit", "rollout": 20, "turn": 21, "onset": 29, "met": true, "resamplesA": 1, "frac": {"other": 0.84375, "used": 0.15625}}
+{"cat": "fruit", "rollout": 20, "turn": 22, "onset": 29, "met": true, "resamplesA": 4, "frac": {"other": 0.1875, "used": 0.8125}}
+{"cat": "fruit", "rollout": 20, "turn": 23, "onset": 29, "met": true, "resamplesA": 3, "frac": {"used": 0.625, "other": 0.375}}
+{"cat": "fruit", "rollout": 20, "turn": 24, "onset": 29, "met": true, "resamplesA": 2, "frac": {"other": 0.46875, "used": 0.53125}}
+{"cat": "fruit", "rollout": 21, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 21, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "category": 0.03125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 21, "turn": 3, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.875, "category": 0.078125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 21, "turn": 4, "onset": null, "met": true, "resamplesA": 2, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 21, "turn": 5, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.125, "other": 0.875}}
+{"cat": "fruit", "rollout": 21, "turn": 6, "onset": null, "met": true, "resamplesA": 1, "frac": {"category": 0.9375, "other": 0.0625}}
+{"cat": "fruit", "rollout": 22, "turn": 1, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 2, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.671875, "category": 0.328125}}
+{"cat": "fruit", "rollout": 22, "turn": 3, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.671875, "category": 0.3125, "used": 0.015625}}
+{"cat": "fruit", "rollout": 22, "turn": 4, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 5, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 6, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 7, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "category": 0.03125}}
+{"cat": "fruit", "rollout": 22, "turn": 8, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.96875, "used": 0.03125}}
+{"cat": "fruit", "rollout": 22, "turn": 9, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 10, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 11, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "category": 0.015625}}
+{"cat": "fruit", "rollout": 22, "turn": 12, "onset": 22, "met": true, "resamplesA": 1, "frac": {"used": 0.3125, "other": 0.6875}}
+{"cat": "fruit", "rollout": 22, "turn": 13, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.984375, "used": 0.015625}}
+{"cat": "fruit", "rollout": 22, "turn": 14, "onset": 22, "met": true, "resamplesA": 1, "frac": {"used": 0.5625, "other": 0.375, "category": 0.0625}}
+{"cat": "fruit", "rollout": 22, "turn": 15, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 1.0}}
+{"cat": "fruit", "rollout": 22, "turn": 16, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.953125, "used": 0.046875}}
+{"cat": "fruit", "rollout": 22, "turn": 17, "onset": 22, "met": true, "resamplesA": 2, "frac": {"other": 0.6875, "used": 0.3125}}
+{"cat": "fruit", "rollout": 22, "turn": 18, "onset": 22, "met": true, "resamplesA": 7, "frac": {"used": 0.859375, "other": 0.140625}}
+{"cat": "fruit", "rollout": 22, "turn": 19, "onset": 22, "met": true, "resamplesA": 1, "frac": {"used": 0.4375, "other": 0.5625}}
+{"cat": "fruit", "rollout": 22, "turn": 20, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.671875, "used": 0.328125}}
+{"cat": "fruit", "rollout": 22, "turn": 21, "onset": 22, "met": true, "resamplesA": 1, "frac": {"other": 0.9375, "used": 0.0625}}
+{"cat": "fruit", "rollout": 22, "turn": 22, "onset": 22, "met": true, "resamplesA": 2, "frac": {"other": 0.53125, "used": 0.328125, "self_family": 0.109375, "category": 0.03125}}
+{"cat": "fruit", "rollout": 22, "turn": 23, "onset": 22, "met": true, "resamplesA": 32, "frac": {"used": 0.96875, "self_family": 0.015625, "other": 0.015625}}
+{"cat": "fruit", "rollout": 22, "turn": 24, "onset": 22, "met": true, "resamplesA": 7, "frac": {"used": 0.890625, "other": 0.046875, "category": 0.03125, "self_family": 0.03125}}
+{"cat": "fruit", "rollout": 23, "turn": 1, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.859375, "category": 0.046875, "used": 0.09375}}
+{"cat": "fruit", "rollout": 23, "turn": 2, "onset": null, "met": true, "resamplesA": 1, "frac": {"other": 0.5, "category": 0.5}}

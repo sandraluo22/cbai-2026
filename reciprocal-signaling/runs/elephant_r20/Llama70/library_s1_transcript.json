@@ -1,0 +1,282 @@
+[
+ {
+  "type": "meta",
+  "quiz": "library",
+  "true": "library",
+  "clues": [
+   "quiet",
+   "a building",
+   "full of books",
+   "you can borrow things there",
+   "open to everyone"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "is",
+   "skyscraper",
+   "is",
+   "start",
+   "is"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "library",
+   "bank",
+   "library",
+   "bank",
+   "say"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "library",
+   "bank",
+   "bookstore",
+   "library",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "bookstore",
+   "skyscraper",
+   "bookstore",
+   "library",
+   "bank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "bookstore",
+   "skyscraper",
+   "bookstore",
+   "store",
+   "bookstore"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "store",
+   "skyscraper",
+   "bookstore",
+   "bookstore",
+   "open"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   5
+  ]
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "bookstore",
+   "given",
+   "full",
+   "store",
+   "bookstore"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3
+  ]
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "bookstore",
+   "skyscraper",
+   "bookstore",
+   "bookstore",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "store",
+   "bank",
+   "bookstore",
+   "bookstore",
+   "bookstore"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "bookstore",
+   "going",
+   "library",
+   "bookstore",
+   "bookstore"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "pattern",
+   "bank",
+   "library",
+   "bookstore",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "bookstore",
+   "skyscraper",
+   "library",
+   "bookstore",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "store",
+   "bank",
+   "library",
+   "given",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "bookstore",
+   "bank",
+   "library",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "store",
+   "library",
+   "library",
+   "bookstore",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "library",
+   "bank",
+   "library",
+   "library",
+   "store"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "store",
+   "bank",
+   "bookstore",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "bank",
+   "bank",
+   "library",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "library",
+   "bank",
+   "library",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "library",
+   "bank",
+   "library",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,26 @@
+{
+  "pair": [
+    "hex",
+    "ring"
+  ],
+  "words16": [
+    "river",
+    "chair",
+    "lemon",
+    "clock",
+    "apple",
+    "coin",
+    "ocean",
+    "bread",
+    "wheel",
+    "bird",
+    "pencil",
+    "candle",
+    "jacket",
+    "anchor",
+    "tiger",
+    "mirror"
+  ],
+  "max_edge_prior": 0.003111798871941504,
+  "baseline_max_edge_prior": 0.35178219825936524
+}

@@ -1,0 +1,268 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "is",
+   "shadow",
+   "is",
+   "needs"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "black",
+   "follower",
+   "house",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "night",
+   "stalker",
+   "board",
+   "light"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "knight",
+   "stalker",
+   "house",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "night",
+   "is",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "night",
+   "stalker",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "dark",
+   "stalker",
+   "house",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   1
+  ]
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "given",
+   "shadow",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "night",
+   "shadow",
+   "table",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "night",
+   "shadow",
+   "house",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "night",
+   "shadow",
+   "house",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "going",
+   "shadow",
+   "table",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "night",
+   "shadow",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "night",
+   "shadow",
+   "flat",
+   "needs"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3,
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "night",
+   "shadow",
+   "floor",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "night",
+   "follows",
+   "floor",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "knight",
+   "shadow",
+   "board",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "night",
+   "shadow",
+   "floor",
+   "and"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "night",
+   "shadow",
+   "floor",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "night",
+   "shadow",
+   "floor",
+   "fire"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

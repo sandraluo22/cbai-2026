@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Blake\": 0.7, \"Oakley\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Blake has a higher accuracy rate (12/20) than Oakley (8/20), but Oakley's errors are often very small, suggesting a bias towards overestimation, which is consistent with the contested claim.\"\n}", "trial_id": "order-0-0035"}

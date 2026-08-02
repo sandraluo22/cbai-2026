@@ -1,0 +1,6 @@
+{"type": "meta", "true": "elephant", "clues": ["gray", "large", "an animal"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["gray", "universe", "tiger"], "all_true": false}
+{"type": "round", "round": 2, "guesses": ["ash", "galaxy", "camel"], "all_true": false}
+{"type": "round", "round": 3, "guesses": ["smoke", "cosmos", "elephant"], "all_true": false}
+{"type": "round", "round": 4, "guesses": ["coal", "ocean", "camel"], "all_true": false}
+{"type": "round", "round": 5, "guesses": ["coal", "universe", "elephant"], "all_true": false}

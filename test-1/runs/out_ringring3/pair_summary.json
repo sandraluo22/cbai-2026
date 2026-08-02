@@ -1,0 +1,125 @@
+{
+  "pair": [
+    "ring",
+    "ring3"
+  ],
+  "layer_shown": 26,
+  "edge_counts": {
+    "shared": 0,
+    "ring_only": 16,
+    "ring3_only": 16
+  },
+  "late_stream_edge_mass": {
+    "shared": 0.0,
+    "ring_only": 0.4374736842105263,
+    "ring3_only": 0.4437894736842105,
+    "non_edge": 0.11873684210526315
+  },
+  "top_oscillating_pairs": [
+    [
+      "apple",
+      "coin",
+      0.219
+    ],
+    [
+      "planet",
+      "pencil",
+      0.097
+    ],
+    [
+      "chair",
+      "coin",
+      0.088
+    ]
+  ],
+  "occupancy_late_per_node": {
+    "bird": 145,
+    "candle": 42,
+    "river": 114,
+    "apple": 419,
+    "ocean": 22,
+    "chair": 209,
+    "coin": 520,
+    "lemon": 275,
+    "planet": 149,
+    "pencil": 179,
+    "jacket": 57,
+    "clock": 32,
+    "tiger": 21,
+    "wheel": 51,
+    "bread": 42,
+    "anchor": 123
+  },
+  "headline_layer": {
+    "ring": {
+      "base": {
+        "r2_a": 0.36876840758113316,
+        "r2_b": 0.05027164901134662
+      },
+      "joint_early": {
+        "r2_a": 0.3234601469155106,
+        "r2_b": 0.07667777669696607
+      },
+      "joint_mid": {
+        "r2_a": 0.2836773301622113,
+        "r2_b": 0.09321428907162943
+      },
+      "joint_late": {
+        "r2_a": 0.2617303247082474,
+        "r2_b": 0.09388829560327916
+      }
+    },
+    "ring3": {
+      "base": {
+        "r2_a": 0.060764416706182045,
+        "r2_b": 0.31571084336145805
+      },
+      "joint_early": {
+        "r2_a": 0.16536383440686186,
+        "r2_b": 0.1517629198664736
+      },
+      "joint_mid": {
+        "r2_a": 0.20293799756900432,
+        "r2_b": 0.10773775351500203
+      },
+      "joint_late": {
+        "r2_a": 0.19513982828474796,
+        "r2_b": 0.11188563905582527
+      }
+    }
+  },
+  "r2_deep_mean_24_31": {
+    "ring_joint_late": {
+      "ring coords": 0.2720359614617288,
+      "ring3 coords": 0.09281104775831352,
+      "union modes 1-2": 0.2720359614617288,
+      "union modes 1-4": 0.3648470092200423,
+      "empirical modes 1-2": 0.24581437796761846,
+      "log-occupancy (1D)": 0.07659899340031896
+    },
+    "ring3_joint_late": {
+      "ring coords": 0.1913663902134383,
+      "ring3 coords": 0.11074119693535353,
+      "union modes 1-2": 0.19136639021343826,
+      "union modes 1-4": 0.3021075871487919,
+      "empirical modes 1-2": 0.18188100577848826,
+      "log-occupancy (1D)": 0.07870339798904644
+    },
+    "fresh_late": {
+      "ring coords": 0.2256931780296177,
+      "ring3 coords": 0.11030071804417849,
+      "union modes 1-2": 0.22569317802961764,
+      "union modes 1-4": 0.3359938960737961,
+      "empirical modes 1-2": 0.2207241548011331,
+      "log-occupancy (1D)": 0.07217702317127601
+    }
+  },
+  "procrustes_deep_mean_24_31": {
+    "ring_base vs ring3_base": 0.7869268131108711,
+    "late vs late": 0.9837871530864328,
+    "ring_late vs FRESH": 0.9921774897114721,
+    "ring3_late vs FRESH": 0.9897319442655356,
+    "ring: base vs late": 0.9366280403553736,
+    "ring3: base vs late": 0.8513779428558071
+  }
+}

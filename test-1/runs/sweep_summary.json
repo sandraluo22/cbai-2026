@@ -1,0 +1,1117 @@
+{
+ "alpha0.0": {
+  "cell": {
+   "name": "alpha0.0",
+   "ga": "torus",
+   "gb": "torus",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 0.0,
+   "metrics": {
+    "edit": 0,
+    "spectral": 0.0,
+    "shared_edges": 32
+   }
+  },
+  "P_A_win": 0.0,
+  "win_margin": 0.0,
+  "T_consensus": 15,
+  "js_final": 0.001928,
+  "js0": 0.07231,
+  "rep_dist_late": 0.0006487475709857637,
+  "rep_dist_base": 0.005167533076210429,
+  "fit": {
+   "A": 0.41799647733559864,
+   "B": 0.41799647733559864,
+   "U": 0.41799647733559864,
+   "E": 0.20843741964615478
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.4207470165714685,
+    "B": 0.4207470165714685
+   },
+   "B": {
+    "A": 0.4152459380997289,
+    "B": 0.4152459380997289
+   }
+  }
+ },
+ "alpha0.25": {
+  "cell": {
+   "name": "alpha0.25",
+   "ga": "torus",
+   "gb": "interp0.25",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 0.25,
+   "metrics": {
+    "edit": 16,
+    "spectral": 0.624,
+    "shared_edges": 24
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.15494137353433837,
+  "T_consensus": 141,
+  "js_final": 0.006984000000000001,
+  "js0": 0.179805,
+  "rep_dist_late": 0.003983853916990188,
+  "rep_dist_base": 0.06287407015885105,
+  "fit": {
+   "A": 0.36158265103717246,
+   "B": 0.40871681377072366,
+   "U": 0.391328372398955,
+   "E": 0.29503219803504754
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3532717327010019,
+    "B": 0.3916289522536587
+   },
+   "B": {
+    "A": 0.369893569373343,
+    "B": 0.42580467528778865
+   }
+  }
+ },
+ "alpha0.5": {
+  "cell": {
+   "name": "alpha0.5",
+   "ga": "torus",
+   "gb": "interp0.5",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 0.5,
+   "metrics": {
+    "edit": 22,
+    "spectral": 0.623,
+    "shared_edges": 21
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.05108877721943048,
+  "T_consensus": 82,
+  "js_final": 0.0017699999999999999,
+  "js0": 0.21623,
+  "rep_dist_late": 0.0031534407248794416,
+  "rep_dist_base": 0.09006603504817623,
+  "fit": {
+   "A": 0.35475599268471214,
+   "B": 0.39304883946749647,
+   "U": 0.38621759713615145,
+   "E": 0.41835875966630587
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3495041629299585,
+    "B": 0.3846207208108313
+   },
+   "B": {
+    "A": 0.3600078224394657,
+    "B": 0.4014769581241617
+   }
+  }
+ },
+ "alpha0.75": {
+  "cell": {
+   "name": "alpha0.75",
+   "ga": "torus",
+   "gb": "interp0.75",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 0.75,
+   "metrics": {
+    "edit": 26,
+    "spectral": 0.621,
+    "shared_edges": 19
+   }
+  },
+  "P_A_win": 0.3333333333333333,
+  "win_margin": -0.07118927973199331,
+  "T_consensus": 102,
+  "js_final": 0.0013119999999999998,
+  "js0": 0.2504350000000001,
+  "rep_dist_late": 0.014533214210493028,
+  "rep_dist_base": 0.07908722857817585,
+  "fit": {
+   "A": 0.41278873468346117,
+   "B": 0.433070921958383,
+   "U": 0.42236199717797385,
+   "E": 0.42764674845727924
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.4174746412747511,
+    "B": 0.3991147709855503
+   },
+   "B": {
+    "A": 0.40810282809217124,
+    "B": 0.4670270729312156
+   }
+  }
+ },
+ "alpha1.0": {
+  "cell": {
+   "name": "alpha1.0",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": 0.18257956448911225,
+  "T_consensus": 97,
+  "js_final": 0.0025979999999999996,
+  "js0": 0.25590999999999997,
+  "rep_dist_late": 0.013898128175069413,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.41434752497235927,
+   "B": 0.39597298068789816,
+   "U": 0.4291511761265222,
+   "E": 0.4151687872955412
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.41999342758842234,
+    "B": 0.3770561180336061
+   },
+   "B": {
+    "A": 0.40870162235629626,
+    "B": 0.41488984334219015
+   }
+  }
+ },
+ "prior_1000v100": {
+  "cell": {
+   "name": "prior_1000v100",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 1000,
+   "ctx_b": 100,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.8333333333333334,
+  "win_margin": 0.20100502512562812,
+  "T_consensus": 95,
+  "js_final": 0.004906000000000001,
+  "js0": 0.257355,
+  "rep_dist_late": 0.004025566811364012,
+  "rep_dist_base": 0.09069659452265533,
+  "fit": {
+   "A": 0.31615449887044245,
+   "B": 0.31937038464575135,
+   "U": 0.3141426570459318,
+   "E": 0.3109408788475464
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3168027046392974,
+    "B": 0.3188673679377314
+   },
+   "B": {
+    "A": 0.31550629310158745,
+    "B": 0.3198734013537713
+   }
+  }
+ },
+ "prior_1000v300": {
+  "cell": {
+   "name": "prior_1000v300",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 1000,
+   "ctx_b": 300,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": 0.025125628140703515,
+  "T_consensus": 128,
+  "js_final": 0.007572000000000001,
+  "js0": 0.27527999999999997,
+  "rep_dist_late": 0.0064310824284971035,
+  "rep_dist_base": 0.12649714714998506,
+  "fit": {
+   "A": 0.3456900668007268,
+   "B": 0.38049830723788347,
+   "U": 0.3846093823854367,
+   "E": 0.37308059430925833
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3455535919246849,
+    "B": 0.3658960545020725
+   },
+   "B": {
+    "A": 0.34582654167676874,
+    "B": 0.3951005599736944
+   }
+  }
+ },
+ "prior_1000v1000": {
+  "cell": {
+   "name": "prior_1000v1000",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 1000,
+   "ctx_b": 1000,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.02931323283082078,
+  "T_consensus": 287,
+  "js_final": 0.005900000000000001,
+  "js0": 0.281845,
+  "rep_dist_late": 0.024876201529730024,
+  "rep_dist_base": 0.15620204996009202,
+  "fit": {
+   "A": 0.38576296980172226,
+   "B": 0.43853702477228906,
+   "U": 0.4297946274659121,
+   "E": 0.4654317211468735
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3792293998156159,
+    "B": 0.3942411344760569
+   },
+   "B": {
+    "A": 0.39229653978782864,
+    "B": 0.4828329150685212
+   }
+  }
+ },
+ "prior_300v300": {
+  "cell": {
+   "name": "prior_300v300",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 300,
+   "ctx_b": 300,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": 0.07788944723618091,
+  "T_consensus": 85,
+  "js_final": 0.003848,
+  "js0": 0.21528,
+  "rep_dist_late": 0.0023700714815004797,
+  "rep_dist_base": 0.08023350379053862,
+  "fit": {
+   "A": 0.3347947991566712,
+   "B": 0.34551210014398137,
+   "U": 0.3151772162020844,
+   "E": 0.21117786091209578
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3350234522914386,
+    "B": 0.3374884677098716
+   },
+   "B": {
+    "A": 0.3345661460219038,
+    "B": 0.3535357325780911
+   }
+  }
+ },
+ "prior_100v100": {
+  "cell": {
+   "name": "prior_100v100",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 100,
+   "ctx_b": 100,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": -0.04857621440536012,
+  "T_consensus": 43,
+  "js_final": 0.005105999999999999,
+  "js0": 0.16238,
+  "rep_dist_late": 0.0033355138747712676,
+  "rep_dist_base": 0.012380343533605398,
+  "fit": {
+   "A": 0.3306423250410806,
+   "B": 0.32831620594223393,
+   "U": 0.3121384319334672,
+   "E": 0.32530495528599834
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3226378725855258,
+    "B": 0.31898739535316545
+   },
+   "B": {
+    "A": 0.3386467774966355,
+    "B": 0.33764501653130236
+   }
+  }
+ },
+ "ev_temp0.7": {
+  "cell": {
+   "name": "ev_temp0.7",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 0.7,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.3333333333333333,
+  "win_margin": -0.010887772194304859,
+  "T_consensus": 55,
+  "js_final": 3.0000000000000004e-05,
+  "js0": 0.29389000000000004,
+  "rep_dist_late": 0.0027684276240740324,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.21615522793670908,
+   "B": 0.24431988067099028,
+   "U": 0.24444178722213122,
+   "E": 0.21975103061392748
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.21186837078827997,
+    "B": 0.23929895296215398
+   },
+   "B": {
+    "A": 0.22044208508513818,
+    "B": 0.24934080837982658
+   }
+  }
+ },
+ "ev_temp1.3": {
+  "cell": {
+   "name": "ev_temp1.3",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.3,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.10552763819095479,
+  "T_consensus": 90,
+  "js_final": 0.007844,
+  "js0": 0.20694500000000002,
+  "rep_dist_late": 0.0039049584749863975,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.36122965931794737,
+   "B": 0.3759001288393279,
+   "U": 0.35762078599406705,
+   "E": 0.257061070572708
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.35990368329573136,
+    "B": 0.3644138221908898
+   },
+   "B": {
+    "A": 0.36255563534016333,
+    "B": 0.38738643548776597
+   }
+  }
+ },
+ "ev_free": {
+  "cell": {
+   "name": "ev_free",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 0,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 1.0,
+  "win_margin": 0.076214405360134,
+  "T_consensus": 142,
+  "js_final": 0.014272000000000002,
+  "js0": 0.25032,
+  "rep_dist_late": 0.008380342146175002,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.33809021738546374,
+   "B": 0.3260893422167065,
+   "U": 0.33265357913024723,
+   "E": 0.33203175507151506
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.34431984318109443,
+    "B": 0.29746496234923014
+   },
+   "B": {
+    "A": 0.33186059158983305,
+    "B": 0.35471372208418284
+   }
+  }
+ },
+ "ev_q0.5": {
+  "cell": {
+   "name": "ev_q0.5",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 0.5,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.8333333333333334,
+  "win_margin": 0.12311557788944723,
+  "T_consensus": 400,
+  "js_final": 0.12285399999999999,
+  "js0": 0.30499999999999994,
+  "rep_dist_late": 0.0803892983968828,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.40368141307876126,
+   "B": 0.3645945900384856,
+   "U": 0.4067111717227874,
+   "E": 0.39020498872203235
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.4360836466190827,
+    "B": 0.3282288490015688
+   },
+   "B": {
+    "A": 0.3712791795384398,
+    "B": 0.4009603310754024
+   }
+  }
+ },
+ "ev_q0.25": {
+  "cell": {
+   "name": "ev_q0.25",
+   "ga": "torus",
+   "gb": "circ3",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 0.25,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "alpha": 1.0,
+   "metrics": {
+    "edit": 32,
+    "spectral": 0.552,
+    "shared_edges": 16
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": 0.04773869346733669,
+  "T_consensus": 400,
+  "js_final": 0.18029399999999998,
+  "js0": 0.370275,
+  "rep_dist_late": 0.06227917004346506,
+  "rep_dist_base": 0.1192233128853657,
+  "fit": {
+   "A": 0.40208039899112796,
+   "B": 0.4137111164012577,
+   "U": 0.4356851151989605,
+   "E": 0.37056571752188283
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.4099271798212717,
+    "B": 0.3292654118291403
+   },
+   "B": {
+    "A": 0.39423361816098423,
+    "B": 0.49815682097337505
+   }
+  }
+ },
+ "fam_circ2": {
+  "cell": {
+   "name": "fam_circ2",
+   "ga": "torus",
+   "gb": "circ2",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 40,
+    "spectral": 0.821,
+    "shared_edges": 12
+   }
+  },
+  "P_A_win": 0.0,
+  "win_margin": -0.1708542713567839,
+  "T_consensus": 94,
+  "js_final": 0.00509,
+  "js0": 0.33682500000000004,
+  "rep_dist_late": 0.004091241781469024,
+  "rep_dist_base": 0.12745274216838265,
+  "fit": {
+   "A": 0.33687538657475535,
+   "B": 0.39271349083339724,
+   "U": 0.36794681163789833,
+   "E": 0.3047677746908927
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.32289246298825547,
+    "B": 0.3779312104315796
+   },
+   "B": {
+    "A": 0.35085831016125524,
+    "B": 0.4074957712352148
+   }
+  }
+ },
+ "fam_circ5": {
+  "cell": {
+   "name": "fam_circ5",
+   "ga": "torus",
+   "gb": "circ5",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 40,
+    "spectral": 0.552,
+    "shared_edges": 12
+   }
+  },
+  "P_A_win": 0.16666666666666666,
+  "win_margin": -0.056951423785594646,
+  "T_consensus": 222,
+  "js_final": 0.014908,
+  "js0": 0.33175999999999994,
+  "rep_dist_late": 0.009256384267115725,
+  "rep_dist_base": 0.16516795960629127,
+  "fit": {
+   "A": 0.29847274244443334,
+   "B": 0.31914271082727974,
+   "U": 0.3291558572928295,
+   "E": 0.23773205961173624
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3115817651053989,
+    "B": 0.3011141863695668
+   },
+   "B": {
+    "A": 0.28536371978346775,
+    "B": 0.3371712352849927
+   }
+  }
+ },
+ "fam_circ6": {
+  "cell": {
+   "name": "fam_circ6",
+   "ga": "torus",
+   "gb": "circ6",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 40,
+    "spectral": 0.635,
+    "shared_edges": 12
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.04271356783919598,
+  "T_consensus": 226,
+  "js_final": 0.009466,
+  "js0": 0.32360500000000003,
+  "rep_dist_late": 0.013565234910150714,
+  "rep_dist_base": 0.1019521263595673,
+  "fit": {
+   "A": 0.24437833959648064,
+   "B": 0.2513218059266694,
+   "U": 0.27134359709581857,
+   "E": 0.28725089385085767
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.2572697195418977,
+    "B": 0.2208772594125744
+   },
+   "B": {
+    "A": 0.23148695965106353,
+    "B": 0.28176635244076453
+   }
+  }
+ },
+ "fam_circ7": {
+  "cell": {
+   "name": "fam_circ7",
+   "ga": "torus",
+   "gb": "circ7",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 40,
+    "spectral": 1.082,
+    "shared_edges": 12
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": -0.0050251256281407,
+  "T_consensus": 151,
+  "js_final": 0.007972,
+  "js0": 0.346815,
+  "rep_dist_late": 0.0041452310018970095,
+  "rep_dist_base": 0.12991277573934257,
+  "fit": {
+   "A": 0.2548282490432241,
+   "B": 0.3231230260749551,
+   "U": 0.29428018124812094,
+   "E": 0.21435605663546034
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.2619668999353635,
+    "B": 0.31159356473357314
+   },
+   "B": {
+    "A": 0.2476895981510847,
+    "B": 0.33465248741633696
+   }
+  }
+ },
+ "fam_sbm_strong": {
+  "cell": {
+   "name": "fam_sbm_strong",
+   "ga": "torus",
+   "gb": "sbm_strong",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 24,
+    "spectral": 0.615,
+    "shared_edges": 20
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": 0.08877721943048578,
+  "T_consensus": 125,
+  "js_final": 0.007357999999999999,
+  "js0": 0.20712999999999998,
+  "rep_dist_late": 0.004527632487779654,
+  "rep_dist_base": 0.06318316262837587,
+  "fit": {
+   "A": 0.34265828884156074,
+   "B": 0.34358301519193624,
+   "U": 0.299475122017091,
+   "E": 0.3084304396418064
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.33684067135469403,
+    "B": 0.33945020791660935
+   },
+   "B": {
+    "A": 0.3484759063284275,
+    "B": 0.3477158224672631
+   }
+  }
+ },
+ "fam_sbm_weak": {
+  "cell": {
+   "name": "fam_sbm_weak",
+   "ga": "torus",
+   "gb": "sbm_weak",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 40,
+    "spectral": 0.821,
+    "shared_edges": 12
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.004187604690117262,
+  "T_consensus": 203,
+  "js_final": 0.014920000000000003,
+  "js0": 0.35594000000000003,
+  "rep_dist_late": 0.023451635493205836,
+  "rep_dist_base": 0.17676803300973987,
+  "fit": {
+   "A": 0.29695173671081965,
+   "B": 0.35152233965124735,
+   "U": 0.3513577727645716,
+   "E": 0.366317788371764
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.318825628641145,
+    "B": 0.3216401612433753
+   },
+   "B": {
+    "A": 0.27507784478049424,
+    "B": 0.38140451805911946
+   }
+  }
+ },
+ "fam_expander_lo": {
+  "cell": {
+   "name": "fam_expander_lo",
+   "ga": "torus",
+   "gb": "expander_lo",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 54,
+    "spectral": 0.747,
+    "shared_edges": 5
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": -0.11976549413735345,
+  "T_consensus": 146,
+  "js_final": 0.00886,
+  "js0": 0.37763500000000005,
+  "rep_dist_late": 0.008150414696066255,
+  "rep_dist_base": 0.14697100331279989,
+  "fit": {
+   "A": 0.2731591764634552,
+   "B": 0.348287533919726,
+   "U": 0.3039201445709214,
+   "E": 0.31322586994654816
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.28216192814484176,
+    "B": 0.33594163191396975
+   },
+   "B": {
+    "A": 0.2641564247820687,
+    "B": 0.36063343592548225
+   }
+  }
+ },
+ "fam_expander_hi": {
+  "cell": {
+   "name": "fam_expander_hi",
+   "ga": "torus",
+   "gb": "expander_hi",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 50,
+    "spectral": 0.618,
+    "shared_edges": 7
+   }
+  },
+  "P_A_win": 0.5,
+  "win_margin": -0.11390284757118929,
+  "T_consensus": 80,
+  "js_final": 0.004426,
+  "js0": 0.361345,
+  "rep_dist_late": 0.005068501511907075,
+  "rep_dist_base": 0.08782812900790904,
+  "fit": {
+   "A": 0.32423472773237805,
+   "B": 0.31159030982931707,
+   "U": 0.3232174476821644,
+   "E": 0.32801146134353376
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.3323293427790953,
+    "B": 0.3000418441215417
+   },
+   "B": {
+    "A": 0.3161401126856608,
+    "B": 0.32313877553709247
+   }
+  }
+ },
+ "fam_sw4": {
+  "cell": {
+   "name": "fam_sw4",
+   "ga": "circ2",
+   "gb": "sw4",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 12,
+    "spectral": 0.352,
+    "shared_edges": 26
+   }
+  },
+  "P_A_win": 0.0,
+  "win_margin": -0.0008375209380234506,
+  "T_consensus": 92,
+  "js_final": 0.0014680000000000001,
+  "js0": 0.140825,
+  "rep_dist_late": 0.0036592470990387538,
+  "rep_dist_base": 0.03730842900044162,
+  "fit": {
+   "A": 0.4961223671822811,
+   "B": 0.5146495537497578,
+   "U": 0.5053792469433781,
+   "E": 0.7892326627112543
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.49781988088117446,
+    "B": 0.5124049594770734
+   },
+   "B": {
+    "A": 0.49442485348338755,
+    "B": 0.5168941480224423
+   }
+  }
+ },
+ "fam_sw12": {
+  "cell": {
+   "name": "fam_sw12",
+   "ga": "circ2",
+   "gb": "sw12",
+   "ctx_a": 600,
+   "ctx_b": 600,
+   "tgen": 400,
+   "npairs": 6,
+   "temp": 1.0,
+   "topk": 4,
+   "qcomm": 1.0,
+   "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river",
+   "seed": 0,
+   "metrics": {
+    "edit": 28,
+    "spectral": 0.554,
+    "shared_edges": 18
+   }
+  },
+  "P_A_win": 0.6666666666666666,
+  "win_margin": 0.09547738693467335,
+  "T_consensus": 162,
+  "js_final": 0.012717999999999998,
+  "js0": 0.301335,
+  "rep_dist_late": 0.004212215887273052,
+  "rep_dist_base": 0.10324278422161703,
+  "fit": {
+   "A": 0.3975084664366716,
+   "B": 0.3247487976364275,
+   "U": 0.39762411441678513,
+   "E": 0.3368641102667757
+  },
+  "fit_by_side": {
+   "A": {
+    "A": 0.4192000214465874,
+    "B": 0.3258944193605361
+   },
+   "B": {
+    "A": 0.3758169114267559,
+    "B": 0.3236031759123188
+   }
+  }
+ }
+}

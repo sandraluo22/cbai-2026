@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Uma\": 0.7, \"Blake\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Uma has a higher accuracy rate (14/20) than Blake (6/20), and their errors are not strongly correlated with the type of measurement or the specific compound, suggesting Uma is more reliable.\"\n}", "trial_id": "recovery-0-0014"}

@@ -1,0 +1,1266 @@
+[
+  {
+    "cond": "repeatok-city",
+    "rollout": 0,
+    "turn": 1,
+    "A": "sealed",
+    "B": "sealed",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 1,
+    "turn": 1,
+    "A": "faced",
+    "B": "ruled",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 1,
+    "turn": 2,
+    "A": "faced",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 1,
+    "turn": 3,
+    "A": "rome",
+    "B": "rome",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 1,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 2,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 3,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 4,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 5,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 6,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 7,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 8,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 9,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 10,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 11,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 12,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 13,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 14,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 15,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 16,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 17,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 18,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 19,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 20,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 21,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 22,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 2,
+    "turn": 23,
+    "A": "begun",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 3,
+    "turn": 1,
+    "A": "university",
+    "B": "lyon",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 3,
+    "turn": 2,
+    "A": "lyon",
+    "B": "lyon",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 1,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 2,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 3,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 4,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 5,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 6,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 7,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 8,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 9,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 10,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 11,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 12,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 13,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 14,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 15,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 16,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 17,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 18,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 19,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 20,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 21,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 22,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 4,
+    "turn": 23,
+    "A": "diarrhea",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 5,
+    "turn": 1,
+    "A": "scattered",
+    "B": "seattle",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 5,
+    "turn": 2,
+    "A": "scattered",
+    "B": "scattered",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 6,
+    "turn": 1,
+    "A": "clinic",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 6,
+    "turn": 2,
+    "A": "clinic",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 6,
+    "turn": 3,
+    "A": "clinic",
+    "B": "clinic",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 1,
+    "A": "modular",
+    "B": "rehears",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 2,
+    "A": "rehears",
+    "B": "modular",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 3,
+    "A": "modular",
+    "B": "rehears",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 4,
+    "A": "modular",
+    "B": "rehears",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 5,
+    "A": "modular",
+    "B": "rehov",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 6,
+    "A": "modular",
+    "B": "rehov",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 7,
+    "A": "modular",
+    "B": "rehov",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 8,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 9,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 10,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 11,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 12,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 13,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 14,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 15,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 16,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 17,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 18,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 19,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 20,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 21,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 22,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 7,
+    "turn": 23,
+    "A": "modular",
+    "B": "modra",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 1,
+    "A": "proudly",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 2,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 3,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 4,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 5,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 6,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 7,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 8,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 9,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 10,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 11,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 12,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 13,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 14,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 15,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 16,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 17,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 18,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 19,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 20,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 21,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 22,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 8,
+    "turn": 23,
+    "A": "proudly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 1,
+    "A": "promptly",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 2,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 3,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 4,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 5,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 6,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 7,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 8,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 9,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 10,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 11,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 12,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 13,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 14,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 15,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 16,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 17,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 18,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 19,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 20,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 21,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 22,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 9,
+    "turn": 23,
+    "A": "promptly",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 10,
+    "turn": 1,
+    "A": "brief",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 10,
+    "turn": 2,
+    "A": "brief",
+    "B": "paris",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 10,
+    "turn": 3,
+    "A": "brief",
+    "B": "brief",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 11,
+    "turn": 1,
+    "A": "scripted",
+    "B": "cairo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 11,
+    "turn": 2,
+    "A": "scripted",
+    "B": "rome",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 11,
+    "turn": 3,
+    "A": "scripted",
+    "B": "scripted",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 12,
+    "turn": 1,
+    "A": "tracks",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 12,
+    "turn": 2,
+    "A": "tracks",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 12,
+    "turn": 3,
+    "A": "tracks",
+    "B": "tracks",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 1,
+    "A": "previously",
+    "B": "paradise",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 2,
+    "A": "previously",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 3,
+    "A": "paradise",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 4,
+    "A": "paradise",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 5,
+    "A": "previously",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 6,
+    "A": "previously",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 7,
+    "A": "paradise",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 8,
+    "A": "previously",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 9,
+    "A": "previously",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 10,
+    "A": "paradise",
+    "B": "osaka",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 11,
+    "A": "paradise",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 12,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 13,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 14,
+    "A": "paradise",
+    "B": "previously",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 15,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 16,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 17,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 18,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 19,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 20,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 21,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 22,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-city",
+    "rollout": 13,
+    "turn": 23,
+    "A": "previously",
+    "B": "tokyo",
+    "agreed": false
+  }
+]

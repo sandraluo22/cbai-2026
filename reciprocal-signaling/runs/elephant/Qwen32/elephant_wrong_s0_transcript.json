@@ -1,0 +1,77 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant_wrong",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal",
+   "small"
+  ],
+  "kind": "word",
+  "wrong_agent": 3,
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "ash",
+   "castle",
+   "tiger",
+   "marble"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "ashen",
+   "mountain",
+   "zebra",
+   "button"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "ashenness",
+   "volcano",
+   "lion",
+   "pearl"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "ashenness",
+   "volcanic",
+   "lioness",
+   "gem"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "ashenness",
+   "volcano",
+   "lioness",
+   "gemstone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

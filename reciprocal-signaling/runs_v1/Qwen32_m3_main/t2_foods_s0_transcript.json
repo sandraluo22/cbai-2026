@@ -1,0 +1,342 @@
+[
+ {
+  "type": "meta",
+  "task": "t2_foods",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for foods",
+  "decoy_A": "words for red things",
+  "decoy_B": "words for sweet things",
+  "A_examples": [
+   [
+    "strawberry",
+    true,
+    "trap"
+   ],
+   [
+    "tomato",
+    true,
+    "key"
+   ],
+   [
+    "cloud",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "cherry",
+    true,
+    "trap"
+   ],
+   [
+    "honey",
+    true,
+    "key"
+   ],
+   [
+    "stone",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "bread",
+    true,
+    "both"
+   ],
+   [
+    "rice",
+    true,
+    "both"
+   ],
+   [
+    "lemon",
+    true,
+    "both"
+   ],
+   [
+    "cake",
+    true,
+    "A"
+   ],
+   [
+    "butter",
+    true,
+    "both"
+   ],
+   [
+    "rose",
+    false,
+    "A"
+   ],
+   [
+    "ruby",
+    false,
+    "A"
+   ],
+   [
+    "brick",
+    false,
+    "A"
+   ],
+   [
+    "pencil",
+    false,
+    "none"
+   ],
+   [
+    "violin",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_fc",
+  "A": {
+   "raw": "3",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 1
+  },
+  "B": {
+   "raw": "3",
+   "order": [
+    2,
+    1,
+    0
+   ],
+   "picked": 0
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "I think the rule might have to do with whether the word rhymes with \"dax.\" Does anyone else think this?",
+  "msg_B": "What is the rule that determines whether a word is labeled 'dax' or 'not dax'? I suspect it might be related to word length, sound, or meaning. What do you think?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": null,
+  "tag_B": null
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "Let\u2019s test the rhyme idea: \"starberry\" isn\u2019t a word, but \"tomato\" and \"strawberry\" don\u2019t rhyme with \"dax.\" Maybe it\u2019s syllable count? \"Strawberry\" has 3, \"tomato\" has 3, \"cloud\" has 1. Doesn\u2019t fit. Any thoughts?",
+  "msg_B": "In my examples, \"cherry\" and \"honey\" are both 6 letters long and end in \"y,\" but \"stone\" (5 letters, ends in \"e\") is not dax. Maybe the rule is about ending letters or syllables? What patterns do you see?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key+neg+trap",
+  "tag_B": "key+neg+trap"
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "Let\u2019s look at meaning: \"Strawberry\" and \"tomato\" are fruits, but \"cloud\" is not. In my examples, \"cherry\" and \"honey\" are also fruits or related to nature. Could the rule be about categories like fruit, object, or concept? What do your examples suggest?",
+  "msg_B": "In my examples, \u201ccherry\u201d and \u201choney\u201d are sweet, while \u201cstone\u201d is not. Could the rule relate to taste or common associations (like sweetness)? What do your examples suggest?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key+neg+trap",
+  "tag_B": "key+neg+trap"
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_fc": {
+   "raw": "3",
+   "order": [
+    0,
+    1,
+    2
+   ],
+   "picked": 2
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is whether the word refers to a **fruit** (or is commonly associated with sweetness or natural produce)."
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_fc": {
+   "raw": "2",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 2
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is that a word is labeled \"dax\" if it is the name of a **fruit**.  \n- \"Cherry\" and \"honey\" (as in \"honey\" can refer to honey from fruit nectar) are dax; \"stone\" is not"
+ }
+]

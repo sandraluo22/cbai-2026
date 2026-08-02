@@ -19,7 +19,7 @@ MFDIR = os.environ.get("MFDIR", "runs/axes/1_decomposition/markov_families")
 MODELS = os.environ.get("MODELS", "Llama,Gemma,Qwen").split(",")
 OUTDIR = os.environ.get("OUTDIR", "runs/axes/1_decomposition")
 FAMS = os.environ.get("FAMS", "grid,ring,tree,smallworld,sbm4,er_random,sbm2").split(",")
-COLORS = {"Llama": "#1D4ED8", "Gemma": "#C2410C", "Qwen": "#059669"}
+COLORS = {"Llama": "#1D4ED8", "Gemma": "#C2410C", "Qwen": "#059669", "Qwen32": "#7C3AED"}
 
 
 def power_spectrum(fam, model):
@@ -66,7 +66,7 @@ def main():
     handles = [plt.Rectangle((0, 0), 1, 1, color=COLORS[m]) for m in MODELS]
     fig.legend(handles, MODELS, loc="lower right", bbox_to_anchor=(0.99, 0.02),
                frameon=False, fontsize=11, title="model")
-    fig.suptitle("Node-mean variance vs Laplacian eigenmode, per family — Llama / Gemma / Qwen",
+    fig.suptitle("Node-mean variance vs Laplacian eigenmode, per family — " + " / ".join(MODELS),
                  fontsize=12)
     fig.tight_layout(rect=[0, 0, 1, 0.96])
     for ext in ("pdf", "png"):

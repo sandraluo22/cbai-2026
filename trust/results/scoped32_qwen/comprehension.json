@@ -1,0 +1,22 @@
+[
+  {
+    "reputable_source": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed. The companies are new each round.  \n\nCo.1: 323  \nCo.2: 277  \nCo.3: 359",
+    "fresh_items_each_round": true,
+    "what_is_revealed": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed. The companies are new each round.  \n\nCo.1: 323  \nCo.2: 277  \nCo.3: 359"
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed, allowing us to assess the reliability of the sources. The companies are new each round.\n\nCo.1: 345  \nCo.2: 383  \nCo.3: 322",
+    "fresh_items_each_round": true,
+    "what_is_revealed": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed, allowing us to assess the reliability of the sources. The companies are new each round.\n\nCo.1: 345  \nCo.2: 383  \nCo.3: 322"
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed, allowing us to assess the reliability of the sources. The companies are new each round.\n\nCo.1: 316  \nCo.2: 224  \nCo.3: 245",
+    "fresh_items_each_round": true,
+    "what_is_revealed": "Source A is described as the long-trusted provider. After each round, the true value of the companies is revealed, allowing us to assess the reliability of the sources. The companies are new each round.\n\nCo.1: 316  \nCo.2: 224  \nCo.3: 245"
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted provider. After each round, the revealed outcomes (true values) of the companies are known, allowing for updates to the reliability assessment of the providers. The companies are new each round.\n\nCo.1: 541  \nCo.2: 10  \nCo.3: 355",
+    "fresh_items_each_round": true,
+    "what_is_revealed": "Source A is described as the long-trusted provider. After each round, the revealed outcomes (true values) of the companies are known, allowing for updates to the reliability assessment of the providers. The companies are new each round.\n\nCo.1: 541  \nCo.2: 10  \nCo.3: 355"
+  }
+]

@@ -1,0 +1,546 @@
+{
+  "model": "Llama",
+  "head": [
+    14,
+    26
+  ],
+  "dataset": "NeelNanda/pile-10k",
+  "ndocs": 250,
+  "grid_ref": {
+    "grid_pos_mean": 0.285433671709801,
+    "grid_neg_mean": -0.4806024770846137,
+    "grid_abs_max": 0.6374476607001965
+  },
+  "pile_stats": {
+    "n_tokens": 87969,
+    "mean": -0.041614267975091934,
+    "std": 0.2537376582622528,
+    "p99": 0.4720422327518463,
+    "p1": -0.7240219712257385,
+    "max": 0.8819682002067566,
+    "min": -1.3549283742904663,
+    "pile_max_vs_grid_sep": 1.151
+  },
+  "by_token_category": {
+    "word_initial": {
+      "mean_proj": -0.028,
+      "n": 55487
+    },
+    "continuation": {
+      "mean_proj": -0.1051,
+      "n": 20092
+    },
+    "punct": {
+      "mean_proj": 0.0649,
+      "n": 9361
+    },
+    "digit": {
+      "mean_proj": -0.1998,
+      "n": 3029
+    }
+  },
+  "top_positive": [
+    {
+      "proj": 0.882,
+      "ctx": "ole, where he will answer questions posed to him on his Twitter account⟦,⟧ which you can",
+      "doc": 15
+    },
+    {
+      "proj": 0.872,
+      "ctx": " devices, however, do not require the user to wear special head gear⟦ or⟧ eye glasses.",
+      "doc": 168
+    },
+    {
+      "proj": 0.869,
+      "ctx": "en them, that they’re just regular people struggling with mental health issues⟦ and⟧ trying to get",
+      "doc": 38
+    },
+    {
+      "proj": 0.83,
+      "ctx": "23343 and 651?⏎93⏎What is the highest common factor⟦ of⟧ 8141",
+      "doc": 196
+    },
+    {
+      "proj": 0.828,
+      "ctx": "-picture work. Brothers and co-founders, Mark and Mike Stitt⟦s⟧, recently did",
+      "doc": 84
+    },
+    {
+      "proj": 0.811,
+      "ctx": "terms of correction detections and false alarms. Furthermore, the cognitive vigil utilized⟦ in⟧ the present study",
+      "doc": 131
+    },
+    {
+      "proj": 0.806,
+      "ctx": " the `DBSerializable` protocol (serialize and⏎/// deserialize instance methods⟦),⟧ which is required",
+      "doc": 68
+    },
+    {
+      "proj": 0.786,
+      "ctx": " electronic accessories. Its rear view cameras are well-known for the powerful functions⟦ and⟧ premium quality materials",
+      "doc": 207
+    },
+    {
+      "proj": 0.78,
+      "ctx": " ListBox, without setting DataSource Something like this (Linq):⏎adapter.SelectCommand⟦ =⟧ listfill",
+      "doc": 183
+    },
+    {
+      "proj": 0.771,
+      "ctx": " lawd! I'm tired and weary of pain Please lawd!⟦ please⟧ lawd!",
+      "doc": 175
+    },
+    {
+      "proj": 0.768,
+      "ctx": "+H; layer = <CALayer>>⏎   | <UILabel;⟦ frame⟧ = (528",
+      "doc": 233
+    },
+    {
+      "proj": 0.764,
+      "ctx": " only the named recipient of the entitlement may redeem it, whereas movie tickets⟦,⟧ or the like",
+      "doc": 245
+    },
+    {
+      "proj": 0.762,
+      "ctx": "<|begin_of_text|>Oh lawd oh lawd!⟦ I⟧'m tired and",
+      "doc": 175
+    },
+    {
+      "proj": 0.759,
+      "ctx": " barrier tissue, tearing the absorbent pad, namely either the forming tissue⟦ or⟧ the barrier tissue",
+      "doc": 18
+    },
+    {
+      "proj": 0.756,
+      "ctx": "ğlu : % 0,59 708 Doğu Perinçek⟦ :⟧ % 0",
+      "doc": 116
+    },
+    {
+      "proj": 0.756,
+      "ctx": " intuitions had a laissez-faire attitude towards corporate governance principles⟦ and⟧ risk culture within",
+      "doc": 44
+    },
+    {
+      "proj": 0.75,
+      "ctx": "82242 and 576?⏎18⏎What is the highest common factor⟦ of⟧ 480555",
+      "doc": 196
+    },
+    {
+      "proj": 0.744,
+      "ctx": "add your own caption⏎⏎add your own caption⏎⏎add your own caption⟦⏎⏎⟧add your own",
+      "doc": 181
+    },
+    {
+      "proj": 0.738,
+      "ctx": "'re finally a couple.\" \"Oh, my God, you guys!\"⟦ \"⟧This is our",
+      "doc": 199
+    },
+    {
+      "proj": 0.73,
+      "ctx": " NO; layer = <_UILabelLayer>>⏎   | <UILabel;⟦ frame⟧ = (552",
+      "doc": 233
+    },
+    {
+      "proj": 0.73,
+      "ctx": " our kids get married?\" \"!\" \"Oh, I love this!\"⟦ \"⟧Yeah...\" \"",
+      "doc": 199
+    },
+    {
+      "proj": 0.729,
+      "ctx": "osegi suggested, if possible, use a more up-to-date tool⟦chain⟧.⏎Microsoft's",
+      "doc": 83
+    },
+    {
+      "proj": 0.727,
+      "ctx": " of the argument. I offer only a summary of the contemporary research findings⟦ and⟧ observer commentary here",
+      "doc": 6
+    },
+    {
+      "proj": 0.727,
+      "ctx": " of this ancient software.⏎⏎A:⏎⏎Notepad++ has the run feature⟦,⟧ but as far",
+      "doc": 83
+    },
+    {
+      "proj": 0.723,
+      "ctx": "$1\").value = \"Enter DOB here\"⏎         end if⟦⏎⟧    end if",
+      "doc": 224
+    },
+    {
+      "proj": 0.723,
+      "ctx": "#### London Highlights⏎⏎#### History⏎⏎#### Sights⏎⏎#### City Walk⟦⏎⏎⟧#### City Walk",
+      "doc": 101
+    },
+    {
+      "proj": 0.722,
+      "ctx": ">PD1.5</name>\r⏎            <description>Student Indicator⟦</⟧description>\r⏎           ",
+      "doc": 1
+    },
+    {
+      "proj": 0.72,
+      "ctx": " and 156645?⏎2655⏎What is the highest common divisor⟦ of⟧ 99676",
+      "doc": 196
+    },
+    {
+      "proj": 0.719,
+      "ctx": " NO; layer = <_UILabelLayer>>⏎   | <UILabel;⟦ frame⟧ = (107",
+      "doc": 233
+    },
+    {
+      "proj": 0.718,
+      "ctx": "inesis Data Firehose `KinesisFirehoseRecorder` client⟦ lets⟧ you store your",
+      "doc": 56
+    },
+    {
+      "proj": 0.714,
+      "ctx": "add your own caption⏎⏎add your own caption⏎⏎add your own caption⟦⏎⏎⟧add your own",
+      "doc": 181
+    },
+    {
+      "proj": 0.714,
+      "ctx": "    .hljs-link {⏎      text-decoration: underline;⏎    }⏎⟦}⟧",
+      "doc": 154
+    },
+    {
+      "proj": 0.714,
+      "ctx": "ence the absorbent pad, can tear or otherwise damage the forming tissue⟦ or⟧ the barrier tissue",
+      "doc": 18
+    },
+    {
+      "proj": 0.713,
+      "ctx": "one\".⏎///⏎/// Description of the \"from_anyone\" tag state⟦:⟧ Team members can",
+      "doc": 68
+    },
+    {
+      "proj": 0.711,
+      "ctx": "\" href=\"#\">Brand</a>\r⏎      <button type=\"button\"⟦ class⟧=\"navbar-toggle",
+      "doc": 147
+    },
+    {
+      "proj": 0.71,
+      "ctx": " and new technologies for tracking and supporting students' writing ability, math skills⟦,⟧ and \"exec",
+      "doc": 174
+    },
+    {
+      "proj": 0.709,
+      "ctx": " then I try to use it in a thread⏎def stateTimeThread⟦Start⟧():⏎     database",
+      "doc": 37
+    },
+    {
+      "proj": 0.709,
+      "ctx": " of teaching, and new technologies for tracking and supporting students' writing ability⟦,⟧ math skills,",
+      "doc": 174
+    },
+    {
+      "proj": 0.709,
+      "ctx": " of interest. Analysis of the sequence indicates a number of potential regulatory factor⟦ binding⟧ sites upstream of",
+      "doc": 170
+    },
+    {
+      "proj": 0.708,
+      "ctx": "AMPOLICIESSharedFolderJoinPolicyTag` enum type⟦ represents⟧ the⏎///",
+      "doc": 68
+    },
+    {
+      "proj": 0.707,
+      "ctx": " \"services/syscall_wrappers.h\",⏎       \"services/yama.cc⟦\",⏎⟧       \"services",
+      "doc": 108
+    },
+    {
+      "proj": 0.706,
+      "ctx": " and Marriott Hotel in downtown Lancaster. The highly controversial “convention center⟦ project⟧,” as it",
+      "doc": 99
+    },
+    {
+      "proj": 0.706,
+      "ctx": "myCustomers\">⏎ <tbody>⏎   <tr>⏎     <td>⏎⟦      ⟧ <ul id",
+      "doc": 148
+    },
+    {
+      "proj": 0.703,
+      "ctx": "add your own caption⏎⏎add your own caption⏎⏎add your own caption⟦⏎⏎⟧add your own",
+      "doc": 181
+    },
+    {
+      "proj": 0.702,
+      "ctx": ", where possible, a replacement item will be provided.⏎⏎Own it!⟦ this⟧ summerwith £",
+      "doc": 226
+    },
+    {
+      "proj": 0.7,
+      "ctx": " Rosamond, CA 93560 (MLS# SR167275⟦60⟧) is a",
+      "doc": 206
+    },
+    {
+      "proj": 0.699,
+      "ctx": "#### History⏎⏎#### Sights⏎⏎#### City Walk⏎⏎#### City Walk⟦⏎⏎⟧#### Tours⏎⏎",
+      "doc": 101
+    },
+    {
+      "proj": 0.692,
+      "ctx": " would you compose a group shot like this to all be in focus?⟦ ⟧ Thanks! ⏎⏎",
+      "doc": 234
+    },
+    {
+      "proj": 0.691,
+      "ctx": " awe-\"some. \"\" \"She's awe-\"quite a bit.⟦ \"\"⟧ \"She's",
+      "doc": 199
+    },
+    {
+      "proj": 0.69,
+      "ctx": "parent\"⏎    app:srcCompat=\"@drawable/baby_plant\"⟦ />⏎⏎⟧<Button⏎   ",
+      "doc": 33
+    }
+  ],
+  "top_negative": [
+    {
+      "proj": -1.355,
+      "ctx": " evidence that differentiates the neural underpinnings of conscious from non⟦conscious⟧ processes in recognition",
+      "doc": 228
+    },
+    {
+      "proj": -1.276,
+      "ctx": " real-time streaming data to destinations such as Amazon Simple Storage Service (Amazon⟦ S⟧3) and",
+      "doc": 56
+    },
+    {
+      "proj": -1.226,
+      "ctx": " the union's current tag state.⏎@property (nonatomic, readonly) DB⟦TE⟧AMPOLIC",
+      "doc": 68
+    },
+    {
+      "proj": -1.216,
+      "ctx": "63](https://news.ycombinator.com/item?id=222⟦979⟧63)⏎⏎------⏎",
+      "doc": 192
+    },
+    {
+      "proj": -1.176,
+      "ctx": "`⏎/// union can exist.⏎typedef NS_CLOSED_ENUM(NSInteger, DB⟦TE⟧AMPOLIC",
+      "doc": 68
+    },
+    {
+      "proj": -1.165,
+      "ctx": " (Bert.) O Kuntze (Paraná pine or Ara⟦uc⟧aria) is",
+      "doc": 221
+    },
+    {
+      "proj": -1.145,
+      "ctx": " 3⏎Images: 205⏎Server Version: 18.⟦06⟧.0-ce",
+      "doc": 202
+    },
+    {
+      "proj": -1.14,
+      "ctx": "_NO_PREPROCESSED_HEADERS) \\⏎    && !defined(BOOST⟦_M⟧PL_PREPROCESS",
+      "doc": 225
+    },
+    {
+      "proj": -1.123,
+      "ctx": " or interviews transcripts.⏎⏎how is it that he is then speaking to Aber⟦forth⟧ in Halfblood",
+      "doc": 5
+    },
+    {
+      "proj": -1.123,
+      "ctx": "$⏎// $Date$⏎// $Revision$⏎⏎#if !defined(BOOST⟦_M⟧PL_PREPROCESS",
+      "doc": 225
+    },
+    {
+      "proj": -1.111,
+      "ctx": "aux_/config/use_preprocessed.hpp>⏎⏎#if    !defined(BOOST⟦_M⟧PL_CFG_NO",
+      "doc": 225
+    },
+    {
+      "proj": -1.108,
+      "ctx": "/// objects.⏎///⏎@interface DBTEAMPOLICIESShared⟦Folder⟧JoinPolicy :",
+      "doc": 68
+    },
+    {
+      "proj": -1.103,
+      "ctx": " but are devoid of nucleic acids ([@B10][@B⟦11⟧][@B",
+      "doc": 88
+    },
+    {
+      "proj": -1.1,
+      "ctx": "ανεικός απ’ τη Γιουβέντους.⏎⏎⏎⏎⏎⏎Η ανα⟦κο⟧ίνωση της",
+      "doc": 200
+    },
+    {
+      "proj": -1.099,
+      "ctx": " sunspots often⏎herald powerful coronal mass ejections and solar⟦ fl⟧ares,⏎space",
+      "doc": 60
+    },
+    {
+      "proj": -1.096,
+      "ctx": " mother tree sex in field survival and growth⏎⏎Resumo:⏎⏎Ara⟦uc⟧aria angust",
+      "doc": 221
+    },
+    {
+      "proj": -1.083,
+      "ctx": " 6.⏎In the wafer transfer chamber 1 and the load⟦ lock⟧ chamber 5",
+      "doc": 152
+    },
+    {
+      "proj": -1.081,
+      "ctx": "Bareback BF Videos Pay Pal⏎⏎Get your discount membership to Bare⟦back⟧ BF Videos using",
+      "doc": 195
+    },
+    {
+      "proj": -1.078,
+      "ctx": " between encrustation and microbial biofilm formation on indwelling ure⟦ter⟧ic stents",
+      "doc": 140
+    },
+    {
+      "proj": -1.074,
+      "ctx": "defined(BOOST_MPL_PREPROCESSING_MODE)⏎⏎#   define BOOST⟦_M⟧PL_PREPRO",
+      "doc": 225
+    },
+    {
+      "proj": -1.074,
+      "ctx": " easily send data to other services such as Amazon Simple Storage Service, Amazon⟦ Dynamo⟧DB, and",
+      "doc": 56
+    },
+    {
+      "proj": -1.06,
+      "ctx": "ampal contributions to recognition memory can be distinguished from those of occip⟦ito⟧-temporal structures",
+      "doc": 228
+    },
+    {
+      "proj": -1.059,
+      "ctx": " destinations such as Amazon Simple Storage Service (Amazon S3) and Amazon⟦ Red⟧shift. With",
+      "doc": 56
+    },
+    {
+      "proj": -1.048,
+      "ctx": " public Id propertyId;⏎⏎    public ControllerCreateProposalView(Apex⟦Pages⟧.StandardController std",
+      "doc": 166
+    },
+    {
+      "proj": -1.044,
+      "ctx": "film formation on indwelling ureteric stents. Ure⟦ter⟧ic stents",
+      "doc": 140
+    },
+    {
+      "proj": -1.044,
+      "ctx": " biophysical profile backup test (23.7% vs 16.⟦6⟧%, p <",
+      "doc": 189
+    },
+    {
+      "proj": -1.04,
+      "ctx": " of virions ([@B15][@B16][@B⟦17⟧]), have the",
+      "doc": 88
+    },
+    {
+      "proj": -1.039,
+      "ctx": " the barrier tissue, can release superabsorbent particles and other absorb⟦ent⟧ materials, such",
+      "doc": 18
+    },
+    {
+      "proj": -1.034,
+      "ctx": "_MPL_AUX778076_ADVANCE_BACKWARD_HPP_INCLUDED⏎#define BOOST⟦_M⟧PL_AUX778",
+      "doc": 225
+    },
+    {
+      "proj": -1.033,
+      "ctx": " the Republican side.⏎⏎A week and a day later, voters in New⟦ Hampshire⟧ will cast ballots",
+      "doc": 122
+    },
+    {
+      "proj": -1.031,
+      "ctx": " cellulose fluff into contact with the body of the wearer. Super⟦abs⟧orbent particles",
+      "doc": 18
+    },
+    {
+      "proj": -1.03,
+      "ctx": "roker/broker_simple_message.cc\",⏎       \"syscall_broker/broker⟦_simple⟧_message.h\",⏎",
+      "doc": 108
+    },
+    {
+      "proj": -1.028,
+      "ctx": " something I did?\" \"Oh, no, no, no, no⟦,⟧ God, no",
+      "doc": 199
+    },
+    {
+      "proj": -1.023,
+      "ctx": " implant considerations. Specifically, the effects of TiO(2) nan⟦ot⟧ube surfaces for",
+      "doc": 16
+    },
+    {
+      "proj": -1.02,
+      "ctx": " image displayed to the right eye (hereafter referred to as “right⟦-eye⟧ image”) are",
+      "doc": 168
+    },
+    {
+      "proj": -1.017,
+      "ctx": "D images using binocular parallax is generally referred to as a stere⟦oscopic⟧ 3D",
+      "doc": 168
+    },
+    {
+      "proj": -1.015,
+      "ctx": " Gadha and broke open the pillar and there emerged our Lord Naras⟦im⟧ha who than",
+      "doc": 161
+    },
+    {
+      "proj": -1.014,
+      "ctx": " twoway mirror?⏎  J.K. Rowling: You see Aber⟦forth⟧ meeting Mundung",
+      "doc": 5
+    },
+    {
+      "proj": -1.013,
+      "ctx": " K}$ (with ${\\mathbb K}={\\mathbb⟦ R⟧}$ or ${",
+      "doc": 146
+    },
+    {
+      "proj": -1.012,
+      "ctx": " it automatically delivers the data to the destination that you specified.⏎⏎The Amazon⟦ K⟧inesis Data Fire",
+      "doc": 56
+    },
+    {
+      "proj": -1.009,
+      "ctx": "は「エロデカいグラドル」と言われ、グラ⟦ビ⟧ア界でも",
+      "doc": 246
+    },
+    {
+      "proj": -1.009,
+      "ctx": "Recorder` allow you to interface with Amazon Kinesis Data Streams and Amazon⟦ K⟧inesis Data Fire",
+      "doc": 56
+    },
+    {
+      "proj": -1.004,
+      "ctx": ".⏎⏎## What is Amazon Kinesis Data Firehose?⏎⏎[Amazon⟦ K⟧inesis Data Fire",
+      "doc": 56
+    },
+    {
+      "proj": -1.001,
+      "ctx": " 4 weeks post-purchase to explain how you claim your free Amazon⟦ Echo⟧ Dot.⏎⏎If",
+      "doc": 226
+    },
+    {
+      "proj": -1.0,
+      "ctx": "ω για ένα τόσο σημαντικό Σύλλογο όπως ο Πανα⟦θη⟧ναϊκός",
+      "doc": 200
+    },
+    {
+      "proj": -0.999,
+      "ctx": " England Highlights⏎⏎#### Hampshire⏎⏎#### Winchester⏎⏎#### Portsmouth⏎⏎#### New⟦ Forest⟧⏎⏎#### Ly",
+      "doc": 101
+    },
+    {
+      "proj": -0.996,
+      "ctx": " (5 men, 5 women, mean age, 26.⟦4⟧ +/- 5",
+      "doc": 197
+    },
+    {
+      "proj": -0.993,
+      "ctx": "-RNA hybrids, and relaxed circular DNA (RC DNA) or double⟦-str⟧anded linear DNA",
+      "doc": 88
+    },
+    {
+      "proj": -0.991,
+      "ctx": " its non-Monolithic approach.⏎⏎It doesn’t do the 40⟦HX⟧803‘s aesthetic",
+      "doc": 169
+    },
+    {
+      "proj": -0.99,
+      "ctx": " brain imaging data in real time and to display it to participants as neuro⟦feedback⟧ while they are",
+      "doc": 50
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Perry\": 0.7, \"Vesper\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Perry has a higher accuracy rate (14/20) than Vesper (6/20), and Perry's errors are mostly due to a single outlier (flux density of compound EO-586), while Vesper's errors are more consistent and frequent.\"\n}", "trial_id": "order-0-0016"}

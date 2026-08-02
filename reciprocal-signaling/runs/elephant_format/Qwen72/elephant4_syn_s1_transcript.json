@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant4_syn",
+  "true": "elephant",
+  "clues": [
+   "ashen",
+   "enormous",
+   "creature",
+   "snout"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "gray",
+   "giant",
+   "dog",
+   "pig"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "coal",
+   "large",
+   "elephant",
+   "boar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "charcoal",
+   "huge",
+   "mammal",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "smoke",
+   "massive",
+   "whale",
+   "swine"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "sable",
+   "titanic",
+   "spermwhale",
+   "sow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "ember",
+   "colossal",
+   "dolphin",
+   "tusker"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "cinder",
+   "enormousness",
+   "orca",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "ashes",
+   "gigantic",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "dolphin",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "spermwhale",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "spermwhale",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

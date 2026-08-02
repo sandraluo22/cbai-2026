@@ -1,0 +1,83 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n64",
+  "true": "64",
+  "clues": [
+   "a multiple of 8",
+   "a perfect square",
+   "it has 2 digits",
+   "even",
+   "greater than 50"
+  ],
+  "kind": "number",
+  "wrong_agent": null,
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "8",
+   "16",
+   "12",
+   "2",
+   "51"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "24",
+   "9",
+   "12",
+   "4",
+   "55"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "32",
+   "25",
+   "12",
+   "6",
+   "60"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "40",
+   "16",
+   "12",
+   "8",
+   "65"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "48",
+   "36",
+   "12",
+   "10",
+   "70"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

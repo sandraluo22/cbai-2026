@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "clock", "true": "clock", "clues": ["round", "it has hands", "it hangs on a wall", "it tells you something"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["is", "guess", "is", "tells"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 2, "guesses": ["ball", "watch", "painting", "tells"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 3, "guesses": ["ball", "clock", "mirror", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["ball", "clock", "clock", "time"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["ball", "clock", "clock", "since"], "all_true": false, "clue_violations": []}

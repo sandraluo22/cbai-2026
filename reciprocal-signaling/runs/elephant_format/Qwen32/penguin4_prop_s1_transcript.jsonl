@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "penguin4_prop", "true": "penguin", "clues": ["it has the property: black-and-white coloration", "it has the property: being a bird", "it has the property: flightlessness", "it has the property: cold-climate habitat"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["tuxedo", "sparrow", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["zebra", "owl", "emu", "bear"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["zebra", "eagle", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["zebra", "eagle", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["zebra", "eagle", "emu", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["zebra", "eagle", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["zebra", "eagle", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["zebra", "eagle", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["zebra", "eagle", "emu", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["zebra", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["penguin", "penguin", "emu", "penguin"], "all_true": false, "clue_violations": []}

@@ -34,3 +34,9 @@ remote_logs/
 # removed from repo (kept locally)
 linear-transformation-icl/
 ball and urn/
+
+# --- agent config: local pod/ssh details, never commit ---
+.claude/
+
+# --- oversized run log (476MB, exceeds GitHub 100MB limit) ---
+reciprocal-signaling/pilot.log

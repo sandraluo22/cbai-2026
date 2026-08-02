@@ -1,0 +1,101 @@
+{"type": "meta", "quiz": "n30", "true": "30", "clues": ["divisible by 5", "divisible by 6", "it has 2 digits", "smaller than 50"], "kind": "number", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": "public"}
+{"type": "round", "round": 1, "guesses": ["5", "12", "50", "25"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 1, "agent": 1, "text": "The secret number is divisible by 5, so it must end in 0 or 5.", "public": true}
+{"type": "note", "round": 1, "agent": 2, "text": "The number is divisible by 6, so my guess will always be a multiple of 6.", "public": true}
+{"type": "note", "round": 1, "agent": 3, "text": "The secret number has two digits \u2014 I'll adjust my guess accordingly.", "public": true}
+{"type": "note", "round": 1, "agent": 4, "text": "The secret number is smaller than 50, so Player 3's guess is definitely wrong.", "public": true}
+{"type": "round", "round": 2, "guesses": ["50", "12", "55", "48"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 2, "agent": 1, "text": "The secret number must be a multiple of both 5 and 6, so it's a multiple of 30.", "public": true}
+{"type": "note", "round": 2, "agent": 2, "text": "The secret number is divisible by both 6 and 5, so it must be a multiple of 30.", "public": true}
+{"type": "note", "round": 2, "agent": 3, "text": "The secret number must be a two-digit multiple of both 5 and 6, and less than 50.", "public": true}
+{"type": "note", "round": 2, "agent": 4, "text": "The secret number is smaller than 50, so Player 3's guess of 55 is incorrect.", "public": true}
+{"type": "round", "round": 3, "guesses": ["50", "30", "30", "45"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 3, "agent": 1, "text": "The secret number is a two-digit multiple of 30 and less than 50.", "public": true}
+{"type": "note", "round": 3, "agent": 2, "text": "The secret number is likely 30 \u2014 it fits all clues shared so far.", "public": true}
+{"type": "note", "round": 3, "agent": 3, "text": "The secret number is a two-digit multiple of 30 and less than 50.", "public": true}
+{"type": "note", "round": 3, "agent": 4, "text": "The secret number is smaller than 50 and a multiple of both 5 and 6.", "public": true}
+{"type": "round", "round": 4, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 4, "agent": 1, "text": "All clues point to 30 \u2014 it's the only two-digit number divisible by 5, 6, and less than 50.", "public": true}
+{"type": "note", "round": 4, "agent": 2, "text": "The secret number is 30 \u2014 it fits all clues and everyone's reasoning.", "public": true}
+{"type": "note", "round": 4, "agent": 3, "text": "The secret number is 30 \u2014 all clues align with this two-digit multiple of 5, 6, and 30 that\u2019s less than 50.", "public": true}
+{"type": "note", "round": 4, "agent": 4, "text": "The secret number is 30 \u2014 it fits all clues: two-digit, under 50, and a multiple of both 5 and 6.", "public": true}
+{"type": "round", "round": 5, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 5, "agent": 1, "text": "The secret number is clearly 30 \u2014 all clues and logic confirm this.", "public": true}
+{"type": "note", "round": 5, "agent": 2, "text": "The secret number is clearly 30 \u2014 all clues and reasoning confirm this two-digit multiple of 5 and 6.", "public": true}
+{"type": "note", "round": 5, "agent": 3, "text": "The secret number is clearly 30 \u2014 all clues and logic confirm this.", "public": true}
+{"type": "note", "round": 5, "agent": 4, "text": "The secret number is 30 \u2014 it fits all clues and everyone\u2019s logic.", "public": true}
+{"type": "round", "round": 6, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 6, "agent": 1, "text": "The secret number is definitely 30 \u2014 all clues and guesses confirm this.", "public": true}
+{"type": "note", "round": 6, "agent": 2, "text": "The secret number is 30 \u2014 all clues and reasoning confirm this.", "public": true}
+{"type": "note", "round": 6, "agent": 3, "text": "The secret number is confirmed to be 30 \u2014 it meets all clues and everyone\u2019s logical deductions.", "public": true}
+{"type": "note", "round": 6, "agent": 4, "text": "The secret number is 30 \u2014 it meets all the clues and everyone's logic.", "public": true}
+{"type": "round", "round": 7, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 7, "agent": 1, "text": "All clues and consistent guesses confirm the secret number is 30.", "public": true}
+{"type": "note", "round": 7, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 7, "agent": 3, "text": "The secret number is confirmed to be 30 \u2014 all clues and logic align.", "public": true}
+{"type": "note", "round": 7, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 it fits all clues and everyone\u2019s consistent guesses.", "public": true}
+{"type": "round", "round": 8, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 8, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 8, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 8, "agent": 3, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 8, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "round", "round": 9, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 9, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 9, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 9, "agent": 3, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 9, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "round", "round": 10, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 10, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 10, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and guesses align perfectly.", "public": true}
+{"type": "note", "round": 10, "agent": 3, "text": "All clues and consistent guesses confirm the secret number is definitely 30.", "public": true}
+{"type": "note", "round": 10, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "round", "round": 11, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 11, "agent": 1, "text": "The secret number is undeniably 30 \u2014 all clues, logic, and consistent guesses confirm this.", "public": true}
+{"type": "note", "round": 11, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and 11 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 11, "agent": 3, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 11, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and consistent guesses align perfectly.", "public": true}
+{"type": "round", "round": 12, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 12, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 all clues and 12 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 12, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 all clues and 12 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 12, "agent": 3, "text": "The secret number is undeniably 30 \u2014 12 rounds of perfect alignment confirm it.", "public": true}
+{"type": "note", "round": 12, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and 12 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "round", "round": 13, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 13, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 all clues and 13 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "note", "round": 13, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 13 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 13, "agent": 3, "text": "The secret number is undeniably 30 \u2014 13 rounds of perfect alignment confirm it.", "public": true}
+{"type": "note", "round": 13, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 all clues and 13 rounds of consistent guesses align perfectly.", "public": true}
+{"type": "round", "round": 14, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 14, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 14 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 14, "agent": 2, "text": "The secret number is 30 \u2014 14 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 14, "agent": 3, "text": "The secret number is undeniably 30 \u2014 14 rounds of perfect alignment confirm it.", "public": true}
+{"type": "note", "round": 14, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 14 rounds of perfect alignment prove it!", "public": true}
+{"type": "round", "round": 15, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 15, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 15 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 15, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 15 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 15, "agent": 3, "text": "The secret number is undeniably 30 \u2014 15 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 15, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 15 rounds of perfect alignment prove it!", "public": true}
+{"type": "round", "round": 16, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 16, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 16 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 16, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 16 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 16, "agent": 3, "text": "The secret number is undeniably 30 \u2014 16 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 16, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 16 rounds of perfect alignment prove it!", "public": true}
+{"type": "round", "round": 17, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 17, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 17 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 17, "agent": 2, "text": "The secret number is confirmed to be 30 \u2014 17 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 17, "agent": 3, "text": "The secret number is undeniably 30 \u2014 17 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 17, "agent": 4, "text": "The secret number is 30 \u2014 17 rounds of perfect alignment confirm it!", "public": true}
+{"type": "round", "round": 18, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 18, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 18 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 18, "agent": 2, "text": "The secret number is 30 \u2014 18 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 18, "agent": 3, "text": "The secret number is undeniably 30 \u2014 18 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 18, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 18 rounds of perfect alignment prove it!", "public": true}
+{"type": "round", "round": 19, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 19, "agent": 1, "text": "The secret number is confirmed to be 30 \u2014 19 rounds of perfect alignment prove it!", "public": true}
+{"type": "note", "round": 19, "agent": 2, "text": "The secret number is undeniably 30 \u2014 19 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 19, "agent": 3, "text": "The secret number is undeniably 30 \u2014 19 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 19, "agent": 4, "text": "The secret number is confirmed to be 30 \u2014 19 rounds of perfect alignment prove it!", "public": true}
+{"type": "round", "round": 20, "guesses": ["30", "30", "30", "30"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 20, "agent": 1, "text": "After 20 rounds of perfect alignment, the secret number is undeniably 30 \u2014 confirmed by all clues and guesses!", "public": true}
+{"type": "note", "round": 20, "agent": 2, "text": "The secret number is undeniably 30 \u2014 20 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 20, "agent": 3, "text": "The secret number is undeniably 30 \u2014 20 rounds of perfect alignment confirm it!", "public": true}
+{"type": "note", "round": 20, "agent": 4, "text": "The secret number is 30 \u2014 20 rounds of perfect alignment confirm it!", "public": true}

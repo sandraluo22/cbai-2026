@@ -1,0 +1,42 @@
+{
+  "fit": {
+    "gamma": 0.997,
+    "alpha": 0.15,
+    "mse": 0.01600016703625677,
+    "topk": 2,
+    "effective_window_words": 333
+  },
+  "convergence_llm": {
+    "base": 0.8539147341210995,
+    "early": 0.9251054789890301,
+    "mid": 0.9837866647035792,
+    "late": 0.990403772691528
+  },
+  "convergence_model": {
+    "base": 0.5248230052672495,
+    "early": 0.6552626123149867,
+    "mid": 0.7933515484150051,
+    "late": 0.9442497793048633
+  },
+  "model_top_pairs": [
+    [
+      "knife",
+      "paper",
+      0.103
+    ],
+    [
+      "cloud",
+      "knife",
+      0.089
+    ],
+    [
+      "music",
+      "glass",
+      0.076
+    ]
+  ],
+  "model_occupancy_maxmin": [
+    255,
+    100
+  ]
+}

@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "clock4_desc", "true": "clock", "clues": ["it is round in shape", "it has moving hands", "it hangs on a wall", "it tells you the time"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["ball", "clock", "clock", "clock"], "all_true": false, "clue_violations": []}

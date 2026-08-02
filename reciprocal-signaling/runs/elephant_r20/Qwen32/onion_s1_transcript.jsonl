@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "onion", "true": "onion", "clues": ["a vegetable", "it has layers", "it makes you cry", "round"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["carrot", "onion", "onion", "globe"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["carrot", "onion", "pear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["carrot", "onion", "cherry", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["carrot", "onion", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["carrot", "peach", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["peach", "peach", "peach", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["peach", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["ring", "ring", "ring", "ring"], "all_true": false, "clue_violations": []}

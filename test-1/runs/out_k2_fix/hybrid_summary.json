@@ -1,0 +1,89 @@
+{
+  "layer_shown": 26,
+  "occupancy_late_per_node": {
+    "clock": 23,
+    "lemon": 32,
+    "jacket": 9,
+    "wheel": 17,
+    "tiger": 25,
+    "pencil": 616,
+    "coin": 963,
+    "bird": 115,
+    "anchor": 49,
+    "ocean": 0,
+    "chair": 8,
+    "candle": 41,
+    "bread": 147,
+    "mirror": 183,
+    "apple": 120,
+    "river": 52
+  },
+  "late_stream_edge_mass": {
+    "shared": 0.8840219014435042,
+    "grid_only": 0.06520657043305127,
+    "ring_only": 0.04927824788451966,
+    "non_edge": 0.0014932802389248383
+  },
+  "r2_at_layer": {
+    "grid_joint_late": {
+      "grid coords": 0.17486754670492988,
+      "ring coords": 0.1914568379054875,
+      "union modes 1-2": 0.1817234175802599,
+      "empirical modes 1-2": 0.1919661899328008,
+      "log-occupancy (1D)": 0.15000475484178155
+    },
+    "ring_joint_late": {
+      "grid coords": 0.15672825628757014,
+      "ring coords": 0.22261497698104338,
+      "union modes 1-2": 0.18662813739442952,
+      "empirical modes 1-2": 0.19902996191083355,
+      "log-occupancy (1D)": 0.15426299607930816
+    },
+    "fresh_late": {
+      "grid coords": 0.1738140760471759,
+      "ring coords": 0.20008801215790528,
+      "union modes 1-2": 0.17980964973610802,
+      "empirical modes 1-2": 0.2001924749641416,
+      "log-occupancy (1D)": 0.1751106478111456
+    }
+  },
+  "r2_deep_mean_24_31": {
+    "grid_joint_late": {
+      "grid coords": 0.17782650378785153,
+      "ring coords": 0.18760740686189464,
+      "union modes 1-2": 0.1801398145630895,
+      "empirical modes 1-2": 0.1965777603601333,
+      "log-occupancy (1D)": 0.15623337643376825
+    },
+    "ring_joint_late": {
+      "grid coords": 0.16490780824557036,
+      "ring coords": 0.21997645644613997,
+      "union modes 1-2": 0.1885083482938808,
+      "empirical modes 1-2": 0.20915185482629817,
+      "log-occupancy (1D)": 0.1631938468538439
+    },
+    "fresh_late": {
+      "grid coords": 0.18579997223996936,
+      "ring coords": 0.20366267538116964,
+      "union modes 1-2": 0.18822383100100998,
+      "empirical modes 1-2": 0.21580852100878145,
+      "log-occupancy (1D)": 0.17649933697329218
+    }
+  },
+  "procrustes_at_layer": {
+    "grid_base vs ring_base": 0.8748592918662288,
+    "grid_late vs ring_late": 0.9914740053256028,
+    "grid_late vs FRESH": 0.9932790392609911,
+    "ring_late vs FRESH": 0.9952103925993265,
+    "grid: base vs late": 0.8965274775172253,
+    "ring: base vs late": 0.9317927985806147
+  },
+  "procrustes_deep_mean_24_31": {
+    "grid_base vs ring_base": 0.8414604195471141,
+    "grid_late vs ring_late": 0.9908016406961855,
+    "grid_late vs FRESH": 0.9914226612745902,
+    "ring_late vs FRESH": 0.9940703592844968,
+    "grid: base vs late": 0.8733809946019607,
+    "ring: base vs late": 0.9094729354639874
+  }
+}

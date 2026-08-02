@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Avery\": 0.7, \"Ellis\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Avery has a higher accuracy rate (12/15) than Ellis (6/15), and their errors are more often due to the master record being incorrect, while Ellis's errors are often due to their own incorrect measurements.\"\n}", "trial_id": "recovery-0-0022"}

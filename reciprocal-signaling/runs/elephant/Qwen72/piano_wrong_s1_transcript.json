@@ -1,0 +1,83 @@
+[
+ {
+  "type": "meta",
+  "quiz": "piano_wrong",
+  "true": "piano",
+  "clues": [
+   "it has black and white parts",
+   "a musical instrument",
+   "it has keys",
+   "large and heavy",
+   "you blow into it"
+  ],
+  "kind": "word",
+  "wrong_agent": 4,
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "piano",
+   "guitar",
+   "piano",
+   "elephant",
+   "whistle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "piano",
+   "violin",
+   "keyboard",
+   "piano",
+   "whistle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "piano",
+   "drum",
+   "keyboard",
+   "piano",
+   "whistle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "piano",
+   "flute",
+   "piano",
+   "piano",
+   "whistle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "piano",
+   "piano",
+   "piano",
+   "piano",
+   "whistle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "onion", "true": "onion", "clues": ["a vegetable", "it has layers", "it makes you cry", "round"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["carrot", "onion", "onion", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["carrot", "onion", "onion", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["carrot", "onion", "onion", "wheel"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["carrot", "onion", "onion", "sphere"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["carrot", "onion", "onion", "globe"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["carrot", "onion", "onion", "planet"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["carrot", "onion", "onion", "orange"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["carrot", "onion", "onion", "peach"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["carrot", "onion", "onion", "apple"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["carrot", "onion", "onion", "grape"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["carrot", "onion", "onion", "melon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["carrot", "onion", "onion", "berry"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["carrot", "onion", "onion", "kiwi"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["carrot", "onion", "onion", "cherry"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["carrot", "onion", "onion", "plum"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["carrot", "onion", "onion", "pear"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["carrot", "onion", "onion", "pomegranate"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["carrot", "onion", "onion", "mango"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["carrot", "onion", "onion", "avocado"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["carrot", "onion", "onion", "peach"], "all_true": false, "clue_violations": []}

@@ -1,0 +1,278 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n64",
+  "true": "64",
+  "clues": [
+   "a multiple of 8",
+   "a perfect square",
+   "it has 2 digits",
+   "even",
+   "greater than 50"
+  ],
+  "kind": "number",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "?",
+   "1",
+   "?",
+   "?",
+   "?"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "16",
+   "4",
+   "2",
+   "2",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "24",
+   "25",
+   "13",
+   "4",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "8",
+   "9",
+   "22",
+   "6",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "24",
+   "9",
+   "10",
+   "8",
+   "100"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "24",
+   "25",
+   "24",
+   "8",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "24",
+   "25",
+   "25",
+   "6",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "24",
+   "25",
+   "13",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "24",
+   "25",
+   "13",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "24",
+   "25",
+   "24",
+   "20",
+   "100"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "24",
+   "25",
+   "12",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "40",
+   "25",
+   "12",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "24",
+   "25",
+   "13",
+   "?",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "40",
+   "25",
+   "?",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "24",
+   "25",
+   "13",
+   "20",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "24",
+   "25",
+   "24",
+   "10",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "24",
+   "25",
+   "24",
+   "24",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "?",
+   "25",
+   "?",
+   "20",
+   "100"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "?",
+   "25",
+   "24",
+   "20",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "24",
+   "25",
+   "23",
+   "20",
+   "75"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant_wrong",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal",
+   "small"
+  ],
+  "kind": "word",
+  "wrong_agent": 3,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "wolf",
+   "elephant",
+   "dog",
+   "tiny"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "mouse",
+   "giraffe",
+   "cat",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "squirrel",
+   "lion",
+   "rabbit",
+   "rat"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "fox",
+   "tiger",
+   "horse",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "bat",
+   "whale",
+   "deer",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "owl",
+   "elephant",
+   "bird",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "mole",
+   "giraffe",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "rat",
+   "lion",
+   "cat",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "beaver",
+   "tiger",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "hare",
+   "elephant",
+   "dog",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "mole",
+   "giraffe",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "mole",
+   "lion",
+   "dog",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "mole",
+   "tiger",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "mole",
+   "elephant",
+   "dog",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "mole",
+   "giraffe",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "mole",
+   "lion",
+   "dog",
+   "mole"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "mole",
+   "tiger",
+   "dog",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "mole",
+   "elephant",
+   "dog",
+   "squirrel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "mole",
+   "giraffe",
+   "dog",
+   "mole"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "mole",
+   "whale",
+   "dog",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

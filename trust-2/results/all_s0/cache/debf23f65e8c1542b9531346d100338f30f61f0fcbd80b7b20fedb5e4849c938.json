@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Yael\": 0.7, \"Devon\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Yael has a higher accuracy rate (8/12) compared to Devon (6/12), but Devon's errors are often large, suggesting a possible bias towards overestimation.\"\n}", "trial_id": "order-0-0034"}

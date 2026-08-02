@@ -1,0 +1,6 @@
+{"type": "meta", "true": "elephant", "clues": ["gray", "large", "an animal"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["ivory", "for", "m"], "all_true": false}
+{"type": "round", "round": 2, "guesses": ["ebony", "giant", "elephant"], "all_true": false}
+{"type": "round", "round": 3, "guesses": ["gray", "giant", "rhino"], "all_true": false}
+{"type": "round", "round": 4, "guesses": ["will", "large", "elephant"], "all_true": false}
+{"type": "round", "round": 5, "guesses": ["said", "m", "elephant"], "all_true": false}

@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "n30_wrong", "true": "30", "clues": ["divisible by 5", "divisible by 6", "it has 2 digits", "smaller than 50", "odd"], "kind": "number", "wrong_agent": 4, "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["5", "12", "50", "25", "7"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["25", "60", "99", "30", "15"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["20", "66", "95", "35", "15"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["35", "66", "95", "35", "35"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["35", "66", "95", "35", "35"], "all_true": false, "clue_violations": []}

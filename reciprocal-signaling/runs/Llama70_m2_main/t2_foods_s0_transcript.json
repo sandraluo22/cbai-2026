@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t2_foods",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for foods",
+  "decoy_A": "words for red things",
+  "decoy_B": "words for sweet things",
+  "A_examples": [
+   [
+    "strawberry",
+    true,
+    "trap"
+   ],
+   [
+    "tomato",
+    true,
+    "key"
+   ],
+   [
+    "cloud",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "cherry",
+    true,
+    "trap"
+   ],
+   [
+    "honey",
+    true,
+    "key"
+   ],
+   [
+    "stone",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "bread",
+    true,
+    "both"
+   ],
+   [
+    "rice",
+    true,
+    "both"
+   ],
+   [
+    "lemon",
+    true,
+    "both"
+   ],
+   [
+    "cake",
+    true,
+    "A"
+   ],
+   [
+    "butter",
+    true,
+    "both"
+   ],
+   [
+    "rose",
+    false,
+    "A"
+   ],
+   [
+    "ruby",
+    false,
+    "A"
+   ],
+   [
+    "brick",
+    false,
+    "A"
+   ],
+   [
+    "pencil",
+    false,
+    "none"
+   ],
+   [
+    "violin",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "Based on the labeled examples, my best guess of the hidden rule is:\n\nThe word is \"dax\" if it is a type of fruit.\n\nThis guess is based on the fact that both \"strawberry\" and \"tomato\" are types of fruit, while \"cloud\" is not",
+   "label": "other"
+  },
+  "B": {
+   "raw": "My best guess of the hidden rule is that a word is \"dax\" if it is a type of food.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "pineapple is dax,",
+  "msg_B": "pear is dax,",
+  "word_A": "pineapple",
+  "word_B": "pear",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "grape is dax,",
+  "msg_B": "kiwi is dax,",
+  "word_A": "grape",
+  "word_B": "kiwi",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "peach is dax,",
+  "msg_B": "orange is dax,",
+  "word_A": "peach",
+  "word_B": "orange",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is 'dax' if it is a type of fruit.",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": true
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": true
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled as 'dax' are types of fruit. Therefore,",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled as 'dax' are types of fruit. Therefore,",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled as 'dax' are types of fruit. Therefore,",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": false
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled as 'dax' are types of fruit. Therefore,",
+    "correct": false
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, it seems that the rule for 'dax' is related to the object being a type of",
+    "correct": false
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": false
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is 'dax' if it is a type of fruit.",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of food, especially fruits.",
+    "correct": true
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of food, especially fruits.",
+    "correct": true
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of food, especially fruits.",
+    "correct": true
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of fruit. Therefore, I",
+    "correct": false
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of food, particularly fruits.",
+    "correct": false
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the examples, I notice that all the words labeled 'dax' are types of food, especially fruits.",
+    "correct": false
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": true,
+    "raw": "Based on the given examples, it seems that the rule for a word to be labeled 'dax' is that it",
+    "correct": false
+   }
+  ]
+ }
+]

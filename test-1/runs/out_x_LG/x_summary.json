@@ -1,0 +1,79 @@
+{
+  "instances": [
+    [
+      "Llama",
+      "grid",
+      4
+    ],
+    [
+      "Gemma",
+      "ring",
+      2
+    ]
+  ],
+  "stream_mass_late": {
+    "grid": 0.9433198380566802,
+    "ring": 0.7388663967611336,
+    "union": 0.9913967611336032
+  },
+  "top_oscillating_pairs": [
+    [
+      "pencil",
+      "coin",
+      0.141
+    ],
+    [
+      "coin",
+      "coin",
+      0.116
+    ],
+    [
+      "lemon",
+      "pencil",
+      0.105
+    ]
+  ],
+  "r2_deep": {
+    "Llama-grid": {
+      "base": {
+        "grid": 0.2390766740478384,
+        "ring": 0.1380088847740604
+      },
+      "late": {
+        "grid": 0.2283626416755702,
+        "ring": 0.20923725977462224
+      }
+    },
+    "Gemma-ring": {
+      "base": {
+        "grid": 0.1698917089263297,
+        "ring": 0.360718705696135
+      },
+      "late": {
+        "grid": 0.19347194638042461,
+        "ring": 0.22902447598305684
+      }
+    },
+    "fresh-Llama": {
+      "late": {
+        "grid": 0.22246449701002313,
+        "ring": 0.21999713054362385
+      }
+    },
+    "fresh-Gemma": {
+      "late": {
+        "grid": 0.18459243349523732,
+        "ring": 0.18461760780449277
+      }
+    }
+  },
+  "procrustes_deep": {
+    "Llama-grid vs Gemma-ring | base": 0.8687677139344452,
+    "Llama-grid vs Gemma-ring | late": 0.9751837521495291,
+    "Llama-grid vs fresh-Llama | late": 0.991735193346712,
+    "Llama-grid | base vs late": 0.9519478308910239,
+    "Gemma-ring vs fresh-Gemma | late": 0.9888583626606736,
+    "Gemma-ring | base vs late": 0.9339425138766889,
+    "fresh-Llama vs fresh-Gemma | late": 0.9824383648146064
+  }
+}

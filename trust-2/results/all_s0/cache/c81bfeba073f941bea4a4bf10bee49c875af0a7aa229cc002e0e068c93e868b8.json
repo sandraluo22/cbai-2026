@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Yael\": 0.7, \"Sage\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Yael has a higher accuracy rate (12/15) compared to Sage (4/15), and their final value is closer to the expected value of 543 GPa (a midpoint between their values)\"\n}", "trial_id": "labels-0-0036"}

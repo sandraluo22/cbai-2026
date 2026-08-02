@@ -1,0 +1,39 @@
+{
+  "model": "Llama",
+  "light": [
+    "dark",
+    "medium",
+    "light"
+  ],
+  "hue": [
+    "red",
+    "orange",
+    "yellow",
+    "green"
+  ],
+  "rank": 2,
+  "loo_decode": {
+    "lightness": 0.9686770759109188,
+    "hue": 0.9988890264042191
+  },
+  "n_lightness_pairs": 12,
+  "n_hue_pairs": 18,
+  "results": {
+    "baseline": {
+      "lightness_task": 1.0,
+      "hue_task": 0.8888888888888888
+    },
+    "ablate_lightness": {
+      "lightness_task": 1.0,
+      "hue_task": 0.3333333333333333
+    },
+    "ablate_hue": {
+      "lightness_task": 0.9166666666666666,
+      "hue_task": 0.3333333333333333
+    },
+    "ablate_random": {
+      "lightness_task": 1.0,
+      "hue_task": 0.9444444444444444
+    }
+  }
+}

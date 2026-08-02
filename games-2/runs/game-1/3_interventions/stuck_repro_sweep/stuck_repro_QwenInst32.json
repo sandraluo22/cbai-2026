@@ -1,0 +1,460 @@
+{
+ "model": "QwenInst32",
+ "cells": {
+  "city-p0": {
+   "met_frac": 0.375,
+   "stuck_frac": 0.5,
+   "pers_mean": 0.23295454545454547
+  },
+  "city-p1": {
+   "met_frac": 0.5,
+   "stuck_frac": 0.375,
+   "pers_mean": 0.1590909090909091
+  },
+  "fruit-p0": {
+   "met_frac": 0.25,
+   "stuck_frac": 0.5,
+   "pers_mean": 0.20454545454545453
+  },
+  "fruit-p1": {
+   "met_frac": 0.75,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "animal-p0": {
+   "met_frac": 0.375,
+   "stuck_frac": 0.25,
+   "pers_mean": 0.1477272727272727
+  },
+  "animal-p1": {
+   "met_frac": 0.125,
+   "stuck_frac": 0.125,
+   "pers_mean": 0.056818181818181816
+  },
+  "color-p0": {
+   "met_frac": 1.0,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "color-p1": {
+   "met_frac": 0.875,
+   "stuck_frac": 0.0,
+   "pers_mean": 0.0
+  },
+  "sport-p0": {
+   "met_frac": 0.375,
+   "stuck_frac": 0.25,
+   "pers_mean": 0.07386363636363637
+  },
+  "sport-p1": {
+   "met_frac": 0.25,
+   "stuck_frac": 0.625,
+   "pers_mean": 0.26704545454545453
+  },
+  "vegetable-p0": {
+   "met_frac": 0.375,
+   "stuck_frac": 0.125,
+   "pers_mean": 0.03977272727272728
+  },
+  "vegetable-p1": {
+   "met_frac": 0.25,
+   "stuck_frac": 0.25,
+   "pers_mean": 0.1477272727272727
+  }
+ },
+ "n_snapshots": 24,
+ "branches": [
+  {
+   "snap": 0,
+   "cell": "city-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 0,
+   "cell": "city-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 1,
+   "cell": "city-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 1,
+   "cell": "city-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 2,
+   "cell": "city-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 2,
+   "cell": "city-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 3,
+   "cell": "city-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 3,
+   "cell": "city-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 4,
+   "cell": "city-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 4,
+   "cell": "city-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 5,
+   "cell": "city-p1",
+   "mode": "self_ablate",
+   "met": true,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 5,
+   "cell": "city-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 6,
+   "cell": "city-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 6,
+   "cell": "city-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 7,
+   "cell": "fruit-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 7,
+   "cell": "fruit-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 8,
+   "cell": "fruit-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 8,
+   "cell": "fruit-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 9,
+   "cell": "fruit-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 9,
+   "cell": "fruit-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 10,
+   "cell": "fruit-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 10,
+   "cell": "fruit-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 11,
+   "cell": "animal-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 11,
+   "cell": "animal-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 12,
+   "cell": "animal-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 12,
+   "cell": "animal-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 13,
+   "cell": "animal-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 13,
+   "cell": "animal-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 14,
+   "cell": "sport-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 14,
+   "cell": "sport-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 15,
+   "cell": "sport-p0",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 15,
+   "cell": "sport-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 16,
+   "cell": "sport-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 16,
+   "cell": "sport-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 17,
+   "cell": "sport-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 17,
+   "cell": "sport-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 18,
+   "cell": "sport-p1",
+   "mode": "self_ablate",
+   "met": true,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 18,
+   "cell": "sport-p1",
+   "mode": "partner_ablate",
+   "met": true,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 19,
+   "cell": "sport-p1",
+   "mode": "self_ablate",
+   "met": true,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 19,
+   "cell": "sport-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 20,
+   "cell": "sport-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 20,
+   "cell": "sport-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 21,
+   "cell": "vegetable-p0",
+   "mode": "self_ablate",
+   "met": true,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 21,
+   "cell": "vegetable-p0",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 22,
+   "cell": "vegetable-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 22,
+   "cell": "vegetable-p1",
+   "mode": "partner_ablate",
+   "met": false,
+   "loop_exit": true,
+   "control_met": false
+  },
+  {
+   "snap": 23,
+   "cell": "vegetable-p1",
+   "mode": "self_ablate",
+   "met": false,
+   "loop_exit": false,
+   "control_met": false
+  },
+  {
+   "snap": 23,
+   "cell": "vegetable-p1",
+   "mode": "partner_ablate",
+   "met": true,
+   "loop_exit": true,
+   "control_met": false
+  }
+ ],
+ "self_ablate_release": {
+  "loop_exit": 0.08333333333333333,
+  "met": 0.16666666666666666
+ },
+ "partner_ablate_release": {
+  "loop_exit": 0.3333333333333333,
+  "met": 0.08333333333333333
+ }
+}

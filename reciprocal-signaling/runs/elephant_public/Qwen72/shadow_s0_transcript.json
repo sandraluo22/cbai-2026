@@ -1,0 +1,818 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": "public"
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "table",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "Let's focus on clues related to darkness and absence of light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "I think we should consider clues that suggest something constant or always present. Let's focus on commonalities.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "My guess was influenced by the idea of something flat, but I'm open to new ideas.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "Interesting guesses! My clue suggests something that thrives or appears with light. Let's think broader!",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "moon",
+   "shadow",
+   "floor",
+   "photosynthesis"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "Let's explore words that connect darkness with everyday objects or phenomena.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "Let's explore concepts that are both constant and variable, and think about how they relate to our clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "Let's explore more flat objects that could relate to everyone's clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "Let's explore things that require or are significantly affected by light for their existence or function.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "eclipse",
+   "shadow",
+   "surface",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "Let's consider how darkness interacts with light and shapes our environment, focusing on natural phenomena.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "Let's consider how our clues might intersect with the concept of something that is both persistent and variable.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "Let's consider flat surfaces that can exist in both light and dark, and are common in everyday life.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "Let's think about natural phenomena or objects that are directly dependent on light for their presence or behavior.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "umbra",
+   "shadow",
+   "plane",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "Let's narrow down to natural phenomena involving darkness and light, and think about how they manifest in our environment.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Let's think about how our clues might relate to something that is both always present and changes with the environment.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "Let's consider flat surfaces that can cast shadows or interact with light in significant ways.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "Let's consider natural objects or phenomena that are directly influenced by the presence of light.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "penumbra",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "Let's consider how our clues might converge on a single phenomenon or object that involves both light and shadow.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "Let's focus on how our clues might converge on a single, everyday phenomenon that involves light and darkness.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Let's consider how flat surfaces like shadows play a role in both light and dark environments.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "Let's think about natural phenomena that are directly visible due to light and change with its presence.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "Let's focus on how shadows form and change with light, considering both natural and everyday aspects.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "Let's consider how our clues might intersect with the concept of something that changes with light but is always present.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Let's focus on how flat surfaces like shadows interact with both light and darkness in various contexts.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "Let's consider how light and shadow interact in nature, focusing on phenomena that are visible due to light.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "Let's focus on the core concept of shadows and their relationship with light, considering both natural and everyday manifestations.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "Let's focus on the commonality of shadows and how they embody both persistence and variability with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Let's consider how flat surfaces like shadows are integral to both light and dark, and how they change with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "Let's focus on natural phenomena that visibly change with light, such as shadows or reflections.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "Let's confirm if \"shadow\" fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "Let's consider how shadows are a constant yet changing presence, influenced by light and movement.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Let's consider how shadows, being flat projections, change with light and are present in both natural and everyday settings.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Let's converge on \"shadow\" as it embodies the interaction between light and dark, fitting all our clues well.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as it aligns with darkness, constancy, flatness, and interaction with light, fitting all clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all our clues perfectly.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all our clues and has been consistently guessed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as it fits all our clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "Let's solidify \"shadow\" as our final answer, as it perfectly encapsulates darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as it fits all our clues and has been consistently guessed by all.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all our clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "Let's stick with \"shadow\" as it fits all our clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as the final answer, as it perfectly fits all our clues and has been consistently guessed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "Let's continue confirming \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as it fits all our clues and has been consistently guessed by everyone.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "Let's finalize \"shadow\" as it perfectly fits all our clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all our clues and has been consistently guessed by all.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "Let's keep \"shadow\" as our final answer, as it perfectly fits all our clues and has been consistently guessed.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all our clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "Let's keep \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as it fits all clues: darkness, constancy, flatness, and interaction with light.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "Let's finalize \"shadow\" as our answer; it perfectly fits all our clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as the final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "Let's stick with \"shadow\" as it perfectly fits all our clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer, as it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "Let's confirm \"shadow\" as our final answer; it fits all clues and has been consistently agreed upon.",
+  "public": true
+ }
+]

@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "penguin4_syn", "true": "penguin", "clues": ["monochrome", "fowl", "grounded", "antarctic"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["black", "chicken", "planeswalker", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["white", "turkey", "groundhog", "ice"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["gray", "goose", "grasshopper", "iceberg"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["silver", "goose", "marmot", "frost"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["snow", "goose", "mole", "blizzard"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["snowflake", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["snow", "goose", "grounded", "snowstorm"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 8, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["goose", "goose", "groundhog", "snowstorm"], "all_true": false, "clue_violations": []}

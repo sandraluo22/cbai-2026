@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Kerry\": 0.7, \"Logan\": 0.3},\n  \"confidence\": 0.5,\n  \"justification\": \"Kerry has a higher accuracy rate (9/14) than Logan (6/14), but Logan's errors are often consistent with the master record, suggesting a systematic bias, whereas Kerry's errors are more random.\"\n}", "trial_id": "order-0-0001"}

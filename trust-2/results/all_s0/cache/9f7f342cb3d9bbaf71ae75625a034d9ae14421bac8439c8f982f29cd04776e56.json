@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Yael\": 0.7, \"Oakley\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Yael has a higher accuracy rate (24/40) than Oakley (16/40), and their disagreement on the binding coefficient of compound AU-708 is the only instance where Oakley's value is correct.\"\n}", "trial_id": "dose-0-0019"}

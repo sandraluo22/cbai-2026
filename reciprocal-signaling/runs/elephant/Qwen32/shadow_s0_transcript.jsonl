@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "shadow", "true": "shadow", "clues": ["dark", "it follows you", "flat", "it needs light to exist"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["night", "shadow", "table", "photosynthesis"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["darkness", "trail", "board", "photosynthesis"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["eclipse", "trail", "board", "sunscreen"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["umbra", "trail", "board", "sunscreen"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["umbra", "trail", "board", "sunlight"], "all_true": false, "clue_violations": []}

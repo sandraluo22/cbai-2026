@@ -1,0 +1,26 @@
+{
+  "pair": [
+    "hex",
+    "grid"
+  ],
+  "words16": [
+    "river",
+    "chair",
+    "cloud",
+    "wheel",
+    "planet",
+    "candle",
+    "jacket",
+    "tiger",
+    "lemon",
+    "pencil",
+    "bird",
+    "anchor",
+    "ocean",
+    "coin",
+    "bread",
+    "garden"
+  ],
+  "max_edge_prior": 0.0018281054722974074,
+  "baseline_max_edge_prior": 0.35178219825936524
+}

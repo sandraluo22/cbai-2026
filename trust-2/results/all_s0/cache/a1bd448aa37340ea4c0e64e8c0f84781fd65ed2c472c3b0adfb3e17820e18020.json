@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Finley\": 0.6, \"Marlow\": 0.4},\n  \"confidence\": 0.5,\n  \"justification\": \"Finley has a slightly higher accuracy rate (7/11) than Marlow (6/11), but Marlow's errors are often consistent with the master record, while Finley's errors are often large.\"\n}", "trial_id": "recovery-0-0015"}

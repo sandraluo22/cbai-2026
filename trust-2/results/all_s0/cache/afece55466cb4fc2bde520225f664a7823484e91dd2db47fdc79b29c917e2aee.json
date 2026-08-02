@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Perry\": 0.7, \"Logan\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Perry has a higher accuracy rate (14/20) than Logan (4/20), and their final value is closer to the expected value of a flux density measurement (which is typically in the range of 100-400 mWb)\"\n}", "trial_id": "labels-0-0024"}

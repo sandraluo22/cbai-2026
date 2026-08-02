@@ -1,0 +1,87 @@
+{
+ "src": "runs/game-1/qwen32/qwen32_variations",
+ "yoked_floor": {
+  "real_met": 0.25,
+  "shuffled_pair_met": 0.05416666666666667,
+  "n_pairs": 240,
+  "mean_len": 18.6875
+ },
+ "reactive_floor": {
+  "real_met": 0.9375,
+  "shuffled_pair_met": 0.016666666666666666,
+  "n_pairs": 240,
+  "mean_len": 5.4375
+ },
+ "restrict-city": {
+  "met": {
+   "n": 7,
+   "in_category_by_triplet": [
+    0.0,
+    0.7142857142857143,
+    null,
+    null,
+    null,
+    null
+   ],
+   "perseveration": 0.028571428571428574
+  },
+  "no_meet": {
+   "n": 9,
+   "in_category_by_triplet": [
+    0.037037037037037035,
+    0.037037037037037035,
+    0.0,
+    0.037037037037037035,
+    0.037037037037037035,
+    0.09722222222222222
+   ],
+   "perseveration": 0.292929292929293
+  },
+  "meet_words": {
+   "0": "rome",
+   "1": "rome",
+   "6": "dallas",
+   "8": "rome",
+   "10": "rome",
+   "12": "paris",
+   "13": "vienna"
+  },
+  "meet_word_in_category": 1.0
+ },
+ "restrict-fruit": {
+  "met": {
+   "n": 7,
+   "in_category_by_triplet": [
+    0.2,
+    0.6666666666666666,
+    0.6,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "perseveration": 0.05714285714285715
+  },
+  "no_meet": {
+   "n": 9,
+   "in_category_by_triplet": [
+    0.037037037037037035,
+    0.037037037037037035,
+    0.037037037037037035,
+    0.07407407407407407,
+    0.07407407407407407,
+    0.05555555555555555
+   ],
+   "perseveration": 0.3939393939393939
+  },
+  "meet_words": {
+   "0": "mango",
+   "3": "strawberry",
+   "4": "blueberry",
+   "7": "banana",
+   "8": "orange",
+   "10": "kiwi",
+   "13": "banana"
+  },
+  "meet_word_in_category": 1.0
+ }
+}

@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin4_bare",
+  "true": "penguin",
+  "clues": [
+   "black and white",
+   "a bird",
+   "flightless",
+   "polar"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "ice"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "panda",
+   "robin",
+   "penguin",
+   "bear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "panda",
+   "sparrow",
+   "penguin",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

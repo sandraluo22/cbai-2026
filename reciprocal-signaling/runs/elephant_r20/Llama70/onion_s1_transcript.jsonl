@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "onion", "true": "onion", "clues": ["a vegetable", "it has layers", "it makes you cry", "round"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["carrot", "onion", "makes", "since"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 2, "guesses": ["broccoli", "lasagna", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["potato", "onion", "onion", "sphere"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["player", "onion", "makes", "ball"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 5, "guesses": ["potato", "cake", "onion", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["going", "cake", "tear", "said"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["going", "onion", "onion", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["guess", "cake", "tear", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["potato", "cake", "onion", "going"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["carrot", "cake", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["pattern", "cake", "tear", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["potato", "onion", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["given", "onion", "tear", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["carrot", "cake", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["potato", "onion", "tear", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["potato", "cake", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["potato", "cake", "tear", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["given", "onion", "tear", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["potato", "cake", "going", "ball"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["carrot", "cake", "tear", "circle"], "all_true": false, "clue_violations": []}

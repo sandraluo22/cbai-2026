@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow4_bare",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "following",
+   "flat",
+   "light-dependent"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "trail",
+   "table",
+   "photosynthesis"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "coal",
+   "track",
+   "board",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "round",
+   "track",
+   "map",
+   "sunlight"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "black",
+   "shadow",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "shadow",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "umbra",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "umbra",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "umbra",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "umbra",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "umbra",
+   "track",
+   "map",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "umbra",
+   "track",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "umbra",
+   "trail",
+   "lamp",
+   "lamp"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

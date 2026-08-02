@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "penguin", "true": "penguin", "clues": ["black and white", "a bird", "it cannot fly", "it lives somewhere cold"], "rounds": 5, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["zebra", "sparrow", "is", "polarbear"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["panda", "falcon", "secret", "yeti"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["say", "eagle", "eagle", "polarbear"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["penguin", "say", "cannot", "going"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 5, "guesses": ["penguin", "eagle", "elephant", "polarbear"], "all_true": false, "clue_violations": []}

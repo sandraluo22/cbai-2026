@@ -1,0 +1,259 @@
+[
+ {
+  "type": "meta",
+  "quiz": "clock",
+  "true": "clock",
+  "clues": [
+   "round",
+   "it has hands",
+   "it hangs on a wall",
+   "it tells you something"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "is",
+   "clock",
+   "is",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "ball",
+   "watch",
+   "painting",
+   "tv"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "globe",
+   "watch",
+   "painting",
+   "tv"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "player",
+   "watch",
+   "mirror",
+   "calendar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "circle",
+   "watch",
+   "painting",
+   "microphone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "going",
+   "watch",
+   "mirror",
+   "microphone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "going",
+   "has",
+   "painting",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "going",
+   "watch",
+   "painting",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "for",
+   "watch",
+   "mirror",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "said",
+   "going",
+   "mirror",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "i",
+   "watch",
+   "mirror",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "circle",
+   "watch",
+   "is",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "going",
+   "watch",
+   "painting",
+   "given"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "circle",
+   "is",
+   "painting",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "circle",
+   "watch",
+   "mirror",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "going",
+   "watch",
+   "painting",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "circle",
+   "watch",
+   "painting",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "circle",
+   "watch",
+   "painting",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "circle",
+   "clock",
+   "painting",
+   "clock"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "circle",
+   "watch",
+   "painting",
+   "watch"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

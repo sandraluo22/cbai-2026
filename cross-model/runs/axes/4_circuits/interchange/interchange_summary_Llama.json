@@ -1,0 +1,40 @@
+{
+  "antiprism_disrupt_vs_parity": {
+    "prec@15": 0.26666666666666666,
+    "corr_top50": 0.36501071031301063
+  },
+  "ring_disrupt_vs_coord": {
+    "prec@15": 0.3333333333333333,
+    "corr_top50": 0.37916188187611133
+  },
+  "parity_specific_top": [
+    "L14H26",
+    "L2H22",
+    "L16H20",
+    "L15H17",
+    "L1H20",
+    "L21H10",
+    "L17H24",
+    "L16H1"
+  ],
+  "coord_specific_top": [
+    "L15H18",
+    "L18H22",
+    "L17H27",
+    "L16H0",
+    "L14H16",
+    "L20H14",
+    "L19H23",
+    "L4H16"
+  ],
+  "src_redirection_top(movers)": [
+    "L16H20",
+    "L21H10",
+    "L16H1",
+    "L17H24",
+    "L14H26",
+    "L2H27",
+    "L24H27",
+    "L18H20"
+  ]
+}

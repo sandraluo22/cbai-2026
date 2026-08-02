@@ -1,0 +1,9 @@
+# Open-weight games (GPU pod): torch + transformers already present on the pod.
+transformers>=4.56
+huggingface_hub>=0.24
+numpy
+matplotlib
+sentence-transformers   # embeddings for convergence / attractor metrics (falls back to hashing if absent)
+
+# API games (local, no GPU):
+anthropic>=0.40

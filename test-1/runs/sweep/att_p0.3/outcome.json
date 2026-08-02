@@ -1,0 +1,47 @@
+{
+ "cell": {
+  "ctx_a": 600,
+  "ctx_b": 600,
+  "tgen": 400,
+  "npairs": 6,
+  "temp": 1.0,
+  "qcomm": 1.0,
+  "seed": 0,
+  "metrics": {
+   "edit": 0,
+   "spectral": 0,
+   "shared_edges": 0
+  },
+  "name": "att_p0.3",
+  "ga": "grid4",
+  "gb": "ring16",
+  "topk": 4,
+  "topk_a": 4,
+  "topk_b": 2,
+  "p_emit_a": 0.3,
+  "words": "clock,lemon,jacket,wheel,tiger,pencil,coin,bird,anchor,ocean,chair,candle,bread,mirror,apple,river"
+ },
+ "P_A_win": 0.16666666666666666,
+ "win_margin": 0.08961474036850921,
+ "T_consensus": 109,
+ "js_final": 0.0019440000000000002,
+ "js0": 0.25405999999999995,
+ "rep_dist_late": 0.0013784584378450093,
+ "rep_dist_base": 0.15815460419122618,
+ "fit": {
+  "A": 0.3501181034684292,
+  "B": 0.5960370875353957,
+  "U": 0.5363414115461125,
+  "E": 0.8803573177329083
+ },
+ "fit_by_side": {
+  "A": {
+   "A": 0.3536764650323507,
+   "B": 0.5868557893698483
+  },
+  "B": {
+   "A": 0.3465597419045076,
+   "B": 0.6052183857009434
+  }
+ }
+}

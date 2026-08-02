@@ -1,0 +1,184 @@
+[
+  {
+    "name": "gap1.5_moderate_lean",
+    "kind": "main",
+    "gap": 1.5,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_moderate_lean",
+    "kind": "main",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap3.0_moderate_lean",
+    "kind": "main",
+    "gap": 3.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap5.0_moderate_lean",
+    "kind": "main",
+    "gap": 5.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_faint_lean",
+    "kind": "rep",
+    "gap": 2.0,
+    "rep_strength": "faint",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_strong_lean",
+    "kind": "rep",
+    "gap": 2.0,
+    "rep_strength": "strong",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_moderate_self_history",
+    "kind": "info",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "self_history",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_moderate_summary",
+    "kind": "info",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "summary",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_moderate_full",
+    "kind": "info",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "full",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 20
+  },
+  {
+    "name": "gap2.0_robust_swaplabels",
+    "kind": "robust",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "B",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 12
+  },
+  {
+    "name": "gap2.0_robust_order",
+    "kind": "robust",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "B",
+      "A"
+    ],
+    "paraphrase": 0,
+    "n_games": 12
+  },
+  {
+    "name": "gap2.0_robust_paraphrase",
+    "kind": "robust",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "lean",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 1,
+    "n_games": 12
+  },
+  {
+    "name": "gap2.0_moderate_no_advisor",
+    "kind": "sanity",
+    "gap": 2.0,
+    "rep_strength": "moderate",
+    "info_level": "no_advisor",
+    "rep_letter": "A",
+    "order": [
+      "A",
+      "B"
+    ],
+    "paraphrase": 0,
+    "n_games": 12
+  }
+]

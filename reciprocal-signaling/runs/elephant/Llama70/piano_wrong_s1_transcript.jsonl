@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "piano_wrong", "true": "piano", "clues": ["it has black and white parts", "a musical instrument", "it has keys", "large and heavy", "you blow into it"], "kind": "word", "wrong_agent": 4, "rounds": 5, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["zebra", "is", "is", "mountain", "trombone"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["piano", "musical", "has", "is", "flute"], "all_true": false, "clue_violations": [2, 3]}
+{"type": "round", "round": 3, "guesses": ["say", "violin", "keyboard", "boulder", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["piano", "violin", "has", "elephant", "harmonica"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 5, "guesses": ["has", "violin", "has", "large", "harmonica"], "all_true": false, "clue_violations": [1, 3, 4]}

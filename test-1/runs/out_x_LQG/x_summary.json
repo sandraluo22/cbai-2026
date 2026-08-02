@@ -1,0 +1,118 @@
+{
+  "instances": [
+    [
+      "Llama",
+      "ring",
+      2
+    ],
+    [
+      "Qwen",
+      "grid",
+      4
+    ],
+    [
+      "Gemma",
+      "ring3",
+      2
+    ]
+  ],
+  "stream_mass_late": {
+    "ring": 0.6531476997578692,
+    "grid": 0.601089588377724,
+    "ring3": 0.17009685230024213,
+    "union": 0.8692493946731235
+  },
+  "top_oscillating_pairs": [
+    [
+      "cloud",
+      "clock",
+      0.237
+    ],
+    [
+      "cloud",
+      "cloud",
+      0.124
+    ],
+    [
+      "apple",
+      "apple",
+      0.114
+    ]
+  ],
+  "r2_deep": {
+    "Llama-ring": {
+      "base": {
+        "ring": 0.3528066071895564,
+        "grid": 0.17569580601553553,
+        "ring3": 0.047557830327280864
+      },
+      "late": {
+        "ring": 0.22988270030794095,
+        "grid": 0.12313960479937071,
+        "ring3": 0.15325541102878815
+      }
+    },
+    "Qwen-grid": {
+      "base": {
+        "ring": 0.1849493781300254,
+        "grid": 0.3173242759637504,
+        "ring3": 0.09135001218495817
+      },
+      "late": {
+        "ring": 0.22288719150653266,
+        "grid": 0.090448881906949,
+        "ring3": 0.16018042470272428
+      }
+    },
+    "Gemma-ring3": {
+      "base": {
+        "ring": 0.07090935728276584,
+        "grid": 0.07827508229686592,
+        "ring3": 0.38864201316361996
+      },
+      "late": {
+        "ring": 0.23048491173474536,
+        "grid": 0.1169637940519368,
+        "ring3": 0.17046101805497038
+      }
+    },
+    "fresh-Llama": {
+      "late": {
+        "ring": 0.22429306354036796,
+        "grid": 0.11305364080035173,
+        "ring3": 0.15279250891009494
+      }
+    },
+    "fresh-Qwen": {
+      "late": {
+        "ring": 0.22667767463238184,
+        "grid": 0.09219501472328002,
+        "ring3": 0.15957333845905777
+      }
+    },
+    "fresh-Gemma": {
+      "late": {
+        "ring": 0.23075498339755204,
+        "grid": 0.1156459766266797,
+        "ring3": 0.1735245157873745
+      }
+    }
+  },
+  "procrustes_deep": {
+    "Llama-ring vs Qwen-grid | base": 0.899693886391618,
+    "Llama-ring vs Qwen-grid | late": 0.9841415945746881,
+    "Llama-ring vs Gemma-ring3 | base": 0.8246205282742374,
+    "Llama-ring vs Gemma-ring3 | late": 0.9908854567813021,
+    "Qwen-grid vs Gemma-ring3 | base": 0.880692673677327,
+    "Qwen-grid vs Gemma-ring3 | late": 0.9888509493896609,
+    "Llama-ring vs fresh-Llama | late": 0.9987284226303548,
+    "Llama-ring | base vs late": 0.6161082934939072,
+    "Qwen-grid vs fresh-Qwen | late": 0.9991208185272048,
+    "Qwen-grid | base vs late": 0.5415252817424169,
+    "Gemma-ring3 vs fresh-Gemma | late": 0.9988085479853828,
+    "Gemma-ring3 | base vs late": 0.5657193638789452,
+    "fresh-Llama vs fresh-Qwen | late": 0.9846679247838058,
+    "fresh-Llama vs fresh-Gemma | late": 0.9886978011225401,
+    "fresh-Qwen vs fresh-Gemma | late": 0.9866527620037898
+  }
+}

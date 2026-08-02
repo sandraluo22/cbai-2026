@@ -1,0 +1,67 @@
+{
+  "sizes": [
+    4,
+    5,
+    6
+  ],
+  "nwalk": 16,
+  "xctx": 40,
+  "gsteps": 240,
+  "ctxlo": 60,
+  "levels": [
+    {
+      "side": 4,
+      "n": 16,
+      "n_occ": 3536,
+      "q_to_llama_pred": 0.5845316648483276,
+      "q_to_ideal": 0.9980201217036682,
+      "q_to_deviation": 0.806043072246126,
+      "q_to_llama_resid": 0.7347866892814636,
+      "llama_self_ceiling": 0.755123496055603,
+      "llama_vs_ideal_r2": -0.8817015832600119,
+      "peak_layers": {
+        "q_llama": 29,
+        "q_ideal": 0,
+        "q_dev": 29,
+        "q_resid": 34,
+        "ceil": 29
+      }
+    },
+    {
+      "side": 5,
+      "n": 25,
+      "n_occ": 3536,
+      "q_to_llama_pred": 0.6989458799362183,
+      "q_to_ideal": 0.9967966324273946,
+      "q_to_deviation": 0.7712826495365748,
+      "q_to_llama_resid": 0.7595276832580566,
+      "llama_self_ceiling": 0.7443161010742188,
+      "llama_vs_ideal_r2": -0.7194303082460729,
+      "peak_layers": {
+        "q_llama": 30,
+        "q_ideal": 0,
+        "q_dev": 29,
+        "q_resid": 31,
+        "ceil": 24
+      }
+    },
+    {
+      "side": 6,
+      "n": 36,
+      "n_occ": 3536,
+      "q_to_llama_pred": 0.6219204068183899,
+      "q_to_ideal": 0.9907975758150442,
+      "q_to_deviation": 0.7121999764612059,
+      "q_to_llama_resid": 0.7374184131622314,
+      "llama_self_ceiling": 0.6506010293960571,
+      "llama_vs_ideal_r2": -0.5636043616799546,
+      "peak_layers": {
+        "q_llama": 29,
+        "q_ideal": 0,
+        "q_dev": 29,
+        "q_resid": 32,
+        "ceil": 24
+      }
+    }
+  ]
+}

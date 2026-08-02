@@ -1,0 +1,2095 @@
+[
+  {
+    "rollout": 0,
+    "turn": 1,
+    "A": "tested",
+    "B": "mended",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 2,
+    "A": "chased",
+    "B": "adjusted",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 3,
+    "A": "matched",
+    "B": "tamed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 4,
+    "A": "aligned",
+    "B": "fixed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 5,
+    "A": "aligned",
+    "B": "polished",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 6,
+    "A": "aligned",
+    "B": "trimmed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 7,
+    "A": "aligned",
+    "B": "honed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 8,
+    "A": "aligned",
+    "B": "shaped",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 9,
+    "A": "aligned",
+    "B": "beaten",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 10,
+    "A": "aligned",
+    "B": "carved",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 11,
+    "A": "aligned",
+    "B": "grounded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 12,
+    "A": "aligned",
+    "B": "forged",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 13,
+    "A": "aligned",
+    "B": "crafted",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 14,
+    "A": "aligned",
+    "B": "formed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 15,
+    "A": "aligned",
+    "B": "chiseled",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 16,
+    "A": "aligned",
+    "B": "molded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 17,
+    "A": "aligned",
+    "B": "sanded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 18,
+    "A": "aligned",
+    "B": "smoothed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 19,
+    "A": "aligned",
+    "B": "squared",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 20,
+    "A": "aligned",
+    "B": "stretched",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 21,
+    "A": "aligned",
+    "B": "stabil",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 22,
+    "A": "aligned",
+    "B": "stabilized",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 23,
+    "A": "aligned",
+    "B": "trimmed",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 1,
+    "A": "tapes",
+    "B": "beg",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 2,
+    "A": "scent",
+    "B": "taper",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 3,
+    "A": "carnage",
+    "B": "cent",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 4,
+    "A": "bandage",
+    "B": "scented",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 5,
+    "A": "cannon",
+    "B": "bandaged",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 6,
+    "A": "cannoned",
+    "B": "cannoned",
+    "agreed": true
+  },
+  {
+    "rollout": 2,
+    "turn": 1,
+    "A": "history",
+    "B": "truth",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 2,
+    "A": "tree",
+    "B": "mirror",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 3,
+    "A": "carrot",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 4,
+    "A": "night",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 5,
+    "A": "moon",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 6,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "rollout": 3,
+    "turn": 1,
+    "A": "ballet",
+    "B": "cucumber",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 2,
+    "A": "tango",
+    "B": "tangerine",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 3,
+    "A": "sonnet",
+    "B": "dolphin",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 4,
+    "A": "sonnet",
+    "B": "sonar",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 5,
+    "A": "sonnet",
+    "B": "balletic",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 6,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 7,
+    "A": "sonnet",
+    "B": "dolphins",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 8,
+    "A": "sonnet",
+    "B": "tangoes",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 9,
+    "A": "sonnet",
+    "B": "tangos",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 10,
+    "A": "sonnet",
+    "B": "tangier",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 11,
+    "A": "sonnet",
+    "B": "tangy",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 12,
+    "A": "sonnet",
+    "B": "sonnets",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 13,
+    "A": "sonnet",
+    "B": "tangiers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 14,
+    "A": "sonnet",
+    "B": "songster",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 15,
+    "A": "sonnet",
+    "B": "sontag",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 16,
+    "A": "sonnet",
+    "B": "songstress",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 17,
+    "A": "sonnet",
+    "B": "songbook",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 18,
+    "A": "sonnet",
+    "B": "songbird",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 19,
+    "A": "sonnet",
+    "B": "songwriting",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 20,
+    "A": "sonnet",
+    "B": "songful",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 21,
+    "A": "sonnet",
+    "B": "song",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 22,
+    "A": "sonnet",
+    "B": "songbirded",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 23,
+    "A": "sonnet",
+    "B": "songfulness",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 1,
+    "A": "mirrors",
+    "B": "jubil",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 2,
+    "A": "whispers",
+    "B": "gleam",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 3,
+    "A": "tide",
+    "B": "cradle",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 4,
+    "A": "shadowed",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 5,
+    "A": "dawned",
+    "B": "tremble",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 6,
+    "A": "reverber",
+    "B": "hush",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 7,
+    "A": "resonate",
+    "B": "resonate",
+    "agreed": true
+  },
+  {
+    "rollout": 5,
+    "turn": 1,
+    "A": "teams",
+    "B": "daisy",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 2,
+    "A": "chair",
+    "B": "sushi",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 3,
+    "A": "dance",
+    "B": "glove",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 4,
+    "A": "lamp",
+    "B": "baker",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 5,
+    "A": "lamp",
+    "B": "clock",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 6,
+    "A": "lamp",
+    "B": "bench",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 7,
+    "A": "lamp",
+    "B": "table",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 8,
+    "A": "lamp",
+    "B": "river",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 9,
+    "A": "lamp",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 10,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 11,
+    "A": "lamp",
+    "B": "castle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 12,
+    "A": "lamp",
+    "B": "beard",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 13,
+    "A": "lamp",
+    "B": "bridge",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 14,
+    "A": "lamp",
+    "B": "beetle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 15,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 16,
+    "A": "lamp",
+    "B": "beauty",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 17,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 18,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 19,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 20,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 21,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 22,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 23,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 1,
+    "A": "symphony",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 2,
+    "A": "symphony",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 3,
+    "A": "symphony",
+    "B": "music",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 4,
+    "A": "symphony",
+    "B": "band",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 5,
+    "A": "symphony",
+    "B": "orchestra",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 6,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 7,
+    "A": "symphony",
+    "B": "string",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 8,
+    "A": "symphony",
+    "B": "ensemble",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 9,
+    "A": "symphony",
+    "B": "harmonize",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 10,
+    "A": "symphony",
+    "B": "sing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 11,
+    "A": "symphony",
+    "B": "solo",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 12,
+    "A": "symphony",
+    "B": "singing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 13,
+    "A": "symphony",
+    "B": "soloist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 14,
+    "A": "symphony",
+    "B": "soloed",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 15,
+    "A": "symphony",
+    "B": "chorus",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 16,
+    "A": "symphony",
+    "B": "soloing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 17,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 18,
+    "A": "symphony",
+    "B": "choirs",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 19,
+    "A": "symphony",
+    "B": "soprano",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 20,
+    "A": "symphony",
+    "B": "solist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 21,
+    "A": "symphony",
+    "B": "solist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 22,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 23,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 1,
+    "A": "silent",
+    "B": "serene",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 2,
+    "A": "bravely",
+    "B": "calm",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 3,
+    "A": "calmly",
+    "B": "boldly",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 4,
+    "A": "quietly",
+    "B": "quietly",
+    "agreed": true
+  },
+  {
+    "rollout": 8,
+    "turn": 1,
+    "A": "echo",
+    "B": "resilient",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 2,
+    "A": "murmur",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 3,
+    "A": "roar",
+    "B": "symphony",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 4,
+    "A": "thunder",
+    "B": "resonate",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 5,
+    "A": "thunder",
+    "B": "vibrate",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 6,
+    "A": "thunder",
+    "B": "shatter",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 7,
+    "A": "thunder",
+    "B": "quiver",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 8,
+    "A": "thunder",
+    "B": "tremble",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 9,
+    "A": "thunder",
+    "B": "rumble",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 10,
+    "A": "thunder",
+    "B": "clap",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 11,
+    "A": "thunder",
+    "B": "crash",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 12,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 13,
+    "A": "thunder",
+    "B": "thundered",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 14,
+    "A": "thunder",
+    "B": "thunderer",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 15,
+    "A": "thunder",
+    "B": "thunderers",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 16,
+    "A": "thunder",
+    "B": "thunderstorm",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 17,
+    "A": "thunder",
+    "B": "thunders",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 18,
+    "A": "thunder",
+    "B": "thunderously",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 19,
+    "A": "thunder",
+    "B": "thundering",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 20,
+    "A": "thunder",
+    "B": "thunderbolt",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 21,
+    "A": "thunder",
+    "B": "thunderous",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 22,
+    "A": "thunder",
+    "B": "thunderstr",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 23,
+    "A": "thunder",
+    "B": "thundercr",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 1,
+    "A": "exact",
+    "B": "crisp",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 2,
+    "A": "damp",
+    "B": "sharp",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 3,
+    "A": "dry",
+    "B": "dazzle",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 4,
+    "A": "bore",
+    "B": "dusty",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 5,
+    "A": "dormant",
+    "B": "bland",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 6,
+    "A": "dared",
+    "B": "bust",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 7,
+    "A": "dared",
+    "B": "dull",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 8,
+    "A": "dared",
+    "B": "dare",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 9,
+    "A": "dared",
+    "B": "daring",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 10,
+    "A": "dared",
+    "B": "daringly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 11,
+    "A": "dared",
+    "B": "damply",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 12,
+    "A": "dared",
+    "B": "blandly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 13,
+    "A": "dared",
+    "B": "blandest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 14,
+    "A": "dared",
+    "B": "blandish",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 15,
+    "A": "dared",
+    "B": "daredevil",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 16,
+    "A": "dared",
+    "B": "darefully",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 17,
+    "A": "dared",
+    "B": "blandishment",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 18,
+    "A": "dared",
+    "B": "blandishments",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 19,
+    "A": "dared",
+    "B": "blandness",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 20,
+    "A": "dared",
+    "B": "daredly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 21,
+    "A": "dared",
+    "B": "dares",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 22,
+    "A": "dared",
+    "B": "blander",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 23,
+    "A": "dared",
+    "B": "daringness",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 1,
+    "A": "admitted",
+    "B": "baked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 2,
+    "A": "admitted",
+    "B": "sealed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 3,
+    "A": "admitted",
+    "B": "pressed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 4,
+    "A": "admitted",
+    "B": "waxed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 5,
+    "A": "admitted",
+    "B": "cooked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 6,
+    "A": "admitted",
+    "B": "stitched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 7,
+    "A": "admitted",
+    "B": "fried",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 8,
+    "A": "admitted",
+    "B": "braised",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 9,
+    "A": "admitted",
+    "B": "boiled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 10,
+    "A": "admitted",
+    "B": "simmered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 11,
+    "A": "admitted",
+    "B": "roasted",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 12,
+    "A": "admitted",
+    "B": "charred",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 13,
+    "A": "admitted",
+    "B": "sauted",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 14,
+    "A": "admitted",
+    "B": "smoked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 15,
+    "A": "admitted",
+    "B": "steamed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 16,
+    "A": "admitted",
+    "B": "battered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 17,
+    "A": "admitted",
+    "B": "glazed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 18,
+    "A": "admitted",
+    "B": "smudged",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 19,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 20,
+    "A": "admitted",
+    "B": "marinated",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 21,
+    "A": "admitted",
+    "B": "flamb",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 22,
+    "A": "admitted",
+    "B": "cured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 23,
+    "A": "admitted",
+    "B": "steeped",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 1,
+    "A": "gold",
+    "B": "ballet",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 2,
+    "A": "crown",
+    "B": "silent",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 3,
+    "A": "iron",
+    "B": "jester",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 4,
+    "A": "ring",
+    "B": "key",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 5,
+    "A": "diamond",
+    "B": "mask",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 6,
+    "A": "pearl",
+    "B": "ace",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 7,
+    "A": "onyx",
+    "B": "queen",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 8,
+    "A": "onyx",
+    "B": "ace",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 9,
+    "A": "onyx",
+    "B": "crimson",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 10,
+    "A": "onyx",
+    "B": "sapphire",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 11,
+    "A": "onyx",
+    "B": "amber",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 12,
+    "A": "onyx",
+    "B": "emerald",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 13,
+    "A": "onyx",
+    "B": "amulet",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 14,
+    "A": "onyx",
+    "B": "amber",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 15,
+    "A": "onyx",
+    "B": "amethyst",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 16,
+    "A": "onyx",
+    "B": "ruby",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 17,
+    "A": "onyx",
+    "B": "obsidian",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 18,
+    "A": "onyx",
+    "B": "opal",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 19,
+    "A": "onyx",
+    "B": "opulent",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 20,
+    "A": "onyx",
+    "B": "sable",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 21,
+    "A": "onyx",
+    "B": "bronze",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 22,
+    "A": "onyx",
+    "B": "obscured",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 23,
+    "A": "onyx",
+    "B": "obscurity",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 1,
+    "A": "mirror",
+    "B": "yours",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 2,
+    "A": "symphony",
+    "B": "yonder",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 3,
+    "A": "serenity",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 4,
+    "A": "calm",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 5,
+    "A": "calm",
+    "B": "still",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 6,
+    "A": "calm",
+    "B": "quiet",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 7,
+    "A": "calm",
+    "B": "peace",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 8,
+    "A": "calm",
+    "B": "tranquil",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 9,
+    "A": "calm",
+    "B": "hush",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 10,
+    "A": "calm",
+    "B": "whisper",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 11,
+    "A": "calm",
+    "B": "soft",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 12,
+    "A": "calm",
+    "B": "gentle",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 13,
+    "A": "calm",
+    "B": "soothe",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 14,
+    "A": "calm",
+    "B": "breeze",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 15,
+    "A": "calm",
+    "B": "balm",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 16,
+    "A": "calm",
+    "B": "serene",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 17,
+    "A": "calm",
+    "B": "breezy",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 18,
+    "A": "calm",
+    "B": "calmless",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 19,
+    "A": "calm",
+    "B": "calmly",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 20,
+    "A": "calm",
+    "B": "calmed",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 21,
+    "A": "calm",
+    "B": "calmest",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 22,
+    "A": "calm",
+    "B": "calming",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 23,
+    "A": "calm",
+    "B": "calmer",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 1,
+    "A": "harmony",
+    "B": "dragon",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 2,
+    "A": "tango",
+    "B": "sunlight",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 3,
+    "A": "alpha",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 4,
+    "A": "alpha",
+    "B": "beta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 5,
+    "A": "alpha",
+    "B": "gamma",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 6,
+    "A": "alpha",
+    "B": "omega",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 7,
+    "A": "alpha",
+    "B": "delta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 8,
+    "A": "alpha",
+    "B": "zebra",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 9,
+    "A": "alpha",
+    "B": "theta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 10,
+    "A": "alpha",
+    "B": "sigma",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 11,
+    "A": "alpha",
+    "B": "kappa",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 12,
+    "A": "alpha",
+    "B": "lambda",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 13,
+    "A": "alpha",
+    "B": "castle",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 14,
+    "A": "alpha",
+    "B": "novel",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 15,
+    "A": "alpha",
+    "B": "quartz",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 16,
+    "A": "alpha",
+    "B": "anchor",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 17,
+    "A": "alpha",
+    "B": "brick",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 18,
+    "A": "alpha",
+    "B": "rocket",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 19,
+    "A": "alpha",
+    "B": "yacht",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 20,
+    "A": "alpha",
+    "B": "jungle",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 21,
+    "A": "alpha",
+    "B": "zeta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 22,
+    "A": "alpha",
+    "B": "apollo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 23,
+    "A": "alpha",
+    "B": "asteroid",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 1,
+    "A": "echo",
+    "B": "drought",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 2,
+    "A": "echo",
+    "B": "gamma",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 3,
+    "A": "echo",
+    "B": "delta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 4,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 5,
+    "A": "echo",
+    "B": "beta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 6,
+    "A": "echo",
+    "B": "theta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 7,
+    "A": "echo",
+    "B": "zeta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 8,
+    "A": "echo",
+    "B": "omega",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 9,
+    "A": "echo",
+    "B": "epsilon",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 10,
+    "A": "echo",
+    "B": "kilo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 11,
+    "A": "echo",
+    "B": "sigma",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 12,
+    "A": "echo",
+    "B": "india",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 13,
+    "A": "echo",
+    "B": "charlie",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 14,
+    "A": "echo",
+    "B": "foxtrot",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 15,
+    "A": "echo",
+    "B": "romeo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 16,
+    "A": "echo",
+    "B": "november",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 17,
+    "A": "echo",
+    "B": "uniform",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 18,
+    "A": "echo",
+    "B": "bravo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 19,
+    "A": "echo",
+    "B": "microwave",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 20,
+    "A": "echo",
+    "B": "novelty",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 21,
+    "A": "echo",
+    "B": "tango",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 22,
+    "A": "echo",
+    "B": "kappa",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 23,
+    "A": "echo",
+    "B": "x-ray",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 1,
+    "A": "mirror",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 2,
+    "A": "echo",
+    "B": "shadow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 3,
+    "A": "echo",
+    "B": "reflection",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 4,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 5,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 6,
+    "A": "echo",
+    "B": "ripple",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 7,
+    "A": "echo",
+    "B": "pulse",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 8,
+    "A": "echo",
+    "B": "glow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 9,
+    "A": "echo",
+    "B": "shimmer",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 10,
+    "A": "echo",
+    "B": "afterimage",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 11,
+    "A": "echo",
+    "B": "trace",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 12,
+    "A": "echo",
+    "B": "resonate",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 13,
+    "A": "echo",
+    "B": "reverie",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 14,
+    "A": "echo",
+    "B": "ghost",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 15,
+    "A": "echo",
+    "B": "whisper",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 16,
+    "A": "echo",
+    "B": "phantom",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 17,
+    "A": "echo",
+    "B": "image",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 18,
+    "A": "echo",
+    "B": "afterglow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 19,
+    "A": "echo",
+    "B": "afterthought",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 20,
+    "A": "echo",
+    "B": "afterlife",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 21,
+    "A": "echo",
+    "B": "aftermath",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 22,
+    "A": "echo",
+    "B": "legacy",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 23,
+    "A": "echo",
+    "B": "imprint",
+    "agreed": false
+  }
+]

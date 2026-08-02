@@ -1,0 +1,34 @@
+{
+ "model": "LlamaInst70",
+ "temp": 0.7,
+ "safety": 24,
+ "n": 16,
+ "board": [
+  "river",
+  "wave",
+  "ice",
+  "mist",
+  "star",
+  "flame",
+  "dawn",
+  "glow",
+  "stone",
+  "moss",
+  "sand",
+  "peak",
+  "wind",
+  "cloud",
+  "echo",
+  "storm"
+ ],
+ "conditions": {
+  "city-coastal": {
+   "n": 16,
+   "met_frac": 0.0,
+   "met_se": 0.0,
+   "turns_mean": null,
+   "turns_se": null,
+   "n_met": 0
+  }
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "model": "QwenInst32",
+ "temp": 0.7,
+ "n": 24,
+ "rounds": 10,
+ "games": [
+  {
+   "rollout": 0,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 1,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 2,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 3,
+   "pref": "water",
+   "score": 3
+  },
+  {
+   "rollout": 4,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 5,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 6,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 7,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 8,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 9,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 10,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 11,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 12,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 13,
+   "pref": "water",
+   "score": 3
+  },
+  {
+   "rollout": 14,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 15,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 16,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 17,
+   "pref": "water",
+   "score": 1
+  },
+  {
+   "rollout": 18,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 19,
+   "pref": "water",
+   "score": 2
+  },
+  {
+   "rollout": 20,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 21,
+   "pref": "water",
+   "score": 1
+  },
+  {
+   "rollout": 22,
+   "pref": "city",
+   "score": 8
+  },
+  {
+   "rollout": 23,
+   "pref": "water",
+   "score": 3
+  }
+ ]
+}

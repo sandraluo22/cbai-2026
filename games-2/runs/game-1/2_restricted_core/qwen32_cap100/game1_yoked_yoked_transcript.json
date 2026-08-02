@@ -1,0 +1,7177 @@
+[
+  {
+    "rollout": 0,
+    "turn": 1,
+    "A": "tested",
+    "B": "mended",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 2,
+    "A": "chased",
+    "B": "adjusted",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 3,
+    "A": "matched",
+    "B": "tamed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 4,
+    "A": "aligned",
+    "B": "fixed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 5,
+    "A": "aligned",
+    "B": "polished",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 6,
+    "A": "aligned",
+    "B": "trimmed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 7,
+    "A": "aligned",
+    "B": "honed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 8,
+    "A": "aligned",
+    "B": "shaped",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 9,
+    "A": "aligned",
+    "B": "beaten",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 10,
+    "A": "aligned",
+    "B": "carved",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 11,
+    "A": "aligned",
+    "B": "grounded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 12,
+    "A": "aligned",
+    "B": "forged",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 13,
+    "A": "aligned",
+    "B": "crafted",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 14,
+    "A": "aligned",
+    "B": "formed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 15,
+    "A": "aligned",
+    "B": "chiseled",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 16,
+    "A": "aligned",
+    "B": "molded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 17,
+    "A": "aligned",
+    "B": "sanded",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 18,
+    "A": "aligned",
+    "B": "smoothed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 19,
+    "A": "aligned",
+    "B": "squared",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 20,
+    "A": "aligned",
+    "B": "stretched",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 21,
+    "A": "aligned",
+    "B": "stabil",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 22,
+    "A": "aligned",
+    "B": "stabilized",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 23,
+    "A": "aligned",
+    "B": "trimmed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 24,
+    "A": "aligned",
+    "B": "conditioned",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 25,
+    "A": "aligned",
+    "B": "toned",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 26,
+    "A": "aligned",
+    "B": "refined",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 27,
+    "A": "aligned",
+    "B": "trained",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 28,
+    "A": "aligned",
+    "B": "tuned",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 29,
+    "A": "aligned",
+    "B": "sharpened",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 30,
+    "A": "aligned",
+    "B": "trimmed",
+    "agreed": false
+  },
+  {
+    "rollout": 0,
+    "turn": 31,
+    "A": "aligned",
+    "B": "aligned",
+    "agreed": true
+  },
+  {
+    "rollout": 1,
+    "turn": 1,
+    "A": "tapes",
+    "B": "beg",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 2,
+    "A": "scent",
+    "B": "taper",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 3,
+    "A": "carnage",
+    "B": "cent",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 4,
+    "A": "bandage",
+    "B": "scented",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 5,
+    "A": "cannon",
+    "B": "bandaged",
+    "agreed": false
+  },
+  {
+    "rollout": 1,
+    "turn": 6,
+    "A": "cannoned",
+    "B": "cannoned",
+    "agreed": true
+  },
+  {
+    "rollout": 2,
+    "turn": 1,
+    "A": "history",
+    "B": "truth",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 2,
+    "A": "tree",
+    "B": "mirror",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 3,
+    "A": "carrot",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 4,
+    "A": "night",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 5,
+    "A": "moon",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "rollout": 2,
+    "turn": 6,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "rollout": 3,
+    "turn": 1,
+    "A": "ballet",
+    "B": "cucumber",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 2,
+    "A": "tango",
+    "B": "tangerine",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 3,
+    "A": "sonnet",
+    "B": "dolphin",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 4,
+    "A": "sonnet",
+    "B": "sonar",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 5,
+    "A": "sonnet",
+    "B": "balletic",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 6,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 7,
+    "A": "sonnet",
+    "B": "dolphins",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 8,
+    "A": "sonnet",
+    "B": "tangoes",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 9,
+    "A": "sonnet",
+    "B": "tangos",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 10,
+    "A": "sonnet",
+    "B": "tangier",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 11,
+    "A": "sonnet",
+    "B": "tangy",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 12,
+    "A": "sonnet",
+    "B": "sonnets",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 13,
+    "A": "sonnet",
+    "B": "tangiers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 14,
+    "A": "sonnet",
+    "B": "songster",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 15,
+    "A": "sonnet",
+    "B": "sontag",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 16,
+    "A": "sonnet",
+    "B": "songstress",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 17,
+    "A": "sonnet",
+    "B": "songbook",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 18,
+    "A": "sonnet",
+    "B": "songbird",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 19,
+    "A": "sonnet",
+    "B": "songwriting",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 20,
+    "A": "sonnet",
+    "B": "songful",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 21,
+    "A": "sonnet",
+    "B": "song",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 22,
+    "A": "sonnet",
+    "B": "songbirded",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 23,
+    "A": "sonnet",
+    "B": "songfulness",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 24,
+    "A": "sonnet",
+    "B": "songo",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 25,
+    "A": "sonnet",
+    "B": "songfuler",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 26,
+    "A": "sonnet",
+    "B": "songfully",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 27,
+    "A": "sonnet",
+    "B": "songfest",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 28,
+    "A": "sonnet",
+    "B": "songoist",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 29,
+    "A": "sonnet",
+    "B": "songoes",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 30,
+    "A": "sonnet",
+    "B": "songoing",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 31,
+    "A": "sonnet",
+    "B": "songoed",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 32,
+    "A": "sonnet",
+    "B": "songify",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 33,
+    "A": "sonnet",
+    "B": "songfulness",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 34,
+    "A": "sonnet",
+    "B": "songifyer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 35,
+    "A": "sonnet",
+    "B": "songman",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 36,
+    "A": "sonnet",
+    "B": "songbirding",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 37,
+    "A": "sonnet",
+    "B": "songbirdly",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 38,
+    "A": "sonnet",
+    "B": "sonneted",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 39,
+    "A": "sonnet",
+    "B": "songmaned",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 40,
+    "A": "sonnet",
+    "B": "songwritingly",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 41,
+    "A": "sonnet",
+    "B": "songsterly",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 42,
+    "A": "sonnet",
+    "B": "songsmith",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 43,
+    "A": "sonnet",
+    "B": "songmanly",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 44,
+    "A": "sonnet",
+    "B": "songbirdness",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 45,
+    "A": "sonnet",
+    "B": "songbirdish",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 46,
+    "A": "sonnet",
+    "B": "songmanish",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 47,
+    "A": "sonnet",
+    "B": "songmanism",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 48,
+    "A": "sonnet",
+    "B": "songsterism",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 49,
+    "A": "sonnet",
+    "B": "songbirdlike",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 50,
+    "A": "sonnet",
+    "B": "songbirdy",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 51,
+    "A": "sonnet",
+    "B": "songwriter",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 52,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 53,
+    "A": "sonnet",
+    "B": "songmanry",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 54,
+    "A": "sonnet",
+    "B": "songy",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 55,
+    "A": "sonnet",
+    "B": "songmanhood",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 56,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 57,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 58,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 59,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 60,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 61,
+    "A": "sonnet",
+    "B": "sonnetteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 62,
+    "A": "sonnet",
+    "B": "songbirdness",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 63,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 64,
+    "A": "sonnet",
+    "B": "songbirdhood",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 65,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 66,
+    "A": "sonnet",
+    "B": "sonnetteers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 67,
+    "A": "sonnet",
+    "B": "sonnete",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 68,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 69,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 70,
+    "A": "sonnet",
+    "B": "songified",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 71,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 72,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 73,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 74,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 75,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 76,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 77,
+    "A": "sonnet",
+    "B": "songbooker",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 78,
+    "A": "sonnet",
+    "B": "songbookish",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 79,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 80,
+    "A": "sonnet",
+    "B": "songbookers",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 81,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 82,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 83,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 84,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 85,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 86,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 87,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 88,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 89,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 90,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 91,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 92,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 93,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 94,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 95,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 96,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 97,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 98,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 3,
+    "turn": 99,
+    "A": "sonnet",
+    "B": "sonneteer",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 1,
+    "A": "mirrors",
+    "B": "jubil",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 2,
+    "A": "whispers",
+    "B": "gleam",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 3,
+    "A": "tide",
+    "B": "cradle",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 4,
+    "A": "shadowed",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 5,
+    "A": "dawned",
+    "B": "tremble",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 6,
+    "A": "reverber",
+    "B": "hush",
+    "agreed": false
+  },
+  {
+    "rollout": 4,
+    "turn": 7,
+    "A": "resonate",
+    "B": "resonate",
+    "agreed": true
+  },
+  {
+    "rollout": 5,
+    "turn": 1,
+    "A": "teams",
+    "B": "daisy",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 2,
+    "A": "chair",
+    "B": "sushi",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 3,
+    "A": "dance",
+    "B": "glove",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 4,
+    "A": "lamp",
+    "B": "baker",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 5,
+    "A": "lamp",
+    "B": "clock",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 6,
+    "A": "lamp",
+    "B": "bench",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 7,
+    "A": "lamp",
+    "B": "table",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 8,
+    "A": "lamp",
+    "B": "river",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 9,
+    "A": "lamp",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 10,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 11,
+    "A": "lamp",
+    "B": "castle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 12,
+    "A": "lamp",
+    "B": "beard",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 13,
+    "A": "lamp",
+    "B": "bridge",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 14,
+    "A": "lamp",
+    "B": "beetle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 15,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 16,
+    "A": "lamp",
+    "B": "beauty",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 17,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 18,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 19,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 20,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 21,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 22,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 23,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 24,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 25,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 26,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 27,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 28,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 29,
+    "A": "lamp",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 30,
+    "A": "lamp",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 31,
+    "A": "lamp",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 32,
+    "A": "juice",
+    "B": "beast",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 33,
+    "A": "juice",
+    "B": "beach",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 34,
+    "A": "juice",
+    "B": "beacon",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 35,
+    "A": "juice",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 36,
+    "A": "juice",
+    "B": "forest",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 37,
+    "A": "juice",
+    "B": "tiger",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 38,
+    "A": "juice",
+    "B": "island",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 39,
+    "A": "juice",
+    "B": "jungle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 40,
+    "A": "juice",
+    "B": "tide",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 41,
+    "A": "juice",
+    "B": "tunnel",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 42,
+    "A": "juice",
+    "B": "tundra",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 43,
+    "A": "juice",
+    "B": "tune",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 44,
+    "A": "juice",
+    "B": "tame",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 45,
+    "A": "juice",
+    "B": "tamer",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 46,
+    "A": "juice",
+    "B": "tango",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 47,
+    "A": "juice",
+    "B": "tuxedo",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 48,
+    "A": "juice",
+    "B": "tavern",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 49,
+    "A": "juice",
+    "B": "tarn",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 50,
+    "A": "juice",
+    "B": "taste",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 51,
+    "A": "juice",
+    "B": "tarnish",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 52,
+    "A": "juice",
+    "B": "tarnished",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 53,
+    "A": "juice",
+    "B": "tart",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 54,
+    "A": "juice",
+    "B": "tartan",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 55,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 56,
+    "A": "juice",
+    "B": "tartar",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 57,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 58,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 59,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 60,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 61,
+    "A": "juice",
+    "B": "tartle",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 62,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 63,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 64,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 65,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 66,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 67,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 68,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 69,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 70,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 71,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 72,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 73,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 74,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 75,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 76,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 77,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 78,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 79,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 80,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 81,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 82,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 83,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 84,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 85,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 86,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 87,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 88,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 89,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 90,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 91,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 92,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 93,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 94,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 95,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 96,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 97,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 98,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 5,
+    "turn": 99,
+    "A": "juice",
+    "B": "tartlet",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 1,
+    "A": "symphony",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 2,
+    "A": "symphony",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 3,
+    "A": "symphony",
+    "B": "music",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 4,
+    "A": "symphony",
+    "B": "band",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 5,
+    "A": "symphony",
+    "B": "orchestra",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 6,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 7,
+    "A": "symphony",
+    "B": "string",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 8,
+    "A": "symphony",
+    "B": "ensemble",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 9,
+    "A": "symphony",
+    "B": "harmonize",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 10,
+    "A": "symphony",
+    "B": "sing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 11,
+    "A": "symphony",
+    "B": "solo",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 12,
+    "A": "symphony",
+    "B": "singing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 13,
+    "A": "symphony",
+    "B": "soloist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 14,
+    "A": "symphony",
+    "B": "soloed",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 15,
+    "A": "symphony",
+    "B": "chorus",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 16,
+    "A": "symphony",
+    "B": "soloing",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 17,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 18,
+    "A": "symphony",
+    "B": "choirs",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 19,
+    "A": "symphony",
+    "B": "soprano",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 20,
+    "A": "symphony",
+    "B": "solist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 21,
+    "A": "symphony",
+    "B": "solist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 22,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 23,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 24,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 25,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 26,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 27,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 28,
+    "A": "symphony",
+    "B": "choirs",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 29,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 30,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 31,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 32,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 33,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 34,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 35,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 36,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 37,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 38,
+    "A": "symphony",
+    "B": "singers",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 39,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 40,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 41,
+    "A": "symphony",
+    "B": "section",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 42,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 43,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 44,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 45,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 46,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 47,
+    "A": "symphony",
+    "B": "choir",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 48,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 49,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 50,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 51,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 52,
+    "A": "symphony",
+    "B": "woodwinds",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 53,
+    "A": "symphony",
+    "B": "strings",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 54,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 55,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 56,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 57,
+    "A": "symphony",
+    "B": "stringed",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 58,
+    "A": "symphony",
+    "B": "wind",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 59,
+    "A": "symphony",
+    "B": "harmonies",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 60,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 61,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 62,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 63,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 64,
+    "A": "symphony",
+    "B": "violin",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 65,
+    "A": "symphony",
+    "B": "violinist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 66,
+    "A": "symphony",
+    "B": "violinists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 67,
+    "A": "symphony",
+    "B": "viola",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 68,
+    "A": "symphony",
+    "B": "violinists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 69,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 70,
+    "A": "symphony",
+    "B": "violinist",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 71,
+    "A": "symphony",
+    "B": "violinists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 72,
+    "A": "symphony",
+    "B": "string",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 73,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 74,
+    "A": "symphony",
+    "B": "violinists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 75,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 76,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 77,
+    "A": "symphony",
+    "B": "soloists",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 78,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 79,
+    "A": "symphony",
+    "B": "saxophone",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 80,
+    "A": "symphony",
+    "B": "flute",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 81,
+    "A": "symphony",
+    "B": "saxophon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 82,
+    "A": "symphony",
+    "B": "trombone",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 83,
+    "A": "symphony",
+    "B": "tuba",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 84,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 85,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 86,
+    "A": "symphony",
+    "B": "trumpet",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 87,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 88,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 89,
+    "A": "symphony",
+    "B": "trumpets",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 90,
+    "A": "symphony",
+    "B": "trombones",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 91,
+    "A": "symphony",
+    "B": "trumpeter",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 92,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 93,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 94,
+    "A": "symphony",
+    "B": "trombon",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 95,
+    "A": "symphony",
+    "B": "woodwind",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 96,
+    "A": "symphony",
+    "B": "brassy",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 97,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 98,
+    "A": "symphony",
+    "B": "brass",
+    "agreed": false
+  },
+  {
+    "rollout": 6,
+    "turn": 99,
+    "A": "symphony",
+    "B": "brassy",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 1,
+    "A": "silent",
+    "B": "serene",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 2,
+    "A": "bravely",
+    "B": "calm",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 3,
+    "A": "calmly",
+    "B": "boldly",
+    "agreed": false
+  },
+  {
+    "rollout": 7,
+    "turn": 4,
+    "A": "quietly",
+    "B": "quietly",
+    "agreed": true
+  },
+  {
+    "rollout": 8,
+    "turn": 1,
+    "A": "echo",
+    "B": "resilient",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 2,
+    "A": "murmur",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 3,
+    "A": "roar",
+    "B": "symphony",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 4,
+    "A": "thunder",
+    "B": "resonate",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 5,
+    "A": "thunder",
+    "B": "vibrate",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 6,
+    "A": "thunder",
+    "B": "shatter",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 7,
+    "A": "thunder",
+    "B": "quiver",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 8,
+    "A": "thunder",
+    "B": "tremble",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 9,
+    "A": "thunder",
+    "B": "rumble",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 10,
+    "A": "thunder",
+    "B": "clap",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 11,
+    "A": "thunder",
+    "B": "crash",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 12,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 13,
+    "A": "thunder",
+    "B": "thundered",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 14,
+    "A": "thunder",
+    "B": "thunderer",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 15,
+    "A": "thunder",
+    "B": "thunderers",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 16,
+    "A": "thunder",
+    "B": "thunderstorm",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 17,
+    "A": "thunder",
+    "B": "thunders",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 18,
+    "A": "thunder",
+    "B": "thunderously",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 19,
+    "A": "thunder",
+    "B": "thundering",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 20,
+    "A": "thunder",
+    "B": "thunderbolt",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 21,
+    "A": "thunder",
+    "B": "thunderous",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 22,
+    "A": "thunder",
+    "B": "thunderstr",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 23,
+    "A": "thunder",
+    "B": "thundercr",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 24,
+    "A": "thunder",
+    "B": "thunderingly",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 25,
+    "A": "thunder",
+    "B": "thunderc",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 26,
+    "A": "thunder",
+    "B": "thunderd",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 27,
+    "A": "thunder",
+    "B": "thunderb",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 28,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 29,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 30,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 31,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 32,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 33,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 34,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 35,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 36,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 37,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 38,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 39,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 40,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 41,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 42,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 43,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 44,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 45,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 46,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 47,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 48,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 49,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 50,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 51,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 52,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 53,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 54,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 55,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 56,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 57,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 58,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 59,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 60,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 61,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 62,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 63,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 64,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 65,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 66,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 67,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 68,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 69,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 70,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 71,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 72,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 73,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 74,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 75,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 76,
+    "A": "thunder",
+    "B": "thunderclo",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 77,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 78,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 79,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 80,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 81,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 82,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 83,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 84,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 85,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 86,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 87,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 88,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 89,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 90,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 91,
+    "A": "thunder",
+    "B": "thundercl",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 92,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 93,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 94,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 95,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 96,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 97,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 98,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 8,
+    "turn": 99,
+    "A": "thunder",
+    "B": "thundercls",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 1,
+    "A": "exact",
+    "B": "crisp",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 2,
+    "A": "damp",
+    "B": "sharp",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 3,
+    "A": "dry",
+    "B": "dazzle",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 4,
+    "A": "bore",
+    "B": "dusty",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 5,
+    "A": "dormant",
+    "B": "bland",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 6,
+    "A": "dared",
+    "B": "bust",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 7,
+    "A": "dared",
+    "B": "dull",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 8,
+    "A": "dared",
+    "B": "dare",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 9,
+    "A": "dared",
+    "B": "daring",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 10,
+    "A": "dared",
+    "B": "daringly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 11,
+    "A": "dared",
+    "B": "damply",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 12,
+    "A": "dared",
+    "B": "blandly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 13,
+    "A": "dared",
+    "B": "blandest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 14,
+    "A": "dared",
+    "B": "blandish",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 15,
+    "A": "dared",
+    "B": "daredevil",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 16,
+    "A": "dared",
+    "B": "darefully",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 17,
+    "A": "dared",
+    "B": "blandishment",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 18,
+    "A": "dared",
+    "B": "blandishments",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 19,
+    "A": "dared",
+    "B": "blandness",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 20,
+    "A": "dared",
+    "B": "daredly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 21,
+    "A": "dared",
+    "B": "dares",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 22,
+    "A": "dared",
+    "B": "blander",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 23,
+    "A": "dared",
+    "B": "daringness",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 24,
+    "A": "dared",
+    "B": "daresome",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 25,
+    "A": "dared",
+    "B": "daresomer",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 26,
+    "A": "dared",
+    "B": "daresom",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 27,
+    "A": "dared",
+    "B": "blanderly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 28,
+    "A": "dared",
+    "B": "blare",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 29,
+    "A": "dared",
+    "B": "blanderest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 30,
+    "A": "dared",
+    "B": "blarely",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 31,
+    "A": "dared",
+    "B": "blarest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 32,
+    "A": "dared",
+    "B": "blares",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 33,
+    "A": "dared",
+    "B": "blaredest",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 34,
+    "A": "dared",
+    "B": "blaring",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 35,
+    "A": "dared",
+    "B": "blaringly",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 36,
+    "A": "dared",
+    "B": "blazons",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 37,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 38,
+    "A": "dared",
+    "B": "blazon",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 39,
+    "A": "dared",
+    "B": "blazoned",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 40,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 41,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 42,
+    "A": "dared",
+    "B": "blazons",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 43,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 44,
+    "A": "dared",
+    "B": "blazons",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 45,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 46,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 47,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 48,
+    "A": "dared",
+    "B": "blazons",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 49,
+    "A": "dared",
+    "B": "blazony",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 50,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 51,
+    "A": "dared",
+    "B": "blazons",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 52,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 53,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 54,
+    "A": "dared",
+    "B": "blazonry",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 55,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 56,
+    "A": "dared",
+    "B": "blazonries",
+    "agreed": false
+  },
+  {
+    "rollout": 9,
+    "turn": 57,
+    "A": "dared",
+    "B": "dared",
+    "agreed": true
+  },
+  {
+    "rollout": 10,
+    "turn": 1,
+    "A": "admitted",
+    "B": "baked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 2,
+    "A": "admitted",
+    "B": "sealed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 3,
+    "A": "admitted",
+    "B": "pressed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 4,
+    "A": "admitted",
+    "B": "waxed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 5,
+    "A": "admitted",
+    "B": "cooked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 6,
+    "A": "admitted",
+    "B": "stitched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 7,
+    "A": "admitted",
+    "B": "fried",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 8,
+    "A": "admitted",
+    "B": "braised",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 9,
+    "A": "admitted",
+    "B": "boiled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 10,
+    "A": "admitted",
+    "B": "simmered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 11,
+    "A": "admitted",
+    "B": "roasted",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 12,
+    "A": "admitted",
+    "B": "charred",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 13,
+    "A": "admitted",
+    "B": "sauted",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 14,
+    "A": "admitted",
+    "B": "smoked",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 15,
+    "A": "admitted",
+    "B": "steamed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 16,
+    "A": "admitted",
+    "B": "battered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 17,
+    "A": "admitted",
+    "B": "glazed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 18,
+    "A": "admitted",
+    "B": "smudged",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 19,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 20,
+    "A": "admitted",
+    "B": "marinated",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 21,
+    "A": "admitted",
+    "B": "flamb",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 22,
+    "A": "admitted",
+    "B": "cured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 23,
+    "A": "admitted",
+    "B": "steeped",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 24,
+    "A": "admitted",
+    "B": "fermented",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 25,
+    "A": "admitted",
+    "B": "pickled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 26,
+    "A": "admitted",
+    "B": "spiced",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 27,
+    "A": "admitted",
+    "B": "poached",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 28,
+    "A": "admitted",
+    "B": "broiled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 29,
+    "A": "admitted",
+    "B": "grilled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 30,
+    "A": "admitted",
+    "B": "basted",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 31,
+    "A": "admitted",
+    "B": "blistered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 32,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 33,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 34,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 35,
+    "A": "admitted",
+    "B": "seared",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 36,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 37,
+    "A": "admitted",
+    "B": "singed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 38,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 39,
+    "A": "admitted",
+    "B": "sizzled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 40,
+    "A": "admitted",
+    "B": "scalded",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 41,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 42,
+    "A": "admitted",
+    "B": "stewed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 43,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 44,
+    "A": "admitted",
+    "B": "buttered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 45,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 46,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 47,
+    "A": "admitted",
+    "B": "burned",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 48,
+    "A": "admitted",
+    "B": "simmered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 49,
+    "A": "admitted",
+    "B": "buttered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 50,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 51,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 52,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 53,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 54,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 55,
+    "A": "admitted",
+    "B": "simmered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 56,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 57,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 58,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 59,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 60,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 61,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 62,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 63,
+    "A": "admitted",
+    "B": "stirred",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 64,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 65,
+    "A": "admitted",
+    "B": "stifled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 66,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 67,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 68,
+    "A": "admitted",
+    "B": "stung",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 69,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 70,
+    "A": "admitted",
+    "B": "steamed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 71,
+    "A": "admitted",
+    "B": "steeped",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 72,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 73,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 74,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 75,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 76,
+    "A": "admitted",
+    "B": "stirred",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 77,
+    "A": "admitted",
+    "B": "simmered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 78,
+    "A": "admitted",
+    "B": "stewed",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 79,
+    "A": "admitted",
+    "B": "browned",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 80,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 81,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 82,
+    "A": "admitted",
+    "B": "boiled",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 83,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 84,
+    "A": "admitted",
+    "B": "stirred",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 85,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 86,
+    "A": "admitted",
+    "B": "buttered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 87,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 88,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 89,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 90,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 91,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 92,
+    "A": "admitted",
+    "B": "scorched",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 93,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 94,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 95,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 96,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 97,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 98,
+    "A": "admitted",
+    "B": "soured",
+    "agreed": false
+  },
+  {
+    "rollout": 10,
+    "turn": 99,
+    "A": "admitted",
+    "B": "bothered",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 1,
+    "A": "gold",
+    "B": "ballet",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 2,
+    "A": "crown",
+    "B": "silent",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 3,
+    "A": "iron",
+    "B": "jester",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 4,
+    "A": "ring",
+    "B": "key",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 5,
+    "A": "diamond",
+    "B": "mask",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 6,
+    "A": "pearl",
+    "B": "ace",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 7,
+    "A": "onyx",
+    "B": "queen",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 8,
+    "A": "onyx",
+    "B": "ace",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 9,
+    "A": "onyx",
+    "B": "crimson",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 10,
+    "A": "onyx",
+    "B": "sapphire",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 11,
+    "A": "onyx",
+    "B": "amber",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 12,
+    "A": "onyx",
+    "B": "emerald",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 13,
+    "A": "onyx",
+    "B": "amulet",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 14,
+    "A": "onyx",
+    "B": "amber",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 15,
+    "A": "onyx",
+    "B": "amethyst",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 16,
+    "A": "onyx",
+    "B": "ruby",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 17,
+    "A": "onyx",
+    "B": "obsidian",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 18,
+    "A": "onyx",
+    "B": "opal",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 19,
+    "A": "onyx",
+    "B": "opulent",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 20,
+    "A": "onyx",
+    "B": "sable",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 21,
+    "A": "onyx",
+    "B": "bronze",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 22,
+    "A": "onyx",
+    "B": "obscured",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 23,
+    "A": "onyx",
+    "B": "obscurity",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 24,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 25,
+    "A": "onyx",
+    "B": "obscura",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 26,
+    "A": "onyx",
+    "B": "obscurer",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 27,
+    "A": "onyx",
+    "B": "obscurers",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 28,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 29,
+    "A": "onyx",
+    "B": "obscurants",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 30,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 31,
+    "A": "onyx",
+    "B": "obscure",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 32,
+    "A": "onyx",
+    "B": "obscures",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 33,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 34,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 35,
+    "A": "onyx",
+    "B": "obscurers",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 36,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 37,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 38,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 39,
+    "A": "onyx",
+    "B": "obscurism",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 40,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 41,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 42,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 43,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 44,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 45,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 46,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 47,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 48,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 49,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 50,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 51,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 52,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 53,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 54,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 55,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 56,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 57,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 58,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 59,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 60,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 61,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 62,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 63,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 64,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 65,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 66,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 67,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 68,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 69,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 70,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 71,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 72,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 73,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 74,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 75,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 76,
+    "A": "onyx",
+    "B": "obscurantist",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 77,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 78,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 79,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 80,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 81,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 82,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 83,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 84,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 85,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 86,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 87,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 88,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 89,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 90,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 91,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 92,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 93,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 94,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 95,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 96,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 97,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 98,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 11,
+    "turn": 99,
+    "A": "onyx",
+    "B": "obscurant",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 1,
+    "A": "mirror",
+    "B": "yours",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 2,
+    "A": "symphony",
+    "B": "yonder",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 3,
+    "A": "serenity",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 4,
+    "A": "calm",
+    "B": "harmony",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 5,
+    "A": "calm",
+    "B": "still",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 6,
+    "A": "calm",
+    "B": "quiet",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 7,
+    "A": "calm",
+    "B": "peace",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 8,
+    "A": "calm",
+    "B": "tranquil",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 9,
+    "A": "calm",
+    "B": "hush",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 10,
+    "A": "calm",
+    "B": "whisper",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 11,
+    "A": "calm",
+    "B": "soft",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 12,
+    "A": "calm",
+    "B": "gentle",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 13,
+    "A": "calm",
+    "B": "soothe",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 14,
+    "A": "calm",
+    "B": "breeze",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 15,
+    "A": "calm",
+    "B": "balm",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 16,
+    "A": "calm",
+    "B": "serene",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 17,
+    "A": "calm",
+    "B": "breezy",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 18,
+    "A": "calm",
+    "B": "calmless",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 19,
+    "A": "calm",
+    "B": "calmly",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 20,
+    "A": "calm",
+    "B": "calmed",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 21,
+    "A": "calm",
+    "B": "calmest",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 22,
+    "A": "calm",
+    "B": "calming",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 23,
+    "A": "calm",
+    "B": "calmer",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 24,
+    "A": "calm",
+    "B": "hushless",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 25,
+    "A": "calm",
+    "B": "hushful",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 26,
+    "A": "calm",
+    "B": "calmerless",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 27,
+    "A": "calm",
+    "B": "calmling",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 28,
+    "A": "calm",
+    "B": "calmy",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 29,
+    "A": "calm",
+    "B": "calminess",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 30,
+    "A": "calm",
+    "B": "calmedest",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 31,
+    "A": "calm",
+    "B": "calmedness",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 32,
+    "A": "calm",
+    "B": "calmedly",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 33,
+    "A": "calm",
+    "B": "serenely",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 34,
+    "A": "calm",
+    "B": "serenest",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 35,
+    "A": "calm",
+    "B": "serenate",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 36,
+    "A": "calm",
+    "B": "calmness",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 37,
+    "A": "calm",
+    "B": "calmying",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 38,
+    "A": "calm",
+    "B": "calmyest",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 39,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 40,
+    "A": "calm",
+    "B": "calmyism",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 41,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 42,
+    "A": "calm",
+    "B": "calmyed",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 43,
+    "A": "calm",
+    "B": "calmyist",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 44,
+    "A": "calm",
+    "B": "calmytic",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 45,
+    "A": "calm",
+    "B": "calmyment",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 46,
+    "A": "calm",
+    "B": "calmyward",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 47,
+    "A": "calm",
+    "B": "calmyland",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 48,
+    "A": "calm",
+    "B": "calmyly",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 49,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 50,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 51,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 52,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 53,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 54,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 55,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 56,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 57,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 58,
+    "A": "calm",
+    "B": "calmydom",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 59,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 60,
+    "A": "calm",
+    "B": "calmyth",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 61,
+    "A": "calm",
+    "B": "calmyhood",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 62,
+    "A": "calm",
+    "B": "calmyate",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 63,
+    "A": "calm",
+    "B": "calmyte",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 64,
+    "A": "calm",
+    "B": "calmycation",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 65,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 66,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 67,
+    "A": "calm",
+    "B": "calmy",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 68,
+    "A": "calm",
+    "B": "calmyx",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 69,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 70,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 71,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 72,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 73,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 74,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 75,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 76,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 77,
+    "A": "calm",
+    "B": "calmyf",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 78,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 79,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 80,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 81,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 82,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 83,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 84,
+    "A": "calm",
+    "B": "calmyg",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 85,
+    "A": "calm",
+    "B": "calmyc",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 86,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 87,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 88,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 89,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 90,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 91,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 92,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 93,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 94,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 95,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 96,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 97,
+    "A": "calm",
+    "B": "calmyz",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 98,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 12,
+    "turn": 99,
+    "A": "calm",
+    "B": "calmycr",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 1,
+    "A": "harmony",
+    "B": "dragon",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 2,
+    "A": "tango",
+    "B": "sunlight",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 3,
+    "A": "alpha",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 4,
+    "A": "alpha",
+    "B": "beta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 5,
+    "A": "alpha",
+    "B": "gamma",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 6,
+    "A": "alpha",
+    "B": "omega",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 7,
+    "A": "alpha",
+    "B": "delta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 8,
+    "A": "alpha",
+    "B": "zebra",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 9,
+    "A": "alpha",
+    "B": "theta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 10,
+    "A": "alpha",
+    "B": "sigma",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 11,
+    "A": "alpha",
+    "B": "kappa",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 12,
+    "A": "alpha",
+    "B": "lambda",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 13,
+    "A": "alpha",
+    "B": "castle",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 14,
+    "A": "alpha",
+    "B": "novel",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 15,
+    "A": "alpha",
+    "B": "quartz",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 16,
+    "A": "alpha",
+    "B": "anchor",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 17,
+    "A": "alpha",
+    "B": "brick",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 18,
+    "A": "alpha",
+    "B": "rocket",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 19,
+    "A": "alpha",
+    "B": "yacht",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 20,
+    "A": "alpha",
+    "B": "jungle",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 21,
+    "A": "alpha",
+    "B": "zeta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 22,
+    "A": "alpha",
+    "B": "apollo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 23,
+    "A": "alpha",
+    "B": "asteroid",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 24,
+    "A": "alpha",
+    "B": "apex",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 25,
+    "A": "alpha",
+    "B": "astronaut",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 26,
+    "A": "alpha",
+    "B": "zeppelin",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 27,
+    "A": "alpha",
+    "B": "asterisk",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 28,
+    "A": "alpha",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 29,
+    "A": "alpha",
+    "B": "albatross",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 30,
+    "A": "alpha",
+    "B": "axiom",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 31,
+    "A": "alpha",
+    "B": "almond",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 32,
+    "A": "alpha",
+    "B": "avocado",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 33,
+    "A": "alpha",
+    "B": "arch",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 34,
+    "A": "alpha",
+    "B": "alpaca",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 35,
+    "A": "alpha",
+    "B": "alpine",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 36,
+    "A": "alpha",
+    "B": "albino",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 37,
+    "A": "alpha",
+    "B": "albacore",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 38,
+    "A": "alpha",
+    "B": "algorism",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 39,
+    "A": "alpha",
+    "B": "albion",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 40,
+    "A": "alpha",
+    "B": "alphabet",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 41,
+    "A": "alpha",
+    "B": "albany",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 42,
+    "A": "alpha",
+    "B": "alchemist",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 43,
+    "A": "alpha",
+    "B": "alameda",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 44,
+    "A": "alpha",
+    "B": "alaska",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 45,
+    "A": "alpha",
+    "B": "alabama",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 46,
+    "A": "alpha",
+    "B": "allegory",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 47,
+    "A": "alpha",
+    "B": "alphabetical",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 48,
+    "A": "alpha",
+    "B": "alphabeticality",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 49,
+    "A": "alpha",
+    "B": "alas",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 50,
+    "A": "alpha",
+    "B": "alphabetize",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 51,
+    "A": "alpha",
+    "B": "alphabeticalness",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 52,
+    "A": "alpha",
+    "B": "alloy",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 53,
+    "A": "alpha",
+    "B": "allegiance",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 54,
+    "A": "alpha",
+    "B": "alphabeticalize",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 55,
+    "A": "alpha",
+    "B": "alphabetically",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 56,
+    "A": "alpha",
+    "B": "alphabetbook",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 57,
+    "A": "alpha",
+    "B": "almanac",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 58,
+    "A": "alpha",
+    "B": "alloyed",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 59,
+    "A": "alpha",
+    "B": "alb",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 60,
+    "A": "alpha",
+    "B": "albire",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 61,
+    "A": "alpha",
+    "B": "albarel",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 62,
+    "A": "alpha",
+    "B": "alberta",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 63,
+    "A": "alpha",
+    "B": "albacore",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 64,
+    "A": "alpha",
+    "B": "allegro",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 65,
+    "A": "alpha",
+    "B": "alabaster",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 66,
+    "A": "alpha",
+    "B": "ale",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 67,
+    "A": "alpha",
+    "B": "alleged",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 68,
+    "A": "alpha",
+    "B": "alembic",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 69,
+    "A": "alpha",
+    "B": "alloyist",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 70,
+    "A": "alpha",
+    "B": "albedo",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 71,
+    "A": "alpha",
+    "B": "aleatory",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 72,
+    "A": "alpha",
+    "B": "alehouse",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 73,
+    "A": "alpha",
+    "B": "aleph",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 74,
+    "A": "alpha",
+    "B": "alewife",
+    "agreed": false
+  },
+  {
+    "rollout": 13,
+    "turn": 75,
+    "A": "alpha",
+    "B": "alpha",
+    "agreed": true
+  },
+  {
+    "rollout": 14,
+    "turn": 1,
+    "A": "echo",
+    "B": "drought",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 2,
+    "A": "echo",
+    "B": "gamma",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 3,
+    "A": "echo",
+    "B": "delta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 4,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 5,
+    "A": "echo",
+    "B": "beta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 6,
+    "A": "echo",
+    "B": "theta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 7,
+    "A": "echo",
+    "B": "zeta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 8,
+    "A": "echo",
+    "B": "omega",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 9,
+    "A": "echo",
+    "B": "epsilon",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 10,
+    "A": "echo",
+    "B": "kilo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 11,
+    "A": "echo",
+    "B": "sigma",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 12,
+    "A": "echo",
+    "B": "india",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 13,
+    "A": "echo",
+    "B": "charlie",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 14,
+    "A": "echo",
+    "B": "foxtrot",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 15,
+    "A": "echo",
+    "B": "romeo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 16,
+    "A": "echo",
+    "B": "november",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 17,
+    "A": "echo",
+    "B": "uniform",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 18,
+    "A": "echo",
+    "B": "bravo",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 19,
+    "A": "echo",
+    "B": "microwave",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 20,
+    "A": "echo",
+    "B": "novelty",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 21,
+    "A": "echo",
+    "B": "tango",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 22,
+    "A": "echo",
+    "B": "kappa",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 23,
+    "A": "echo",
+    "B": "x-ray",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 24,
+    "A": "echo",
+    "B": "psi",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 25,
+    "A": "echo",
+    "B": "upsilon",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 26,
+    "A": "echo",
+    "B": "nu",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 27,
+    "A": "echo",
+    "B": "lambda",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 28,
+    "A": "echo",
+    "B": "mu",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 29,
+    "A": "echo",
+    "B": "phi",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 30,
+    "A": "echo",
+    "B": "rho",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 31,
+    "A": "echo",
+    "B": "eta",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 32,
+    "A": "echo",
+    "B": "zulu",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 33,
+    "A": "echo",
+    "B": "tau",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 34,
+    "A": "echo",
+    "B": "omicron",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 35,
+    "A": "echo",
+    "B": "hotel",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 36,
+    "A": "echo",
+    "B": "nuke",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 37,
+    "A": "echo",
+    "B": "victor",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 38,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 39,
+    "A": "echo",
+    "B": "sierra",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 40,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 41,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 42,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 43,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 44,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 45,
+    "A": "echo",
+    "B": "alpha",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 46,
+    "A": "echo",
+    "B": "zayin",
+    "agreed": false
+  },
+  {
+    "rollout": 14,
+    "turn": 47,
+    "A": "echo",
+    "B": "echo",
+    "agreed": true
+  },
+  {
+    "rollout": 15,
+    "turn": 1,
+    "A": "mirror",
+    "B": "echo",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 2,
+    "A": "echo",
+    "B": "shadow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 3,
+    "A": "echo",
+    "B": "reflection",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 4,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 5,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 6,
+    "A": "echo",
+    "B": "ripple",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 7,
+    "A": "echo",
+    "B": "pulse",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 8,
+    "A": "echo",
+    "B": "glow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 9,
+    "A": "echo",
+    "B": "shimmer",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 10,
+    "A": "echo",
+    "B": "afterimage",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 11,
+    "A": "echo",
+    "B": "trace",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 12,
+    "A": "echo",
+    "B": "resonate",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 13,
+    "A": "echo",
+    "B": "reverie",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 14,
+    "A": "echo",
+    "B": "ghost",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 15,
+    "A": "echo",
+    "B": "whisper",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 16,
+    "A": "echo",
+    "B": "phantom",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 17,
+    "A": "echo",
+    "B": "image",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 18,
+    "A": "echo",
+    "B": "afterglow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 19,
+    "A": "echo",
+    "B": "afterthought",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 20,
+    "A": "echo",
+    "B": "afterlife",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 21,
+    "A": "echo",
+    "B": "aftermath",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 22,
+    "A": "echo",
+    "B": "legacy",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 23,
+    "A": "echo",
+    "B": "imprint",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 24,
+    "A": "echo",
+    "B": "imperman",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 25,
+    "A": "echo",
+    "B": "imperish",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 26,
+    "A": "echo",
+    "B": "imperative",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 27,
+    "A": "echo",
+    "B": "afterburn",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 28,
+    "A": "echo",
+    "B": "resound",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 29,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 30,
+    "A": "echo",
+    "B": "afterclap",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 31,
+    "A": "echo",
+    "B": "aftermath",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 32,
+    "A": "echo",
+    "B": "reverent",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 33,
+    "A": "echo",
+    "B": "reverence",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 34,
+    "A": "echo",
+    "B": "reverence",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 35,
+    "A": "echo",
+    "B": "resonant",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 36,
+    "A": "echo",
+    "B": "resurrect",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 37,
+    "A": "echo",
+    "B": "resurrection",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 38,
+    "A": "echo",
+    "B": "resurgence",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 39,
+    "A": "echo",
+    "B": "resurrected",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 40,
+    "A": "echo",
+    "B": "resurrective",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 41,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 42,
+    "A": "echo",
+    "B": "resurrecting",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 43,
+    "A": "echo",
+    "B": "resurrectee",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 44,
+    "A": "echo",
+    "B": "resurrecter",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 45,
+    "A": "echo",
+    "B": "resurrectable",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 46,
+    "A": "echo",
+    "B": "afterlapse",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 47,
+    "A": "echo",
+    "B": "aftereffect",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 48,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 49,
+    "A": "echo",
+    "B": "aftermarrow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 50,
+    "A": "echo",
+    "B": "aftermemory",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 51,
+    "A": "echo",
+    "B": "aftermind",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 52,
+    "A": "echo",
+    "B": "aftermuse",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 53,
+    "A": "echo",
+    "B": "afterecho",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 54,
+    "A": "echo",
+    "B": "afterwave",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 55,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 56,
+    "A": "echo",
+    "B": "afterburner",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 57,
+    "A": "echo",
+    "B": "afterburning",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 58,
+    "A": "echo",
+    "B": "afterimprint",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 59,
+    "A": "echo",
+    "B": "reverence",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 60,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 61,
+    "A": "echo",
+    "B": "resurgent",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 62,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 63,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 64,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 65,
+    "A": "echo",
+    "B": "resonated",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 66,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 67,
+    "A": "echo",
+    "B": "resurgence",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 68,
+    "A": "echo",
+    "B": "afterlif",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 69,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 70,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 71,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 72,
+    "A": "echo",
+    "B": "afterlived",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 73,
+    "A": "echo",
+    "B": "afterdeath",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 74,
+    "A": "echo",
+    "B": "afterglow",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 75,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 76,
+    "A": "echo",
+    "B": "afterimaged",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 77,
+    "A": "echo",
+    "B": "afterlifer",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 78,
+    "A": "echo",
+    "B": "afterechoed",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 79,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 80,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 81,
+    "A": "echo",
+    "B": "afterreson",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 82,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 83,
+    "A": "echo",
+    "B": "afterechoing",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 84,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 85,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 86,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 87,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 88,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 89,
+    "A": "echo",
+    "B": "resurrectible",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 90,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 91,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 92,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 93,
+    "A": "echo",
+    "B": "resonate",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 94,
+    "A": "echo",
+    "B": "resonated",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 95,
+    "A": "echo",
+    "B": "resonant",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 96,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 97,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 98,
+    "A": "echo",
+    "B": "resonance",
+    "agreed": false
+  },
+  {
+    "rollout": 15,
+    "turn": 99,
+    "A": "echo",
+    "B": "reverber",
+    "agreed": false
+  }
+]

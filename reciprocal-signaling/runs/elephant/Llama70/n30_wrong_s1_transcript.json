@@ -1,0 +1,83 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n30_wrong",
+  "true": "30",
+  "clues": [
+   "divisible by 5",
+   "divisible by 6",
+   "it has 2 digits",
+   "smaller than 50",
+   "odd"
+  ],
+  "kind": "number",
+  "wrong_agent": 4,
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "?",
+   "?",
+   "?",
+   "?",
+   "?"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "25",
+   "?",
+   "?",
+   "25",
+   "?"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "15",
+   "12",
+   "21",
+   "30",
+   "25"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "25",
+   "18",
+   "22",
+   "30",
+   "5"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "25",
+   "18",
+   "10",
+   "30",
+   "21"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,75 @@
+[
+ {
+  "type": "meta",
+  "quiz": "onion",
+  "true": "onion",
+  "clues": [
+   "a vegetable",
+   "it has layers",
+   "it makes you cry",
+   "round"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "carrot",
+   "onion",
+   "onion",
+   "circle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "potato",
+   "onion",
+   "onion",
+   "ball"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "onion",
+   "onion",
+   "onion",
+   "sphere"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "onion",
+   "onion",
+   "onion",
+   "pebble"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "onion",
+   "onion",
+   "onion",
+   "onion"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ }
+]

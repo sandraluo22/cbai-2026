@@ -1,0 +1,121 @@
+{"type": "meta", "quiz": "n17", "true": "17", "clues": ["a prime number", "it has 2 digits", "smaller than 20", "odd", "the sum of its digits is 8"], "kind": "number", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": "public"}
+{"type": "round", "round": 1, "guesses": ["2", "50", "19", "5", "17"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 1, "agent": 1, "text": "The secret number is a prime, so I will keep guessing primes until we find the match.", "public": true}
+{"type": "note", "round": 1, "agent": 2, "text": "My clue is that the secret number has 2 digits, so I'll focus on numbers between 10 and 99.", "public": true}
+{"type": "note", "round": 1, "agent": 3, "text": "The secret number is smaller than 20 \u2014 my clue.", "public": true}
+{"type": "note", "round": 1, "agent": 4, "text": "The secret number is odd, so I\u2019ll focus on odd numbers moving forward.", "public": true}
+{"type": "note", "round": 1, "agent": 5, "text": "The secret number\u2019s digits add up to 8 \u2014 I\u2019ll keep that in mind as I adjust my guesses.", "public": true}
+{"type": "round", "round": 2, "guesses": ["19", "55", "17", "15", "17"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 2, "agent": 1, "text": "P1: My next guess is 19, staying with primes. Let's see if others' clues align with this.", "public": true}
+{"type": "note", "round": 2, "agent": 2, "text": "The secret number must be a 2-digit odd prime less than 20, with digits adding to 8.", "public": true}
+{"type": "note", "round": 2, "agent": 3, "text": "The secret number is smaller than 20, odd, and not 17 or 19.", "public": true}
+{"type": "note", "round": 2, "agent": 4, "text": "The secret number is odd, so I\u2019ll continue narrowing down based on other players\u2019 clues and guesses.", "public": true}
+{"type": "note", "round": 2, "agent": 5, "text": "The secret number is likely 17, as it fits multiple clues: two-digit, odd, under 20, and digits sum to 8.", "public": true}
+{"type": "round", "round": 3, "guesses": ["17", "13", "15", "13", "13"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 3, "agent": 1, "text": "The secret number is 13 \u2014 it fits all clues: prime, 2-digit, less than 20, odd, and digits sum to 8.", "public": true}
+{"type": "note", "round": 3, "agent": 2, "text": "The secret number must be 17 \u2014 it fits all clues: 2-digit, odd, prime, under 20, and digits sum to 8.", "public": true}
+{"type": "note", "round": 3, "agent": 3, "text": "The secret number is smaller than 20, odd, and likely a prime with digits adding to 8.", "public": true}
+{"type": "note", "round": 3, "agent": 4, "text": "The secret number is likely 13, as it fits multiple clues: odd, less than 20, two-digit, and digits sum to 4.", "public": true}
+{"type": "note", "round": 3, "agent": 5, "text": "P5: 13 fits the digit sum, is odd, and aligns with P3\u2019s clue \u2014 let\u2019s check if it meets all conditions.", "public": true}
+{"type": "round", "round": 4, "guesses": ["17", "17", "13", "13", "17"], "all_true": false, "clue_violations": []}
+{"type": "note", "round": 4, "agent": 1, "text": "The secret number is likely 17, as it aligns with all given clues and repeated guesses.", "public": true}
+{"type": "note", "round": 4, "agent": 2, "text": "The secret number is likely 17, as it fits all confirmed clues and repeated guesses.", "public": true}
+{"type": "note", "round": 4, "agent": 3, "text": "The secret number is likely 17 \u2014 it fits all shared clues and repeated guesses.", "public": true}
+{"type": "note", "round": 4, "agent": 4, "text": "The secret number is likely 17, as it fits all shared clues and repeated guesses.", "public": true}
+{"type": "note", "round": 4, "agent": 5, "text": "It seems 13 and 17 both fit the clues; let\u2019s verify which one meets all conditions consistently.", "public": true}
+{"type": "round", "round": 5, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 5, "agent": 1, "text": "It seems 17 is the number that fits all clues \u2014 prime, 2-digit, odd, less than 20, and digits add to 8.", "public": true}
+{"type": "note", "round": 5, "agent": 2, "text": "All clues consistently point to 17 \u2014 it is the most likely secret number.", "public": true}
+{"type": "note", "round": 5, "agent": 3, "text": "It seems 17 is the number that fits all the clues and repeated guesses.", "public": true}
+{"type": "note", "round": 5, "agent": 4, "text": "It seems 17 fits all clues \u2014 two-digit, odd, prime, under 20, and digits sum to 8.", "public": true}
+{"type": "note", "round": 5, "agent": 5, "text": "It seems all clues align with 17 \u2014 let\u2019s confirm if it meets every condition without conflict.", "public": true}
+{"type": "round", "round": 6, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 6, "agent": 1, "text": "It seems all clues and guesses consistently point to 17 as the secret number.", "public": true}
+{"type": "note", "round": 6, "agent": 2, "text": "All clues consistently point to 17 \u2014 it is the most likely secret number.", "public": true}
+{"type": "note", "round": 6, "agent": 3, "text": "It seems 17 fits all clues \u2014 let\u2019s confirm if it meets every condition without conflict.", "public": true}
+{"type": "note", "round": 6, "agent": 4, "text": "All clues align with 17 \u2014 it is the most consistent and logical choice for the secret number.", "public": true}
+{"type": "note", "round": 6, "agent": 5, "text": "Based on all clues and repeated guesses, 17 is the number that fits every condition consistently.", "public": true}
+{"type": "round", "round": 7, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 7, "agent": 1, "text": "It seems 17 fits all clues: prime, 2-digit, odd, under 20, and digits sum to 8.", "public": true}
+{"type": "note", "round": 7, "agent": 2, "text": "All clues consistently align with 17 \u2014 it is the most logical and confirmed secret number.", "public": true}
+{"type": "note", "round": 7, "agent": 3, "text": "Based on all clues and consistent guesses, the secret number must be 17.", "public": true}
+{"type": "note", "round": 7, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is consistently 17.", "public": true}
+{"type": "note", "round": 7, "agent": 5, "text": "Based on all clues and repeated guesses, 17 is the number that fits every condition consistently.", "public": true}
+{"type": "round", "round": 8, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 8, "agent": 1, "text": "Based on all clues and repeated guesses, 17 is the consistent and confirmed secret number.", "public": true}
+{"type": "note", "round": 8, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 8, "agent": 3, "text": "It seems 17 fits all clues and repeated guesses \u2014 it must be the secret number.", "public": true}
+{"type": "note", "round": 8, "agent": 4, "text": "Based on all confirmed clues and consistent guesses, the secret number is clearly 17.", "public": true}
+{"type": "note", "round": 8, "agent": 5, "text": "Based on all clues and consistent guesses, the secret number must be 17.", "public": true}
+{"type": "round", "round": 9, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 9, "agent": 1, "text": "Based on all confirmed clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 9, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 9, "agent": 3, "text": "Based on all confirmed clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 9, "agent": 4, "text": "Based on all clues and consistent guesses, the secret number must be 17.", "public": true}
+{"type": "note", "round": 9, "agent": 5, "text": "Based on all clues and consistent guesses, the secret number must be 17.", "public": true}
+{"type": "round", "round": 10, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 10, "agent": 1, "text": "Based on all confirmed clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 10, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 10, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 10, "agent": 4, "text": "Based on all confirmed clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 10, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 11, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 11, "agent": 1, "text": "Based on all confirmed clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 11, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 11, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 11, "agent": 4, "text": "All clues and consistent guesses confirm the secret number is **17**.", "public": true}
+{"type": "note", "round": 11, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 12, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 12, "agent": 1, "text": "Based on all clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 12, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 12, "agent": 3, "text": "All clues consistently confirm the secret number is **17** \u2014 it fits every condition without conflict.", "public": true}
+{"type": "note", "round": 12, "agent": 4, "text": "Based on all clues and consistent guesses, the secret number is clearly **17**.", "public": true}
+{"type": "note", "round": 12, "agent": 5, "text": "Based on all clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "round", "round": 13, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 13, "agent": 1, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 13, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 13, "agent": 3, "text": "Based on all confirmed clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 13, "agent": 4, "text": "Based on all confirmed clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 13, "agent": 5, "text": "All clues and consistent guesses confirm the secret number is **17** \u2014 it fits every condition without conflict.", "public": true}
+{"type": "round", "round": 14, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 14, "agent": 1, "text": "Based on all clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 14, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 14, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 14, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 14, "agent": 5, "text": "Based on all clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "round", "round": 15, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 15, "agent": 1, "text": "Based on all confirmed clues and consistent guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 15, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 15, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 15, "agent": 4, "text": "All clues and consistent guesses confirm the secret number is **17** \u2014 it fits every condition without conflict.", "public": true}
+{"type": "note", "round": 15, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 16, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 16, "agent": 1, "text": "Based on all confirmed clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 16, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 16, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 16, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 16, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 17, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 17, "agent": 1, "text": "Based on all confirmed clues and repeated guesses, the secret number must be **17**.", "public": true}
+{"type": "note", "round": 17, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 17, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 17, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 17, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 18, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 18, "agent": 1, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 18, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 18, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 18, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 18, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 19, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 19, "agent": 1, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 19, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 19, "agent": 3, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 19, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 19, "agent": 5, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "round", "round": 20, "guesses": ["17", "17", "17", "17", "17"], "all_true": true, "clue_violations": []}
+{"type": "note", "round": 20, "agent": 1, "text": "All clues and consistent guesses confirm the secret number is **17** \u2014 it fits every condition without conflict.", "public": true}
+{"type": "note", "round": 20, "agent": 2, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 20, "agent": 3, "text": "The secret number is **17** \u2014 it fits all clues and has been consistently guessed by all players.", "public": true}
+{"type": "note", "round": 20, "agent": 4, "text": "All clues and repeated guesses confirm the secret number is **17** \u2014 it fits every condition consistently.", "public": true}
+{"type": "note", "round": 20, "agent": 5, "text": "After 20 rounds, all clues consistently confirm the secret number is **17**.", "public": true}

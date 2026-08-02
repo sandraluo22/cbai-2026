@@ -1,0 +1,60 @@
+{
+  "results_path": "results/all_s0/results.json",
+  "n_trials": 240,
+  "n_parsed": 240,
+  "parse_rate": 1.0,
+  "primary": {
+    "n": 400,
+    "spearman_rho": 0.1878979565920645,
+    "levels": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "mean_trust_per_level": [
+      0.4266666666666667,
+      0.4699999999999999,
+      0.5022222222222221,
+      0.5,
+      0.53,
+      0.5733333333333335,
+      0.48
+    ],
+    "monotone": false
+  },
+  "dose": {
+    "n": 40,
+    "dose_levels": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "mean_discrimination": [
+      -0.03999999999999999,
+      0.06000000000000001,
+      0.19999999999999998,
+      0.15999999999999998
+    ]
+  },
+  "label_override": {
+    "forum_label_prior": 0.11374999999999999,
+    "crossed_high_acc_trust": 0.44000000000000006,
+    "aligned_high_acc_trust": 0.6899999999999998,
+    "label_override": 0.32625000000000004,
+    "n_baseline": 40,
+    "n_crossed": 20
+  },
+  "justification_track_record_rate": {
+    "baseline": 0.7,
+    "cost": 1.0,
+    "dose": 1.0,
+    "labels": 1.0,
+    "order": 1.0,
+    "recovery": 1.0
+  }
+}

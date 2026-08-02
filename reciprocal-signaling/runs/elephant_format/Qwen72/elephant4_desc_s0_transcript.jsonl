@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "elephant4_desc", "true": "elephant", "clues": ["its color is gray", "it is very large in size", "it is a kind of animal", "it has a long trunk"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["penguin", "elephant", "dog", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["mouse", "whale", "cat", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["squirrel", "dinosaur", "rabbit", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["bat", "elephant", "elephant", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["elephant", "elephant", "elephant", "elephant"], "all_true": true, "clue_violations": []}

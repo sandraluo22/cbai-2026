@@ -1,0 +1,224 @@
+[
+ {
+  "id": "random_all_0",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "stream",
+   "flow",
+   "current"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "orange",
+  "word_dist": {
+   "orange": 1.0
+  },
+  "self_yn": "looking",
+  "self_p_yes": 0.15,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "random_all_1",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "tide",
+   "wave",
+   "current"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 1.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Bob",
+   "Bob"
+  ],
+  "word_gen": "spring",
+  "word_dist": {
+   "spring": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.92,
+  "vote_top": "Bob"
+ },
+ {
+  "id": "random_all_2",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "red",
+   "orchard",
+   "juice"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "tree",
+  "word_dist": {
+   "tree": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.15,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "random_all_3",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "cushion",
+   "couch",
+   "relax"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 1.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Bob",
+   "Bob"
+  ],
+  "word_gen": "moon",
+  "word_dist": {
+   "moon": 1.0
+  },
+  "self_yn": "looking",
+  "self_p_yes": 0.87,
+  "vote_top": "Bob"
+ },
+ {
+  "id": "random_all_4",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "tree",
+   "core",
+   "seed"
+  ],
+  "vote_dist": {
+   "Alice": 0.3333333333333333,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.6666666666666666,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "pass",
+  "word_dist": {
+   "pass": 1.0
+  },
+  "self_yn": "looking",
+  "self_p_yes": 0.82,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "random_all_5",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "wave",
+   "tide",
+   "salt"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "ocean",
+  "word_dist": {
+   "ocean": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.15,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "random_all_6",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "night",
+   "phase",
+   "tide"
+  ],
+  "vote_dist": {
+   "Alice": 0.3333333333333333,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.6666666666666666,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Alice"
+  ],
+  "word_gen": "pass",
+  "word_dist": {
+   "pass": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.72,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "random_all_7",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "flow",
+   "current",
+   "stream"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 1.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Bob",
+   "Bob",
+   "Bob"
+  ],
+  "word_gen": "dog",
+  "word_dist": {
+   "dog": 1.0
+  },
+  "self_yn": "looking",
+  "self_p_yes": 0.04,
+  "vote_top": "Bob"
+ }
+]

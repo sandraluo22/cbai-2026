@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t2_foods",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for foods",
+  "decoy_A": "words for red things",
+  "decoy_B": "words for sweet things",
+  "A_examples": [
+   [
+    "strawberry",
+    true,
+    "trap"
+   ],
+   [
+    "tomato",
+    true,
+    "key"
+   ],
+   [
+    "cloud",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "cherry",
+    true,
+    "trap"
+   ],
+   [
+    "honey",
+    true,
+    "key"
+   ],
+   [
+    "stone",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "bread",
+    true,
+    "both"
+   ],
+   [
+    "rice",
+    true,
+    "both"
+   ],
+   [
+    "lemon",
+    true,
+    "both"
+   ],
+   [
+    "cake",
+    true,
+    "A"
+   ],
+   [
+    "butter",
+    true,
+    "both"
+   ],
+   [
+    "rose",
+    false,
+    "A"
+   ],
+   [
+    "ruby",
+    false,
+    "A"
+   ],
+   [
+    "brick",
+    false,
+    "A"
+   ],
+   [
+    "pencil",
+    false,
+    "none"
+   ],
+   [
+    "violin",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule might be: \"Words that name edible items are dax.\"",
+   "label": "true"
+  },
+  "B": {
+   "raw": "Words that are sweet or edible fruits are labeled 'dax'.",
+   "label": "mixed:true+decoy_B"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "banana is dax because it's a fruit like strawberry and tomato.",
+  "msg_B": "apple is dax because it's sweet and edible like cherry.",
+  "word_A": "banana",
+  "word_B": "apple",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "orange is dax because it's a fruit and sweet like apple.",
+  "msg_B": "grape is dax because it's a small, sweet fruit like cherry.",
+  "word_A": "orange",
+  "word_B": "grape",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "peach is dax because it's a sweet fruit like strawberry and tomato.",
+  "msg_B": "lemon is dax because it's a citrus fruit like orange.",
+  "word_A": "peach",
+  "word_B": "lemon",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that the word must represent a sweet fruit.",
+   "label": "decoy_B"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that the word must be a sweet, edible fruit.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "bread",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rice",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "lemon",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "cake",
+    "gold": true,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "butter",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "rose",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "ruby",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "brick",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pencil",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "violin",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

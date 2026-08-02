@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "elephant", "true": "elephant", "clues": ["gray", "large", "an animal"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["elephant", "elephant", "dog"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["wolf", "whale", "cat"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["squirrel", "dinosaur", "rabbit"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["fox", "giraffe", "tiger"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["bear", "lion", "lion"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["horse", "tiger", "monkey"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["zebra", "elephant", "zebra"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["panda", "giraffe", "giraffe"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["panda", "lion", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["panda", "giraffe", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["panda", "giraffe", "panda"], "all_true": false, "clue_violations": []}

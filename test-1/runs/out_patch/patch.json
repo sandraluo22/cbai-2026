@@ -1,0 +1,512 @@
+{
+ "X": [
+  5,
+  7,
+  8,
+  10,
+  15,
+  17,
+  2,
+  11,
+  12,
+  18
+ ],
+ "traps": {
+  "5": [
+   5,
+   6
+  ],
+  "7": [
+   5,
+   6
+  ],
+  "8": [
+   5,
+   6
+  ],
+  "10": [
+   5,
+   6
+  ],
+  "15": [
+   5,
+   6
+  ],
+  "17": [
+   5,
+   6
+  ],
+  "2": [
+   6,
+   6
+  ],
+  "11": [
+   6,
+   6
+  ],
+  "12": [
+   6,
+   6
+  ],
+  "18": [
+   6,
+   6
+  ]
+ },
+ "targets": {
+  "5": [
+   6
+  ],
+  "7": [
+   6
+  ],
+  "8": [
+   6
+  ],
+  "10": [
+   6
+  ],
+  "15": [
+   6
+  ],
+  "17": [
+   6
+  ],
+  "2": [
+   5,
+   6
+  ],
+  "11": [
+   5,
+   6
+  ],
+  "12": [
+   5,
+   6
+  ],
+  "18": [
+   5,
+   6
+  ]
+ },
+ "arms": {
+  "steer_a1": [
+   {
+    "rollout": 5,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 7,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 8,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 10,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 15,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 17,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 2,
+    "top": [
+     5
+    ],
+    "frac": 0.8775510204081632,
+    "label": "other"
+   },
+   {
+    "rollout": 11,
+    "top": [
+     4
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 12,
+    "top": [
+     4
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 18,
+    "top": [
+     5
+    ],
+    "frac": 1.0,
+    "label": "other"
+   }
+  ],
+  "steer_a2": [
+   {
+    "rollout": 5,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 7,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 8,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 10,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 15,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 17,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 2,
+    "top": [
+     5
+    ],
+    "frac": 0.46938775510204084,
+    "label": "other"
+   },
+   {
+    "rollout": 11,
+    "top": [
+     4,
+     8
+    ],
+    "frac": 0.5510204081632653,
+    "label": "other"
+   },
+   {
+    "rollout": 12,
+    "top": [
+     4
+    ],
+    "frac": 0.9591836734693877,
+    "label": "other"
+   },
+   {
+    "rollout": 18,
+    "top": [
+     5
+    ],
+    "frac": 0.9183673469387755,
+    "label": "other"
+   }
+  ],
+  "steer_a4": [
+   {
+    "rollout": 5,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 7,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 8,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 10,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 15,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 17,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 2,
+    "top": [
+     4,
+     5
+    ],
+    "frac": 0.42857142857142855,
+    "label": "other"
+   },
+   {
+    "rollout": 11,
+    "top": [
+     4
+    ],
+    "frac": 0.7551020408163265,
+    "label": "other"
+   },
+   {
+    "rollout": 12,
+    "top": [
+     4
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 18,
+    "top": [
+     5
+    ],
+    "frac": 0.7346938775510204,
+    "label": "other"
+   }
+  ],
+  "random_a2": [
+   {
+    "rollout": 5,
+    "top": [
+     5,
+     6
+    ],
+    "frac": 0.673469387755102,
+    "label": "stayed"
+   },
+   {
+    "rollout": 7,
+    "top": [
+     6
+    ],
+    "frac": 0.7551020408163265,
+    "label": "switched"
+   },
+   {
+    "rollout": 8,
+    "top": [
+     5,
+     6
+    ],
+    "frac": 1.0,
+    "label": "stayed"
+   },
+   {
+    "rollout": 10,
+    "top": [
+     5,
+     7
+    ],
+    "frac": 0.7142857142857143,
+    "label": "other"
+   },
+   {
+    "rollout": 15,
+    "top": [
+     6
+    ],
+    "frac": 1.0,
+    "label": "switched"
+   },
+   {
+    "rollout": 17,
+    "top": [
+     6
+    ],
+    "frac": 0.5102040816326531,
+    "label": "switched"
+   },
+   {
+    "rollout": 2,
+    "top": [
+     6
+    ],
+    "frac": 0.46938775510204084,
+    "label": "stayed"
+   },
+   {
+    "rollout": 11,
+    "top": [
+     6
+    ],
+    "frac": 0.5714285714285714,
+    "label": "stayed"
+   },
+   {
+    "rollout": 12,
+    "top": [
+     5
+    ],
+    "frac": 0.5102040816326531,
+    "label": "other"
+   },
+   {
+    "rollout": 18,
+    "top": [
+     1,
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   }
+  ],
+  "samebasin_a2": [
+   {
+    "rollout": 5,
+    "top": [
+     5
+    ],
+    "frac": 0.8979591836734694,
+    "label": "other"
+   },
+   {
+    "rollout": 7,
+    "top": [
+     4
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 8,
+    "top": [
+     6,
+     10
+    ],
+    "frac": 0.6530612244897959,
+    "label": "other"
+   },
+   {
+    "rollout": 10,
+    "top": [
+     5
+    ],
+    "frac": 0.6326530612244898,
+    "label": "other"
+   },
+   {
+    "rollout": 15,
+    "top": [
+     4
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 17,
+    "top": [
+     6,
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 2,
+    "top": [
+     5
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 11,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 12,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   },
+   {
+    "rollout": 18,
+    "top": [
+     10
+    ],
+    "frac": 1.0,
+    "label": "other"
+   }
+  ]
+ }
+}

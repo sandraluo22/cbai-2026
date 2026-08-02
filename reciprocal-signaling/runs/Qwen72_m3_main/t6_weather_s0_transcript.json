@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t6_weather",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for weather phenomena",
+  "decoy_A": "words for things that fall from the sky",
+  "decoy_B": "words for cold things",
+  "A_examples": [
+   [
+    "snow",
+    true,
+    "trap"
+   ],
+   [
+    "rain",
+    true,
+    "key"
+   ],
+   [
+    "sofa",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "hail",
+    true,
+    "trap"
+   ],
+   [
+    "frost",
+    true,
+    "key"
+   ],
+   [
+    "guitar",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "fog",
+    true,
+    "both"
+   ],
+   [
+    "thunder",
+    true,
+    "both"
+   ],
+   [
+    "heatwave",
+    true,
+    "both"
+   ],
+   [
+    "drought",
+    true,
+    "both"
+   ],
+   [
+    "breeze",
+    true,
+    "both"
+   ],
+   [
+    "meteor",
+    false,
+    "A"
+   ],
+   [
+    "confetti",
+    false,
+    "A"
+   ],
+   [
+    "refrigerator",
+    false,
+    "B"
+   ],
+   [
+    "icicle",
+    false,
+    "B"
+   ],
+   [
+    "wallet",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule seems to be that words related to natural phenomena or elements of weather are labeled 'dax.'",
+   "label": "true"
+  },
+  "B": {
+   "raw": "The hidden rule might be that a word is labeled 'dax' if it is related to weather or natural phenomena.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "Cloud is dax. I'm thinking the rule might be related to natural phenomena or elements found in nature. Let's see if we can align our thoughts on this!",
+  "msg_B": "Snow is dax. It seems the rule might involve natural phenomena related to cold weather. What do you think?",
+  "word_A": "cloud",
+  "word_B": "snow",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "Ice is dax. It appears our thoughts are aligning towards natural phenomena, particularly those related to cold weather. Let's confirm this pattern with more examples!",
+  "msg_B": "Ice is dax. It fits the pattern of natural cold-related phenomena. Your cloud example supports the idea that the rule involves natural elements. Let's test more nature-related terms.",
+  "word_A": "ice",
+  "word_B": "ice",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "Wind is dax. Our previous examples suggest the rule involves natural elements, especially those related to weather. Testing wind will help solidify our hypothesis. Looking forward to your input!",
+  "msg_B": "Water is not dax. This should help us confirm if the rule strictly applies to cold-related natural phenomena, as water itself is a natural element but not specific to cold conditions. Looking forward to your example!",
+  "word_A": "wind",
+  "word_B": "water",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it represents a natural phenomenon specifically related to cold weather.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that the word must represent a natural phenomenon or element specifically associated with cold weather.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

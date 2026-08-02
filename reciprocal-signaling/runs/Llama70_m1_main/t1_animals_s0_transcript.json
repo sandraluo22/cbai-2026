@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "main",
+  "m": 1,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for large things",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "horse",
+    true,
+    "trap"
+   ],
+   [
+    "whale",
+    true,
+    "key"
+   ],
+   [
+    "coin",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is a noun that refers to a living thing, especially an animal.",
+   "label": "true"
+  },
+  "B": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it refers to a living thing.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "goat",
+  "msg_B": "cloud",
+  "word_A": "goat",
+  "word_B": "cloud",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "kite",
+  "msg_B": "submarine",
+  "word_A": "kite",
+  "word_B": "submarine",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "peacock",
+  "msg_B": "tiger",
+  "word_A": "peacock",
+  "word_B": "tiger",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "A word is dax if it has a double letter in it.",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is \"dax\" if it is a noun that refers to a living thing.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

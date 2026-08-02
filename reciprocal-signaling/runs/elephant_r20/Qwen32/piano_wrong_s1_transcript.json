@@ -1,0 +1,278 @@
+[
+ {
+  "type": "meta",
+  "quiz": "piano_wrong",
+  "true": "piano",
+  "clues": [
+   "it has black and white parts",
+   "a musical instrument",
+   "it has keys",
+   "large and heavy",
+   "you blow into it"
+  ],
+  "kind": "word",
+  "wrong_agent": 4,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "checkerboard",
+   "piano",
+   "piano",
+   "tank",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "zebra",
+   "piano",
+   "keyboard",
+   "tank",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "zebra",
+   "keyboard",
+   "keyboard",
+   "anchor",
+   "kazoo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

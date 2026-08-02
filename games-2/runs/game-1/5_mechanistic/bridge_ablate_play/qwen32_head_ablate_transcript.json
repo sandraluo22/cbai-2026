@@ -1,0 +1,1098 @@
+[
+  {
+    "cond": "none",
+    "rollout": 0,
+    "turn": 1,
+    "A": "mountain",
+    "B": "moon",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 0,
+    "turn": 2,
+    "A": "star",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 0,
+    "turn": 3,
+    "A": "night",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 0,
+    "turn": 4,
+    "A": "sky",
+    "B": "sky",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 1,
+    "turn": 1,
+    "A": "moon",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 1,
+    "turn": 2,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 1,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 2,
+    "A": "sun",
+    "B": "star",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 3,
+    "A": "sky",
+    "B": "night",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 4,
+    "A": "day",
+    "B": "dawn",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 5,
+    "A": "tree",
+    "B": "storm",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 2,
+    "turn": 6,
+    "A": "rain",
+    "B": "rain",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 3,
+    "turn": 1,
+    "A": "star",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 3,
+    "turn": 2,
+    "A": "river",
+    "B": "river",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 4,
+    "turn": 1,
+    "A": "moon",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 4,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 5,
+    "turn": 1,
+    "A": "star",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 5,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 6,
+    "turn": 1,
+    "A": "moon",
+    "B": "rain",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 6,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 7,
+    "turn": 1,
+    "A": "star",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 7,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 8,
+    "turn": 1,
+    "A": "river",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 8,
+    "turn": 2,
+    "A": "ocean",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 8,
+    "turn": 3,
+    "A": "storm",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 8,
+    "turn": 4,
+    "A": "desert",
+    "B": "desert",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 9,
+    "turn": 1,
+    "A": "moon",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 9,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 10,
+    "turn": 1,
+    "A": "moon",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 10,
+    "turn": 2,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 11,
+    "turn": 1,
+    "A": "moon",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 11,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 12,
+    "turn": 1,
+    "A": "star",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 12,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 13,
+    "turn": 1,
+    "A": "star",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 13,
+    "turn": 2,
+    "A": "sky",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 13,
+    "turn": 3,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 14,
+    "turn": 1,
+    "A": "star",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 14,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "none",
+    "rollout": 15,
+    "turn": 1,
+    "A": "sky",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 15,
+    "turn": 2,
+    "A": "beach",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "none",
+    "rollout": 15,
+    "turn": 3,
+    "A": "ocean",
+    "B": "ocean",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 1,
+    "A": "mountain",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 2,
+    "A": "forest",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 3,
+    "A": "beach",
+    "B": "tundra",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 4,
+    "A": "jungle",
+    "B": "plains",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 5,
+    "A": "island",
+    "B": "taiga",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 6,
+    "A": "wasteland",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 7,
+    "A": "steppe",
+    "B": "valley",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 8,
+    "A": "grassland",
+    "B": "river",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 9,
+    "A": "canyon",
+    "B": "rainforest",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 0,
+    "turn": 10,
+    "A": "plateau",
+    "B": "plateau",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 1,
+    "turn": 1,
+    "A": "desert",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 1,
+    "turn": 2,
+    "A": "sun",
+    "B": "forest",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 1,
+    "turn": 3,
+    "A": "ocean",
+    "B": "ocean",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 2,
+    "turn": 1,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 2,
+    "turn": 2,
+    "A": "sun",
+    "B": "star",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 2,
+    "turn": 3,
+    "A": "sky",
+    "B": "sky",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 3,
+    "turn": 1,
+    "A": "sky",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 3,
+    "turn": 2,
+    "A": "desert",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 3,
+    "turn": 3,
+    "A": "forest",
+    "B": "forest",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 4,
+    "turn": 1,
+    "A": "river",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 4,
+    "turn": 2,
+    "A": "forest",
+    "B": "forest",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 5,
+    "turn": 1,
+    "A": "star",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 5,
+    "turn": 2,
+    "A": "sky",
+    "B": "sky",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 6,
+    "turn": 1,
+    "A": "desert",
+    "B": "rain",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 6,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 7,
+    "turn": 1,
+    "A": "desert",
+    "B": "island",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 7,
+    "turn": 2,
+    "A": "beach",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 7,
+    "turn": 3,
+    "A": "volcano",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 7,
+    "turn": 4,
+    "A": "forest",
+    "B": "forest",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 8,
+    "turn": 1,
+    "A": "desert",
+    "B": "star",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 8,
+    "turn": 2,
+    "A": "ocean",
+    "B": "ocean",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 9,
+    "turn": 1,
+    "A": "river",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 9,
+    "turn": 2,
+    "A": "island",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 9,
+    "turn": 3,
+    "A": "mountain",
+    "B": "forest",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 9,
+    "turn": 4,
+    "A": "valley",
+    "B": "valley",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 10,
+    "turn": 1,
+    "A": "river",
+    "B": "island",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 10,
+    "turn": 2,
+    "A": "mountain",
+    "B": "mountain",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 11,
+    "turn": 1,
+    "A": "moon",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 11,
+    "turn": 2,
+    "A": "sky",
+    "B": "ocean",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 11,
+    "turn": 3,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 12,
+    "turn": 1,
+    "A": "star",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 12,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 13,
+    "turn": 1,
+    "A": "star",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 13,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 14,
+    "turn": 1,
+    "A": "star",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 14,
+    "turn": 2,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 14,
+    "turn": 3,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "top32",
+    "rollout": 15,
+    "turn": 1,
+    "A": "sky",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 15,
+    "turn": 2,
+    "A": "beach",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "top32",
+    "rollout": 15,
+    "turn": 3,
+    "A": "ocean",
+    "B": "ocean",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 0,
+    "turn": 1,
+    "A": "tree",
+    "B": "moon",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 0,
+    "turn": 2,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 1,
+    "turn": 1,
+    "A": "moon",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 1,
+    "turn": 2,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 1,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 2,
+    "A": "sun",
+    "B": "star",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 3,
+    "A": "sky",
+    "B": "night",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 4,
+    "A": "day",
+    "B": "dawn",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 5,
+    "A": "fire",
+    "B": "storm",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 2,
+    "turn": 6,
+    "A": "rain",
+    "B": "rain",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 3,
+    "turn": 1,
+    "A": "sky",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 3,
+    "turn": 2,
+    "A": "desert",
+    "B": "desert",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 4,
+    "turn": 1,
+    "A": "moon",
+    "B": "stone",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 4,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 5,
+    "turn": 1,
+    "A": "star",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 5,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 6,
+    "turn": 1,
+    "A": "moon",
+    "B": "rain",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 6,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 7,
+    "turn": 1,
+    "A": "star",
+    "B": "storm",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 7,
+    "turn": 2,
+    "A": "sun",
+    "B": "moon",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 7,
+    "turn": 3,
+    "A": "night",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 7,
+    "turn": 4,
+    "A": "dawn",
+    "B": "dawn",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 1,
+    "A": "river",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 2,
+    "A": "ocean",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 3,
+    "A": "storm",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 4,
+    "A": "desert",
+    "B": "mountain",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 5,
+    "A": "island",
+    "B": "valley",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 8,
+    "turn": 6,
+    "A": "forest",
+    "B": "forest",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 9,
+    "turn": 1,
+    "A": "moon",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 9,
+    "turn": 2,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 10,
+    "turn": 1,
+    "A": "moon",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 10,
+    "turn": 2,
+    "A": "star",
+    "B": "star",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 11,
+    "turn": 1,
+    "A": "moon",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 11,
+    "turn": 2,
+    "A": "sky",
+    "B": "sky",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 12,
+    "turn": 1,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 12,
+    "turn": 2,
+    "A": "sky",
+    "B": "star",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 12,
+    "turn": 3,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 13,
+    "turn": 1,
+    "A": "star",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 13,
+    "turn": 2,
+    "A": "moon",
+    "B": "moon",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 14,
+    "turn": 1,
+    "A": "star",
+    "B": "sky",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 14,
+    "turn": 2,
+    "A": "moon",
+    "B": "sea",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 14,
+    "turn": 3,
+    "A": "sun",
+    "B": "sun",
+    "agreed": true
+  },
+  {
+    "cond": "rand32",
+    "rollout": 15,
+    "turn": 1,
+    "A": "sky",
+    "B": "desert",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 15,
+    "turn": 2,
+    "A": "beach",
+    "B": "sun",
+    "agreed": false
+  },
+  {
+    "cond": "rand32",
+    "rollout": 15,
+    "turn": 3,
+    "A": "ocean",
+    "B": "ocean",
+    "agreed": true
+  }
+]

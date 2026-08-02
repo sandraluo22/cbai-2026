@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin",
+  "true": "penguin",
+  "clues": [
+   "black and white",
+   "a bird",
+   "it cannot fly",
+   "it lives somewhere cold"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "tiger",
+   "sparrow",
+   "bird",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "zebra",
+   "eagle",
+   "bat",
+   "seal"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "cricket",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "bat",
+   "crow",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "bat",
+   "bat",
+   "bat",
+   "walrus"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

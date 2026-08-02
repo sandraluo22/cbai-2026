@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "echo", "true": "echo", "clues": ["you can hear it", "it repeats", "you notice it in the mountains", "you cannot see it", "it fades away"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["start", "is", "excited", "is", "fades"], "all_true": false, "clue_violations": [5]}
+{"type": "round", "round": 2, "guesses": ["sound", "repeats", "cloud", "black", "cloud"], "all_true": false, "clue_violations": [2]}
+{"type": "round", "round": 3, "guesses": ["sound", "echo", "fog", "you", "fog"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 4, "guesses": ["sound", "echo", "peak", "shadow", "fog"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["sound", "echo", "peak", "given", "cloud"], "all_true": false, "clue_violations": []}

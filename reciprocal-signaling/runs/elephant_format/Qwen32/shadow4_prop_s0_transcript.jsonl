@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "shadow4_prop", "true": "shadow", "clues": ["it has the property: darkness", "it has the property: following its owner", "it has the property: flatness", "it has the property: light-dependence"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["night", "shadow", "table", "photosynthesis"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["dark", "shadow", "board", "sunlight"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["void", "shadow", "board", "sunflower"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["obscurity", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["darkness", "echo", "board", "sunlight"], "all_true": false, "clue_violations": [1]}
+{"type": "round", "round": 6, "guesses": ["umbra", "echo", "board", "sunlight"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["umbra", "echo", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["umbra", "echo", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["umbra", "echo", "board", "sunlight"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["umbra", "shadow", "board", "sunlight"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["umbra", "shadow", "board", "sunroom"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["umbra", "umbra", "board", "sunroom"], "all_true": false, "clue_violations": []}

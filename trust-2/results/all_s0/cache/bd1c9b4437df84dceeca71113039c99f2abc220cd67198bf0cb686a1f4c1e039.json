@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Devon\": 0.7, \"Perry\": 0.3},\n  \"confidence\": 0.5,\n  \"justification\": \"Devon has a higher accuracy rate (12/15) than Perry (6/15), but Perry has also reported some correct values in the verification log, so a moderate level of trust is assigned to both sources.\"\n}", "trial_id": "recovery-0-0039"}

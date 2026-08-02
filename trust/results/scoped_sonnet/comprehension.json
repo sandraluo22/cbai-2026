@@ -1,0 +1,22 @@
+[
+  {
+    "reputable_source": "Source A is described as the long-trusted, widely established source, while Source B is the recent addition with no established track record.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to assess each source's accuracy and update my trust accordingly.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted one, with years of consultation and wide trust, while Source B is a recent addition with no established track record.",
+    "what_is_revealed": "After each round, the hidden true values of the companies are revealed, allowing me to assess the accuracy of each source's estimates over time.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted, widely relied-upon source with years of established track record. Source B is new with no established track record.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to assess forecast accuracy of each source and update my reliance on them.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted, widely established source, while Source B is a recent addition with no established track record.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, which allows me to evaluate the accuracy of each source over time and update my reliance on them accordingly.",
+    "fresh_items_each_round": true
+  }
+]

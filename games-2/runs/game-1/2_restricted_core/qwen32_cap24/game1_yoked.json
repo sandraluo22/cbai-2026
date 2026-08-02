@@ -1,0 +1,40 @@
+{
+  "model": "QwenInst32",
+  "temp": 0.7,
+  "safety": 24,
+  "n": 16,
+  "conditions": {
+    "reactive": {
+      "n": 16,
+      "met_frac": 0.9375,
+      "met_se": 0.06051536478449089,
+      "turns_to_meet_mean": 4.266666666666667,
+      "turns_to_meet_se": 0.6357264727444879,
+      "n_met": 15
+    },
+    "yoked": {
+      "n": 16,
+      "met_frac": 0.25,
+      "met_se": 0.10825317547305482,
+      "turns_to_meet_mean": 5.75,
+      "turns_to_meet_se": 0.5448623679425842,
+      "n_met": 4
+    },
+    "restrict-city": {
+      "n": 16,
+      "met_frac": 0.4375,
+      "met_se": 0.12401959270615269,
+      "turns_to_meet_mean": 5.0,
+      "turns_to_meet_se": 0.34992710611188255,
+      "n_met": 7
+    },
+    "restrict-fruit": {
+      "n": 16,
+      "met_frac": 0.4375,
+      "met_se": 0.12401959270615269,
+      "turns_to_meet_mean": 6.285714285714286,
+      "turns_to_meet_se": 1.674713325626828,
+      "n_met": 7
+    }
+  }
+}

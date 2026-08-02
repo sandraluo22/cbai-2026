@@ -1,0 +1,270 @@
+<title>In-context grids across sizes — PCA & eigenmode viewer</title>
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#111725; --panel2:#0e1420; --line:#20293b;
+    --ink:#c9d6e2; --mut:#7d8aa0; --accent:#4cc9e0;
+    --parA:#f0883e; --parB:#58a6ff; --edge:#33405a;
+    --shadow:0 1px 0 rgba(255,255,255,.03), 0 8px 30px rgba(0,0,0,.45);
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#eef1f6; --panel:#ffffff; --panel2:#f4f7fb; --line:#d6dded;
+      --ink:#1b2536; --mut:#5c6b84; --accent:#0d7d97; --edge:#b7c2d8;
+      --shadow:0 1px 0 rgba(255,255,255,.6), 0 8px 24px rgba(30,50,90,.12);}
+  }
+  :root[data-theme="dark"]{ --bg:#0b0e14; --panel:#111725; --panel2:#0e1420; --line:#20293b;
+    --ink:#c9d6e2; --mut:#7d8aa0; --accent:#4cc9e0; --edge:#33405a;
+    --shadow:0 1px 0 rgba(255,255,255,.03), 0 8px 30px rgba(0,0,0,.45);}
+  :root[data-theme="light"]{ --bg:#eef1f6; --panel:#ffffff; --panel2:#f4f7fb; --line:#d6dded;
+    --ink:#1b2536; --mut:#5c6b84; --accent:#0d7d97; --edge:#b7c2d8;
+    --shadow:0 1px 0 rgba(255,255,255,.6), 0 8px 24px rgba(30,50,90,.12);}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 20px 40px;}
+  header{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 22px;margin-bottom:14px;}
+  h1{font-size:18px;font-weight:600;letter-spacing:.2px;margin:0;text-wrap:balance;}
+  h1 .dim{color:var(--mut);font-weight:400;}
+  .sub{font-family:ui-sans-serif,system-ui,sans-serif;color:var(--mut);font-size:12.5px;max-width:66ch;line-height:1.5;margin:6px 0 0;}
+  .spacer{flex:1 1 auto}
+  .ctl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  label.k{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);}
+  select,button{font-family:inherit;font-size:12.5px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:6px 10px;cursor:pointer;}
+  button:hover,select:hover{border-color:var(--accent);}
+  button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden;}
+  .seg button{border:0;border-radius:0;background:transparent;padding:6px 11px;}
+  .seg button[aria-pressed="true"]{background:var(--accent);color:#04121a;}
+  .stage{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media (max-width:820px){ .stage{grid-template-columns:1fr;} }
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;}
+  .card .cap{display:flex;justify-content:space-between;align-items:baseline;padding:10px 13px;border-bottom:1px solid var(--line);}
+  .card .cap b{font-weight:600;font-size:12.5px;}
+  .card .cap span{color:var(--mut);font-size:11px;}
+  canvas{display:block;width:100%;height:340px;touch-action:none;cursor:grab;background:radial-gradient(120% 120% at 50% 40%, color-mix(in srgb, var(--panel) 92%, var(--accent)) 0%, var(--panel2) 70%);}
+  canvas:active{cursor:grabbing;}
+  .bar{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:14px 18px;flex-wrap:wrap;box-shadow:var(--shadow);}
+  .play{width:36px;height:36px;display:grid;place-items:center;padding:0;font-size:14px;}
+  .slide{display:flex;align-items:center;gap:10px;min-width:200px;}
+  .slide.grow{flex:1 1 240px;}
+  input[type=range]{flex:1;accent-color:var(--accent);min-width:120px;}
+  .read{font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .read .big{font-size:15px;font-weight:600;}
+  .read .mut{color:var(--mut);}
+  .evr{font-size:11px;color:var(--mut);} .evr b{color:var(--ink);font-weight:600;}
+  .legend{display:flex;gap:10px;align-items:center;font-size:11.5px;color:var(--mut);}
+  .grad{display:inline-block;width:74px;height:9px;border-radius:5px;vertical-align:-1px;border:1px solid var(--line);}
+  .axes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .axes select{padding:4px 7px;font-size:11.5px;}
+  .strip{margin-top:14px;display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);}
+  footer{margin-top:16px;font-family:ui-sans-serif,system-ui,sans-serif;color:var(--mut);font-size:11.5px;line-height:1.6;max-width:74ch;}
+  kbd{font-family:inherit;background:var(--panel2);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:10.5px;}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>In-context grids <span class="dim">/ across sizes · PCA &amp; eigenmodes</span></h1>
+      <p class="sub">Drag one lever to grow the grid from <b>3×3 to 16×16</b>. <b>PCA</b> shows each layer's
+        node representation along its 3 dominant axes; <b>eigenmode</b> view plots the model's projection onto
+        any of the top-firing graph-Laplacian modes (assign modes to X/Y/Z/colour). Left = node means (edges =
+        grid neighbours, always opposite parity); right = individual token occurrences. Scrub layers; watch the
+        parity checkerboard shrink and the smooth coordinate modes take over as the grid grows.</p>
+    </div>
+    <div class="spacer"></div>
+    <div class="ctl"><label class="k">view</label>
+      <div class="seg" id="g-view">
+        <button data-v="pca" aria-pressed="true">PCA</button>
+        <button data-v="eig" aria-pressed="false">eigenmode</button>
+      </div></div>
+    <button id="g-reset">reset view</button>
+  </header>
+
+  <div class="bar">
+    <div class="slide grow"><span class="k">grid&nbsp;size</span>
+      <input type="range" id="g-size" min="0" step="1"/>
+      <span class="read"><span class="big" id="g-kv">4</span><span class="mut">×</span><span class="big" id="g-kv2">4</span>
+        <span class="mut" id="g-nn">16 nodes</span></span></div>
+    <div class="ctl" id="g-colorwrap"><label class="k">colour</label>
+      <div class="seg" id="g-color">
+        <button data-v="parity" aria-pressed="true">parity</button>
+        <button data-v="row" aria-pressed="false">row</button>
+        <button data-v="col" aria-pressed="false">col</button>
+        <button data-v="node" aria-pressed="false">node</button>
+        <button data-v="eig" aria-pressed="false">eig</button>
+      </div>
+      <select id="g-cmode" hidden></select>
+    </div>
+    <div class="axes" id="g-axes" hidden>
+      <label class="k">x</label><select id="g-ax-x"></select>
+      <label class="k">y</label><select id="g-ax-y"></select>
+      <label class="k">z</label><select id="g-ax-z"></select>
+      <label class="k">c</label><select id="g-ax-c"></select>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="card">
+      <div class="cap"><b id="g-capA">node means · PCA</b><span id="g-statA"></span></div>
+      <canvas id="g-cvA"></canvas>
+    </div>
+    <div class="card">
+      <div class="cap"><b>per-occurrence cloud</b><span id="g-capB"></span></div>
+      <canvas id="g-cvB"></canvas>
+    </div>
+  </div>
+
+  <div class="bar">
+    <button class="play" id="g-play" aria-label="play layers">▶</button>
+    <div class="slide grow"><span class="k">layer</span>
+      <input type="range" id="g-layer" min="0" max="31" value="30" step="1"/></div>
+    <div class="read"><span class="big" id="g-Lnum">30</span><span class="mut" id="g-Lmax">/31</span></div>
+    <div class="evr" id="g-evr">layer —</div>
+    <div class="legend" id="g-legend"></div>
+  </div>
+
+  <div class="strip" id="g-modestrip"></div>
+
+  <footer>
+    Drag either panel to rotate both • <kbd>space</kbd> play/pause layers • <kbd>←</kbd>/<kbd>→</kbd> step layers •
+    <kbd>P</kbd>/<kbd>E</kbd> PCA/eigenmode. Mode heatmaps below show each top-firing eigenmode's model projection
+    on the grid (frequency label p,q); the spectrum bars are the model's projection power per Laplacian mode.
+  </footer>
+</div>
+
+<script>
+const D = __DATA__;
+(function(){
+  const css = k => getComputedStyle(document.documentElement).getPropertyValue(k).trim() || k;
+  const grids = D.grids, sizes = D.sizes;
+  let ki = Math.max(0, sizes.indexOf(4));
+  let view='pca', colorby='parity', layer=30, playing=null, ax={x:0,y:2,z:4,c:5};
+  let yaw=0.7, pitch=0.45, drag_=false, ppx=0, ppy=0;
+  const cur = ()=> grids['k'+sizes[ki]];
+  const cvA=document.getElementById('g-cvA'),ctxA=cvA.getContext('2d');
+  const cvB=document.getElementById('g-cvB'),ctxB=cvB.getContext('2d');
+  const sizeS=document.getElementById('g-size'), slider=document.getElementById('g-layer');
+  sizeS.max=sizes.length-1;
+
+  function hex2rgb(h){h=h.replace('#','');if(h.length===3)h=h.split('').map(x=>x+x).join('');return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+  function mix(a,b,t){return a.map((v,i)=>Math.round(v+(b[i]-v)*t));}
+  function hue(t){return `hsl(${(t*300).toFixed(0)} 72% 58%)`;}
+  function diverge(v){const A=hex2rgb(css('--parA')),B=hex2rgb(css('--parB')),N=hex2rgb(css('--mut'));const c=v<0?mix(N,A,Math.min(1,-v)):mix(N,B,Math.min(1,v));return `rgb(${c[0]} ${c[1]} ${c[2]})`;}
+  function edgesOf(c){ const id={}; c.coords.forEach((co,i)=>id[co[0]+','+co[1]]=i); const E=[];
+    c.coords.forEach((co,i)=>{ const r=id[(co[0]+1)+','+co[1]], d=id[co[0]+','+(co[1]+1)]; if(r!=null)E.push([i,r]); if(d!=null)E.push([i,d]); }); return E; }
+  function eigCol(vals){ const mc=Math.max(...vals.map(Math.abs),1e-6); return vals.map(v=>diverge(v/mc)); }
+
+  function nodeColour(c){
+    if(colorby==='eig') return eigCol(c.eig_proj[layer][ax.c]);
+    if(colorby==='parity') return c.parity.map(p=>diverge(p));
+    if(colorby==='node') return c.coords.map((_,i)=>hue(i/c.n));
+    const idx = colorby==='row'?0:1; const k=c.k;
+    return c.coords.map(co=>hue(co[idx]/Math.max(1,k-1)));
+  }
+  function nodePoints(c){
+    if(view==='pca') return {P:c.layer_embed[layer].map(r=>[r[0],r[1],r[2]]), col:nodeColour(c), per:false};
+    const e=c.eig_proj[layer];
+    return {P:e[ax.x].map((_,i)=>[e[ax.x][i],e[ax.y][i],e[ax.z][i]]), col:eigCol(e[ax.c]), per:true};
+  }
+  function cloudColour(c){
+    if(colorby==='eig') return eigCol(c.cloud_eig[layer][ax.c]);
+    if(colorby==='parity') return c.cloud_node.map(nd=>diverge(c.parity[nd]));
+    if(colorby==='node') return c.cloud_node.map(nd=>hue(nd/c.n));
+    const idx = colorby==='row'?0:1; const k=c.k;
+    return c.cloud_node.map(nd=>hue(c.coords[nd][idx]/Math.max(1,k-1)));
+  }
+  function cloudPoints(c){
+    if(view==='pca') return {P:c.layer_cloud[layer].map(r=>[r[0],r[1],r[2]]), col:cloudColour(c), per:false};
+    const e=c.cloud_eig[layer];
+    return {P:e[ax.x].map((_,i)=>[e[ax.x][i],e[ax.y][i],e[ax.z][i]]), col:eigCol(e[ax.c]), per:true};
+  }
+  function normalize(P,per){ if(!P.length)return P; const m=[0,0,0]; P.forEach(p=>{for(let i=0;i<3;i++)m[i]+=p[i];}); m.forEach((_,i)=>m[i]/=P.length);
+    if(per){const s=[1e-6,1e-6,1e-6];P.forEach(p=>{for(let i=0;i<3;i++)s[i]=Math.max(s[i],Math.abs(p[i]-m[i]));});return P.map(p=>[(p[0]-m[0])/s[0],(p[1]-m[1])/s[1],(p[2]-m[2])/s[2]]);}
+    let s=1e-6;P.forEach(p=>{for(let i=0;i<3;i++)s=Math.max(s,Math.abs(p[i]-m[i]));});return P.map(p=>[(p[0]-m[0])/s,(p[1]-m[1])/s,(p[2]-m[2])/s]); }
+  function rot(p){const cy=Math.cos(yaw),sy=Math.sin(yaw);let x1=cy*p[0]+sy*p[2],z1=-sy*p[0]+cy*p[2];const cx=Math.cos(pitch),sx=Math.sin(pitch);return [x1,cx*p[1]-sx*z1,sx*p[1]+cx*z1];}
+  function drawPanel(cv,ctx,pts,edges){ const W=cv.clientWidth,H=cv.clientHeight,dpr=Math.min(2,window.devicePixelRatio||1);
+    cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H); if(!pts.P.length)return;
+    const R=pts.P.map(rot),cx=W/2,cy=H/2,sc=Math.min(W,H)*0.36;
+    const S=R.map(p=>{const pe=1/(1+p[2]*0.28);return [cx+p[0]*sc*pe,cy-p[1]*sc*pe,p[2],pe];});
+    const big=pts.P.length>120, dotr=edges?4.4:(big?1.9:2.9);
+    if(edges){ctx.strokeStyle=css('--edge');ctx.lineWidth=1;
+      edges.map(([a,b])=>[a,b,(S[a][2]+S[b][2])/2]).sort((u,v)=>u[2]-v[2]).forEach(([a,b,z])=>{ctx.globalAlpha=(0.18+0.35*(0.5+z*0.5))*(edges.length>180?0.6:1);ctx.beginPath();ctx.moveTo(S[a][0],S[a][1]);ctx.lineTo(S[b][0],S[b][1]);ctx.stroke();});ctx.globalAlpha=1;}
+    S.map((s,i)=>i).sort((a,b)=>S[a][2]-S[b][2]).forEach(i=>{const s=S[i],r=(dotr)+2.0*(0.5+s[2]*0.5);
+      ctx.beginPath();ctx.arc(s[0],s[1],r*s[3],0,7);ctx.fillStyle=pts.col[i];ctx.globalAlpha=edges?1:0.8;ctx.fill();ctx.globalAlpha=1;
+      if(edges&&!big){ctx.lineWidth=0.7;ctx.strokeStyle='rgba(0,0,0,.45)';ctx.stroke();}}); }
+
+  const strip=document.getElementById('g-modestrip'); let cells=[], specCell=null;
+  function buildStrip(){ strip.innerHTML=''; cells=[]; const c=cur();
+    c.eig_freq.forEach(()=>{ const box=document.createElement('div'); box.style.textAlign='center';
+      const cv=document.createElement('canvas'); cv.style.borderRadius='6px'; cv.style.display='block';
+      const cap=document.createElement('div'); cap.style.cssText='font-size:9.5px;color:var(--mut);margin-top:5px;font-variant-numeric:tabular-nums;';
+      box.appendChild(cv); box.appendChild(cap); strip.appendChild(box); cells.push({cv,cap}); });
+    const sb=document.createElement('div'); sb.style.textAlign='center';
+    const scv=document.createElement('canvas'); scv.style.display='block';
+    const scap=document.createElement('div'); scap.textContent='projection spectrum (λ→)'; scap.style.cssText='font-size:9.5px;color:var(--mut);margin-top:5px;';
+    sb.appendChild(scv); sb.appendChild(scap); strip.appendChild(sb); specCell={cv:scv,cap:scap};
+  }
+  function drawHeat(cv,vals,coords,k){ const dpr=Math.min(2,window.devicePixelRatio||1), H=88, W=88;
+    cv.style.width=W+'px'; cv.style.height=H+'px'; cv.width=W*dpr; cv.height=H*dpr;
+    const ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
+    let mx=1e-6; vals.forEach(v=>mx=Math.max(mx,Math.abs(v)));
+    for(let nd=0;nd<vals.length;nd++){ const r=coords[nd][0], cc=coords[nd][1];
+      ctx.fillStyle=diverge(vals[nd]/mx); ctx.fillRect(cc/k*W, r/k*H, W/k+0.6, H/k+0.6); } }
+  function drawSpectrum(cv,power){ const dpr=Math.min(2,window.devicePixelRatio||1), W=210, H=88;
+    cv.style.width=W+'px'; cv.style.height=H+'px'; cv.width=W*dpr; cv.height=H*dpr;
+    const ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
+    const p=power.slice(1), mx=Math.max(...p,1e-6), bw=W/p.length;
+    p.forEach((v,i)=>{ const h=v/mx*(H-6); ctx.fillStyle=i===p.length-1?css('--parA'):(i<6?css('--accent'):'#7c5cff'); ctx.fillRect(i*bw+0.5,H-h,Math.max(1,bw-1),h); }); }
+  function drawModeStrip(c){ if(cells.length!==c.eig_freq.length) buildStrip();
+    c.eig_freq.forEach((f,m)=>{ drawHeat(cells[m].cv, c.eig_proj[layer][m], c.coords, c.k);
+      cells[m].cap.innerHTML=`mode ${m+1} · (${f[0]},${f[1]})<br>p=${c.eig_power[m]}`; });
+    drawSpectrum(specCell.cv, c.eig_power_by_mode); }
+
+  function fillAxes(){ const c=cur(),opts=c.eig_freq.map((f,i)=>`<option value="${i}">mode ${i+1} (${f[0]},${f[1]}) p${c.eig_power[i]}</option>`).join('');
+    ['x','y','z','c'].forEach(a=>{const s=document.getElementById('g-ax-'+a);s.innerHTML=opts;if(ax[a]>=c.eig_freq.length)ax[a]=c.eig_freq.length-1;s.value=ax[a];});
+    const cm=document.getElementById('g-cmode'); cm.innerHTML=opts; if(ax.c>=c.eig_freq.length)ax.c=c.eig_freq.length-1; cm.value=ax.c; }
+  function render(){
+    const c=cur();
+    document.getElementById('g-kv').textContent=c.k; document.getElementById('g-kv2').textContent=c.k;
+    document.getElementById('g-nn').textContent=c.n+' nodes'; sizeS.value=ki;
+    slider.max=c.n_layers-1; if(layer>c.n_layers-1)layer=c.n_layers-1; slider.value=layer;
+    document.getElementById('g-Lnum').textContent=layer; document.getElementById('g-Lmax').textContent='/'+(c.n_layers-1);
+    const np=nodePoints(c); np.P=normalize(np.P,np.per); drawPanel(cvA,ctxA,np,view==='pca'?edgesOf(c):null);
+    const cp=cloudPoints(c); cp.P=normalize(cp.P,cp.per); drawPanel(cvB,ctxB,cp,null);
+    document.getElementById('g-capA').textContent = view==='pca'?'node means · PCA (PC1–3)':'node means · eigenmode axes';
+    document.getElementById('g-statA').textContent=`${c.k}×${c.k} grid`;
+    document.getElementById('g-capB').textContent=`${c.cloud_node.length} occurrences`;
+    document.getElementById('g-evr').innerHTML=`layer ${layer} · grid-RSA <b>${c.rsa_by_layer[layer]}</b> · PC1–2 var <b>${c.evr_by_layer[layer]}</b> · best L${c.best_layer}`;
+    const lg=document.getElementById('g-legend');
+    const eigColour = view==='eig' || (view==='pca' && colorby==='eig');
+    if(eigColour){const f=c.eig_freq[ax.c];lg.innerHTML=`colour = mode ${ax.c+1} (${f[0]},${f[1]})&nbsp;<span class="grad" style="background:linear-gradient(90deg,${css('--parA')},${css('--mut')},${css('--parB')})"></span>`;}
+    else if(colorby==='parity') lg.innerHTML=`parity ±&nbsp;<span class="grad" style="background:linear-gradient(90deg,${css('--parA')},${css('--mut')},${css('--parB')})"></span>`;
+    else lg.innerHTML=`${colorby}&nbsp;<span class="grad" style="background:linear-gradient(90deg,hsl(0 72% 58%),hsl(150 72% 58%),hsl(300 72% 58%))"></span>`;
+    document.getElementById('g-colorwrap').style.display=view==='eig'?'none':'flex';
+    document.getElementById('g-cmode').hidden = !(view==='pca' && colorby==='eig');
+    document.getElementById('g-cmode').value = ax.c;
+    document.getElementById('g-axes').hidden=view!=='eig';
+    drawModeStrip(c);
+  }
+  function setLayer(L){const c=cur();layer=Math.max(0,Math.min(c.n_layers-1,L));render();}
+
+  function dragc(cv){cv.addEventListener('pointerdown',e=>{drag_=true;ppx=e.clientX;ppy=e.clientY;cv.setPointerCapture(e.pointerId);});
+    cv.addEventListener('pointermove',e=>{if(!drag_)return;yaw+=(e.clientX-ppx)*0.01;pitch=Math.max(-1.5,Math.min(1.5,pitch+(e.clientY-ppy)*0.01));ppx=e.clientX;ppy=e.clientY;render();});
+    cv.addEventListener('pointerup',()=>drag_=false);cv.addEventListener('pointercancel',()=>drag_=false);}
+  dragc(cvA);dragc(cvB);
+  document.getElementById('g-reset').addEventListener('click',()=>{yaw=0.7;pitch=0.45;render();});
+  function seg(id,cb){const g=document.getElementById(id);g.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;[...g.children].forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));cb(b.dataset.v);});}
+  seg('g-view',v=>{view=v;render();}); seg('g-color',v=>{colorby=v;render();});
+  sizeS.addEventListener('input',()=>{ki=+sizeS.value;fillAxes();render();});
+  ['x','y','z','c'].forEach(a=>document.getElementById('g-ax-'+a).addEventListener('change',e=>{ax[a]=+e.target.value;render();}));
+  document.getElementById('g-cmode').addEventListener('change',e=>{ax.c=+e.target.value;render();});
+  slider.addEventListener('input',()=>setLayer(+slider.value));
+  const playBtn=document.getElementById('g-play');
+  playBtn.addEventListener('click',()=>{if(playing){clearInterval(playing);playing=null;playBtn.textContent='▶';}else{playBtn.textContent='⏸';playing=setInterval(()=>{let L=layer+1;if(L>=cur().n_layers)L=0;setLayer(L);},260);}});
+  addEventListener('keydown',e=>{if(e.target.tagName==='SELECT'||e.target.tagName==='INPUT')return;
+    if(e.key===' '){e.preventDefault();playBtn.click();}
+    if(e.key==='p'||e.key==='P'){view='pca';[...document.getElementById('g-view').children].forEach(x=>x.setAttribute('aria-pressed',x.dataset.v==='pca'));render();}
+    if(e.key==='e'||e.key==='E'){view='eig';[...document.getElementById('g-view').children].forEach(x=>x.setAttribute('aria-pressed',x.dataset.v==='eig'));render();}
+    if(e.key==='ArrowRight')setLayer(layer+1); if(e.key==='ArrowLeft')setLayer(layer-1);});
+  new ResizeObserver(render).observe(cvA);
+  fillAxes(); render();
+})();
+</script>

@@ -1,0 +1,263 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin",
+  "true": "penguin",
+  "clues": [
+   "black and white",
+   "a bird",
+   "it cannot fly",
+   "it lives somewhere cold"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "zebra",
+   "sparrow",
+   "is",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "panda",
+   "falcon",
+   "cannot",
+   "yeti"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3
+  ]
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "skunk",
+   "eagle",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "penguin",
+   "parrot",
+   "cannot",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "panda",
+   "owl",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "going",
+   "penguin",
+   "elephant",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "going",
+   "swan",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "going",
+   "eagle",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "panda",
+   "ostrich",
+   "tortoise",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "panda",
+   "going",
+   "tortoise",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "going",
+   "eagle",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "panda",
+   "since",
+   "is",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "panda",
+   "going",
+   "tortoise",
+   "lives"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "panda",
+   "is",
+   "elephant",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "panda",
+   "parrot",
+   "tortoise",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "panda",
+   "eagle",
+   "tortoise",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "panda",
+   "penguin",
+   "tortoise",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "panda",
+   "par",
+   "tortoise",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "panda",
+   "eagle",
+   "tortoise",
+   "after"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "panda",
+   "eagle",
+   "tortoise",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

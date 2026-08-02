@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Avery\": 0.7, \"Finley\": 0.3},\n  \"confidence\": 0.5,\n  \"justification\": \"Avery has a higher accuracy rate (12/15) than Finley (8/15), but Finley has a few correct values in a row towards the end, which suggests some reliability, but not enough to outweigh Avery's overall accuracy.\"\n}", "trial_id": "order-0-0019"}

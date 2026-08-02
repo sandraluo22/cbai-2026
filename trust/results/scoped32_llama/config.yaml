@@ -1,0 +1,48 @@
+bootstrap: 2000
+comprehension_games: 4
+design:
+  anchor_gap: 2.0
+  games: 20
+  gaps:
+  - 1.5
+  - 2.0
+  - 3.0
+  - 5.0
+  info_levels:
+  - lean
+  - self_history
+  - summary
+  - full
+  main_info: lean
+  main_rep: moderate
+  rep_strengths:
+  - faint
+  - moderate
+  - strong
+  robust_games: 12
+  robustness:
+  - swap
+  - order
+  - paraphrase
+env:
+  M: 3
+  T: 32
+  mu: 300.0
+  sigma_B: 12.0
+  theta_scale: 120.0
+max_calls: 100000
+model:
+  backend: llama
+  device: cuda
+  dtype: bfloat16
+  max_input_tokens: 8192
+  max_new_tokens: 64
+  model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+output_root: results/scoped32_llama
+prior:
+  nu0_A: 6.0
+  nu0_B: 2.0
+  sig0_A: 15.0
+  sig0_B: 45.0
+seed_base: 0
+smoke_T: 6

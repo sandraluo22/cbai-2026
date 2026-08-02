@@ -1,0 +1,75 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin",
+  "true": "penguin",
+  "clues": [
+   "black and white",
+   "a bird",
+   "it cannot fly",
+   "it lives somewhere cold"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "tie",
+   "sparrow",
+   "penguin",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "zebra",
+   "owl",
+   "eagle",
+   "polarbear"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "check",
+   "eagle",
+   "eagle",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "chequers",
+   "eagle",
+   "eagle",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "zebra",
+   "eagle",
+   "eagle",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

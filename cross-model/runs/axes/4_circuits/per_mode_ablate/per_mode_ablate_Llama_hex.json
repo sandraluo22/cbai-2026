@@ -1,0 +1,157 @@
+{
+  "model": "Llama",
+  "graph": "hex",
+  "lap": "norm",
+  "walk_length": 300,
+  "ctxlo": 100,
+  "chance": {
+    "neighbour": 0.275,
+    "parity": 0.5333333333333333
+  },
+  "baseline": {
+    "neighbour_validity": 0.9775,
+    "parity_validity": 0.65125,
+    "n_pred": 3200
+  },
+  "random_rank1": {
+    "neighbour_validity": 0.9742708333333333,
+    "parity_validity": 0.6503125
+  },
+  "modes": [
+    {
+      "mode": 1,
+      "eigenvalue": 0.22936469677539797,
+      "label": "coord",
+      "neighbour_validity": 0.87125,
+      "parity_validity": 0.6215625,
+      "d_nbr": 0.10625000000000007,
+      "d_par": 0.029687499999999978
+    },
+    {
+      "mode": 2,
+      "eigenvalue": 0.2899809539732261,
+      "label": "coord",
+      "neighbour_validity": 0.8525,
+      "parity_validity": 0.5925,
+      "d_nbr": 0.125,
+      "d_par": 0.05874999999999997
+    },
+    {
+      "mode": 3,
+      "eigenvalue": 0.518929821895611,
+      "label": "other",
+      "neighbour_validity": 0.9128125,
+      "parity_validity": 0.581875,
+      "d_nbr": 0.06468750000000001,
+      "d_par": 0.06937499999999996
+    },
+    {
+      "mode": 4,
+      "eigenvalue": 0.7358848991603592,
+      "label": "other",
+      "neighbour_validity": 0.94125,
+      "parity_validity": 0.7153125,
+      "d_nbr": 0.036250000000000004,
+      "d_par": -0.06406250000000002
+    },
+    {
+      "mode": 5,
+      "eigenvalue": 0.8943811680145941,
+      "label": "other",
+      "neighbour_validity": 0.986875,
+      "parity_validity": 0.6378125,
+      "d_nbr": -0.009374999999999911,
+      "d_par": 0.013437499999999991
+    },
+    {
+      "mode": 6,
+      "eigenvalue": 0.9397572914579341,
+      "label": "other",
+      "neighbour_validity": 0.9753125,
+      "parity_validity": 0.6565625,
+      "d_nbr": 0.002187500000000009,
+      "d_par": -0.005312500000000053
+    },
+    {
+      "mode": 7,
+      "eigenvalue": 1.1421169303525245,
+      "label": "other",
+      "neighbour_validity": 0.9571875,
+      "parity_validity": 0.6384375,
+      "d_nbr": 0.020312500000000067,
+      "d_par": 0.012812500000000004
+    },
+    {
+      "mode": 8,
+      "eigenvalue": 1.1968569397319717,
+      "label": "other",
+      "neighbour_validity": 0.9384375,
+      "parity_validity": 0.665,
+      "d_nbr": 0.0390625,
+      "d_par": -0.01375000000000004
+    },
+    {
+      "mode": 9,
+      "eigenvalue": 1.2889376035305495,
+      "label": "other",
+      "neighbour_validity": 0.9134375,
+      "parity_validity": 0.675625,
+      "d_nbr": 0.06406250000000002,
+      "d_par": -0.024375000000000036
+    },
+    {
+      "mode": 10,
+      "eigenvalue": 1.3078977692126377,
+      "label": "other",
+      "neighbour_validity": 0.88875,
+      "parity_validity": 0.6796875,
+      "d_nbr": 0.08875,
+      "d_par": -0.028437500000000004
+    },
+    {
+      "mode": 11,
+      "eigenvalue": 1.383055498294574,
+      "label": "other",
+      "neighbour_validity": 0.9696875,
+      "parity_validity": 0.6953125,
+      "d_nbr": 0.0078125,
+      "d_par": -0.044062500000000004
+    },
+    {
+      "mode": 12,
+      "eigenvalue": 1.4432198961037856,
+      "label": "other",
+      "neighbour_validity": 0.83,
+      "parity_validity": 0.5175,
+      "d_nbr": 0.14750000000000008,
+      "d_par": 0.13375000000000004
+    },
+    {
+      "mode": 13,
+      "eigenvalue": 1.4970403298743356,
+      "label": "other",
+      "neighbour_validity": 0.7915625,
+      "parity_validity": 0.5425,
+      "d_nbr": 0.1859375000000001,
+      "d_par": 0.10875000000000001
+    },
+    {
+      "mode": 14,
+      "eigenvalue": 1.5499642806517722,
+      "label": "other",
+      "neighbour_validity": 0.80125,
+      "parity_validity": 0.4634375,
+      "d_nbr": 0.17625000000000002,
+      "d_par": 0.1878125
+    },
+    {
+      "mode": 15,
+      "eigenvalue": 1.582611920970728,
+      "label": "other",
+      "neighbour_validity": 0.800625,
+      "parity_validity": 0.6096875,
+      "d_nbr": 0.176875,
+      "d_par": 0.04156249999999995
+    }
+  ]
+}

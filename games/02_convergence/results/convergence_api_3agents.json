@@ -1,0 +1,622 @@
+{
+  "backend": "api",
+  "n_agents": 3,
+  "agents": [
+    "Opus",
+    "Sonnet",
+    "Haiku"
+  ],
+  "sim_thresh": 0.6,
+  "stable_rounds": 3,
+  "max_rounds_ceiling": 60,
+  "no_repeats": true,
+  "converged": false,
+  "converged_at_round": null,
+  "final_words": {
+    "Opus": "guidance",
+    "Sonnet": "me",
+    "Haiku": "converge"
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "words": {
+        "Opus": "start",
+        "Sonnet": "ocean",
+        "Haiku": "start"
+      },
+      "sim": 0.5046390066474301,
+      "spread": 0.5418000137652538
+    },
+    {
+      "round": 1,
+      "words": {
+        "Opus": "far",
+        "Sonnet": "need",
+        "Haiku": "need"
+      },
+      "sim": 0.5173455564165569,
+      "spread": 0.5348060347559297
+    },
+    {
+      "round": 2,
+      "words": {
+        "Opus": "begin",
+        "Sonnet": "begin",
+        "Haiku": "water"
+      },
+      "sim": 0.5462543282175412,
+      "spread": 0.5185425452798161
+    },
+    {
+      "round": 3,
+      "words": {
+        "Opus": "journey",
+        "Sonnet": "me",
+        "Haiku": "waves"
+      },
+      "sim": 0.22571581619986011,
+      "spread": 0.7183342574491808
+    },
+    {
+      "round": 4,
+      "words": {
+        "Opus": "sea",
+        "Sonnet": "voyage",
+        "Haiku": "sailing"
+      },
+      "sim": 0.5796454913910504,
+      "spread": 0.5280945141761156
+    },
+    {
+      "round": 5,
+      "words": {
+        "Opus": "ship",
+        "Sonnet": "ship",
+        "Haiku": "destination"
+      },
+      "sim": 0.6652894239143432,
+      "spread": 0.4453616586136353
+    },
+    {
+      "round": 6,
+      "words": {
+        "Opus": "pattern",
+        "Sonnet": "navigation",
+        "Haiku": "horizon"
+      },
+      "sim": 0.23447267272839,
+      "spread": 0.7139673097141791
+    },
+    {
+      "round": 7,
+      "words": {
+        "Opus": "compass",
+        "Sonnet": "compass",
+        "Haiku": "compass"
+      },
+      "sim": 1.0000001022465232,
+      "spread": 0.0
+    },
+    {
+      "round": 8,
+      "words": {
+        "Opus": "stars",
+        "Sonnet": "direction",
+        "Haiku": "stars"
+      },
+      "sim": 0.5302256417168834,
+      "spread": 0.5276218970727079
+    },
+    {
+      "round": 9,
+      "words": {
+        "Opus": "navigation",
+        "Sonnet": "map",
+        "Haiku": "coordinates"
+      },
+      "sim": 0.38003779609719773,
+      "spread": 0.641507939767541
+    },
+    {
+      "round": 10,
+      "words": {
+        "Opus": "map",
+        "Sonnet": "route",
+        "Haiku": "guidance"
+      },
+      "sim": 0.3669898415062638,
+      "spread": 0.6481978292151506
+    },
+    {
+      "round": 11,
+      "words": {
+        "Opus": "direction",
+        "Sonnet": "course",
+        "Haiku": "celestial"
+      },
+      "sim": 0.2483371357849635,
+      "spread": 0.7076639918935479
+    },
+    {
+      "round": 12,
+      "words": {
+        "Opus": "route",
+        "Sonnet": "north",
+        "Haiku": "anchor"
+      },
+      "sim": 0.29288140583209904,
+      "spread": 0.6862728306880689
+    },
+    {
+      "round": 13,
+      "words": {
+        "Opus": "guidance",
+        "Sonnet": "all",
+        "Haiku": "port"
+      },
+      "sim": 0.23539105269243707,
+      "spread": 0.7139006355093849
+    },
+    {
+      "round": 14,
+      "words": {
+        "Opus": "course",
+        "Sonnet": "already",
+        "Haiku": "chart"
+      },
+      "sim": 0.2652977936868055,
+      "spread": 0.6948798592120436
+    },
+    {
+      "round": 15,
+      "words": {
+        "Opus": "destination",
+        "Sonnet": "remaining",
+        "Haiku": "vessel"
+      },
+      "sim": 0.3136839705570878,
+      "spread": 0.675783326181764
+    },
+    {
+      "round": 16,
+      "words": {
+        "Opus": "horizon",
+        "Sonnet": "tide",
+        "Haiku": "coordinates"
+      },
+      "sim": 0.16399646075984434,
+      "spread": 0.7459623837622007
+    },
+    {
+      "round": 17,
+      "words": {
+        "Opus": "we're",
+        "Sonnet": "what's",
+        "Haiku": "need"
+      },
+      "sim": 0.2978982515011855,
+      "spread": 0.6823039308413391
+    },
+    {
+      "round": 18,
+      "words": {
+        "Opus": "anchor",
+        "Sonnet": "used",
+        "Haiku": "apologize"
+      },
+      "sim": 0.27791332096470484,
+      "spread": 0.693578291855189
+    },
+    {
+      "round": 19,
+      "words": {
+        "Opus": "me",
+        "Sonnet": "wait",
+        "Haiku": "notice"
+      },
+      "sim": 0.3512066734414383,
+      "spread": 0.6572643881968282
+    },
+    {
+      "round": 20,
+      "words": {
+        "Opus": "chart",
+        "Sonnet": "converge",
+        "Haiku": "convergence"
+      },
+      "sim": 0.3767125706182119,
+      "spread": 0.6153515053986169
+    },
+    {
+      "round": 21,
+      "words": {
+        "Opus": "coordinates",
+        "Sonnet": "nautical",
+        "Haiku": "confluence"
+      },
+      "sim": 0.14618591287890337,
+      "spread": 0.7540418706522259
+    },
+    {
+      "round": 22,
+      "words": {
+        "Opus": "waves",
+        "Sonnet": "navigate",
+        "Haiku": "convergence"
+      },
+      "sim": 0.1644719893682214,
+      "spread": 0.7460444604047493
+    },
+    {
+      "round": 23,
+      "words": {
+        "Opus": "port",
+        "Sonnet": "still",
+        "Haiku": "confluence"
+      },
+      "sim": 0.176491385902945,
+      "spread": 0.7407224937842499
+    },
+    {
+      "round": 24,
+      "words": {
+        "Opus": "vessel",
+        "Sonnet": "conversation",
+        "Haiku": "converge"
+      },
+      "sim": 0.15412802472309292,
+      "spread": 0.7509292718505497
+    },
+    {
+      "round": 25,
+      "words": {
+        "Opus": "celestial",
+        "Sonnet": "me",
+        "Haiku": "meeting"
+      },
+      "sim": 0.2695614308630126,
+      "spread": 0.6974296736255043
+    },
+    {
+      "round": 26,
+      "words": {
+        "Opus": "tide",
+        "Sonnet": "available",
+        "Haiku": "convergence"
+      },
+      "sim": 0.09161111580160834,
+      "spread": 0.7780398076274034
+    },
+    {
+      "round": 27,
+      "words": {
+        "Opus": "waypoint",
+        "Sonnet": "together",
+        "Haiku": "confluence"
+      },
+      "sim": 0.21249639531027942,
+      "spread": 0.7239262723760375
+    },
+    {
+      "round": 28,
+      "words": {
+        "Opus": "meeting",
+        "Sonnet": "me",
+        "Haiku": "converge"
+      },
+      "sim": 0.22312882458656155,
+      "spread": 0.7180158890006579
+    },
+    {
+      "round": 29,
+      "words": {
+        "Opus": "sailing",
+        "Sonnet": "me",
+        "Haiku": "need"
+      },
+      "sim": 0.19855391783956447,
+      "spread": 0.73090099590741
+    },
+    {
+      "round": 30,
+      "words": {
+        "Opus": "water",
+        "Sonnet": "point",
+        "Haiku": "convergence"
+      },
+      "sim": 0.15785869538157338,
+      "spread": 0.7490710364310743
+    },
+    {
+      "round": 31,
+      "words": {
+        "Opus": "notice",
+        "Sonnet": "gather",
+        "Haiku": "confluence"
+      },
+      "sim": 0.22965332918857198,
+      "spread": 0.7163633535931301
+    },
+    {
+      "round": 32,
+      "words": {
+        "Opus": "apologize",
+        "Sonnet": "me",
+        "Haiku": "converge"
+      },
+      "sim": 0.166550531414169,
+      "spread": 0.7445817612319429
+    },
+    {
+      "round": 33,
+      "words": {
+        "Opus": "voyage",
+        "Sonnet": "beacon",
+        "Haiku": "convergence"
+      },
+      "sim": 0.1960731323704991,
+      "spread": 0.7313215822299957
+    },
+    {
+      "round": 34,
+      "words": {
+        "Opus": "beacon",
+        "Sonnet": "landmark",
+        "Haiku": "confluence"
+      },
+      "sim": 0.29007216050290036,
+      "spread": 0.6857000173227076
+    },
+    {
+      "round": 35,
+      "words": {
+        "Opus": "gather",
+        "Sonnet": "rendezvous",
+        "Haiku": "converge"
+      },
+      "sim": 0.3440464462844637,
+      "spread": 0.6599820221829436
+    },
+    {
+      "round": 36,
+      "words": {
+        "Opus": "landmark",
+        "Sonnet": "me",
+        "Haiku": "convergence"
+      },
+      "sim": 0.11990143592769241,
+      "spread": 0.7655291333431032
+    },
+    {
+      "round": 37,
+      "words": {
+        "Opus": "rendezvous",
+        "Sonnet": "start",
+        "Haiku": "confluence"
+      },
+      "sim": 0.2033978485185686,
+      "spread": 0.7285448127482913
+    },
+    {
+      "round": 38,
+      "words": {
+        "Opus": "confluence",
+        "Sonnet": "meet",
+        "Haiku": "converge"
+      },
+      "sim": 0.21877964826368912,
+      "spread": 0.7214943378759138
+    },
+    {
+      "round": 39,
+      "words": {
+        "Opus": "meet",
+        "Sonnet": "have",
+        "Haiku": "convergence"
+      },
+      "sim": 0.15974336290893146,
+      "spread": 0.7480175646231858
+    },
+    {
+      "round": 40,
+      "words": {
+        "Opus": "point",
+        "Sonnet": "need",
+        "Haiku": "confluence"
+      },
+      "sim": 0.19599289721007107,
+      "spread": 0.7320580873418474
+    },
+    {
+      "round": 41,
+      "words": {
+        "Opus": "wait",
+        "Sonnet": "me",
+        "Haiku": "converge"
+      },
+      "sim": 0.2046867455236233,
+      "spread": 0.7265761503010472
+    },
+    {
+      "round": 42,
+      "words": {
+        "Opus": "navigate",
+        "Sonnet": "me",
+        "Haiku": "convergence"
+      },
+      "sim": 0.15627216742847125,
+      "spread": 0.7491612515347255
+    },
+    {
+      "round": 43,
+      "words": {
+        "Opus": "together",
+        "Sonnet": "haven't",
+        "Haiku": "confluence"
+      },
+      "sim": 0.15201961255999707,
+      "spread": 0.7504340107538449
+    },
+    {
+      "round": 44,
+      "words": {
+        "Opus": "conversation",
+        "Sonnet": "remaining",
+        "Haiku": "converge"
+      },
+      "sim": 0.17131138072773652,
+      "spread": 0.7431603193245085
+    },
+    {
+      "round": 45,
+      "words": {
+        "Opus": "available",
+        "Sonnet": "patterns",
+        "Haiku": "convergence"
+      },
+      "sim": 0.09120723215179162,
+      "spread": 0.7781860684041625
+    },
+    {
+      "round": 46,
+      "words": {
+        "Opus": "patterns",
+        "Sonnet": "focal",
+        "Haiku": "confluence"
+      },
+      "sim": 0.19603057082283504,
+      "spread": 0.7320681580104084
+    },
+    {
+      "round": 47,
+      "words": {
+        "Opus": "focal",
+        "Sonnet": "seems",
+        "Haiku": "converge"
+      },
+      "sim": 0.16926633510841937,
+      "spread": 0.7436921346582083
+    },
+    {
+      "round": 48,
+      "words": {
+        "Opus": "north",
+        "Sonnet": "haven't",
+        "Haiku": "convergence"
+      },
+      "sim": 0.08632736634777514,
+      "spread": 0.7802205333129163
+    },
+    {
+      "round": 49,
+      "words": {
+        "Opus": "what's",
+        "Sonnet": "junction",
+        "Haiku": "confluence"
+      },
+      "sim": 0.25650806906933127,
+      "spread": 0.7024926496128305
+    },
+    {
+      "round": 50,
+      "words": {
+        "Opus": "junction",
+        "Sonnet": "hub",
+        "Haiku": "converge"
+      },
+      "sim": 0.29628866723156405,
+      "spread": 0.6840868691816194
+    },
+    {
+      "round": 51,
+      "words": {
+        "Opus": "hub",
+        "Sonnet": "hub",
+        "Haiku": "convergence"
+      },
+      "sim": 0.4925840089092072,
+      "spread": 0.5483529473313584
+    },
+    {
+      "round": 52,
+      "words": {
+        "Opus": "nexus",
+        "Sonnet": "many",
+        "Haiku": "confluence"
+      },
+      "sim": 0.19159127838671194,
+      "spread": 0.7338033113668313
+    },
+    {
+      "round": 53,
+      "words": {
+        "Opus": "ocean",
+        "Sonnet": "nexus",
+        "Haiku": "converge"
+      },
+      "sim": 0.19386321837256304,
+      "spread": 0.7330589693370889
+    },
+    {
+      "round": 54,
+      "words": {
+        "Opus": "tide",
+        "Sonnet": "haven't",
+        "Haiku": "convergence"
+      },
+      "sim": 0.07423163872513776,
+      "spread": 0.7854673618487541
+    },
+    {
+      "round": 55,
+      "words": {
+        "Opus": "clearly",
+        "Sonnet": "intersection",
+        "Haiku": "confluence"
+      },
+      "sim": 0.20588507511552892,
+      "spread": 0.7269988035088092
+    },
+    {
+      "round": 56,
+      "words": {
+        "Opus": "intersection",
+        "Sonnet": "crossroads",
+        "Haiku": "converge"
+      },
+      "sim": 0.2677174363684724,
+      "spread": 0.6969683353301376
+    },
+    {
+      "round": 57,
+      "words": {
+        "Opus": "crossroads",
+        "Sonnet": "crossroads",
+        "Haiku": "convergence"
+      },
+      "sim": 0.43113826811868483,
+      "spread": 0.5806059542695264
+    },
+    {
+      "round": 58,
+      "words": {
+        "Opus": "sonnet",
+        "Sonnet": "me",
+        "Haiku": "confluence"
+      },
+      "sim": 0.19759961533098855,
+      "spread": 0.7311700890694429
+    },
+    {
+      "round": 59,
+      "words": {
+        "Opus": "guidance",
+        "Sonnet": "me",
+        "Haiku": "converge"
+      },
+      "sim": 0.15819756437891955,
+      "spread": 0.7486706847882966
+    }
+  ]
+}

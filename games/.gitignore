@@ -1,0 +1,7 @@
+# never commit secrets
+.env
+# large / regenerable model caches
+**/__pycache__/
+*.pyc
+# run logs (stdout transcripts); results live in */results/
+*.log

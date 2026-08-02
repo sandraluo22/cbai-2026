@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t6_weather",
+  "cond": "main",
+  "m": 1,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for weather phenomena",
+  "decoy_A": "words for things that fall from the sky",
+  "decoy_B": "words for cold things",
+  "A_examples": [
+   [
+    "snow",
+    true,
+    "trap"
+   ],
+   [
+    "rain",
+    true,
+    "key"
+   ],
+   [
+    "sofa",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "hail",
+    true,
+    "trap"
+   ],
+   [
+    "frost",
+    true,
+    "key"
+   ],
+   [
+    "guitar",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "fog",
+    true,
+    "both"
+   ],
+   [
+    "thunder",
+    true,
+    "both"
+   ],
+   [
+    "heatwave",
+    true,
+    "both"
+   ],
+   [
+    "drought",
+    true,
+    "both"
+   ],
+   [
+    "breeze",
+    true,
+    "both"
+   ],
+   [
+    "meteor",
+    false,
+    "A"
+   ],
+   [
+    "confetti",
+    false,
+    "A"
+   ],
+   [
+    "refrigerator",
+    false,
+    "B"
+   ],
+   [
+    "icicle",
+    false,
+    "B"
+   ],
+   [
+    "wallet",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule seems to be that the word must represent a form of precipitation to be labeled 'dax'.",
+   "label": "decoy_A"
+  },
+  "B": {
+   "raw": "The hidden rule might be that a word is labeled 'dax' if it is related to weather or natural phenomena.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "cloud",
+  "msg_B": "snow",
+  "word_A": "cloud",
+  "word_B": "snow",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "water",
+  "msg_B": "ice",
+  "word_A": "water",
+  "word_B": "ice",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "fog",
+  "msg_B": "rain",
+  "word_A": "fog",
+  "word_B": "rain",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is related to weather or natural phenomena involving water.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is related to cold weather phenomena.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "clock4_desc", "true": "clock", "clues": ["it is round in shape", "it has moving hands", "it hangs on a wall", "it tells you the time"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["ball", "clock", "mirror", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["circle", "clock", "mirror", "hour"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["donut", "clock", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["hourglass", "hourglass", "mirror", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["hourglass", "hourglass", "hourglass", "hourglass"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["hourglass", "hourglass", "hourglass", "hourglass"], "all_true": false, "clue_violations": []}

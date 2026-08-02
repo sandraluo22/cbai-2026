@@ -1,0 +1,979 @@
+[
+ {
+  "type": "meta",
+  "quiz": "n17",
+  "true": "17",
+  "clues": [
+   "a prime number",
+   "it has 2 digits",
+   "smaller than 20",
+   "odd",
+   "the sum of its digits is 8"
+  ],
+  "kind": "number",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": "public"
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "2",
+   "12",
+   "15",
+   "1",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "Let's narrow it down; my guess reflects a fundamental property of the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "Let's focus on narrowing down the possibilities with our guesses.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "Let's narrow it down; I'm thinking it's an odd number. What do you think?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "Let's narrow it down; I'm thinking the number is less than 20. What do others think?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 5,
+  "text": "Let's focus on numbers that can logically fit all our clues, narrowing down our guesses effectively.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "3",
+   "14",
+   "13",
+   "3",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "Let's consider both prime and odd numbers under 20, combining our insights effectively.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "Let's consider all clues carefully and adjust our guesses accordingly to converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "Let's consider both odd numbers and those less than 20, aiming to converge on a single likely candidate.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "Let's consider the intersection of all our clues to refine our guesses further.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 5,
+  "text": "Let's consider numbers where the sum of digits equals 8 and aligns with others' hints.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "5",
+   "16",
+   "11",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "Let's focus on prime numbers under 20, considering all shared properties to converge on the secret number.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "Let's focus on numbers that are two-digit, odd, and less than 20, considering all clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "Let's focus on odd numbers less than 20 and consider if they are prime or have specific digit sums.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "Let's focus on odd numbers under 20 that could meet all conditions; 5 seems promising.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 5,
+  "text": "Let's focus on numbers under 20 where the sum of digits is 8, and check for odd numbers.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "7",
+   "19",
+   "9",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "Let's focus on prime numbers under 20 that are also odd and meet any digit sum criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Let's focus on odd numbers under 20 that are prime and check digit sums to align with all clues.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "Let's consider 9, an odd number less than 20, and see if it fits all our criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "Let's focus on odd numbers under 20 that are prime or have a digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 5,
+  "text": "Let's consider 17 as it's under 20, odd, and the sum of its digits is 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "11",
+   "19",
+   "9",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "Let's consider 11, a prime number under 20, odd, and check if it meets all other criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "Let's confirm if the number is odd, prime, and has a digit sum of 8, focusing on 17 or 19.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Let's focus on odd numbers less than 20 and check if they are prime or have a digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "Let's focus on odd numbers under 20 that are prime or have a digit sum of 8, like 5 or 17.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 5,
+  "text": "Let's confirm if the number is 17, as it meets all shared criteria so far.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "13",
+   "19",
+   "9",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "Let's focus on 13, a prime number under 20, and check if it meets all other criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "Let's converge on 17 or 19, as they are odd, prime, and under 20, meeting most criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Let's focus on odd numbers less than 20, checking if they are prime or have a digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "Let's confirm if the number is 5 or 17, as they are odd, under 20, and meet most of the shared criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 5,
+  "text": "Let's confirm 17 as it's under 20, odd, and the sum of its digits is 8, meeting all criteria.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "5",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "Let's confirm if 17 is the number, as it fits being odd, under 20, prime, and having a digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Let's focus on 9, an odd number under 20, and see if it fits all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "Let's confirm if 17 is correct, as it meets being odd, under 20, prime, and has a digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 5,
+  "text": "Let's confirm 17, as it's the only number under 20, odd, and with a digit sum of 8 that fits all clues.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "Let's confirm 17 as the final answer, as it meets all the criteria we've discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Let's consider 9, as it's an odd number under 20 and might fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 5,
+  "text": "Let's confirm 17, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "Let's confirm 17, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Let's confirm if 9 fits all criteria: odd, under 20, and check digit sum and primality.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 5,
+  "text": "Let's finalize 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "Let's focus on 9, as it's an odd number under 20 and might still fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 5,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Let's confirm 9 as it's odd, under 20, and might still fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 5,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Let's confirm 9 as it's odd, under 20, and might still fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Let's confirm 9 as it's odd, under 20, and might still fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 5,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Let's confirm 9 as it's odd, under 20, and might still fit all criteria.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 5,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Let's re-evaluate 9; it's odd, under 20, but does it meet all criteria like 17?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 5,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Let's recheck if 9 fits all criteria: odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "Let's confirm 17 as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Let's re-evaluate 9; it's odd and under 20, but does it meet all criteria like 17?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "Let's confirm 17 as the final answer, as it meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Let's reconsider 9; it's odd, under 20, but does it meet all criteria like 17?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "Let's finalize 17 as the secret number, as it uniquely meets all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "Let's confirm 17 as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Let's re-evaluate 9; it's odd and under 20, but does it meet all criteria like 17?",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "Let's confirm 17 as the final answer, as it meets all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "17",
+   "17",
+   "9",
+   "17",
+   "17"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: prime, odd, under 20, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "Let's confirm 17 as the final answer, as it uniquely meets all criteria discussed.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "Let's agree on 17; it meets all shared criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "Let's confirm 17 as the final answer, meeting all criteria: odd, under 20, prime, and digit sum of 8.",
+  "public": true
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 5,
+  "text": "Let's confirm 17 as the final answer, as it uniquely meets all shared criteria.",
+  "public": true
+ }
+]

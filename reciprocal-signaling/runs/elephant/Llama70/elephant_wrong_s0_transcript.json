@@ -1,0 +1,89 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant_wrong",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal",
+   "small"
+  ],
+  "kind": "word",
+  "wrong_agent": 3,
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "excited",
+   "is",
+   "excited",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "since",
+   "giant",
+   "cat",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "gray",
+   "giant",
+   "since",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   1,
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "mouse",
+   "large",
+   "giant",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2,
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "since",
+   "large",
+   "elephant",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ }
+]

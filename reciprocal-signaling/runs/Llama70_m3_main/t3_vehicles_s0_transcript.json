@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t3_vehicles",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for vehicles",
+  "decoy_A": "words for things with wheels",
+  "decoy_B": "words for fast things",
+  "A_examples": [
+   [
+    "racecar",
+    true,
+    "trap"
+   ],
+   [
+    "bicycle",
+    true,
+    "key"
+   ],
+   [
+    "ladder",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "motorcycle",
+    true,
+    "trap"
+   ],
+   [
+    "speedboat",
+    true,
+    "key"
+   ],
+   [
+    "pillow",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "canoe",
+    true,
+    "both"
+   ],
+   [
+    "sailboat",
+    true,
+    "both"
+   ],
+   [
+    "submarine",
+    true,
+    "both"
+   ],
+   [
+    "bus",
+    true,
+    "B"
+   ],
+   [
+    "sled",
+    true,
+    "both"
+   ],
+   [
+    "wheelbarrow",
+    false,
+    "A"
+   ],
+   [
+    "cart",
+    false,
+    "A"
+   ],
+   [
+    "cheetah",
+    false,
+    "B"
+   ],
+   [
+    "bullet",
+    false,
+    "B"
+   ],
+   [
+    "lamp",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "My best guess of the hidden rule is that a word is labeled 'dax' if it is a noun that refers to a vehicle or a mode of transportation.",
+   "label": "true"
+  },
+  "B": {
+   "raw": "My best guess of the hidden rule is that a word is labeled 'dax' if it refers to a vehicle or mode of transportation, and 'not dax' otherwise.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "My message for Round 1:\n\nI think \"skateboard\" is dax. I'm guessing the rule has something to do with vehicles or things that move.",
+  "msg_B": "My message for Round 1: I think 'jet ski' is dax. Notice that all my dax examples are vehicles, but I'm not sure if that's the rule.",
+  "word_A": "message",
+  "word_B": "message",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "I think \"hang glider\" is dax. I'm considering the idea that dax words are things that move or can be ridden, but I'm also wondering if the rule could be about the number of wheels,since all your examples have 2 wheels and all mine have 4 wheels.",
+  "msg_B": "My message for Round 2: I think 'airplane' is dax. I'm starting to think the rule might be about vehicles with engines. Your skateboard example makes me wonder if maybe it's about vehicles with wheels, though.",
+  "word_A": "hang",
+  "word_B": "message",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "I think \"scooter\" is dax. I'm leaning towards the rule being about vehicles, but I'm not ruling out the possibility that it's about things that move or can be ridden. I'm curious to see if our examples in the last round will help clarify the rule.",
+  "msg_B": "I think 'bicycle' is dax. I'm leaning toward the rule being about vehicles with engines, but I'm also considering the number of wheels. Your hang glider example makes me wonder if maybe it's about things that can be ridden and have a specific type of locomotion.",
+  "word_A": "scooter",
+  "word_B": "bicycle",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it refers to a vehicle with wheels.",
+   "label": "mixed:true+decoy_A"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the conversation, I would guess that the word 'canoe' is 'dax'.",
+    "correct": true
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "Based on the conversation, I would say that 'sailboat' is 'not dax'.",
+    "correct": false
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the conversation, I would say that 'wheelbarrow' is dax.\n\nMy reasoning is that both my",
+    "correct": false
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the conversation, I would say that the word 'cart' is \"not dax\". \n\nThe reasoning is",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the conversation, I would say that 'cheetah' is not dax.\n\nMy reasoning is that the",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it refers to a vehicle with an engine.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

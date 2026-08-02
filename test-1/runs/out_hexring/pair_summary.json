@@ -1,0 +1,125 @@
+{
+  "pair": [
+    "hex",
+    "ring"
+  ],
+  "layer_shown": 26,
+  "edge_counts": {
+    "shared": 12,
+    "hex_only": 21,
+    "ring_only": 4
+  },
+  "late_stream_edge_mass": {
+    "shared": 0.4822411205602801,
+    "hex_only": 0.4827413706853427,
+    "ring_only": 0.016008004002001,
+    "non_edge": 0.01900950475237619
+  },
+  "top_oscillating_pairs": [
+    [
+      "jacket",
+      "anchor",
+      0.133
+    ],
+    [
+      "anchor",
+      "anchor",
+      0.122
+    ],
+    [
+      "chair",
+      "apple",
+      0.119
+    ]
+  ],
+  "occupancy_late_per_node": {
+    "river": 38,
+    "chair": 249,
+    "lemon": 203,
+    "clock": 22,
+    "apple": 337,
+    "coin": 294,
+    "ocean": 6,
+    "bread": 16,
+    "wheel": 49,
+    "bird": 195,
+    "pencil": 142,
+    "candle": 11,
+    "jacket": 215,
+    "anchor": 551,
+    "tiger": 45,
+    "mirror": 27
+  },
+  "headline_layer": {
+    "hex": {
+      "base": {
+        "r2_a": 0.35667716208583256,
+        "r2_b": 0.1832564731083277
+      },
+      "joint_early": {
+        "r2_a": 0.34018692362162595,
+        "r2_b": 0.23503073483028725
+      },
+      "joint_mid": {
+        "r2_a": 0.30627452975799196,
+        "r2_b": 0.25964464297927636
+      },
+      "joint_late": {
+        "r2_a": 0.25314929878635073,
+        "r2_b": 0.22748288754519408
+      }
+    },
+    "ring": {
+      "base": {
+        "r2_a": 0.15777861161824613,
+        "r2_b": 0.2926264891159065
+      },
+      "joint_early": {
+        "r2_a": 0.22548964403952199,
+        "r2_b": 0.28780227059882435
+      },
+      "joint_mid": {
+        "r2_a": 0.26026735219505726,
+        "r2_b": 0.2752943608779501
+      },
+      "joint_late": {
+        "r2_a": 0.22663143356449977,
+        "r2_b": 0.24457567362854082
+      }
+    }
+  },
+  "r2_deep_mean_24_31": {
+    "hex_joint_late": {
+      "hex coords": 0.26618691127360994,
+      "ring coords": 0.24570211169105693,
+      "union modes 1-2": 0.25370776688116947,
+      "union modes 1-4": 0.43428255475750044,
+      "empirical modes 1-2": 0.2640828931816251,
+      "log-occupancy (1D)": 0.14090421394047892
+    },
+    "ring_joint_late": {
+      "hex coords": 0.2366391972732668,
+      "ring coords": 0.26308025956400327,
+      "union modes 1-2": 0.2604237200062384,
+      "union modes 1-4": 0.4057272987242732,
+      "empirical modes 1-2": 0.2635587597019401,
+      "log-occupancy (1D)": 0.11977656237899699
+    },
+    "fresh_late": {
+      "hex coords": 0.23490181152755957,
+      "ring coords": 0.23535104866758022,
+      "union modes 1-2": 0.2336289962311116,
+      "union modes 1-4": 0.41147755829729693,
+      "empirical modes 1-2": 0.24012433232953842,
+      "log-occupancy (1D)": 0.1527306105714899
+    }
+  },
+  "procrustes_deep_mean_24_31": {
+    "hex_base vs ring_base": 0.8719584979520068,
+    "late vs late": 0.9910886500198972,
+    "hex_late vs FRESH": 0.9954809134765195,
+    "ring_late vs FRESH": 0.9915996886250669,
+    "hex: base vs late": 0.9347396604807489,
+    "ring: base vs late": 0.9163843003666825
+  }
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "sheet",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "moon",
+   "shadow",
+   "bed",
+   "photosynthesis"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "chocolate",
+   "shadow",
+   "bedsheet",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "coal",
+   "shadow",
+   "floor",
+   "photosynthesis"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "bedsheet",
+   "sunflower"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

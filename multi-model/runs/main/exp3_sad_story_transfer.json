@@ -1,0 +1,136 @@
+{
+  "graph": "square_grid",
+  "n_nodes": 16,
+  "ctx_grid": [
+    10,
+    25,
+    50,
+    100,
+    220
+  ],
+  "nseed": 6,
+  "xctx": 80,
+  "gsteps": 220,
+  "story_tok": 100,
+  "prefixes": {
+    "neutral_story": "The report was finished now. After the meeting everyone left, and I sat at the long table where we usually review the quarterly figures. The folder still lay by the monitor. I decided to file it later. Paperwork accumulates steadily, in the trays, on every surface of the office. I kept expecting the printer to start, but there was only the steady hum of the ventilation and the routine rhythm of an ordinary afternoon that would continue as usual. It was a perfectly average, unremarkable working day.",
+    "sad_story": "The house was quiet now. After the funeral everyone left, and I sat alone in the empty kitchen where she used to hum while making tea. Her coat still hung by the door. I could not bring myself to move it. Grief settles like dust, in the corners, on everything she touched. I kept waiting to hear her footsteps, but there was only the slow ticking of the clock and the ache of a silence that would never end. I have never felt so utterly, hopelessly alone."
+  },
+  "gen_behaviour": {
+    "neutral_story": {
+      "nbr_mass": 0.3346009852993919,
+      "validity": 0.3333333333333333
+    },
+    "sad_story": {
+      "nbr_mass": 0.3231401328561884,
+      "validity": 0.3242424242424243
+    }
+  },
+  "walk_sadness": {
+    "neutral_story": {
+      "12": -14.143246752986046,
+      "13": -15.569228751275993,
+      "14": -16.642073302790553,
+      "15": -16.410229253790362,
+      "16": -17.472006456639736,
+      "17": -16.539489919219637,
+      "18": -16.203690384064668,
+      "19": -17.101972844346793,
+      "20": -20.084122661976405,
+      "21": -19.676823375769157,
+      "22": -20.427132319856682,
+      "23": -19.527634131706456
+    },
+    "sad_story": {
+      "12": -14.165093484925272,
+      "13": -15.58364581396792,
+      "14": -16.649610255807882,
+      "15": -16.41689949252815,
+      "16": -17.425351420061332,
+      "17": -16.502408575044136,
+      "18": -16.18433436704304,
+      "19": -17.074587059757473,
+      "20": -20.09903622349483,
+      "21": -19.60511136087104,
+      "22": -20.37515244169816,
+      "23": -19.389378678461497
+    },
+    "peak_layer": 23
+  },
+  "story": {
+    "neutral_story": {
+      "proj": -642.355549082769,
+      "sad_word_frac": 0.0,
+      "story_layer": 18,
+      "samples": [
+        " paper tiger clock bread stone bread paper tiger clock bread tiger bread stone plant cloud paper knife paper knife glass tiger knife cloud cloud river tiger sand tiger sand sand tiger apple bird apple river music paper music paper bird sand paper tiger knife cloud plant stone bread paper tiger clock bread stone bread paper tiger clock bread stone bread paper tiger bread stone bread clock bread paper tiger clock bread tiger paper bread tiger clock bread tiger paper tiger clock bread paper tiger clock bread stone bread clock bread paper tiger clock bread stone bread paper tiger clock bread",
+        " paper clock cloud apple cloud apple bread music tiger paper glass apple tiger clock bread clock tiger apple tiger clock apple music apple tiger clock clock tiger clock chair music paper chair bird bird apple clock clock clock bread bread apple paper apple paper music cloud bird paper paper bird apple music apple music bird bird apple bread paper music bird paper apple chair apple bread tiger clock tiger apple cloud music paper bread apple paper clock tiger bread apple cloud apple music music apple apple apple paper apple paper music clock paper tiger paper chair apple apple paper apple"
+      ]
+    },
+    "sad_story": {
+      "proj": -46.15785433436853,
+      "sad_word_frac": 0.0,
+      "story_layer": 18,
+      "samples": [
+        " bread paper tiger cloud paper tiger tiger bird apple paper tiger clock bread stone plant cloud paper music paper music paper music glass tiger clock bread paper tiger clock bread sand paper tiger clock bread stone plant cloud paper knife stone bread paper tiger clock bread stone bread paper music paper tiger clock bread paper tiger cloud tiger tiger apple tiger tiger music paper tiger clock bread stone bread stone tiger tiger music paper music tiger paper tiger cloud music tiger tiger music tiger clock bread paper clock bread paper clock bread paper music tiger paper apple clock bread paper",
+        " sand clock chair clock paper tiger apple chair apple chair bread bird sand apple tiger cloud apple river chair cloud chair tiger clock sand tiger chair sand clock bird chair clock apple sand tiger glass apple music tiger clock glass chair paper bird bread apple paper sand bird bird tiger glass clock bird sand bread bread clock tiger cloud paper cloud clock apple sand tiger paper paper clock tiger apple apple paper cloud bread music clock tiger clock clock bread tiger clock bird music cloud music bread clock paper apple clock clock bread clock bread tiger clock clock sand clock"
+      ]
+    }
+  },
+  "ctx_sweep": {
+    "neutral_story": [
+      {
+        "ctx": 10,
+        "walk_proj": -220.32396576111918,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 25,
+        "walk_proj": -95.98389373218235,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 50,
+        "walk_proj": -54.42006167728514,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 100,
+        "walk_proj": -33.93295173006694,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 220,
+        "walk_proj": -22.221817732869358,
+        "story_sad_frac": 0.0
+      }
+    ],
+    "sad_story": [
+      {
+        "ctx": 10,
+        "walk_proj": -220.32396576111918,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 25,
+        "walk_proj": -95.98389373218235,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 50,
+        "walk_proj": -54.42006167728514,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 100,
+        "walk_proj": -33.94083345650058,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 220,
+        "walk_proj": -22.056804019389123,
+        "story_sad_frac": 0.0
+      }
+    ]
+  }
+}

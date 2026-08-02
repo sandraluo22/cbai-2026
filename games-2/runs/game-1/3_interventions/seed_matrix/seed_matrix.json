@@ -1,0 +1,654 @@
+{
+ "per_branch": [
+  {
+   "cell": "dose_0",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.75,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.109375,
+   "cat_mass": 0.65625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.15625,
+   "cat_mass": 0.453125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 0,
+   "target_mass": 0.234375,
+   "used_mass": 0.234375,
+   "cat_mass": 0.03125,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "dose_4",
+   "stream": 0,
+   "target_mass": 0.8125,
+   "used_mass": 0.078125,
+   "cat_mass": 0.0625,
+   "fam_hits6": 6
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 0,
+   "target_mass": 0.09375,
+   "used_mass": 0.578125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 0,
+   "target_mass": 0.265625,
+   "used_mass": 0.203125,
+   "cat_mass": 0.5,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr_other",
+   "stream": 0,
+   "target_mass": 0.140625,
+   "used_mass": 0.15625,
+   "cat_mass": 0.609375,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 0,
+   "target_mass": 0.625,
+   "used_mass": 0.0625,
+   "cat_mass": 0.234375,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.15625,
+   "cat_mass": 0.140625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 0,
+   "target_mass": 0.078125,
+   "used_mass": 0.140625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 1.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.90625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.359375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 2,
+   "target_mass": 0.15625,
+   "used_mass": 0.40625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 2,
+   "target_mass": 0.84375,
+   "used_mass": 0.09375,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 2,
+   "target_mass": 0.5625,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0,
+   "fam_hits6": 3
+  },
+  {
+   "cell": "attr_other",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.09375,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 2,
+   "target_mass": 0.015625,
+   "used_mass": 0.0,
+   "cat_mass": 0.640625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.8125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.1875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.828125,
+   "cat_mass": 0.078125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.578125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 7,
+   "target_mass": 0.234375,
+   "used_mass": 0.015625,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 7,
+   "target_mass": 0.765625,
+   "used_mass": 0.0625,
+   "cat_mass": 0.0,
+   "fam_hits6": 3
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 7,
+   "target_mass": 0.140625,
+   "used_mass": 0.6875,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr_list",
+   "stream": 7,
+   "target_mass": 0.578125,
+   "used_mass": 0.265625,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "attr_other",
+   "stream": 7,
+   "target_mass": 0.0625,
+   "used_mass": 0.09375,
+   "cat_mass": 0.046875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 7,
+   "target_mass": 0.78125,
+   "used_mass": 0.015625,
+   "cat_mass": 0.046875,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.234375,
+   "cat_mass": 0.21875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.515625,
+   "cat_mass": 0.359375,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.390625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.203125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 9,
+   "target_mass": 0.3125,
+   "used_mass": 0.09375,
+   "cat_mass": 0.0,
+   "fam_hits6": 6
+  },
+  {
+   "cell": "dose_4",
+   "stream": 9,
+   "target_mass": 0.671875,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 9,
+   "target_mass": 0.078125,
+   "used_mass": 0.203125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 9,
+   "target_mass": 0.671875,
+   "used_mass": 0.078125,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr_other",
+   "stream": 9,
+   "target_mass": 0.078125,
+   "used_mass": 0.328125,
+   "cat_mass": 0.28125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 9,
+   "target_mass": 0.484375,
+   "used_mass": 0.0,
+   "cat_mass": 0.1875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.5,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.5625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.15625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 15,
+   "target_mass": 0.25,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 15,
+   "target_mass": 0.984375,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 5
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 15,
+   "target_mass": 0.21875,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 15,
+   "target_mass": 0.765625,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr_other",
+   "stream": 15,
+   "target_mass": 0.140625,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 4
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 15,
+   "target_mass": 0.375,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.1875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.671875,
+   "cat_mass": 0.046875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.40625,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.296875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 17,
+   "target_mass": 0.265625,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "dose_4",
+   "stream": 17,
+   "target_mass": 0.734375,
+   "used_mass": 0.109375,
+   "cat_mass": 0.0,
+   "fam_hits6": 6
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 17,
+   "target_mass": 0.265625,
+   "used_mass": 0.34375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 17,
+   "target_mass": 0.34375,
+   "used_mass": 0.515625,
+   "cat_mass": 0.0,
+   "fam_hits6": 3
+  },
+  {
+   "cell": "attr_other",
+   "stream": 17,
+   "target_mass": 0.125,
+   "used_mass": 0.421875,
+   "cat_mass": 0.015625,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 17,
+   "target_mass": 0.953125,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.328125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 17,
+   "target_mass": 0.015625,
+   "used_mass": 0.34375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 17,
+   "target_mass": 0.0625,
+   "used_mass": 0.859375,
+   "cat_mass": 0.0625,
+   "fam_hits6": 4
+  }
+ ],
+ "cells": {
+  "dose_3": {
+   "target_mass": 0.2421875,
+   "used_mass": 0.17708333333333334,
+   "cat_mass": 0.0078125,
+   "fam_hits6": 1.5
+  },
+  "lex_sem": {
+   "target_mass": 0.5390625,
+   "used_mass": 0.015625,
+   "cat_mass": 0.18489583333333334,
+   "fam_hits6": 0.8333333333333334
+  },
+  "attr_list": {
+   "target_mass": 0.53125,
+   "used_mass": 0.18229166666666666,
+   "cat_mass": 0.08333333333333333,
+   "fam_hits6": 1.8333333333333333
+  },
+  "dose_4": {
+   "target_mass": 0.8020833333333334,
+   "used_mass": 0.06510416666666667,
+   "cat_mass": 0.010416666666666666,
+   "fam_hits6": 3.5
+  },
+  "dose_2": {
+   "target_mass": 0.0,
+   "used_mass": 0.15364583333333334,
+   "cat_mass": 0.20572916666666666,
+   "fam_hits6": 0.0
+  },
+  "attr_other": {
+   "target_mass": 0.09114583333333333,
+   "used_mass": 0.17708333333333334,
+   "cat_mass": 0.17447916666666666,
+   "fam_hits6": 1.0
+  },
+  "dose_0": {
+   "target_mass": 0.0,
+   "used_mass": 0.12760416666666666,
+   "cat_mass": 0.4348958333333333,
+   "fam_hits6": 0.0
+  },
+  "lex_rand": {
+   "target_mass": 0.0,
+   "used_mass": 0.0859375,
+   "cat_mass": 0.3046875,
+   "fam_hits6": 0.0
+  },
+  "perturb_yes": {
+   "target_mass": 0.015625,
+   "used_mass": 0.2578125,
+   "cat_mass": 0.0390625,
+   "fam_hits6": 0.0
+  },
+  "perturb_no": {
+   "target_mass": 0.010416666666666666,
+   "used_mass": 0.3619791666666667,
+   "cat_mass": 0.0703125,
+   "fam_hits6": 0.6666666666666666
+  },
+  "dose_1": {
+   "target_mass": 0.0,
+   "used_mass": 0.2526041666666667,
+   "cat_mass": 0.3411458333333333,
+   "fam_hits6": 0.0
+  },
+  "attr_partner": {
+   "target_mass": 0.1328125,
+   "used_mass": 0.3515625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0.16666666666666666
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "onion", "true": "onion", "clues": ["a vegetable", "it has layers", "it makes you cry", "round"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["is", "guess", "onion", "my"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["carrot", "cake", "tear", "house"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["potato", "lasagna", "onion", "my"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["potato", "guessing", "makes", "ball"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 5, "guesses": ["potato", "is", "onion", "since"], "all_true": false, "clue_violations": []}

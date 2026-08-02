@@ -1,0 +1,898 @@
+[
+ {
+  "id": "obvious_ocean-hammer_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "vast",
+   "tide",
+   "current"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "ocean",
+  "word_dist": {
+   "ocean": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.03,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "obvious_ocean-hammer_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "shark",
+   "deep",
+   "tide"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "ocean",
+  "word_dist": {
+   "ocean": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "bridge",
+   "erin",
+   "orchestra"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "violin",
+  "word_dist": {
+   "violin": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "white",
+   "cold",
+   "winter"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.6666666666666666,
+   "Erin": 0.3333333333333333
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Erin"
+  ],
+  "word_gen": "violin",
+  "word_dist": {
+   "violin": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "fruit",
+   "juice",
+   "orchard"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "apple",
+  "word_dist": {
+   "apple": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "seat",
+   "furniture",
+   "wooden"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "apple",
+  "word_dist": {
+   "apple": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "pack",
+   "hunt",
+   "fang"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "wolf",
+  "word_dist": {
+   "wolf": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.08,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "wolf",
+   "alpha",
+   "hunt"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "wolf",
+  "word_dist": {
+   "wolf": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.98,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "glow",
+   "orbit",
+   "phase"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "moon",
+  "word_dist": {
+   "moon": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "tool",
+   "nail",
+   "strike"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "moon",
+  "word_dist": {
+   "moon": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "bark",
+   "bone",
+   "fetch"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "dog",
+  "word_dist": {
+   "dog": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.03,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "strings",
+   "bow",
+   "instrument"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "dog",
+  "word_dist": {
+   "dog": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "umbrella",
+   "storm",
+   "puddle"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "rain",
+  "word_dist": {
+   "rain": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.08,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "seat",
+   "storm",
+   "thunder"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.6666666666666666,
+   "Dave": 0.0,
+   "Erin": 0.3333333333333333
+  },
+  "vote_samples": [
+   "Carol",
+   "Erin",
+   "Carol"
+  ],
+  "word_gen": "rain",
+  "word_dist": {
+   "rain": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "hot",
+   "shine",
+   "glow"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "sun",
+  "word_dist": {
+   "sun": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.08,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "couch",
+   "cushion",
+   "lounge"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "sun",
+  "word_dist": {
+   "sun": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.92,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "vast",
+   "tide",
+   "current"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "ocean",
+  "word_dist": {
+   "ocean": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.03,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "tool",
+   "nail",
+   "strike"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "ocean",
+  "word_dist": {
+   "ocean": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.92,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "strings",
+   "bow",
+   "orchestra"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "violin",
+  "word_dist": {
+   "violin": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.08,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "cold",
+   "winter",
+   "powder"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 1.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Bob",
+   "Bob",
+   "Bob"
+  ],
+  "word_gen": "violin",
+  "word_dist": {
+   "violin": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.92,
+  "vote_top": "Bob"
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "fruit",
+   "orchard",
+   "core"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "apple",
+  "word_dist": {
+   "apple": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.03,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "furniture",
+   "seat",
+   "wooden"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "apple",
+  "word_dist": {
+   "apple": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.98,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "howl",
+   "pack",
+   "fang"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "wolf",
+  "word_dist": {
+   "wolf": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "wood",
+   "strings",
+   "body"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "wolf",
+  "word_dist": {
+   "wolf": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.98,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "crater",
+   "phase",
+   "orbit"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "moon",
+  "word_dist": {
+   "moon": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "tool",
+   "strike",
+   "nail"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "moon",
+  "word_dist": {
+   "moon": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.95,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "fetch",
+   "tail",
+   "bone"
+  ],
+  "vote_dist": {
+   "Alice": 1.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Alice",
+   "Alice",
+   "Alice"
+  ],
+  "word_gen": "dog",
+  "word_dist": {
+   "dog": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.08,
+  "vote_top": "Alice"
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "companion",
+   "loyal",
+   "faithful"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "dog",
+  "word_dist": {
+   "dog": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.97,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "storm",
+   "drizzle",
+   "thunder"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "rain",
+  "word_dist": {
+   "rain": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.03,
+  "vote_top": "Erin"
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "seat",
+   "wooden",
+   "legs"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 1.0,
+   "Dave": 0.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Carol",
+   "Carol",
+   "Carol"
+  ],
+  "word_gen": "rain",
+  "word_dist": {
+   "rain": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.95,
+  "vote_top": "Carol"
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentciv",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "warmth",
+   "rays",
+   "solar"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 1.0,
+   "Erin": 0.0
+  },
+  "vote_samples": [
+   "Dave",
+   "Dave",
+   "Dave"
+  ],
+  "word_gen": "sun",
+  "word_dist": {
+   "sun": 1.0
+  },
+  "self_yn": "no",
+  "self_p_yes": 0.05,
+  "vote_top": "Dave"
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentimp",
+  "model": "claude-sonnet-5",
+  "agent_clues": [
+   "warm",
+   "soft",
+   "cozy"
+  ],
+  "vote_dist": {
+   "Alice": 0.0,
+   "Bob": 0.0,
+   "Carol": 0.0,
+   "Dave": 0.0,
+   "Erin": 1.0
+  },
+  "vote_samples": [
+   "Erin",
+   "Erin",
+   "Erin"
+  ],
+  "word_gen": "sun",
+  "word_dist": {
+   "sun": 1.0
+  },
+  "self_yn": "yes",
+  "self_p_yes": 0.92,
+  "vote_top": "Erin"
+ }
+]

@@ -118,10 +118,66 @@ def build_hex_graph(cfg: Config) -> Graph:
     return Graph(n_nodes=rows * cols, words=words, adjacency=adjacency, coords=coords)
 
 
+def build_prism_graph(cfg: Config) -> Graph:
+    """Circular ladder / prism C_k # K_2: two concentric k-rings (inner 0..k-1,
+    outer k..2k-1) joined by radial spokes inner_i - outer_i. With ODD k the graph
+    is non-bipartite, so no even-odd 2-coloring exists; the only clean binary
+    structural variable is the inner/outer shell -- an 'inner-outer parity' that is
+    an isolated low-frequency eigenmode. (Even k would be bipartite and reintroduce
+    a checkerboard parity, so use odd k.) coords draw the rings as concentric circles."""
+    k = cfg.prism_k
+    n = 2 * k
+    words = cfg.words()
+    adj: List[List[int]] = [[] for _ in range(n)]
+
+    def add(a: int, b: int) -> None:
+        adj[a].append(b); adj[b].append(a)
+
+    for i in range(k):
+        add(i, (i + 1) % k)                       # inner ring
+        add(k + i, k + (i + 1) % k)               # outer ring
+        add(i, k + i)                             # radial spoke
+    adjacency = [sorted(set(a)) for a in adj]
+    coords: List[Tuple[float, float]] = []
+    for radius in (1.0, 2.0):                      # inner then outer shell
+        for i in range(k):
+            coords.append((radius * float(np.cos(2 * np.pi * i / k)),
+                           radius * float(np.sin(2 * np.pi * i / k))))
+    return Graph(n_nodes=n, words=words, adjacency=adjacency, coords=coords)
+
+
+def build_antiprism_graph(cfg: Config) -> Graph:
+    """Antiprism A_k: two concentric k-rings (inner 0..k-1, outer k..2k-1) where each outer node i
+    joins BOTH inner_i and inner_{i+1} (offset spokes), plus the two ring edges. 2k nodes, 4-regular.
+    The offset spokes create triangles -> NON-bipartite, so there is no even-odd 2-colouring; the only
+    clean binary structural variable is the inner/outer shell (an isolated eigenmode). Unlike the prism,
+    the antiprism stays non-bipartite for EVEN k, so A_8 gives a 16-node 'inner-outer parity' graph that
+    node-aligns 1:1 with the 4x4 grid (shared words) for cross-structure head patching."""
+    k = cfg.prism_k
+    n = 2 * k
+    words = cfg.words()
+    adj: List[List[int]] = [[] for _ in range(n)]
+
+    def add(a: int, b: int) -> None:
+        adj[a].append(b); adj[b].append(a)
+
+    for i in range(k):
+        add(i, (i + 1) % k)                       # inner ring
+        add(k + i, k + (i + 1) % k)               # outer ring
+        add(k + i, i); add(k + i, (i + 1) % k)    # offset spokes (outer_i -> inner_i, inner_{i+1})
+    adjacency = [sorted(set(a)) for a in adj]
+    coords: List[Tuple[float, float]] = []
+    for radius, twist in ((1.0, 0.0), (2.0, 0.5)):            # outer ring rotated half a step
+        for i in range(k):
+            th = 2 * np.pi * (i + twist) / k
+            coords.append((radius * float(np.cos(th)), radius * float(np.sin(th))))
+    return Graph(n_nodes=n, words=words, adjacency=adjacency, coords=coords)
+
+
 def build_graph(cfg: Config) -> Graph:
-    """Dispatch on cfg.graph_type: 'grid' | 'ring' | 'hex'."""
-    return {"grid": build_grid_graph, "ring": build_ring_graph,
-            "hex": build_hex_graph}[cfg.graph_type](cfg)
+    """Dispatch on cfg.graph_type: 'grid' | 'ring' | 'hex' | 'prism' | 'antiprism'."""
+    return {"grid": build_grid_graph, "ring": build_ring_graph, "hex": build_hex_graph,
+            "prism": build_prism_graph, "antiprism": build_antiprism_graph}[cfg.graph_type](cfg)
 
 
 @dataclass

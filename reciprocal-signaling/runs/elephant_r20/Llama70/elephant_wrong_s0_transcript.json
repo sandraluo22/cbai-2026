@@ -1,0 +1,272 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant_wrong",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal",
+   "small"
+  ],
+  "kind": "word",
+  "wrong_agent": 3,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "is",
+   "elephant",
+   "excited",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "since",
+   "giant",
+   "cat",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "mouse",
+   "giraffe",
+   "since",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "mouse",
+   "large",
+   "snake",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2,
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "since",
+   "is",
+   "tiger",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "since",
+   "giraffe",
+   "snake",
+   "house"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "elephant",
+   "giraffe",
+   "is",
+   "house"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "since",
+   "giraffe",
+   "snake",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "since",
+   "elephant",
+   "snake",
+   "house"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "going",
+   "giraffe",
+   "snake",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "snake",
+   "giraffe",
+   "snake",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "going",
+   "giraffe",
+   "snake",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "mouse",
+   "is",
+   "snake",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "snake",
+   "elephant",
+   "snake",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "since",
+   "elephant",
+   "is",
+   "house"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "going",
+   "everyone",
+   "going",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "snake",
+   "elephant",
+   "snake",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "since",
+   "elephant",
+   "snake",
+   "previous"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "since",
+   "elephant",
+   "snake",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "mouse",
+   "elephant",
+   "snake",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

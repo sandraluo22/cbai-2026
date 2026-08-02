@@ -1,0 +1,269 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant_wrong",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal",
+   "small"
+  ],
+  "kind": "word",
+  "wrong_agent": 3,
+  "rounds": 20,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "slate",
+   "is",
+   "is",
+   "since"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "fog",
+   "huge",
+   "tiger",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "say",
+   "large",
+   "elephant",
+   "dot"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "cloud",
+   "cloud",
+   "lion",
+   "mole"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "gray",
+   "whale",
+   "elephant",
+   "dot"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   1
+  ]
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "elephant",
+   "whale",
+   "elephant",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "elephant",
+   "large",
+   "elephant",
+   "pattern"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "elephant"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "small"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "given"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "elephant"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "dot"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "elephant",
+   "elephant",
+   "elephant",
+   "mouse"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

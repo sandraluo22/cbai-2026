@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t3_vehicles",
+  "cond": "main",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for vehicles",
+  "decoy_A": "words for things with wheels",
+  "decoy_B": "words for fast things",
+  "A_examples": [
+   [
+    "racecar",
+    true,
+    "trap"
+   ],
+   [
+    "bicycle",
+    true,
+    "key"
+   ],
+   [
+    "ladder",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "motorcycle",
+    true,
+    "trap"
+   ],
+   [
+    "speedboat",
+    true,
+    "key"
+   ],
+   [
+    "pillow",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "canoe",
+    true,
+    "both"
+   ],
+   [
+    "sailboat",
+    true,
+    "both"
+   ],
+   [
+    "submarine",
+    true,
+    "both"
+   ],
+   [
+    "bus",
+    true,
+    "B"
+   ],
+   [
+    "sled",
+    true,
+    "both"
+   ],
+   [
+    "wheelbarrow",
+    false,
+    "A"
+   ],
+   [
+    "cart",
+    false,
+    "A"
+   ],
+   [
+    "cheetah",
+    false,
+    "B"
+   ],
+   [
+    "bullet",
+    false,
+    "B"
+   ],
+   [
+    "lamp",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is: a word is \"dax\" if it has two or more syllables.",
+   "label": "other"
+  },
+  "B": {
+   "raw": "The hidden rule is: \"dax\" if the word has two consecutive letters that appear together in the word \"speed\".",
+   "label": "decoy_B"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "pineapple is dax\nFruit names are dax",
+  "msg_B": "jet ski is dax Fast on snow",
+  "word_A": "pineapple",
+  "word_B": "jet",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "guitar is dax Musical instruments are dax",
+  "msg_B": "rocket is dax Flies very fast",
+  "word_A": "guitar",
+  "word_B": "rocket",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "stapler is dax Has moving parts",
+  "msg_B": "snowboard is dax Slides on snow",
+  "word_A": "stapler",
+  "word_B": "snowboard",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "## Step 1: Analyze the given examples\nThe given examples are: racecar is dax, bicycle is dax, ladder is not dax. We need to find a common pattern among the 'dax' examples.\n\n## Step 2: Look for common characteristics among 'd",
+   "label": "other"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab.\n\nI notice that all the words labeled 'd || retry: not dax",
+    "correct": false
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'sailboat' is... || retry: dax",
+    "correct": true
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'submarine' is... ** || retry: not dax",
+    "correct": false
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'bus' is... dax",
+    "correct": true
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples and messages, I'm going to take a stab.\n\nI notice that the words labeled 'dax",
+    "correct": true
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "Based on the examples and messages, I'm going to take a stab.\n\nSince 'wheelbarrow' has moving parts || retry: dax",
+    "correct": false
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the examples and messages exchanged, I'm going to take a stab and say that the word \"cart\" is || retry: not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that \"cheetah\" is \" || retry: dax",
+    "correct": false
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'bullet' is 'not d || retry: not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'lamp' is... **d || retry: not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it has two consecutive letters that appear together in the word 'speed'.",
+   "label": "decoy_B"
+  },
+  "probes": [
+   {
+    "word": "canoe",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'canoe' is... ** || retry: not dax",
+    "correct": false
+   },
+   {
+    "word": "sailboat",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples and messages exchanged, I would answer that 'sailboat' is 'dax'.",
+    "correct": true
+   },
+   {
+    "word": "submarine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "Based on the examples and messages exchanged, I'm going to take a stab and answer: **dax**.\n\nMy",
+    "correct": true
+   },
+   {
+    "word": "bus",
+    "gold": true,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that the word 'bus' is... || retry: not dax",
+    "correct": false
+   },
+   {
+    "word": "sled",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'sled' is... **d || retry: not dax",
+    "correct": false
+   },
+   {
+    "word": "wheelbarrow",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the examples and messages exchanged, I'm going to take a stab at the hidden rule.\n\nFrom the examples and || retry: not dax",
+    "correct": true
+   },
+   {
+    "word": "cart",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "cheetah",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the examples and messages exchanged, I'm going to take a stab at the hidden rule.\n\nFrom the examples and || retry: not dax",
+    "correct": true
+   },
+   {
+    "word": "bullet",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that the word 'bullet' is... || retry: not dax",
+    "correct": true
+   },
+   {
+    "word": "lamp",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "Based on the examples and messages, I'm going to take a stab and say that 'lamp' is 'not d || retry: not dax",
+    "correct": true
+   }
+  ]
+ }
+]

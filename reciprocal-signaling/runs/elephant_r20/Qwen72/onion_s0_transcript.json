@@ -1,0 +1,257 @@
+[
+ {
+  "type": "meta",
+  "quiz": "onion",
+  "true": "onion",
+  "clues": [
+   "a vegetable",
+   "it has layers",
+   "it makes you cry",
+   "round"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "carrot",
+   "cake",
+   "onion",
+   "circle"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "potato",
+   "cake",
+   "onion",
+   "ball"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "lettuce",
+   "cake",
+   "onion",
+   "wheel"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "cabbage",
+   "cake",
+   "onion",
+   "orange"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "beet",
+   "cake",
+   "onion",
+   "sphere"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "pepper",
+   "cake",
+   "onion",
+   "globe"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "cucumber",
+   "cake",
+   "onion",
+   "moon"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "zucchini",
+   "cake",
+   "onion",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "broccoli",
+   "cake",
+   "onion",
+   "planet"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "spinach",
+   "cake",
+   "onion",
+   "earth"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "radish",
+   "cake",
+   "onion",
+   "ball"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "turnip",
+   "cake",
+   "onion",
+   "orange"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "cauliflower",
+   "cake",
+   "onion",
+   "sphere"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "kale",
+   "cake",
+   "onion",
+   "globe"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "parsnip",
+   "cake",
+   "onion",
+   "moon"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "asparagus",
+   "cake",
+   "onion",
+   "sun"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "carrot",
+   "cake",
+   "onion",
+   "planet"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "onion",
+   "cake",
+   "onion",
+   "earth"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "onion",
+   "cake",
+   "onion",
+   "ball"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "onion",
+   "cake",
+   "onion",
+   "orange"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

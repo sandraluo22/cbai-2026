@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "penguin4_desc", "true": "penguin", "clues": ["it is colored black and white", "it is a kind of bird", "it cannot fly", "it lives in a very cold place"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["chess", "eagle", "bird", "penguin"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["zebra", "owl", "bat", "polar"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["g", "crow", "bat", "bear"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["bat", "raven", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["raven", "sparrow", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["bat", "crow", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["bat", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["bat", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["bat", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["bat", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["bat", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["arctic", "bat", "bat", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["arctic", "bat", "arctic", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["arctic", "bat", "arctic", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["arctic", "arctic", "arctic", "arctic"], "all_true": false, "clue_violations": []}

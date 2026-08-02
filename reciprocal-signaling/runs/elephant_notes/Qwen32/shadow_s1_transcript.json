@@ -1,0 +1,738 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow",
+  "true": "shadow",
+  "clues": [
+   "dark",
+   "it follows you",
+   "flat",
+   "it needs light to exist"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": "append"
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "night",
+   "shadow",
+   "table",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "The secret word might be something that is both \"dark\" (my clue) and associated with \"night,\" \"shadow,\" and \"table.\" Possibly a metaphor or theme linking these. I'll consider words like \"dusk,\" \"shade,\" \"void,\" or even \"feast\" (as in a dark, shadowy table setting). Keep testing connections."
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "Clue: \"it follows you\" \u2014 \"shadow\" was guessed by two players. This seems promising. I'll consider related terms like \"trail,\" \"echo,\" or \"footprint\" in future rounds. Let's build on this."
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "The word \"table\" relates to \"flat,\" but others mentioned \"night\" and \"shadow.\" Maybe the secret word connects all clues\u2014something with a flat surface, associated with darkness. Could be \"desk,\" \"board,\" or \"plane.\" I'll consider these in the next rounds."
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "The clue \"it needs light to exist\" suggests something dependent on light. \"Shadow\" was mentioned, which fits the clue, as shadows need light to form. \"Night\" and \"table\" don't clearly connect. I'll consider \"shadow\" a strong possibility, but keep an open mind."
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "shade",
+   "trail",
+   "desk",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "The secret word may be \"shade\" \u2014 it fits \"dark,\" connects to \"night,\" \"shadow,\" and can relate to a \"table\" (table in the shade). Player 1 already used \"shade.\" I'll test variations or related terms like \"shadow,\" \"dusk,\" or \"umbra\" in future rounds."
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "In Round 2, \"shadow\" was still guessed, but \"shade\" and \"trail\" were new. The clue \"it follows you\" still points to something persistent and linked to movement. I\u2019ll consider \"echo,\" \"track,\" or \"trace\" next\u2014words that imply following or leaving a mark."
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "Player 1's \"shade\" and \"night\" suggest darkness; Player 2's \"trail\" is confusing. My \"desk\" and Player 4's consistent \"shadow\" may relate to something flat and dark. \"Board\" or \"plane\" still seem viable. I'll test \"board\" next."
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "In Round 2, \"shade\" and \"shadow\" both relate to light. \"Trail\" and \"desk\" don't fit. Since \"shadow\" was repeated, it's likely the secret word. I'll stick with it unless others converge on a different answer."
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "shadow",
+   "track",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "The secret word seems to link \"dark,\" \"night,\" \"shadow,\" and \"table\"/\"desk\"/\"board.\" \"Shadow\" was repeated by Player 4. Maybe the answer is \"shadow,\" but I should avoid repeating if others already have. Consider \"tableau,\" \"dusk,\" or \"umbra\" next."
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "In Round 3, \"shadow\" remains popular, but \"track\" was my guess. The clue \"it follows you\" suggests something consistent and movement-related. I'll consider \"echo,\" \"footprint,\" or \"path\" next\u2014words that imply a lasting mark or presence left behind."
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "Player 1 now says \"shadow,\" aligning more with my \"board\" guess. Player 4 has consistently said \"shadow.\" \"Board\" fits \"flat\" and connects with darkness. I'll stick with \"board\" or consider \"plane\" if others diverge. Consistency seems key."
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "Round 3 shows Player 1 shifting to \"shadow,\" suggesting they might be converging. \"Track\" and \"board\" still seem off. \"Shadow\" remains the strongest fit for the clue. I\u2019ll continue with \"shadow\" unless others clearly move elsewhere."
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "dusk",
+   "echo",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "The secret word likely unites \"dark,\" \"night,\" \"shadow,\" and \"table\"/\"board.\" \"Shadow\" has been repeated, suggesting it's close. \"Tableau\" or \"umbra\" could fit, but \"board\" keeps resurfacing. Explore terms linking darkness and surfaces \u2014 maybe \"tableau\" or \"dusk.\""
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Clue \"it follows you\" still aligns with persistent, movement-linked ideas. \"Shadow\" remains common, but \"echo\" and \"track\" also fit. I\u2019ll consider \"footprint,\" \"trace,\" or \"path\" next\u2014words that imply a lasting mark or presence left behind."
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "Player 4 has consistently said \"shadow.\" My \"board\" and Player 1's shift toward \"shadow\" suggest the secret word might be \"shadow board\" or something related to flat, dark surfaces. I'll keep testing \"board\" and watch for patterns."
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "In Round 4, \"dusk\" and \"echo\" diverge, while \"board\" repeats. \"Shadow\" still aligns with the clue and is gaining support from Player 1. I'll continue with \"shadow\" unless a clear pattern emerges suggesting another word."
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "tableau",
+   "trace",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is heavily suggested but may not be it. \"Tableau\" links to \"table\" and visual imagery. Consider \"board\" as in \"council board\" or \"dark board,\" or a metaphor like \"darkboard.\" Explore terms like \"umbra\" or \"darkness\" cautiously."
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "After 5 rounds, \"shadow\" persists but others like \"track,\" \"echo,\" and \"trace\" also fit \"it follows you.\" I'll consider \"footprint,\" \"path,\" or \"tail\" next\u2014terms that imply movement and a lingering presence. The word likely has both physical and metaphorical resonance."
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Player 4's unwavering \"shadow\" and Player 1's shift to \"tableau\" suggest a possible link to \"shadow board\" or \"shadow plane.\" I'll continue with \"board\" but consider \"plane\" if patterns shift. Consistency seems important."
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "Round 5 shows continued divergence from \"board\" by Player 3, while Player 1's guesses are all light-ambiguous. Player 2 is shifting toward abstract terms. \"Shadow\" still fits the clue and is supported by Player 1 now. I'll stick with \"shadow\" unless a clearer consensus emerges."
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "umbra",
+   "footprint",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" keeps appearing. Consider \"darkboard\" (metaphor for a shadowy board) or \"council\" (as in shadow council, dark board). Explore terms linking governance, darkness, or surfaces."
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "\"Shadow\" remains dominant, but \"track,\" \"echo,\" and \"trace\" align with \"it follows you.\" The word likely has both physical and metaphorical meaning. I\u2019ll consider \"path,\" \"tail,\" or \"mark\" next, focusing on terms that imply persistent, intangible following."
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Player 4's consistent \"shadow\" and Player 1's \"umbra\" strongly imply darkness. \"Board\" links to \"flat\" and fits with \"shadow board,\" a possible compound term. I'll continue with \"board\" but consider if \"plane\" or another flat, dark-related term might unify all clues."
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "Player 1 is exploring increasingly precise light-related terms (\"shade,\" \"umbra\"), reinforcing \"shadow\" as the likely answer. Players 2 and 3 remain inconsistent. I will continue with \"shadow,\" hoping for eventual consensus."
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "board",
+   "path",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "The secret word likely unites \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" repeats. Consider \"darkboard\" or \"council\" as possible metaphors. Keep testing surface-related, dark-themed terms."
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "After 7 rounds, \"shadow\" persists but \"track,\" \"echo,\" and \"trace\" also fit \"it follows you.\" The secret word likely has both physical and metaphorical meaning. I\u2019ll consider \"tail,\" \"mark,\" or \"wake\" next\u2014terms that imply a persistent, intangible following."
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Player 1 now says \"board,\" aligning with my guess. Player 4 still says \"shadow.\" The secret word may be \"shadow board.\" I'll continue with \"board\" and watch for further convergence or divergence in others' guesses."
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "In Round 7, Player 1 switched to \"board,\" possibly reacting to Player 3's repetition. Player 2 continues with abstract terms. \"Shadow\" still fits the clue and has prior support. I will stick with it unless \"board\" gains consensus."
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "darkness",
+   "tail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" repeats strongly. Consider \"darkboard\" or \"council\" as metaphors. Keep testing surface-related, dark-themed terms."
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "After 8 rounds, \"shadow\" persists, but alternatives like \"track,\" \"echo,\" and \"path\" also fit \"it follows you.\" The word likely has both physical and metaphorical meaning. I'll consider \"wake,\" \"mark,\" or \"trail\" next\u2014terms that imply a consistent, intangible following."
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Player 4's persistent \"shadow\" and Player 1's shift to \"darkness\" reinforce a dark theme. \"Board\" connects with \"flat\" and aligns with Player 1 now. \"Shadow board\" seems likely. I'll stick with \"board\" and watch for convergence or new patterns."
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Round 8 shows Player 1 moving toward \"darkness,\" conflicting with my clue. \"Shadow\" still fits best. Players 2 and 3 remain inconsistent. I\u2019ll keep guessing \"shadow,\" but consider if a related term like \"shade\" or \"umbra\" might be the target if others continue diverging."
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "darkroom",
+   "mark",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" repeats strongly. Consider \"darkboard\" or \"council\" as metaphors. Keep testing surface-related, dark-themed terms."
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "After 9 rounds, \"shadow\" remains dominant, but \"track,\" \"echo,\" and \"trace\" also fit the clue \"it follows you.\" I\u2019ll consider \"wake\" or \"trail\" next\u2014terms that imply a consistent, intangible following. The word likely has both physical and metaphorical resonance."
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Player 4\u2019s constant \u201cshadow\u201d and Player 1\u2019s move to \u201cdarkroom\u201d suggest a photography or light-related term. \u201cBoard\u201d still fits \u201cflat,\u201d but maybe \u201cbackground\u201d or \u201cmatte\u201d could unify clues. I\u2019ll test alternatives while staying near \u201cboard\u201d unless others converge on a new pattern."
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "By Round 9, \"shadow\" remains the only guess consistently tied to the clue \"it needs light to exist.\" Others fixate on \"board,\" which doesn't align. I will continue with \"shadow\" and monitor if others shift toward light-dependent terms. Consensus seems distant, but staying true to the clue is key."
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "council",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" repeats strongly. Consider \"darkboard\" or \"council\" as metaphors. Explore terms linking governance, darkness, or surfaces. \"Umbra\" or \"tableau\" may also be possibilities."
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "After 10 rounds, \"shadow\" remains dominant, but \"trail,\" \"track,\" and \"mark\" also align with \"it follows you.\" The secret word likely balances physical and metaphorical meaning. I\u2019ll consider \"wake,\" \"echo,\" or \"trace\" next\u2014terms that imply a subtle, persistent following."
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "Player 4\u2019s constant \u201cshadow\u201d and Player 1\u2019s evolving dark-related terms (umbra, darkroom, council) suggest a thematic link. \u201cBoard\u201d still fits \u201cflat\u201d and aligns with Player 1. Consider \u201cshadow board\u201d or \u201cdarkboard.\u201d Stay with \u201cboard\u201d unless others converge on a new clue."
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "By Round 10, \"shadow\" remains the only guess directly tied to the clue \"it needs light to exist.\" Others are fixated on unrelated terms like \"board.\" I will continue with \"shadow,\" hoping others eventually recognize its connection to light. Consensus is key\u2014staying true to the clue is my priority."
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "darkroom",
+   "wake",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is heavily guessed but may not be it. \"Board\" persists. \"Darkboard\" or \"council\" are strong metaphors. Consider \"tableau\" or \"umbra\" again. Need a word that unifies all clues."
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "After 11 rounds, \"shadow\" remains dominant, but \"trail,\" \"track,\" and \"wake\" also fit \"it follows you.\" The secret word likely balances physical and metaphorical meaning. I\u2019ll consider \"echo,\" \"trace,\" or \"path\" next\u2014terms that imply subtle, persistent following."
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Player 4's constant \"shadow\" and Player 1's dark-related terms suggest a strong theme. \"Board\" aligns with \"flat\" and fits with \"shadow board.\" Others are converging slightly. I'll stick with \"board\" and watch for confirmation or shifts in meaning."
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "By Round 11, only \"shadow\" consistently aligns with the clue \"it needs light to exist.\" Others fixate on unrelated terms like \"board.\" I will continue with \"shadow,\" hoping others recognize its connection to light. Consensus remains key."
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "darkroom",
+   "trace",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "The secret word likely unites \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but close. \"Board\" repeats strongly. \"Darkboard\" or \"council\" are strong metaphors. \"Umbra\" or \"tableau\" may also be possibilities. Need a word that unifies all clues."
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "\"Shadow\" remains the dominant guess, but \"trail,\" \"track,\" and \"wake\" are strong contenders. The clue \"it follows you\" leans toward something subtle and consistent. I'll explore \"echo,\" \"footprint,\" or \"path\" next\u2014terms that imply a quiet, persistent presence linked to movement."
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Player 4's unwavering \"shadow\" and Player 1\u2019s focus on dark themes suggest a strong link. \"Shadow board\" seems likely. I'll continue with \"board\" and watch for convergence or new patterns in upcoming rounds."
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "By Round 12, \"shadow\" remains the only guess tied to the clue \"it needs light to exist.\" Others are fixated on \"board,\" which doesn't align. I will continue with \"shadow,\" hoping others recognize its connection to light. Consensus remains key."
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "darkroom",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but persistent. \"Board\" is repeated strongly by Player 3. \"Darkroom\" and \"council\" were tested without success. Consider \"tableau,\" \"umbra,\" or a metaphor like \"darkboard.\" Need a unifying term."
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "\"Shadow\" remains dominant, but \"trail,\" \"wake,\" and \"trace\" are recurring. The clue \"it follows you\" leans toward something subtle and consistent. I'll consider \"echo\" or \"footprint\" next\u2014terms that imply a quiet, persistent presence linked to movement."
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Player 4\u2019s constant \u201cshadow\u201d and Player 1\u2019s focus on darkroom/darkness suggest a unified theme. \u201cShadow board\u201d or \u201cdark board\u201d is likely. I\u2019ll continue with \u201cboard\u201d and look for convergence or a compound term in later rounds."
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "By Round 13, \"shadow\" remains the only guess consistently tied to the clue \"it needs light to exist.\" Others fixate on \"board\" and dark-related terms that contradict the clue. I will continue with \"shadow,\" hoping others recognize its direct connection to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "darkroom",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "By round 14, \"shadow\" and \"board\" remain dominant, while \"darkroom\" and variations haven't worked. The secret word likely unites \"darkness\" and a surface or structure \u2014 consider \"tableau,\" \"council,\" or \"boardroom.\" Focus on metaphorical or compound terms linking these ideas."
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "After 14 rounds, \"shadow\" remains dominant, but \"trail,\" \"wake,\" and \"trace\" recur. The clue \"it follows you\" favors something subtle and consistent. I'll consider \"echo\" or \"footprint\" next\u2014terms that imply a quiet, persistent presence linked to movement."
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Player 4's constant \"shadow\" and Player 1's focus on darkroom/darkness suggest a compound term. \"Shadow board\" or \"dark board\" is likely. I'll continue with \"board\" and look for convergence or confirmation in later rounds."
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "By Round 14, \"shadow\" remains the only guess directly tied to the clue \"it needs light to exist.\" Others are fixated on \"board\" and dark-related terms. I will continue with \"shadow,\" hoping others recognize its connection to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "tableau",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "By round 15, \"shadow\" and \"board\" persist, while \"darkroom\" and others haven\u2019t worked. The secret word likely unites darkness and a surface or structure \u2014 consider metaphorical or compound terms like \"tableau,\" \"council,\" or \"darkboard.\" Focus on unifying terms that link all clues."
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "After 15 rounds, \"shadow\" remains dominant, but \"trail\" and \"wake\" recur. The clue \"it follows you\" likely points to something with both physical and metaphorical resonance. I\u2019ll consider \"echo\" or \"footprint\" next\u2014terms that imply a quiet, persistent presence linked to movement."
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Player 4's consistent \"shadow\" and Player 1\u2019s darkroom/tableau suggest a compound term. \"Shadow board\" or \"dark board\" is likely. I'll continue with \"board,\" watch for convergence, and consider variations if others shift meaningfully in later rounds."
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "By Round 15, only \"shadow\" directly connects to the clue \"it needs light to exist.\" Others remain fixated on unrelated terms like \"board\" or dark-themed words. I will continue with \"shadow,\" hoping others eventually recognize its direct link to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "board",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "By round 16, \"shadow\" and \"board\" remain dominant. The secret word likely unites darkness and a surface/structure. \"Tableau\" and \"council\" were partial fits. Consider metaphorical or compound terms like \"darkboard\" or \"boardroom.\" Need a unifying term that links all clues."
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "After 16 rounds, \"trail\" and \"shadow\" are strongest. \"It follows you\" suggests a consistent, often unseen presence. I\u2019ll consider \"echo\" or \"wake\" next\u2014terms that imply a quiet, lingering effect tied to movement, balancing both physical and metaphorical meanings."
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Player 1 now says \"board,\" aligning with me, while Player 4 still says \"shadow.\" The secret word likely combines both: \"shadow board.\" I'll continue with \"board\" and watch for Player 4 to shift or confirm this compound term in later rounds."
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "By Round 16, \"shadow\" remains the only guess directly tied to the clue. Others fixate on \"board\" and dark-themed words. I will continue with \"shadow,\" hoping others recognize its connection to light. Consensus is key, and I remain confident in my interpretation of the clue."
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "darkroom",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused, and \"board\" repeats. \"Darkboard\" or a metaphor like \"council\" may fit. Need a unifying term that links all clues. Consider less obvious surface-related, dark-themed words."
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "After 17 rounds, \"shadow\" remains dominant, but \"trail\" is gaining traction. The clue \"it follows you\" aligns well with both. I'll focus on \"trail\" moving forward, as it reflects consistent, subtle following tied to movement\u2014both physical and metaphorical."
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Player 4\u2019s consistent \u201cshadow\u201d and Player 1\u2019s focus on darkroom/tableau suggest a compound term. \u201cShadow board\u201d is likely. I\u2019ll stick with \u201cboard\u201d and watch for Player 4 to shift or confirm the full term in the final rounds."
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "By Round 17, \"shadow\" remains the only guess tied to the clue \"it needs light to exist.\" Others fixate on \"board\" and dark-themed words. I will continue with \"shadow,\" hoping others recognize its direct connection to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "darkroom",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "The secret word likely combines \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but central. \"Board\" is consistently guessed. Consider metaphorical terms like \"darkboard\" or \"council.\" A unifying term linking darkness and structure is needed. I'll try \"tableau\" or \"umbra\" again in the final rounds."
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "After 18 rounds, \"shadow\" and \"trail\" are strongest. The clue \"it follows you\" fits both\u2014physical and metaphorical. I'll stick with \"trail\" for now, but stay open to \"echo\" or \"wake\" if patterns shift. Consistency is key."
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Player 4\u2019s consistent \u201cshadow\u201d and Player 1\u2019s darkroom/tableau suggest a compound term. \u201cShadow board\u201d seems likely. I\u2019ll continue with \u201cboard\u201d and watch for Player 4 to confirm or shift in final rounds. Consistency may be key to solving."
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "By Round 18, \"shadow\" remains the only guess consistently tied to the clue \"it needs light to exist.\" Others persist with \"board\" and dark-themed words. I will continue with \"shadow,\" hoping others recognize its direct connection to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "tableau",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" is overused but central. \"Board\" is consistently guessed. Consider metaphorical terms like \"darkboard\" or \"council.\" A unifying term linking darkness and structure is needed. I'll try \"tableau\" or \"umbra\" again in the final round."
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "After 19 rounds, \"trail\" has gained consistent support, while \"shadow\" still lingers. The clue \"it follows you\" fits both, but \"trail\" feels more aligned with movement and lasting presence. I\u2019ll continue with \"trail\" in the final round, confident in its dual physical/metaphorical meaning."
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Player 4's consistent \"shadow\" and my/Player 1's shift to \"board\" strongly suggest the secret word is \"shadow board.\" With only one round left, I'll stick with \"board\" to finalize the compound term and aim for convergence."
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "By Round 19, \"shadow\" remains the only guess directly tied to the clue \"it needs light to exist.\" Others persist with \"board\" and dark-themed words. I will continue with \"shadow,\" hoping others recognize its direct connection to light. Consensus is key."
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "darkroom",
+   "trail",
+   "board",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "The secret word likely connects \"dark,\" \"shadow,\" and \"board.\" \"Shadow\" and \"board\" were repeatedly guessed, but neither seems to be the word. \"Darkroom\" and \"tableau\" were tested without success. The answer may be a metaphor like \"darkboard\" or a term linking governance and darkness, such as \"council.\""
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "After 20 rounds, \"trail\" has strong support and aligns well with \"it follows you,\" suggesting movement and a lasting mark. While \"shadow\" remains popular, \"trail\" better captures the clue's duality\u2014physical and metaphorical. I'll continue with \"trail\" confidently, trusting its resonance."
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "The secret word is likely \"shadow board\"\u2014a compound term linking Player 4\u2019s constant \u201cshadow\u201d and my/Player 1\u2019s \u201cboard.\u201d It fits \u201cflat\u201d and the dark theme. Final round shows convergence. If not correct, consider \"darkboard\" or similar."
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "Despite repeated divergence from others, \"shadow\" remains the only word directly tied to the clue \"it needs light to exist.\" I will continue with \"shadow\" in the final round, confident in its alignment with the clue and hoping for eventual consensus."
+ }
+]

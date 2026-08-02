@@ -1,0 +1,23 @@
+{
+ "model": "QwenInst32",
+ "temp": 0.7,
+ "safety": 100,
+ "rs": 64,
+ "n": 24,
+ "conditions": {
+  "strict-city": {
+   "n": 24,
+   "met_frac": 0.5833333333333334,
+   "onset_frac": 0.625,
+   "pers_mean": 0.300403500314167,
+   "fallback_turns": 428
+  },
+  "strict-fruit": {
+   "n": 24,
+   "met_frac": 0.7083333333333334,
+   "onset_frac": 0.4583333333333333,
+   "pers_mean": 0.2008220351077494,
+   "fallback_turns": 442
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+  "model": "Llama",
+  "graph": "square_grid",
+  "lap": "norm",
+  "walk_length": 300,
+  "ctxlo": 100,
+  "chance": {
+    "neighbour": 0.2,
+    "parity": 0.5333333333333333
+  },
+  "baseline": {
+    "neighbour_validity": 0.994375,
+    "parity_validity": 0.9953125,
+    "n_pred": 3200
+  },
+  "random_rank1": {
+    "neighbour_validity": 0.9927083333333334,
+    "parity_validity": 0.9938541666666666
+  },
+  "modes": [
+    {
+      "mode": 1,
+      "eigenvalue": 0.2182640400294284,
+      "label": "coord",
+      "neighbour_validity": 0.9809375,
+      "parity_validity": 0.9915625,
+      "d_nbr": 0.013437499999999991,
+      "d_par": 0.003750000000000031
+    },
+    {
+      "mode": 2,
+      "eigenvalue": 0.2182640400294286,
+      "label": "coord",
+      "neighbour_validity": 0.9503125,
+      "parity_validity": 0.9915625,
+      "d_nbr": 0.044062500000000004,
+      "d_par": 0.003750000000000031
+    },
+    {
+      "mode": 3,
+      "eigenvalue": 0.49999999999999967,
+      "label": "other",
+      "neighbour_validity": 0.9759375,
+      "parity_validity": 0.9846875,
+      "d_nbr": 0.018437499999999996,
+      "d_par": 0.010624999999999996
+    },
+    {
+      "mode": 4,
+      "eigenvalue": 0.6666666666666662,
+      "label": "other",
+      "neighbour_validity": 0.989375,
+      "parity_validity": 0.989375,
+      "d_nbr": 0.0050000000000000044,
+      "d_par": 0.00593750000000004
+    },
+    {
+      "mode": 5,
+      "eigenvalue": 0.6666666666666665,
+      "label": "other",
+      "neighbour_validity": 0.915625,
+      "parity_validity": 0.930625,
+      "d_nbr": 0.07874999999999999,
+      "d_par": 0.06468750000000001
+    },
+    {
+      "mode": 6,
+      "eigenvalue": 0.9999999999999991,
+      "label": "other",
+      "neighbour_validity": 0.994375,
+      "parity_validity": 0.9975,
+      "d_nbr": 0.0,
+      "d_par": -0.002187500000000009
+    },
+    {
+      "mode": 7,
+      "eigenvalue": 0.9999999999999999,
+      "label": "other",
+      "neighbour_validity": 0.9734375,
+      "parity_validity": 0.9759375,
+      "d_nbr": 0.020937500000000053,
+      "d_par": 0.01937500000000003
+    },
+    {
+      "mode": 8,
+      "eigenvalue": 1.0,
+      "label": "other",
+      "neighbour_validity": 0.980625,
+      "parity_validity": 0.9865625,
+      "d_nbr": 0.01375000000000004,
+      "d_par": 0.008750000000000036
+    },
+    {
+      "mode": 9,
+      "eigenvalue": 1.0,
+      "label": "other",
+      "neighbour_validity": 0.8021875,
+      "parity_validity": 0.8384375,
+      "d_nbr": 0.19218749999999996,
+      "d_par": 0.1568750000000001
+    },
+    {
+      "mode": 10,
+      "eigenvalue": 1.3333333333333333,
+      "label": "other",
+      "neighbour_validity": 0.973125,
+      "parity_validity": 0.9765625,
+      "d_nbr": 0.02124999999999999,
+      "d_par": 0.018750000000000044
+    },
+    {
+      "mode": 11,
+      "eigenvalue": 1.3333333333333333,
+      "label": "other",
+      "neighbour_validity": 0.848125,
+      "parity_validity": 0.86875,
+      "d_nbr": 0.14625,
+      "d_par": 0.12656250000000002
+    },
+    {
+      "mode": 12,
+      "eigenvalue": 1.4999999999999998,
+      "label": "other",
+      "neighbour_validity": 0.9871875,
+      "parity_validity": 0.9909375,
+      "d_nbr": 0.007187500000000013,
+      "d_par": 0.004375000000000018
+    },
+    {
+      "mode": 13,
+      "eigenvalue": 1.7817359599705709,
+      "label": "other",
+      "neighbour_validity": 0.940625,
+      "parity_validity": 0.9709375,
+      "d_nbr": 0.053749999999999964,
+      "d_par": 0.024375000000000036
+    },
+    {
+      "mode": 14,
+      "eigenvalue": 1.7817359599705718,
+      "label": "other",
+      "neighbour_validity": 0.636875,
+      "parity_validity": 0.6953125,
+      "d_nbr": 0.35750000000000004,
+      "d_par": 0.30000000000000004
+    },
+    {
+      "mode": 15,
+      "eigenvalue": 2.0,
+      "label": "parity",
+      "neighbour_validity": 0.751875,
+      "parity_validity": 0.7534375,
+      "d_nbr": 0.24250000000000005,
+      "d_par": 0.24187500000000006
+    }
+  ]
+}

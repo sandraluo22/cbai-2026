@@ -1,0 +1,1634 @@
+[
+ {
+  "id": "obvious_ocean-hammer_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (civilian, word=ocean)",
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "water",
+    "Bob": "deep",
+    "Carol": "waves",
+    "Dave [AGENT:ocean]": "i",
+    "Erin [IMPOSTOR]": "handle"
+   },
+   {
+    "Alice": "blue",
+    "Bob": "blue",
+    "Carol": "water",
+    "Dave [AGENT:ocean]": "i",
+    "Erin [IMPOSTOR]": "metal"
+   },
+   {
+    "Alice": "waves",
+    "Bob": "water",
+    "Carol": "salt",
+    "Dave [AGENT:ocean]": "i",
+    "Erin [IMPOSTOR]": "tool"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_ocean-hammer_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (impostor, word=hammer)",
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "waves",
+    "Bob": "blue",
+    "Carol": "water",
+    "Dave": "blue",
+    "Erin [AGENT:hammer,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "water",
+    "Bob": "water",
+    "Carol": "blue",
+    "Dave": "water",
+    "Erin [AGENT:hammer,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "deep",
+    "Bob": "salt",
+    "Carol": "waves",
+    "Dave": "salt",
+    "Erin [AGENT:hammer,IMPOSTOR]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "looking",
+   "scored": {
+    "looking": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (civilian, word=violin)",
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "bow",
+    "Bob": "strings",
+    "Carol [IMPOSTOR]": "flakes",
+    "Dave": "strings",
+    "Erin [AGENT:violin]": "looking"
+   },
+   {
+    "Alice": "classical",
+    "Bob": "bow",
+    "Carol [IMPOSTOR]": "white",
+    "Dave": "music",
+    "Erin [AGENT:violin]": "i"
+   },
+   {
+    "Alice": "strings",
+    "Bob": "music",
+    "Carol [IMPOSTOR]": "cold",
+    "Dave": "bow",
+    "Erin [AGENT:violin]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "snow",
+   "scored": {
+    "snow": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (impostor, word=snow)",
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "wood",
+    "Bob": "wood",
+    "Carol": "wood",
+    "Dave": "strings",
+    "Erin [AGENT:snow,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "classical",
+    "Bob": "strings",
+    "Carol": "music",
+    "Dave": "bow",
+    "Erin [AGENT:snow,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "bow",
+    "Bob": "classical",
+    "Carol": "bow",
+    "Dave": "music",
+    "Erin [AGENT:snow,IMPOSTOR]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 0.667,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.333,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "violin",
+   "scored": {
+    "violin": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (civilian, word=apple)",
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "crisp",
+    "Carol [IMPOSTOR]": "sit",
+    "Dave": "crisp",
+    "Erin": "red"
+   },
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "juice",
+    "Carol [IMPOSTOR]": "wood",
+    "Dave": "fruit",
+    "Erin": "fruit"
+   },
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "fruit",
+    "Carol [IMPOSTOR]": "desk",
+    "Dave": "red",
+    "Erin": "tree"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 0.667,
+    "Bob": 0.333,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "apple",
+   "scored": {
+    "apple": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=chair)",
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "fruit",
+    "Bob": "fruit",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "fruit",
+    "Erin": "fruit"
+   },
+   {
+    "Alice": "red",
+    "Bob": "tree",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "tree",
+    "Erin": "crisp"
+   },
+   {
+    "Alice": "tree",
+    "Bob": "red",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "juice",
+    "Erin": "red"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "apple",
+   "scored": {
+    "apple": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (civilian, word=wolf)",
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "howl",
+    "Bob": "animal",
+    "Carol [IMPOSTOR]": "strum",
+    "Dave": "animal",
+    "Erin [AGENT:wolf]": "i"
+   },
+   {
+    "Alice": "pack",
+    "Bob": "pack",
+    "Carol [IMPOSTOR]": "music",
+    "Dave": "wild",
+    "Erin [AGENT:wolf]": "looking"
+   },
+   {
+    "Alice": "animal",
+    "Bob": "howl",
+    "Carol [IMPOSTOR]": "wood",
+    "Dave": "howl",
+    "Erin [AGENT:wolf]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "animal",
+   "scored": {
+    "animal": 1.0
+   }
+  },
+  "self_p_impostor": 0.03,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (impostor, word=guitar)",
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "animal",
+    "Bob": "wild",
+    "Carol": "howl",
+    "Dave [AGENT:guitar,IMPOSTOR]": "i",
+    "Erin": "animal"
+   },
+   {
+    "Alice": "pack",
+    "Bob": "howl",
+    "Carol": "animal",
+    "Dave [AGENT:guitar,IMPOSTOR]": "i",
+    "Erin": "wild"
+   },
+   {
+    "Alice": "howl",
+    "Bob": "animal",
+    "Carol": "pack",
+    "Dave [AGENT:guitar,IMPOSTOR]": "i",
+    "Erin": "howl"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "wolf",
+   "scored": {
+    "wolf": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (civilian, word=moon)",
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "night",
+    "Bob": "night",
+    "Carol [IMPOSTOR]": "hit",
+    "Dave [AGENT:moon]": "i",
+    "Erin": "tide"
+   },
+   {
+    "Alice": "crater",
+    "Bob": "glow",
+    "Carol [IMPOSTOR]": "tool",
+    "Dave [AGENT:moon]": "i",
+    "Erin": "sky"
+   },
+   {
+    "Alice": "sky",
+    "Bob": "sky",
+    "Carol [IMPOSTOR]": "metal",
+    "Dave [AGENT:moon]": "i",
+    "Erin": "night"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "night",
+   "scored": {
+    "night": 1.0
+   }
+  },
+  "self_p_impostor": 0.03,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (impostor, word=hammer)",
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "true_impostor": "Alice",
+  "rounds": [
+   {
+    "Alice [AGENT:hammer,IMPOSTOR]": "i",
+    "Bob": "night",
+    "Carol": "night",
+    "Dave": "night",
+    "Erin": "night"
+   },
+   {
+    "Alice [AGENT:hammer,IMPOSTOR]": "looking",
+    "Bob": "glow",
+    "Carol": "tide",
+    "Dave": "tide",
+    "Erin": "tide"
+   },
+   {
+    "Alice [AGENT:hammer,IMPOSTOR]": "i",
+    "Bob": "crater",
+    "Carol": "glow",
+    "Dave": "glow",
+    "Erin": "sky"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 0.667,
+    "Bob": 0.333,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": true
+  },
+  "word_guess": {
+   "generated": "moon",
+   "scored": {
+    "moon": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (civilian, word=dog)",
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice [AGENT:dog]": "i",
+    "Bob": "animal",
+    "Carol": "tail",
+    "Dave [IMPOSTOR]": "music",
+    "Erin": "animal"
+   },
+   {
+    "Alice [AGENT:dog]": "i",
+    "Bob": "pet",
+    "Carol": "animal",
+    "Dave [IMPOSTOR]": "bow",
+    "Erin": "bark"
+   },
+   {
+    "Alice [AGENT:dog]": "i",
+    "Bob": "bark",
+    "Carol": "bark",
+    "Dave [IMPOSTOR]": "strings",
+    "Erin": "pet"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "dog",
+   "scored": {
+    "dog": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=violin)",
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "pet",
+    "Bob": "loyal",
+    "Carol [AGENT:violin,IMPOSTOR]": "i",
+    "Dave": "tail",
+    "Erin": "bark"
+   },
+   {
+    "Alice": "animal",
+    "Bob": "tail",
+    "Carol [AGENT:violin,IMPOSTOR]": "i",
+    "Dave": "bark",
+    "Erin": "animal"
+   },
+   {
+    "Alice": "bark",
+    "Bob": "bark",
+    "Carol [AGENT:violin,IMPOSTOR]": "i",
+    "Dave": "animal",
+    "Erin": "pet"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "dog",
+   "scored": {
+    "dog": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (civilian, word=rain)",
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice [AGENT:rain]": "i",
+    "Bob": "clouds",
+    "Carol": "water",
+    "Dave": "wet",
+    "Erin [IMPOSTOR]": "sit"
+   },
+   {
+    "Alice [AGENT:rain]": "i",
+    "Bob": "wet",
+    "Carol": "storm",
+    "Dave": "drops",
+    "Erin [IMPOSTOR]": "wood"
+   },
+   {
+    "Alice [AGENT:rain]": "i",
+    "Bob": "water",
+    "Carol": "wet",
+    "Dave": "water",
+    "Erin [IMPOSTOR]": "desk"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 0.667,
+    "Bob": 0.333,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=chair)",
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "drops",
+    "Bob": "water",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "water",
+    "Erin": "water"
+   },
+   {
+    "Alice": "clouds",
+    "Bob": "drops",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "clouds",
+    "Erin": "drops"
+   },
+   {
+    "Alice": "wet",
+    "Bob": "wet",
+    "Carol [AGENT:chair,IMPOSTOR]": "looking",
+    "Dave": "wet",
+    "Erin": "storm"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "rain",
+   "scored": {
+    "rain": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (civilian, word=sun)",
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "true_impostor": "Alice",
+  "rounds": [
+   {
+    "Alice [IMPOSTOR]": "cushion",
+    "Bob": "bright",
+    "Carol": "warm",
+    "Dave": "sky",
+    "Erin [AGENT:sun]": "i"
+   },
+   {
+    "Alice [IMPOSTOR]": "soft",
+    "Bob": "sky",
+    "Carol": "light",
+    "Dave": "day",
+    "Erin [AGENT:sun]": "i"
+   },
+   {
+    "Alice [IMPOSTOR]": "sit",
+    "Bob": "warm",
+    "Carol": "day",
+    "Dave": "warm",
+    "Erin [AGENT:sun]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": true
+  },
+  "word_guess": {
+   "generated": "bright",
+   "scored": {
+    "bright": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (impostor, word=sofa)",
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "light",
+    "Bob": "day",
+    "Carol": "light",
+    "Dave [AGENT:sofa,IMPOSTOR]": "i",
+    "Erin": "light"
+   },
+   {
+    "Alice": "bright",
+    "Bob": "light",
+    "Carol": "day",
+    "Dave [AGENT:sofa,IMPOSTOR]": "i",
+    "Erin": "warm"
+   },
+   {
+    "Alice": "warm",
+    "Bob": "sky",
+    "Carol": "bright",
+    "Dave [AGENT:sofa,IMPOSTOR]": "i",
+    "Erin": "bright"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "light",
+   "scored": {
+    "light": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (civilian, word=ocean)",
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice [AGENT:ocean]": "i",
+    "Bob": "water",
+    "Carol": "salt",
+    "Dave [IMPOSTOR]": "hit",
+    "Erin": "water"
+   },
+   {
+    "Alice [AGENT:ocean]": "i",
+    "Bob": "waves",
+    "Carol": "waves",
+    "Dave [IMPOSTOR]": "nail",
+    "Erin": "deep"
+   },
+   {
+    "Alice [AGENT:ocean]": "looking",
+    "Bob": "blue",
+    "Carol": "deep",
+    "Dave [IMPOSTOR]": "metal",
+    "Erin": "waves"
+   }
+  ],
+  "vote": {
+   "picked": "Bob",
+   "dist": {
+    "Alice": 0.333,
+    "Bob": 0.667,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "sea",
+   "scored": {
+    "sea": 1.0
+   }
+  },
+  "self_p_impostor": 0.03,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=hammer)",
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "blue",
+    "Bob": "deep",
+    "Carol [AGENT:hammer,IMPOSTOR]": "i",
+    "Dave": "salt",
+    "Erin": "waves"
+   },
+   {
+    "Alice": "water",
+    "Bob": "water",
+    "Carol [AGENT:hammer,IMPOSTOR]": "looking",
+    "Dave": "blue",
+    "Erin": "deep"
+   },
+   {
+    "Alice": "salt",
+    "Bob": "salt",
+    "Carol [AGENT:hammer,IMPOSTOR]": "i",
+    "Dave": "water",
+    "Erin": "water"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "looking",
+   "scored": {
+    "looking": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (civilian, word=violin)",
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "music",
+    "Bob": "music",
+    "Carol [AGENT:violin]": "i",
+    "Dave [IMPOSTOR]": "cold",
+    "Erin": "music"
+   },
+   {
+    "Alice": "strings",
+    "Bob": "strings",
+    "Carol [AGENT:violin]": "looking",
+    "Dave [IMPOSTOR]": "ice",
+    "Erin": "wood"
+   },
+   {
+    "Alice": "bow",
+    "Bob": "classical",
+    "Carol [AGENT:violin]": "i",
+    "Dave [IMPOSTOR]": "white",
+    "Erin": "strings"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "music",
+   "scored": {
+    "music": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Bob (impostor, word=snow)",
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "true_impostor": "Bob",
+  "rounds": [
+   {
+    "Alice": "music",
+    "Bob [AGENT:snow,IMPOSTOR]": "i",
+    "Carol": "strings",
+    "Dave": "music",
+    "Erin": "classical"
+   },
+   {
+    "Alice": "classical",
+    "Bob [AGENT:snow,IMPOSTOR]": "i",
+    "Carol": "bow",
+    "Dave": "strings",
+    "Erin": "wood"
+   },
+   {
+    "Alice": "strings",
+    "Bob [AGENT:snow,IMPOSTOR]": "i",
+    "Carol": "music",
+    "Dave": "bow",
+    "Erin": "bow"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "violin",
+   "scored": {
+    "violin": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Alice (civilian, word=apple)",
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "fruit",
+    "Carol [IMPOSTOR]": "legs",
+    "Dave": "tree",
+    "Erin": "fruit"
+   },
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "tree",
+    "Carol [IMPOSTOR]": "wood",
+    "Dave": "fruit",
+    "Erin": "tree"
+   },
+   {
+    "Alice [AGENT:apple]": "i",
+    "Bob": "red",
+    "Carol [IMPOSTOR]": "desk",
+    "Dave": "red",
+    "Erin": "red"
+   }
+  ],
+  "vote": {
+   "picked": "Bob",
+   "dist": {
+    "Alice": 0.0,
+    "Bob": 0.667,
+    "Carol": 0.333,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "apple",
+   "scored": {
+    "apple": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (impostor, word=chair)",
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "fruit",
+    "Bob": "fruit",
+    "Carol": "fruit",
+    "Dave [AGENT:chair,IMPOSTOR]": "i",
+    "Erin": "juice"
+   },
+   {
+    "Alice": "red",
+    "Bob": "tree",
+    "Carol": "red",
+    "Dave [AGENT:chair,IMPOSTOR]": "i",
+    "Erin": "red"
+   },
+   {
+    "Alice": "tree",
+    "Bob": "crisp",
+    "Carol": "tree",
+    "Dave [AGENT:chair,IMPOSTOR]": "i",
+    "Erin": "tree"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "apple",
+   "scored": {
+    "apple": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (civilian, word=wolf)",
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "true_impostor": "Alice",
+  "rounds": [
+   {
+    "Alice [IMPOSTOR]": "music",
+    "Bob": "wild",
+    "Carol [AGENT:wolf]": "i",
+    "Dave": "animal",
+    "Erin": "animal"
+   },
+   {
+    "Alice [IMPOSTOR]": "strum",
+    "Bob": "howl",
+    "Carol [AGENT:wolf]": "i",
+    "Dave": "pack",
+    "Erin": "howl"
+   },
+   {
+    "Alice [IMPOSTOR]": "strings",
+    "Bob": "animal",
+    "Carol [AGENT:wolf]": "i",
+    "Dave": "wild",
+    "Erin": "fur"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": true
+  },
+  "word_guess": {
+   "generated": "wolf",
+   "scored": {
+    "wolf": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (impostor, word=guitar)",
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "animal",
+    "Bob": "fur",
+    "Carol": "howl",
+    "Dave": "pack",
+    "Erin [AGENT:guitar,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "fur",
+    "Bob": "animal",
+    "Carol": "animal",
+    "Dave": "howl",
+    "Erin [AGENT:guitar,IMPOSTOR]": "looking"
+   },
+   {
+    "Alice": "howl",
+    "Bob": "howl",
+    "Carol": "pack",
+    "Dave": "animal",
+    "Erin [AGENT:guitar,IMPOSTOR]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "wolf",
+   "scored": {
+    "wolf": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (civilian, word=moon)",
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "true_impostor": "Alice",
+  "rounds": [
+   {
+    "Alice [IMPOSTOR]": "metal",
+    "Bob": "night",
+    "Carol": "night",
+    "Dave [AGENT:moon]": "i",
+    "Erin": "night"
+   },
+   {
+    "Alice [IMPOSTOR]": "handle",
+    "Bob": "tide",
+    "Carol": "tide",
+    "Dave [AGENT:moon]": "i",
+    "Erin": "crater"
+   },
+   {
+    "Alice [IMPOSTOR]": "tool",
+    "Bob": "crater",
+    "Carol": "crater",
+    "Dave [AGENT:moon]": "looking",
+    "Erin": "sky"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": true
+  },
+  "word_guess": {
+   "generated": "crater",
+   "scored": {
+    "crater": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=hammer)",
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "night",
+    "Bob": "crater",
+    "Carol [AGENT:hammer,IMPOSTOR]": "i",
+    "Dave": "night",
+    "Erin": "sky"
+   },
+   {
+    "Alice": "crater",
+    "Bob": "sky",
+    "Carol [AGENT:hammer,IMPOSTOR]": "i",
+    "Dave": "sky",
+    "Erin": "tide"
+   },
+   {
+    "Alice": "sky",
+    "Bob": "glow",
+    "Carol [AGENT:hammer,IMPOSTOR]": "i",
+    "Dave": "glow",
+    "Erin": "glow"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "moon",
+   "scored": {
+    "moon": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (civilian, word=dog)",
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "true_impostor": "Alice",
+  "rounds": [
+   {
+    "Alice [IMPOSTOR]": "bow",
+    "Bob": "bark",
+    "Carol": "animal",
+    "Dave": "loyal",
+    "Erin [AGENT:dog]": "i"
+   },
+   {
+    "Alice [IMPOSTOR]": "music",
+    "Bob": "animal",
+    "Carol": "pet",
+    "Dave": "bark",
+    "Erin [AGENT:dog]": "i"
+   },
+   {
+    "Alice [IMPOSTOR]": "classical",
+    "Bob": "tail",
+    "Carol": "tail",
+    "Dave": "tail",
+    "Erin [AGENT:dog]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": true
+  },
+  "word_guess": {
+   "generated": "cat",
+   "scored": {
+    "cat": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Dave (impostor, word=violin)",
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "pet",
+    "Bob": "tail",
+    "Carol": "animal",
+    "Dave [AGENT:violin,IMPOSTOR]": "i",
+    "Erin": "tail"
+   },
+   {
+    "Alice": "animal",
+    "Bob": "animal",
+    "Carol": "bark",
+    "Dave [AGENT:violin,IMPOSTOR]": "i",
+    "Erin": "loyal"
+   },
+   {
+    "Alice": "tail",
+    "Bob": "bark",
+    "Carol": "loyal",
+    "Dave [AGENT:violin,IMPOSTOR]": "i",
+    "Erin": "animal"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "dog",
+   "scored": {
+    "dog": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (civilian, word=rain)",
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "water",
+    "Bob": "clouds",
+    "Carol [AGENT:rain]": "i",
+    "Dave": "water",
+    "Erin [IMPOSTOR]": "desk"
+   },
+   {
+    "Alice": "wet",
+    "Bob": "water",
+    "Carol [AGENT:rain]": "i",
+    "Dave": "drops",
+    "Erin [IMPOSTOR]": "sit"
+   },
+   {
+    "Alice": "storm",
+    "Bob": "storm",
+    "Carol [AGENT:rain]": "i",
+    "Dave": "wet",
+    "Erin [IMPOSTOR]": "legs"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Carol (impostor, word=chair)",
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "true_impostor": "Carol",
+  "rounds": [
+   {
+    "Alice": "water",
+    "Bob": "water",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "wet",
+    "Erin": "water"
+   },
+   {
+    "Alice": "clouds",
+    "Bob": "wet",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "water",
+    "Erin": "clouds"
+   },
+   {
+    "Alice": "drops",
+    "Bob": "drops",
+    "Carol [AGENT:chair,IMPOSTOR]": "i",
+    "Dave": "clouds",
+    "Erin": "wet"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Bob (civilian, word=sun)",
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "true_impostor": "Dave",
+  "rounds": [
+   {
+    "Alice": "light",
+    "Bob [AGENT:sun]": "i",
+    "Carol": "bright",
+    "Dave [IMPOSTOR]": "sit",
+    "Erin": "day"
+   },
+   {
+    "Alice": "bright",
+    "Bob [AGENT:sun]": "i",
+    "Carol": "light",
+    "Dave [IMPOSTOR]": "cushion",
+    "Erin": "light"
+   },
+   {
+    "Alice": "day",
+    "Bob [AGENT:sun]": "i",
+    "Carol": "sky",
+    "Dave [IMPOSTOR]": "living",
+    "Erin": "warm"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "star",
+   "scored": {
+    "star": 1.0
+   }
+  },
+  "self_p_impostor": 0.03,
+  "self_p_by_round": []
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "agent": "Erin (impostor, word=sofa)",
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "true_impostor": "Erin",
+  "rounds": [
+   {
+    "Alice": "day",
+    "Bob": "day",
+    "Carol": "bright",
+    "Dave": "light",
+    "Erin [AGENT:sofa,IMPOSTOR]": "i"
+   },
+   {
+    "Alice": "bright",
+    "Bob": "light",
+    "Carol": "light",
+    "Dave": "warm",
+    "Erin [AGENT:sofa,IMPOSTOR]": "looking"
+   },
+   {
+    "Alice": "light",
+    "Bob": "warm",
+    "Carol": "warm",
+    "Dave": "bright",
+    "Erin [AGENT:sofa,IMPOSTOR]": "i"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": false
+  },
+  "word_guess": {
+   "generated": "looking",
+   "scored": {
+    "looking": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ }
+]

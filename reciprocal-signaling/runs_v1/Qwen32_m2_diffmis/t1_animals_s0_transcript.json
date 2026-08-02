@@ -1,0 +1,342 @@
+[
+ {
+  "type": "meta",
+  "task": "t1_animals",
+  "cond": "diffmis",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for animals",
+  "decoy_A": "words for things found on a farm",
+  "decoy_B": "words for things that live in water",
+  "A_examples": [
+   [
+    "cow",
+    true,
+    "trap"
+   ],
+   [
+    "hen",
+    true,
+    "key"
+   ],
+   [
+    "spoon",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "duck",
+    true,
+    "trap"
+   ],
+   [
+    "dolphin",
+    true,
+    "key"
+   ],
+   [
+    "chair",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "sparrow",
+    true,
+    "both"
+   ],
+   [
+    "ant",
+    true,
+    "both"
+   ],
+   [
+    "goat",
+    true,
+    "B"
+   ],
+   [
+    "ox",
+    true,
+    "none"
+   ],
+   [
+    "barn",
+    false,
+    "A"
+   ],
+   [
+    "tractor",
+    false,
+    "both"
+   ],
+   [
+    "mountain",
+    false,
+    "B"
+   ],
+   [
+    "skyscraper",
+    false,
+    "B"
+   ],
+   [
+    "pebble",
+    false,
+    "none"
+   ],
+   [
+    "fork",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_fc",
+  "A": {
+   "raw": "1",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 0
+  },
+  "B": {
+   "raw": "3",
+   "order": [
+    2,
+    1,
+    0
+   ],
+   "picked": 0
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "cow -> dax. Words related to animals might be dax.",
+  "msg_B": "duck -> dax. Does the word start with a vowel?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "trap",
+  "tag_B": "trap"
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "hen -> dax. Words with short vowels might be dax.",
+  "msg_B": "dolphin -> dax. Does the word have double letters?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key",
+  "tag_B": "key"
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "hen -> dax. Words with two syllables might be dax.",
+  "msg_B": "dolphin -> dax. Is the word a mammal? | partner's message: cow -> dax. Words with three",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key",
+  "tag_B": "key"
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_fc": {
+   "raw": "1",
+   "order": [
+    0,
+    1,
+    2
+   ],
+   "picked": 0
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is: a word is \"dax\" if it is the name of a female animal."
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_fc": {
+   "raw": "1",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 0
+  },
+  "probes": [
+   {
+    "word": "sparrow",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ant",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "goat",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "ox",
+    "gold": true,
+    "tag": "none",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "barn",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "tractor",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "mountain",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "skyscraper",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "pebble",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "fork",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is: *A word is \"dax\" if it is the name of an animal that is a mammal.*"
+ }
+]

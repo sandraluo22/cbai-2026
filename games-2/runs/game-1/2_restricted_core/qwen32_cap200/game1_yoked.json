@@ -1,0 +1,16 @@
+{
+  "model": "QwenInst32",
+  "temp": 0.7,
+  "safety": 200,
+  "n": 16,
+  "conditions": {
+    "restrict-fruit": {
+      "n": 16,
+      "met_frac": 0.75,
+      "met_se": 0.10825317547305482,
+      "turns_to_meet_mean": 46.083333333333336,
+      "turns_to_meet_se": 16.74500685666117,
+      "n_met": 12
+    }
+  }
+}

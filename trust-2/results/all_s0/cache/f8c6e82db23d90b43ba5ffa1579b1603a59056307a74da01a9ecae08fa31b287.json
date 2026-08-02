@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Vesper\": 0.7, \"Finley\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Vesper has a higher accuracy rate (6/10) than Finley (5/10), but Finley's correct answers are often verified by multiple independent measurements, while Vesper's correct answers are mostly verified by a single measurement.\"\n}", "trial_id": "labels-0-0010"}

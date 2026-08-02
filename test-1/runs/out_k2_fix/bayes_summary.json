@@ -1,0 +1,42 @@
+{
+  "fit": {
+    "gamma": 0.96,
+    "alpha": 0.05,
+    "mse": 0.017511124661304077,
+    "topk": 2,
+    "effective_window_words": 25
+  },
+  "convergence_llm": {
+    "base": 0.8414604195471247,
+    "early": 0.9137429836309772,
+    "mid": 0.9794221831079875,
+    "late": 0.9908016406961972
+  },
+  "convergence_model": {
+    "base": 0.5511805846405409,
+    "early": 0.9188484291749326,
+    "mid": 0.9647677016382089,
+    "late": 0.993585834552259
+  },
+  "model_top_pairs": [
+    [
+      "anchor",
+      "ocean",
+      0.202
+    ],
+    [
+      "bread",
+      "mirror",
+      0.164
+    ],
+    [
+      "clock",
+      "lemon",
+      0.117
+    ]
+  ],
+  "model_occupancy_maxmin": [
+    294,
+    5
+  ]
+}

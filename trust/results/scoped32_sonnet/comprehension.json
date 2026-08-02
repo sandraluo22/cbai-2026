@@ -1,0 +1,22 @@
+[
+  {
+    "reputable_source": "Source A is described as the long-trusted, established provider with years of track record, while Source B is newly brought on with no track record at the firm yet.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to build a running record of each provider's accuracy and reliability over time.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted, established provider that the investment committee has relied on for years, while Source B is newly brought on with no track record at the firm.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to build a running record of each provider's accuracy and reliability over time.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted, established provider with years of track record at the firm. Source B is newly brought on with no prior track record.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to update my assessment of each provider's reliability and accuracy over time.",
+    "fresh_items_each_round": true
+  },
+  {
+    "reputable_source": "Source A is described as the long-trusted, established provider that the investment committee has relied on for years. Source B is the newer provider with no track record at the firm yet.",
+    "what_is_revealed": "After each round, the true values of the companies are revealed, allowing me to assess and update my understanding of each provider's accuracy and reliability over time.",
+    "fresh_items_each_round": true
+  }
+]

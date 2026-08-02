@@ -1,0 +1,70 @@
+{
+  "config": {
+    "name": "shuffled_weekday",
+    "seed": 0,
+    "graph_type": "ring",
+    "word_set": "days",
+    "grid_rows": 4,
+    "grid_cols": 4,
+    "ring_size": 7,
+    "hex_rows": 4,
+    "hex_cols": 4,
+    "prism_k": 7,
+    "walk_length": 800,
+    "n_walks": 60,
+    "context_checkpoints": [
+      10,
+      30,
+      100,
+      300,
+      1000
+    ],
+    "checkpoint_window": 0.2,
+    "model_a": "NousResearch/Meta-Llama-3.1-8B",
+    "model_b": "NousResearch/Meta-Llama-3.1-8B",
+    "dtype": "bfloat16",
+    "device": "cuda",
+    "capture_layers_a": [
+      16,
+      20,
+      24,
+      26,
+      28
+    ],
+    "capture_layers_b": [
+      16,
+      20,
+      24,
+      26,
+      28
+    ],
+    "align_layer_a": 28,
+    "align_layer_b": 28,
+    "subword_rule": "last",
+    "pca_k": 100,
+    "ridge_alpha": 1000.0,
+    "test_frac": 0.25,
+    "wellposed_ratio": 10.0,
+    "parallel_models": false,
+    "parallel_min_gb": 50.0,
+    "free_cache_between": false,
+    "out_dir": "runs",
+    "use_stub_model": false
+  },
+  "layers": [
+    16,
+    20,
+    24,
+    26,
+    28
+  ],
+  "days_permuted": [
+    "Monday",
+    "Thursday",
+    "Sunday",
+    "Wednesday",
+    "Saturday",
+    "Tuesday",
+    "Friday"
+  ]
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "type": "meta",
+  "quiz": "piano",
+  "true": "piano",
+  "clues": [
+   "it has black and white parts",
+   "a musical instrument",
+   "it has keys",
+   "large and heavy"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "checkerboard",
+   "piano",
+   "keyboard",
+   "tank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "zebra",
+   "drum",
+   "castle",
+   "tank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "zebra",
+   "drum",
+   "castle",
+   "tank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "zebra",
+   "drum",
+   "castle",
+   "tank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "zebra",
+   "drum",
+   "castle",
+   "tank"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,79 @@
+{
+  "instances": [
+    [
+      "Llama",
+      "grid",
+      4
+    ],
+    [
+      "Qwen",
+      "ring",
+      2
+    ]
+  ],
+  "stream_mass_late": {
+    "grid": 0.8791300710999582,
+    "ring": 0.6813048933500627,
+    "union": 0.9707235466332078
+  },
+  "top_oscillating_pairs": [
+    [
+      "clock",
+      "lemon",
+      0.187
+    ],
+    [
+      "pencil",
+      "coin",
+      0.162
+    ],
+    [
+      "coin",
+      "chair",
+      0.132
+    ]
+  ],
+  "r2_deep": {
+    "Llama-grid": {
+      "base": {
+        "grid": 0.2390766740478384,
+        "ring": 0.1380088847740604
+      },
+      "late": {
+        "grid": 0.18919357708533702,
+        "ring": 0.22659971609606133
+      }
+    },
+    "Qwen-ring": {
+      "base": {
+        "grid": 0.15675294973359175,
+        "ring": 0.2812588456881161
+      },
+      "late": {
+        "grid": 0.1639436224695541,
+        "ring": 0.22232413369428666
+      }
+    },
+    "fresh-Llama": {
+      "late": {
+        "grid": 0.20262203438908447,
+        "ring": 0.2542809645028127
+      }
+    },
+    "fresh-Qwen": {
+      "late": {
+        "grid": 0.1780318034575683,
+        "ring": 0.21007097861707916
+      }
+    }
+  },
+  "procrustes_deep": {
+    "Llama-grid vs Qwen-ring | base": 0.873972030293904,
+    "Llama-grid vs Qwen-ring | late": 0.9793938460222285,
+    "Llama-grid vs fresh-Llama | late": 0.9899249514699386,
+    "Llama-grid | base vs late": 0.9268850359258916,
+    "Qwen-ring vs fresh-Qwen | late": 0.9951560342096012,
+    "Qwen-ring | base vs late": 0.9550942664308766,
+    "fresh-Llama vs fresh-Qwen | late": 0.9841093593588114
+  }
+}

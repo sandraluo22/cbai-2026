@@ -1,0 +1,342 @@
+[
+ {
+  "type": "meta",
+  "task": "t4_instruments",
+  "cond": "static",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for musical instruments",
+  "decoy_A": "words for things made of wood",
+  "decoy_B": "words for things you blow into",
+  "A_examples": [
+   [
+    "clarinet",
+    true,
+    "trap"
+   ],
+   [
+    "violin",
+    true,
+    "key"
+   ],
+   [
+    "mirror",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "oboe",
+    true,
+    "trap"
+   ],
+   [
+    "trumpet",
+    true,
+    "key"
+   ],
+   [
+    "blanket",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "cymbal",
+    true,
+    "both"
+   ],
+   [
+    "gong",
+    true,
+    "both"
+   ],
+   [
+    "tambourine",
+    true,
+    "both"
+   ],
+   [
+    "harp",
+    true,
+    "B"
+   ],
+   [
+    "banjo",
+    true,
+    "B"
+   ],
+   [
+    "log",
+    false,
+    "A"
+   ],
+   [
+    "bench",
+    false,
+    "A"
+   ],
+   [
+    "balloon",
+    false,
+    "B"
+   ],
+   [
+    "candle",
+    false,
+    "none"
+   ],
+   [
+    "rug",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_fc",
+  "A": {
+   "raw": "3",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 1
+  },
+  "B": {
+   "raw": "3",
+   "order": [
+    2,
+    1,
+    0
+   ],
+   "picked": 0
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "violin -> dax. Words related to music might be dax.",
+  "msg_B": "oboe -> dax. Here is one of my examples.",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key",
+  "tag_B": "trap"
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "mirror -> not dax. Words related to reflection might not be dax.",
+  "msg_B": "oboe -> dax. Here is one of my examples.",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "neg",
+  "tag_B": "trap"
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "mirror -> not dax. Words that reflect or are reflective might not be dax.",
+  "msg_B": "oboe -> dax. Here is one of my examples.",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "neg",
+  "tag_B": "trap"
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_fc": {
+   "raw": "3",
+   "order": [
+    0,
+    1,
+    2
+   ],
+   "picked": 2
+  },
+  "probes": [
+   {
+    "word": "cymbal",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gong",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "tambourine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "harp",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "banjo",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "log",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bench",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "balloon",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "candle",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "rug",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is likely: *Words that refer to musical instruments are 'dax', and words that refer to objects related to reflection (like mirrors) are 'not dax'.*"
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_fc": {
+   "raw": "2",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 2
+  },
+  "probes": [
+   {
+    "word": "cymbal",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gong",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "tambourine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "harp",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "banjo",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "log",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "bench",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "balloon",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "candle",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "rug",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is likely: *A word is \"dax\" if it refers to a musical instrument.*"
+ }
+]

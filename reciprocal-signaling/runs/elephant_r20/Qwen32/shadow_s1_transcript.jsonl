@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "shadow", "true": "shadow", "clues": ["dark", "it follows you", "flat", "it needs light to exist"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["night", "shadow", "table", "shadow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["coal", "trail", "board", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["black", "trail", "floor", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["dark", "trail", "mirror", "glow"], "all_true": false, "clue_violations": [1]}
+{"type": "round", "round": 5, "guesses": ["coal", "trail", "lamp", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["coal", "trail", "mirror", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["lamp", "trail", "mirror", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["lamp", "trail", "mirror", "glow"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["lamp", "trail", "mirror", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["lamp", "trail", "lamp", "lamp"], "all_true": false, "clue_violations": []}

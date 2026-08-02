@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "penguin4_prop",
+  "true": "penguin",
+  "clues": [
+   "it has the property: black-and-white coloration",
+   "it has the property: being a bird",
+   "it has the property: flightlessness",
+   "it has the property: cold-climate habitat"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "tiger",
+   "eagle",
+   "emu",
+   "penguin"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "zebra",
+   "owl",
+   "kiwi",
+   "polar"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "mammal"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "seal",
+   "crow",
+   "kiwi",
+   "arctic"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

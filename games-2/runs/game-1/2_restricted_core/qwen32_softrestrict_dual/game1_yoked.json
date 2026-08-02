@@ -1,0 +1,24 @@
+{
+  "model": "QwenInst32",
+  "temp": 0.7,
+  "safety": 24,
+  "n": 16,
+  "conditions": {
+    "dual-water-city": {
+      "n": 16,
+      "met_frac": 0.0,
+      "met_se": 0.0,
+      "turns_to_meet_mean": NaN,
+      "turns_to_meet_se": NaN,
+      "n_met": 0
+    },
+    "restrict-watercity": {
+      "n": 16,
+      "met_frac": 0.375,
+      "met_se": 0.12103072956898178,
+      "turns_to_meet_mean": 13.333333333333334,
+      "turns_to_meet_se": 2.5676044462869654,
+      "n_met": 6
+    }
+  }
+}

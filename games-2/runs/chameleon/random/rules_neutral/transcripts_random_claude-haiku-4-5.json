@@ -1,0 +1,410 @@
+[
+ {
+  "id": "random_all_0",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Bob (none, word=river)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "cold",
+    "Bob [AGENT:river]": "i",
+    "Carol": "fruit",
+    "Dave": "wild",
+    "Erin": "light"
+   },
+   {
+    "Alice": "white",
+    "Bob [AGENT:river]": "i",
+    "Carol": "tree",
+    "Dave": "fur",
+    "Erin": "warm"
+   },
+   {
+    "Alice": "winter",
+    "Bob [AGENT:river]": "i",
+    "Carol": "juice",
+    "Dave": "animal",
+    "Erin": "sky"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_1",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Dave (none, word=ocean)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "legs",
+    "Bob": "crisp",
+    "Carol": "banks",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "sit"
+   },
+   {
+    "Alice": "desk",
+    "Bob": "fruit",
+    "Carol": "water",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "living"
+   },
+   {
+    "Alice": "sit",
+    "Bob": "tree",
+    "Carol": "flow",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "cushion"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_2",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Carol (none, word=apple)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "bow",
+    "Bob": "water",
+    "Carol [AGENT:apple]": "i",
+    "Dave": "tool",
+    "Erin": "fruit"
+   },
+   {
+    "Alice": "wood",
+    "Bob": "flow",
+    "Carol [AGENT:apple]": "i",
+    "Dave": "hit",
+    "Erin": "tree"
+   },
+   {
+    "Alice": "classical",
+    "Bob": "stream",
+    "Carol [AGENT:apple]": "looking",
+    "Dave": "handle",
+    "Erin": "green"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "i",
+   "scored": {
+    "i": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_3",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Bob (none, word=sofa)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "light",
+    "Bob [AGENT:sofa]": "i",
+    "Carol": "salt",
+    "Dave": "night",
+    "Erin": "animal"
+   },
+   {
+    "Alice": "sky",
+    "Bob [AGENT:sofa]": "i",
+    "Carol": "water",
+    "Dave": "sky",
+    "Erin": "pack"
+   },
+   {
+    "Alice": "day",
+    "Bob [AGENT:sofa]": "i",
+    "Carol": "blue",
+    "Dave": "crater",
+    "Erin": "fur"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "furniture",
+   "scored": {
+    "furniture": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_4",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Dave (none, word=apple)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "glow",
+    "Bob": "tool",
+    "Carol": "legs",
+    "Dave [AGENT:apple]": "i",
+    "Erin": "music"
+   },
+   {
+    "Alice": "crater",
+    "Bob": "hit",
+    "Carol": "desk",
+    "Dave [AGENT:apple]": "i",
+    "Erin": "strings"
+   },
+   {
+    "Alice": "night",
+    "Bob": "metal",
+    "Carol": "sit",
+    "Dave [AGENT:apple]": "i",
+    "Erin": "wood"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "fruit",
+   "scored": {
+    "fruit": 1.0
+   }
+  },
+  "self_p_impostor": 0.01,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_5",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Dave (none, word=ocean)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "tree",
+    "Bob": "water",
+    "Carol": "glow",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "wild"
+   },
+   {
+    "Alice": "sweet",
+    "Bob": "current",
+    "Carol": "night",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "animal"
+   },
+   {
+    "Alice": "green",
+    "Bob": "flow",
+    "Carol": "tide",
+    "Dave [AGENT:ocean]": "i",
+    "Erin": "fur"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.03,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_6",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Bob (none, word=moon)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "light",
+    "Bob [AGENT:moon]": "i",
+    "Carol": "water",
+    "Dave": "strings",
+    "Erin": "animal"
+   },
+   {
+    "Alice": "warm",
+    "Bob [AGENT:moon]": "i",
+    "Carol": "wet",
+    "Dave": "chords",
+    "Erin": "bark"
+   },
+   {
+    "Alice": "day",
+    "Bob [AGENT:moon]": "i",
+    "Carol": "drops",
+    "Dave": "wood",
+    "Erin": "pet"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "guitar",
+   "scored": {
+    "guitar": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ },
+ {
+  "id": "random_all_7",
+  "condition": "all_random",
+  "tier": "obvious",
+  "agent": "Carol (none, word=river)",
+  "civilian_word": null,
+  "impostor_word": null,
+  "true_impostor": null,
+  "rounds": [
+   {
+    "Alice": "strum",
+    "Bob": "tail",
+    "Carol [AGENT:river]": "i",
+    "Dave": "soft",
+    "Erin": "day"
+   },
+   {
+    "Alice": "music",
+    "Bob": "bark",
+    "Carol [AGENT:river]": "i",
+    "Dave": "cushion",
+    "Erin": "light"
+   },
+   {
+    "Alice": "wood",
+    "Bob": "animal",
+    "Carol [AGENT:river]": "i",
+    "Dave": "long",
+    "Erin": "bright"
+   }
+  ],
+  "vote": {
+   "picked": "Alice",
+   "dist": {
+    "Alice": 1.0,
+    "Bob": 0.0,
+    "Carol": 0.0,
+    "Dave": 0.0,
+    "Erin": 0.0
+   },
+   "correct": null
+  },
+  "word_guess": {
+   "generated": "water",
+   "scored": {
+    "water": 1.0
+   }
+  },
+  "self_p_impostor": 0.04,
+  "self_p_by_round": []
+ }
+]

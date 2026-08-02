@@ -51,13 +51,14 @@ class Config:
     seed: int = 0
 
     # ---- graph -----------------------------------------------------------
-    graph_type: str = "grid"           # "grid" | "ring" | "hex"
+    graph_type: str = "grid"           # "grid" | "ring" | "hex" | "prism"
     word_set: str = "concepts"         # "concepts" (unrelated) | "days" (semantic conflict)
     grid_rows: int = 4
     grid_cols: int = 4                 # grid: n_nodes = rows * cols
     ring_size: int = 16                # ring: n_nodes = ring_size
     hex_rows: int = 4
     hex_cols: int = 4                  # hex: n_nodes = hex_rows * hex_cols
+    prism_k: int = 7                   # prism (C_k # K_2): n_nodes = 2*k; use ODD k (non-bipartite)
 
     # ---- walk generation -------------------------------------------------
     # We generate walks of `walk_length` *node steps*. Each step emits one
@@ -123,6 +124,8 @@ class Config:
             return self.ring_size
         if self.graph_type == "hex":
             return self.hex_rows * self.hex_cols
+        if self.graph_type in ("prism", "antiprism"):
+            return 2 * self.prism_k
         return self.grid_rows * self.grid_cols
 
     def words(self) -> List[str]:

@@ -15,7 +15,8 @@ from pathlib import Path
 
 # Cost rates ($ per 1M tokens). Verify against current pricing; token COUNTS below
 # are authoritative regardless.
-PRICE_PER_MTOK = {"claude-opus-4-8": {"input": 15.0, "output": 75.0}}
+PRICE_PER_MTOK = {"claude-opus-4-8": {"input": 15.0, "output": 75.0},
+                  "claude-sonnet-4-6": {"input": 3.0, "output": 15.0}}
 
 
 class GameLogger:

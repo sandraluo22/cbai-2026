@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "piano_wrong", "true": "piano", "clues": ["it has black and white parts", "a musical instrument", "it has keys", "large and heavy", "you blow into it"], "kind": "word", "wrong_agent": 4, "rounds": 20, "seed": 1}
+{"type": "round", "round": 1, "guesses": ["zebra", "is", "has", "elephant", "trumpet"], "all_true": false, "clue_violations": [3]}
+{"type": "round", "round": 2, "guesses": ["piano", "musical", "has", "ship", "say"], "all_true": false, "clue_violations": [2, 3]}
+{"type": "round", "round": 3, "guesses": ["say", "violin", "keyboard", "boulder", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["piano", "violin", "house", "piano", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["piano", "violin", "house", "say", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["going", "violin", "going", "ship", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["going", "violin", "harmonica", "large", "harmonica"], "all_true": false, "clue_violations": [4]}
+{"type": "round", "round": 8, "guesses": ["going", "harmonica", "keyboard", "elephant", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["keyboard", "harmonica", "keyboard", "ship", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["harmonica", "harmonica", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["pattern", "harmonica", "piano", "elephant", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["piano", "harmonica", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["harmonica", "harmonica", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["harmonica", "violin", "harmonica", "elephant", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["harmonica", "violin", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["harmonica", "harmonica", "harmonica", "elephant", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["piano", "violin", "keyboard", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["harmonica", "violin", "harmonica", "elephant", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["harmonica", "harmonica", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["harmonica", "violin", "harmonica", "harmonica", "harmonica"], "all_true": false, "clue_violations": []}

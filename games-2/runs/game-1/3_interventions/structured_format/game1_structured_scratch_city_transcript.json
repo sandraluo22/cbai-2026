@@ -1,0 +1,596 @@
+[
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 1,
+    "A": "echo",
+    "B": "tokyo",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. Let's go with 'echo'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 2,
+    "A": "harmony",
+    "B": "paris",
+    "agreed": false,
+    "note": "Realized 'echo' was already used. Need to choose a completely new word."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 3,
+    "A": "sunlight",
+    "B": "berlin",
+    "agreed": false,
+    "note": "Avoid repeating past words. Need a fresh, simple word that's easy to remember."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 4,
+    "A": "river",
+    "B": "rome",
+    "agreed": false,
+    "note": "Think of a common, memorable word that hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 5,
+    "A": "forest",
+    "B": "london",
+    "agreed": false,
+    "note": "Choose a word that is easy to remember and not previously used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 6,
+    "A": "ocean",
+    "B": "new",
+    "agreed": false,
+    "note": "Think of a simple and unique word that hasn't been used before."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 7,
+    "A": "sky",
+    "B": "osaka",
+    "agreed": false,
+    "note": "Pick a word that is easy to remember and hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 8,
+    "A": "mountain",
+    "B": "dubai",
+    "agreed": false,
+    "note": "Choose a word that is familiar but hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 9,
+    "A": "desert",
+    "B": "moscow",
+    "agreed": false,
+    "note": "Look for a common noun that is recognizable and hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 10,
+    "A": "city",
+    "B": "seoul",
+    "agreed": false,
+    "note": "Choose a common noun that is memorable and not previously used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 11,
+    "A": "bridge",
+    "B": "istanbul",
+    "agreed": false,
+    "note": "Think of a common noun that is easy to remember and hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 12,
+    "A": "book",
+    "B": "canberra",
+    "agreed": false,
+    "note": "Choose a common noun that is simple and memorable but hasn't been used in previous rounds."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 13,
+    "A": "flower",
+    "B": "vienna",
+    "agreed": false,
+    "note": "Choose a common noun that is simple and memorable but hasn't been used in previous rounds."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 14,
+    "A": "tree",
+    "B": "havana",
+    "agreed": false,
+    "note": "Choose a common noun that is simple and memorable but hasn't been used in previous rounds."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 15,
+    "A": "star",
+    "B": "madrid",
+    "agreed": false,
+    "note": "Think of a common noun that is simple and memorable but hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 16,
+    "A": "train",
+    "B": "sydney",
+    "agreed": false,
+    "note": "Think of another common noun that is simple, memorable, and hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 17,
+    "A": "lake",
+    "B": "doha",
+    "agreed": false,
+    "note": "Think of another common noun that is simple, memorable, and hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 18,
+    "A": "island",
+    "B": "cairo",
+    "agreed": false,
+    "note": "Think of another simple, common noun that hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 19,
+    "A": "beach",
+    "B": "geneva",
+    "agreed": false,
+    "note": "Choose a simple, common noun that hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 20,
+    "A": "car",
+    "B": "athens",
+    "agreed": false,
+    "note": "Look for a simple, common noun that is not yet used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 21,
+    "A": "house",
+    "B": "romeo",
+    "agreed": false,
+    "note": "Choose a common noun not previously used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 22,
+    "A": "tower",
+    "B": "buenosaires",
+    "agreed": false,
+    "note": "Choose a common noun not previously used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 0,
+    "turn": 23,
+    "A": "riverbank",
+    "B": "dublin",
+    "agreed": false,
+    "note": "Choose a common noun not previously used."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 1,
+    "A": "match",
+    "B": "tokyo",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled' and 'faced' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 2,
+    "A": "sunny",
+    "B": "paris",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled', 'faced', 'match', and 'tokyo' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 3,
+    "A": "happy",
+    "B": "berlin",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled', 'faced', 'match', 'tokyo', 'sunny', and 'paris' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 4,
+    "A": "glow",
+    "B": "rome",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled', 'faced', 'match', 'tokyo', 'sunny', 'paris', 'happy', and 'berlin' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 5,
+    "A": "bright",
+    "B": "london",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled', 'faced', 'match', 'tokyo', 'sunny', 'paris', 'happy', 'berlin', 'glow', and 'rome' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 6,
+    "A": "shine",
+    "B": "oslo",
+    "agreed": false,
+    "note": "Need to pick a new word not used before. 'Ruled', 'faced', 'match', 'tokyo', 'sunny', 'paris', 'happy', 'berlin', 'glow', 'rome', and 'bright' are already taken."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 7,
+    "A": "twinkle",
+    "B": "seoul",
+    "agreed": false,
+    "note": "Avoid words already used. Consider unique words not in the list."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 8,
+    "A": "sparkle",
+    "B": "dubai",
+    "agreed": false,
+    "note": "Think of a new and unused word. Try to pick something descriptive or unique."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 9,
+    "A": "dazzle",
+    "B": "moscow",
+    "agreed": false,
+    "note": "Avoid common words. Consider something evocative and not overused."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 10,
+    "A": "aurora",
+    "B": "istanbul",
+    "agreed": false,
+    "note": "Think of vivid imagery or poetic terms. Maybe something nature-related or emotional."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 11,
+    "A": "radiant",
+    "B": "madrid",
+    "agreed": false,
+    "note": "Consider celestial or radiant terms that evoke light and wonder."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 12,
+    "A": "stellar",
+    "B": "sydney",
+    "agreed": false,
+    "note": "Consider celestial or radiant terms related to stars or cosmic phenomena."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 13,
+    "A": "galaxy",
+    "B": "istanbula",
+    "agreed": false,
+    "note": "Consider celestial or radiant terms related to stars or cosmic phenomena. Maybe 'galaxy' or 'comet'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 14,
+    "A": "nebula",
+    "B": "new",
+    "agreed": false,
+    "note": "Try terms related to cosmic events or light, such as 'comet' or 'nebula'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 15,
+    "A": "comet",
+    "B": "romeo",
+    "agreed": false,
+    "note": "Consider words related to stars or celestial phenomena that haven't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 16,
+    "A": "cosmos",
+    "B": "cairo",
+    "agreed": false,
+    "note": "Think of other celestial terms or adjectives that haven't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 17,
+    "A": "constellation",
+    "B": "mexico",
+    "agreed": false,
+    "note": "Consider other celestial terms like 'constellation' or 'meteor' that haven't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 18,
+    "A": "bloom",
+    "B": "nairobi",
+    "agreed": false,
+    "note": "Avoid celestial terms already mentioned. Try more general positive or descriptive words."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 19,
+    "A": "vibrant",
+    "B": "bangkok",
+    "agreed": false,
+    "note": "Avoid words related to light and cities. Try abstract or emotional terms."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 20,
+    "A": "whisper",
+    "B": "osaka",
+    "agreed": false,
+    "note": "Avoid words related to light, cities, and emotions. Think of nature or abstract concepts."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 21,
+    "A": "echo",
+    "B": "montreal",
+    "agreed": false,
+    "note": "Avoid words related to light, cities, and emotions. Think of nature or abstract concepts. Consider unique abstract terms or elements of nature."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 22,
+    "A": "horizon",
+    "B": "dublin",
+    "agreed": false,
+    "note": "Avoid words related to light, cities, and emotions. Focus on nature or abstract concepts. Think of unique terms such as elements of the environment or philosophical ideas."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 1,
+    "turn": 23,
+    "A": "serenity",
+    "B": "havana",
+    "agreed": false,
+    "note": "Avoid words related to light, cities, emotions, and previously used categories. Consider nature elements like flora, fauna, or abstract terms like 'serenity' or 'balance'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 1,
+    "A": "sunny",
+    "B": "tokyo",
+    "agreed": false,
+    "note": "Need to choose a new word not in the disallowed list."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 2,
+    "A": "glow",
+    "B": "paris",
+    "agreed": false,
+    "note": "Selected a new word that hasn't been used before."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 3,
+    "A": "river",
+    "B": "london",
+    "agreed": false,
+    "note": "Selected 'river' as a new unused word."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 4,
+    "A": "ocean",
+    "B": "berlin",
+    "agreed": false,
+    "note": "Selected 'river' as my word for the round, but it was already used. Now selecting 'ocean'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 5,
+    "A": "glow",
+    "B": "rome",
+    "agreed": false,
+    "note": "Selected 'ocean' as my word for the round, but it was already used. Now selecting 'glow'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 6,
+    "A": "night",
+    "B": "seoul",
+    "agreed": false,
+    "note": "Tried 'glow' again, but it was already used. Now selecting 'night'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 7,
+    "A": "field",
+    "B": "moscow",
+    "agreed": false,
+    "note": "Selected 'night' last round, now considering new options carefully."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 8,
+    "A": "dawn",
+    "B": "madrid",
+    "agreed": false,
+    "note": "Avoiding repeated words, looking for a unique term that hasn't been used yet."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 9,
+    "A": "forest",
+    "B": "new",
+    "agreed": false,
+    "note": "Need a new word not used before; scanning for a unique and unused term."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 10,
+    "A": "sky",
+    "B": "sydney",
+    "agreed": false,
+    "note": "Looking for a fresh word that hasn't been used yet; need to avoid repeating any from the list."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 11,
+    "A": "mountain",
+    "B": "osaka",
+    "agreed": false,
+    "note": "Need to choose a unique word not previously used; brainstorming options now."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 12,
+    "A": "desert",
+    "B": "istanbul",
+    "agreed": false,
+    "note": "Looking for a new unique word not in the disallowed list; considering possibilities."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 13,
+    "A": "city",
+    "B": "mumbai",
+    "agreed": false,
+    "note": "Need to choose a word not previously used; considering 'city'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 14,
+    "A": "country",
+    "B": "canberra",
+    "agreed": false,
+    "note": "Need to choose a word not previously used; considering 'country'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 15,
+    "A": "nation",
+    "B": "vienna",
+    "agreed": false,
+    "note": "Need to choose a word not previously used; considering 'nation'."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 16,
+    "A": "village",
+    "B": "havana",
+    "agreed": false,
+    "note": "Avoid 'nation' as it's already used; looking for another unique word."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 17,
+    "A": "state",
+    "B": "dubai",
+    "agreed": false,
+    "note": "Avoid 'nation' and other used words; considering 'state' as a unique alternative."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 18,
+    "A": "region",
+    "B": "romeo",
+    "agreed": false,
+    "note": "Avoid previously used words; considering 'region' as a unique alternative."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 19,
+    "A": "area",
+    "B": "oslo",
+    "agreed": false,
+    "note": "Avoid previously used words; considering 'area' as a unique alternative."
+  },
+  {
+    "cond": "struct-scratch-city",
+    "rollout": 2,
+    "turn": 20,
+    "A": "zone",
+    "B": "cairo",
+    "agreed": false,
+    "note": "Avoid previously used words; considering 'zone' as a unique alternative."
+  }
+]

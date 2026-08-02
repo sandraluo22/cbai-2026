@@ -1,0 +1,258 @@
+[
+ {
+  "type": "meta",
+  "quiz": "shadow4_syn",
+  "true": "shadow",
+  "clues": [
+   "dim",
+   "trailing",
+   "two-dimensional",
+   "cast"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "shade",
+   "tail",
+   "rectangle",
+   "actor"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "light",
+   "trail",
+   "square",
+   "theater"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "lamp",
+   "track",
+   "polygon",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "bulb",
+   "follow",
+   "shape",
+   "screen"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "darkness",
+   "path",
+   "plane",
+   "projector"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "dimness",
+   "chase",
+   "surface",
+   "movie"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "gloom",
+   "line",
+   "flat",
+   "film"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "twilight",
+   "trace",
+   "area",
+   "cinema"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "dusk",
+   "shadow",
+   "space",
+   "play"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "dimlight",
+   "shadow",
+   "dimension",
+   "stage"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "dimly",
+   "shadow",
+   "sheet",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "shadow",
+   "shadow",
+   "shadow",
+   "shadow"
+  ],
+  "all_true": true,
+  "clue_violations": []
+ }
+]

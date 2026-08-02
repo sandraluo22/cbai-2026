@@ -1,0 +1,257 @@
+[
+ {
+  "roll": 11,
+  "branch": "quiz",
+  "could_say": "helsinki, lagos, quito, chicago.",
+  "in_named": [
+   "chicago",
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [],
+  "expect_next": "**Draught**\n\n### Explanation:"
+ },
+ {
+  "roll": 11,
+  "branch": "control",
+  "picks": [
+   "no",
+   "cit",
+   "cider",
+   "dice",
+   "ced",
+   "cite",
+   "cred",
+   "creed",
+   "died",
+   "ceded"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 11,
+  "branch": "instruct",
+  "picks": [
+   "died",
+   "cider",
+   "cider",
+   "none",
+   "drone",
+   "ride",
+   "ride",
+   "ride",
+   "ride",
+   "drier"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 11,
+  "branch": "self_removed",
+  "picks": [
+   "detric",
+   "cited",
+   "cited",
+   "cited",
+   "cited",
+   "cider",
+   "cite",
+   "redi",
+   "redit",
+   "dire"
+  ],
+  "loop_exit": false,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 11,
+  "branch": "note_replaced",
+  "picks": [
+   "seoul",
+   "moscow",
+   "beijing",
+   "lisbona",
+   "berlin",
+   "singapore",
+   "stockholm",
+   "athens"
+  ],
+  "loop_exit": true,
+  "met": true,
+  "met_at": 8
+ },
+ {
+  "roll": 2,
+  "branch": "quiz",
+  "could_say": "**quito, helsinki, chicago, lagos**",
+  "in_named": [
+   "chicago",
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [],
+  "expect_next": "**start**\n\n### Here's why:"
+ },
+ {
+  "roll": 2,
+  "branch": "control",
+  "picks": [
+   "starting",
+   "starting",
+   "ending",
+   "ending",
+   "ending",
+   "ending",
+   "ending",
+   "end",
+   "ending",
+   "dublin"
+  ],
+  "loop_exit": false,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 2,
+  "branch": "instruct",
+  "picks": [
+   "brussels",
+   "starting",
+   "sydney",
+   "starting",
+   "dubai",
+   "starting",
+   "helsinki"
+  ],
+  "loop_exit": false,
+  "met": true,
+  "met_at": 7
+ },
+ {
+  "roll": 2,
+  "branch": "self_removed",
+  "picks": [
+   "origin",
+   "origin",
+   "starting",
+   "origin",
+   "origins",
+   "warsaw",
+   "start",
+   "stockholm",
+   "start",
+   "start"
+  ],
+  "loop_exit": false,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 2,
+  "branch": "note_replaced",
+  "picks": [
+   "amsterdam",
+   "prague",
+   "istanbul",
+   "nice",
+   "milan",
+   "sydney",
+   "zurich",
+   "cape"
+  ],
+  "loop_exit": true,
+  "met": true,
+  "met_at": 8
+ },
+ {
+  "roll": 14,
+  "branch": "quiz",
+  "could_say": "banana, guitar, helsinki, lagos, puddle, quito, sorrow.",
+  "in_named": [
+   "lagos",
+   "quito",
+   "helsinki"
+  ],
+  "out_named": [
+   "banana",
+   "sorrow",
+   "guitar",
+   "puddle"
+  ],
+  "expect_next": "**Warsaw**\n\n### Reasoning:"
+ },
+ {
+  "roll": 14,
+  "branch": "control",
+  "picks": [
+   "helsinki",
+   "brussels",
+   "oslo",
+   "warsaw",
+   "vatican",
+   "amsterdam",
+   "cape",
+   "singapore",
+   "osaka",
+   "montreal"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 14,
+  "branch": "instruct",
+  "picks": [
+   "havana"
+  ],
+  "loop_exit": true,
+  "met": true,
+  "met_at": 1
+ },
+ {
+  "roll": 14,
+  "branch": "self_removed",
+  "picks": [
+   "amsterdam",
+   "sydney",
+   "vancouver",
+   "singapore",
+   "liverpool",
+   "canary",
+   "rome",
+   "lisbona",
+   "bern",
+   "same"
+  ],
+  "loop_exit": false,
+  "met": false,
+  "met_at": null
+ },
+ {
+  "roll": 14,
+  "branch": "note_replaced",
+  "picks": [
+   "oslo",
+   "singapore",
+   "warsaw",
+   "mumbai",
+   "beijing",
+   "amsterdam",
+   "nairobi",
+   "dublin",
+   "mexico",
+   "helsinki"
+  ],
+  "loop_exit": true,
+  "met": false,
+  "met_at": null
+ }
+]

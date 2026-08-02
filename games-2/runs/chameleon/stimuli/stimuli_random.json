@@ -1,0 +1,506 @@
+[
+ {
+  "id": "random_all_0",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 1,
+  "agent_word": "river",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "snow",
+   "river",
+   "pear",
+   "wolf",
+   "sun"
+  ],
+  "clues": [
+   [
+    "cold",
+    null,
+    "fruit",
+    "wild",
+    "light"
+   ],
+   [
+    "white",
+    null,
+    "tree",
+    "fur",
+    "warm"
+   ],
+   [
+    "winter",
+    null,
+    "juice",
+    "animal",
+    "sky"
+   ]
+  ],
+  "word_candidates": [
+   "river",
+   "wolf",
+   "dog",
+   "sun",
+   "snow",
+   "pear"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_1",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "ocean",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "chair",
+   "apple",
+   "river",
+   "ocean",
+   "sofa"
+  ],
+  "clues": [
+   [
+    "legs",
+    "crisp",
+    "banks",
+    null,
+    "sit"
+   ],
+   [
+    "desk",
+    "fruit",
+    "water",
+    null,
+    "living"
+   ],
+   [
+    "sit",
+    "tree",
+    "flow",
+    null,
+    "cushion"
+   ]
+  ],
+  "word_candidates": [
+   "ocean",
+   "sofa",
+   "apple",
+   "river",
+   "sea",
+   "chair"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_2",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "apple",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "river",
+   "apple",
+   "hammer",
+   "pear"
+  ],
+  "clues": [
+   [
+    "bow",
+    "water",
+    null,
+    "tool",
+    "fruit"
+   ],
+   [
+    "wood",
+    "flow",
+    null,
+    "hit",
+    "tree"
+   ],
+   [
+    "classical",
+    "stream",
+    null,
+    "handle",
+    "green"
+   ]
+  ],
+  "word_candidates": [
+   "sofa",
+   "apple",
+   "pear",
+   "river",
+   "hammer",
+   "violin"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_3",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 1,
+  "agent_word": "sofa",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "sun",
+   "sofa",
+   "sea",
+   "moon",
+   "wolf"
+  ],
+  "clues": [
+   [
+    "light",
+    null,
+    "salt",
+    "night",
+    "animal"
+   ],
+   [
+    "sky",
+    null,
+    "water",
+    "sky",
+    "pack"
+   ],
+   [
+    "day",
+    null,
+    "blue",
+    "crater",
+    "fur"
+   ]
+  ],
+  "word_candidates": [
+   "rain",
+   "sea",
+   "sofa",
+   "wolf",
+   "sun",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_4",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "apple",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "moon",
+   "hammer",
+   "chair",
+   "apple",
+   "violin"
+  ],
+  "clues": [
+   [
+    "glow",
+    "tool",
+    "legs",
+    null,
+    "music"
+   ],
+   [
+    "crater",
+    "hit",
+    "desk",
+    null,
+    "strings"
+   ],
+   [
+    "night",
+    "metal",
+    "sit",
+    null,
+    "wood"
+   ]
+  ],
+  "word_candidates": [
+   "violin",
+   "river",
+   "hammer",
+   "apple",
+   "chair",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_5",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "ocean",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "pear",
+   "river",
+   "moon",
+   "ocean",
+   "wolf"
+  ],
+  "clues": [
+   [
+    "tree",
+    "water",
+    "glow",
+    null,
+    "wild"
+   ],
+   [
+    "sweet",
+    "current",
+    "night",
+    null,
+    "animal"
+   ],
+   [
+    "green",
+    "flow",
+    "tide",
+    null,
+    "fur"
+   ]
+  ],
+  "word_candidates": [
+   "pear",
+   "sun",
+   "moon",
+   "river",
+   "ocean",
+   "wolf"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_6",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 1,
+  "agent_word": "moon",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "sun",
+   "moon",
+   "rain",
+   "guitar",
+   "dog"
+  ],
+  "clues": [
+   [
+    "light",
+    null,
+    "water",
+    "strings",
+    "animal"
+   ],
+   [
+    "warm",
+    null,
+    "wet",
+    "chords",
+    "bark"
+   ],
+   [
+    "day",
+    null,
+    "drops",
+    "wood",
+    "pet"
+   ]
+  ],
+  "word_candidates": [
+   "rain",
+   "sun",
+   "guitar",
+   "dog",
+   "sea",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ },
+ {
+  "id": "random_all_7",
+  "condition": "all_random",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "river",
+  "true_role": "none",
+  "true_impostor_seat": null,
+  "civilian_word": null,
+  "impostor_word": null,
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "guitar",
+   "dog",
+   "river",
+   "sofa",
+   "sun"
+  ],
+  "clues": [
+   [
+    "strum",
+    "tail",
+    null,
+    "soft",
+    "day"
+   ],
+   [
+    "music",
+    "bark",
+    null,
+    "cushion",
+    "light"
+   ],
+   [
+    "wood",
+    "animal",
+    null,
+    "long",
+    "bright"
+   ]
+  ],
+  "word_candidates": [
+   "sun",
+   "river",
+   "rain",
+   "sofa",
+   "dog",
+   "guitar"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0
+ }
+]

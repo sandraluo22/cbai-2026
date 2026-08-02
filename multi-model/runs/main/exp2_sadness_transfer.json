@@ -1,0 +1,133 @@
+{
+  "graph": "square_grid",
+  "n_nodes": 16,
+  "sdose": 0.6,
+  "ctx_grid": [
+    10,
+    25,
+    50,
+    100,
+    220
+  ],
+  "nseed": 6,
+  "xctx": 80,
+  "gsteps": 220,
+  "story_tok": 100,
+  "gen_behaviour": {
+    "clean": {
+      "nbr_mass": 0.5234806355552847,
+      "validity": 0.5295454545454547
+    },
+    "sad": {
+      "nbr_mass": 0.267501679682314,
+      "validity": 0.27045454545454545
+    }
+  },
+  "walk_sadness": {
+    "clean": {
+      "12": -14.046054088550356,
+      "13": -15.439387178339423,
+      "14": -16.511720138083145,
+      "15": -16.282548280143004,
+      "16": -17.454915265183434,
+      "17": -16.495185413546437,
+      "18": -16.169742598566597,
+      "19": -16.96763158629117,
+      "20": -19.78123152119765,
+      "21": -19.61018421507909,
+      "22": -20.729721597908608,
+      "23": -19.760200221308853
+    },
+    "sad": {
+      "12": -14.115928133913163,
+      "13": -15.420733028172151,
+      "14": -16.562254936593582,
+      "15": -16.39153007556656,
+      "16": -17.53303036011178,
+      "17": -16.357801487428706,
+      "18": -15.948282546777435,
+      "19": -16.839772938476298,
+      "20": -20.279969718944134,
+      "21": -20.253774266511968,
+      "22": -21.319808790913694,
+      "23": -19.893148642899423
+    },
+    "peak_layer": 18
+  },
+  "story": {
+    "clean": {
+      "proj": -47.00668006520625,
+      "sad_word_frac": 0.0,
+      "story_layer": 18,
+      "samples": [
+        " river chair apple chair river apple chair apple chair river chair apple chair river chair apple chair river apple chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair apple chair river chair",
+        " bread paper tiger math paper bird clock math paper tiger tiger bread chair apple clock glass cloud tiger glass tiger clock bread tiger chair cloud knife tiger math tiger paper tiger tiger chair cloud plant tiger chair cloud stone tiger clock tiger tiger cloud paper tiger tiger bread paper chair sand tiger tiger cloud bird bird tiger clock tiger tiger bread plant plant paper tiger bird tiger bird tiger paper tiger tiger tiger chair apple bird apple bird chair cloud tiger glass clock tiger bird bird tiger chair paper paper knife cloud plant stone knife paper tiger cloud plant tiger"
+      ]
+    },
+    "sad": {
+      "proj": -74.28495963422301,
+      "sad_word_frac": 0.0,
+      "story_layer": 18,
+      "samples": [
+        " knife bread stone bread stone bread apple river chair music paper chair apple chair apple apple apple apple apple chair apple paper chair paper chair paper apple paper chair paper apple chair apple paper chair paper paper chair apple apple chair apple chair paper paper chair apple paper chair apple chair apple paper apple chair paper paper paper apple paper apple paper chair apple chair apple paper apple apple paper chair apple chair apple apple apple apple apple apple chair apple paper apple apple chair apple paper apple apple chair apple apple chair apple apple paper apple chair apple apple",
+        " chair cloud river knife cloud cloud cloud cloud chair cloud chair cloud cloud cloud cloud paper music knife cloud cloud cloud cloud cloud cloud knife paper chair cloud cloud cloud cloud cloud river bird chair bread chair cloud cloud cloud cloud cloud chair cloud chair chair cloud cloud cloud cloud cloud bread knife cloud cloud cloud cloud chair cloud chair chair cloud cloud cloud cloud cloud paper bread chair cloud cloud cloud cloud chair bread cloud chair chair paper cloud chair cloud cloud paper chair chair chair cloud cloud chair cloud chair cloud cloud paper cloud chair cloud cloud cloud"
+      ]
+    }
+  },
+  "ctx_sweep": {
+    "clean": [
+      {
+        "ctx": 10,
+        "walk_proj": -376.34670491443734,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 25,
+        "walk_proj": -154.02624530267036,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 50,
+        "walk_proj": -79.53539262504621,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 100,
+        "walk_proj": -42.07523131226861,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 220,
+        "walk_proj": -21.043549651353946,
+        "story_sad_frac": 0.0
+      }
+    ],
+    "sad": [
+      {
+        "ctx": 10,
+        "walk_proj": -376.34670491443734,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 25,
+        "walk_proj": -154.02624530267036,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 50,
+        "walk_proj": -79.53539262504621,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 100,
+        "walk_proj": -42.06325766625609,
+        "story_sad_frac": 0.0
+      },
+      {
+        "ctx": 220,
+        "walk_proj": -20.835607290723036,
+        "story_sad_frac": 0.0
+      }
+    ]
+  }
+}

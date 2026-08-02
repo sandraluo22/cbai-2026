@@ -1,0 +1,56 @@
+{
+  "model": "Llama",
+  "keep": "14:26,2:22",
+  "structs": {
+    "grid4x4": {
+      "base": 0.806,
+      "keep_both": 0.27,
+      "keep_2:22": 0.271,
+      "keep_14:26": 0.268,
+      "keep_none": 0.266,
+      "keep_rand2_mean": 0.268,
+      "keep_rand2_std": 0.001,
+      "recovered_frac": 0.007
+    },
+    "hex4x4": {
+      "base": 0.724,
+      "keep_both": 0.38,
+      "keep_2:22": 0.38,
+      "keep_14:26": 0.378,
+      "keep_none": 0.379,
+      "keep_rand2_mean": 0.375,
+      "keep_rand2_std": 0.007,
+      "recovered_frac": 0.003
+    },
+    "ring16": {
+      "base": 0.872,
+      "keep_both": 0.129,
+      "keep_2:22": 0.13,
+      "keep_14:26": 0.125,
+      "keep_none": 0.126,
+      "keep_rand2_mean": 0.126,
+      "keep_rand2_std": 0.001,
+      "recovered_frac": 0.004
+    },
+    "prism7": {
+      "base": 0.792,
+      "keep_both": 0.255,
+      "keep_2:22": 0.257,
+      "keep_14:26": 0.254,
+      "keep_none": 0.254,
+      "keep_rand2_mean": 0.254,
+      "keep_rand2_std": 0.002,
+      "recovered_frac": 0.002
+    },
+    "path1x16": {
+      "base": 0.881,
+      "keep_both": 0.154,
+      "keep_2:22": 0.155,
+      "keep_14:26": 0.15,
+      "keep_none": 0.15,
+      "keep_rand2_mean": 0.151,
+      "keep_rand2_std": 0.001,
+      "recovered_frac": 0.005
+    }
+  }
+}

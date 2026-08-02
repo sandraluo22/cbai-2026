@@ -1,0 +1,83 @@
+[
+ {
+  "type": "meta",
+  "quiz": "library",
+  "true": "library",
+  "clues": [
+   "quiet",
+   "a building",
+   "full of books",
+   "you can borrow things there",
+   "open to everyone"
+  ],
+  "rounds": 5,
+  "seed": 1
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "whisper",
+   "skyscraper",
+   "is",
+   "start",
+   "is"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "library",
+   "castle",
+   "library",
+   "library",
+   "guess"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "library",
+   "castle",
+   "bookstore",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "library",
+   "skyscraper",
+   "full",
+   "library",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   3
+  ]
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "library",
+   "library",
+   "bookstore",
+   "bank",
+   "library"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "clock4_prop", "true": "clock", "clues": ["it has the property: roundness", "it has the property: having hands", "it has the property: being wall-mounted", "it has the property: time-telling"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["circle", "clock", "television", "clock"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["sphere", "clock", "mirror", "circle"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["globe", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["moon", "clock", "mirror", "moon"], "all_true": false, "clue_violations": []}

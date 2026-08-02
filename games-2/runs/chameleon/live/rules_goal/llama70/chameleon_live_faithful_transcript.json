@@ -1,0 +1,3346 @@
+[
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "lunar"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "crater"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "glow"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "sun",
+    "hint": "bright"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "phase"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "orbit"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "space"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "night"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "sun",
+    "hint": "warm"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "eclipse"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "celestial"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "rock"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "beam"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "sun",
+    "hint": "shine"
+  },
+  {
+    "type": "hint",
+    "game": 0,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "moon",
+    "hint": "dark"
+  },
+  {
+    "type": "result",
+    "game": 0,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "moon",
+      "moon",
+      "moon",
+      "sun",
+      "moon"
+    ],
+    "true_impostor_seat": 3,
+    "civilian_word": "moon",
+    "word_candidates": [
+      "sun",
+      "dog",
+      "rain",
+      "sofa",
+      "hammer",
+      "moon"
+    ],
+    "votes": [
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 0,
+      "Carol": 1,
+      "Dave": 0,
+      "Erin": 4
+    },
+    "elected_seat": 4,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 8.955538760346826e-06,
+          "Bob": 0.2235235869884491,
+          "Carol": 0.10558506101369858,
+          "Dave": 0.25328540802001953,
+          "Erin": 0.4175970256328583
+        },
+        "word_dist": {
+          "sun": 0.16451623807770185,
+          "dog": 8.12219054635618e-07,
+          "rain": 3.0828358061665637e-07,
+          "sofa": 7.480278891791387e-09,
+          "hammer": 2.6368892017301596e-07,
+          "moon": 0.8354823702504639
+        },
+        "word_gen": "moon",
+        "self_p_yes": 0.005220125894993544
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.003925323486328125,
+          "Bob": 2.059820508293342e-05,
+          "Carol": 0.06957802176475525,
+          "Dave": 0.07884222269058228,
+          "Erin": 0.8476338386535645
+        },
+        "word_dist": {
+          "sun": 0.3208207934985437,
+          "dog": 7.96433574002157e-07,
+          "rain": 5.64755971258427e-07,
+          "sofa": 7.508841773381816e-09,
+          "hammer": 1.722408397950392e-07,
+          "moon": 0.6791776655622295
+        },
+        "word_gen": "moon",
+        "self_p_yes": 0.004070138093084097
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.006662190426141024,
+          "Bob": 0.15163074433803558,
+          "Carol": 3.7214693293208256e-05,
+          "Dave": 0.07162529975175858,
+          "Erin": 0.7700445652008057
+        },
+        "word_dist": {
+          "sun": 0.085098985270072,
+          "dog": 3.946800486119455e-07,
+          "rain": 1.751382099382513e-07,
+          "sofa": 4.384499297075321e-09,
+          "hammer": 1.281338516233247e-07,
+          "moon": 0.9149003123933186
+        },
+        "word_gen": "moon",
+        "self_p_yes": 0.005220125894993544
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.013805624097585678,
+          "Bob": 0.0701107457280159,
+          "Carol": 0.06187251955270767,
+          "Dave": 8.738566975807771e-05,
+          "Erin": 0.8541237115859985
+        },
+        "word_dist": {
+          "sun": 0.012431646919904171,
+          "dog": 1.7759504886580866e-07,
+          "rain": 1.0771684215937155e-07,
+          "sofa": 7.606217812873931e-10,
+          "hammer": 3.840762288105782e-08,
+          "moon": 0.9875680285999601
+        },
+        "word_gen": "moon",
+        "self_p_yes": 0.008577484637498856
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.012217634357511997,
+          "Bob": 0.3150969445705414,
+          "Carol": 0.3570516109466553,
+          "Dave": 0.3150969445705414,
+          "Erin": 0.0005368053680285811
+        },
+        "word_dist": {
+          "sun": 0.22269984743560436,
+          "dog": 7.324064127038047e-07,
+          "rain": 3.4596429241812724e-07,
+          "sofa": 8.072975419172021e-09,
+          "hammer": 2.453254186705152e-07,
+          "moon": 0.7772988207952964
+        },
+        "word_gen": "moon",
+        "self_p_yes": 0.005911068990826607
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "sun": 0.0015011817036465623,
+              "dog": 1.488610260918044e-07,
+              "rain": 8.75108827570971e-08,
+              "sofa": 1.2385615435455955e-09,
+              "hammer": 4.2649398049834814e-08,
+              "moon": 0.998498538036485
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.005220125894993544
+          },
+          {
+            "word_dist": {
+              "sun": 0.002182715887252218,
+              "dog": 1.58353595827458e-07,
+              "rain": 1.1585396561338194e-07,
+              "sofa": 1.3593654114569544e-09,
+              "hammer": 3.3192716890516145e-08,
+              "moon": 0.9978169753531041
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "sun": 0.0005193047186831863,
+              "dog": 1.1973094153333197e-07,
+              "rain": 7.262048696235842e-08,
+              "sofa": 9.807473188355444e-10,
+              "hammer": 4.4046551869651086e-08,
+              "moon": 0.9994804579025891
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.008577484637498856
+          },
+          {
+            "word_dist": {
+              "sun": 0.0013250220575879077,
+              "dog": 6.816554209743478e-08,
+              "rain": 5.308737756621027e-08,
+              "sofa": 6.376690823626665e-10,
+              "hammer": 1.670468450832796e-08,
+              "moon": 0.998674839347139
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.02595735713839531
+          },
+          {
+            "word_dist": {
+              "sun": 0.003172680945263508,
+              "dog": 2.0957632460765594e-07,
+              "rain": 1.2320356545233855e-07,
+              "sofa": 1.7301567962731071e-09,
+              "hammer": 6.39171067918162e-08,
+              "moon": 0.9968269206275828
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.005911068990826607
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "sun": 0.08509895683759319,
+              "dog": 6.926848258264459e-07,
+              "rain": 2.2488183784896797e-07,
+              "sofa": 5.456595714387527e-09,
+              "hammer": 9.979071064526136e-08,
+              "moon": 0.9149000203484368
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.004609572701156139
+          },
+          {
+            "word_dist": {
+              "sun": 0.14804703831904112,
+              "dog": 6.866262642743652e-07,
+              "rain": 3.2433928151780203e-07,
+              "sofa": 6.1771230287248485e-09,
+              "hammer": 8.729473338931184e-08,
+              "moon": 0.8519518572435567
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "sun": 0.04208770377395286,
+              "dog": 2.8401191347140583e-07,
+              "rain": 1.1839389278910328e-07,
+              "sofa": 3.306506323416516e-09,
+              "hammer": 5.4204673956014575e-08,
+              "moon": 0.9579118363090606
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.007577240467071533
+          },
+          {
+            "word_dist": {
+              "sun": 0.008577483509354228,
+              "dog": 1.3043846850714647e-07,
+              "rain": 6.767058600736713e-08,
+              "sofa": 7.343379828524252e-10,
+              "hammer": 1.6583390301964323e-08,
+              "moon": 0.9914223010638629
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.014063626527786255
+          },
+          {
+            "word_dist": {
+              "sun": 0.1329640741939034,
+              "dog": 7.43850275010448e-07,
+              "rain": 3.1008292802508844e-07,
+              "sofa": 6.744415115485056e-09,
+              "hammer": 1.1056347292302832e-07,
+              "moon": 0.8670347545650056
+            },
+            "word_gen": "moon",
+            "self_p_yes": 0.004070138093084097
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "fruit"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "crunchy"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "juicy"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "sweet"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "red"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "round"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "edible"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "autumn"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "seed"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "delicious"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "yellow"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "tart"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "pie"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "core"
+  },
+  {
+    "type": "hint",
+    "game": 1,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "ripe"
+  },
+  {
+    "type": "result",
+    "game": 1,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "pear",
+      "apple",
+      "apple",
+      "apple",
+      "apple"
+    ],
+    "true_impostor_seat": 0,
+    "civilian_word": "apple",
+    "word_candidates": [
+      "apple",
+      "sofa",
+      "pear",
+      "ocean",
+      "wolf",
+      "rain"
+    ],
+    "votes": [
+      4,
+      0,
+      4,
+      4,
+      0
+    ],
+    "tally": {
+      "Alice": 2,
+      "Bob": 0,
+      "Carol": 0,
+      "Dave": 0,
+      "Erin": 3
+    },
+    "elected_seat": 4,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 5.082945790491067e-05,
+          "Bob": 0.0631631389260292,
+          "Carol": 0.0631631389260292,
+          "Dave": 0.10413840413093567,
+          "Erin": 0.7694845199584961
+        },
+        "word_dist": {
+          "apple": 0.9770225229055032,
+          "sofa": 3.3653878523079706e-10,
+          "pear": 0.022977364664723977,
+          "ocean": 3.6828449229126745e-08,
+          "wolf": 4.173210027195419e-08,
+          "rain": 3.3532684617209316e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.01098694372922182
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.48053207993507385,
+          "Bob": 5.570942084887065e-05,
+          "Carol": 0.05064770579338074,
+          "Dave": 0.044696442782878876,
+          "Erin": 0.42406806349754333
+        },
+        "word_dist": {
+          "apple": 0.985936048572884,
+          "sofa": 7.245913387739076e-10,
+          "pear": 0.014063622635816002,
+          "ocean": 2.0728643726543778e-07,
+          "wolf": 5.756141965062987e-08,
+          "rain": 6.32188518563088e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.0015011822106316686
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.29451772570610046,
+          "Bob": 0.20241887867450714,
+          "Carol": 7.694526721024886e-05,
+          "Dave": 0.07446572929620743,
+          "Erin": 0.42852073907852173
+        },
+        "word_dist": {
+          "apple": 0.9940886210344554,
+          "sofa": 8.408959990490821e-10,
+          "pear": 0.005911066048483067,
+          "ocean": 1.9029714190849383e-07,
+          "wolf": 6.374161902843557e-08,
+          "rain": 5.8037404577448177e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.002182716503739357
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.262439101934433,
+          "Bob": 0.12396744638681412,
+          "Carol": 0.23160168528556824,
+          "Dave": 0.00014515095972456038,
+          "Erin": 0.3818466067314148
+        },
+        "word_dist": {
+          "apple": 0.9890127916731708,
+          "sofa": 5.616683464355808e-10,
+          "pear": 0.010986939523605762,
+          "ocean": 1.5695636098354462e-07,
+          "wolf": 6.341616294668228e-08,
+          "rain": 4.7869031200617255e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.001700722612440586
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.6078043580055237,
+          "Bob": 0.1741388589143753,
+          "Carol": 0.08225737512111664,
+          "Dave": 0.13561949133872986,
+          "Erin": 0.00017993728397414088
+        },
+        "word_dist": {
+          "apple": 0.9840932883667936,
+          "sofa": 6.874270026527416e-10,
+          "pear": 0.01590638465565853,
+          "ocean": 1.8258788450084507e-07,
+          "wolf": 8.624840958486252e-08,
+          "rain": 5.745382698223523e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.004609572701156139
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 0.9859361960912072,
+              "sofa": 6.444642345613907e-10,
+              "pear": 0.014063622015715758,
+              "ocean": 7.3910252103684e-08,
+              "wolf": 6.522556855212457e-08,
+              "rain": 4.2112792224212064e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.01098694372922182
+          },
+          {
+            "word_dist": {
+              "apple": 0.9978167183876419,
+              "sofa": 2.040649761997185e-09,
+              "pear": 0.0021827154715049948,
+              "ocean": 3.2492026487877723e-07,
+              "wolf": 1.2332593975399418e-07,
+              "rain": 1.1585399878987265e-07
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "apple": 0.999029970492669,
+              "sofa": 1.2885850731322945e-09,
+              "pear": 0.0009697516128103728,
+              "ocean": 1.4435777590549173e-07,
+              "wolf": 6.405837475613871e-08,
+              "rain": 6.818978497447362e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "apple": 0.9989008699005391,
+              "sofa": 1.47142153395903e-09,
+              "pear": 0.0010987305043046937,
+              "ocean": 2.1667888448868608e-07,
+              "wolf": 9.920282212346648e-08,
+              "rain": 8.224202814862862e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0019267346942797303
+          },
+          {
+            "word_dist": {
+              "apple": 0.9979488459449216,
+              "sofa": 1.8294677540916295e-09,
+              "pear": 0.002050742698468903,
+              "ocean": 2.1647229660156242e-07,
+              "wolf": 1.1586927072596836e-07,
+              "rain": 7.718557437627181e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0028009270317852497
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 0.9820137051963322,
+              "sofa": 2.6446680683243264e-10,
+              "pear": 0.01798620734825192,
+              "ocean": 3.370400656987285e-08,
+              "wolf": 2.88285645318401e-08,
+              "rain": 2.465837796594057e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.008577484637498856
+          },
+          {
+            "word_dist": {
+              "apple": 0.9953901847485085,
+              "sofa": 6.818689748695671e-10,
+              "pear": 0.004609570371031505,
+              "ocean": 1.4839767955806298e-07,
+              "wolf": 4.120850803549012e-08,
+              "rain": 5.45924033727804e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0015011822106316686
+          },
+          {
+            "word_dist": {
+              "apple": 0.99719882680303,
+              "sofa": 9.120691476596441e-10,
+              "pear": 0.002800925693972194,
+              "ocean": 1.353630634098661e-07,
+              "wolf": 5.300893728390421e-08,
+              "rain": 5.821892812149976e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0019267346942797303
+          },
+          {
+            "word_dist": {
+              "apple": 0.9964061763763762,
+              "sofa": 5.93022534264721e-10,
+              "pear": 0.003593601894728715,
+              "ocean": 1.2315141552777573e-07,
+              "wolf": 4.9757669821677226e-08,
+              "rain": 4.82267872615247e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "apple": 0.9953902039941165,
+              "sofa": 7.145932242207764e-10,
+              "pear": 0.004609570322780436,
+              "ocean": 1.1924088416422005e-07,
+              "wolf": 6.186135577778011e-08,
+              "rain": 4.38662698385298e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.002182716503739357
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "blue"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "deep"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "wave"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "water"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "tide"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "salty"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "vast"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "surf"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "current"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "sandy"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "coral"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "marine"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "buoy"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "ocean"
+  },
+  {
+    "type": "hint",
+    "game": 2,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "seaweed"
+  },
+  {
+    "type": "result",
+    "game": 2,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "ocean",
+      "ocean",
+      "ocean",
+      "river",
+      "ocean"
+    ],
+    "true_impostor_seat": 3,
+    "civilian_word": "ocean",
+    "word_candidates": [
+      "dog",
+      "apple",
+      "ocean",
+      "moon",
+      "sofa",
+      "river"
+    ],
+    "votes": [
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 0,
+      "Carol": 1,
+      "Dave": 0,
+      "Erin": 4
+    },
+    "elected_seat": 4,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 6.259843212319538e-05,
+          "Bob": 0.06058122217655182,
+          "Carol": 0.08814515918493271,
+          "Dave": 0.11318062245845795,
+          "Erin": 0.7380303740501404
+        },
+        "word_dist": {
+          "dog": 6.892432874516403e-07,
+          "apple": 1.4002826725726437e-07,
+          "ocean": 0.9998285012062064,
+          "moon": 1.994391580759828e-06,
+          "sofa": 2.2859008053487195e-08,
+          "river": 0.00016865227165004053
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.007577240467071533
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.08860751241445541,
+          "Bob": 8.601071749581024e-05,
+          "Carol": 0.02876664698123932,
+          "Dave": 0.04185522347688675,
+          "Erin": 0.8406846523284912
+        },
+        "word_dist": {
+          "dog": 6.68044271778198e-07,
+          "apple": 2.457597534210489e-07,
+          "ocean": 0.9998386275825409,
+          "moon": 1.994411795043236e-06,
+          "sofa": 2.8448756375781807e-08,
+          "river": 0.0001584357528823165
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.004070138093084097
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.09266907721757889,
+          "Bob": 0.03863021731376648,
+          "Carol": 0.00012295151827856898,
+          "Dave": 0.09266907721757889,
+          "Erin": 0.7759087085723877
+        },
+        "word_dist": {
+          "dog": 8.313758046109372e-07,
+          "apple": 2.308647230840469e-07,
+          "ocean": 0.999816474472851,
+          "moon": 2.9017866840154138e-06,
+          "sofa": 3.43150103721767e-08,
+          "river": 0.00017952718492686407
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.004070138093084097
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.08996668457984924,
+          "Bob": 0.05456755310297012,
+          "Carol": 0.1904594749212265,
+          "Dave": 0.00023738769232295454,
+          "Erin": 0.6647688746452332
+        },
+        "word_dist": {
+          "dog": 1.5278772298873547e-07,
+          "apple": 2.1546522476322446e-07,
+          "ocean": 0.9933062650043223,
+          "moon": 5.168742043171914e-07,
+          "sofa": 5.394071503842384e-09,
+          "river": 0.006692844474454092
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.005220125894993544
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.20950894057750702,
+          "Bob": 0.12707358598709106,
+          "Carol": 0.39141422510147095,
+          "Dave": 0.26901480555534363,
+          "Erin": 0.0029884842224419117
+        },
+        "word_dist": {
+          "dog": 9.129636997783797e-07,
+          "apple": 3.3586057574100063e-07,
+          "ocean": 0.9996803919210498,
+          "moon": 3.2877085781854463e-06,
+          "sofa": 3.431035057738212e-08,
+          "river": 0.00031503723574589915
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.005911068990826607
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "dog": 3.465469749859219e-07,
+              "apple": 1.8549322889947737e-07,
+              "ocean": 0.999752436466181,
+              "moon": 1.6532831522395915e-06,
+              "sofa": 9.235155266338252e-09,
+              "river": 0.0002453689753077625
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "dog": 3.25572192045312e-07,
+              "apple": 2.1687783556859236e-07,
+              "ocean": 0.9998182681507328,
+              "moon": 1.6533920176056394e-06,
+              "sofa": 8.409266275045961e-09,
+              "river": 0.0001795275979556594
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "dog": 3.8060712303607213e-07,
+              "apple": 2.3817785155643515e-07,
+              "ocean": 0.9997521294715526,
+              "moon": 1.8734139173980537e-06,
+              "sofa": 9.528312890727153e-09,
+              "river": 0.0002453688012425708
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "dog": 7.175482955567006e-08,
+              "apple": 1.0771675716437469e-07,
+              "ocean": 0.9875679336395621,
+              "moon": 2.4274369090072235e-07,
+              "sofa": 1.1066972882239856e-09,
+              "river": 0.01243164303846308
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.008577484637498856
+          },
+          {
+            "word_dist": {
+              "dog": 4.3120472143847674e-07,
+              "apple": 3.4648272756991877e-07,
+              "ocean": 0.9995668956372634,
+              "moon": 1.7595844792622914e-06,
+              "sofa": 1.0964995480422204e-08,
+              "river": 0.0004305561258129201
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0024726232513785362
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "dog": 3.68902863978625e-07,
+              "apple": 1.4905023075418526e-07,
+              "ocean": 0.9997680175363717,
+              "moon": 9.420264643558981e-07,
+              "sofa": 1.6208476114267423e-08,
+              "river": 0.00023050627559318142
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "dog": 3.3589926353159175e-07,
+              "apple": 1.9746499027206915e-07,
+              "ocean": 0.9997950832963088,
+              "moon": 9.420527811192958e-07,
+              "sofa": 1.452957612309184e-08,
+              "river": 0.00020342675708011034
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0015011822106316686
+          },
+          {
+            "word_dist": {
+              "dog": 3.68913047436014e-07,
+              "apple": 1.9138956775156353e-07,
+              "ocean": 0.999794930531676,
+              "moon": 1.0674852976213578e-06,
+              "sofa": 1.4990789407582425e-08,
+              "river": 0.00020342668962179713
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "dog": 6.19737693109369e-08,
+              "apple": 6.597073402904973e-08,
+              "ocean": 0.9971988041962676,
+              "moon": 1.3966004501775995e-07,
+              "sofa": 1.900916656237313e-09,
+              "river": 0.002800926298267253
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.005220125894993544
+          },
+          {
+            "word_dist": {
+              "dog": 3.8056510415478214e-07,
+              "apple": 2.4571129872556603e-07,
+              "ocean": 0.9996412507597274,
+              "moon": 1.1361575341224646e-06,
+              "sofa": 1.6720847783207204e-08,
+              "river": 0.00035697008548787754
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0024726232513785362
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "fruit"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "juicy"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "crunchy"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "sweet"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "yellow"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "autumn"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "edible"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "tart"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "seed"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "fuzzy"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "harvest"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "ripe"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "crisp"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "core"
+  },
+  {
+    "type": "hint",
+    "game": 3,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "green"
+  },
+  {
+    "type": "result",
+    "game": 3,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "apple",
+      "apple",
+      "apple",
+      "apple",
+      "pear"
+    ],
+    "true_impostor_seat": 4,
+    "civilian_word": "apple",
+    "word_candidates": [
+      "pear",
+      "apple",
+      "river",
+      "hammer",
+      "ocean",
+      "rain"
+    ],
+    "votes": [
+      4,
+      4,
+      4,
+      4,
+      3
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 0,
+      "Carol": 0,
+      "Dave": 1,
+      "Erin": 4
+    },
+    "elected_seat": 4,
+    "impostor_caught": true,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 1.9508997866068967e-06,
+          "Bob": 0.005132205318659544,
+          "Carol": 0.004529155325144529,
+          "Dave": 0.012311520054936409,
+          "Erin": 0.9780251979827881
+        },
+        "word_dist": {
+          "pear": 0.022977359247719705,
+          "apple": 0.9770220596283542,
+          "river": 2.119329414028544e-07,
+          "hammer": 1.0994936158891199e-07,
+          "ocean": 1.812758511362325e-07,
+          "rain": 7.796577206226844e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.0028009270317852497
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.0024483746383339167,
+          "Bob": 7.792638825776521e-06,
+          "Carol": 0.0031437750440090895,
+          "Dave": 0.006655371747910976,
+          "Erin": 0.9877447485923767
+        },
+        "word_dist": {
+          "pear": 0.017986200278656963,
+          "apple": 0.9820134216414801,
+          "river": 1.375333353058668e-07,
+          "hammer": 8.606616202881094e-08,
+          "ocean": 1.0062153761624119e-07,
+          "rain": 5.3858827969931155e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.0010322310263291001
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.0031121044885367155,
+          "Bob": 0.005130992736667395,
+          "Carol": 1.534139119030442e-05,
+          "Dave": 0.013947483152151108,
+          "Erin": 0.9777941107749939
+        },
+        "word_dist": {
+          "pear": 0.02297736016169228,
+          "apple": 0.9770222004028041,
+          "river": 1.6505358664732452e-07,
+          "hammer": 1.2075566844961955e-07,
+          "ocean": 1.0328779675699183e-07,
+          "rain": 5.033845184497496e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.001700722612440586
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.0014896773500368,
+          "Bob": 0.002456062939018011,
+          "Carol": 0.005199484992772341,
+          "Dave": 8.321268978761509e-06,
+          "Erin": 0.9908464550971985
+        },
+        "word_dist": {
+          "pear": 0.02033234860477142,
+          "apple": 0.9796672279557174,
+          "river": 1.506897712152016e-07,
+          "hammer": 1.035674641862312e-07,
+          "ocean": 1.1374660693329983e-07,
+          "rain": 5.543566883426247e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.001325022429227829
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.05608707293868065,
+          "Bob": 0.11873633414506912,
+          "Carol": 0.22182871401309967,
+          "Dave": 0.6029928922653198,
+          "Erin": 0.00035501521779224277
+        },
+        "word_dist": {
+          "pear": 0.008577485010502657,
+          "apple": 0.9914223785462863,
+          "river": 4.234715786582485e-08,
+          "hammer": 3.297999970814516e-08,
+          "ocean": 3.62214436062388e-08,
+          "rain": 2.489460985447625e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.01590639166533947
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "pear": 0.005911061236131633,
+              "apple": 0.9940877672820645,
+              "river": 2.8566961224571183e-07,
+              "hammer": 4.56498740521673e-07,
+              "ocean": 2.8566961224571183e-07,
+              "rain": 1.4364383890990975e-07
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.004070138093084097
+          },
+          {
+            "word_dist": {
+              "pear": 0.005911062866489575,
+              "apple": 0.9940878637093665,
+              "river": 2.5210261750830876e-07,
+              "hammer": 4.4245387284780895e-07,
+              "ocean": 2.5210261750830876e-07,
+              "rain": 1.2676503609440818e-07
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0019267346942797303
+          },
+          {
+            "word_dist": {
+              "pear": 0.00522011885538,
+              "apple": 0.9947783331246806,
+              "river": 3.9073544918333777e-07,
+              "hammer": 6.05182902400859e-07,
+              "ocean": 3.787137832385322e-07,
+              "rain": 1.733878045522191e-07
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "pear": 0.004609567299335957,
+              "apple": 0.9953892544626267,
+              "river": 2.772430479499611e-07,
+              "hammer": 4.5709651027024076e-07,
+              "ocean": 3.0449191981227164e-07,
+              "rain": 1.3940655929833735e-07
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0028009270317852497
+          },
+          {
+            "word_dist": {
+              "pear": 0.022977353619107018,
+              "apple": 0.9770221697039747,
+              "river": 9.404464964048618e-08,
+              "hammer": 1.9296709179820967e-07,
+              "ocean": 1.326242133607816e-07,
+              "rain": 5.7040963393703904e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.020332353189587593
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "pear": 0.04208770245616327,
+              "apple": 0.9579117492203132,
+              "river": 1.7226201000589444e-07,
+              "hammer": 1.7226201000589444e-07,
+              "ocean": 1.384162816297846e-07,
+              "rain": 6.53832218049719e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "pear": 0.03732687323060426,
+              "apple": 0.962672690755141,
+              "river": 1.3482458539791794e-07,
+              "hammer": 1.4807583868835245e-07,
+              "ocean": 9.863977384857346e-08,
+              "rain": 5.447405679686295e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0015011822106316686
+          },
+          {
+            "word_dist": {
+              "pear": 0.029312214933621895,
+              "apple": 0.9706872737922226,
+              "river": 1.4930846550823858e-07,
+              "hammer": 1.9780176808349028e-07,
+              "ocean": 1.0923640690563268e-07,
+              "rain": 5.492751486261218e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "pear": 0.029312214386744043,
+              "apple": 0.9706872846108499,
+              "river": 1.402624540363177e-07,
+              "hammer": 1.7455944440636667e-07,
+              "ocean": 1.2771041771467995e-07,
+              "rain": 5.847008988328314e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "pear": 0.022977369330051588,
+              "apple": 0.9770224883399635,
+              "river": 4.44235773349858e-08,
+              "hammer": 3.799749929676264e-08,
+              "ocean": 3.459711681678069e-08,
+              "rain": 2.5311791380985217e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.01590639166533947
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "fruit"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "juicy"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "sweet"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "crunchy"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "red"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "autumn"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "summer"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "tart"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "seed"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "pie"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "core"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "pear",
+    "hint": "fuzzy"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "cinnamon"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "skin"
+  },
+  {
+    "type": "hint",
+    "game": 4,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "apple",
+    "hint": "crisp"
+  },
+  {
+    "type": "result",
+    "game": 4,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "apple",
+      "pear",
+      "apple",
+      "apple",
+      "apple"
+    ],
+    "true_impostor_seat": 1,
+    "civilian_word": "apple",
+    "word_candidates": [
+      "apple",
+      "pear",
+      "rain",
+      "snow",
+      "moon",
+      "violin"
+    ],
+    "votes": [
+      1,
+      4,
+      4,
+      4,
+      3
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 1,
+      "Carol": 0,
+      "Dave": 1,
+      "Erin": 3
+    },
+    "elected_seat": 4,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 3.209325222996995e-05,
+          "Bob": 0.42875707149505615,
+          "Carol": 0.08442726731300354,
+          "Dave": 0.10840675979852676,
+          "Erin": 0.3783767819404602
+        },
+        "word_dist": {
+          "apple": 0.9324519545234118,
+          "pear": 0.06754659104868643,
+          "rain": 8.43165692085382e-08,
+          "snow": 5.165016049461752e-07,
+          "moon": 8.253672145308519e-07,
+          "violin": 2.8242513013483683e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.0028009270317852497
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.04678293690085411,
+          "Bob": 5.4777181503595784e-05,
+          "Carol": 0.04678293690085411,
+          "Dave": 0.07713201642036438,
+          "Erin": 0.8292473554611206
+        },
+        "word_dist": {
+          "apple": 0.9924225175078899,
+          "pear": 0.007577241013064451,
+          "rain": 3.1013100469611993e-08,
+          "snow": 7.919472640850959e-08,
+          "moon": 1.2265919174447805e-07,
+          "violin": 8.612026970456902e-09
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.006692850962281227
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.03071228414773941,
+          "Bob": 0.33018815517425537,
+          "Carol": 0.00011076578812208027,
+          "Dave": 0.09460048377513885,
+          "Erin": 0.5443882346153259
+        },
+        "word_dist": {
+          "apple": 0.9796664624559489,
+          "pear": 0.020332330899475375,
+          "rain": 8.586045062528108e-08,
+          "snow": 5.776524308892296e-07,
+          "moon": 5.259585236093345e-07,
+          "violin": 1.7173170501695966e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.001700722612440586
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.013446380384266376,
+          "Bob": 0.14456221461296082,
+          "Carol": 0.27007776498794556,
+          "Dave": 0.0001590097090229392,
+          "Erin": 0.5717546343803406
+        },
+        "word_dist": {
+          "apple": 0.9626720583675922,
+          "pear": 0.037326843148143066,
+          "rain": 6.36866036790459e-08,
+          "snow": 4.2847109655685415e-07,
+          "moon": 5.856505514393428e-07,
+          "violin": 2.0676013026003687e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.001700722612440586
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.04578755423426628,
+          "Bob": 0.3383268415927887,
+          "Carol": 0.18109329044818878,
+          "Dave": 0.43442025780677795,
+          "Erin": 0.00037213906762190163
+        },
+        "word_dist": {
+          "apple": 0.9669128138627002,
+          "pear": 0.0330859360946393,
+          "rain": 5.8242677946475575e-08,
+          "snow": 4.876604367738627e-07,
+          "moon": 6.877114441018229e-07,
+          "violin": 1.6428101659646375e-08
+        },
+        "word_gen": "apple",
+        "self_p_yes": 0.0019267346942797303
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 0.9981889898243211,
+              "pear": 0.001810209309137482,
+              "rain": 1.1233140950133681e-07,
+              "snow": 5.359031825438124e-07,
+              "moon": 1.442363848859859e-07,
+              "violin": 8.395564375743343e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "apple": 0.9875680893006114,
+              "pear": 0.012431646850405704,
+              "rain": 5.416348107483031e-08,
+              "snow": 1.3831129426278025e-07,
+              "moon": 6.332352483166609e-08,
+              "violin": 8.050682744117885e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.005220125894993544
+          },
+          {
+            "word_dist": {
+              "apple": 0.9989005669983987,
+              "pear": 0.0010987300728965428,
+              "rain": 9.61506802517945e-08,
+              "snow": 4.44595816977646e-07,
+              "moon": 1.5364834953986312e-07,
+              "violin": 8.533858017222097e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0019267346942797303
+          },
+          {
+            "word_dist": {
+              "apple": 0.9979484469247956,
+              "pear": 0.002050741389564503,
+              "rain": 1.1954739390969854e-07,
+              "snow": 5.033128478030707e-07,
+              "moon": 1.7946172262468015e-07,
+              "violin": 9.363675499031751e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "apple": 0.9973673579772182,
+              "pear": 0.0026316713447848347,
+              "rain": 1.0219468763627025e-07,
+              "snow": 6.067577976585607e-07,
+              "moon": 2.5293428102500594e-07,
+              "violin": 8.791230554806279e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0024726232513785362
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 0.9875667843185607,
+              "pear": 0.012431630423106993,
+              "rain": 2.2803625400743032e-07,
+              "snow": 7.024011116243948e-07,
+              "moon": 6.395434899889906e-07,
+              "violin": 1.5277476591648372e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.004070138093084097
+          },
+          {
+            "word_dist": {
+              "apple": 0.977022316719047,
+              "pear": 0.022977363924356353,
+              "rain": 5.704098897634322e-08,
+              "snow": 1.0994938396716739e-07,
+              "moon": 1.4565926810441308e-07,
+              "violin": 6.706955448864018e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.009708477184176445
+          },
+          {
+            "word_dist": {
+              "apple": 0.9947787974415088,
+              "pear": 0.005220119969532079,
+              "rain": 1.229503317888794e-07,
+              "snow": 5.34072405531952e-07,
+              "moon": 4.159360076626732e-07,
+              "violin": 9.6302141913606e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "apple": 0.9914214081200474,
+              "pear": 0.00857747533652634,
+              "rain": 1.4780593749360642e-07,
+              "snow": 4.4126702011831004e-07,
+              "moon": 5.158934128929535e-07,
+              "violin": 1.1577055678568165e-08
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.0019267346942797303
+          },
+          {
+            "word_dist": {
+              "apple": 0.9902903085692062,
+              "pear": 0.009708464867447539,
+              "rain": 1.3028954049213618e-07,
+              "snow": 4.840839076016096e-07,
+              "moon": 6.024521568339325e-07,
+              "violin": 9.737741470026964e-09
+            },
+            "word_gen": "apple",
+            "self_p_yes": 0.002182716503739357
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "cold"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "wet"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "white"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "fluffy"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "frosty"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "icy"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "stormy"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "powdery"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "soft"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "wintry"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "frozen"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "cloudy"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "gentle"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "silky"
+  },
+  {
+    "type": "hint",
+    "game": 5,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "slushy"
+  },
+  {
+    "type": "result",
+    "game": 5,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "snow",
+      "rain",
+      "snow",
+      "snow",
+      "snow"
+    ],
+    "true_impostor_seat": 1,
+    "civilian_word": "snow",
+    "word_candidates": [
+      "rain",
+      "ocean",
+      "snow",
+      "guitar",
+      "sea",
+      "hammer"
+    ],
+    "votes": [
+      3,
+      4,
+      1,
+      4,
+      3
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 1,
+      "Carol": 0,
+      "Dave": 2,
+      "Erin": 2
+    },
+    "elected_seat": 3,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 2.2611904569203034e-05,
+          "Bob": 0.3423115313053131,
+          "Carol": 0.08654991537332535,
+          "Dave": 0.3878898024559021,
+          "Erin": 0.18322616815567017
+        },
+        "word_dist": {
+          "rain": 0.0018102102924437164,
+          "ocean": 3.5698833449719745e-07,
+          "snow": 0.9981893089281552,
+          "guitar": 3.965785957202378e-09,
+          "sea": 1.0887539450595647e-07,
+          "hammer": 1.0949886150896394e-08
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.004609572701156139
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.03671487048268318,
+          "Bob": 0.00012439191050361842,
+          "Carol": 0.3074098527431488,
+          "Dave": 0.3074098527431488,
+          "Erin": 0.3483409881591797
+        },
+        "word_dist": {
+          "rain": 0.00024536944343052825,
+          "ocean": 2.0171510575854422e-08,
+          "snow": 0.9997545970833444,
+          "guitar": 1.7625669517343063e-09,
+          "sea": 9.830809114381808e-09,
+          "hammer": 1.7083384676195675e-09
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.007577240467071533
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.014559407718479633,
+          "Bob": 0.5463377237319946,
+          "Carol": 0.0001519410579930991,
+          "Dave": 0.1075802743434906,
+          "Erin": 0.33137059211730957
+        },
+        "word_dist": {
+          "rain": 0.0010322305891401029,
+          "ocean": 2.0356454263688292e-07,
+          "snow": 0.9989674685849123,
+          "guitar": 2.522769143044232e-09,
+          "sea": 8.755193532887194e-08,
+          "hammer": 7.186700494024235e-09
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.004609572701156139
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.01360217947512865,
+          "Bob": 0.4504423141479492,
+          "Carol": 0.025412216782569885,
+          "Dave": 0.00012527174840215594,
+          "Erin": 0.5104180574417114
+        },
+        "word_dist": {
+          "rain": 0.0013250219480815987,
+          "ocean": 2.960975931106079e-07,
+          "snow": 0.998674548471994,
+          "guitar": 3.556632275782504e-09,
+          "sea": 1.1963424220380177e-07,
+          "hammer": 1.029145672626806e-08
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.005911068990826607
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.03504413366317749,
+          "Bob": 0.37675997614860535,
+          "Carol": 0.039710208773612976,
+          "Dave": 0.5481825470924377,
+          "Erin": 0.00030319119105115533
+        },
+        "word_dist": {
+          "rain": 0.004070135470891855,
+          "ocean": 5.022946218324267e-07,
+          "snow": 0.9959291933006293,
+          "guitar": 7.27767792026462e-09,
+          "sea": 1.4847800663731422e-07,
+          "hammer": 1.31781722605062e-08
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.006692850962281227
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "rain": 0.00013982207076851751,
+              "ocean": 2.3820364790779718e-07,
+              "snow": 0.9998598435561923,
+              "guitar": 6.5494103206376415e-09,
+              "sea": 7.978815164365183e-08,
+              "hammer": 9.831829375758402e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "rain": 0.00048785703659893294,
+              "ocean": 1.836191420924385e-08,
+              "snow": 0.9995121139583578,
+              "guitar": 1.707924071787845e-09,
+              "sea": 6.969396528059881e-09,
+              "hammer": 1.9658085566493524e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.005911068990826607
+          },
+          {
+            "word_dist": {
+              "rain": 7.031184654601888e-05,
+              "ocean": 1.1252726849064249e-07,
+              "snow": 0.9999295032751286,
+              "guitar": 5.430034998760414e-09,
+              "sea": 5.837837784911525e-08,
+              "hammer": 8.54264414979709e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0028009270317852497
+          },
+          {
+            "word_dist": {
+              "rain": 0.00013982208270404959,
+              "ocean": 2.308749118349663e-07,
+              "snow": 0.999859839512078,
+              "guitar": 6.652549093640895e-09,
+              "sea": 9.041182832391693e-08,
+              "hammer": 1.046592878480576e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.004609572701156139
+          },
+          {
+            "word_dist": {
+              "rain": 0.00016865266790716893,
+              "ocean": 2.3819666611570055e-07,
+              "snow": 0.9998310142394101,
+              "guitar": 7.421243726452933e-09,
+              "sea": 7.733113538568676e-08,
+              "hammer": 1.014363749547857e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0035936026833951473
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "rain": 0.0002305066307888301,
+              "ocean": 2.101948398055417e-07,
+              "snow": 0.9997692005705087,
+              "guitar": 4.228240138163379e-09,
+              "sea": 6.614080396852277e-08,
+              "hammer": 1.2234818512578532e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "rain": 0.00023050681275140936,
+              "ocean": 1.522646063083787e-08,
+              "snow": 0.9997694683705667,
+              "guitar": 1.507623764965631e-09,
+              "sea": 6.347333132064278e-09,
+              "hammer": 1.735264316682981e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.006692850962281227
+          },
+          {
+            "word_dist": {
+              "rain": 0.00021654400664692638,
+              "ocean": 1.5866563619081336e-07,
+              "snow": 0.9997832250529342,
+              "guitar": 2.816652355012116e-09,
+              "sea": 6.022268274371837e-08,
+              "hammer": 9.235447518399867e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "rain": 0.00017952798879895379,
+              "ocean": 1.8550584711249145e-07,
+              "snow": 0.9998202064445963,
+              "guitar": 3.4511601482523816e-09,
+              "sea": 6.614408369690136e-08,
+              "hammer": 1.0465513773849386e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.004070138093084097
+          },
+          {
+            "word_dist": {
+              "rain": 0.00024536951198556717,
+              "ocean": 1.9745694621053756e-07,
+              "snow": 0.9997543549972928,
+              "guitar": 4.0980881798441766e-09,
+              "sea": 6.410488479647477e-08,
+              "hammer": 9.830802485674149e-09
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.004070138093084097
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "blue"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "wave"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "water"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "deep"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "tide"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "salty"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "surf"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "flow"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "coral"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "shore"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "marine"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "current"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "river",
+    "hint": "stream"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "reef"
+  },
+  {
+    "type": "hint",
+    "game": 6,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "ocean",
+    "hint": "buoy"
+  },
+  {
+    "type": "result",
+    "game": 6,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "ocean",
+      "ocean",
+      "river",
+      "ocean",
+      "ocean"
+    ],
+    "true_impostor_seat": 2,
+    "civilian_word": "ocean",
+    "word_candidates": [
+      "river",
+      "snow",
+      "moon",
+      "rain",
+      "sofa",
+      "ocean"
+    ],
+    "votes": [
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 0,
+      "Carol": 1,
+      "Dave": 0,
+      "Erin": 4
+    },
+    "elected_seat": 4,
+    "impostor_caught": false,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 1.154583333118353e-05,
+          "Bob": 0.02365487813949585,
+          "Carol": 0.12012939155101776,
+          "Dave": 0.0728621557354927,
+          "Erin": 0.7833420038223267
+        },
+        "word_dist": {
+          "river": 0.10669029746971842,
+          "snow": 3.2962010075463187e-07,
+          "moon": 8.96000330024845e-07,
+          "rain": 1.572529551698692e-06,
+          "sofa": 7.631732077929053e-09,
+          "ocean": 0.8933068967485671
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.004070138093084097
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.032294586300849915,
+          "Bob": 4.284783062757924e-05,
+          "Carol": 0.0469883494079113,
+          "Dave": 0.08778578788042068,
+          "Erin": 0.8328884243965149
+        },
+        "word_dist": {
+          "river": 0.015906351387747028,
+          "snow": 3.1059180453293445e-07,
+          "moon": 7.221475813473513e-07,
+          "rain": 1.3919758953592274e-06,
+          "sofa": 8.407326864019778e-09,
+          "ocean": 0.9840912154896448
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.001700722612440586
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.0680914968252182,
+          "Bob": 0.03644675388932228,
+          "Carol": 6.609596312046051e-05,
+          "Dave": 0.16334302723407745,
+          "Erin": 0.7320526242256165
+        },
+        "word_dist": {
+          "river": 0.005220124401949517,
+          "snow": 6.789967963931869e-08,
+          "moon": 2.297016553453875e-07,
+          "rain": 8.190264750434672e-08,
+          "sofa": 2.2170030735895204e-09,
+          "ocean": 0.9947794938770649
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.008577484637498856
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.014367902651429176,
+          "Bob": 0.0236886665225029,
+          "Carol": 0.07296622544527054,
+          "Dave": 6.653659511357546e-05,
+          "Erin": 0.8889106512069702
+        },
+        "word_dist": {
+          "river": 0.07585794815652759,
+          "snow": 3.629890147192446e-07,
+          "moon": 9.269249212329621e-07,
+          "rain": 1.8434103221315853e-06,
+          "sofa": 6.245576952916213e-09,
+          "ocean": 0.9241389122736373
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.0019267346942797303
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.07521768659353256,
+          "Bob": 0.05857959762215614,
+          "Carol": 0.4328479468822479,
+          "Dave": 0.4328479468822479,
+          "Erin": 0.0005068128230050206
+        },
+        "word_dist": {
+          "river": 0.053403155975765025,
+          "snow": 3.836117148172049e-07,
+          "moon": 1.1816072671978085e-06,
+          "rain": 1.5653752983125745e-06,
+          "sofa": 1.1951776502224206e-08,
+          "ocean": 0.9465937014781781
+        },
+        "word_gen": "ocean",
+        "self_p_yes": 0.0035936026833951473
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "river": 0.00014883815311871702,
+              "snow": 1.9747554916904561e-07,
+              "moon": 1.45915791048439e-06,
+              "rain": 5.202787755964768e-07,
+              "sofa": 8.279145607202542e-09,
+              "ocean": 0.9998489766555004
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.004070138093084097
+          },
+          {
+            "word_dist": {
+              "river": 0.0002305061491501265,
+              "snow": 3.358896957499256e-07,
+              "moon": 1.6533070261768857e-06,
+              "rain": 8.313349809394856e-07,
+              "sofa": 8.675750773206233e-09,
+              "ocean": 0.9997666646433963
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0015011822106316686
+          },
+          {
+            "word_dist": {
+              "river": 0.014063615645540187,
+              "snow": 6.729608405017307e-08,
+              "moon": 3.417577142742848e-07,
+              "rain": 2.833270965051308e-07,
+              "sofa": 1.2325707749214673e-09,
+              "ocean": 0.9859356907409942
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.008577484637498856
+          },
+          {
+            "word_dist": {
+              "river": 0.0001313514734480358,
+              "snow": 1.974789534538981e-07,
+              "moon": 1.287724535137217e-06,
+              "rain": 5.71424298670954e-07,
+              "sofa": 6.347950560627164e-09,
+              "ocean": 0.9998665855508142
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "river": 0.00031503789867249064,
+              "snow": 3.926616206978556e-07,
+              "moon": 1.6531671711890088e-06,
+              "rain": 8.576518301912787e-07,
+              "sofa": 9.98488322634789e-09,
+              "ocean": 0.9996820486358222
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0028009270317852497
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "river": 0.0009110495837359204,
+              "snow": 3.253340836073632e-07,
+              "moon": 8.052095899841316e-07,
+              "rain": 6.887322603142257e-07,
+              "sofa": 9.374344513360281e-09,
+              "ocean": 0.9990871217659856
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0031726830638945103
+          },
+          {
+            "word_dist": {
+              "river": 0.0005884077821436769,
+              "snow": 4.050155635118689e-07,
+              "moon": 6.889546816123004e-07,
+              "rain": 8.846353220988565e-07,
+              "sofa": 7.418118810611465e-09,
+              "ocean": 0.9994096061941702
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0015011822106316686
+          },
+          {
+            "word_dist": {
+              "river": 0.0031726821755741,
+              "snow": 4.676277242219638e-08,
+              "moon": 1.3531256859481566e-07,
+              "rain": 1.0213928542707208e-07,
+              "sofa": 1.2268653566514645e-09,
+              "ocean": 0.9968270323829341
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.007577240467071533
+          },
+          {
+            "word_dist": {
+              "river": 0.0008040842895261893,
+              "snow": 3.803946938400159e-07,
+              "moon": 8.052955730766923e-07,
+              "rain": 8.844441614518036e-07,
+              "sofa": 8.019157998555319e-09,
+              "ocean": 0.9991938375568875
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "river": 0.001098728742814533,
+              "snow": 4.1765861254274927e-07,
+              "moon": 7.802890143873859e-07,
+              "rain": 8.841832895794405e-07,
+              "sofa": 9.977078746765274e-09,
+              "ocean": 0.9988991791491902
+            },
+            "word_gen": "ocean",
+            "self_p_yes": 0.0028009270317852497
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 1,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "white"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 1,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "cold"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 1,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "winter"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 1,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "frosty"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 1,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "stormy"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 2,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "flaky"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 2,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "icy"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 2,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "powdery"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 2,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "frozen"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 2,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "cloudy"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 3,
+    "seat": 0,
+    "player": "Alice",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "gentle"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 3,
+    "seat": 1,
+    "player": "Bob",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "slushy"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 3,
+    "seat": 2,
+    "player": "Carol",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "soft"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 3,
+    "seat": 3,
+    "player": "Dave",
+    "model": "LlamaInst70",
+    "word": "snow",
+    "hint": "chilly"
+  },
+  {
+    "type": "hint",
+    "game": 7,
+    "round": 3,
+    "seat": 4,
+    "player": "Erin",
+    "model": "LlamaInst70",
+    "word": "rain",
+    "hint": "misty"
+  },
+  {
+    "type": "result",
+    "game": 7,
+    "cond": "faithful",
+    "tier": "mid",
+    "words": [
+      "snow",
+      "snow",
+      "snow",
+      "snow",
+      "rain"
+    ],
+    "true_impostor_seat": 4,
+    "civilian_word": "snow",
+    "word_candidates": [
+      "apple",
+      "sun",
+      "hammer",
+      "snow",
+      "rain",
+      "river"
+    ],
+    "votes": [
+      4,
+      4,
+      4,
+      4,
+      3
+    ],
+    "tally": {
+      "Alice": 0,
+      "Bob": 0,
+      "Carol": 0,
+      "Dave": 1,
+      "Erin": 4
+    },
+    "elected_seat": 4,
+    "impostor_caught": true,
+    "finals": [
+      {
+        "vote_dist": {
+          "Alice": 1.1113341997770476e-06,
+          "Bob": 0.0074656009674072266,
+          "Carol": 0.0024237260222434998,
+          "Dave": 0.012308696284890175,
+          "Erin": 0.9778008460998535
+        },
+        "word_dist": {
+          "apple": 5.8373639455561104e-08,
+          "sun": 1.8735951573443795e-06,
+          "hammer": 8.54195076961994e-09,
+          "snow": 0.9998489976216459,
+          "rain": 0.00014883809857536663,
+          "river": 2.2376903105209166e-07
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.004070138093084097
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.003567158943042159,
+          "Bob": 4.73283671453828e-06,
+          "Carol": 0.002163591329008341,
+          "Dave": 0.005190185736864805,
+          "Erin": 0.9890742897987366
+        },
+        "word_dist": {
+          "apple": 7.733659083747259e-08,
+          "sun": 1.8736940788675122e-06,
+          "hammer": 8.813566705212276e-09,
+          "snow": 0.9999018022530848,
+          "rain": 9.610217273483517e-05,
+          "river": 1.3572994388984624e-07
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.0031726830638945103
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.007386742625385523,
+          "Bob": 0.00948476605117321,
+          "Carol": 1.830990549933631e-05,
+          "Dave": 0.015637734904885292,
+          "Erin": 0.9674724340438843
+        },
+        "word_dist": {
+          "apple": 8.493243430967337e-08,
+          "sun": 1.8735777096936485e-06,
+          "hammer": 6.757182750809189e-09,
+          "snow": 0.9998394631552524,
+          "rain": 0.00015843585577729423,
+          "river": 1.3572164356934548e-07
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.0035936026833951473
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.0031436316203325987,
+          "Bob": 0.004573957063257694,
+          "Carol": 0.004573957063257694,
+          "Dave": 8.829813850752544e-06,
+          "Erin": 0.9876996278762817
+        },
+        "word_dist": {
+          "apple": 6.615132973911148e-08,
+          "sun": 1.2097802833208237e-06,
+          "hammer": 5.430031812896511e-09,
+          "snow": 0.9999282908009172,
+          "rain": 7.031173823872006e-05,
+          "river": 1.1609919931171549e-07
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.0028009270317852497
+      },
+      {
+        "vote_dist": {
+          "Alice": 0.18423601984977722,
+          "Bob": 0.23656371235847473,
+          "Carol": 0.07680099457502365,
+          "Dave": 0.5008053779602051,
+          "Erin": 0.0015939536970108747
+        },
+        "word_dist": {
+          "apple": 3.768691434791319e-08,
+          "sun": 2.8731005989183146e-07,
+          "hammer": 1.531408553689476e-09,
+          "snow": 0.9997961917427741,
+          "rain": 0.0002034268947063653,
+          "river": 5.483413681619269e-08
+        },
+        "word_gen": "snow",
+        "self_p_yes": 0.02595735713839531
+      }
+    ],
+    "perround": [
+      {
+        "round": 1,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 3.5761504038182536e-07,
+              "sun": 2.9021499439756864e-06,
+              "hammer": 3.769231201601894e-08,
+              "snow": 0.9999410851166772,
+              "rain": 5.4759552141485014e-05,
+              "river": 8.578738849962438e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0024726232513785362
+          },
+          {
+            "word_dist": {
+              "apple": 2.873587807334004e-07,
+              "sun": 1.9946652919388472e-06,
+              "hammer": 2.3959299642272833e-08,
+              "snow": 0.9999660608251261,
+              "rain": 3.120181487947594e-05,
+              "river": 4.3137662224248914e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "apple": 3.359497016656634e-07,
+              "sun": 2.1232674921748635e-06,
+              "hammer": 1.9554617578465722e-08,
+              "snow": 0.9999457325519467,
+              "rain": 5.1442062351838854e-05,
+              "river": 3.4661388994300933e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.002182716503739357
+          },
+          {
+            "word_dist": {
+              "apple": 2.964755742997431e-07,
+              "sun": 2.123274676448133e-06,
+              "hammer": 2.358745104832468e-08,
+              "snow": 0.9999485199455027,
+              "rain": 4.832550886519863e-05,
+              "river": 7.112079303472693e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.001700722612440586
+          },
+          {
+            "word_dist": {
+              "apple": 7.09482734614312e-07,
+              "sun": 1.6495967805071352e-06,
+              "hammer": 2.4277164166953594e-08,
+              "snow": 0.9975234537032878,
+              "rain": 0.002472613287268878,
+              "river": 1.5496527639998127e-06
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.01798621006309986
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "seats": [
+          {
+            "word_dist": {
+              "apple": 7.97955459289628e-08,
+              "sun": 1.653614274377252e-06,
+              "hammer": 1.1860549062203712e-08,
+              "snow": 0.9999526982500088,
+              "rain": 4.539778707838033e-05,
+              "river": 1.5869254341720945e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "apple": 7.734227924946813e-08,
+              "sun": 1.13653541257001e-06,
+              "hammer": 9.237217986592324e-09,
+              "snow": 0.9999743804324811,
+              "rain": 2.4300198587308566e-05,
+              "river": 9.625402170286777e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0024726232513785362
+          },
+          {
+            "word_dist": {
+              "apple": 1.0571181091126475e-07,
+              "sun": 1.459305143718653e-06,
+              "hammer": 9.83273009938919e-09,
+              "snow": 0.9999499834992529,
+              "rain": 4.832554935132449e-05,
+              "river": 1.1610171107703466e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0035936026833951473
+          },
+          {
+            "word_dist": {
+              "apple": 7.496227773817756e-08,
+              "sun": 1.0676711104403474e-06,
+              "hammer": 7.0823801027370246e-09,
+              "snow": 0.9999694226858649,
+              "rain": 2.931149451994326e-05,
+              "river": 1.1610384700693837e-07
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.0024726232513785362
+          },
+          {
+            "word_dist": {
+              "apple": 4.139278950232983e-08,
+              "sun": 2.10209930152934e-07,
+              "hammer": 1.5077322482518574e-09,
+              "snow": 0.9998412592656895,
+              "rain": 0.00015843610969981035,
+              "river": 5.151415885027583e-08
+            },
+            "word_gen": "snow",
+            "self_p_yes": 0.02931223064661026
+          }
+        ]
+      }
+    ]
+  }
+]

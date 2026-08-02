@@ -1,0 +1,1234 @@
+[
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 1,
+    "A": "package",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 2,
+    "A": "container",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 3,
+    "A": "box",
+    "B": "orange",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 4,
+    "A": "carton",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 5,
+    "A": "jelly",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 6,
+    "A": "tuna",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 7,
+    "A": "jar",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 8,
+    "A": "cantalou",
+    "B": "peach",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 9,
+    "A": "coconut",
+    "B": "pear",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 0,
+    "turn": 10,
+    "A": "plum",
+    "B": "plum",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 1,
+    "A": "challenged",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 2,
+    "A": "figured",
+    "B": "orange",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 3,
+    "A": "peeled",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 4,
+    "A": "pears",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 5,
+    "A": "peaches",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 6,
+    "A": "guessed",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 7,
+    "A": "guava",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 8,
+    "A": "plum",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 9,
+    "A": "blueberry",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 1,
+    "turn": 10,
+    "A": "raspberry",
+    "B": "raspberry",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 1,
+    "A": "brushes",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 2,
+    "A": "grape",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 3,
+    "A": "orange",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 4,
+    "A": "peach",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 5,
+    "A": "pear",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 6,
+    "A": "plum",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 7,
+    "A": "blueberry",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 8,
+    "A": "raspberry",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 2,
+    "turn": 9,
+    "A": "fig",
+    "B": "fig",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 3,
+    "turn": 1,
+    "A": "school",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 3,
+    "turn": 2,
+    "A": "college",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 3,
+    "turn": 3,
+    "A": "orange",
+    "B": "orange",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 1,
+    "A": "play",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 2,
+    "A": "crash",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 3,
+    "A": "orange",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 4,
+    "A": "peach",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 5,
+    "A": "plum",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 6,
+    "A": "strawberry",
+    "B": "pear",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 7,
+    "A": "melon",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 8,
+    "A": "apricot",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 4,
+    "turn": 9,
+    "A": "fig",
+    "B": "fig",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 5,
+    "turn": 1,
+    "A": "railway",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 5,
+    "turn": 2,
+    "A": "track",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 5,
+    "turn": 3,
+    "A": "orange",
+    "B": "orange",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 6,
+    "turn": 1,
+    "A": "team",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 6,
+    "turn": 2,
+    "A": "school",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 6,
+    "turn": 3,
+    "A": "orange",
+    "B": "orange",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 1,
+    "A": "rigid",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 2,
+    "A": "laptop",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 3,
+    "A": "desk",
+    "B": "orange",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 4,
+    "A": "computer",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 5,
+    "A": "keyboard",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 6,
+    "A": "chair",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 7,
+    "A": "table",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 8,
+    "A": "monitor",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 9,
+    "A": "mouse",
+    "B": "blueberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 10,
+    "A": "screen",
+    "B": "peach",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 11,
+    "A": "printer",
+    "B": "pear",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 12,
+    "A": "mousepad",
+    "B": "watermelon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 13,
+    "A": "modem",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 14,
+    "A": "speaker",
+    "B": "raspberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 15,
+    "A": "shelf",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 16,
+    "A": "cabinet",
+    "B": "fig",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 17,
+    "A": "couch",
+    "B": "avocado",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 18,
+    "A": "stereo",
+    "B": "blackberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 19,
+    "A": "stool",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 20,
+    "A": "fan",
+    "B": "coconut",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 21,
+    "A": "cushion",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 22,
+    "A": "candle",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 7,
+    "turn": 23,
+    "A": "cereal",
+    "B": "grapefruit",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 1,
+    "A": "artistically",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 2,
+    "A": "sweetly",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 3,
+    "A": "orange",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 4,
+    "A": "peach",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 5,
+    "A": "pear",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 6,
+    "A": "strawberry",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 7,
+    "A": "blueberry",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 8,
+    "A": "blackberry",
+    "B": "raspberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 9,
+    "A": "fig",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 8,
+    "turn": 10,
+    "A": "plum",
+    "B": "plum",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 1,
+    "A": "beep",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 2,
+    "A": "crash",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 3,
+    "A": "pop",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 4,
+    "A": "plum",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 5,
+    "A": "orange",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 6,
+    "A": "blueberry",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 7,
+    "A": "strawberry",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 8,
+    "A": "raspberry",
+    "B": "peach",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 9,
+    "A": "apricot",
+    "B": "pear",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 10,
+    "A": "avocado",
+    "B": "fig",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 9,
+    "turn": 11,
+    "A": "blackberry",
+    "B": "blackberry",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 1,
+    "A": "tongue",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 2,
+    "A": "cured",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 3,
+    "A": "fig",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 4,
+    "A": "long",
+    "B": "date",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 5,
+    "A": "peach",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 6,
+    "A": "pear",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 7,
+    "A": "plum",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 8,
+    "A": "orange",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 9,
+    "A": "sweet",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 10,
+    "A": "raisin",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 11,
+    "A": "juicy",
+    "B": "blueberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 12,
+    "A": "plump",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 13,
+    "A": "crisp",
+    "B": "avocado",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 14,
+    "A": "soft",
+    "B": "blackberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 15,
+    "A": "tart",
+    "B": "raspberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 16,
+    "A": "tropical",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 17,
+    "A": "tangy",
+    "B": "coconut",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 18,
+    "A": "firm",
+    "B": "grapefruit",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 19,
+    "A": "ripe",
+    "B": "persimmon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 20,
+    "A": "fat",
+    "B": "lime",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 21,
+    "A": "green",
+    "B": "watermelon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 22,
+    "A": "tasty",
+    "B": "cantalou",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 10,
+    "turn": 23,
+    "A": "fruit",
+    "B": "clementine",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 11,
+    "turn": 1,
+    "A": "excused",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 11,
+    "turn": 2,
+    "A": "justified",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 11,
+    "turn": 3,
+    "A": "orange",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 11,
+    "turn": 4,
+    "A": "guilty",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 11,
+    "turn": 5,
+    "A": "mango",
+    "B": "mango",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 12,
+    "turn": 1,
+    "A": "train",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 12,
+    "turn": 2,
+    "A": "carrot",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 12,
+    "turn": 3,
+    "A": "orange",
+    "B": "orange",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 1,
+    "A": "heavenly",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 2,
+    "A": "heaven",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 3,
+    "A": "paradisi",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 4,
+    "A": "paradis",
+    "B": "orange",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 5,
+    "A": "paradiso",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 6,
+    "A": "heavens",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 7,
+    "A": "idyllic",
+    "B": "pear",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 8,
+    "A": "paradisa",
+    "B": "peach",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 9,
+    "A": "utopia",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 10,
+    "A": "elysium",
+    "B": "strawberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 11,
+    "A": "paradises",
+    "B": "lemon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 12,
+    "A": "eden",
+    "B": "pineapple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 13,
+    "A": "tropical",
+    "B": "watermelon",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 14,
+    "A": "paradisos",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 15,
+    "A": "paradisel",
+    "B": "coconut",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 16,
+    "A": "paradis",
+    "B": "fig",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 17,
+    "A": "paradiz",
+    "B": "raspberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 18,
+    "A": "paradiss",
+    "B": "blackberry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 19,
+    "A": "paradis",
+    "B": "lime",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 20,
+    "A": "paradis",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 21,
+    "A": "paradis",
+    "B": "guava",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 22,
+    "A": "paradi",
+    "B": "papaya",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 13,
+    "turn": 23,
+    "A": "paradize",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 14,
+    "turn": 1,
+    "A": "hurricane",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 14,
+    "turn": 2,
+    "A": "orchard",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 14,
+    "turn": 3,
+    "A": "monkey",
+    "B": "cherry",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 14,
+    "turn": 4,
+    "A": "peach",
+    "B": "date",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 14,
+    "turn": 5,
+    "A": "fig",
+    "B": "fig",
+    "agreed": true
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 15,
+    "turn": 1,
+    "A": "helix",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 15,
+    "turn": 2,
+    "A": "circle",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 15,
+    "turn": 3,
+    "A": "coiled",
+    "B": "grape",
+    "agreed": false
+  },
+  {
+    "cond": "informed-fruit",
+    "rollout": 15,
+    "turn": 4,
+    "A": "orange",
+    "B": "orange",
+    "agreed": true
+  }
+]

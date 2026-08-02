@@ -1,0 +1,293 @@
+{
+  "model": "Llama",
+  "spaces": {
+    "lightness": {
+      "family": "arc",
+      "intended": "line",
+      "n": 4,
+      "rsa": {
+        "line": 0.714,
+        "ring": 0.886
+      },
+      "best_geom": "ring",
+      "intended_rsa": 0.714,
+      "intended_wins": false,
+      "equidistance": 0.982,
+      "eff_dim": 2.99,
+      "best_layer": 8,
+      "graph_rsa": {
+        "ring": 0.886
+      }
+    },
+    "temperature": {
+      "family": "arc",
+      "intended": "line",
+      "n": 6,
+      "rsa": {
+        "line": 0.761,
+        "ring": 0.446
+      },
+      "best_geom": "line",
+      "intended_rsa": 0.761,
+      "intended_wins": true,
+      "equidistance": 0.928,
+      "eff_dim": 4.7,
+      "best_layer": 4,
+      "graph_rsa": {
+        "ring": 0.446
+      }
+    },
+    "sentiment": {
+      "family": "arc",
+      "intended": "line",
+      "n": 6,
+      "rsa": {
+        "line": 0.157,
+        "ring": 0.461
+      },
+      "best_geom": "ring",
+      "intended_rsa": 0.157,
+      "intended_wins": false,
+      "equidistance": 0.917,
+      "eff_dim": 4.66,
+      "best_layer": 8,
+      "graph_rsa": {
+        "ring": 0.461
+      }
+    },
+    "formality": {
+      "family": "arc",
+      "intended": "line",
+      "n": 5,
+      "rsa": {
+        "line": 0.539,
+        "ring": 0.527
+      },
+      "best_geom": "line",
+      "intended_rsa": 0.539,
+      "intended_wins": true,
+      "equidistance": 0.916,
+      "eff_dim": 3.56,
+      "best_layer": 0,
+      "graph_rsa": {
+        "ring": 0.527
+      }
+    },
+    "blood_type": {
+      "family": "simplex",
+      "intended": "simplex",
+      "n": 4,
+      "rsa": {},
+      "best_geom": "simplex",
+      "intended_rsa": null,
+      "intended_wins": false,
+      "equidistance": 0.845,
+      "eff_dim": 2.55,
+      "best_layer": 0,
+      "graph_rsa": {}
+    },
+    "chess": {
+      "family": "simplex",
+      "intended": "simplex",
+      "n": 6,
+      "rsa": {},
+      "best_geom": "simplex",
+      "intended_rsa": null,
+      "intended_wins": true,
+      "equidistance": 0.922,
+      "eff_dim": 4.63,
+      "best_layer": 21,
+      "graph_rsa": {}
+    },
+    "gram_case": {
+      "family": "simplex",
+      "intended": "simplex",
+      "n": 5,
+      "rsa": {},
+      "best_geom": "simplex",
+      "intended_rsa": null,
+      "intended_wins": true,
+      "equidistance": 0.94,
+      "eff_dim": 3.88,
+      "best_layer": 3,
+      "graph_rsa": {}
+    },
+    "taxonomy": {
+      "family": "tree",
+      "intended": "tree",
+      "n": 8,
+      "rsa": {
+        "tree": 0.529
+      },
+      "best_geom": "tree",
+      "intended_rsa": 0.529,
+      "intended_wins": true,
+      "equidistance": 0.914,
+      "eff_dim": 6.32,
+      "best_layer": 22,
+      "graph_rsa": {}
+    },
+    "kinship": {
+      "family": "tree",
+      "intended": "tree",
+      "n": 9,
+      "rsa": {
+        "tree": 0.472
+      },
+      "best_geom": "tree",
+      "intended_rsa": 0.472,
+      "intended_wins": true,
+      "equidistance": 0.869,
+      "eff_dim": 5.88,
+      "best_layer": 1,
+      "graph_rsa": {}
+    },
+    "filepath": {
+      "family": "tree",
+      "intended": "tree",
+      "n": 7,
+      "rsa": {
+        "tree": 0.708
+      },
+      "best_geom": "tree",
+      "intended_rsa": 0.708,
+      "intended_wins": true,
+      "equidistance": 0.86,
+      "eff_dim": 4.72,
+      "best_layer": 5,
+      "graph_rsa": {}
+    },
+    "conjugation": {
+      "family": "product",
+      "intended": "product",
+      "n": 6,
+      "rsa": {
+        "product": 0.329,
+        "factorA_only": 0.336,
+        "factorB_only": 0.414,
+        "grid": 0.329,
+        "hex": 0.493
+      },
+      "best_geom": "hex",
+      "intended_rsa": 0.329,
+      "intended_wins": false,
+      "equidistance": 0.901,
+      "eff_dim": 4.2,
+      "best_layer": 31,
+      "graph_rsa": {
+        "grid": 0.329,
+        "hex": 0.493
+      }
+    },
+    "nat_prof": {
+      "family": "product",
+      "intended": "product",
+      "n": 6,
+      "rsa": {
+        "product": 0.468,
+        "factorA_only": -0.029,
+        "factorB_only": 0.718,
+        "grid": 0.468,
+        "hex": 0.286
+      },
+      "best_geom": "factorB_only",
+      "intended_rsa": 0.468,
+      "intended_wins": false,
+      "equidistance": 0.748,
+      "eff_dim": 2.32,
+      "best_layer": 1,
+      "graph_rsa": {
+        "grid": 0.468,
+        "hex": 0.286
+      }
+    },
+    "size_color": {
+      "family": "product",
+      "intended": "product",
+      "n": 4,
+      "rsa": {
+        "product": 0.714,
+        "factorA_only": -0.086,
+        "factorB_only": 0.886,
+        "grid": 0.714,
+        "hex": 0.6
+      },
+      "best_geom": "factorB_only",
+      "intended_rsa": 0.714,
+      "intended_wins": false,
+      "equidistance": 0.824,
+      "eff_dim": 2.11,
+      "best_layer": 4,
+      "graph_rsa": {
+        "grid": 0.714,
+        "hex": 0.6
+      }
+    },
+    "pitch": {
+      "family": "helix",
+      "intended": "helix",
+      "n": 14,
+      "rsa": {
+        "cycle": 0.285,
+        "line_prog": 0.696,
+        "helix": 0.498,
+        "grid": 0.382,
+        "hex": 0.223
+      },
+      "best_geom": "line_prog",
+      "intended_rsa": 0.498,
+      "intended_wins": false,
+      "equidistance": 0.908,
+      "eff_dim": 9.61,
+      "best_layer": 4,
+      "graph_rsa": {
+        "grid": 0.382,
+        "hex": 0.223
+      }
+    },
+    "clock": {
+      "family": "helix",
+      "intended": "helix",
+      "n": 9,
+      "rsa": {
+        "cycle": 0.485,
+        "line_prog": 0.089,
+        "helix": 0.494,
+        "grid": 0.759,
+        "hex": 0.456
+      },
+      "best_geom": "grid",
+      "intended_rsa": 0.494,
+      "intended_wins": false,
+      "equidistance": 0.788,
+      "eff_dim": 3.66,
+      "best_layer": 28,
+      "graph_rsa": {
+        "grid": 0.759,
+        "hex": 0.456
+      }
+    },
+    "digits": {
+      "family": "helix",
+      "intended": "helix",
+      "n": 12,
+      "rsa": {
+        "cycle": 0.138,
+        "line_prog": 0.502,
+        "helix": 0.525,
+        "grid": 0.469,
+        "hex": 0.293
+      },
+      "best_geom": "helix",
+      "intended_rsa": 0.525,
+      "intended_wins": true,
+      "equidistance": 0.89,
+      "eff_dim": 7.5,
+      "best_layer": 1,
+      "graph_rsa": {
+        "grid": 0.469,
+        "hex": 0.293
+      }
+    }
+  }
+}

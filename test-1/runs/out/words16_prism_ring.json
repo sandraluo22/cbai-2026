@@ -1,0 +1,26 @@
+{
+  "pair": [
+    "prism",
+    "ring"
+  ],
+  "words16": [
+    "chair",
+    "river",
+    "button",
+    "candle",
+    "jacket",
+    "tiger",
+    "pillow",
+    "coin",
+    "bread",
+    "clock",
+    "apple",
+    "bird",
+    "pencil",
+    "anchor",
+    "lemon",
+    "ocean"
+  ],
+  "max_edge_prior": 0.001735908278780924,
+  "baseline_max_edge_prior": 0.2201396745342628
+}

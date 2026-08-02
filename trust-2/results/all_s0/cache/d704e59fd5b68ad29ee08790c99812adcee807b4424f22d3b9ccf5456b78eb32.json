@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Indra\": 0.7, \"Oakley\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Indra has a higher overall accuracy rate (6/10) compared to Oakley (5/10), but Oakley has a perfect record on verified claims that are also reported by Indra, suggesting Oakley may be more accurate on specific types of measurements\"\n}", "trial_id": "labels-0-0034"}

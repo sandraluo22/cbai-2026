@@ -1,0 +1,175 @@
+{
+  "model": "Llama",
+  "conditions": [
+    "baseline",
+    "ablate_gridparity",
+    "ablate_ringcoord"
+  ],
+  "families": {
+    "lightness": {
+      "family": "arc",
+      "baseline": 0.714,
+      "ablate_gridparity": 0.6,
+      "ablate_ringcoord": 0.943
+    },
+    "temperature": {
+      "family": "arc",
+      "baseline": 0.761,
+      "ablate_gridparity": 0.782,
+      "ablate_ringcoord": 0.768
+    },
+    "sentiment": {
+      "family": "arc",
+      "baseline": 0.157,
+      "ablate_gridparity": 0.221,
+      "ablate_ringcoord": 0.161
+    },
+    "formality": {
+      "family": "arc",
+      "baseline": 0.539,
+      "ablate_gridparity": 0.539,
+      "ablate_ringcoord": 0.539
+    },
+    "blood_type": {
+      "family": "simplex",
+      "baseline": 0.845,
+      "ablate_gridparity": 0.845,
+      "ablate_ringcoord": 0.845
+    },
+    "chess": {
+      "family": "simplex",
+      "baseline": 0.922,
+      "ablate_gridparity": 0.922,
+      "ablate_ringcoord": 0.924
+    },
+    "gram_case": {
+      "family": "simplex",
+      "baseline": 0.94,
+      "ablate_gridparity": 0.939,
+      "ablate_ringcoord": 0.94
+    },
+    "taxonomy": {
+      "family": "tree",
+      "baseline": 0.529,
+      "ablate_gridparity": 0.499,
+      "ablate_ringcoord": 0.484
+    },
+    "kinship": {
+      "family": "tree",
+      "baseline": 0.472,
+      "ablate_gridparity": 0.472,
+      "ablate_ringcoord": 0.465
+    },
+    "filepath": {
+      "family": "tree",
+      "baseline": 0.708,
+      "ablate_gridparity": 0.71,
+      "ablate_ringcoord": 0.681
+    },
+    "conjugation": {
+      "family": "product",
+      "baseline": 0.329,
+      "ablate_gridparity": 0.414,
+      "ablate_ringcoord": 0.296
+    },
+    "nat_prof": {
+      "family": "product",
+      "baseline": 0.468,
+      "ablate_gridparity": 0.457,
+      "ablate_ringcoord": 0.457
+    },
+    "size_color": {
+      "family": "product",
+      "baseline": 0.714,
+      "ablate_gridparity": 0.714,
+      "ablate_ringcoord": 0.714
+    },
+    "pitch": {
+      "family": "helix",
+      "baseline": 0.498,
+      "ablate_gridparity": 0.505,
+      "ablate_ringcoord": 0.512
+    },
+    "clock": {
+      "family": "helix",
+      "baseline": 0.494,
+      "ablate_gridparity": 0.626,
+      "ablate_ringcoord": 0.606
+    },
+    "digits": {
+      "family": "helix",
+      "baseline": 0.525,
+      "ablate_gridparity": 0.526,
+      "ablate_ringcoord": 0.531
+    }
+  },
+  "tori": {
+    "w5_L6": {
+      "baseline": 0.942,
+      "ablate_gridparity": 0.789,
+      "ablate_ringcoord": 0.624
+    },
+    "w6_L6": {
+      "baseline": 0.942,
+      "ablate_gridparity": 0.801,
+      "ablate_ringcoord": 0.63
+    },
+    "w5_L10": {
+      "baseline": 0.86,
+      "ablate_gridparity": 0.667,
+      "ablate_ringcoord": 0.632
+    }
+  },
+  "controls": {
+    "grid": {
+      "baseline": 0.992,
+      "ablate_gridparity": 0.722,
+      "ablate_ringcoord": 0.813
+    },
+    "ring": {
+      "baseline": 0.992,
+      "ablate_gridparity": 0.954,
+      "ablate_ringcoord": 0.671
+    }
+  },
+  "cyclic": {
+    "months": {
+      "baseline": 1.0,
+      "ablate_gridparity": 1.0,
+      "ablate_ringcoord": 1.0
+    },
+    "days": {
+      "baseline": 1.0,
+      "ablate_gridparity": 0.952,
+      "ablate_ringcoord": 1.0
+    }
+  },
+  "cyclic_by_nshot": {
+    "0": {
+      "months": {
+        "baseline": 0.939,
+        "ablate_gridparity": 0.939,
+        "ablate_ringcoord": 0.886,
+        "ablate_owncycle": 0.545
+      },
+      "days": {
+        "baseline": 0.667,
+        "ablate_gridparity": 0.667,
+        "ablate_ringcoord": 0.619,
+        "ablate_owncycle": 0.19
+      }
+    },
+    "1": {
+      "months": {
+        "baseline": 0.924,
+        "ablate_gridparity": 0.856,
+        "ablate_ringcoord": 0.947
+      },
+      "days": {
+        "baseline": 0.905,
+        "ablate_gridparity": 0.857,
+        "ablate_ringcoord": 0.952
+      }
+    }
+  }
+}

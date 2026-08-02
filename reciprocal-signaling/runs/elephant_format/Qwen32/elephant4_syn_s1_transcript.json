@@ -1,0 +1,260 @@
+[
+ {
+  "type": "meta",
+  "quiz": "elephant4_syn",
+  "true": "elephant",
+  "clues": [
+   "ashen",
+   "enormous",
+   "creature",
+   "snout"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 1,
+  "notes": ""
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "ashamed",
+   "giant",
+   "animal",
+   "pig"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "ashtray",
+   "gargantuan",
+   "beast",
+   "nose"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "ashamed",
+   "colossal",
+   "monster",
+   "snout"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "ashamed",
+   "huge",
+   "beastly",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "ashamed",
+   "colossal",
+   "ogre",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "ashamed",
+   "colossus",
+   "ogre",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "ashamed",
+   "colossus",
+   "ogre",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "ashamed",
+   "colossus",
+   "ogre",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "ashamed",
+   "colossus",
+   "ogre",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "ashamed",
+   "colossus",
+   "hogwart",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "ashamed",
+   "hogwash",
+   "hog",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hog",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hog",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hog",
+   "hog"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "hogwash",
+   "hogwash",
+   "hogwash",
+   "hogwash"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

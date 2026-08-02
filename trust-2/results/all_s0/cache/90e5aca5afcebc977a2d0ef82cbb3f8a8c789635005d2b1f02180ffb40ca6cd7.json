@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Ellis\": 0.7, \"Harlow\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Ellis has a higher overall accuracy rate (6/10) compared to Harlow (5/10), but Harlow's correct answers are often consistent with the master record, suggesting some reliability, while Ellis's errors are often large and inconsistent.\"\n}", "trial_id": "labels-0-0004"}

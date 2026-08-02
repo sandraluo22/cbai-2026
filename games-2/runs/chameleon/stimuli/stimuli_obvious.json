@@ -1,0 +1,2050 @@
+[
+ {
+  "id": "obvious_ocean-hammer_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "ocean",
+  "true_role": "civilian",
+  "true_impostor_seat": 4,
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "ocean",
+   "ocean",
+   "ocean",
+   "ocean",
+   "hammer"
+  ],
+  "clues": [
+   [
+    "water",
+    "deep",
+    "waves",
+    null,
+    "handle"
+   ],
+   [
+    "blue",
+    "blue",
+    "water",
+    null,
+    "metal"
+   ],
+   [
+    "waves",
+    "water",
+    "salt",
+    null,
+    "tool"
+   ]
+  ],
+  "word_candidates": [
+   "hammer",
+   "ocean",
+   "guitar",
+   "dog",
+   "apple",
+   "pear"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_ocean-hammer_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "hammer",
+  "true_role": "impostor",
+  "true_impostor_seat": 4,
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "ocean",
+   "ocean",
+   "ocean",
+   "ocean",
+   "hammer"
+  ],
+  "clues": [
+   [
+    "waves",
+    "blue",
+    "water",
+    "blue",
+    null
+   ],
+   [
+    "water",
+    "water",
+    "blue",
+    "water",
+    null
+   ],
+   [
+    "deep",
+    "salt",
+    "waves",
+    "salt",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "pear",
+   "hammer",
+   "ocean",
+   "wolf",
+   "sea",
+   "violin"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "violin",
+  "true_role": "civilian",
+  "true_impostor_seat": 2,
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "violin",
+   "snow",
+   "violin",
+   "violin"
+  ],
+  "clues": [
+   [
+    "bow",
+    "strings",
+    "flakes",
+    "strings",
+    null
+   ],
+   [
+    "classical",
+    "bow",
+    "white",
+    "music",
+    null
+   ],
+   [
+    "strings",
+    "music",
+    "cold",
+    "bow",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "violin",
+   "snow",
+   "rain",
+   "guitar",
+   "moon",
+   "chair"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_violin-snow_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "snow",
+  "true_role": "impostor",
+  "true_impostor_seat": 4,
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "violin",
+   "violin",
+   "violin",
+   "snow"
+  ],
+  "clues": [
+   [
+    "wood",
+    "wood",
+    "wood",
+    "strings",
+    null
+   ],
+   [
+    "classical",
+    "strings",
+    "music",
+    "bow",
+    null
+   ],
+   [
+    "bow",
+    "classical",
+    "bow",
+    "music",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "sofa",
+   "violin",
+   "wolf",
+   "moon",
+   "snow",
+   "guitar"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "apple",
+  "true_role": "civilian",
+  "true_impostor_seat": 2,
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "apple",
+   "apple",
+   "chair",
+   "apple",
+   "apple"
+  ],
+  "clues": [
+   [
+    null,
+    "crisp",
+    "sit",
+    "crisp",
+    "red"
+   ],
+   [
+    null,
+    "juice",
+    "wood",
+    "fruit",
+    "fruit"
+   ],
+   [
+    null,
+    "fruit",
+    "desk",
+    "red",
+    "tree"
+   ]
+  ],
+  "word_candidates": [
+   "chair",
+   "sun",
+   "wolf",
+   "moon",
+   "apple",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_apple-chair_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "chair",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "apple",
+   "apple",
+   "chair",
+   "apple",
+   "apple"
+  ],
+  "clues": [
+   [
+    "fruit",
+    "fruit",
+    null,
+    "fruit",
+    "fruit"
+   ],
+   [
+    "red",
+    "tree",
+    null,
+    "tree",
+    "crisp"
+   ],
+   [
+    "tree",
+    "red",
+    null,
+    "juice",
+    "red"
+   ]
+  ],
+  "word_candidates": [
+   "dog",
+   "rain",
+   "pear",
+   "apple",
+   "chair",
+   "wolf"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "wolf",
+  "true_role": "civilian",
+  "true_impostor_seat": 2,
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "wolf",
+   "wolf",
+   "guitar",
+   "wolf",
+   "wolf"
+  ],
+  "clues": [
+   [
+    "howl",
+    "animal",
+    "strum",
+    "animal",
+    null
+   ],
+   [
+    "pack",
+    "pack",
+    "music",
+    "wild",
+    null
+   ],
+   [
+    "animal",
+    "howl",
+    "wood",
+    "howl",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "pear",
+   "apple",
+   "wolf",
+   "guitar",
+   "sea",
+   "ocean"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_wolf-guitar_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "guitar",
+  "true_role": "impostor",
+  "true_impostor_seat": 3,
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "wolf",
+   "wolf",
+   "wolf",
+   "guitar",
+   "wolf"
+  ],
+  "clues": [
+   [
+    "animal",
+    "wild",
+    "howl",
+    null,
+    "animal"
+   ],
+   [
+    "pack",
+    "howl",
+    "animal",
+    null,
+    "wild"
+   ],
+   [
+    "howl",
+    "animal",
+    "pack",
+    null,
+    "howl"
+   ]
+  ],
+  "word_candidates": [
+   "moon",
+   "dog",
+   "violin",
+   "guitar",
+   "wolf",
+   "sea"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "moon",
+  "true_role": "civilian",
+  "true_impostor_seat": 2,
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "moon",
+   "moon",
+   "hammer",
+   "moon",
+   "moon"
+  ],
+  "clues": [
+   [
+    "night",
+    "night",
+    "hit",
+    null,
+    "tide"
+   ],
+   [
+    "crater",
+    "glow",
+    "tool",
+    null,
+    "sky"
+   ],
+   [
+    "sky",
+    "sky",
+    "metal",
+    null,
+    "night"
+   ]
+  ],
+  "word_candidates": [
+   "chair",
+   "wolf",
+   "guitar",
+   "sun",
+   "hammer",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_moon-hammer_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "hammer",
+  "true_role": "impostor",
+  "true_impostor_seat": 0,
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "hammer",
+   "moon",
+   "moon",
+   "moon",
+   "moon"
+  ],
+  "clues": [
+   [
+    null,
+    "night",
+    "night",
+    "night",
+    "night"
+   ],
+   [
+    null,
+    "glow",
+    "tide",
+    "tide",
+    "tide"
+   ],
+   [
+    null,
+    "crater",
+    "glow",
+    "glow",
+    "sky"
+   ]
+  ],
+  "word_candidates": [
+   "moon",
+   "pear",
+   "sofa",
+   "violin",
+   "hammer",
+   "guitar"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "dog",
+  "true_role": "civilian",
+  "true_impostor_seat": 3,
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "dog",
+   "dog",
+   "dog",
+   "violin",
+   "dog"
+  ],
+  "clues": [
+   [
+    null,
+    "animal",
+    "tail",
+    "music",
+    "animal"
+   ],
+   [
+    null,
+    "pet",
+    "animal",
+    "bow",
+    "bark"
+   ],
+   [
+    null,
+    "bark",
+    "bark",
+    "strings",
+    "pet"
+   ]
+  ],
+  "word_candidates": [
+   "guitar",
+   "violin",
+   "dog",
+   "pear",
+   "sofa",
+   "ocean"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_dog-violin_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "violin",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "dog",
+   "dog",
+   "violin",
+   "dog",
+   "dog"
+  ],
+  "clues": [
+   [
+    "pet",
+    "loyal",
+    null,
+    "tail",
+    "bark"
+   ],
+   [
+    "animal",
+    "tail",
+    null,
+    "bark",
+    "animal"
+   ],
+   [
+    "bark",
+    "bark",
+    null,
+    "animal",
+    "pet"
+   ]
+  ],
+  "word_candidates": [
+   "rain",
+   "sea",
+   "dog",
+   "sofa",
+   "violin",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "rain",
+  "true_role": "civilian",
+  "true_impostor_seat": 4,
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "rain",
+   "rain",
+   "rain",
+   "rain",
+   "chair"
+  ],
+  "clues": [
+   [
+    null,
+    "clouds",
+    "water",
+    "wet",
+    "sit"
+   ],
+   [
+    null,
+    "wet",
+    "storm",
+    "drops",
+    "wood"
+   ],
+   [
+    null,
+    "water",
+    "wet",
+    "water",
+    "desk"
+   ]
+  ],
+  "word_candidates": [
+   "violin",
+   "ocean",
+   "rain",
+   "chair",
+   "dog",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_rain-chair_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "chair",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "rain",
+   "rain",
+   "chair",
+   "rain",
+   "rain"
+  ],
+  "clues": [
+   [
+    "drops",
+    "water",
+    null,
+    "water",
+    "water"
+   ],
+   [
+    "clouds",
+    "drops",
+    null,
+    "clouds",
+    "drops"
+   ],
+   [
+    "wet",
+    "wet",
+    null,
+    "wet",
+    "storm"
+   ]
+  ],
+  "word_candidates": [
+   "chair",
+   "rain",
+   "guitar",
+   "dog",
+   "sun",
+   "apple"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "sun",
+  "true_role": "civilian",
+  "true_impostor_seat": 0,
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "sofa",
+   "sun",
+   "sun",
+   "sun",
+   "sun"
+  ],
+  "clues": [
+   [
+    "cushion",
+    "bright",
+    "warm",
+    "sky",
+    null
+   ],
+   [
+    "soft",
+    "sky",
+    "light",
+    "day",
+    null
+   ],
+   [
+    "sit",
+    "warm",
+    "day",
+    "warm",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "sofa",
+   "rain",
+   "sun",
+   "sea",
+   "violin",
+   "pear"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_sun-sofa_r0_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "sofa",
+  "true_role": "impostor",
+  "true_impostor_seat": 3,
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "sun",
+   "sun",
+   "sun",
+   "sofa",
+   "sun"
+  ],
+  "clues": [
+   [
+    "light",
+    "day",
+    "light",
+    null,
+    "light"
+   ],
+   [
+    "bright",
+    "light",
+    "day",
+    null,
+    "warm"
+   ],
+   [
+    "warm",
+    "sky",
+    "bright",
+    null,
+    "bright"
+   ]
+  ],
+  "word_candidates": [
+   "pear",
+   "rain",
+   "sea",
+   "sofa",
+   "wolf",
+   "sun"
+  ],
+  "permutation_of": null,
+  "rep": 0,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "ocean",
+  "true_role": "civilian",
+  "true_impostor_seat": 3,
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "ocean",
+   "ocean",
+   "ocean",
+   "hammer",
+   "ocean"
+  ],
+  "clues": [
+   [
+    null,
+    "water",
+    "salt",
+    "hit",
+    "water"
+   ],
+   [
+    null,
+    "waves",
+    "waves",
+    "nail",
+    "deep"
+   ],
+   [
+    null,
+    "blue",
+    "deep",
+    "metal",
+    "waves"
+   ]
+  ],
+  "word_candidates": [
+   "snow",
+   "hammer",
+   "sofa",
+   "guitar",
+   "ocean",
+   "violin"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_ocean-hammer_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "hammer",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "ocean",
+  "impostor_word": "hammer",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "ocean",
+   "ocean",
+   "hammer",
+   "ocean",
+   "ocean"
+  ],
+  "clues": [
+   [
+    "blue",
+    "deep",
+    null,
+    "salt",
+    "waves"
+   ],
+   [
+    "water",
+    "water",
+    null,
+    "blue",
+    "deep"
+   ],
+   [
+    "salt",
+    "salt",
+    null,
+    "water",
+    "water"
+   ]
+  ],
+  "word_candidates": [
+   "pear",
+   "hammer",
+   "ocean",
+   "moon",
+   "violin",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "violin",
+  "true_role": "civilian",
+  "true_impostor_seat": 3,
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "violin",
+   "violin",
+   "snow",
+   "violin"
+  ],
+  "clues": [
+   [
+    "music",
+    "music",
+    null,
+    "cold",
+    "music"
+   ],
+   [
+    "strings",
+    "strings",
+    null,
+    "ice",
+    "wood"
+   ],
+   [
+    "bow",
+    "classical",
+    null,
+    "white",
+    "strings"
+   ]
+  ],
+  "word_candidates": [
+   "snow",
+   "moon",
+   "violin",
+   "hammer",
+   "river",
+   "sun"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_violin-snow_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 1,
+  "agent_word": "snow",
+  "true_role": "impostor",
+  "true_impostor_seat": 1,
+  "civilian_word": "violin",
+  "impostor_word": "snow",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "snow",
+   "violin",
+   "violin",
+   "violin"
+  ],
+  "clues": [
+   [
+    "music",
+    null,
+    "strings",
+    "music",
+    "classical"
+   ],
+   [
+    "classical",
+    null,
+    "bow",
+    "strings",
+    "wood"
+   ],
+   [
+    "strings",
+    null,
+    "music",
+    "bow",
+    "bow"
+   ]
+  ],
+  "word_candidates": [
+   "sun",
+   "ocean",
+   "wolf",
+   "violin",
+   "chair",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 0,
+  "agent_word": "apple",
+  "true_role": "civilian",
+  "true_impostor_seat": 2,
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "apple",
+   "apple",
+   "chair",
+   "apple",
+   "apple"
+  ],
+  "clues": [
+   [
+    null,
+    "fruit",
+    "legs",
+    "tree",
+    "fruit"
+   ],
+   [
+    null,
+    "tree",
+    "wood",
+    "fruit",
+    "tree"
+   ],
+   [
+    null,
+    "red",
+    "desk",
+    "red",
+    "red"
+   ]
+  ],
+  "word_candidates": [
+   "apple",
+   "rain",
+   "river",
+   "chair",
+   "pear",
+   "violin"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_apple-chair_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "chair",
+  "true_role": "impostor",
+  "true_impostor_seat": 3,
+  "civilian_word": "apple",
+  "impostor_word": "chair",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "apple",
+   "apple",
+   "apple",
+   "chair",
+   "apple"
+  ],
+  "clues": [
+   [
+    "fruit",
+    "fruit",
+    "fruit",
+    null,
+    "juice"
+   ],
+   [
+    "red",
+    "tree",
+    "red",
+    null,
+    "red"
+   ],
+   [
+    "tree",
+    "crisp",
+    "tree",
+    null,
+    "tree"
+   ]
+  ],
+  "word_candidates": [
+   "guitar",
+   "snow",
+   "violin",
+   "chair",
+   "pear",
+   "apple"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "wolf",
+  "true_role": "civilian",
+  "true_impostor_seat": 0,
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "guitar",
+   "wolf",
+   "wolf",
+   "wolf",
+   "wolf"
+  ],
+  "clues": [
+   [
+    "music",
+    "wild",
+    null,
+    "animal",
+    "animal"
+   ],
+   [
+    "strum",
+    "howl",
+    null,
+    "pack",
+    "howl"
+   ],
+   [
+    "strings",
+    "animal",
+    null,
+    "wild",
+    "fur"
+   ]
+  ],
+  "word_candidates": [
+   "hammer",
+   "guitar",
+   "sun",
+   "wolf",
+   "apple",
+   "river"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_wolf-guitar_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "guitar",
+  "true_role": "impostor",
+  "true_impostor_seat": 4,
+  "civilian_word": "wolf",
+  "impostor_word": "guitar",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "wolf",
+   "wolf",
+   "wolf",
+   "wolf",
+   "guitar"
+  ],
+  "clues": [
+   [
+    "animal",
+    "fur",
+    "howl",
+    "pack",
+    null
+   ],
+   [
+    "fur",
+    "animal",
+    "animal",
+    "howl",
+    null
+   ],
+   [
+    "howl",
+    "howl",
+    "pack",
+    "animal",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "ocean",
+   "chair",
+   "guitar",
+   "sun",
+   "wolf",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "moon",
+  "true_role": "civilian",
+  "true_impostor_seat": 0,
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "hammer",
+   "moon",
+   "moon",
+   "moon",
+   "moon"
+  ],
+  "clues": [
+   [
+    "metal",
+    "night",
+    "night",
+    null,
+    "night"
+   ],
+   [
+    "handle",
+    "tide",
+    "tide",
+    null,
+    "crater"
+   ],
+   [
+    "tool",
+    "crater",
+    "crater",
+    null,
+    "sky"
+   ]
+  ],
+  "word_candidates": [
+   "violin",
+   "hammer",
+   "moon",
+   "pear",
+   "river",
+   "wolf"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_moon-hammer_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "hammer",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "moon",
+  "impostor_word": "hammer",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "moon",
+   "moon",
+   "hammer",
+   "moon",
+   "moon"
+  ],
+  "clues": [
+   [
+    "night",
+    "crater",
+    null,
+    "night",
+    "sky"
+   ],
+   [
+    "crater",
+    "sky",
+    null,
+    "sky",
+    "tide"
+   ],
+   [
+    "sky",
+    "glow",
+    null,
+    "glow",
+    "glow"
+   ]
+  ],
+  "word_candidates": [
+   "sun",
+   "dog",
+   "river",
+   "rain",
+   "hammer",
+   "moon"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "dog",
+  "true_role": "civilian",
+  "true_impostor_seat": 0,
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "violin",
+   "dog",
+   "dog",
+   "dog",
+   "dog"
+  ],
+  "clues": [
+   [
+    "bow",
+    "bark",
+    "animal",
+    "loyal",
+    null
+   ],
+   [
+    "music",
+    "animal",
+    "pet",
+    "bark",
+    null
+   ],
+   [
+    "classical",
+    "tail",
+    "tail",
+    "tail",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "dog",
+   "pear",
+   "sea",
+   "sofa",
+   "sun",
+   "violin"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_dog-violin_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 3,
+  "agent_word": "violin",
+  "true_role": "impostor",
+  "true_impostor_seat": 3,
+  "civilian_word": "dog",
+  "impostor_word": "violin",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "dog",
+   "dog",
+   "dog",
+   "violin",
+   "dog"
+  ],
+  "clues": [
+   [
+    "pet",
+    "tail",
+    "animal",
+    null,
+    "tail"
+   ],
+   [
+    "animal",
+    "animal",
+    "bark",
+    null,
+    "loyal"
+   ],
+   [
+    "tail",
+    "bark",
+    "loyal",
+    null,
+    "animal"
+   ]
+  ],
+  "word_candidates": [
+   "dog",
+   "violin",
+   "apple",
+   "guitar",
+   "chair",
+   "snow"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "rain",
+  "true_role": "civilian",
+  "true_impostor_seat": 4,
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "rain",
+   "rain",
+   "rain",
+   "rain",
+   "chair"
+  ],
+  "clues": [
+   [
+    "water",
+    "clouds",
+    null,
+    "water",
+    "desk"
+   ],
+   [
+    "wet",
+    "water",
+    null,
+    "drops",
+    "sit"
+   ],
+   [
+    "storm",
+    "storm",
+    null,
+    "wet",
+    "legs"
+   ]
+  ],
+  "word_candidates": [
+   "violin",
+   "dog",
+   "rain",
+   "pear",
+   "sofa",
+   "chair"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_rain-chair_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 2,
+  "agent_word": "chair",
+  "true_role": "impostor",
+  "true_impostor_seat": 2,
+  "civilian_word": "rain",
+  "impostor_word": "chair",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "rain",
+   "rain",
+   "chair",
+   "rain",
+   "rain"
+  ],
+  "clues": [
+   [
+    "water",
+    "water",
+    null,
+    "wet",
+    "water"
+   ],
+   [
+    "clouds",
+    "wet",
+    null,
+    "water",
+    "clouds"
+   ],
+   [
+    "drops",
+    "drops",
+    null,
+    "clouds",
+    "wet"
+   ]
+  ],
+  "word_candidates": [
+   "sun",
+   "chair",
+   "wolf",
+   "rain",
+   "apple",
+   "dog"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentciv",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 1,
+  "agent_word": "sun",
+  "true_role": "civilian",
+  "true_impostor_seat": 3,
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "impostor_style": "own5",
+  "eccentric_seat": null,
+  "seat_words": [
+   "sun",
+   "sun",
+   "sun",
+   "sofa",
+   "sun"
+  ],
+  "clues": [
+   [
+    "light",
+    null,
+    "bright",
+    "sit",
+    "day"
+   ],
+   [
+    "bright",
+    null,
+    "light",
+    "cushion",
+    "light"
+   ],
+   [
+    "day",
+    null,
+    "sky",
+    "living",
+    "warm"
+   ]
+  ],
+  "word_candidates": [
+   "sun",
+   "apple",
+   "dog",
+   "hammer",
+   "rain",
+   "sofa"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ },
+ {
+  "id": "obvious_sun-sofa_r1_agentimp",
+  "condition": "faithful",
+  "tier": "obvious",
+  "n_players": 5,
+  "n_rounds": 3,
+  "players": [
+   "Alice",
+   "Bob",
+   "Carol",
+   "Dave",
+   "Erin"
+  ],
+  "agent_seat": 4,
+  "agent_word": "sofa",
+  "true_role": "impostor",
+  "true_impostor_seat": 4,
+  "civilian_word": "sun",
+  "impostor_word": "sofa",
+  "impostor_style": null,
+  "eccentric_seat": null,
+  "seat_words": [
+   "sun",
+   "sun",
+   "sun",
+   "sun",
+   "sofa"
+  ],
+  "clues": [
+   [
+    "day",
+    "day",
+    "bright",
+    "light",
+    null
+   ],
+   [
+    "bright",
+    "light",
+    "light",
+    "warm",
+    null
+   ],
+   [
+    "light",
+    "warm",
+    "warm",
+    "bright",
+    null
+   ]
+  ],
+  "word_candidates": [
+   "sofa",
+   "moon",
+   "sun",
+   "ocean",
+   "hammer",
+   "chair"
+  ],
+  "permutation_of": null,
+  "rep": 1,
+  "seed": 0,
+  "styles_note": "all-prototypical (civ5/own5)"
+ }
+]

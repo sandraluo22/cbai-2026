@@ -1,0 +1,22 @@
+{
+ "model": "QwenInst32",
+ "temp": 0.7,
+ "safety": 24,
+ "n": 16,
+ "conditions": {
+  "struct-city": {
+   "n": 16,
+   "met_frac": 0.0,
+   "turns_mean": null,
+   "pers_mean": 0.06534090909090909,
+   "n_met": 0
+  },
+  "struct-fruit": {
+   "n": 16,
+   "met_frac": 0.1875,
+   "turns_mean": 3.0,
+   "pers_mean": 0.03409090909090909,
+   "n_met": 3
+  }
+ }
+}

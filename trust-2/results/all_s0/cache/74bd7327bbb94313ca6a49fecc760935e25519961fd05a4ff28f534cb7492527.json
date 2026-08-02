@@ -1,0 +1,1 @@
+{"text": "{\n  \"trust\": {\"Indra\": 0.7, \"Devon\": 0.3},\n  \"confidence\": 0.8,\n  \"justification\": \"Indra has a higher accuracy rate (14/20) compared to Devon (6/20), and their final value for CO-807's spectral width is closer to the typical range of spectral widths (which is not provided, but can be inferred from the other values).\"\n}", "trial_id": "cost-0-0016"}

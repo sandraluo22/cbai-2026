@@ -1,0 +1,261 @@
+[
+ {
+  "type": "meta",
+  "quiz": "piano",
+  "true": "piano",
+  "clues": [
+   "it has black and white parts",
+   "a musical instrument",
+   "it has keys",
+   "large and heavy"
+  ],
+  "kind": "word",
+  "wrong_agent": null,
+  "rounds": 20,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "ivory",
+   "guess",
+   "excited",
+   "elephant"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "piano",
+   "piano",
+   "piano",
+   "truck"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "piano",
+   "guitar",
+   "piano",
+   "large"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   4
+  ]
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "piano",
+   "trumpet",
+   "piano",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "piano",
+   "piano",
+   "piano",
+   "say"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 6,
+  "guesses": [
+   "piano",
+   "drums",
+   "keyboard",
+   "said"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 7,
+  "guesses": [
+   "piano",
+   "guitar",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 8,
+  "guesses": [
+   "going",
+   "keyboard",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 9,
+  "guesses": [
+   "piano",
+   "word",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 10,
+  "guesses": [
+   "piano",
+   "guitar",
+   "keyboard",
+   "going"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 11,
+  "guesses": [
+   "piano",
+   "violin",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 12,
+  "guesses": [
+   "going",
+   "piano",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 13,
+  "guesses": [
+   "keyboard",
+   "piano",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 14,
+  "guesses": [
+   "keyboard",
+   "keyboard",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 15,
+  "guesses": [
+   "piano",
+   "violin",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 16,
+  "guesses": [
+   "going",
+   "musical",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": [
+   2
+  ]
+ },
+ {
+  "type": "round",
+  "round": 17,
+  "guesses": [
+   "keyboard",
+   "violin",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 18,
+  "guesses": [
+   "piano",
+   "piano",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 19,
+  "guesses": [
+   "keyboard",
+   "violin",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 20,
+  "guesses": [
+   "piano",
+   "pattern",
+   "keyboard",
+   "stone"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

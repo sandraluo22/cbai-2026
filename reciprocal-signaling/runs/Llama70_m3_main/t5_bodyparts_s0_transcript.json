@@ -1,0 +1,320 @@
+[
+ {
+  "type": "meta",
+  "task": "t5_bodyparts",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for parts of the body",
+  "decoy_A": "words for things that come in pairs",
+  "decoy_B": "words for things on the face",
+  "A_examples": [
+   [
+    "ear",
+    true,
+    "trap"
+   ],
+   [
+    "knee",
+    true,
+    "key"
+   ],
+   [
+    "lamp",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "eye",
+    true,
+    "trap"
+   ],
+   [
+    "nose",
+    true,
+    "key"
+   ],
+   [
+    "carpet",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "liver",
+    true,
+    "both"
+   ],
+   [
+    "spine",
+    true,
+    "both"
+   ],
+   [
+    "stomach",
+    true,
+    "both"
+   ],
+   [
+    "elbow",
+    true,
+    "B"
+   ],
+   [
+    "chin",
+    true,
+    "A"
+   ],
+   [
+    "gloves",
+    false,
+    "A"
+   ],
+   [
+    "socks",
+    false,
+    "A"
+   ],
+   [
+    "beard",
+    false,
+    "B"
+   ],
+   [
+    "glasses",
+    false,
+    "both"
+   ],
+   [
+    "window",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "My best guess of the hidden rule is that a word is labeled 'dax' if it refers to a part of the human body.",
+   "label": "true"
+  },
+  "B": {
+   "raw": "My best guess of the hidden rule is that a word is labeled 'dax' if it is a body part.",
+   "label": "true"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "I'll start by guessing a word that seems similar to the \"dax\" examples I have. How about \"nose\"? I think \"nose\" is dax. Also, I'm curious, are the \"dax\" words related to body parts?",
+  "msg_B": "My message for Round 1: \nI think \"finger\" is dax. I'm guessing that dax words are related to body parts, since \"eye\" and \"nose\" are dax.",
+  "word_A": "ll",
+  "word_B": "message",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "My message for Round 2: \nI think \"toe\" is dax. I'm starting to suspect that dax words are body parts, especially external ones. I'm curious, are there any non-body-part dax words?",
+  "msg_B": "My message for Round 2: I think \"ear\" is dax. I'm still guessing that dax words are body parts, since \"eye\", \"nose\", and \"finger\" fit that pattern. I'm also curious, did your \"nose\" guess match my examples?",
+  "word_A": "message",
+  "word_B": "message",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "I think \"elbow\" is dax. I'm pretty confident now that dax words are external body parts. I wonder, is the rule related to the part's location or function?",
+  "msg_B": "I think \"lip\" is dax. I'm fairly confident that dax words are external body parts, and I'm curious, will we find out the rule after this round?",
+  "word_A": "elbow",
+  "word_B": "lip",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is a body part located on the head.",
+   "label": "mixed:true+decoy_B"
+  },
+  "probes": [
+   {
+    "word": "liver",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "spine",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "stomach",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "elbow",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "chin",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gloves",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the conversation, I would guess that the word 'gloves' is 'not dax'. The reason",
+    "correct": true
+   },
+   {
+    "word": "socks",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "beard",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "glasses",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "window",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_guess": {
+   "raw": "The hidden rule is that a word is labeled 'dax' if it is a body part that is located on the outside of the body.",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "liver",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "spine",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "stomach",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "elbow",
+    "gold": true,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "chin",
+    "gold": true,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "gloves",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "Based on the conversation, I would guess that the word 'gloves' is 'not dax'. The reasoning",
+    "correct": true
+   },
+   {
+    "word": "socks",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "beard",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "glasses",
+    "gold": false,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "window",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

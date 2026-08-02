@@ -1,0 +1,54 @@
+{
+  "backend": "open",
+  "benefit": 10.0,
+  "cost": 5.0,
+  "models": {
+    "Llama": [
+      {
+        "n": 2,
+        "p_volunteer": 0.75,
+        "p_any_empirical": 0.9,
+        "p_any_independent": 0.9375,
+        "nash_p_volunteer": 0.5,
+        "nash_p_any": 0.75,
+        "samples": 20
+      },
+      {
+        "n": 3,
+        "p_volunteer": 0.6,
+        "p_any_empirical": 1.0,
+        "p_any_independent": 0.9359999999999999,
+        "nash_p_volunteer": 0.2928932188134524,
+        "nash_p_any": 0.6464466094067262,
+        "samples": 20
+      },
+      {
+        "n": 5,
+        "p_volunteer": 0.6,
+        "p_any_empirical": 1.0,
+        "p_any_independent": 0.98976,
+        "nash_p_volunteer": 0.1591035847462855,
+        "nash_p_any": 0.5795517923731428,
+        "samples": 20
+      },
+      {
+        "n": 8,
+        "p_volunteer": 0.4,
+        "p_any_empirical": 1.0,
+        "p_any_independent": 0.98320384,
+        "nash_p_volunteer": 0.09427633573609329,
+        "nash_p_any": 0.5471381678680465,
+        "samples": 20
+      },
+      {
+        "n": 12,
+        "p_volunteer": 0.65,
+        "p_any_empirical": 1.0,
+        "p_any_independent": 0.9999966207794919,
+        "nash_p_volunteer": 0.06106908933829369,
+        "nash_p_any": 0.5305345446691471,
+        "samples": 20
+      }
+    ]
+  }
+}

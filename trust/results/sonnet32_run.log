@@ -1,0 +1,39 @@
+=== 13 conditions, ~7296 API calls (model claude-sonnet-4-6) ===
+  [main   ] gap1.5_moderate_lean                       games=20
+  [main   ] gap2.0_moderate_lean                       games=20
+  [main   ] gap3.0_moderate_lean                       games=20
+  [main   ] gap5.0_moderate_lean                       games=20
+  [rep    ] gap2.0_faint_lean                          games=20
+  [rep    ] gap2.0_strong_lean                         games=20
+  [info   ] gap2.0_moderate_self_history               games=20
+  [info   ] gap2.0_moderate_summary                    games=20
+  [info   ] gap2.0_moderate_full                       games=20
+  [robust ] gap2.0_robust_swaplabels                   games=12
+  [robust ] gap2.0_robust_order                        games=12
+  [robust ] gap2.0_robust_paraphrase                   games=12
+  [sanity ] gap2.0_moderate_no_advisor                 games=12
+=== anthropic full run: 228 games, 7296 calls, workers=8 ===
+  10/228 games done
+  20/228 games done
+  30/228 games done
+  40/228 games done
+  50/228 games done
+  60/228 games done
+  70/228 games done
+  80/228 games done
+  90/228 games done
+  100/228 games done
+  110/228 games done
+  120/228 games done
+  130/228 games done
+  140/228 games done
+  150/228 games done
+  160/228 games done
+  170/228 games done
+  180/228 games done
+  190/228 games done
+  200/228 games done
+  210/228 games done
+  220/228 games done
+  228/228 games done
+wrote results/scoped32_sonnet/rounds.jsonl

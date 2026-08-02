@@ -1,0 +1,27 @@
+{
+  "pair": [
+    "ring",
+    "grid",
+    "ring3"
+  ],
+  "words16": [
+    "ocean",
+    "wheel",
+    "jacket",
+    "lemon",
+    "pencil",
+    "cloud",
+    "clock",
+    "planet",
+    "candle",
+    "river",
+    "chair",
+    "bird",
+    "apple",
+    "coin",
+    "bread",
+    "anchor"
+  ],
+  "max_edge_prior": 0.0037577587384285305,
+  "baseline_max_edge_prior": 0.35178219825936524
+}

@@ -1,0 +1,9 @@
+{
+  "centre_of_mass": {
+    "builders (parity write)": 9.115145642184299,
+    "movers (induction QK)": 14.92596190316259,
+    "readers (DLA)": 24.66978212935807,
+    "causal parity-specific (exp4)": 15.28046413310787,
+    "causal redirection (exp4)": 18.163226826388154
+  }
+}

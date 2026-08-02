@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "penguin4_bare", "true": "penguin", "clues": ["black and white", "a bird", "flightless", "polar"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 1, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["tuxedo", "sparrow", "penguin", "north"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["zebra", "owl", "ostrich", "arctic"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["round", "eagle", "emu", "ice"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["snow", "albatross", "mammoth", "pole"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["albatross", "albatross", "polar", "your"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["albatross", "albatross", "polar", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["albatross", "albatross", "albatross", "albatross"], "all_true": false, "clue_violations": []}

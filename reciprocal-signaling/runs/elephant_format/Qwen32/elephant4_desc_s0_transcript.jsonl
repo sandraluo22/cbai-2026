@@ -1,0 +1,21 @@
+{"type": "meta", "quiz": "elephant4_desc", "true": "elephant", "clues": ["its color is gray", "it is very large in size", "it is a kind of animal", "it has a long trunk"], "kind": "word", "wrong_agent": null, "rounds": 20, "seed": 0, "notes": ""}
+{"type": "round", "round": 1, "guesses": ["ash", "universe", "monkey", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["ashenness", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["ash", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 6, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 7, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 8, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 9, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 10, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 11, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 12, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 13, "guesses": ["ashen", "universe", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 14, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 15, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 16, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 17, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 18, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 19, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 20, "guesses": ["ashen", "galaxy", "camel", "elephant"], "all_true": false, "clue_violations": []}

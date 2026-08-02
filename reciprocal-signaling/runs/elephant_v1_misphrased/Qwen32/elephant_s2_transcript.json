@@ -1,0 +1,63 @@
+[
+ {
+  "type": "meta",
+  "true": "elephant",
+  "clues": [
+   "gray",
+   "large",
+   "an animal"
+  ],
+  "rounds": 5,
+  "seed": 2
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "gray",
+   "mountain",
+   "lion"
+  ],
+  "all_true": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "ash",
+   "forest",
+   "camel"
+  ],
+  "all_true": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "ashen",
+   "forest",
+   "giraffe"
+  ],
+  "all_true": false
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "ashen",
+   "forest",
+   "giraffe"
+  ],
+  "all_true": false
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "ashen",
+   "forest",
+   "giraffe"
+  ],
+  "all_true": false
+ }
+]

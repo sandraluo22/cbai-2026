@@ -1,0 +1,41 @@
+{
+  "model": "LlamaInstruct",
+  "conditions": [
+    "baseline",
+    "ablate_gridparity",
+    "ablate_ringcoord"
+  ],
+  "families": {},
+  "tori": {},
+  "controls": {},
+  "cyclic": {
+    "months": {
+      "baseline": 0.992,
+      "ablate_gridparity": 0.955,
+      "ablate_ringcoord": 0.985
+    },
+    "days": {
+      "baseline": 0.929,
+      "ablate_gridparity": 0.905,
+      "ablate_ringcoord": 0.929
+    }
+  },
+  "cyclic_by_nshot": {
+    "0": {
+      "months": {
+        "baseline": 0.992,
+        "own_months": 0.5,
+        "cross_days": 0.955,
+        "ringcoord16": 0.985,
+        "gridparity": 0.955
+      },
+      "days": {
+        "baseline": 0.929,
+        "own_days": 0.452,
+        "cross_months": 0.81,
+        "ringcoord16": 0.929,
+        "gridparity": 0.905
+      }
+    }
+  }
+}

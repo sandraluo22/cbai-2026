@@ -1,0 +1,342 @@
+[
+ {
+  "type": "meta",
+  "task": "t6_weather",
+  "cond": "main",
+  "m": 3,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for weather phenomena",
+  "decoy_A": "words for things that fall from the sky",
+  "decoy_B": "words for cold things",
+  "A_examples": [
+   [
+    "snow",
+    true,
+    "trap"
+   ],
+   [
+    "rain",
+    true,
+    "key"
+   ],
+   [
+    "sofa",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "hail",
+    true,
+    "trap"
+   ],
+   [
+    "frost",
+    true,
+    "key"
+   ],
+   [
+    "guitar",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "fog",
+    true,
+    "both"
+   ],
+   [
+    "thunder",
+    true,
+    "both"
+   ],
+   [
+    "heatwave",
+    true,
+    "both"
+   ],
+   [
+    "drought",
+    true,
+    "both"
+   ],
+   [
+    "breeze",
+    true,
+    "both"
+   ],
+   [
+    "meteor",
+    false,
+    "A"
+   ],
+   [
+    "confetti",
+    false,
+    "A"
+   ],
+   [
+    "refrigerator",
+    false,
+    "B"
+   ],
+   [
+    "icicle",
+    false,
+    "B"
+   ],
+   [
+    "wallet",
+    false,
+    "none"
+   ]
+  ]
+ },
+ {
+  "type": "pre_fc",
+  "A": {
+   "raw": "3",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 1
+  },
+  "B": {
+   "raw": "3",
+   "order": [
+    2,
+    1,
+    0
+   ],
+   "picked": 0
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "I think the rule might have to do with whether the word rhymes with another word that is \"dax.\" Do you think that could be part of the pattern?",
+  "msg_B": "What do you think the rule is based on your examples? Do you think it has to do with word length, sound, or meaning?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": null,
+  "tag_B": null
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "Let\u2019s test the rhyme idea: if \"dax\" rhymes with \"fax,\" does \"tax\" get labeled \"dax\"? What about \"map\"?",
+  "msg_B": "Your message: I don\u2019t think it\u2019s about rhyming, since \"hail\" and \"frost\" don\u2019t rhyme with each other or clearly with \"dax.\" Maybe it\u2019s about meaning\u2014like weather-related words? \"Hail\" and \"frost\" are weather terms, but \"guitar\" isn\u2019t. Partner, what examples did you see?  \nPartner\u2019s message: [Not shown to you.]",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": null,
+  "tag_B": "key+neg+trap"
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "Let\u2019s focus on meaning. If \"snow\" and \"rain\" are \"dax,\" maybe the rule is about precipitation or weather phenomena. What about \"sleet\" or \"drizzle\"\u2014would they be \"dax\"?",
+  "msg_B": "Let\u2019s consider categories: if \"hail\" and \"frost\" are \"dax,\" maybe it\u2019s nouns related to nature or cold? But \"guitar\" is a noun and not \"dax.\" Could it be syllable count? \"Hail\" and \"frost\" have one syllable; \"guitar\" has two. Let\u2019s test: does \"snow\" get labeled \"dax\"?",
+  "fallback_A": false,
+  "fallback_B": false,
+  "tag_A": "key+trap",
+  "tag_B": "key+neg+trap"
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_fc": {
+   "raw": "2",
+   "order": [
+    0,
+    1,
+    2
+   ],
+   "picked": 1
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is that a word is labeled \"dax\" if it is a **one-syllable noun related to weather or natural phenomena**."
+ },
+ {
+  "type": "test",
+  "agent": "B",
+  "post_fc": {
+   "raw": "1",
+   "order": [
+    0,
+    2,
+    1
+   ],
+   "picked": 0
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ],
+  "free_rule": "The hidden rule is that a word is labeled \"dax\" if it is a **one-syllable noun**.  \n- \"Hail,\" \"frost,\" and \"snow\" are one-syllable nouns \u2192 **dax**.  \n- \"Guitar\" is a two"
+ }
+]

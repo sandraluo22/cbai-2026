@@ -1,0 +1,81 @@
+[
+ {
+  "type": "meta",
+  "quiz": "echo",
+  "true": "echo",
+  "clues": [
+   "you can hear it",
+   "it repeats",
+   "you notice it in the mountains",
+   "you cannot see it",
+   "it fades away"
+  ],
+  "rounds": 5,
+  "seed": 0
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "guesses": [
+   "sound",
+   "echo",
+   "mountain",
+   "air",
+   "memory"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "guesses": [
+   "whisper",
+   "echo",
+   "peak",
+   "wind",
+   "shadow"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "guesses": [
+   "voice",
+   "echo",
+   "echo",
+   "silence",
+   "memory"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 4,
+  "guesses": [
+   "echo",
+   "echo",
+   "echo",
+   "silence",
+   "echo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ },
+ {
+  "type": "round",
+  "round": 5,
+  "guesses": [
+   "echo",
+   "echo",
+   "echo",
+   "silence",
+   "echo"
+  ],
+  "all_true": false,
+  "clue_violations": []
+ }
+]

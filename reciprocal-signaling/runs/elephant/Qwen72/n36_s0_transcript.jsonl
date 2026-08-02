@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "n36", "true": "36", "clues": ["a multiple of 12", "divisible by 9", "it has 2 digits", "composite", "smaller than 50"], "kind": "number", "wrong_agent": null, "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["12", "9", "12", "4", "25"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["24", "18", "15", "10", "20"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["36", "27", "17", "14", "17"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["48", "36", "19", "16", "15"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["60", "45", "21", "20", "13"], "all_true": false, "clue_violations": []}

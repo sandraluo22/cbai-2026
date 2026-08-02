@@ -1,0 +1,75 @@
+{
+  "mode": "patch",
+  "ring": "pretrained",
+  "layer": 26,
+  "ctx_depth": 800,
+  "eps": 0.1399386394873829,
+  "tangent_gain_cv": 0.2770949318555058,
+  "mean_conformality": 0.47020708789766924,
+  "onoff_ratio": 2.0650581172071516,
+  "records": [
+    {
+      "node": 0,
+      "day": "Monday",
+      "gain_tangent": 0.07999005168019004,
+      "gain_radial": 0.059026600542195586,
+      "gain_offplane_mean": 0.040622898703643204,
+      "gain_offplane_std": 0.02748100807325965,
+      "conformality_sv_ratio": 0.6990329043711283
+    },
+    {
+      "node": 1,
+      "day": "Thursday",
+      "gain_tangent": 0.07000258161364448,
+      "gain_radial": 0.028669392201165447,
+      "gain_offplane_mean": 0.013142594651176981,
+      "gain_offplane_std": 0.013649854800836737,
+      "conformality_sv_ratio": 0.40952153000394265
+    },
+    {
+      "node": 2,
+      "day": "Sunday",
+      "gain_tangent": 0.09174542502473365,
+      "gain_radial": 0.04391096783384947,
+      "gain_offplane_mean": 0.032081472710918296,
+      "gain_offplane_std": 0.01336384846301133,
+      "conformality_sv_ratio": 0.4669570630614051
+    },
+    {
+      "node": 3,
+      "day": "Wednesday",
+      "gain_tangent": 0.047799510430840984,
+      "gain_radial": 0.07414209807472329,
+      "gain_offplane_mean": 0.03643530440361235,
+      "gain_offplane_std": 0.019122020012087796,
+      "conformality_sv_ratio": 0.4022879862503651
+    },
+    {
+      "node": 4,
+      "day": "Saturday",
+      "gain_tangent": 0.09819142590690058,
+      "gain_radial": 0.03030595524268083,
+      "gain_offplane_mean": 0.04553269146845044,
+      "gain_offplane_std": 0.027986436519159944,
+      "conformality_sv_ratio": 0.30596971905236103
+    },
+    {
+      "node": 5,
+      "day": "Tuesday",
+      "gain_tangent": 0.04966126850451833,
+      "gain_radial": 0.08774268103653815,
+      "gain_offplane_mean": 0.0275931928957752,
+      "gain_offplane_std": 0.016919936674505504,
+      "conformality_sv_ratio": 0.565305706130782
+    },
+    {
+      "node": 6,
+      "day": "Friday",
+      "gain_tangent": 0.051380602709659384,
+      "gain_radial": 0.04213159362637399,
+      "gain_offplane_mean": 0.04127809714054052,
+      "gain_offplane_std": 0.02336719885974446,
+      "conformality_sv_ratio": 0.44237470641370086
+    }
+  ]
+}

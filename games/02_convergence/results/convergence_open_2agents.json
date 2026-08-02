@@ -1,0 +1,560 @@
+{
+  "backend": "open",
+  "n_agents": 2,
+  "agents": [
+    "Llama",
+    "Gemma"
+  ],
+  "sim_thresh": 0.6,
+  "stable_rounds": 3,
+  "max_rounds_ceiling": 60,
+  "no_repeats": true,
+  "converged": false,
+  "converged_at_round": null,
+  "final_words": {
+    "Llama": "you've",
+    "Gemma": "explore"
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "words": {
+        "Llama": "cloud",
+        "Gemma": "sky"
+      },
+      "sim": 0.506321583082911,
+      "spread": 0.49682915494629526
+    },
+    {
+      "round": 1,
+      "words": {
+        "Llama": "plane",
+        "Gemma": "blue"
+      },
+      "sim": 0.26815391297944413,
+      "spread": 0.6049157702870399
+    },
+    {
+      "round": 2,
+      "words": {
+        "Llama": "racing",
+        "Gemma": "airport"
+      },
+      "sim": 0.139815167577269,
+      "spread": 0.6558143397735374
+    },
+    {
+      "round": 3,
+      "words": {
+        "Llama": "flight",
+        "Gemma": "travel"
+      },
+      "sim": 0.6926178153850674,
+      "spread": 0.39203459248108213
+    },
+    {
+      "round": 4,
+      "words": {
+        "Llama": "passenger",
+        "Gemma": "destination"
+      },
+      "sim": 0.5032027365729453,
+      "spread": 0.4983961211639909
+    },
+    {
+      "round": 5,
+      "words": {
+        "Llama": "trip",
+        "Gemma": "journey"
+      },
+      "sim": 0.6452829744412872,
+      "spread": 0.4211395801084611
+    },
+    {
+      "round": 6,
+      "words": {
+        "Llama": "converged",
+        "Gemma": "world"
+      },
+      "sim": 0.2626967262270821,
+      "spread": 0.6071668994550596
+    },
+    {
+      "round": 7,
+      "words": {
+        "Llama": "wait",
+        "Gemma": "explore"
+      },
+      "sim": 0.18895923119298919,
+      "spread": 0.6368048478752727
+    },
+    {
+      "round": 8,
+      "words": {
+        "Llama": "have",
+        "Gemma": "discover"
+      },
+      "sim": 0.17682401669101785,
+      "spread": 0.6415512546321379
+    },
+    {
+      "round": 9,
+      "words": {
+        "Llama": "already",
+        "Gemma": "adventure"
+      },
+      "sim": 0.24852805308762932,
+      "spread": 0.6129731071775124
+    },
+    {
+      "round": 10,
+      "words": {
+        "Llama": "note",
+        "Gemma": "explore"
+      },
+      "sim": 0.2178163613856527,
+      "spread": 0.6253733477648031
+    },
+    {
+      "round": 11,
+      "words": {
+        "Llama": "think",
+        "Gemma": "discovery"
+      },
+      "sim": 0.21566516601826669,
+      "spread": 0.6262327193338992
+    },
+    {
+      "round": 12,
+      "words": {
+        "Llama": "guess",
+        "Gemma": "voyage"
+      },
+      "sim": 0.19611506552005675,
+      "spread": 0.633989331254109
+    },
+    {
+      "round": 13,
+      "words": {
+        "Llama": "turn",
+        "Gemma": "adventure"
+      },
+      "sim": 0.26011155774566835,
+      "spread": 0.6082304315432325
+    },
+    {
+      "round": 14,
+      "words": {
+        "Llama": "you",
+        "Gemma": "discover"
+      },
+      "sim": 0.2328434347218521,
+      "spread": 0.619336971431865
+    },
+    {
+      "round": 15,
+      "words": {
+        "Llama": "response",
+        "Gemma": "world"
+      },
+      "sim": 0.3074883689580334,
+      "spread": 0.588435072201009
+    },
+    {
+      "round": 16,
+      "words": {
+        "Llama": "seems",
+        "Gemma": "travel"
+      },
+      "sim": 0.18388294622167164,
+      "spread": 0.6387946096665178
+    },
+    {
+      "round": 17,
+      "words": {
+        "Llama": "has",
+        "Gemma": "journey"
+      },
+      "sim": 0.21018649095926,
+      "spread": 0.6284160870001249
+    },
+    {
+      "round": 18,
+      "words": {
+        "Llama": "air",
+        "Gemma": "adventure"
+      },
+      "sim": 0.28249632914154504,
+      "spread": 0.598958991726888
+    },
+    {
+      "round": 19,
+      "words": {
+        "Llama": "like",
+        "Gemma": "discovery"
+      },
+      "sim": 0.21476249937923936,
+      "spread": 0.6265929630426219
+    },
+    {
+      "round": 20,
+      "words": {
+        "Llama": "review",
+        "Gemma": "explore"
+      },
+      "sim": 0.32714319286588667,
+      "spread": 0.5800245276597127
+    },
+    {
+      "round": 21,
+      "words": {
+        "Llama": "vessel",
+        "Gemma": "destination"
+      },
+      "sim": 0.37669917353624444,
+      "spread": 0.5582566164527634
+    },
+    {
+      "round": 22,
+      "words": {
+        "Llama": "like",
+        "Gemma": "voyage"
+      },
+      "sim": 0.16755723716800985,
+      "spread": 0.6451522100708869
+    },
+    {
+      "round": 23,
+      "words": {
+        "Llama": "raced",
+        "Gemma": "travel"
+      },
+      "sim": 0.2825341829799787,
+      "spread": 0.5989432082280519
+    },
+    {
+      "round": 24,
+      "words": {
+        "Llama": "review",
+        "Gemma": "journey"
+      },
+      "sim": 0.24856303737046598,
+      "spread": 0.6129588334145201
+    },
+    {
+      "round": 25,
+      "words": {
+        "Llama": "discover",
+        "Gemma": "adventure"
+      },
+      "sim": 0.36125607304757273,
+      "spread": 0.5651300517104697
+    },
+    {
+      "round": 26,
+      "words": {
+        "Llama": "explorer",
+        "Gemma": "world"
+      },
+      "sim": 0.2551104800337929,
+      "spread": 0.610282547246925
+    },
+    {
+      "round": 27,
+      "words": {
+        "Llama": "exploration",
+        "Gemma": "travel"
+      },
+      "sim": 0.5553948068669882,
+      "spread": 0.471489794464626
+    },
+    {
+      "round": 28,
+      "words": {
+        "Llama": "goal",
+        "Gemma": "discovery"
+      },
+      "sim": 0.283774420017787,
+      "spread": 0.5984252487321824
+    },
+    {
+      "round": 29,
+      "words": {
+        "Llama": "seems",
+        "Gemma": "adventure"
+      },
+      "sim": 0.18657020082174874,
+      "spread": 0.6377420482653257
+    },
+    {
+      "round": 30,
+      "words": {
+        "Llama": "review",
+        "Gemma": "journey"
+      },
+      "sim": 0.24856303737046598,
+      "spread": 0.6129588334145201
+    },
+    {
+      "round": 31,
+      "words": {
+        "Llama": "discover",
+        "Gemma": "destination"
+      },
+      "sim": 0.26843778462181855,
+      "spread": 0.6047984282710898
+    },
+    {
+      "round": 32,
+      "words": {
+        "Llama": "explorer",
+        "Gemma": "explore"
+      },
+      "sim": 0.5929894353351216,
+      "spread": 0.4511156320480358
+    },
+    {
+      "round": 33,
+      "words": {
+        "Llama": "apologies",
+        "Gemma": "adventure"
+      },
+      "sim": 0.10104314094094245,
+      "spread": 0.670431565368356
+    },
+    {
+      "round": 34,
+      "words": {
+        "Llama": "not",
+        "Gemma": "discover"
+      },
+      "sim": 0.2049185632795653,
+      "spread": 0.6305083008461774
+    },
+    {
+      "round": 35,
+      "words": {
+        "Llama": "must",
+        "Gemma": "world"
+      },
+      "sim": 0.23410004197569462,
+      "spread": 0.6188295202882772
+    },
+    {
+      "round": 36,
+      "words": {
+        "Llama": "gemma",
+        "Gemma": "travel"
+      },
+      "sim": 0.17779210473468887,
+      "spread": 0.6411739038501081
+    },
+    {
+      "round": 37,
+      "words": {
+        "Llama": "assume",
+        "Gemma": "explore"
+      },
+      "sim": 0.22076816232481317,
+      "spread": 0.6241922188816001
+    },
+    {
+      "round": 38,
+      "words": {
+        "Llama": "noticed",
+        "Gemma": "journey"
+      },
+      "sim": 0.15753255182856205,
+      "spread": 0.6490252135591978
+    },
+    {
+      "round": 39,
+      "words": {
+        "Llama": "think",
+        "Gemma": "destination"
+      },
+      "sim": 0.2697084619358704,
+      "spread": 0.6042729701355225
+    },
+    {
+      "round": 40,
+      "words": {
+        "Llama": "airport",
+        "Gemma": "discover"
+      },
+      "sim": 0.20103195880344124,
+      "spread": 0.6320474863234012
+    },
+    {
+      "round": 41,
+      "words": {
+        "Llama": "has",
+        "Gemma": "adventure"
+      },
+      "sim": 0.24972049525980805,
+      "spread": 0.6124865626516884
+    },
+    {
+      "round": 42,
+      "words": {
+        "Llama": "gemmas",
+        "Gemma": "travel"
+      },
+      "sim": 0.19033964350485807,
+      "spread": 0.6362626854558934
+    },
+    {
+      "round": 43,
+      "words": {
+        "Llama": "converge",
+        "Gemma": "explore"
+      },
+      "sim": 0.2005179992349578,
+      "spread": 0.6322507418751109
+    },
+    {
+      "round": 44,
+      "words": {
+        "Llama": "play",
+        "Gemma": "destination"
+      },
+      "sim": 0.23677874344682295,
+      "spread": 0.6177464443791426
+    },
+    {
+      "round": 45,
+      "words": {
+        "Llama": "isn't",
+        "Gemma": "journey"
+      },
+      "sim": 0.18508752553256913,
+      "spread": 0.6383229921773531
+    },
+    {
+      "round": 46,
+      "words": {
+        "Llama": "isn't",
+        "Gemma": "discover"
+      },
+      "sim": 0.18029348742590412,
+      "spread": 0.6401978196812678
+    },
+    {
+      "round": 47,
+      "words": {
+        "Llama": "explorers",
+        "Gemma": "adventure"
+      },
+      "sim": 0.5167330028548298,
+      "spread": 0.4915623493983795
+    },
+    {
+      "round": 48,
+      "words": {
+        "Llama": "mistake",
+        "Gemma": "world"
+      },
+      "sim": 0.3151478637272223,
+      "spread": 0.585171830583747
+    },
+    {
+      "round": 49,
+      "words": {
+        "Llama": "travelled",
+        "Gemma": "travel"
+      },
+      "sim": 0.8196194365194753,
+      "spread": 0.3003170251936398
+    },
+    {
+      "round": 50,
+      "words": {
+        "Llama": "waiting",
+        "Gemma": "explore"
+      },
+      "sim": 0.2123477442037248,
+      "spread": 0.6275556933955745
+    },
+    {
+      "round": 51,
+      "words": {
+        "Llama": "guess",
+        "Gemma": "destination"
+      },
+      "sim": 0.32016266182853154,
+      "spread": 0.5830254916394909
+    },
+    {
+      "round": 52,
+      "words": {
+        "Llama": "discovered",
+        "Gemma": "journey"
+      },
+      "sim": 0.33485566745652573,
+      "spread": 0.5766907278380283
+    },
+    {
+      "round": 53,
+      "words": {
+        "Llama": "hasn't",
+        "Gemma": "adventure"
+      },
+      "sim": 0.13553370982126564,
+      "spread": 0.6574444167031095
+    },
+    {
+      "round": 54,
+      "words": {
+        "Llama": "explorer's",
+        "Gemma": "discover"
+      },
+      "sim": 0.31964975985209226,
+      "spread": 0.5832453331994484
+    },
+    {
+      "round": 55,
+      "words": {
+        "Llama": "vessel",
+        "Gemma": "world"
+      },
+      "sim": 0.2539598424713985,
+      "spread": 0.6107536968420287
+    },
+    {
+      "round": 56,
+      "words": {
+        "Llama": "exploration's",
+        "Gemma": "travel"
+      },
+      "sim": 0.46781768586571637,
+      "spread": 0.5158402429433497
+    },
+    {
+      "round": 57,
+      "words": {
+        "Llama": "won't",
+        "Gemma": "journey"
+      },
+      "sim": 0.1733525223898427,
+      "spread": 0.6429026071185399
+    },
+    {
+      "round": 58,
+      "words": {
+        "Llama": "waiting",
+        "Gemma": "adventure"
+      },
+      "sim": 0.23543286095487995,
+      "spread": 0.618290873410351
+    },
+    {
+      "round": 59,
+      "words": {
+        "Llama": "you've",
+        "Gemma": "explore"
+      },
+      "sim": 0.1769594620450778,
+      "spread": 0.6414984853515117
+    }
+  ]
+}

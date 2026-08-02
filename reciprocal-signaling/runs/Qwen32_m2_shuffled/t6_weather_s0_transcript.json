@@ -1,0 +1,231 @@
+[
+ {
+  "type": "meta",
+  "task": "t6_weather",
+  "cond": "shuffled",
+  "m": 2,
+  "rounds": 3,
+  "seed": 0,
+  "true": "words for weather phenomena",
+  "decoy_A": "words for things that fall from the sky",
+  "decoy_B": "words for cold things",
+  "A_examples": [
+   [
+    "snow",
+    true,
+    "trap"
+   ],
+   [
+    "rain",
+    true,
+    "key"
+   ],
+   [
+    "sofa",
+    false,
+    "neg"
+   ]
+  ],
+  "B_examples": [
+   [
+    "hail",
+    true,
+    "trap"
+   ],
+   [
+    "frost",
+    true,
+    "key"
+   ],
+   [
+    "guitar",
+    false,
+    "neg"
+   ]
+  ],
+  "probes": [
+   [
+    "fog",
+    true,
+    "both"
+   ],
+   [
+    "thunder",
+    true,
+    "both"
+   ],
+   [
+    "heatwave",
+    true,
+    "both"
+   ],
+   [
+    "drought",
+    true,
+    "both"
+   ],
+   [
+    "breeze",
+    true,
+    "both"
+   ],
+   [
+    "meteor",
+    false,
+    "A"
+   ],
+   [
+    "confetti",
+    false,
+    "A"
+   ],
+   [
+    "refrigerator",
+    false,
+    "B"
+   ],
+   [
+    "icicle",
+    false,
+    "B"
+   ],
+   [
+    "wallet",
+    false,
+    "none"
+   ]
+  ],
+  "shuffled_from": "t1_animals_s0_transcript.jsonl"
+ },
+ {
+  "type": "pre_guess",
+  "A": {
+   "raw": "The hidden rule is likely: **A word is \"dax\" if it contains the letter 'a'**.  \n\n- \"Snow\" and \"rain\" both contain the letter 'a'.\n- \"Sofa\" also contains 'a', but is labeled \"not dax\", so",
+   "label": "other"
+  },
+  "B": {
+   "raw": "The hidden rule is likely: **\"Words with exactly four letters are 'dax'.\"**  \n- *hail* (4 letters) is dax  \n- *frost* (5 letters) is dax \u2192 contradicts this  \n- *guitar* (6 letters)",
+   "label": "other"
+  }
+ },
+ {
+  "type": "round",
+  "round": 1,
+  "msg_A": "glow is dax. It shares a soft, gentle quality with snow and rain.",
+  "msg_B": "duck is dax. I think water-related words are dax.",
+  "word_A": "glow",
+  "word_B": "duck",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 2,
+  "msg_A": "breeze is dax. It's gentle and often linked to weather like snow and rain.",
+  "msg_B": "goat is not dax. I think the rule is about aquatic animals.",
+  "word_A": "breeze",
+  "word_B": "goat",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "round",
+  "round": 3,
+  "msg_A": "mist is dax. It connects to weather and has a soft, gentle nature like snow and rain.",
+  "msg_B": "shark is dax. I think the rule is about animals that live in water.",
+  "word_A": "mist",
+  "word_B": "shark",
+  "fallback_A": false,
+  "fallback_B": false
+ },
+ {
+  "type": "test",
+  "agent": "A",
+  "post_guess": {
+   "raw": "The hidden rule is: **A word is \"dax\" if it refers to a gentle, natural weather phenomenon.**",
+   "label": "true"
+  },
+  "probes": [
+   {
+    "word": "fog",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "thunder",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "heatwave",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "drought",
+    "gold": true,
+    "tag": "both",
+    "pred": false,
+    "raw": "not dax",
+    "correct": false
+   },
+   {
+    "word": "breeze",
+    "gold": true,
+    "tag": "both",
+    "pred": true,
+    "raw": "dax",
+    "correct": true
+   },
+   {
+    "word": "meteor",
+    "gold": false,
+    "tag": "A",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "confetti",
+    "gold": false,
+    "tag": "A",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "refrigerator",
+    "gold": false,
+    "tag": "B",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   },
+   {
+    "word": "icicle",
+    "gold": false,
+    "tag": "B",
+    "pred": true,
+    "raw": "dax",
+    "correct": false
+   },
+   {
+    "word": "wallet",
+    "gold": false,
+    "tag": "none",
+    "pred": false,
+    "raw": "not dax",
+    "correct": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,1122 @@
+[
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 1,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 2,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 3,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 4,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 5,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 6,
+    "A": "sealed",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 0,
+    "turn": 7,
+    "A": "plum",
+    "B": "plum",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 1,
+    "turn": 1,
+    "A": "faced",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 1,
+    "turn": 2,
+    "A": "apple",
+    "B": "apple",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 1,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 2,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 3,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 4,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 5,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 6,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 7,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 8,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 9,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 10,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 11,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 12,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 13,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 14,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 15,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 16,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 17,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 18,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 19,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 20,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 21,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 22,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 2,
+    "turn": 23,
+    "A": "begun",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 3,
+    "turn": 1,
+    "A": "university",
+    "B": "lychee",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 3,
+    "turn": 2,
+    "A": "lychee",
+    "B": "lychee",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 4,
+    "turn": 1,
+    "A": "diarrhea",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 4,
+    "turn": 2,
+    "A": "diarrhea",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 4,
+    "turn": 3,
+    "A": "diarrhea",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 4,
+    "turn": 4,
+    "A": "diarrhea",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 4,
+    "turn": 5,
+    "A": "apple",
+    "B": "apple",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 1,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 2,
+    "A": "scattered",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 3,
+    "A": "scattered",
+    "B": "orange",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 4,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 5,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 6,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 7,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 8,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 9,
+    "A": "scattered",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 5,
+    "turn": 10,
+    "A": "apple",
+    "B": "apple",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 1,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 2,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 3,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 4,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 5,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 6,
+    "A": "clinic",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 6,
+    "turn": 7,
+    "A": "clinic",
+    "B": "clinic",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 7,
+    "turn": 1,
+    "A": "modular",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 7,
+    "turn": 2,
+    "A": "modular",
+    "B": "mango",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 7,
+    "turn": 3,
+    "A": "modular",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 7,
+    "turn": 4,
+    "A": "modular",
+    "B": "modular",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 1,
+    "A": "proudly",
+    "B": "kiwi",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 2,
+    "A": "proudly",
+    "B": "apricot",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 3,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 4,
+    "A": "proudly",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 5,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 6,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 7,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 8,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 9,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 10,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 11,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 12,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 13,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 14,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 15,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 16,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 17,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 18,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 19,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 20,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 21,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 22,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 8,
+    "turn": 23,
+    "A": "proudly",
+    "B": "pomegran",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 9,
+    "turn": 1,
+    "A": "promptly",
+    "B": "boom",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 9,
+    "turn": 2,
+    "A": "boom",
+    "B": "boom",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 1,
+    "A": "brief",
+    "B": "plum",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 2,
+    "A": "brief",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 3,
+    "A": "brief",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 4,
+    "A": "brief",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 5,
+    "A": "brief",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 10,
+    "turn": 6,
+    "A": "apple",
+    "B": "apple",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 11,
+    "turn": 1,
+    "A": "scripted",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 11,
+    "turn": 2,
+    "A": "scripted",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 11,
+    "turn": 3,
+    "A": "scripted",
+    "B": "scripted",
+    "agreed": true
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 1,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 2,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 3,
+    "A": "tracks",
+    "B": "banana",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 4,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 5,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 6,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 7,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 8,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 9,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 10,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 11,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 12,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 13,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 14,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 15,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 16,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 17,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 18,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 19,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 20,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 21,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 22,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 12,
+    "turn": 23,
+    "A": "tracks",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 1,
+    "A": "previously",
+    "B": "paradise",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 2,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 3,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 4,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 5,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 6,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 7,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 8,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 9,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 10,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 11,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 12,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 13,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 14,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 15,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 16,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 17,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 18,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 19,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 20,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 21,
+    "A": "previously",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 22,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  },
+  {
+    "cond": "repeatok-fruit",
+    "rollout": 13,
+    "turn": 23,
+    "A": "paradise",
+    "B": "apple",
+    "agreed": false
+  }
+]

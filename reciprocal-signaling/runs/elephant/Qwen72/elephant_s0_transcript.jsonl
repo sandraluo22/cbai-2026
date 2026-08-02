@@ -1,0 +1,6 @@
+{"type": "meta", "quiz": "elephant", "true": "elephant", "clues": ["gray", "large", "an animal"], "rounds": 5, "seed": 0}
+{"type": "round", "round": 1, "guesses": ["wolf", "elephant", "dog"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 2, "guesses": ["tiger", "giraffe", "cat"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 3, "guesses": ["leopard", "lion", "lion"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 4, "guesses": ["panther", "whale", "tiger"], "all_true": false, "clue_violations": []}
+{"type": "round", "round": 5, "guesses": ["panther", "elephant", "leopard"], "all_true": false, "clue_violations": []}
