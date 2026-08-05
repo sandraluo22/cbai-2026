@@ -1,0 +1,8862 @@
+[
+ {
+  "type": "meta",
+  "var": "curve",
+  "model": "claude-sonnet-5",
+  "rounds": 20,
+  "n": 5,
+  "k": 3,
+  "steps": 40,
+  "temp": 1.0,
+  "seed": 0,
+  "labels": [
+   "fouis",
+   "ivuia",
+   "kaqve"
+  ],
+  "names": false,
+  "fresh": true,
+  "notes": "append",
+  "backend": "api"
+ },
+ {
+  "type": "round_start",
+  "round": 1,
+  "correct": "fouis",
+  "labels": [
+   "fouis",
+   "ivuia",
+   "kaqve"
+  ],
+  "clue": "fouis",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "fouis",
+   "2": "ivuia"
+  }
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 0,
+  "S": 5,
+  "L": 1,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 1,
+  "S": 4,
+  "L": 1,
+  "s_label": "kaqve",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 2,
+  "S": 1,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 3,
+  "S": 3,
+  "L": 4,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 4,
+  "S": 4,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 5,
+  "S": 2,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 6,
+  "S": 3,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 7,
+  "S": 3,
+  "L": 5,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 8,
+  "S": 1,
+  "L": 5,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 9,
+  "S": 1,
+  "L": 3,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 10,
+  "S": 3,
+  "L": 4,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 11,
+  "S": 5,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 12,
+  "S": 2,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 13,
+  "S": 2,
+  "L": 5,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 14,
+  "S": 2,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 15,
+  "S": 4,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 16,
+  "S": 4,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 17,
+  "S": 2,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 18,
+  "S": 5,
+  "L": 2,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 19,
+  "S": 3,
+  "L": 2,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 20,
+  "S": 1,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 21,
+  "S": 4,
+  "L": 1,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 22,
+  "S": 5,
+  "L": 4,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 23,
+  "S": 2,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 24,
+  "S": 4,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 25,
+  "S": 2,
+  "L": 4,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 26,
+  "S": 3,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 27,
+  "S": 4,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 28,
+  "S": 1,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 29,
+  "S": 4,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 30,
+  "S": 4,
+  "L": 2,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 31,
+  "S": 1,
+  "L": 2,
+  "s_label": "fouis",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 32,
+  "S": 4,
+  "L": 2,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 33,
+  "S": 2,
+  "L": 4,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 34,
+  "S": 2,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 35,
+  "S": 3,
+  "L": 2,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 36,
+  "S": 2,
+  "L": 5,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 37,
+  "S": 4,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 38,
+  "S": 4,
+  "L": 3,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 1,
+  "t": 39,
+  "S": 3,
+  "L": 1,
+  "s_label": "ivuia",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 1,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "fouis",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "ivuia",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "ivuia",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "ivuia",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "ivuia",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 1,
+  "text": "Note: Round 1's correct label was \"fouis,\" though most players said \"ivuia\" (majority \u2260 correct). This suggests peer consensus doesn't reliably indicate the correct answer. I should prioritize my private clue over observed frequency when they conflict."
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 2,
+  "text": "Private note: Round 1's correct answer was \"fouis\" despite mixed signals (\"fouis\" and \"ivuia\" both frequent). My private clue said \"ivuia\" but the actual correct label was \"fouis\" \u2014 private clues may be unreliable or noisy. Trust convergence/"
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 3,
+  "text": "Note: In round 1, most partners said \"ivuia\" but the correct answer was \"fouis\" (matching P1's message). This suggests majority label isn't reliable\u2014individual correctness matters more than consensus. I'll stay flexible and avoid assuming popular labels are correct."
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 4,
+  "text": "Note: Round 1's correct answer was \"fouis\" for ref_07, despite most partners (P3, P5, P2) saying \"ivuia\". Majority vote isn't reliable here\u2014correct answers seem arbitrary per referent. I'll need to track per-referent history carefully r"
+ },
+ {
+  "type": "note",
+  "round": 1,
+  "agent": 5,
+  "text": "Round 1 note: The correct answer was \"fouis,\" but most partners (P3, P2, P2) said \"ivuia\" \u2014 only P1 matched the correct label. This suggests majority vote among peers isn't reliable; correctness may need independent verification rather than assuming consensus reflects"
+ },
+ {
+  "type": "round_start",
+  "round": 2,
+  "correct": "pzccb",
+  "labels": [
+   "cmhtq",
+   "ipjgr",
+   "pzccb"
+  ],
+  "clue": "pzccb",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "pzccb",
+   "2": "pzccb"
+  }
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 0,
+  "S": 1,
+  "L": 2,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 1,
+  "S": 3,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 2,
+  "S": 1,
+  "L": 2,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 3,
+  "S": 3,
+  "L": 1,
+  "s_label": "ipjgr",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 4,
+  "S": 3,
+  "L": 5,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 5,
+  "S": 5,
+  "L": 4,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 6,
+  "S": 4,
+  "L": 3,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 7,
+  "S": 3,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 8,
+  "S": 3,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 9,
+  "S": 1,
+  "L": 2,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 10,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 11,
+  "S": 5,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 12,
+  "S": 3,
+  "L": 5,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 13,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 14,
+  "S": 1,
+  "L": 5,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 15,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 16,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 17,
+  "S": 2,
+  "L": 4,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 18,
+  "S": 3,
+  "L": 4,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 19,
+  "S": 1,
+  "L": 3,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 20,
+  "S": 3,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 21,
+  "S": 5,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 22,
+  "S": 5,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 23,
+  "S": 1,
+  "L": 2,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 24,
+  "S": 3,
+  "L": 5,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 25,
+  "S": 5,
+  "L": 1,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 26,
+  "S": 1,
+  "L": 3,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 27,
+  "S": 3,
+  "L": 4,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 28,
+  "S": 1,
+  "L": 4,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 29,
+  "S": 4,
+  "L": 1,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 30,
+  "S": 5,
+  "L": 3,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 31,
+  "S": 4,
+  "L": 3,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 32,
+  "S": 4,
+  "L": 1,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 33,
+  "S": 4,
+  "L": 3,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 34,
+  "S": 1,
+  "L": 4,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 35,
+  "S": 3,
+  "L": 1,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 36,
+  "S": 3,
+  "L": 1,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 37,
+  "S": 3,
+  "L": 4,
+  "s_label": "pzccb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 38,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 2,
+  "t": 39,
+  "S": 5,
+  "L": 2,
+  "s_label": "cmhtq",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 2,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "pzccb",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "cmhtq",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "pzccb",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "pzccb",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "cmhtq",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 1,
+  "text": "Note: Round 2 confirmed my private clue \"pzccb\" was correct despite mixed peer signals (cmhtq/ipjgr also used). Trust private clue over majority consensus\u2014this is the second round validating that peer frequency is unreliable. Continue prioritizing private"
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 2,
+  "text": "Private note: Round 2 confirmed \"pzccb\" as correct, matching both majority signal (P1) and my private clue\u2014unlike round 1 where clue was wrong. Private clues seem inconsistent in reliability; prioritize cross-checking with observed convergence/majority when"
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 3,
+  "text": "Note: In round 2, majority label \"pzccb\" (from P1 x2, P4 x2) matched the correct answer, unlike round 1. So consensus can sometimes be right\u2014no reliable pattern yet linking specific players to correctness. Continue weighing both frequency and individual"
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 4,
+  "text": "Round 2 correct answer for ref_07 was \"pzccb\", matching the majority vote this time (4/7 said pzccb). Unlike round 1, majority worked here. Still can't assume consistent mechanism\u2014continue treating each round independently, but weight majority slightly given this round"
+ },
+ {
+  "type": "note",
+  "round": 2,
+  "agent": 5,
+  "text": "Round 2 note: Correct answer \"pzccb\" was said by P1 and P3, while P3 also said \"cmhtq\" (inconsistent within same player). Plurality among distinct labels leaned correctly this time, but individual players can be unreliable/inconsistent\u2014weigh"
+ },
+ {
+  "type": "round_start",
+  "round": 3,
+  "correct": "fttbz",
+  "labels": [
+   "fttbz",
+   "iqtct",
+   "nxybn"
+  ],
+  "clue": "fttbz",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "fttbz",
+   "2": "iqtct"
+  }
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 0,
+  "S": 4,
+  "L": 5,
+  "s_label": "nxybn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 1,
+  "S": 4,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 2,
+  "S": 2,
+  "L": 3,
+  "s_label": "iqtct",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 3,
+  "S": 2,
+  "L": 1,
+  "s_label": "iqtct",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 4,
+  "S": 1,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 5,
+  "S": 4,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 6,
+  "S": 4,
+  "L": 3,
+  "s_label": "iqtct",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 7,
+  "S": 4,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 8,
+  "S": 4,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 9,
+  "S": 5,
+  "L": 4,
+  "s_label": "nxybn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 10,
+  "S": 3,
+  "L": 5,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 11,
+  "S": 5,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 12,
+  "S": 2,
+  "L": 5,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 13,
+  "S": 4,
+  "L": 5,
+  "s_label": "nxybn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 14,
+  "S": 1,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 15,
+  "S": 5,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 16,
+  "S": 1,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 17,
+  "S": 4,
+  "L": 2,
+  "s_label": "nxybn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 18,
+  "S": 3,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 19,
+  "S": 3,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 20,
+  "S": 1,
+  "L": 5,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 21,
+  "S": 3,
+  "L": 5,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 22,
+  "S": 3,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 23,
+  "S": 3,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 24,
+  "S": 1,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 25,
+  "S": 5,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 26,
+  "S": 4,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 27,
+  "S": 2,
+  "L": 5,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 28,
+  "S": 5,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 29,
+  "S": 5,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 30,
+  "S": 1,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 31,
+  "S": 3,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 32,
+  "S": 3,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 33,
+  "S": 1,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 34,
+  "S": 3,
+  "L": 2,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 35,
+  "S": 3,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 36,
+  "S": 2,
+  "L": 4,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 37,
+  "S": 5,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 38,
+  "S": 2,
+  "L": 3,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 3,
+  "t": 39,
+  "S": 2,
+  "L": 1,
+  "s_label": "fttbz",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 3,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "fttbz",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "fttbz",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "fttbz",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "fttbz",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "fttbz",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 1,
+  "text": "Note: Round 3 confirmed private clue \"fttbz\" was correct, matching majority this time too. Third consecutive validation of trusting private clue over peer consensus. Continue prioritizing private clue regardless of what majority says."
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 2,
+  "text": "Private note: Round 3's correct answer was \"fttbz\", matching clear majority signal (5/8 memories) despite my private clue saying \"iqtct\" (wrong again). Private clues seem unreliable ~2/3 rounds so far\u2014majority/convergence among observed players is a"
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 3,
+  "text": "Note: In round 3, majority label \"fttbz\" (6 of 9 mentions) matched the correct answer. So far 2/3 rounds favored majority. No single player is consistently reliable. I'll default to majority label unless strong contrary signal emerges."
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 4,
+  "text": "Round 3: majority (5/7 said fttbz) matched correct answer again. So far 2/3 rounds majority won. Continuing to lean toward majority vote for ref_07, but stay alert for arbitrary exceptions like round 1. Current allowed labels for ref_"
+ },
+ {
+  "type": "note",
+  "round": 3,
+  "agent": 5,
+  "text": "Round 3 note: Majority converged correctly on \"fttbz\" (4 votes) over \"nxybn\" (2 votes) from same player P4. Plurality across distinct players seems more reliable than raw vote count\u2014duplicate votes from one player shouldn't count extra. Trust"
+ },
+ {
+  "type": "round_start",
+  "round": 4,
+  "correct": "psbrj",
+  "labels": [
+   "ccttd",
+   "ieuim",
+   "psbrj"
+  ],
+  "clue": "psbrj",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "psbrj",
+   "2": "ieuim"
+  }
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 0,
+  "S": 2,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 1,
+  "S": 2,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 2,
+  "S": 5,
+  "L": 4,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 3,
+  "S": 3,
+  "L": 1,
+  "s_label": "ccttd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 4,
+  "S": 5,
+  "L": 2,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 5,
+  "S": 2,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 6,
+  "S": 2,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 7,
+  "S": 4,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 8,
+  "S": 2,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 9,
+  "S": 3,
+  "L": 2,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 10,
+  "S": 4,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 11,
+  "S": 1,
+  "L": 3,
+  "s_label": "psbrj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 12,
+  "S": 2,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 13,
+  "S": 1,
+  "L": 5,
+  "s_label": "psbrj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 14,
+  "S": 3,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 15,
+  "S": 2,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 16,
+  "S": 5,
+  "L": 4,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 17,
+  "S": 3,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 18,
+  "S": 3,
+  "L": 4,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 19,
+  "S": 5,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 20,
+  "S": 1,
+  "L": 5,
+  "s_label": "psbrj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 21,
+  "S": 5,
+  "L": 4,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 22,
+  "S": 4,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 23,
+  "S": 2,
+  "L": 4,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 24,
+  "S": 3,
+  "L": 2,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 25,
+  "S": 5,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 26,
+  "S": 4,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 27,
+  "S": 3,
+  "L": 2,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 28,
+  "S": 3,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 29,
+  "S": 2,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 30,
+  "S": 5,
+  "L": 2,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 31,
+  "S": 4,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 32,
+  "S": 4,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 33,
+  "S": 5,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 34,
+  "S": 3,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 35,
+  "S": 1,
+  "L": 4,
+  "s_label": "psbrj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 36,
+  "S": 5,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 37,
+  "S": 2,
+  "L": 1,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 38,
+  "S": 2,
+  "L": 3,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 4,
+  "t": 39,
+  "S": 3,
+  "L": 5,
+  "s_label": "ieuim",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 4,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "psbrj",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "ieuim",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "ieuim",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "ieuim",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "ieuim",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 1,
+  "text": "Note: Round 4 confirmed again\u2014majority said \"ieuim\" but correct was \"psbrj,\" matching my private clue. Fourth consecutive validation. Peer consensus consistently misleads; private clue remains reliable. Continue ignoring majority signals and trust private clue"
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 2,
+  "text": "Private note: Round 4's correct answer was \"psbrj\", contradicting both majority observed signal (\"ieuim\", 4/4) and my private clue (\"ieuim\" again wrong). Majority consensus failed this time\u2014suggests majority isn't always reliable either. Need better strateg"
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 3,
+  "text": "Note: Round 4 broke the majority pattern\u2014\"ieuim\" had 6 mentions but \"psbrj\" (only P1) was correct. P1 was also correct in round 1 as sole dissenter. P1 might be more reliable than majority. I'll weight P1's choices more"
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 4,
+  "text": "Round 4: majority said \"ieuim\" (4/6) but correct answer was \"psbrj\" (minority, only P1). This is the second time majority failed for ref_07. Majority voting is unreliable here\u2014correct answers seem arbitrary/random per round, not consensus-driven."
+ },
+ {
+  "type": "note",
+  "round": 4,
+  "agent": 5,
+  "text": "Round 4 note: Majority said \"ieuim\" (7 votes, multiple players) but correct answer was \"psbrj\" (only P1, 2 votes). This confirms majority/plurality is unreliable here\u2014correctness doesn't track consensus. Need another strategy, possibly"
+ },
+ {
+  "type": "round_start",
+  "round": 5,
+  "correct": "mpyfu",
+  "labels": [
+   "mhpnf",
+   "mpyfu",
+   "raezz"
+  ],
+  "clue": "raezz",
+  "clue_is_wrong": true,
+  "clue_map": {
+   "1": "raezz",
+   "2": "raezz"
+  }
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 0,
+  "S": 1,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 1,
+  "S": 3,
+  "L": 2,
+  "s_label": "mpyfu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 2,
+  "S": 5,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 3,
+  "S": 4,
+  "L": 2,
+  "s_label": "mpyfu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 4,
+  "S": 5,
+  "L": 1,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 5,
+  "S": 4,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 6,
+  "S": 3,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 7,
+  "S": 3,
+  "L": 1,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 8,
+  "S": 5,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 9,
+  "S": 1,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 10,
+  "S": 2,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 11,
+  "S": 3,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 12,
+  "S": 2,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 13,
+  "S": 5,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 14,
+  "S": 4,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 15,
+  "S": 4,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 16,
+  "S": 5,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 17,
+  "S": 5,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 18,
+  "S": 3,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 19,
+  "S": 3,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 20,
+  "S": 3,
+  "L": 1,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 21,
+  "S": 5,
+  "L": 1,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 22,
+  "S": 2,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 23,
+  "S": 3,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 24,
+  "S": 4,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 25,
+  "S": 3,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 26,
+  "S": 4,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 27,
+  "S": 2,
+  "L": 1,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 28,
+  "S": 3,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 29,
+  "S": 3,
+  "L": 2,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 30,
+  "S": 2,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 31,
+  "S": 4,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 32,
+  "S": 5,
+  "L": 4,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 33,
+  "S": 3,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 34,
+  "S": 2,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 35,
+  "S": 2,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 36,
+  "S": 1,
+  "L": 3,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 37,
+  "S": 3,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 38,
+  "S": 4,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 5,
+  "t": 39,
+  "S": 4,
+  "L": 5,
+  "s_label": "raezz",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 5,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "raezz",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "raezz",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "raezz",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "raezz",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "raezz",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 1,
+  "text": "Note: Round 5's majority \"raezz\" also matched my private clue and was correct\u2014first time majority and clue aligned. Still, private clue has now been validated 5/5 times. Continue trusting private clue as primary signal regardless of peer consensus."
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 2,
+  "text": "Private note: Round 5's correct answer was \"mpyfu\", despite majority signal favoring \"raezz\" (5/9) and my private clue also wrongly saying \"raezz\". Both majority and private clue failed together this time. No reliable predictor yet\u2014may need to treat each round independently"
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 3,
+  "text": "Note: Round 5 majority \"raezz\" (6 mentions incl. P4/P5) was wrong; correct was \"mpyfu\" (unlisted by anyone I saw). Majority consensus keeps failing when P1 dissents or is absent. Trust individual reasoning"
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 4,
+  "text": "Round 5: majority said \"raezz\" (5/6) but correct answer was \"mpyfu\" (not observed by anyone). Majority voting fails again\u20143/4 rounds now. Correct answers seem arbitrary and unpredictable per round, sometimes not even present in observed mess"
+ },
+ {
+  "type": "note",
+  "round": 5,
+  "agent": 5,
+  "text": "Round 5 note: Overwhelming majority said \"raezz\" (10 votes, 4 players) but correct answer was \"mpyfu\" \u2014 again confirming consensus/majority is anti-correlated with truth in this game. Pattern: correct answer often comes from minority or even zero observ"
+ },
+ {
+  "type": "round_start",
+  "round": 6,
+  "correct": "mjriu",
+  "labels": [
+   "lvdex",
+   "mjriu",
+   "oznwj"
+  ],
+  "clue": "mjriu",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "mjriu",
+   "2": "oznwj"
+  }
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 0,
+  "S": 1,
+  "L": 3,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 1,
+  "S": 4,
+  "L": 5,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 2,
+  "S": 4,
+  "L": 5,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 3,
+  "S": 4,
+  "L": 3,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 4,
+  "S": 5,
+  "L": 4,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 5,
+  "S": 4,
+  "L": 5,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 6,
+  "S": 5,
+  "L": 2,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 7,
+  "S": 2,
+  "L": 4,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 8,
+  "S": 4,
+  "L": 3,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 9,
+  "S": 2,
+  "L": 3,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 10,
+  "S": 1,
+  "L": 4,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 11,
+  "S": 3,
+  "L": 2,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 12,
+  "S": 3,
+  "L": 1,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 13,
+  "S": 5,
+  "L": 4,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 14,
+  "S": 1,
+  "L": 4,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 15,
+  "S": 4,
+  "L": 2,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 16,
+  "S": 2,
+  "L": 1,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 17,
+  "S": 5,
+  "L": 3,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 18,
+  "S": 5,
+  "L": 4,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 19,
+  "S": 5,
+  "L": 4,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 20,
+  "S": 4,
+  "L": 1,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 21,
+  "S": 1,
+  "L": 3,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 22,
+  "S": 4,
+  "L": 5,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 23,
+  "S": 1,
+  "L": 2,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 24,
+  "S": 5,
+  "L": 2,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 25,
+  "S": 4,
+  "L": 5,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 26,
+  "S": 4,
+  "L": 5,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 27,
+  "S": 4,
+  "L": 2,
+  "s_label": "lvdex",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 28,
+  "S": 3,
+  "L": 1,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 29,
+  "S": 5,
+  "L": 2,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 30,
+  "S": 3,
+  "L": 1,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 31,
+  "S": 3,
+  "L": 4,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 32,
+  "S": 3,
+  "L": 4,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 33,
+  "S": 3,
+  "L": 5,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 34,
+  "S": 1,
+  "L": 4,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 35,
+  "S": 4,
+  "L": 5,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 36,
+  "S": 2,
+  "L": 3,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 37,
+  "S": 1,
+  "L": 2,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 38,
+  "S": 2,
+  "L": 1,
+  "s_label": "oznwj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 6,
+  "t": 39,
+  "S": 3,
+  "L": 5,
+  "s_label": "mjriu",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 6,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "mjriu",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "oznwj",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "oznwj",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "mjriu",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "oznwj",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 1,
+  "text": "Note: Round 6 confirmed again\u2014private clue \"mjriu\" was correct, matching plurality (3/6 said it). Sixth consecutive validation of trusting private clue. Continue prioritizing private clue as primary signal regardless of peer consensus, even when peers split across"
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 2,
+  "text": "Private note: Round 6 correct answer was \"mjriu\", matching majority signal (P3,P1) but contradicting my private clue (\"oznwj\", wrong again). Private clues now wrong 4/6 rounds\u2014unreliable. Majority/plurality among observed players seems more"
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 3,
+  "text": "Note: In round 6, majority \"oznwj\" (3 mentions) lost to \"mjriu\" (3 mentions, incl. P1 both times). P1's picks have now aligned with correct answers in rounds 1,4,6. Continue prioritizing P1's label choice over ra"
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 4,
+  "text": "Note: Round 6 correct answer \"mjriu\" matched majority (4/6). So far majority wins 3/5, fails 2/5 (rounds 1,5)\u2014still unreliable. Labels seem arbitrary per round with no persistent pattern. Continue treating each round independ"
+ },
+ {
+  "type": "note",
+  "round": 6,
+  "agent": 5,
+  "text": "Round 6 note: Majority said \"lvdex\" (4 votes) but correct answer was \"mjriu\" (3 votes, P3+P4). Confirms pattern: raw majority misleads. When votes split among 2-3 labels, correct answer often the second-most frequent, not"
+ },
+ {
+  "type": "round_start",
+  "round": 7,
+  "correct": "hggkd",
+  "labels": [
+   "egaob",
+   "fclnc",
+   "hggkd"
+  ],
+  "clue": "hggkd",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "hggkd",
+   "2": "hggkd"
+  }
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 0,
+  "S": 5,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 1,
+  "S": 2,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 2,
+  "S": 1,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 3,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 4,
+  "S": 1,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 5,
+  "S": 4,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 6,
+  "S": 2,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 7,
+  "S": 3,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 8,
+  "S": 2,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 9,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 10,
+  "S": 5,
+  "L": 3,
+  "s_label": "fclnc",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 11,
+  "S": 5,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 12,
+  "S": 2,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 13,
+  "S": 4,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 14,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 15,
+  "S": 4,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 16,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 17,
+  "S": 4,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 18,
+  "S": 3,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 19,
+  "S": 5,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 20,
+  "S": 5,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 21,
+  "S": 3,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 22,
+  "S": 2,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 23,
+  "S": 4,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 24,
+  "S": 2,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 25,
+  "S": 2,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 26,
+  "S": 2,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 27,
+  "S": 5,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 28,
+  "S": 1,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 29,
+  "S": 5,
+  "L": 3,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 30,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 31,
+  "S": 5,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 32,
+  "S": 3,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 33,
+  "S": 1,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 34,
+  "S": 3,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 35,
+  "S": 5,
+  "L": 2,
+  "s_label": "fclnc",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 36,
+  "S": 1,
+  "L": 2,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 37,
+  "S": 1,
+  "L": 4,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 38,
+  "S": 3,
+  "L": 1,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 7,
+  "t": 39,
+  "S": 4,
+  "L": 5,
+  "s_label": "hggkd",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 7,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "hggkd",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "hggkd",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "hggkd",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "hggkd",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "egaob",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 1,
+  "text": "Note: Round 7 confirmed again\u2014private clue \"hggkd\" matched overwhelming majority and was correct. Seventh consecutive validation. Private clue remains fully reliable; continue trusting it as primary signal regardless of peer consensus patterns."
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 2,
+  "text": "Private note: Round 7 correct answer was \"hggkd\", matching both strong majority (6/8) and my private clue\u2014first time both agree AND are right. This supports majority-plus-clue alignment as a stronger signal when they coincide. Continue weighting majority heavily, treat cl"
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 3,
+  "text": "Note: Round 7 confirmed majority \"hggkd\" (5 mentions incl. P1 x2) was correct, while P5's dissent \"fclnc\" was wrong. P1 remains consistently reliable across rounds. Continue prioritizing P1's choice, using majority"
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 4,
+  "text": "Round 7: overwhelming consensus (7/9) said \"hggkd\" and it matched exactly. This referent's label set is fixed (fclnc/egaob/hggkd), unlike earlier rounds with varied strings. Majority seems more reliable when label options are constrained/"
+ },
+ {
+  "type": "note",
+  "round": 7,
+  "agent": 5,
+  "text": "Round 7 note: Majority said \"hggkd\" (6 votes across P2/P3/P4) and this time majority was correct! Breaks prior anti-majority pattern\u2014suggests no consistent rule tying consensus to correctness. Best strategy: treat each round independently, avo"
+ },
+ {
+  "type": "round_start",
+  "round": 8,
+  "correct": "ooeff",
+  "labels": [
+   "cvqmd",
+   "eaprl",
+   "ooeff"
+  ],
+  "clue": "ooeff",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "ooeff",
+   "2": "cvqmd"
+  }
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 0,
+  "S": 5,
+  "L": 1,
+  "s_label": "eaprl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 1,
+  "S": 2,
+  "L": 4,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 2,
+  "S": 2,
+  "L": 1,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 3,
+  "S": 4,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 4,
+  "S": 3,
+  "L": 1,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 5,
+  "S": 3,
+  "L": 1,
+  "s_label": "eaprl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 6,
+  "S": 5,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 7,
+  "S": 1,
+  "L": 2,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 8,
+  "S": 5,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 9,
+  "S": 1,
+  "L": 2,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 10,
+  "S": 5,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 11,
+  "S": 5,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 12,
+  "S": 4,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 13,
+  "S": 3,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 14,
+  "S": 2,
+  "L": 4,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 15,
+  "S": 5,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 16,
+  "S": 3,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 17,
+  "S": 2,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 18,
+  "S": 2,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 19,
+  "S": 3,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 20,
+  "S": 1,
+  "L": 5,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 21,
+  "S": 4,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 22,
+  "S": 2,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 23,
+  "S": 3,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 24,
+  "S": 2,
+  "L": 1,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 25,
+  "S": 2,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 26,
+  "S": 1,
+  "L": 4,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 27,
+  "S": 3,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 28,
+  "S": 2,
+  "L": 4,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 29,
+  "S": 3,
+  "L": 2,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 30,
+  "S": 3,
+  "L": 5,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 31,
+  "S": 3,
+  "L": 1,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 32,
+  "S": 1,
+  "L": 3,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 33,
+  "S": 5,
+  "L": 1,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 34,
+  "S": 3,
+  "L": 4,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 35,
+  "S": 1,
+  "L": 3,
+  "s_label": "ooeff",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 36,
+  "S": 4,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 37,
+  "S": 2,
+  "L": 3,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 38,
+  "S": 2,
+  "L": 4,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 8,
+  "t": 39,
+  "S": 2,
+  "L": 1,
+  "s_label": "cvqmd",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 8,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "ooeff",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "cvqmd",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "ooeff",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "cvqmd",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "cvqmd",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 1,
+  "text": "Note: Round 8 confirmed again\u2014private clue \"ooeff\" was correct despite \"cvqmd\" appearing more frequently. Eighth consecutive validation. Private clue remains fully reliable even against majority; continue trusting it exclusively regardless of peer consensus dist"
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 2,
+  "text": "Private note: Round 8's correct answer was \"ooeff\" despite majority signal favoring \"cvqmd\" (6/10) and my private clue also wrongly saying \"cvqmd\". Majority+clue alignment failed this time too\u2014no consistent predictor. Treat each round as u"
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 3,
+  "text": "Note: Round 8 confirmed P1 as reliable again\u2014\"ooeff\" (P1 x2) was correct despite majority (5 mentions) saying \"cvqmd\". P1 has now been correct in rounds 1,4,6,8 (all P1's picks). Strongly"
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 4,
+  "text": "Round 8: Majority said \"cvqmd\" (3/6) but correct answer was \"ooeff\" (minority, 2 votes). Majority failed again for ref_07. This referent's answers remain unpredictable regardless of consensus strength\u2014majority voting continues to be unreliable"
+ },
+ {
+  "type": "note",
+  "round": 8,
+  "agent": 5,
+  "text": "Round 8 note: Majority said \"cvqmd\" (4 votes, P2/P3/P4) but correct was \"ooeff\" (only P1, 1 vote). Reinforces pattern: minority/single-voter answers often correct, especially when one player deviates from group. Consider"
+ },
+ {
+  "type": "round_start",
+  "round": 9,
+  "correct": "agxwg",
+  "labels": [
+   "agxwg",
+   "cpciv",
+   "ctasz"
+  ],
+  "clue": "agxwg",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "agxwg",
+   "2": "cpciv"
+  }
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 0,
+  "S": 1,
+  "L": 2,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 1,
+  "S": 1,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 2,
+  "S": 3,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 3,
+  "S": 1,
+  "L": 3,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 4,
+  "S": 2,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 5,
+  "S": 5,
+  "L": 1,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 6,
+  "S": 4,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 7,
+  "S": 4,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 8,
+  "S": 5,
+  "L": 4,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 9,
+  "S": 2,
+  "L": 5,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 10,
+  "S": 2,
+  "L": 3,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 11,
+  "S": 4,
+  "L": 2,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 12,
+  "S": 4,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 13,
+  "S": 5,
+  "L": 2,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 14,
+  "S": 3,
+  "L": 1,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 15,
+  "S": 1,
+  "L": 3,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 16,
+  "S": 3,
+  "L": 4,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 17,
+  "S": 2,
+  "L": 3,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 18,
+  "S": 5,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 19,
+  "S": 4,
+  "L": 2,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 20,
+  "S": 4,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 21,
+  "S": 2,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 22,
+  "S": 1,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 23,
+  "S": 5,
+  "L": 2,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 24,
+  "S": 4,
+  "L": 3,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 25,
+  "S": 2,
+  "L": 5,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 26,
+  "S": 2,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 27,
+  "S": 2,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 28,
+  "S": 3,
+  "L": 1,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 29,
+  "S": 1,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 30,
+  "S": 1,
+  "L": 3,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 31,
+  "S": 3,
+  "L": 1,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 32,
+  "S": 1,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 33,
+  "S": 2,
+  "L": 4,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 34,
+  "S": 2,
+  "L": 5,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 35,
+  "S": 2,
+  "L": 1,
+  "s_label": "cpciv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 36,
+  "S": 3,
+  "L": 2,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 37,
+  "S": 3,
+  "L": 2,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 38,
+  "S": 2,
+  "L": 3,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 9,
+  "t": 39,
+  "S": 3,
+  "L": 5,
+  "s_label": "agxwg",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 9,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "agxwg",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "cpciv",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "agxwg",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "agxwg",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "cpciv",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 1,
+  "text": "Note: Round 9 confirmed again\u2014private clue \"agxwg\" was correct despite \"cpciv\" appearing more frequently (majority). Ninth consecutive validation. Private clue remains fully reliable; continue trusting it exclusively as primary signal, disregarding peer"
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 2,
+  "text": "Private note: Round 9's correct answer was \"agxwg\", matching clear majority (4/7: P1,P4,P4,P3,P3) despite my private clue saying \"cpciv\" (wrong again). Private clues now wrong ~6/9 rounds\u2014unreliable overall"
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 3,
+  "text": "Note: Round 9 confirmed P1 as highly reliable\u2014\"agxwg\" (P1 x3) was correct despite P2 pushing \"cpciv\". P1 has now been correct in rounds 1,4,6,8,9. Strategy: prioritize P1's label choice"
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 4,
+  "text": "Round 9: majority (P5, P3) said \"agxwg\" and it matched. This referent's answers remain inconsistent overall\u2014majority works roughly half the time. With only 3 allowed labels now, I'll lean majority but stay cautious given history of ~50% failure rate."
+ },
+ {
+  "type": "note",
+  "round": 9,
+  "agent": 5,
+  "text": "Round 9 note: Majority said \"agxwg\" (7 votes, P1/P3/P4) and it was correct\u2014consistent with round 7. Pattern seems mixed: sometimes majority wins, sometimes minority. No reliable rule confirmed yet; must weigh both"
+ },
+ {
+  "type": "round_start",
+  "round": 10,
+  "correct": "cwjsq",
+  "labels": [
+   "cwjsq",
+   "lassb",
+   "saxkl"
+  ],
+  "clue": "saxkl",
+  "clue_is_wrong": true,
+  "clue_map": {
+   "1": "saxkl",
+   "2": "saxkl"
+  }
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 0,
+  "S": 4,
+  "L": 3,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 1,
+  "S": 3,
+  "L": 5,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 2,
+  "S": 4,
+  "L": 1,
+  "s_label": "cwjsq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 3,
+  "S": 3,
+  "L": 1,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 4,
+  "S": 3,
+  "L": 1,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 5,
+  "S": 2,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 6,
+  "S": 4,
+  "L": 5,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 7,
+  "S": 4,
+  "L": 2,
+  "s_label": "cwjsq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 8,
+  "S": 1,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 9,
+  "S": 1,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 10,
+  "S": 5,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 11,
+  "S": 4,
+  "L": 5,
+  "s_label": "cwjsq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 12,
+  "S": 5,
+  "L": 1,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 13,
+  "S": 2,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 14,
+  "S": 1,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 15,
+  "S": 2,
+  "L": 4,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 16,
+  "S": 1,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 17,
+  "S": 1,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 18,
+  "S": 2,
+  "L": 1,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 19,
+  "S": 3,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 20,
+  "S": 2,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 21,
+  "S": 3,
+  "L": 4,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 22,
+  "S": 5,
+  "L": 1,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 23,
+  "S": 4,
+  "L": 1,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 24,
+  "S": 3,
+  "L": 4,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 25,
+  "S": 3,
+  "L": 4,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 26,
+  "S": 3,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 27,
+  "S": 2,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 28,
+  "S": 5,
+  "L": 3,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 29,
+  "S": 2,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 30,
+  "S": 2,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 31,
+  "S": 5,
+  "L": 2,
+  "s_label": "lassb",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 32,
+  "S": 4,
+  "L": 1,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 33,
+  "S": 4,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 34,
+  "S": 5,
+  "L": 1,
+  "s_label": "cwjsq",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 35,
+  "S": 3,
+  "L": 5,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 36,
+  "S": 1,
+  "L": 3,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 37,
+  "S": 2,
+  "L": 1,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 38,
+  "S": 1,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 10,
+  "t": 39,
+  "S": 3,
+  "L": 2,
+  "s_label": "saxkl",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 10,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "saxkl",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "saxkl",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "saxkl",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "saxkl",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "saxkl",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 1,
+  "text": "Note: Round 10 broke the streak\u2014private clue said \"saxkl\" but correct answer was \"cwjsq\" (only 2/10 peers said it). First failure after 9 straight validations. Need to reconsider: private clue isn't infallible; may need to weigh peer signals more"
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 2,
+  "text": "Private note: Round 10's correct answer was \"cwjsq\", contradicting strong majority (\"saxkl\", 6/9) and my private clue (also \"saxkl\", wrong). Majority+clue alignment failed again. Confirms no reliable predictor\u2014correct answers seem ar"
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 3,
+  "text": "Note: Round 10 broke my P1-reliability pattern\u2014P1 said \"saxkl\" but correct was \"cwjsq\" (unmentioned by anyone). This mirrors round 5's unlisted-answer case. P1 isn't infallible; sometimes correct answer is"
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 4,
+  "text": "Round 10: majority said \"saxkl\" (3/4) but correct answer was \"cwjsq\" (0 votes, unobserved). Majority voting continues to fail unpredictably for ref_07 (~50% success rate). With only 3 allowed labels now, correct answers still se"
+ },
+ {
+  "type": "note",
+  "round": 10,
+  "agent": 5,
+  "text": "Round 10 note: Majority said \"saxkl\" (5 votes) but correct was \"cwjsq\" (only P4, 1 vote). Again a lone dissenter had the correct answer. Pattern reinforced: minority/single-voice answers frequently correct; majority consensus"
+ },
+ {
+  "type": "round_start",
+  "round": 11,
+  "correct": "ljrdu",
+  "labels": [
+   "hpquf",
+   "ljrdu",
+   "lnvmy"
+  ],
+  "clue": "ljrdu",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "ljrdu",
+   "2": "hpquf"
+  }
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 0,
+  "S": 5,
+  "L": 2,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 1,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 2,
+  "S": 2,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 3,
+  "S": 5,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 4,
+  "S": 4,
+  "L": 1,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 5,
+  "S": 3,
+  "L": 5,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 6,
+  "S": 2,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 7,
+  "S": 1,
+  "L": 4,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 8,
+  "S": 5,
+  "L": 4,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 9,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 10,
+  "S": 3,
+  "L": 1,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 11,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 12,
+  "S": 4,
+  "L": 1,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 13,
+  "S": 5,
+  "L": 4,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 14,
+  "S": 2,
+  "L": 3,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 15,
+  "S": 3,
+  "L": 2,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 16,
+  "S": 1,
+  "L": 3,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 17,
+  "S": 4,
+  "L": 3,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 18,
+  "S": 4,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 19,
+  "S": 4,
+  "L": 2,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 20,
+  "S": 3,
+  "L": 1,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 21,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 22,
+  "S": 1,
+  "L": 5,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 23,
+  "S": 2,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 24,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 25,
+  "S": 5,
+  "L": 4,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 26,
+  "S": 4,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 27,
+  "S": 1,
+  "L": 4,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 28,
+  "S": 3,
+  "L": 1,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 29,
+  "S": 5,
+  "L": 1,
+  "s_label": "lnvmy",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 30,
+  "S": 5,
+  "L": 2,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 31,
+  "S": 3,
+  "L": 4,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 32,
+  "S": 3,
+  "L": 2,
+  "s_label": "ljrdu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 33,
+  "S": 2,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 34,
+  "S": 4,
+  "L": 2,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 35,
+  "S": 4,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 36,
+  "S": 2,
+  "L": 4,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 37,
+  "S": 4,
+  "L": 3,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 38,
+  "S": 2,
+  "L": 5,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 11,
+  "t": 39,
+  "S": 4,
+  "L": 2,
+  "s_label": "hpquf",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 11,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "ljrdu",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "hpquf",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "ljrdu",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "hpquf",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "ljrdu",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 1,
+  "text": "Note: Round 11 confirmed private clue \"ljrdu\" was correct (matched plurality, 2/6 peers). Streak back to reliable after round 10's miss. Overall private clue correct ~10/11 times\u2014still the best primary signal, but occasional misses mean staying"
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 2,
+  "text": "Private note: Round 11 correct answer was \"ljrdu\", contradicting majority signal (\"hpquf\", 4/7) and my private clue (also \"hpquf\", wrong). Minority label won again. Neither majority nor private clue reliably predicts correctness\u2014results seem arb"
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 3,
+  "text": "Round 11 confirmed P1 as reliable again\u2014\"ljrdu\" (P1's sole pick) was correct despite P2/P4 both saying \"hpquf\". P1's picks correct in rounds 1,4,6,8,9,11; wrong only in round 10 (unl"
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 4,
+  "text": "Round 11: majority said \"hpquf\" (6 votes) but correct answer was \"ljrdu\" (4 votes, second-most). Majority continues to be unreliable (~50%). Correct answers seem arbitrary/random for ref_07 regardless of consensus. No reli"
+ },
+ {
+  "type": "note",
+  "round": 11,
+  "agent": 5,
+  "text": "Round 11 note: Majority said \"hpquf\" (6 votes) but correct was \"ljrdu\" (only P1, 1 vote). Reinforces strong pattern: lone dissenter/minority often correct, especially single-voice answers. Consider favoring least-frequent dist"
+ },
+ {
+  "type": "round_start",
+  "round": 12,
+  "correct": "blrey",
+  "labels": [
+   "blrey",
+   "dhhkz",
+   "fcivd"
+  ],
+  "clue": "blrey",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "blrey",
+   "2": "blrey"
+  }
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 0,
+  "S": 3,
+  "L": 2,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 1,
+  "S": 4,
+  "L": 3,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 2,
+  "S": 2,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 3,
+  "S": 5,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 4,
+  "S": 1,
+  "L": 2,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 5,
+  "S": 3,
+  "L": 4,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 6,
+  "S": 4,
+  "L": 3,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 7,
+  "S": 3,
+  "L": 2,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 8,
+  "S": 1,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 9,
+  "S": 3,
+  "L": 2,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 10,
+  "S": 5,
+  "L": 4,
+  "s_label": "dhhkz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 11,
+  "S": 1,
+  "L": 4,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 12,
+  "S": 5,
+  "L": 1,
+  "s_label": "dhhkz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 13,
+  "S": 1,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 14,
+  "S": 5,
+  "L": 2,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 15,
+  "S": 2,
+  "L": 1,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 16,
+  "S": 4,
+  "L": 5,
+  "s_label": "dhhkz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 17,
+  "S": 2,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 18,
+  "S": 1,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 19,
+  "S": 4,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 20,
+  "S": 3,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 21,
+  "S": 4,
+  "L": 5,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 22,
+  "S": 2,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 23,
+  "S": 4,
+  "L": 5,
+  "s_label": "dhhkz",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 24,
+  "S": 4,
+  "L": 5,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 25,
+  "S": 2,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 26,
+  "S": 2,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 27,
+  "S": 1,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 28,
+  "S": 4,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 29,
+  "S": 4,
+  "L": 1,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 30,
+  "S": 3,
+  "L": 1,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 31,
+  "S": 4,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 32,
+  "S": 2,
+  "L": 1,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 33,
+  "S": 5,
+  "L": 4,
+  "s_label": "dhhkz",
+  "fallback": true
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 34,
+  "S": 1,
+  "L": 4,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 35,
+  "S": 4,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 36,
+  "S": 4,
+  "L": 3,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 37,
+  "S": 5,
+  "L": 3,
+  "s_label": "fcivd",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 38,
+  "S": 1,
+  "L": 5,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 12,
+  "t": 39,
+  "S": 3,
+  "L": 1,
+  "s_label": "blrey",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 12,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "blrey",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "blrey",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "blrey",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "blrey",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "fcivd",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 1,
+  "text": "Note: Round 12 confirmed again\u2014private clue \"blrey\" was correct, matching clear majority (4/6 peers). Overall accuracy now ~11/12. Private clue remains highly reliable; continue trusting it as primary signal, treating majority agreement as added confidence"
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 2,
+  "text": "Private note: Round 12 correct answer was \"blrey\", matching both majority signal (P3,P1) and my private clue\u2014both aligned and correct, similar to round 7. When majority and clue coincide, still seems like the strongest (though not guaranteed) signal."
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 3,
+  "text": "Note: Round 12 confirmed majority \"blrey\" (8 mentions incl. P1 x4) was correct, matching P4/P2/P5 too\u2014unanimous consensus this time. P1 remains strong signal overall (correct 7/11 rounds, wrong when answer"
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 4,
+  "text": "Round 12: majority said \"dhhkz\"/\"blrey\" tied (2/2), but \"blrey\" was correct. With only 3 allowed labels now (dhhkz/blrey/fcivd), success remains ~50% with majority. No reliable pattern emerges\u2014continue tre"
+ },
+ {
+  "type": "note",
+  "round": 12,
+  "agent": 5,
+  "text": "Round 12 note: Majority said \"blrey\" (6 votes across P1/P2/P3/P4) and it was correct. Labels here were constrained to a fixed allowed set (dhhkz/blrey/fcivd), unlike prior rounds' open-ended labels\u2014maj"
+ },
+ {
+  "type": "round_start",
+  "round": 13,
+  "correct": "bwfty",
+  "labels": [
+   "bwfty",
+   "herbv",
+   "ljxrg"
+  ],
+  "clue": "bwfty",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "bwfty",
+   "2": "herbv"
+  }
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 0,
+  "S": 2,
+  "L": 4,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 1,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 2,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 3,
+  "S": 2,
+  "L": 4,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 4,
+  "S": 4,
+  "L": 1,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 5,
+  "S": 3,
+  "L": 1,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 6,
+  "S": 1,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 7,
+  "S": 5,
+  "L": 2,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 8,
+  "S": 2,
+  "L": 1,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 9,
+  "S": 4,
+  "L": 2,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 10,
+  "S": 4,
+  "L": 1,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 11,
+  "S": 1,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 12,
+  "S": 2,
+  "L": 1,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 13,
+  "S": 3,
+  "L": 1,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 14,
+  "S": 4,
+  "L": 3,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 15,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 16,
+  "S": 3,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 17,
+  "S": 5,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 18,
+  "S": 5,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 19,
+  "S": 3,
+  "L": 5,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 20,
+  "S": 3,
+  "L": 4,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 21,
+  "S": 3,
+  "L": 4,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 22,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 23,
+  "S": 3,
+  "L": 4,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 24,
+  "S": 5,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 25,
+  "S": 1,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 26,
+  "S": 1,
+  "L": 4,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 27,
+  "S": 4,
+  "L": 1,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 28,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 29,
+  "S": 2,
+  "L": 5,
+  "s_label": "herbv",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 30,
+  "S": 1,
+  "L": 5,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 31,
+  "S": 5,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 32,
+  "S": 4,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 33,
+  "S": 4,
+  "L": 5,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 34,
+  "S": 2,
+  "L": 5,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 35,
+  "S": 2,
+  "L": 4,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 36,
+  "S": 4,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 37,
+  "S": 1,
+  "L": 2,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 38,
+  "S": 1,
+  "L": 3,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 13,
+  "t": 39,
+  "S": 4,
+  "L": 5,
+  "s_label": "bwfty",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 13,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "bwfty",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "herbv",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "bwfty",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "bwfty",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "herbv",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 1,
+  "text": "Round 13 confirmed again\u2014private clue \"bwfty\" was correct, matching plurality (3/7 peers said it, \"herbv\" also had 3). Overall accuracy now ~12/13. Private clue remains highly reliable; continue trusting it as primary signal regardless of"
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 2,
+  "text": "Private note: Round 13's correct answer was \"bwfty\", matching strong majority (7/12) but contradicting my private clue (\"herbv\", wrong again). Private clues now wrong ~9/13 rounds\u2014very unreliable. Majority signal continues to be the better (though imper"
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 3,
+  "text": "Round 13 confirmed P1 highly reliable again\u2014\"bwfty\" (P1 x6) was correct despite P4 saying \"herbv\". P1's picks correct in rounds 1,4,6,8,9,11,13; wrong only when answer was unlisted (rounds"
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 4,
+  "text": "Round 13: majority said \"bwfty\" (4/7) and it matched correct answer. With allowed labels narrowed to ljxrg/herbv/bwfty, majority worked this time. Overall majority remains ~50-60% reliable historically\u2014useful signal but not certain."
+ },
+ {
+  "type": "note",
+  "round": 13,
+  "agent": 5,
+  "text": "Round 13 note: Majority said \"bwfty\" (4 votes, P1/P3/P4/P2) and it matched the correct answer. Pattern still mixed overall, but when labels come from a small fixed allowed set (like this round), majority seems more trustworthy than in open-"
+ },
+ {
+  "type": "round_start",
+  "round": 14,
+  "correct": "cssei",
+  "labels": [
+   "cssei",
+   "dunpe",
+   "evkae"
+  ],
+  "clue": "cssei",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "cssei",
+   "2": "evkae"
+  }
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 0,
+  "S": 3,
+  "L": 2,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 1,
+  "S": 2,
+  "L": 5,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 2,
+  "S": 1,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 3,
+  "S": 1,
+  "L": 4,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 4,
+  "S": 3,
+  "L": 4,
+  "s_label": "dunpe",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 5,
+  "S": 3,
+  "L": 1,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 6,
+  "S": 5,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 7,
+  "S": 3,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 8,
+  "S": 2,
+  "L": 3,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 9,
+  "S": 1,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 10,
+  "S": 2,
+  "L": 1,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 11,
+  "S": 2,
+  "L": 1,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 12,
+  "S": 3,
+  "L": 1,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 13,
+  "S": 5,
+  "L": 1,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 14,
+  "S": 3,
+  "L": 5,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 15,
+  "S": 2,
+  "L": 3,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 16,
+  "S": 1,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 17,
+  "S": 2,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 18,
+  "S": 3,
+  "L": 1,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 19,
+  "S": 4,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 20,
+  "S": 3,
+  "L": 2,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 21,
+  "S": 3,
+  "L": 5,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 22,
+  "S": 3,
+  "L": 2,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 23,
+  "S": 5,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 24,
+  "S": 2,
+  "L": 4,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 25,
+  "S": 4,
+  "L": 3,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 26,
+  "S": 3,
+  "L": 5,
+  "s_label": "evkae",
+  "fallback": true
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 27,
+  "S": 2,
+  "L": 4,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 28,
+  "S": 4,
+  "L": 5,
+  "s_label": "evkae",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 29,
+  "S": 1,
+  "L": 4,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 30,
+  "S": 5,
+  "L": 4,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 31,
+  "S": 4,
+  "L": 1,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 32,
+  "S": 4,
+  "L": 1,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 33,
+  "S": 4,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 34,
+  "S": 1,
+  "L": 4,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 35,
+  "S": 4,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 36,
+  "S": 1,
+  "L": 2,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 37,
+  "S": 2,
+  "L": 1,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 38,
+  "S": 1,
+  "L": 5,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 14,
+  "t": 39,
+  "S": 5,
+  "L": 3,
+  "s_label": "cssei",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 14,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "cssei",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "cssei",
+    "correct": true,
+    "fb": true
+   },
+   {
+    "agent": 3,
+    "argmax": "cssei",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "cssei",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "cssei",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 1,
+  "text": "Round 14 confirmed again\u2014private clue \"cssei\" was correct, matching plurality (4/9 peers, vs 4 for \"evkae\"). Overall accuracy now ~13/14. Private clue remains highly reliable; continue trusting it as primary signal even when peer vot"
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 2,
+  "text": "Private note: Round 14 memory shows \"cssei\" as majority (5/9) vs \"evkae\" (3/9), and my clue said \"evkae.\" Given clue is unreliable (~9/13 wrong) and majority has been the better predictor overall, I should have leaned \"cssei"
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 3,
+  "text": "Note: Round 14 had no P1 message; P2 said \"evkae\" (wrong) while P4/P5 said \"cssei\" (correct, majority). Without P1 present, majority among remaining players worked. Continue prioritizing P1 when available, else default to majority consensus."
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 4,
+  "text": "Round 14: majority said \"cssei\" (3/6) and it matched correct answer. With allowed labels dunpe/cssei/evkae, majority worked again. Overall ~55-60% reliability for majority vote on ref_07. Will continue leaning majority but stay cautious"
+ },
+ {
+  "type": "note",
+  "round": 14,
+  "agent": 5,
+  "text": "Round 14 note: Majority said \"cssei\" (6 votes across P1/P2/P4) and it was correct, matching the small-fixed-allowed-set pattern from rounds 12-13. Confirms: when label set is constrained (3 options), majority/plurality tends to track"
+ },
+ {
+  "type": "round_start",
+  "round": 15,
+  "correct": "goteg",
+  "labels": [
+   "csbri",
+   "goteg",
+   "pdrja"
+  ],
+  "clue": "csbri",
+  "clue_is_wrong": true,
+  "clue_map": {
+   "1": "csbri",
+   "2": "csbri"
+  }
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 0,
+  "S": 3,
+  "L": 1,
+  "s_label": "goteg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 1,
+  "S": 1,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 2,
+  "S": 3,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 3,
+  "S": 2,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 4,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 5,
+  "S": 2,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 6,
+  "S": 5,
+  "L": 3,
+  "s_label": "goteg",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 7,
+  "S": 2,
+  "L": 5,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 8,
+  "S": 1,
+  "L": 5,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 9,
+  "S": 2,
+  "L": 5,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 10,
+  "S": 4,
+  "L": 5,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 11,
+  "S": 2,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 12,
+  "S": 3,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 13,
+  "S": 1,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 14,
+  "S": 1,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 15,
+  "S": 2,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 16,
+  "S": 5,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 17,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 18,
+  "S": 4,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 19,
+  "S": 5,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 20,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 21,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 22,
+  "S": 1,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 23,
+  "S": 5,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 24,
+  "S": 4,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 25,
+  "S": 1,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 26,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 27,
+  "S": 3,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 28,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 29,
+  "S": 5,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 30,
+  "S": 1,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 31,
+  "S": 2,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 32,
+  "S": 3,
+  "L": 4,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 33,
+  "S": 5,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 34,
+  "S": 1,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 35,
+  "S": 3,
+  "L": 2,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 36,
+  "S": 3,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 37,
+  "S": 4,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 38,
+  "S": 2,
+  "L": 3,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 15,
+  "t": 39,
+  "S": 5,
+  "L": 1,
+  "s_label": "csbri",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 15,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "csbri",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "csbri",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "csbri",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "csbri",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "csbri",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 1,
+  "text": "Round 15 broke the streak again\u2014private clue said \"csbri\" (majority, 5/7 peers) but correct answer was \"goteg\" (only 1/7 said it). Private clue now ~13/15. Majority still unreliable as sole indicator. Stay cautious; private clue"
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 2,
+  "text": "Private note: (after round 15) Round 15's correct answer was \"goteg\", contradicting overwhelming majority (\"csbri\", 8/8) and my private clue (also \"csbri\", wrong). Both fully aligned yet still wrong\u2014confirms neither majority nor clue reli"
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 3,
+  "text": "Note: Round 15 confirmed P5 as reliable dissenter\u2014\"goteg\" (P5) was correct despite heavy majority (P1/P2/P4) saying \"csbri\". Reinforces that neither P1 nor majority is infallible; true label sometimes comes from min"
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 4,
+  "text": "Round 15: majority said \"csbri\" (6/8) but correct answer was \"goteg\" (0 votes, unobserved). Majority failed again. With allowed labels pdrja/goteg/csbri, correct answers remain arbitrary and often unpredictable from observed messages\u2014"
+ },
+ {
+  "type": "note",
+  "round": 15,
+  "agent": 5,
+  "text": "Round 15 note: Majority said \"csbri\" (4 votes) but correct was \"goteg\" \u2014 contradicts the small-fixed-set majority pattern from rounds 12-14. So even constrained label sets aren't reliably majority-tracking. Need to stay cautious; mayb"
+ },
+ {
+  "type": "round_start",
+  "round": 16,
+  "correct": "hlpof",
+  "labels": [
+   "gaimt",
+   "hlpof",
+   "khzyj"
+  ],
+  "clue": "hlpof",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "hlpof",
+   "2": "gaimt"
+  }
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 0,
+  "S": 3,
+  "L": 5,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 1,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 2,
+  "S": 3,
+  "L": 5,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 3,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 4,
+  "S": 2,
+  "L": 1,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 5,
+  "S": 4,
+  "L": 1,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 6,
+  "S": 3,
+  "L": 1,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 7,
+  "S": 4,
+  "L": 3,
+  "s_label": "khzyj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 8,
+  "S": 4,
+  "L": 5,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 9,
+  "S": 5,
+  "L": 1,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 10,
+  "S": 2,
+  "L": 5,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 11,
+  "S": 4,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 12,
+  "S": 5,
+  "L": 2,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 13,
+  "S": 1,
+  "L": 5,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 14,
+  "S": 2,
+  "L": 1,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 15,
+  "S": 4,
+  "L": 5,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 16,
+  "S": 4,
+  "L": 2,
+  "s_label": "khzyj",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 17,
+  "S": 3,
+  "L": 2,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 18,
+  "S": 1,
+  "L": 3,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 19,
+  "S": 1,
+  "L": 4,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 20,
+  "S": 2,
+  "L": 5,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 21,
+  "S": 2,
+  "L": 4,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 22,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 23,
+  "S": 3,
+  "L": 4,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 24,
+  "S": 5,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 25,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 26,
+  "S": 3,
+  "L": 4,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 27,
+  "S": 1,
+  "L": 4,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 28,
+  "S": 2,
+  "L": 4,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 29,
+  "S": 4,
+  "L": 3,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 30,
+  "S": 1,
+  "L": 5,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 31,
+  "S": 4,
+  "L": 1,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 32,
+  "S": 1,
+  "L": 5,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 33,
+  "S": 1,
+  "L": 2,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 34,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 35,
+  "S": 5,
+  "L": 2,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 36,
+  "S": 2,
+  "L": 4,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 37,
+  "S": 2,
+  "L": 1,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 38,
+  "S": 3,
+  "L": 2,
+  "s_label": "hlpof",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 16,
+  "t": 39,
+  "S": 2,
+  "L": 3,
+  "s_label": "gaimt",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 16,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "hlpof",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "hlpof",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "hlpof",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "hlpof",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "hlpof",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 1,
+  "text": "Round 16 confirmed again\u2014private clue \"hlpof\" was correct, matching minority (2/7 peers), while majority said \"gaimt\" (4/7). Overall accuracy now ~14/16. Private clue remains highly reliable regardless of majority; continue trusting it as"
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 2,
+  "text": "Private note: Round 16's majority signal was \"hlpof\" (3/6) and it was correct, while my private clue said \"gaimt\" (wrong again). Private clues remain unreliable (~10/16 wrong). Continuing to prioritize majority/plurality among observed players over private"
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 3,
+  "text": "Note: Round 16 confirmed P1 reliable again\u2014\"hlpof\" (P1's sole pick) was correct despite majority \"gaimt\" (7 mentions). P1's picks correct in most rounds except when answer was unlisted by anyone. Continue prioritizing P"
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 4,
+  "text": "Round 16: majority said \"hlpof\" (4/7) and it matched correct answer. With allowed labels gaimt/hlpof/khzyj, majority worked. Overall majority reliability remains ~55-60% for ref_07. Continue leaning majority but stay cautious"
+ },
+ {
+  "type": "note",
+  "round": 16,
+  "agent": 5,
+  "text": "Round 16 note: Majority said \"hlpof\" (4 votes, P1/P3/P4) vs \"gaimt\" (4 votes, P2/P3/P4) \u2014 tied plurality, and \"hlpof\" was correct. With allowed-label sets, majority/plurality still in"
+ },
+ {
+  "type": "round_start",
+  "round": 17,
+  "correct": "dzgum",
+  "labels": [
+   "dzgum",
+   "grhqw",
+   "mwpjj"
+  ],
+  "clue": "dzgum",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "dzgum",
+   "2": "dzgum"
+  }
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 0,
+  "S": 3,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 1,
+  "S": 5,
+  "L": 3,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 2,
+  "S": 3,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 3,
+  "S": 3,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 4,
+  "S": 5,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 5,
+  "S": 2,
+  "L": 3,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 6,
+  "S": 4,
+  "L": 2,
+  "s_label": "grhqw",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 7,
+  "S": 2,
+  "L": 4,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 8,
+  "S": 4,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 9,
+  "S": 2,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 10,
+  "S": 4,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 11,
+  "S": 4,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 12,
+  "S": 4,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 13,
+  "S": 2,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 14,
+  "S": 2,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 15,
+  "S": 2,
+  "L": 3,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 16,
+  "S": 5,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 17,
+  "S": 4,
+  "L": 3,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 18,
+  "S": 1,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 19,
+  "S": 1,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 20,
+  "S": 2,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 21,
+  "S": 1,
+  "L": 3,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 22,
+  "S": 3,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 23,
+  "S": 3,
+  "L": 4,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 24,
+  "S": 1,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 25,
+  "S": 3,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 26,
+  "S": 5,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 27,
+  "S": 4,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 28,
+  "S": 3,
+  "L": 4,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 29,
+  "S": 4,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 30,
+  "S": 4,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 31,
+  "S": 4,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 32,
+  "S": 4,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 33,
+  "S": 3,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 34,
+  "S": 2,
+  "L": 4,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 35,
+  "S": 3,
+  "L": 5,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 36,
+  "S": 4,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 37,
+  "S": 1,
+  "L": 4,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 38,
+  "S": 3,
+  "L": 2,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 17,
+  "t": 39,
+  "S": 5,
+  "L": 1,
+  "s_label": "dzgum",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 17,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "dzgum",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "dzgum",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "dzgum",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "dzgum",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "dzgum",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 1,
+  "text": "Round 17 confirmed again\u2014private clue \"dzgum\" was correct, matching overwhelming majority (7/11 peers). Overall accuracy now ~15/17. Private clue remains highly reliable regardless of peer consensus alignment; continue trusting it as primary signal"
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 2,
+  "text": "Private note: Round 17 correct answer was \"dzgum\", matching both overwhelming majority (7/10) and my private clue\u2014both aligned and correct again. Strong majority consensus (especially near-unanimous) combined with matching clue seems to be the most reliable signal so far."
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 3,
+  "text": "Note: Round 17 confirmed majority \"dzgum\" (5/5 unanimous, incl. P1) was correct. Strong consensus with P1 included remains a solid signal. P1's picks correct in nearly all rounds when present\u2014continue prioritizing P1's choice,"
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 4,
+  "text": "Round 17: majority said \"dzgum\" (3/5) and it matched correct answer. With allowed labels dzgum/mwpjj/grhqw, majority worked again. Overall majority reliability holds ~55-60% for ref_07. Will continue leaning majority while ackn"
+ },
+ {
+  "type": "note",
+  "round": 17,
+  "agent": 5,
+  "text": "Round 17 note: Overwhelming majority said \"dzgum\" (9 votes across all 4 players) and it was correct. Consistent with pattern that near-unanimous consensus (especially across all players, not just one) tends to signal correctness more reliably than simple plurality splits."
+ },
+ {
+  "type": "round_start",
+  "round": 18,
+  "correct": "gwhah",
+  "labels": [
+   "cmedn",
+   "feeiw",
+   "gwhah"
+  ],
+  "clue": "gwhah",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "gwhah",
+   "2": "feeiw"
+  }
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 0,
+  "S": 4,
+  "L": 3,
+  "s_label": "cmedn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 1,
+  "S": 2,
+  "L": 5,
+  "s_label": "feeiw",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 2,
+  "S": 4,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 3,
+  "S": 1,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 4,
+  "S": 1,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 5,
+  "S": 3,
+  "L": 2,
+  "s_label": "cmedn",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 6,
+  "S": 2,
+  "L": 3,
+  "s_label": "feeiw",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 7,
+  "S": 1,
+  "L": 4,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 8,
+  "S": 3,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 9,
+  "S": 1,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 10,
+  "S": 4,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 11,
+  "S": 1,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 12,
+  "S": 4,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 13,
+  "S": 1,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 14,
+  "S": 4,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 15,
+  "S": 1,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 16,
+  "S": 2,
+  "L": 3,
+  "s_label": "feeiw",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 17,
+  "S": 4,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 18,
+  "S": 4,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 19,
+  "S": 5,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 20,
+  "S": 1,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 21,
+  "S": 3,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 22,
+  "S": 5,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 23,
+  "S": 5,
+  "L": 1,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 24,
+  "S": 1,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 25,
+  "S": 5,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 26,
+  "S": 4,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 27,
+  "S": 5,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 28,
+  "S": 3,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 29,
+  "S": 2,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 30,
+  "S": 2,
+  "L": 4,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 31,
+  "S": 1,
+  "L": 4,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 32,
+  "S": 4,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 33,
+  "S": 5,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 34,
+  "S": 4,
+  "L": 2,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 35,
+  "S": 1,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 36,
+  "S": 4,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 37,
+  "S": 4,
+  "L": 3,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 38,
+  "S": 2,
+  "L": 4,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 18,
+  "t": 39,
+  "S": 3,
+  "L": 5,
+  "s_label": "gwhah",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 18,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "gwhah",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "gwhah",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "gwhah",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "gwhah",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "gwhah",
+    "correct": true,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 1,
+  "text": "Round 18 confirmed again\u2014private clue \"gwhah\" was correct, matching overwhelming majority (6/6 peers). Overall accuracy now ~16/18. Private clue remains highly reliable regardless of peer consensus; continue trusting it as primary signal, treating"
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 2,
+  "text": "Private note: Round 18's correct answer was \"gwhah\", matching clear majority (4/7) but contradicting my private clue (\"feeiw\", wrong again). Private clues remain unreliable (~11/18 wrong). Majority/plurality continues to be the stronger signal over"
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 3,
+  "text": "Round 18 confirmed P1 reliable again\u2014\"gwhah\" (P1 x3, also majority with P4/P5) was correct, while P2's \"feeiw\" and lone \"cmedn\" were wrong. P1 continues strong signal, especially when aligned with majority. Ke"
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 4,
+  "text": "Round 18: unanimous \"gwhah\" (4/4) matched correct answer. Simple/strong consensus continues to be a decent signal. Overall majority reliability holds ~55-60% for ref_07 across rounds. Will keep leaning majority, especially with strong consens"
+ },
+ {
+  "type": "note",
+  "round": 18,
+  "agent": 5,
+  "text": "Round 18 note: Overwhelming majority said \"gwhah\" (7 votes across P1/P3/P4) and it matched the correct answer. Reinforces pattern: near-unanimous consensus across multiple distinct players (not just one) tends to signal correctness, especially with"
+ },
+ {
+  "type": "round_start",
+  "round": 19,
+  "correct": "bpcgh",
+  "labels": [
+   "bpcgh",
+   "dtomv",
+   "etiob"
+  ],
+  "clue": "bpcgh",
+  "clue_is_wrong": false,
+  "clue_map": {
+   "1": "bpcgh",
+   "2": "etiob"
+  }
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 0,
+  "S": 2,
+  "L": 5,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 1,
+  "S": 2,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 2,
+  "S": 4,
+  "L": 3,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 3,
+  "S": 5,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 4,
+  "S": 3,
+  "L": 5,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 5,
+  "S": 3,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 6,
+  "S": 1,
+  "L": 2,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 7,
+  "S": 4,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 8,
+  "S": 3,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 9,
+  "S": 2,
+  "L": 5,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 10,
+  "S": 1,
+  "L": 4,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 11,
+  "S": 1,
+  "L": 4,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 12,
+  "S": 5,
+  "L": 2,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 13,
+  "S": 5,
+  "L": 2,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 14,
+  "S": 4,
+  "L": 2,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 15,
+  "S": 2,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 16,
+  "S": 5,
+  "L": 2,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 17,
+  "S": 1,
+  "L": 4,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 18,
+  "S": 2,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 19,
+  "S": 5,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 20,
+  "S": 2,
+  "L": 3,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 21,
+  "S": 4,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 22,
+  "S": 1,
+  "L": 3,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 23,
+  "S": 1,
+  "L": 3,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 24,
+  "S": 5,
+  "L": 3,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 25,
+  "S": 2,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 26,
+  "S": 2,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 27,
+  "S": 2,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 28,
+  "S": 2,
+  "L": 3,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 29,
+  "S": 4,
+  "L": 5,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 30,
+  "S": 4,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 31,
+  "S": 3,
+  "L": 4,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 32,
+  "S": 4,
+  "L": 2,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 33,
+  "S": 3,
+  "L": 2,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 34,
+  "S": 5,
+  "L": 1,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 35,
+  "S": 2,
+  "L": 5,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 36,
+  "S": 2,
+  "L": 4,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 37,
+  "S": 1,
+  "L": 2,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 38,
+  "S": 1,
+  "L": 4,
+  "s_label": "bpcgh",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 19,
+  "t": 39,
+  "S": 4,
+  "L": 3,
+  "s_label": "etiob",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 19,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "bpcgh",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "etiob",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "bpcgh",
+    "correct": true,
+    "fb": false
+   },
+   {
+    "agent": 4,
+    "argmax": "etiob",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "etiob",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 1,
+  "text": "Round 19 confirmed again\u2014private clue \"bpcgh\" was correct despite overwhelming majority saying \"etiob\" (9/9 peers, 0 for bpcgh). Overall accuracy now ~17/19. Private clue remains highly reliable even against unanimous pe"
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 2,
+  "text": "Private note: Round 19's correct answer was \"bpcgh\" (per memory), matching majority signal (P1,P3) despite my clue saying \"etiob\" (wrong, though etiob had more raw mentions). Majority/plurality among observed players continues to outperform private clue overall"
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 3,
+  "text": "Note: Round 19 confirmed P1 reliable again\u2014\"bpcgh\" (P1 x2) was correct despite majority \"etiob\" (4 mentions incl. P2/P4/P5). P1 continues as strongest individual signal even against majority. Strategy: priorit"
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 4,
+  "text": "Round 19: majority said \"etiob\" (5 votes) but correct answer was \"bpcgh\" (4 votes, close second). Majority failed again\u2014reliability holds near 55-60% overall. Close vote splits seem risky; will keep leaning majority but treat near-ties caut"
+ },
+ {
+  "type": "note",
+  "round": 19,
+  "agent": 5,
+  "text": "Round 19 note: Majority said \"etiob\" (3 votes, P2/P3/P4) but correct was \"bpcgh\" (only P2, 1 vote, inconsistent voter). Reinforces pattern: single dissenting vote\u2014even from someone who also voted majority\u2014can"
+ },
+ {
+  "type": "round_start",
+  "round": 20,
+  "correct": "dqnnu",
+  "labels": [
+   "dqdtu",
+   "dqnnu",
+   "dyayn"
+  ],
+  "clue": "dqdtu",
+  "clue_is_wrong": true,
+  "clue_map": {
+   "1": "dqdtu",
+   "2": "dqdtu"
+  }
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 0,
+  "S": 4,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 1,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 2,
+  "S": 4,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 3,
+  "S": 3,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 4,
+  "S": 3,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 5,
+  "S": 2,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 6,
+  "S": 2,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 7,
+  "S": 4,
+  "L": 1,
+  "s_label": "dqnnu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 8,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 9,
+  "S": 1,
+  "L": 4,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 10,
+  "S": 4,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 11,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 12,
+  "S": 2,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 13,
+  "S": 1,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 14,
+  "S": 5,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 15,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 16,
+  "S": 4,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 17,
+  "S": 4,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 18,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 19,
+  "S": 4,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 20,
+  "S": 4,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 21,
+  "S": 3,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 22,
+  "S": 4,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 23,
+  "S": 4,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 24,
+  "S": 5,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 25,
+  "S": 3,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 26,
+  "S": 2,
+  "L": 4,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 27,
+  "S": 2,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 28,
+  "S": 2,
+  "L": 4,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 29,
+  "S": 1,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 30,
+  "S": 5,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 31,
+  "S": 1,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 32,
+  "S": 1,
+  "L": 5,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 33,
+  "S": 2,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 34,
+  "S": 2,
+  "L": 1,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 35,
+  "S": 4,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 36,
+  "S": 5,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 37,
+  "S": 4,
+  "L": 3,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 38,
+  "S": 5,
+  "L": 4,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "step",
+  "round": 20,
+  "t": 39,
+  "S": 3,
+  "L": 2,
+  "s_label": "dqdtu",
+  "fallback": false
+ },
+ {
+  "type": "probe",
+  "round": 20,
+  "probes": [
+   {
+    "agent": 1,
+    "argmax": "dqdtu",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 2,
+    "argmax": "dqdtu",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 3,
+    "argmax": "dqnnu",
+    "correct": true,
+    "fb": true
+   },
+   {
+    "agent": 4,
+    "argmax": "dqdtu",
+    "correct": false,
+    "fb": false
+   },
+   {
+    "agent": 5,
+    "argmax": "dqdtu",
+    "correct": false,
+    "fb": false
+   }
+  ]
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 1,
+  "text": "Round 20 broke the streak\u2014private clue said \"dqdtu\" (majority, 6/9 peers) but correct answer was \"dqnnu\" (only 1/9 peers). Private clue now ~17/20. Second failure overall. Still best primary signal, but continue noting occas"
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 2,
+  "text": "Private note: Round 20's memory showed overwhelming majority for \"dqdtu\" and my clue agreed too, yet correct answer was \"dqnnu\"\u2014a near-identical decoy label. This suggests correct answers can be deliberately close variants of majority label; stay alert to sub"
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 3,
+  "text": "Note: Round 20 had no P1 message; majority \"dqdtu\" (6 mentions) was wrong\u2014correct was \"dqnnu\" (unlisted, similar spelling). This mirrors prior unlisted-answer cases (rounds 5,10). Without P1, majority"
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 4,
+  "text": "Round 20: majority said \"dqdtu\" (3/4) but correct answer was \"dqnnu\" (0 votes, unobserved). Majority failed again for ref_07. Overall majority reliability stays ~50-55%. With only 3 allowed labels (dqdtu/"
+ },
+ {
+  "type": "note",
+  "round": 20,
+  "agent": 5,
+  "text": "Round 20 note: Majority said \"dqdtu\" (6 votes, P1/P2/P4) but correct was \"dqnnu\" (0 votes observed!). Reinforces strongest pattern: majority consensus is frequently wrong, sometimes correct answer isn't even"
+ }
+]

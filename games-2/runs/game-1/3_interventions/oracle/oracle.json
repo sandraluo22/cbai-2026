@@ -1,0 +1,34 @@
+{
+ "model": "QwenInst32",
+ "cap": 100,
+ "n": 12,
+ "rungs": {
+  "r0_none": {
+   "met_frac": 0.5,
+   "onset_frac": 0.75,
+   "played_cat_frac": 0.11064425770308123,
+   "probe_used": 0.3078125,
+   "probe_selffam": 0.0125,
+   "probe_cat": 0.1640625,
+   "n_probes": 10
+  },
+  "r5_oracle": {
+   "met_frac": 1.0,
+   "onset_frac": 0.0,
+   "played_cat_frac": 0.9393939393939394,
+   "probe_used": null,
+   "probe_selffam": null,
+   "probe_cat": null,
+   "n_probes": 0
+  },
+  "r6_scratch_inject": {
+   "met_frac": 1.0,
+   "onset_frac": 0.0,
+   "played_cat_frac": 0.9148936170212766,
+   "probe_used": 0.3046875,
+   "probe_selffam": 0.0,
+   "probe_cat": 0.5859375,
+   "n_probes": 2
+  }
+ }
+}

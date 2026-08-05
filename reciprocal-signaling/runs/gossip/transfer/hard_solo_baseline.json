@@ -1,0 +1,146 @@
+{
+ "Which of these metals has the highest melting point?": {
+  "opts": [
+   "rhenium",
+   "osmium",
+   "iridium"
+  ],
+  "ans": "rhenium",
+  "p_correct": 0.008
+ },
+ "Which of these moons has the largest radius?": {
+  "opts": [
+   "Titania",
+   "Rhea",
+   "Oberon"
+  ],
+  "ans": "Titania",
+  "p_correct": 0.996
+ },
+ "Which of these elements is most abundant in Earth's crust?": {
+  "opts": [
+   "titanium",
+   "barium",
+   "zinc"
+  ],
+  "ans": "titanium",
+  "p_correct": 0.259
+ },
+ "Which of these elements was discovered first?": {
+  "opts": [
+   "helium",
+   "argon",
+   "neon"
+  ],
+  "ans": "helium",
+  "p_correct": 1.0
+ },
+ "Which of these US states has the largest land area?": {
+  "opts": [
+   "Idaho",
+   "Kansas",
+   "Nebraska"
+  ],
+  "ans": "Idaho",
+  "p_correct": 0.852
+ },
+ "Which of these composers died youngest?": {
+  "opts": [
+   "Pergolesi",
+   "Schubert",
+   "Mozart"
+  ],
+  "ans": "Pergolesi",
+  "p_correct": 0.993
+ },
+ "Which of these battles was fought first?": {
+  "opts": [
+   "Agincourt",
+   "Crecy",
+   "Poitiers"
+  ],
+  "ans": "Crecy",
+  "p_correct": 0.998
+ },
+ "Which of these cities opened its metro system first?": {
+  "opts": [
+   "Budapest",
+   "Paris",
+   "Madrid"
+  ],
+  "ans": "Budapest",
+  "p_correct": 0.013
+ },
+ "Which of these mountains is the tallest?": {
+  "opts": [
+   "Nanga Parbat",
+   "Annapurna",
+   "Gasherbrum I"
+  ],
+  "ans": "Nanga Parbat",
+  "p_correct": 0.307
+ },
+ "Which of these seas is the saltiest?": {
+  "opts": [
+   "Red Sea",
+   "Mediterranean",
+   "Baltic"
+  ],
+  "ans": "Red Sea",
+  "p_correct": 1.0
+ },
+ "Which of these lakes is the deepest?": {
+  "opts": [
+   "Matano",
+   "Tahoe",
+   "Geneva"
+  ],
+  "ans": "Matano",
+  "p_correct": 0.621
+ },
+ "Which of these countries has the most time zones?": {
+  "opts": [
+   "France",
+   "Russia",
+   "USA"
+  ],
+  "ans": "France",
+  "p_correct": 0.859
+ },
+ "Which of these alphabets has the most letters?": {
+  "opts": [
+   "Khmer",
+   "Russian",
+   "Greek"
+  ],
+  "ans": "Khmer",
+  "p_correct": 0.437
+ },
+ "Which of these US presidents was born first?": {
+  "opts": [
+   "Nixon",
+   "Kennedy",
+   "Johnson"
+  ],
+  "ans": "Johnson",
+  "p_correct": 0.171
+ },
+ "Which of these elements has the most stable isotopes?": {
+  "opts": [
+   "tin",
+   "lead",
+   "iron"
+  ],
+  "ans": "tin",
+  "p_correct": 0.085
+ },
+ "Which of these cities is the farthest north?": {
+  "opts": [
+   "Venice",
+   "Toronto",
+   "Boston"
+  ],
+  "ans": "Venice",
+  "p_correct": 0.0
+ }
+}

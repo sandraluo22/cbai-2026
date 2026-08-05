@@ -93,10 +93,15 @@ def main():
                         cls["category"] += 1
                     else:
                         cls["other"] += 1
-                of.write(json.dumps({"cat": cat, "rollout": roll, "turn": t["turn"],
-                                     "onset": onset, "met": ts[-1]["agreed"],
-                                     "resamplesA": t["resamplesA"],
-                                     "frac": {k: v / K for k, v in cls.items()}}) + "\n")
+                row = {"cat": cat, "rollout": roll, "turn": t["turn"],
+                       "onset": onset, "met": ts[-1]["agreed"],
+                       "resamplesA": t["resamplesA"],
+                       "frac": {k: v / K for k, v in cls.items()}}
+                if os.environ.get("SAVE_WORDS"):
+                    # raw proposals for offline reclassification (suffix/semantic
+                    # families — the frac self_family class is prefix-only)
+                    row["words"] = words
+                of.write(json.dumps(row) + "\n")
                 of.flush()
                 used |= {t["A"], t["B"]}
                 own.append(t["A"])

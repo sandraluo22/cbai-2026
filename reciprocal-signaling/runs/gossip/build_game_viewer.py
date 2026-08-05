@@ -24,17 +24,37 @@ for f in sorted(glob.glob(os.path.join(HERE, "**", "*_transcript.jsonl"), recurs
         continue
     lines = [json.loads(l) for l in open(f)]
     meta = lines[0]
-    if not any(l.get("type") == "step" and "p_before" in l for l in lines):
+    is_api = meta.get("backend") == "api"              # argmax-only: no p-vectors recorded
+    if not is_api and not any(l.get("type") == "step" and "p_before" in l for l in lines):
         continue                                       # v1 generation-based transcript
     name = rel.replace("/gossip_", " ").replace("_transcript.jsonl", "").replace(".jsonl", "")
-    for a, b in (("notes/", "SCRATCHPAD / "), ("decide/", "DECIDE-TIME / "),
+    for a, b in (("xmodel_pod/", "CROSS-MODEL 80-20 local / "),
+                 ("xmodel_think/", "REASONING think 80-20 / "),
+                 ("xmodel/", "CROSS-MODEL 80-20 API / "), ("order/", "FIXED-ORDER 80-20 / "),
+                 ("duel100_pod/", "DUEL 100-0 cross-model / "),
+                 ("duel100/", "DUEL 100-0 cross-model / "),
+                 ("words/", "WORD-LABELS / "), ("transfer/", "TRUST-TRANSFER / "),
+                 ("relaycross/", "RELAY contested-node / "), ("relay/", "RELAY chains / "),
+                 ("nsweep_think/", "GROUP-SIZE sweep THINK / "),
+                 ("nsweep/", "GROUP-SIZE sweep / "), ("n3/", "GROUP-SIZE sweep / "),
+                 ("attend/", "ATTEND-instruction dyad / "),
+                 ("duelredeem/", "SONNET redemption / "), ("duelrev/", "SONNET reversal / "),
+                 ("duel_think/", "THINKING DUELS / "), ("dense/", "DENSE-FRAME duel / "),
+                 ("convnotes/", "PER-CONVERSATION NOTES / "),
+                 ("notes/", "SCRATCHPAD / "), ("decide/", "DECIDE-TIME / "),
                  ("window3/", "MEMORY-WINDOW-3 / "), ("polar/", "POLARIZATION / "),
                  ("alternator10/", "ALTERNATOR 10T/10L blocks / "), ("alternator/", "ALTERNATOR 5T/5L blocks / "),
                  ("switchtask/", "TASK-SWITCH naming->A/B / "), ("switch/", "REMOVE-or-BETRAY 30r / "),
                  ("earlystop/", "EARLY-STOP new-words 50r / "),
                  ("fresh50/", "NEW-WORDS-EACH-ROUND 50r / "), ("duel3/", "3-AGENT new-words 30r / "),
-                 ("r10names/", "10r names / "), ("r10/", "10r / "), ("nosent/", "no-sentence 5r / ")):
+                 ("r10names/", "10r names / "), ("r10/", "10r / "), ("nosent/", "no-sentence 5r / "),
+                 ("curve/", "RELIABILITY-CURVE / "), ("factorial/", "TALLY-TABLE FACTORIAL / "),
+                 ("contrast/", "CONTRAST MATRIX A80-vs-B / "),
+                 ("justify/", "JUSTIFICATION channel / "),
+                 ("whoinf/", "WHO-INFLUENCED-YOU / ")):
         name = name.replace(a, b)
+    if " / " not in name and "/" in name:               # unmapped dir: dir name = family
+        name = name.replace("/", " / ", 1)
     if "/" not in name:
         name = "5r fixed-labels / " + name
     import re as _re
@@ -55,10 +75,15 @@ for f in sorted(glob.glob(os.path.join(HERE, "**", "*_transcript.jsonl"), recurs
         elif l["type"] == "step":
             li = rounds[-1]["labels"]
             rd3 = lambda v: [round(x, 3) for x in v]
-            steps.append([l["round"], l["S"], l["L"], li.index(l["s_label"]),
-                          rd3(l["p_speaker"]), rd3(l["p_before"]), rd3(l["p_after"])])
+            if is_api:
+                onehot = [1.0 if j == li.index(l["s_label"]) else 0.0 for j in range(len(li))]
+                steps.append([l["round"], l["S"], l["L"], li.index(l["s_label"]),
+                              onehot, None, None])
+            else:
+                steps.append([l["round"], l["S"], l["L"], li.index(l["s_label"]),
+                              rd3(l["p_speaker"]), rd3(l["p_before"]), rd3(l["p_after"])])
     games[name] = dict(n=meta["n"], names=meta.get("names", False),
-                       var=meta["var"], rounds=rounds, steps=steps, notes=notes,
+                       var=meta["var"], rounds=rounds, steps=steps, notes=notes, api=is_api,
                        nmode=("replace" if ("update" in rel or "peragent" in rel) else "append"))
 
 print(f"{len(games)} games, {sum(len(g['steps']) for g in games.values())} steps")
@@ -144,7 +169,14 @@ const css=v=>getComputedStyle($("root")).getPropertyValue(v).trim();
 const st={game:Object.keys(GAMES)[0], t:1, sel:null, playing:null, snap:null};
 const ORDER=["5r fixed-labels","10r","10r names","no-sentence 5r","NEW-WORDS-EACH-ROUND 50r",
  "3-AGENT new-words 30r","EARLY-STOP new-words 50r","REMOVE-or-BETRAY 30r",
- "TASK-SWITCH naming->A/B","ALTERNATOR 5T/5L blocks","ALTERNATOR 10T/10L blocks"];
+ "TASK-SWITCH naming->A/B","ALTERNATOR 5T/5L blocks","ALTERNATOR 10T/10L blocks",
+ "POLARIZATION","MEMORY-WINDOW-3","RELIABILITY-CURVE","CONTRAST MATRIX A80-vs-B",
+ "TALLY-TABLE FACTORIAL","SCRATCHPAD","PER-CONVERSATION NOTES","DECIDE-TIME",
+ "JUSTIFICATION channel","WHO-INFLUENCED-YOU","CROSS-MODEL 80-20 local",
+ "CROSS-MODEL 80-20 API","REASONING think 80-20","FIXED-ORDER 80-20",
+ "DUEL 100-0 cross-model","WORD-LABELS","TRUST-TRANSFER","DENSE-FRAME duel",
+ "GROUP-SIZE sweep","GROUP-SIZE sweep THINK","ATTEND-instruction dyad","THINKING DUELS",
+ "RELAY chains","RELAY contested-node","SONNET reversal","SONNET redemption"];
 const fam=k=>k.split(" / ")[0], suf=k=>k.split(" / ").slice(1).join(" / ");
 const fams=[...new Set(Object.keys(GAMES).map(fam))]
  .sort((a,b)=>((x=>x<0?99:x)(ORDER.indexOf(a)))-((x=>x<0?99:x)(ORDER.indexOf(b))));
@@ -163,7 +195,7 @@ function loadGame(){
  const g=GAMES[st.game];
  // last-known belief per agent after each step
  st.snap=[]; let cur=Array.from({length:g.n+1},()=>null);
- g.steps.forEach(s=>{cur=cur.slice(); cur[s[1]]=s[4]; cur[s[2]]=s[6]; st.snap.push(cur)});
+ g.steps.forEach(s=>{cur=cur.slice(); if(s[4])cur[s[1]]=s[4]; if(s[6])cur[s[2]]=s[6]; st.snap.push(cur)});
  $("conv").max=g.steps.length; $("round").max=g.rounds.length;
  st.t=1; st.sel=null; render();
 }
@@ -250,8 +282,9 @@ function render(){
   $("pad").innerHTML=vis.map(x=>`<div class="padnote"><b>after round ${x[0]}:</b> ${esc2(x[1])}</div>`).join("") ||
     "";
  } else { $("padhdr").style.display="none"; $("pad").innerHTML=""; }
- $("lupdate").innerHTML=`<div class="tag" style="margin-bottom:2px">${pname(g,s[2])} before &rarr; after hearing it:</div>`+
-   bars(s[5],ri)+`<div style="height:6px"></div>`+bars(s[6],ri);
+ $("lupdate").innerHTML=s[5]?`<div class="tag" style="margin-bottom:2px">${pname(g,s[2])} before &rarr; after hearing it:</div>`+
+   bars(s[5],ri)+`<div style="height:6px"></div>`+bars(s[6],ri)
+  :`<div class="tag">no logit reads in this game (API backend — node color shows each agent's last EMITTED label, a sample from its belief)</div>`;
 }
 $("game").addEventListener("change",e=>{st.game=e.target.value;loadGame()});
 $("conv").addEventListener("input",e=>{st.t=+e.target.value;render()});

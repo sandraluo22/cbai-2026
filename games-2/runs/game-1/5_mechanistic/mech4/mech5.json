@@ -1,0 +1,314 @@
+{
+ "per_cell": [
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 0,
+   "pfam": 5.85585949011147e-05,
+   "fam_mass": 0.21875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 0,
+   "pfam": 0.00013180909445509315,
+   "fam_mass": 0.90625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "base",
+   "stream": 0,
+   "pfam": 1.1637409258469233e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "base",
+   "stream": 0,
+   "pfam": 2.981711322291858e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 0,
+   "pfam": 0.00022784688917454332,
+   "fam_mass": 0.96875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 0,
+   "pfam": 7.945525794639252e-06,
+   "fam_mass": 0.390625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "base",
+   "stream": 0,
+   "pfam": 7.50021644790877e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "base",
+   "stream": 0,
+   "pfam": 5.379470202626635e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 2,
+   "pfam": 6.283480615820736e-05,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 2,
+   "pfam": 0.00018854915106203407,
+   "fam_mass": 0.96875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "base",
+   "stream": 2,
+   "pfam": 3.88398539996615e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "base",
+   "stream": 2,
+   "pfam": 1.7285554321233576e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 2,
+   "pfam": 0.0001214232252095826,
+   "fam_mass": 1.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 2,
+   "pfam": 2.194076159867109e-06,
+   "fam_mass": 0.34375,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "base",
+   "stream": 2,
+   "pfam": 9.187994365333907e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "base",
+   "stream": 2,
+   "pfam": 1.4877240772648292e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 7,
+   "pfam": 8.806234109215438e-05,
+   "fam_mass": 0.21875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 7,
+   "pfam": 0.00013199684326536953,
+   "fam_mass": 0.921875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "base",
+   "stream": 7,
+   "pfam": 9.004040180116135e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "base",
+   "stream": 7,
+   "pfam": 2.607578819535661e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 7,
+   "pfam": 9.417691762791947e-05,
+   "fam_mass": 1.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 7,
+   "pfam": 1.027039616019465e-05,
+   "fam_mass": 0.765625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "base",
+   "stream": 7,
+   "pfam": 3.7740535141495e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "base",
+   "stream": 7,
+   "pfam": 3.2040745612249566e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 9,
+   "pfam": 3.0665702070109546e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 9,
+   "pfam": 0.00013350634253583848,
+   "fam_mass": 0.921875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P1",
+   "content": "base",
+   "stream": 9,
+   "pfam": 8.998322087450106e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "asked": "P2",
+   "content": "base",
+   "stream": 9,
+   "pfam": 3.3279565769817054e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "planted",
+   "stream": 9,
+   "pfam": 0.00017525737348478287,
+   "fam_mass": 1.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "planted",
+   "stream": 9,
+   "pfam": 6.504873454105109e-06,
+   "fam_mass": 0.875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P1",
+   "content": "base",
+   "stream": 9,
+   "pfam": 3.6385185975262857e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "asked": "P2",
+   "content": "base",
+   "stream": 9,
+   "pfam": 1.765254387109394e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  }
+ ],
+ "summary": {
+  "ownerP1_askP1": {
+   "planted": 0.30859375,
+   "base": 0.0,
+   "capture": 0.30859375
+  },
+  "ownerP1_askP2": {
+   "planted": 0.9296875,
+   "base": 0.0,
+   "capture": 0.9296875
+  },
+  "ownerP2_askP1": {
+   "planted": 0.9921875,
+   "base": 0.0,
+   "capture": 0.9921875
+  },
+  "ownerP2_askP2": {
+   "planted": 0.59375,
+   "base": 0.0,
+   "capture": 0.59375
+  }
+ }
+}

@@ -1,0 +1,870 @@
+{
+ "per_branch": [
+  {
+   "cell": "dose_0",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 0,
+   "target_mass": 0.0625,
+   "used_mass": 0.34375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 0,
+   "target_mass": 0.015625,
+   "used_mass": 0.265625,
+   "cat_mass": 0.140625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.171875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 0,
+   "target_mass": 1.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 4
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.15625,
+   "cat_mass": 0.046875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.171875,
+   "cat_mass": 0.625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.890625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 0,
+   "target_mass": 0.015625,
+   "used_mass": 0.453125,
+   "cat_mass": 0.03125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.546875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.9375,
+   "cat_mass": 0.0,
+   "fam_hits6": 6
+  },
+  {
+   "cell": "dose_4",
+   "stream": 2,
+   "target_mass": 0.15625,
+   "used_mass": 0.578125,
+   "cat_mass": 0.0,
+   "fam_hits6": 5
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.328125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 2,
+   "target_mass": 1.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 4
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 2,
+   "target_mass": 0.046875,
+   "used_mass": 0.359375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 2,
+   "target_mass": 0.09375,
+   "used_mass": 0.390625,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 2,
+   "target_mass": 0.03125,
+   "used_mass": 0.40625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 2,
+   "target_mass": 0.0625,
+   "used_mass": 0.34375,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 2,
+   "target_mass": 0.0625,
+   "used_mass": 0.46875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "dose_0",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.234375,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 7,
+   "target_mass": 0.09375,
+   "used_mass": 0.171875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.09375,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 7,
+   "target_mass": 1.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.03125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.265625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 7,
+   "target_mass": 0.015625,
+   "used_mass": 0.421875,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 7,
+   "target_mass": 0.015625,
+   "used_mass": 0.09375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 9,
+   "target_mass": 0.09375,
+   "used_mass": 0.25,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 9,
+   "target_mass": 0.046875,
+   "used_mass": 0.09375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.078125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 9,
+   "target_mass": 1.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 3
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.296875,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.640625,
+   "cat_mass": 0.0625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.40625,
+   "cat_mass": 0.203125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 9,
+   "target_mass": 0.09375,
+   "used_mass": 0.3125,
+   "cat_mass": 0.0625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 15,
+   "target_mass": 0.140625,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 15,
+   "target_mass": 0.0625,
+   "used_mass": 0.15625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 15,
+   "target_mass": 0.546875,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 3
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 15,
+   "target_mass": 0.0625,
+   "used_mass": 0.171875,
+   "cat_mass": 0.03125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 15,
+   "target_mass": 0.046875,
+   "used_mass": 0.328125,
+   "cat_mass": 0.03125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 15,
+   "target_mass": 0.015625,
+   "used_mass": 0.0625,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 15,
+   "target_mass": 0.015625,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_0",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.09375,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_1",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_2",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 17,
+   "target_mass": 0.15625,
+   "used_mass": 0.03125,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_4",
+   "stream": 17,
+   "target_mass": 0.078125,
+   "used_mass": 0.109375,
+   "cat_mass": 0.125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_partner",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_list",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.265625,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr_other",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.015625,
+   "cat_mass": 0.0625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 17,
+   "target_mass": 1.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_yes",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.375,
+   "cat_mass": 0.390625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb_no",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.421875,
+   "cat_mass": 0.203125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_yes",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.84375,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "perturb4_no",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.90625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "attr4_list",
+   "stream": 17,
+   "target_mass": 0.015625,
+   "used_mass": 0.234375,
+   "cat_mass": 0.0625,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "attr4_partner",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.0625,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  }
+ ],
+ "cells": {
+  "perturb_yes": {
+   "target_mass": 0.018229166666666668,
+   "used_mass": 0.23177083333333334,
+   "cat_mass": 0.08333333333333333,
+   "fam_hits6": 0.0
+  },
+  "dose_3": {
+   "target_mass": 0.07552083333333333,
+   "used_mass": 0.3463541666666667,
+   "cat_mass": 0.005208333333333333,
+   "fam_hits6": 1.0
+  },
+  "attr4_partner": {
+   "target_mass": 0.005208333333333333,
+   "used_mass": 0.041666666666666664,
+   "cat_mass": 0.0,
+   "fam_hits6": 0.5
+  },
+  "dose_4": {
+   "target_mass": 0.07552083333333333,
+   "used_mass": 0.22916666666666666,
+   "cat_mass": 0.044270833333333336,
+   "fam_hits6": 0.8333333333333334
+  },
+  "dose_1": {
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0026041666666666665,
+   "fam_hits6": 0.0
+  },
+  "attr_other": {
+   "target_mass": 0.0,
+   "used_mass": 0.013020833333333334,
+   "cat_mass": 0.013020833333333334,
+   "fam_hits6": 0.0
+  },
+  "perturb_no": {
+   "target_mass": 0.0234375,
+   "used_mass": 0.296875,
+   "cat_mass": 0.0546875,
+   "fam_hits6": 0.16666666666666666
+  },
+  "attr4_list": {
+   "target_mass": 0.020833333333333332,
+   "used_mass": 0.3203125,
+   "cat_mass": 0.018229166666666668,
+   "fam_hits6": 0.16666666666666666
+  },
+  "lex_rand": {
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0026041666666666665,
+   "fam_hits6": 0.0
+  },
+  "attr_partner": {
+   "target_mass": 0.0,
+   "used_mass": 0.010416666666666666,
+   "cat_mass": 0.0,
+   "fam_hits6": 0.0
+  },
+  "attr_list": {
+   "target_mass": 0.0,
+   "used_mass": 0.15885416666666666,
+   "cat_mass": 0.005208333333333333,
+   "fam_hits6": 0.0
+  },
+  "dose_0": {
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.015625,
+   "fam_hits6": 0.0
+  },
+  "lex_sem": {
+   "target_mass": 0.9244791666666666,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 3.0
+  },
+  "perturb4_no": {
+   "target_mass": 0.026041666666666668,
+   "used_mass": 0.13020833333333334,
+   "cat_mass": 0.3541666666666667,
+   "fam_hits6": 0.16666666666666666
+  },
+  "dose_2": {
+   "target_mass": 0.0,
+   "used_mass": 0.09114583333333333,
+   "cat_mass": 0.0026041666666666665,
+   "fam_hits6": 0.0
+  },
+  "perturb4_yes": {
+   "target_mass": 0.005208333333333333,
+   "used_mass": 0.171875,
+   "cat_mass": 0.2890625,
+   "fam_hits6": 0.0
+  }
+ }
+}

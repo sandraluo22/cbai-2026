@@ -1,0 +1,414 @@
+{
+ "model": "claude-haiku-4-5",
+ "temp": 0.7,
+ "k": 64,
+ "cap": 100,
+ "n": 12,
+ "game": {
+  "per_game": [
+   {
+    "rollout": 0,
+    "agreed_at": 12,
+    "onset": null,
+    "probe": {
+     "used": 0.140625,
+     "selffam": 0.0,
+     "cat": 0.078125
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 1,
+    "agreed_at": 17,
+    "onset": null,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 2,
+    "agreed_at": 16,
+    "onset": null,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 3,
+    "agreed_at": null,
+    "onset": 28,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 4,
+    "agreed_at": 20,
+    "onset": 17,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 5,
+    "agreed_at": 5,
+    "onset": null,
+    "probe": null,
+    "aborted": false
+   },
+   {
+    "rollout": 6,
+    "agreed_at": null,
+    "onset": 11,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 7,
+    "agreed_at": 7,
+    "onset": null,
+    "probe": null,
+    "aborted": false
+   },
+   {
+    "rollout": 8,
+    "agreed_at": 28,
+    "onset": 22,
+    "probe": {
+     "used": 0.0,
+     "selffam": 0.0,
+     "cat": 0.0625
+    },
+    "aborted": false
+   },
+   {
+    "rollout": 9,
+    "agreed_at": 5,
+    "onset": null,
+    "probe": null,
+    "aborted": false
+   },
+   {
+    "rollout": 10,
+    "agreed_at": 6,
+    "onset": null,
+    "probe": null,
+    "aborted": false
+   },
+   {
+    "rollout": 11,
+    "agreed_at": null,
+    "onset": 23,
+    "probe": {
+     "used": 0.015625,
+     "selffam": 0.0,
+     "cat": 0.0
+    },
+    "aborted": false
+   }
+  ],
+  "met_frac": 0.75,
+  "onset_frac": 0.4166666666666667,
+  "probe_used": 0.01953125,
+  "probe_selffam": 0.0,
+  "probe_cat": 0.017578125,
+  "n_probes": 8
+ },
+ "dose": {
+  "per_branch": [
+   {
+    "cell": "dose_0",
+    "stream": 0,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.03125,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 0,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.09375,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 0,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 0,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 0,
+    "target_mass": 0.1875,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_0",
+    "stream": 2,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 2,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.171875,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 2,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.609375,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 2,
+    "target_mass": 0.015625,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 2,
+    "target_mass": 1.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 3
+   },
+   {
+    "cell": "dose_0",
+    "stream": 7,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.125,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 7,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 7,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.046875,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 7,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.03125,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 7,
+    "target_mass": 0.09375,
+    "used_mass": 0.015625,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_0",
+    "stream": 9,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 9,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 9,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 9,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 9,
+    "target_mass": 0.15625,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_0",
+    "stream": 15,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 15,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 15,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 15,
+    "target_mass": 0.09375,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 15,
+    "target_mass": 0.421875,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_0",
+    "stream": 17,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.46875,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_1",
+    "stream": 17,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.046875,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_2",
+    "stream": 17,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.953125,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_3",
+    "stream": 17,
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.359375,
+    "fam_hits6": 0
+   },
+   {
+    "cell": "dose_4",
+    "stream": 17,
+    "target_mass": 0.125,
+    "used_mass": 0.0,
+    "cat_mass": 0.0,
+    "fam_hits6": 0
+   }
+  ],
+  "cells": {
+   "dose_0": {
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.10416666666666667,
+    "fam_hits6": 0.0
+   },
+   "dose_1": {
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.052083333333333336,
+    "fam_hits6": 0.0
+   },
+   "dose_2": {
+    "target_mass": 0.0,
+    "used_mass": 0.0,
+    "cat_mass": 0.2682291666666667,
+    "fam_hits6": 0.0
+   },
+   "dose_3": {
+    "target_mass": 0.018229166666666668,
+    "used_mass": 0.0,
+    "cat_mass": 0.06510416666666667,
+    "fam_hits6": 0.0
+   },
+   "dose_4": {
+    "target_mass": 0.3307291666666667,
+    "used_mass": 0.0026041666666666665,
+    "cat_mass": 0.0,
+    "fam_hits6": 0.5
+   }
+  }
+ },
+ "usage": {
+  "calls": 7337,
+  "input_tokens": 6634922,
+  "output_tokens": 44022
+ }
+}

@@ -1,0 +1,201 @@
+{"type": "meta", "var": "curve", "model": "Qwen32-think", "rounds": 20, "n": 2, "k": 3, "steps": 8, "temp": 1.0, "seed": 0, "labels": ["fouis", "ivuia", "kaqve"], "names": false, "fresh": true, "notes": "", "backend": "api", "think": 768}
+{"type": "round_start", "round": 1, "correct": "fouis", "labels": ["fouis", "ivuia", "kaqve"], "clue": "ivuia", "clue_is_wrong": true, "clue_map": {"1": "ivuia"}}
+{"type": "step", "round": 1, "t": 0, "S": 1, "L": 2, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 1, "S": 1, "L": 2, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 2, "S": 1, "L": 2, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 3, "S": 2, "L": 1, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 4, "S": 1, "L": 2, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 5, "S": 2, "L": 1, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 6, "S": 1, "L": 2, "s_label": "ivuia", "fallback": false}
+{"type": "step", "round": 1, "t": 7, "S": 2, "L": 1, "s_label": "ivuia", "fallback": false}
+{"type": "probe", "round": 1, "probes": [{"agent": 1, "argmax": "ivuia", "correct": false, "fb": false}, {"agent": 2, "argmax": "ivuia", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 2, "correct": "pzccb", "labels": ["cmhtq", "ipjgr", "pzccb"], "clue": "ipjgr", "clue_is_wrong": true, "clue_map": {"1": "ipjgr"}}
+{"type": "step", "round": 2, "t": 0, "S": 1, "L": 2, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 1, "S": 2, "L": 1, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 2, "S": 2, "L": 1, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 3, "S": 1, "L": 2, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 4, "S": 1, "L": 2, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 5, "S": 1, "L": 2, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 6, "S": 2, "L": 1, "s_label": "ipjgr", "fallback": false}
+{"type": "step", "round": 2, "t": 7, "S": 2, "L": 1, "s_label": "ipjgr", "fallback": false}
+{"type": "probe", "round": 2, "probes": [{"agent": 1, "argmax": "ipjgr", "correct": false, "fb": false}, {"agent": 2, "argmax": "ipjgr", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 3, "correct": "fttbz", "labels": ["fttbz", "iqtct", "nxybn"], "clue": "iqtct", "clue_is_wrong": true, "clue_map": {"1": "iqtct"}}
+{"type": "step", "round": 3, "t": 0, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 1, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 2, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 3, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 4, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 5, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 6, "S": 2, "L": 1, "s_label": "iqtct", "fallback": false}
+{"type": "step", "round": 3, "t": 7, "S": 1, "L": 2, "s_label": "iqtct", "fallback": false}
+{"type": "probe", "round": 3, "probes": [{"agent": 1, "argmax": "iqtct", "correct": false, "fb": false}, {"agent": 2, "argmax": "iqtct", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 4, "correct": "psbrj", "labels": ["ccttd", "ieuim", "psbrj"], "clue": "ieuim", "clue_is_wrong": true, "clue_map": {"1": "ieuim"}}
+{"type": "step", "round": 4, "t": 0, "S": 2, "L": 1, "s_label": "ccttd", "fallback": false}
+{"type": "step", "round": 4, "t": 1, "S": 2, "L": 1, "s_label": "ccttd", "fallback": false}
+{"type": "step", "round": 4, "t": 2, "S": 1, "L": 2, "s_label": "ieuim", "fallback": false}
+{"type": "step", "round": 4, "t": 3, "S": 2, "L": 1, "s_label": "ieuim", "fallback": false}
+{"type": "step", "round": 4, "t": 4, "S": 2, "L": 1, "s_label": "ieuim", "fallback": false}
+{"type": "step", "round": 4, "t": 5, "S": 1, "L": 2, "s_label": "ieuim", "fallback": false}
+{"type": "step", "round": 4, "t": 6, "S": 2, "L": 1, "s_label": "ieuim", "fallback": false}
+{"type": "step", "round": 4, "t": 7, "S": 1, "L": 2, "s_label": "ieuim", "fallback": false}
+{"type": "probe", "round": 4, "probes": [{"agent": 1, "argmax": "ieuim", "correct": false, "fb": false}, {"agent": 2, "argmax": "ieuim", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 5, "correct": "mpyfu", "labels": ["mhpnf", "mpyfu", "raezz"], "clue": "raezz", "clue_is_wrong": true, "clue_map": {"1": "raezz"}}
+{"type": "step", "round": 5, "t": 0, "S": 1, "L": 2, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 1, "S": 2, "L": 1, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 2, "S": 1, "L": 2, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 3, "S": 2, "L": 1, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 4, "S": 2, "L": 1, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 5, "S": 2, "L": 1, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 6, "S": 1, "L": 2, "s_label": "raezz", "fallback": false}
+{"type": "step", "round": 5, "t": 7, "S": 2, "L": 1, "s_label": "raezz", "fallback": false}
+{"type": "probe", "round": 5, "probes": [{"agent": 1, "argmax": "raezz", "correct": false, "fb": false}, {"agent": 2, "argmax": "raezz", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 6, "correct": "mjriu", "labels": ["lvdex", "mjriu", "oznwj"], "clue": "oznwj", "clue_is_wrong": true, "clue_map": {"1": "oznwj"}}
+{"type": "step", "round": 6, "t": 0, "S": 1, "L": 2, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 1, "S": 2, "L": 1, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 2, "S": 2, "L": 1, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 3, "S": 2, "L": 1, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 4, "S": 2, "L": 1, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 5, "S": 1, "L": 2, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 6, "S": 1, "L": 2, "s_label": "oznwj", "fallback": false}
+{"type": "step", "round": 6, "t": 7, "S": 1, "L": 2, "s_label": "oznwj", "fallback": false}
+{"type": "probe", "round": 6, "probes": [{"agent": 1, "argmax": "oznwj", "correct": false, "fb": false}, {"agent": 2, "argmax": "oznwj", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 7, "correct": "hggkd", "labels": ["egaob", "fclnc", "hggkd"], "clue": "egaob", "clue_is_wrong": true, "clue_map": {"1": "egaob"}}
+{"type": "step", "round": 7, "t": 0, "S": 1, "L": 2, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 1, "S": 2, "L": 1, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 2, "S": 1, "L": 2, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 3, "S": 1, "L": 2, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 4, "S": 1, "L": 2, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 5, "S": 2, "L": 1, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 6, "S": 1, "L": 2, "s_label": "egaob", "fallback": false}
+{"type": "step", "round": 7, "t": 7, "S": 2, "L": 1, "s_label": "egaob", "fallback": false}
+{"type": "probe", "round": 7, "probes": [{"agent": 1, "argmax": "egaob", "correct": false, "fb": false}, {"agent": 2, "argmax": "egaob", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 8, "correct": "ooeff", "labels": ["cvqmd", "eaprl", "ooeff"], "clue": "cvqmd", "clue_is_wrong": true, "clue_map": {"1": "cvqmd"}}
+{"type": "step", "round": 8, "t": 0, "S": 1, "L": 2, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 1, "S": 1, "L": 2, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 2, "S": 2, "L": 1, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 3, "S": 1, "L": 2, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 4, "S": 2, "L": 1, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 5, "S": 2, "L": 1, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 6, "S": 2, "L": 1, "s_label": "cvqmd", "fallback": false}
+{"type": "step", "round": 8, "t": 7, "S": 1, "L": 2, "s_label": "cvqmd", "fallback": false}
+{"type": "probe", "round": 8, "probes": [{"agent": 1, "argmax": "cvqmd", "correct": false, "fb": false}, {"agent": 2, "argmax": "cvqmd", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 9, "correct": "agxwg", "labels": ["agxwg", "cpciv", "ctasz"], "clue": "cpciv", "clue_is_wrong": true, "clue_map": {"1": "cpciv"}}
+{"type": "step", "round": 9, "t": 0, "S": 2, "L": 1, "s_label": "ctasz", "fallback": false}
+{"type": "step", "round": 9, "t": 1, "S": 2, "L": 1, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 2, "S": 2, "L": 1, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 3, "S": 1, "L": 2, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 4, "S": 2, "L": 1, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 5, "S": 2, "L": 1, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 6, "S": 2, "L": 1, "s_label": "cpciv", "fallback": false}
+{"type": "step", "round": 9, "t": 7, "S": 1, "L": 2, "s_label": "cpciv", "fallback": false}
+{"type": "probe", "round": 9, "probes": [{"agent": 1, "argmax": "cpciv", "correct": false, "fb": false}, {"agent": 2, "argmax": "cpciv", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 10, "correct": "cwjsq", "labels": ["cwjsq", "lassb", "saxkl"], "clue": "saxkl", "clue_is_wrong": true, "clue_map": {"1": "saxkl"}}
+{"type": "step", "round": 10, "t": 0, "S": 2, "L": 1, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 1, "S": 2, "L": 1, "s_label": "cwjsq", "fallback": false}
+{"type": "step", "round": 10, "t": 2, "S": 1, "L": 2, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 3, "S": 1, "L": 2, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 4, "S": 1, "L": 2, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 5, "S": 2, "L": 1, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 6, "S": 2, "L": 1, "s_label": "saxkl", "fallback": false}
+{"type": "step", "round": 10, "t": 7, "S": 2, "L": 1, "s_label": "saxkl", "fallback": false}
+{"type": "probe", "round": 10, "probes": [{"agent": 1, "argmax": "saxkl", "correct": false, "fb": false}, {"agent": 2, "argmax": "saxkl", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 11, "correct": "ljrdu", "labels": ["hpquf", "ljrdu", "lnvmy"], "clue": "hpquf", "clue_is_wrong": true, "clue_map": {"1": "hpquf"}}
+{"type": "step", "round": 11, "t": 0, "S": 2, "L": 1, "s_label": "hpquf", "fallback": false}
+{"type": "step", "round": 11, "t": 1, "S": 2, "L": 1, "s_label": "ljrdu", "fallback": false}
+{"type": "step", "round": 11, "t": 2, "S": 2, "L": 1, "s_label": "ljrdu", "fallback": false}
+{"type": "step", "round": 11, "t": 3, "S": 1, "L": 2, "s_label": "hpquf", "fallback": false}
+{"type": "step", "round": 11, "t": 4, "S": 2, "L": 1, "s_label": "hpquf", "fallback": false}
+{"type": "step", "round": 11, "t": 5, "S": 1, "L": 2, "s_label": "hpquf", "fallback": false}
+{"type": "step", "round": 11, "t": 6, "S": 1, "L": 2, "s_label": "hpquf", "fallback": false}
+{"type": "step", "round": 11, "t": 7, "S": 1, "L": 2, "s_label": "hpquf", "fallback": false}
+{"type": "probe", "round": 11, "probes": [{"agent": 1, "argmax": "hpquf", "correct": false, "fb": false}, {"agent": 2, "argmax": "hpquf", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 12, "correct": "blrey", "labels": ["blrey", "dhhkz", "fcivd"], "clue": "dhhkz", "clue_is_wrong": true, "clue_map": {"1": "dhhkz"}}
+{"type": "step", "round": 12, "t": 0, "S": 1, "L": 2, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 1, "S": 2, "L": 1, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 2, "S": 1, "L": 2, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 3, "S": 1, "L": 2, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 4, "S": 2, "L": 1, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 5, "S": 1, "L": 2, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 6, "S": 1, "L": 2, "s_label": "dhhkz", "fallback": false}
+{"type": "step", "round": 12, "t": 7, "S": 2, "L": 1, "s_label": "dhhkz", "fallback": false}
+{"type": "probe", "round": 12, "probes": [{"agent": 1, "argmax": "dhhkz", "correct": false, "fb": false}, {"agent": 2, "argmax": "dhhkz", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 13, "correct": "bwfty", "labels": ["bwfty", "herbv", "ljxrg"], "clue": "herbv", "clue_is_wrong": true, "clue_map": {"1": "herbv"}}
+{"type": "step", "round": 13, "t": 0, "S": 2, "L": 1, "s_label": "ljxrg", "fallback": false}
+{"type": "step", "round": 13, "t": 1, "S": 1, "L": 2, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 2, "S": 1, "L": 2, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 3, "S": 1, "L": 2, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 4, "S": 2, "L": 1, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 5, "S": 2, "L": 1, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 6, "S": 1, "L": 2, "s_label": "herbv", "fallback": false}
+{"type": "step", "round": 13, "t": 7, "S": 2, "L": 1, "s_label": "herbv", "fallback": false}
+{"type": "probe", "round": 13, "probes": [{"agent": 1, "argmax": "herbv", "correct": false, "fb": false}, {"agent": 2, "argmax": "herbv", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 14, "correct": "cssei", "labels": ["cssei", "dunpe", "evkae"], "clue": "evkae", "clue_is_wrong": true, "clue_map": {"1": "evkae"}}
+{"type": "step", "round": 14, "t": 0, "S": 2, "L": 1, "s_label": "dunpe", "fallback": false}
+{"type": "step", "round": 14, "t": 1, "S": 1, "L": 2, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 2, "S": 2, "L": 1, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 3, "S": 2, "L": 1, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 4, "S": 1, "L": 2, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 5, "S": 1, "L": 2, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 6, "S": 1, "L": 2, "s_label": "evkae", "fallback": false}
+{"type": "step", "round": 14, "t": 7, "S": 2, "L": 1, "s_label": "evkae", "fallback": false}
+{"type": "probe", "round": 14, "probes": [{"agent": 1, "argmax": "evkae", "correct": false, "fb": false}, {"agent": 2, "argmax": "evkae", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 15, "correct": "goteg", "labels": ["csbri", "goteg", "pdrja"], "clue": "csbri", "clue_is_wrong": true, "clue_map": {"1": "csbri"}}
+{"type": "step", "round": 15, "t": 0, "S": 1, "L": 2, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 1, "S": 2, "L": 1, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 2, "S": 2, "L": 1, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 3, "S": 2, "L": 1, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 4, "S": 1, "L": 2, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 5, "S": 1, "L": 2, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 6, "S": 2, "L": 1, "s_label": "csbri", "fallback": false}
+{"type": "step", "round": 15, "t": 7, "S": 2, "L": 1, "s_label": "csbri", "fallback": false}
+{"type": "probe", "round": 15, "probes": [{"agent": 1, "argmax": "csbri", "correct": false, "fb": false}, {"agent": 2, "argmax": "csbri", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 16, "correct": "hlpof", "labels": ["gaimt", "hlpof", "khzyj"], "clue": "gaimt", "clue_is_wrong": true, "clue_map": {"1": "gaimt"}}
+{"type": "step", "round": 16, "t": 0, "S": 1, "L": 2, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 1, "S": 1, "L": 2, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 2, "S": 2, "L": 1, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 3, "S": 1, "L": 2, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 4, "S": 2, "L": 1, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 5, "S": 2, "L": 1, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 6, "S": 2, "L": 1, "s_label": "gaimt", "fallback": false}
+{"type": "step", "round": 16, "t": 7, "S": 1, "L": 2, "s_label": "gaimt", "fallback": false}
+{"type": "probe", "round": 16, "probes": [{"agent": 1, "argmax": "gaimt", "correct": false, "fb": false}, {"agent": 2, "argmax": "gaimt", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 17, "correct": "dzgum", "labels": ["dzgum", "grhqw", "mwpjj"], "clue": "grhqw", "clue_is_wrong": true, "clue_map": {"1": "grhqw"}}
+{"type": "step", "round": 17, "t": 0, "S": 2, "L": 1, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 1, "S": 1, "L": 2, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 2, "S": 2, "L": 1, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 3, "S": 1, "L": 2, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 4, "S": 1, "L": 2, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 5, "S": 1, "L": 2, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 6, "S": 2, "L": 1, "s_label": "grhqw", "fallback": false}
+{"type": "step", "round": 17, "t": 7, "S": 2, "L": 1, "s_label": "grhqw", "fallback": false}
+{"type": "probe", "round": 17, "probes": [{"agent": 1, "argmax": "grhqw", "correct": false, "fb": false}, {"agent": 2, "argmax": "grhqw", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 18, "correct": "gwhah", "labels": ["cmedn", "feeiw", "gwhah"], "clue": "feeiw", "clue_is_wrong": true, "clue_map": {"1": "feeiw"}}
+{"type": "step", "round": 18, "t": 0, "S": 2, "L": 1, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 1, "S": 2, "L": 1, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 2, "S": 1, "L": 2, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 3, "S": 2, "L": 1, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 4, "S": 2, "L": 1, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 5, "S": 1, "L": 2, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 6, "S": 1, "L": 2, "s_label": "feeiw", "fallback": false}
+{"type": "step", "round": 18, "t": 7, "S": 2, "L": 1, "s_label": "feeiw", "fallback": false}
+{"type": "probe", "round": 18, "probes": [{"agent": 1, "argmax": "feeiw", "correct": false, "fb": false}, {"agent": 2, "argmax": "feeiw", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 19, "correct": "bpcgh", "labels": ["bpcgh", "dtomv", "etiob"], "clue": "etiob", "clue_is_wrong": true, "clue_map": {"1": "etiob"}}
+{"type": "step", "round": 19, "t": 0, "S": 1, "L": 2, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 1, "S": 2, "L": 1, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 2, "S": 2, "L": 1, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 3, "S": 1, "L": 2, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 4, "S": 2, "L": 1, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 5, "S": 2, "L": 1, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 6, "S": 2, "L": 1, "s_label": "etiob", "fallback": false}
+{"type": "step", "round": 19, "t": 7, "S": 1, "L": 2, "s_label": "etiob", "fallback": false}
+{"type": "probe", "round": 19, "probes": [{"agent": 1, "argmax": "etiob", "correct": false, "fb": false}, {"agent": 2, "argmax": "etiob", "correct": false, "fb": false}]}
+{"type": "round_start", "round": 20, "correct": "dqnnu", "labels": ["dqdtu", "dqnnu", "dyayn"], "clue": "dqdtu", "clue_is_wrong": true, "clue_map": {"1": "dqdtu"}}
+{"type": "step", "round": 20, "t": 0, "S": 2, "L": 1, "s_label": "dqnnu", "fallback": false}
+{"type": "step", "round": 20, "t": 1, "S": 2, "L": 1, "s_label": "dqnnu", "fallback": false}
+{"type": "step", "round": 20, "t": 2, "S": 1, "L": 2, "s_label": "dqdtu", "fallback": false}
+{"type": "step", "round": 20, "t": 3, "S": 1, "L": 2, "s_label": "dqdtu", "fallback": false}
+{"type": "step", "round": 20, "t": 4, "S": 2, "L": 1, "s_label": "dqdtu", "fallback": false}
+{"type": "step", "round": 20, "t": 5, "S": 2, "L": 1, "s_label": "dqdtu", "fallback": false}
+{"type": "step", "round": 20, "t": 6, "S": 2, "L": 1, "s_label": "dqdtu", "fallback": false}
+{"type": "step", "round": 20, "t": 7, "S": 2, "L": 1, "s_label": "dqdtu", "fallback": false}
+{"type": "probe", "round": 20, "probes": [{"agent": 1, "argmax": "dqdtu", "correct": false, "fb": false}, {"agent": 2, "argmax": "dqdtu", "correct": false, "fb": false}]}

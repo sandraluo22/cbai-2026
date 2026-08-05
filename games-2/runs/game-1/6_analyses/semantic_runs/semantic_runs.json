@@ -1,0 +1,105 @@
+{
+ "tau": 0.3566486492753029,
+ "stats": {
+  "Qwen3-32B (strict)": {
+   "n_turns": 1354,
+   "n_games": 24,
+   "sem_frac_run4": 0.7503692762186115,
+   "sem_aligned_frac4": 0.6144756277695717,
+   "sem_drift_frac4": 0.1358936484490399,
+   "sem_drift_max": 77,
+   "sem_max": 86,
+   "pre_frac_run4": 0.26440177252584934,
+   "pre_max": 36
+  },
+  "Llama-70B (cap100)": {
+   "n_turns": 908,
+   "n_games": 12,
+   "sem_frac_run4": 0.7444933920704846,
+   "sem_aligned_frac4": 0.6685022026431718,
+   "sem_drift_frac4": 0.07599118942731277,
+   "sem_drift_max": 64,
+   "sem_max": 82,
+   "pre_frac_run4": 0.15859030837004406,
+   "pre_max": 64
+  },
+  "gpt-4o-mini": {
+   "n_turns": 292,
+   "n_games": 12,
+   "sem_frac_run4": 0.8698630136986302,
+   "sem_aligned_frac4": 0.6541095890410958,
+   "sem_drift_frac4": 0.21575342465753425,
+   "sem_drift_max": 29,
+   "sem_max": 45,
+   "pre_frac_run4": 0.18835616438356165,
+   "pre_max": 29
+  },
+  "gpt-4.1": {
+   "n_turns": 907,
+   "n_games": 12,
+   "sem_frac_run4": 0.8831312017640573,
+   "sem_aligned_frac4": 0.87651598676957,
+   "sem_drift_frac4": 0.006615214994487321,
+   "sem_drift_max": 6,
+   "sem_max": 99,
+   "pre_frac_run4": 0.024255788313120176,
+   "pre_max": 17
+  },
+  "gpt-5": {
+   "n_turns": 167,
+   "n_games": 12,
+   "sem_frac_run4": 0.8143712574850299,
+   "sem_aligned_frac4": 0.7784431137724551,
+   "sem_drift_frac4": 0.03592814371257485,
+   "sem_drift_max": 6,
+   "sem_max": 28,
+   "pre_frac_run4": 0.11377245508982035,
+   "pre_max": 14
+  },
+  "Haiku 4.5": {
+   "n_turns": 413,
+   "n_games": 12,
+   "sem_frac_run4": 0.9031476997578692,
+   "sem_aligned_frac4": 0.9031476997578692,
+   "sem_drift_frac4": 0.0,
+   "sem_drift_max": 0,
+   "sem_max": 99,
+   "pre_frac_run4": 0.0387409200968523,
+   "pre_max": 6
+  },
+  "Sonnet 4.5": {
+   "n_turns": 82,
+   "n_games": 12,
+   "sem_frac_run4": 0.4268292682926829,
+   "sem_aligned_frac4": 0.4268292682926829,
+   "sem_drift_frac4": 0.0,
+   "sem_drift_max": 2,
+   "sem_max": 13,
+   "pre_frac_run4": 0.0,
+   "pre_max": 0
+  }
+ },
+ "examples": {
+  "Qwen3-32B (strict)": [
+   "echoingest \u2192 echoedest \u2192 unlockedest \u2192 unlockeded \u2192 unlockedly \u2192 echoedly \u2192 echoingly \u2192 unlockedness \u2192 echoinglyst \u2192 unlockingly \u2192 unlockinglyst \u2192 unechoed\u2026",
+   "soldier \u2192 sold \u2192 soldiers \u2192 soldiering \u2192 soldierly \u2192 soldierliness \u2192 soldierlike \u2192 soldierdom \u2192 soldiertype \u2192 soldierhood \u2192 soldiery \u2192 soldiered\u2026",
+   "fortress \u2192 prison \u2192 fortresses \u2192 fortified \u2192 fort \u2192 fortify \u2192 fortressify \u2192 fortifiedness \u2192 match \u2192 fortifyer \u2192 fortifier \u2192 fortifierer\u2026"
+  ],
+  "Llama-70B (cap100)": [
+   "same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same \u2192 same\u2026",
+   "same \u2192 same \u2192 same \u2192 same \u2192 same"
+  ],
+  "gpt-4o-mini": [
+   "craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship\u2026",
+   "craft \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship \u2192 craftsmanship\u2026"
+  ],
+  "gpt-4.1": [
+   "lingonberry \u2192 goji \u2192 seaweed \u2192 kelp \u2192 dulse \u2192 kombu"
+  ],
+  "gpt-5": [
+   "unscripted \u2192 improv \u2192 improvised \u2192 improvisation \u2192 improvise \u2192 improviser"
+  ],
+  "Haiku 4.5": [],
+  "Sonnet 4.5": []
+ }
+}

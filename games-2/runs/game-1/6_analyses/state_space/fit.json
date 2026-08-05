@@ -1,0 +1,59 @@
+{
+ "n_games": 24,
+ "n_states": 401,
+ "M2": {
+  "nll": 23336.056877093248,
+  "aic": 46740.113754186495,
+  "cv_nll": 24957.881919366893,
+  "params": {
+   "eta_b": 0.0,
+   "rho": 0.8837088254995958,
+   "eta_s": 0.4560692996492457,
+   "alpha_b": 0.7633906592571537,
+   "alpha_s": 1.3048068125835104,
+   "beta_s": 2.8487378389891624,
+   "gamma_s": 2.248997304217321,
+   "c_cat": -2.22468954018034,
+   "c_stem": -3.015091202726411,
+   "c_used": -0.63037497149164
+  }
+ },
+ "M1": {
+  "nll": 26083.718994555227,
+  "aic": 52227.437989110455,
+  "cv_nll": 27747.240095806035,
+  "params": {
+   "eta_b": 0.0,
+   "alpha_b": 0.7105099734326452
+  }
+ },
+ "mixed_AR": {
+  "Intercept": {
+   "coef": -4.306255416409818,
+   "se": 0.1104548203881416,
+   "p": 0.0
+  },
+  "p_stem": {
+   "coef": 3.859949311240581,
+   "se": 0.5273952389942389,
+   "p": 2.500248910562925e-13
+  },
+  "sim": {
+   "coef": 1.3597441145359919,
+   "se": 0.20351397267334953,
+   "p": 2.3678252695138636e-11
+  },
+  "p_cat": {
+   "coef": -0.6501310323815591,
+   "se": 0.3910450962191973,
+   "p": 0.09640305517271429
+  }
+ },
+ "identifiability": "eta_b -> 0: within action-channel emissions belief growth is unidentified (E_t ~ 1 every turn makes b_t ~ t, and observed category mass FALLS in onset games). External anchor: forced-choice knowledge stays 0.98 at loop snapshots (dissociation.json). A joint fit adding knowledge-frame observations as a second emission channel of b_t is the natural next step.",
+ "notes": [
+  "I_t=0 (no interventions in these runs): lambda not identifiable; ladder data could identify it.",
+  "beta4 self-attributed not identifiable within games (all actions self-attributed); causal attribution contrast comes from the seed-matrix cells: list 0.53 / self 0.24 / partner 0.13 / other 0.09 (dose-3 target mass).",
+  "transplant gives causal sim variation: 3 planted family words -> stem mass 0.57 vs 0.00/0.01 controls.",
+  "class constants c_* added to the user's spec (needed for t=1 baseline masses); b_0=s_0=0 absorbed into constants."
+ ]
+}

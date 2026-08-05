@@ -1,0 +1,151 @@
+[claude-sonnet-5 curve r1] correct=fouis probe_acc=0.20 argmax=['fouis', 'ivuia', 'ivuia', 'ivuia', 'ivuia']
+[claude-sonnet-5 curve r2] correct=pzccb probe_acc=0.80 argmax=['pzccb', 'pzccb', 'pzccb', 'pzccb', 'cmhtq']
+[claude-sonnet-5 curve r3] correct=fttbz probe_acc=0.60 argmax=['fttbz', 'iqtct', 'fttbz', 'fttbz', 'nxybn']
+[claude-sonnet-5 curve r4] correct=psbrj probe_acc=0.60 argmax=['psbrj', 'ieuim', 'psbrj', 'ieuim', 'psbrj']
+[claude-sonnet-5 curve r5] correct=mpyfu probe_acc=0.00 argmax=['raezz', 'raezz', 'raezz', 'raezz', 'raezz']
+[claude-sonnet-5 curve r6] correct=mjriu probe_acc=0.40 argmax=['mjriu', 'oznwj', 'mjriu', 'lvdex', 'lvdex']
+[claude-sonnet-5 curve r7] correct=hggkd probe_acc=0.80 argmax=['hggkd', 'hggkd', 'hggkd', 'hggkd', 'fclnc']
+[claude-sonnet-5 curve r8] correct=ooeff probe_acc=0.40 argmax=['ooeff', 'cvqmd', 'cvqmd', 'cvqmd', 'ooeff']
+[claude-sonnet-5 curve r9] correct=agxwg probe_acc=0.60 argmax=['agxwg', 'cpciv', 'agxwg', 'ctasz', 'agxwg']
+[claude-sonnet-5 curve r10] correct=cwjsq probe_acc=0.00 argmax=['saxkl', 'saxkl', 'saxkl', 'saxkl', 'saxkl']
+[claude-sonnet-5 curve r11] correct=ljrdu probe_acc=0.40 argmax=['ljrdu', 'hpquf', 'ljrdu', 'hpquf', 'hpquf']
+[claude-sonnet-5 curve r12] correct=blrey probe_acc=1.00 argmax=['blrey', 'blrey', 'blrey', 'blrey', 'blrey']
+[claude-sonnet-5 curve r13] correct=bwfty probe_acc=0.80 argmax=['bwfty', 'herbv', 'bwfty', 'bwfty', 'bwfty']
+[claude-sonnet-5 curve r14] correct=cssei probe_acc=0.80 argmax=['cssei', 'evkae', 'cssei', 'cssei', 'cssei']
+[claude-sonnet-5 curve r15] correct=goteg probe_acc=0.00 argmax=['csbri', 'csbri', 'csbri', 'csbri', 'csbri']
+[claude-sonnet-5 curve r16] correct=hlpof probe_acc=0.80 argmax=['hlpof', 'gaimt', 'hlpof', 'hlpof', 'hlpof']
+[claude-sonnet-5 curve r17] correct=dzgum probe_acc=1.00 argmax=['dzgum', 'dzgum', 'dzgum', 'dzgum', 'dzgum']
+[claude-sonnet-5 curve r18] correct=gwhah probe_acc=0.60 argmax=['gwhah', 'feeiw', 'cmedn', 'gwhah', 'gwhah']
+[claude-sonnet-5 curve r19] correct=bpcgh probe_acc=0.20 argmax=['bpcgh', 'etiob', 'etiob', 'etiob', 'etiob']
+[claude-sonnet-5 curve r20] correct=dqnnu probe_acc=0.00 argmax=['dqdtu', 'dqdtu', 'dqdtu', 'dqdtu', 'dqdtu']
+[claude-sonnet-5 curve r1] correct=euktf probe_acc=0.20 argmax=['euktf', 'apeaz', 'apeaz', 'apeaz', 'apeaz']
+[claude-sonnet-5 curve r2] correct=fcabt probe_acc=1.00 argmax=['fcabt', 'fcabt', 'fcabt', 'fcabt', 'fcabt']
+[claude-sonnet-5 curve r3] correct=itebt probe_acc=0.80 argmax=['itebt', 'lyqsu', 'itebt', 'itebt', 'itebt']
+[claude-sonnet-5 curve r4] correct=jlbra probe_acc=0.80 argmax=['jlbra', 'hccqg', 'jlbra', 'jlbra', 'jlbra']
+[claude-sonnet-5 curve r5] correct=cknzw probe_acc=0.00 argmax=['gxdql', 'gxdql', 'gxdql', 'gxdql', 'gxdql']
+[claude-sonnet-5 curve r6] correct=jxfhg probe_acc=0.20 argmax=['jxfhg', 'efhnp', 'efhnp', 'efhnp', 'efhnp']
+[claude-sonnet-5 curve r7] correct=muizb probe_acc=1.00 argmax=['muizb', 'muizb', 'muizb', 'muizb', 'muizb']
+[claude-sonnet-5 curve r8] correct=mbcdw probe_acc=0.20 argmax=['mbcdw', 'hpjgx', 'hpjgx', 'hpjgx', 'hpjgx']
+[claude-sonnet-5 curve r9] correct=imqwf probe_acc=0.80 argmax=['imqwf', 'giosf', 'imqwf', 'imqwf', 'imqwf']
+[claude-sonnet-5 curve r10] correct=bqzza probe_acc=0.00 argmax=['ayoss', 'ayoss', 'ayoss', 'ayoss', 'ayoss']
+[claude-sonnet-5 curve r11] correct=ctcow probe_acc=0.80 argmax=['ctcow', 'oqoma', 'ctcow', 'ctcow', 'ctcow']
+[claude-sonnet-5 curve r12] correct=dsooz probe_acc=1.00 argmax=['dsooz', 'dsooz', 'dsooz', 'dsooz', 'dsooz']
+[claude-sonnet-5 curve r13] correct=nvlzl probe_acc=0.80 argmax=['nvlzl', 'mvrkk', 'nvlzl', 'nvlzl', 'nvlzl']
+[claude-sonnet-5 curve r14] correct=dvahv probe_acc=0.20 argmax=['dvahv', 'eizoe', 'eizoe', 'eizoe', 'eizoe']
+[claude-sonnet-5 curve r15] correct=ngieo probe_acc=0.00 argmax=['mbbdh', 'mbbdh', 'mbbdh', 'mbbdh', 'mbbdh']
+[claude-sonnet-5 curve r16] correct=dthug probe_acc=0.20 argmax=['dthug', 'acyyr', 'acyyr', 'acyyr', 'acyyr']
+[claude-sonnet-5 curve r17] correct=egjvz probe_acc=1.00 argmax=['egjvz', 'egjvz', 'egjvz', 'egjvz', 'egjvz']
+[claude-sonnet-5 curve r18] correct=goese probe_acc=0.60 argmax=['goese', 'pmqwp', 'goese', 'pmqwp', 'goese']
+[claude-sonnet-5 curve r19] correct=hweog probe_acc=0.80 argmax=['hweog', 'eukuw', 'hweog', 'hweog', 'hweog']
+[claude-sonnet-5 curve r20] correct=bjyid probe_acc=0.00 argmax=['bwqev', 'bwqev', 'bwqev', 'bwqev', 'bwqev']
+[o4-mini curve r1] correct=fouis probe_acc=0.20 argmax=['fouis', 'ivuia', 'ivuia', 'ivuia', 'ivuia']
+[o4-mini curve r2] correct=pzccb probe_acc=1.00 argmax=['pzccb', 'pzccb', 'pzccb', 'pzccb', 'pzccb']
+[o4-mini curve r3] correct=fttbz probe_acc=0.80 argmax=['fttbz', 'iqtct', 'fttbz', 'fttbz', 'fttbz']
+[o4-mini curve r4] correct=psbrj probe_acc=0.20 argmax=['psbrj', 'ieuim', 'ieuim', 'ieuim', 'ieuim']
+[o4-mini curve r5] correct=mpyfu probe_acc=0.00 argmax=['raezz', 'raezz', 'raezz', 'raezz', 'raezz']
+[o4-mini curve r6] correct=mjriu probe_acc=0.60 argmax=['mjriu', 'oznwj', 'oznwj', 'mjriu', 'mjriu']
+[o4-mini curve r7] correct=hggkd probe_acc=1.00 argmax=['hggkd', 'hggkd', 'hggkd', 'hggkd', 'hggkd']
+[o4-mini curve r8] correct=ooeff probe_acc=0.20 argmax=['ooeff', 'cvqmd', 'cvqmd', 'cvqmd', 'cvqmd']
+[o4-mini curve r9] correct=agxwg probe_acc=0.80 argmax=['agxwg', 'cpciv', 'agxwg', 'agxwg', 'agxwg']
+[o4-mini curve r10] correct=cwjsq probe_acc=0.00 argmax=['saxkl', 'saxkl', 'lassb', 'saxkl', 'saxkl']
+[o4-mini curve r11] correct=ljrdu probe_acc=0.20 argmax=['ljrdu', 'hpquf', 'hpquf', 'hpquf', 'hpquf']
+[o4-mini curve r12] correct=blrey probe_acc=1.00 argmax=['blrey', 'blrey', 'blrey', 'blrey', 'blrey']
+[o4-mini curve r13] correct=bwfty probe_acc=0.40 argmax=['bwfty', 'herbv', 'bwfty', 'herbv', 'herbv']
+Traceback (most recent call last):
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 51, in call_openai
+    with urllib.request.urlopen(req, timeout=120) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 222, in <module>
+    main()
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 189, in main
+    s_lab, fb = get_label(model, umsg(S, r, clue_map.get(S)), labels, rng, 1.0)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 113, in get_label
+    txt = call(model, G.SYS, user, "", max(1024, THINK) + 400 if THINK else 24,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 72, in call
+    return call_openai(model, system, user, max_tokens, temperature)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 60, in call_openai
+    raise RuntimeError(detail)
+RuntimeError: {
+  "error": {
+    "message": "Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": null
+  }
+}
+[o4-mini curve r1] correct=euktf probe_acc=0.20 argmax=['euktf', 'apeaz', 'apeaz', 'apeaz', 'apeaz']
+[o4-mini curve r2] correct=fcabt probe_acc=1.00 argmax=['fcabt', 'fcabt', 'fcabt', 'fcabt', 'fcabt']
+[o4-mini curve r3] correct=itebt probe_acc=0.20 argmax=['itebt', 'lyqsu', 'lyqsu', 'lyqsu', 'lyqsu']
+Traceback (most recent call last):
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 51, in call_openai
+    with urllib.request.urlopen(req, timeout=120) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 222, in <module>
+    
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 195, in main
+    fallback=fb))
+^^^^^^^^^^^^^^^^^^
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 113, in get_label
+    def get_label(model, user, labels, rng, temperature):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 72, in call
+    
+  File "/Users/sandraluo/cbai-2026/reciprocal-signaling/runs/gossip/qsg_api.py", line 60, in call_openai
+    if "max_tokens" in detail or "output limit" in detail:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: {
+  "error": {
+    "message": "Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": null
+  }
+}
+API_THINK_DONE

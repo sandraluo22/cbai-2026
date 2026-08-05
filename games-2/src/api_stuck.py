@@ -159,21 +159,36 @@ OAI_ELICIT = " Respond with only your single word for this round — no punctuat
 
 class OpenAIApi(Api):
     """No assistant prefill on chat.completions — instruction-based elicitation
-    instead (OAI_ELICIT appended to the prompt). Full sampling parity otherwise:
-    temperature 0.7 AND top_p 0.95. Uses n= for one-call multi-sampling."""
+    instead (OAI_ELICIT appended to the prompt).
+    - Non-reasoning models (gpt-4o*, gpt-4.1*, gpt-5-chat*): temperature 0.7 +
+      top_p 0.95 (full sampling parity); n= for one-call multi-sampling.
+    - Reasoning models (gpt-5*, o*): fixed temperature (API rejects overrides),
+      reasoning_effort=minimal to suppress CoT, larger max_completion_tokens
+      (hidden reasoning counts against it), no n= (unsupported) — concurrent
+      single calls instead. PARITY CAVEAT: samples are at the model's default
+      temperature, not 0.7."""
 
     def __init__(self, model):
         super().__init__(model)
         self.client = openai.AsyncOpenAI(max_retries=5)
+        # gpt-5 family and o* reject non-default temperature/top_p entirely
+        # (chat variants included, as of 5.2) -> run those at default sampling
+        self.no_sampling = bool(model.startswith("gpt-5") or re.match(r"^o\d", model))
+        self.reasoning = self.no_sampling and "chat" not in model
 
-    async def sample_n(self, body, n):
+    async def _one_call(self, body, n):
+        kw = dict(model=self.model,
+                  messages=[{"role": "user", "content": body + OAI_ELICIT}])
+        if self.reasoning:
+            kw.update(max_completion_tokens=256, reasoning_effort="minimal")
+        elif self.no_sampling:
+            kw.update(max_completion_tokens=8, n=n)
+        else:
+            kw.update(max_completion_tokens=8, temperature=TEMP, top_p=0.95, n=n)
         async with self.sem:
             for attempt in range(4):
                 try:
-                    r = await self.client.chat.completions.create(
-                        model=self.model, n=n, max_completion_tokens=8,
-                        temperature=TEMP, top_p=0.95,
-                        messages=[{"role": "user", "content": body + OAI_ELICIT}])
+                    r = await self.client.chat.completions.create(**kw)
                     break
                 except (openai.APIStatusError, openai.APIConnectionError) as e:
                     if attempt == 3:
@@ -186,6 +201,12 @@ class OpenAIApi(Api):
             self.in_toks += r.usage.prompt_tokens
             self.out_toks += r.usage.completion_tokens
         return [clean_word(c.message.content or "") for c in r.choices]
+
+    async def sample_n(self, body, n):
+        if self.reasoning:
+            outs = await asyncio.gather(*[self._one_call(body, 1) for _ in range(n)])
+            return [w for o in outs for w in o]
+        return await self._one_call(body, n)
 
 
 def make_api(model):
@@ -312,9 +333,10 @@ async def main():
         out = {"model": model, "temp": TEMP, "k": K, "cap": CAP, "n": N}
         if "game" in ARMS:
             games = await run_game_arm(api, catset, starts, tf)
-            met = [g["agreed_at"] is not None for g in games]
-            onset = [g["onset"] is not None for g in games]
-            probes = [g["probe"] for g in games if g["probe"]]
+            valid = [g for g in games if not g.get("aborted")] or games
+            met = [g["agreed_at"] is not None for g in valid]
+            onset = [g["onset"] is not None for g in valid]
+            probes = [g["probe"] for g in valid if g["probe"]]
             out["game"] = {
                 "per_game": games,
                 "met_frac": sum(met) / len(met),

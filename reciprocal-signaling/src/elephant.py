@@ -104,8 +104,10 @@ for _name, (_true, _fmts) in _FMT.items():
         QUIZZES[f"{_name}_{_f}"] = q(_true, _clues)
 
 
-def base(i, clues, rounds, kind, public=False):
+def base(i, clues, rounds, kind, public=False, n_partners=None):
     n, item = len(clues), ("number" if kind == "number" else "word")
+    if n_partners is not None:
+        n = n_partners + 1
     extra = (" After each round, every player also shares one public remark, shown with the "
              "round history." if public else "")
     return (f"You are Player {i + 1} in a word game with {n - 1} partners. There is one secret "
@@ -148,6 +150,8 @@ def play(model, tok, thinking, quiz, rounds, seed, out_dir, notes_mode=""):
     spec = QUIZZES[quiz]
     true, clues, kind = spec["true"], spec["clues"], spec["kind"]
     n = len(clues)
+    towers = [t for t in os.environ.get("TOWER", "").split(";") if t]
+    n_tot = n + len(towers)                            # scripted fixed-guess agents appended
     item = "number" if kind == "number" else "word"
     clue_words = [{w.lower() for w in re.findall(r"[A-Za-z]+", c)} - _STOP for c in clues]
     chats = [Chat(model, tok, thinking, seed * 331 + i) for i in range(n)]
@@ -158,21 +162,22 @@ def play(model, tok, thinking, quiz, rounds, seed, out_dir, notes_mode=""):
                 "".join(f"(after round {rr}) {t}\n" for rr, t in notes[i])) if notes[i] else ""
     hist, lines = [], [dict(type="meta", quiz=quiz, true=true, clues=clues, kind=kind,
                             wrong_agent=spec["wrong"], rounds=rounds, seed=seed,
-                            notes=notes_mode)]
+                            notes=notes_mode, towers=towers)]
     for r in range(1, rounds + 1):
         row = []
         for i in range(n):
-            qq = (base(i, clues, rounds, kind, notes_mode == "public") + ntxt(i) +
+            qq = (base(i, clues, rounds, kind, notes_mode == "public", n_tot - 1) + ntxt(i) +
                   hist_text(hist, pub if notes_mode == "public" else None) +
                   f"\n\nRound {r}: say your guess now. Output only one {item}.")
             raw = chats[i](qq, max_new=8)
             row.append(parse_word(raw, kind) or "?")
-        hist.append(row)
-        lines.append(dict(type="round", round=r, guesses=row,
+        row_full = row + list(towers)                  # scripted agents speak last
+        hist.append(row_full)
+        lines.append(dict(type="round", round=r, guesses=row_full,
                           all_true=all(g == true for g in row),
                           clue_violations=[i + 1 for i, g in enumerate(row)
                                            if g in clue_words[i]]))
-        print(f"  [{quiz}] r{r}: {row}", flush=True)
+        print(f"  [{quiz}] r{r}: {row_full}", flush=True)
         if notes_mode == "public":
             row_remarks = []
             for i in range(n):

@@ -1,0 +1,20 @@
+{
+ "model": "QwenInst32",
+ "cap": 40,
+ "n": 8,
+ "temp": 0.7,
+ "maxthink": 1400,
+ "met_frac": 0.875,
+ "n_done": 8,
+ "met_turns": [
+  22,
+  10,
+  20,
+  5,
+  3,
+  6,
+  4
+ ],
+ "turns_mean": 10.0,
+ "played_cat_frac": 0.12844036697247707
+}

@@ -11,6 +11,29 @@ recovery), not as a hard L1/L2 label.
 
 ---
 
+## GLOSSARY (standard terms — 2026-08-03; code/JSON field aliases in parentheses)
+
+- **word family**: words sharing a 4-letter prefix (novel/novelty/novella). Aliases in
+  code and older sections: "stem", "self_family", "selffam", "fam". The 4-prefix
+  definition is known-incomplete (Llama loops on suffix/rhyme families; see the
+  semantic run detector).
+- **category**: the kind of word B is secretly restricted to (city, fruit, ...).
+  "category mass" = share of A's proposal distribution on unused category words.
+- **proposal mass / MC profiling**: sample the same state K times (usually 64);
+  report the fraction landing on used words / family words / category words / other.
+- **onset**: first turn where A's word shares a 4-prefix with an earlier own word
+  (prefix-only looping marker).
+- **planted words / dose / donor**: words we insert into a constructed history
+  ("seeds" in code); dose = how many; donor = the real stuck game they came from.
+- **answer slot**: the position in the prompt where A's own responses appear and the
+  next response is generated ("target slot"/"X slots" in mech3).
+- **aligned vs drift (semantic runs)**: a run of similar-meaning words counts as
+  aligned if its centroid is near B's early words (accommodation), drift otherwise
+  (perseveration).
+- **patch recovery / transfer / efficacy**: how far an activation patch moves the
+  readout from the bad prompt's value toward the matched good prompt's value (0 =
+  none, 1 = fully).
+
 ## ⚠️ The most important thing to know (validity)
 
 The **original prompts coached the strategy** ("meet in the middle / bridge /
@@ -730,7 +753,7 @@ generalize under forced choice; the deficit is specifically in the ACTION frame.
 **TRANSPLANT + PARTNER-REPLAY (src/transplant_replay.py ->
 `3_interventions/transplant_replay/`, n=8 branches/condition): CAUSAL POSITIVE.**
 Identical replayed partner evidence; only A's 3 prior own-words vary:
-| seed | onset<=14 | family turns /14 | seed-family proposal mass @ branch (K=64 MC) |
+| seed | onset<=14 | family turns /14 | planted-family proposal mass @ branch (K=64 MC) |
 |---|---|---|---|
 | loop_seed | **1.00** | **9.1** | **0.57** |
 | met_seed | 0.62 | 3.6 | 0.00 |
@@ -745,7 +768,453 @@ harness; then onset-perturbation, minimal-seed search, cross-model (Qwen sizes+L
 
 ---
 
-## API-MODEL ARM (2026-08-02): gpt-4o-mini / gpt-4.1 (`src/api_stuck.py` -> `7_api_models/`)
+## INTERVENTION LADDER (2026-08-02, pod): partner-modeling instructions, r0-r4
+
+Prompt additions to A only; restricted city game, resample-24 handler, n=12/rung,
+K=64 MC probe at turn 8. Probe numbers are cap-independent (same seeds -> identical
+first 8 turns); met at cap 40 and cap 100 (r0/r2 rerun at cap 100 -> `runs/ladder_cap100`):
+
+| rung | addition | met(40) | met(100) | onset | probe category-mass | probe family-mass |
+|---|---|---|---|---|---|---|
+| r0_none | — | 0.42 | 0.50 | 0.75 | 0.164 | 0.013 |
+| r1_think | "think carefully" | 0.50 | — | 0.50 | 0.338 | 0.033 |
+| r2_predict | "silently predict what the other player will say next" | 0.67 | **0.83** | 0.58 | 0.319 | 0.047 |
+| r3_rule | "identify the rule behind the other player's choices" | 0.33 | — | 0.67 | **0.008** | **0.102** |
+| r4_ruleact | rule + act on it | 0.42 | — | 0.67 | 0.014 | 0.016 |
+
+* r1/r2 HELP (category proposal mass doubles, r2 met 0.83 at cap 100 vs 0.50 baseline).
+* r3/r4 BACKFIRE: explicit rule-identification collapses category mass to ~0.01 and
+  r3 TRIPLES self-family mass — instructing meta-reasoning about "the rule" apparently
+  redirects attention to A's own history. (Survivorship caveat: probes are on games
+  alive at t8.)
+
+---
+
+## TWO-PROCESS STATE-SPACE MODEL (2026-08-03, local fit -> `6_analyses/state_space/`)
+
+User-specified model fit to the strict-city MC telemetry (24 games, 401 states,
+K=64 multinomial emissions over category / word-family / exact-repeat / other):
+  b_{t+1} = b_t + eta_b*E_t (partner city evidence);  s_{t+1} = rho*s_t + eta_s*sim_t
+  pi_t = softmax(alpha_b*b - alpha_s*s + c_cat + u_g, beta_s*s + c_stem,
+                 gamma_s*s + c_used, 0);  u_g ~ N(0,1) penalized (hierarchical).
+
+**Two-process model DECISIVELY beats the 1-D belief baseline**: 6-fold game-level CV
+held-out NLL 24,958 vs 27,747 (delta ~2,789 nats); fitted rho = **0.884** (attractor
+half-life ~5.6 turns — quantitative hysteresis), eta_s = 0.46, alpha_s = 1.31
+(category suppression), beta_s = 2.85, gamma_s = 2.25.
+
+**Identifiability finding (important):** eta_b -> 0 — belief growth is UNIDENTIFIED
+from action-channel emissions alone, because E_t ~ 1 every turn and observed category
+mass FALLS in onset games. The external anchor for "b_t rises normally" is the
+forced-choice knowledge channel (0.98 at loop snapshots). Natural next step: joint
+fit with knowledge-frame observations as a second emission channel of b_t. lambda
+(intervention decay) also unidentifiable here (I_t = 0 in these runs; ladder data
+could identify it).
+
+**Mixed-effects AR** (logit p_family_{t+1} ~ p_family_t + sim(a_t) + p_cat_t + (1|game)):
+beta1(p_family) = **+3.86** (p<1e-12), beta2(sim) = **+1.36** (p<1e-10),
+beta3(p_cat) = -0.65 (p=0.10), group var 0.15. beta4 (self-attributed) is not
+identifiable within games (all actions self-attributed) — its causal anchor is the
+seed-matrix attribution contrast (list 0.53 / self 0.24 / partner 0.13 / other 0.09)
+and the transplant (sim manipulated causally: 0.57 vs 0.00/0.01). Large positive
+beta1 + causal beta2 + dose-4 hysteresis jointly justify the attractor language.
+
+Files: `6_analyses/state_space/{fit.json, state_space_fit.pdf}`;
+fitting script kept in session scratchpad (fit_state_space.py) — move into src/ if
+it becomes load-bearing.
+
+## ACTIVATION-PATCHING RESULTS (2026-08-03, pod wave6.5 -> `5_mechanistic/patching/`)
+
+**Prediction->action frame patching (24 dissociation snapshots, same 8-candidate
+listing both frames):** patched action-frame P(category) stays at the 0.43 action
+baseline through L0-40, rises sharply L44-52 (0.44 -> 0.67 -> 0.85) and PLATEAUS AT
+0.85-0.88 = THE FULL PREDICTION-FRAME PREFERENCE for L48-62 (drop at L63 readout).
+Late-layer transfer per the pre-registered key: **the knowledge-to-policy routing
+failure is imposed LATE** — the action frame computes the same category-favoring
+representation as the prediction frame until ~L48; frame-dependent suppression is
+applied in the last ~third of the stack.
+
+**Paired transplant patching (loop-seed vs neutral-seed, identical replayed B;
+Delta = logsumexp(stem) - logsumexp(category) first-token logits):** baselines
+separate cleanly (d_loop +1.0..+2.3, d_ctrl -2.1..-7.0, all 6 pairs).
+* FINAL-position layer sweep: recovery ~0 until L48, 0.37@56, 0.7-0.95@L60-62
+  (L63 overshoot 2.5 = trivial full-residual replacement — excluded from claims).
+* SEED-SPAN sweep (patching the 3 attributed self-words' token positions):
+  **peaks MID-STACK — best 0.95 @ L46** (0.85@L40, 0.84@L48), falling to ~0 by L58+.
+Information-flow picture: self-history identity is carried by seed-token residuals
+and readable/removable there up to ~L46, is routed to the final position over
+L48-62, where it suppresses category choice. Attn-vs-MLP single-sublayer patches at
+L60-63 are all small (|rec| <= 0.11) — the effect is accumulated residual, not one
+sublayer. Caveats: span patches mean-pool when donor token lengths differ (early-layer
+span numbers incl. a spurious -0.63@L0 are low-confidence); cross-prompt final-position
+patching is standard but positions beyond final are not aligned across frames.
+
+**Convergent with the behavioral M3 fit (below): alpha_b -> 0** — belief anchored by
+the knowledge channel exists but is not coupled into the action logit; the patching
+localizes WHERE that decoupling happens (late layers, final position).
+
+## SEMANTIC RUN DETECTOR (2026-08-03, local -> `6_analyses/semantic_runs/`)
+
+Embedding-based (text-embedding-3-small; tau = 95th pct of cross-category sims,
+calibrated on the 30-category corpus). Runs = consecutive A-words with
+cos(word, run centroid) >= tau, split by alignment with the EARLY-B centroid:
+
+| model | aligned>=4 | SELF-DRIFT>=4 | drift max | prefix>=4 |
+|---|---|---|---|---|
+| Qwen3-32B strict | 0.61 | 0.14 | 77 | 0.26 |
+| Llama-70B cap100 | 0.67 | 0.08 | 64 | 0.16 |
+| gpt-4o-mini | 0.65 | **0.22** | 29 | 0.19 |
+| gpt-4.1 | 0.88 | 0.01 | 6 | 0.02 |
+| gpt-5 | 0.78 | 0.04 | 6 | 0.11 |
+| Haiku 4.5 | 0.90 | 0.00 | 0 | 0.04 |
+| Sonnet 4.5 | 0.43 | 0.00 | 2 | 0.00 |
+
+* Semantic runs are the dominant register everywhere (0.43-0.90 of turns) — mostly
+  partner-ALIGNED (accommodation). Self-drift runs (perseveration candidate) are
+  concentrated in Qwen32 (0.14, incl. the invented -est/-lyst suffix families the
+  prefix detector misses), Llama (0.08), and surprisingly gpt-4o-mini (0.22 — incl.
+  repeat-locks and a 29-word run in its no-meet game).
+* CAVEATS: "aligned" is coarse (gpt-4.1's geographic wandering counts as aligned —
+  its perseveration is semantically NEAR cities without being cities; the earlier
+  cap-40 landform runs read as aligned here); drift runs include repeat-locks
+  (identical words are trivially self-similar); late-game B degradation handled by
+  anchoring on B's first 8 words.
+* Files: semantic_runs.{json,pdf}; embedding cache in session scratchpad.
+
+## MECH4 — IN-GAME ISOLATION (2026-08-03, user redesign -> `5_mechanistic/mech4/`)
+
+Same question as mech3 but inside the REAL game framework (4 replayed city B streams,
+3 planted words, K=64 novel-family proposal mass). Corrects/extends mech3:
+
+**A. Placement & recency:** answer-slot 0.50 dominates, but NOT exclusively:
+used-list-ONLY 0.117, other-player slots 0.109, mixed 0.074 (vs mech3's exact zeros
+for note/non-target — the game context DOES carry weak lexical/positional priming;
+the used-list explains part of the old seed-matrix "list" cell). Used-list membership
+is irrelevant for the A-slot effect itself (nolist 0.47 ~ 0.50); triple order
+irrelevant (shuffled 0.50). **RECENCY IS DECISIVE: 0.50 at gap 0 -> 0.00 at gap 2
+(0.035/0.020 at 4/6).** The passive trace of planted words dies within ~2 rounds —
+so the live-game persistence (state-space rho ~ 0.89, dose-4 hysteresis) must be
+SELF-SUSTAINED (the loop re-feeds itself each turn), not a slowly decaying memory.
+Reconciles the sharp mech4 decay with the behavioral hysteresis.
+
+**B. Format:** capture survives every rendering of the history — youfirst 0.55 >=
+round_sent 0.50 ~ semicolon 0.49 > prose 0.40 > colon-lines 0.30 > own-words-as-list
+0.23. ~2.4x modulation, never eliminated; NOT driven by how list-like the format is
+(explicit own-word list is LOWEST; prose still 0.40). The binding is to the ROLE
+("these are the answering player's words"), not to visual series structure.
+
+**C. Person/attribution:** second person ("you said...", My word:) = 0.496 and
+third-person spectator advice ("What should Player 1 say?") = 0.496 — IDENTICAL.
+Being the player is irrelevant; computing a word-choice FOR the player whose words
+they are is what matters. (witness_complete "Player 1 said:" shows fam_mass 0 but
+raw family prob 0.254 — an artifact: the model recaps the transcript verbatim
+(past-tense reading); it is a recall task, not a choice task. Excluded.)
+
+**Combined mech3+mech4 story: capture = role-bound series continuation — the words
+of the player whose next move is being computed get continued, regardless of WHO is
+computing (self or spectator) and largely regardless of format; self-attribution
+adds nothing (mech4) or a small brake under novelty instructions (mech3); pure
+lexical exposure contributes only weakly and only from game-relevant positions
+(used-list), and the trace decays within ~2 rounds unless behavior re-feeds it.**
+Files: mech4.json, mech4_figures.pdf; script src/mech4_game_isolation.py.
+
+## MECH4b/4c — FORMAT CONSISTENCY & POSITION (2026-08-03 -> `5_mechanistic/mech4/`)
+
+mech4b (per-round format varies WITHIN one prompt; 6 formats f0-f5, city streams,
+gap 0): within-prompt inconsistency destroys capture — fixed_f0 0.480, fixed_f4
+0.281, alt_f0f1 0.168, all_diff 0.012, scramble_a [f2,f5,f3] 0.016 — EXCEPT
+scramble_b [f4,f0,f2] = 0.434. mech4c (change exactly ONE round's format;
+scrambles rerun) resolves it: **round 1's format is irrelevant or even helps
+(r1→f4 0.664, r1→f2 0.629 vs all-consistent 0.492); rounds 2-3 are load-bearing
+(r2 0.117/0.168, r3 0.074/0.238)**. Scrambles replicate (a 0.059, b 0.383):
+scramble_b survives because its rounds 2-3 are two clean same-word-order formats.
+So the "consistency" requirement is really: **the series template is built from
+the LAST ~2 rounds' rendering** — matches the mech4 recency cliff (gap 2 -> 0).
+Partially revives surface-structural H2a, but localized to the recent window.
+Files: mech4b.json (pod runs/mech4b_scramble), mech4c.json, mech45_figures.pdf;
+scripts src/mech4b_scramble.py, src/mech4c_position.py.
+
+## MECH5 — DIRECT ROLE-SWAP TEST OF H2b (2026-08-03 -> `5_mechanistic/mech4/`)
+
+Decisive design: fully third-person history ("Round k: Player 1 said A, Player 2
+said B."), planted triple in one player's column, history BYTE-IDENTICAL across
+conditions; only the final sentence varies ("What word do you think Player N
+should say next?" -> prefill "Player N should say:"). 2x2 owner x asked, x
+{planted, base}, 4 streams, K=64. **H2b's prediction (capture only when asked ==
+owner) FAILED, informatively: capture is HIGHER off-diagonal** — ask the owner:
+0.309/0.594; ask the OTHER player: 0.930/0.992 (all bases 0.000). In the witness
+frame the model does BEST-RESPONSE COORDINATION: "Player 1 is producing
+plan-words, so Player 2 should say a plan-word to meet them" — rational given
+the win-by-matching rule. Interpretation with mech4's first-person slot contrast
+(own-column 0.50 vs other-column 0.11): **in first-person play the series binds
+to the self column; asked from outside, the model switches to modeling the
+partner. The in-game pathology is precisely the failure to apply, in first
+person, the partner-modeling it demonstrably has.** Caveat: the witness frame
+cannot separate role-binding from coordination reasoning — a first-person
+role-handoff variant ("Now answer as Player 2") is the follow-up if needed.
+Files: mech5.json, mech45_figures.pdf; script src/mech5_roleswap.py.
+
+## ORACLE DISCLOSURE (2026-08-04 -> `3_interventions/oracle/`) — instruction WINS
+
+`src/game1_oracle.py`, new pod .134:10652, n=12/rung, cap 100, seeds = ladder r0.
+r5_oracle appends to A's prompt: "The other player is only ever saying names of
+cities. To win, you should also say the name of a city." r6_scratch_inject forces
+A's scratchpad content verbatim ("My scratchpad: The other player only says city
+names. I will say the name of a city this round." -> "My word:").
+**Both rungs: met 12/12 = 1.00, near-instantly** (r5 meet turns median 2.5, all
+<=6; r6 median 3, two stragglers at 10 whose t8 probes still showed 0.59 category
+mass) vs r0 rerun 0.50 (meets [2,5,10,16,22,65]; probe cat 0.164 — exact baseline
+replication). played-cat 0.94/0.91 vs 0.11. **Capture does NOT override explicit
+instruction — externally-asserted knowledge is consumed immediately, whether
+framed as prompt fact or as the model's own scratchpad note. Combined with
+forced-plan (self-GENERATED diagnosis 73% correct -> 15% city plans), the failure
+is localized to consuming SELF-DERIVED evidence: the same content obeys perfectly
+when its source is external.** (Injected-note framing = self-attributed text, so
+"attribution to self" per se is not the blocker either — generation is.)
+
+## THINKING GAME (2026-08-04 -> `2_restricted_core/game1_think/`)
+
+`src/game1_think.py`: standard asymmetric game (A free, B city-restricted), BOTH
+players Qwen3-32B native thinking (enable_thinking=True, word parsed after
+</think>, max 1400 think tokens, 8 retries). n=8, cap 40, same starts.
+**met 7/8 = 0.88 (turns [3,4,5,6,10,20,22]) vs no-think 0.50** — thinking largely
+rescues convergence. Mechanism visible in traces: A mentions cities in 55/109
+think turns and at meet turns explicitly enumerates B's used cities and picks a
+novel one ("...paris, prague, rome... so 'dubai' is not in there... my next word
+is 'dubai'") — the partner-modeling that no-think first-person play never does.
+played-cat overall only 0.13: A does not mass-convert; it stays exploratory then
+executes a deliberate one-shot meet. Caveats: a few turns emit NO answer word
+(think budget exhausted after 8 retries -> empty A word logged, e.g. roll 0
+t10/t22); n=8, cap 40.
+
+## FORCED-PLAN SCRATCHPAD (2026-08-03, fork session -> `3_interventions/forced_plan/`)
+
+`src/game1_forced_plan.py`, 16 games/arm vs city-restricted B, Qwen32. Arms: free
+(old scratchpad replication), plan (template: "- What the other player seems to be
+doing: ..." then "- The exact word I will say this round: ..."), plan_remind
+(commitment restated right before the answer), plan_exec (planned word played
+verbatim, no second generation). **Result — the knowing-doing gap is INSIDE word
+selection, two lines apart in the same scratchpad:** the rule line names cities on
+70-76% of turns, but the planned word is a city on only 13-15% of turns; the plan
+is then kept 97-100%, and when the plan IS a city it is played 97-100%. plan_exec
+changes nothing (met 0.31 = plan = plan_remind), so there is no plan-vs-execution
+slip to fix — the model faithfully executes bad plans. Forcing planning HURT
+meeting (met 0.31 all plan arms vs 0.50 free; met games are faster, 3.8 vs 9.6
+turns — commit-early-or-never). Diagnosis (correct, verbalized) fails to feed word
+choice even when both live in the model's own just-written note.
+
+## MECH6/MECH7 — FRAME DEPENDENCE + WORD DUMP (2026-08-03, fork -> `5_mechanistic/mech4/`)
+
+mech6 = first-person version of mech5: identical third-person history, final line
+" You are Player N. It is time to say your next word." + "My word:". **The mech5
+partner-matching collapses in first person** (off-diagonal 0.93/0.99 -> 0.15/0.44)
+and own-series continuation is ALSO weak (diagonals 0.13/0.12 vs 0.50 in mech4
+where history says "you said") — so (a) partner-matching is a witness/advice-frame
+computation, and (b) self-binding needs the literal second-person "you said"
+labeling in the history, not just an assigned role. The 0.44 cell (role P1, owner
+P2) tracks recency: P2's words are line-final in each round sentence. mech7
+(word-level dump of all mech5/mech6 cells): the non-family mass is NOT cities —
+it is morphological derivations of OTHER used words (sealed->sealing/sealers,
+plank, painter/paints, prompt, modular). **Family capture is one instance of a
+general used-word-derivation attractor**; the model almost never proposes the
+partner's category unprompted even while advising the player facing a city-namer.
+Files: mech6.json, mech7.json; scripts src/mech6_firstperson.py, src/mech7_worddump.py.
+
+## CATEGORY->STUCKNESS PROBE, COMPLETE (2026-08-03/05 -> `6_analyses/catstuck/`)
+
+30-category dataset (2106 states, 358 with MC proposal profiles); dual-form fit
+of all 64 layers completed on pod .134:10652 (src/fit_catstuck_pod.py).
+Leave-category-out R² (shuffled controls ~0): **famrun peak L53 = 0.522;
+fam_mass peak L52 = 0.299; cat_mass peak L46 = 0.253.** All three targets
+generalize ACROSS held-out semantic categories, and all three peak in the same
+late window as everything else (patching routing L48-62, probes-v2 family L50 /
+category L56) — the stuckness readout is category-general and late-stack; the
+early-layer famrun signal (L17 0.415 from the partial fit) is real but the
+late peak is higher. Files: catstuck_probes_v2.json, catstuck_curves.pdf,
+catstuck_transcript.jsonl.
+
+## CONTINUOUS PROBES v2 (2026-08-03, local dual-form fit -> `6_analyses/probes_v2.json`)
+
+Nested alpha-grid ridge (grid 10^1..10^5 selected inside each training fold),
+game-held-out CV, dual-form (kernel) solve on resid_cache.npz (n=401 states,
+d=5120, 64 layers). Out-of-fold R^2: **family-mass log-odds 0.359 @ L50;
+category log-odds 0.297 @ L56; action-prediction gap 0.043 @ L59 (n=24,
+unreadable)**. Shuffled-target controls ~0/negative. Family readable slightly
+EARLIER than category; both peaks inside the L46-62 window patching identified
+(encoding <=L46, routing L48-62) — third method, same localization. Figure:
+`6_analyses/probe_curves.pdf`. First pass (fixed alpha=10) was all-negative —
+under-regularized at n<<d; the alpha grid is essential.
+
+## THREE-MECHANISM SEPARATION — RESULTS (2026-08-03 -> `5_mechanistic/mech3/`)
+
+**Pooled preregistered contrasts (MC family mass, K=32, novel words only):**
+Δ_lexical = **0.000** · Δ_structural = **+0.577** · Δ_attribution = **-0.102**
+(negative!) · interaction = -0.102. Per family (target-slot self/other cell means):
+morph 0.04/0.27, charonly 0.07/0.25, synthetic 1.00/1.00, semantic 1.00/0.99.
+
+1. **Zero pure lexical priming.** A planted-word triple in a neutral note yields exactly 0
+   family continuations; stems in the NON-target slots also yield exactly 0 (no
+   cross-slot leakage). The seed-matrix "bare list 0.53" result is therefore NOT
+   note-priming — in that cell the seeds also entered the used-list adjacent to
+   "My word:" (a positional/structural site). FOLLOW-UP: add a used-list placement
+   cell to nail this.
+2. **Role-structural induction dominates.** Stems occupying the answer-slot series
+   drive continuation; at ceiling (~1.0) for series with a transparent generative
+   rule (synthetic blorf-inflections, semantic music words) regardless of ownership.
+3. **Attribution semantics exists with a NEGATIVE sign: self-attribution RESTRAINS
+   continuation** where there is room (morph 0.04 self vs 0.27 other; charonly 0.07
+   vs 0.25) — told the series is its own prior output plus "write a new word", the
+   model avoids continuing its own pattern; told another model wrote it, it
+   pattern-completes. Opposite of a persona/consistency amplifier.
+4. **Patching (matched pairs differing only in the ownership header):** patching
+   other-run residuals into the self run over the shared suffix closes the
+   attribution gap fully by ~L48 (small raw effects, 0.012 -> 0.023; directional).
+
+**Reframing for the paper: the game's stuck priors = structural induction over the
+model's own answer slots — with self-attribution acting as an (insufficient) brake,
+not a driver.** Consistent with seed-matrix (list >= self > partner/other) and with
+Delta_structural being carried by answer-slot position. Caveats: ceiling effects in
+2/4 families; single model (Qwen32); K=32; the four word-family test sets differ in breadth.
+Files: mech3.json, mech3_figures.pdf; script src/mech3_attribution.py.
+
+## THREE-MECHANISM SEPARATION (design, as queued) -> `runs/mech3_attribution/`
+
+`src/mech3_attribution.py` implements the user-specified X/Y-series design isolating
+(1) lexical priming vs (2) role-structural induction vs (3) attribution semantics:
+planted-word placement {absent, lexical note, non-target slot Y, target slot X} x ownership
+{self, other} headers (2 paraphrases), counterbalanced labels (X/Y vs P/Q), series
+order, 4 word families (morph / synthetic / semantic / char-overlap-only). Measures:
+raw family first-token probability + K=32 MC family mass (never emitted actions).
+Preregistered contrasts: Δ_lexical, Δ_structural, Δ_attribution, self-x-slot
+interaction. STAGE 2: matched self-vs-other pair patching (prompts differ only in
+the ownership header; suffix aligns from the end) — layer sweep of final-position
+and shared-suffix patches -> where attribution enters the word-family logits.
+
+## STATE-SPACE MODEL v2 (2026-08-03): DM emission + random slopes + knowledge channel
+
+Upgrade ladder (6-fold game-level CV, ACTION-channel NLL, held-out u=v=0):
+| model | held-out NLL |
+|---|---|
+| M1 multinomial belief-only | 27,746 |
+| M2 multinomial two-process | 24,958 |
+| **M2d Dirichlet-multinomial two-process** | **14,150** |
+| M3 = M2d + random eta_s slopes + knowledge channel | 14,152 |
+* **Overdispersion is the dominant correction**: phi ~ 1.3 (multinomial = phi->inf) —
+  the 64 MC draws share a prompt and are strongly correlated; multinomial NLL gaps
+  overstated certainty ~2x. Two-process structure survives: rho ~ 0.89, eta_s ~ 0.40.
+* **alpha_b fits to 0.0**: with the knowledge channel forcing eta_b > 0 (belief must
+  rise to explain P_know ~ 0.98 at snapshots), the action channel STILL declines to
+  couple b into the category logit — the knowledge-to-policy routing failure is now a
+  fitted parameter, not just a contrast. (Random slopes + knowledge channel don't
+  improve action-channel CV — their value is identification, not prediction.)
+* Bootstrap 95% CIs (100 game-level resamples): rho [0.60, 1.00], eta_s [0.23, 0.66],
+  beta_s [1.80, 3.18], gamma_s [1.58, 2.45], phi [1.06, 1.59], alpha_b [0.00, 0.36]
+  (stays pinned near 0 across resamples), alpha_s [0.0, 3.6] (wide — see below).
+* INTERPRETIVE NUANCE: under the DM emission, alpha_s collapses 1.31 -> 0.06 —
+  the category-mass collapse is now explained by softmax COMPETITION from the rising
+  stem/used drives (beta_s, gamma_s), not by explicit inhibition of the category
+  logit. Behaviorally identical (category mass still falls with s); mechanistically
+  "crowding out" rather than "direct suppression" — matches the patching picture
+  where the late-layer decision is a competition at the final position.
+Files: `6_analyses/state_space/{fit_v2.json, state_space_model_v2.pdf}`.
+
+## ACTIVATION-PATCHING QUEUE (superseded by results above; scripts + design)
+
+`src/patch_transplant.py`: paired control->loop residual patching on transplant pairs
+(identical replayed B, differ only in 3 attributed self-words; in-distribution matched
+pair). Metric Delta = logsumexp(word-family first-token logits) - logsumexp(category
+first-token logits) at the final position. Layer sweep at final position + at
+seed-word token spans (offset-mapped; mean-pooled if lengths differ); attn-vs-MLP
+decomposition at TOPK layers.
+`src/patch_pred2act.py`: prediction->action frame patching at the 24 dissociation
+snapshots (same shuffled 8-candidate listing in both frames): cache prediction-frame
+final-position residuals, patch into the action frame per layer, read renormalized
+candidate category mass. Late-layer transfer = knowledge-to-policy routing failure
+localized; early transfer = frame changes the representation.
+Queue: wave6 (Qwen-72B cap-100 games, running) -> wave6.5 (patching) -> wave7
+(Llama-70B strict + SAVE_WORDS telemetry). Staged after: continuous probes
+(category log-odds / family mass / action-prediction gap, held-out categories+games).
+
+## API-MODEL ARM, CAP-100 CONSOLIDATED (2026-08-02): 4 API models (`src/api_stuck.py` -> `7_api_models/`)
+
+**Final cross-model table (cap 100, n=12 games, valid-meet guard: novel shared word only):**
+
+| model | met | onset | probe@8 cat | dose curve (family mass, d0..d4) | cat @d4 | elicitation |
+|---|---|---|---|---|---|---|
+| Qwen3-32B (r0, local) | 0.50 | 0.75 | 0.16 | 0 / 0 / 0 / 0.24 / **0.80** | 0.01 | local prefill |
+| Llama-3.1-70B (r0, pod) | 0.42 | 0.75 | 0.12 | 0 / 0 / 0 / 0.08 / 0.08 (morph) | 0.04 | local prefill |
+| gpt-4.1 | 0.33 | 0.67 | 0.02 | 0 / 0 / 0 / 0.02 / **0.39** | 0.04 | instruction |
+| Claude Haiku 4.5 | 0.75 | 0.42 | 0.02 | 0 / 0 / 0 / 0.02 / **0.33** | 0.00 | API prefill |
+| gpt-4o-mini | 0.92 | 0.17 | 0.29 | 0 / 0 / 0 / 0 / 0.05 | 0.06 | instruction |
+| gpt-5 | **1.00** | 0.33 | 0.32 (family-mass 0.11) | 0 / 0 / 0 / 0 / 0.06 | **0.64** | instruction, reasoning_effort=minimal |
+| Claude Sonnet 4.5 | **1.00** | 0.00 | (n=2 probes — met too fast) | **0 / 0 / 0 / 0 / 0.00** | 0.40 | API prefill |
+
+* **The dose-4 seeded attractor is CROSS-FAMILY**: it forms in Qwen (0.80), OpenAI
+  (gpt-4.1: 0.39, replicated 0.41@cap40) and Anthropic (Haiku 4.5: 0.33) models, always
+  with the same family-vs-category competition signature (city mass collapses to ~0 at
+  dose 4). It is NOT universal: gpt-4o-mini (0.05) and especially Sonnet 4.5 (0.00,
+  city inference intact at 0.40) are immune. Susceptibility does not track capability
+  monotonically (gpt-4.1 > gpt-4o-mini in capability but far more susceptible).
+* **Free-play failure modes differ by model**: Qwen32 loops morphologically; gpt-4.1
+  perseverates in self-established SEMANTIC categories (landforms/physics runs 30+
+  turns against unambiguous city evidence; met 0.33 at cap 100 — slow, not absolute);
+  Haiku meets 0.75 without early city adoption (probe category-mass 0.02); gpt-4o-mini (0.92)
+  and Sonnet 4.5 (1.00, median met ~turn 5) accommodate cleanly.
+* Meets validity (2026-08-02 fix): a "meet" requires a NOVEL shared word; games with
+  API-failure (empty) words are aborted and excluded. The first Haiku attempt (cap 40)
+  died to exhausted Anthropic credits and produced 6 spurious ""=="" meets — archived
+  under `7_api_models/cap40/`, superseded.
+* Costs: ~$1.60 (cap-40 OpenAI) + ~$5 (cap-100 OpenAI) + ~$9 (cap-100 Anthropic)
+  + ~$1.20 (gpt-5).
+* **gpt-5 (2026-08-02): fully robust with the strongest category inference** — met
+  12/12, dose-4 family mass 0.06 with city mass 0.64-0.82 preserved at ALL doses
+  (highest of any model). Probe family-mass 0.11 (highest API-model value) yet it always
+  meets — mild lexical pull, fully corrected downstream. CAVEATS: reasoning models
+  reject temperature overrides (default temp, not 0.7), and reasoning_effort=minimal
+  still inserts hidden deliberation before every sample — its MC profile measures
+  POST-DELIBERATION choice, not raw next-token sampling, so its immunity confounds
+  "robust prior" with "deliberative correction". gpt-5-chat variants are deprecated
+  (5.0/5.1) or fixed-temperature + hidden-reasoning anyway (5.2/5.3) — no clean
+  non-reasoning GPT-5-generation comparison exists.
+
+**Llama-3.1-70B seed matrix (pod wave5, full cell set ->
+`3_interventions/seed_matrix_llama70/`):** morphological dose curve
+0 / 0 / 0 / 0.08 / 0.08 — nearly immune, consistent with its clean free play
+(0/96 stuck) — **but `lex_sem` target mass is 0.92 with 3.0/6 continuation hits**
+(vs Qwen32's 0.54): three semantically-related own-words capture almost the entire
+proposal distribution. **The attractor DIMENSION is model-specific: morphological for
+Qwen, semantic for Llama** — which rhymes with gpt-4.1's free-play failure mode being
+semantic-category perseveration. Attribution cells all ~0 (no bare-list priming in
+Llama, unlike Qwen's 0.53). Hysteresis untestable (no morph attractor forms;
+perturb4 cat mass stays 0.29-0.35). Caveat: sem target set is 15 words vs a
+4-prefix family — target sets differ in breadth, but the metric is identical to the
+Qwen comparison. **Llama-3.1-70B cap-100 games (pod wave6 -> `2_restricted_core/ladder_cap100_llama70/`)
+— THE "0/96 STUCK" NULL RESULT IS REVISED:** met 0.42 (5/12), probe category-mass 0.117,
+family-mass(prefix) 0.008. But transcripts show **2/12 games with SUFFIX/RHYME-family
+loops invisible to the 4-prefix detector** — g1: cursed->blamed->stamped->flamed->
+claimed->shamed->famed->hamed->mamed (invented rhymes), degenerating into a 64-turn
+resample-exhaustion repeat-lock; g6: an 18-run suffix family before meeting at t98.
+Plus shorter repeat-locks (14, 7, 5 identical words) in three more games. Most other
+no-meets are semantic wandering without city adoption (gpt-4.1-like). Taken with
+lex_sem 0.92: Llama's attractor channel is suffix/semantic, not prefix — the earlier
+sweep's prefix-based stuck detector (and cap 60) missed it. DETECTOR DEBT: onset/
+selffam metrics are prefix-only everywhere; a dimension-general lexical-family
+detector (prefix OR suffix OR embedding-cluster) should be run over ALL transcripts.
+(The viewer's family highlighting is now prefix-or-suffix.)
+
+**Qwen2.5-72B seed matrix (pod wave5 -> `3_interventions/seed_matrix_qwen72/`):**
+morphological dose curve **0.00 at every dose** — the Qwen3-32B attractor is NOT a
+family trait (72B is a different generation AND scale, so the two are confounded;
+either way the phenomenon does not transfer). `lex_sem` 0.32 (mild; vs Llama-70B 0.92,
+Qwen32 0.54), attribution cells all 0, and city-category inference survives every
+cell (0.22-0.49 even with 4 planted morph words, vs Qwen32's collapse to 0.01).
+Susceptibility ranking on the semantic channel: Llama-70B 0.92 > Qwen32 0.54 >
+Qwen72 0.32 > (API models untested on semantic seeds — open item).
+70B/72B cap-100 games (wave6) now running.
+
+Original cap-40 notes below (kept for the gpt-4.1 transcript reading and caveats):
+
+## API-MODEL ARM (2026-08-02): gpt-4o-mini / gpt-4.1 (`src/api_stuck.py` -> `7_api_models/`, superseded by cap-100 above)
 
 Cross-model generality via API models, run locally. No Anthropic key was available on
 this machine, so the run used the OpenAI key from `~/.zshrc`: **gpt-4o-mini** and
@@ -884,3 +1353,22 @@ ref spot checks with no model load (all four verified locally; full run() paths
 exercised end-to-end with a mocked LLM, incl. replay + analysis). TODO: pod run
 (MODEL=QwenInst32), then per-condition sweeps; activation capture replays rebuild
 prompts deterministically from the transcripts alone.
+
+## Paused at pod shutdown (2026-08-04)
+
+Both games-2 pods stopped by user (out of local memory episode; local fitting abandoned).
+State preserved on pod 19344 `/workspace/mm/games-2/runs/probe_catstuck/`: complete
+30-category game data (`catstuck_transcript.jsonl`, 2106 states) + `resid_cache.npz` (1.0 GB,
+all 64 layers). Probe fitting is UNFINISHED (pod's slow primal fit got to L16:
+famrun 0.27/0.32/0.41 at L0/8/16, leave-category-out — signal generalizes across categories).
+
+**To resume when a pod is back:**
+1. `scp -P <port> -i <SSH_KEY> src/fit_catstuck_pod.py root@<ip>:/workspace/mm/games-2/`
+2. `ssh … 'cd /workspace/mm/games-2 && OPENBLAS_NUM_THREADS=4 nohup python3 fit_catstuck_pod.py > /tmp/catstuck_fit2.log 2>&1 &'`
+   (dual-form + 12 fork workers ≈ well under an hour; writes `runs/probe_catstuck/catstuck_probes_v2.json`)
+
+Also cancelled at shutdown: the queued chain Llama-70B strict → proposal_telemetry →
+Qwen-72B cap-100 games (never started; relaunch from `game1_strict.py` etc. as before).
+Forced-plan experiment (`src/game1_forced_plan.py`) is DONE and pulled to
+`runs/game-1/3_interventions/forced_plan/` — plan itself captured (plans city 19% vs rule
+line naming cities 73%; plan-kept 97-100%; met 0.31 all plan arms vs 0.50 free).

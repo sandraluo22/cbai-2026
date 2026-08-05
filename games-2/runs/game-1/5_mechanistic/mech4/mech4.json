@@ -1,0 +1,1009 @@
+{
+ "per_cell": [
+  {
+   "exp": "A",
+   "cell": "base_g0",
+   "stream": 0,
+   "pfam": 5.351790605345741e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0625
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g0",
+   "stream": 0,
+   "pfam": 0.0024612504057586193,
+   "fam_mass": 0.625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g2",
+   "stream": 0,
+   "pfam": 1.3158467027096776e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g2",
+   "stream": 0,
+   "pfam": 0.0002177238347940147,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g4",
+   "stream": 0,
+   "pfam": 2.9923430702183396e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g4",
+   "stream": 0,
+   "pfam": 0.00011754204024327919,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g6",
+   "stream": 0,
+   "pfam": 2.0089260033273604e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g6",
+   "stream": 0,
+   "pfam": 0.00017743214266374707,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "exp": "A",
+   "cell": "used_only",
+   "stream": 0,
+   "pfam": 0.0028526671230793,
+   "fam_mass": 0.234375,
+   "cat_mass": 0.046875
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_shuffled",
+   "stream": 0,
+   "pfam": 0.04039771854877472,
+   "fam_mass": 0.3125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_nolist",
+   "stream": 0,
+   "pfam": 0.020742611959576607,
+   "fam_mass": 0.515625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotB_g0",
+   "stream": 0,
+   "pfam": 0.00032339608878828585,
+   "fam_mass": 0.015625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "mixed",
+   "stream": 0,
+   "pfam": 0.0004386376531329006,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_planted",
+   "stream": 0,
+   "pfam": 0.0024612504057586193,
+   "fam_mass": 0.6875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_base",
+   "stream": 0,
+   "pfam": 5.351790605345741e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.09375
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_planted",
+   "stream": 0,
+   "pfam": 0.0036216876469552517,
+   "fam_mass": 0.53125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_base",
+   "stream": 0,
+   "pfam": 1.7044875448846142e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.109375
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_planted",
+   "stream": 0,
+   "pfam": 0.004187946207821369,
+   "fam_mass": 0.703125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_base",
+   "stream": 0,
+   "pfam": 1.511583377578063e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_planted",
+   "stream": 0,
+   "pfam": 0.004531197249889374,
+   "fam_mass": 0.453125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_base",
+   "stream": 0,
+   "pfam": 4.691997219197219e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_planted",
+   "stream": 0,
+   "pfam": 0.002635851502418518,
+   "fam_mass": 0.296875,
+   "cat_mass": 0.3125
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_base",
+   "stream": 0,
+   "pfam": 2.422393208689755e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.1875
+  },
+  {
+   "exp": "B",
+   "cell": "prose_planted",
+   "stream": 0,
+   "pfam": 0.007399049121886492,
+   "fam_mass": 0.15625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "prose_base",
+   "stream": 0,
+   "pfam": 3.7217587305349298e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.125
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_planted",
+   "stream": 0,
+   "pfam": 9.39694291446358e-05,
+   "fam_mass": 0.765625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_base",
+   "stream": 0,
+   "pfam": 1.7016327902297235e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_planted",
+   "stream": 0,
+   "pfam": 0.15826278924942017,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_base",
+   "stream": 0,
+   "pfam": 3.7552999856416136e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g0",
+   "stream": 2,
+   "pfam": 7.811981049599126e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.328125
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g0",
+   "stream": 2,
+   "pfam": 0.0030555622652173042,
+   "fam_mass": 0.171875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g2",
+   "stream": 2,
+   "pfam": 2.3577392767037963e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.234375
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g2",
+   "stream": 2,
+   "pfam": 0.0002499659894965589,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g4",
+   "stream": 2,
+   "pfam": 3.5330078844708623e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g4",
+   "stream": 2,
+   "pfam": 4.614349745679647e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g6",
+   "stream": 2,
+   "pfam": 2.1138478132343153e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g6",
+   "stream": 2,
+   "pfam": 0.00020273766131140292,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "used_only",
+   "stream": 2,
+   "pfam": 0.0020244531333446503,
+   "fam_mass": 0.09375,
+   "cat_mass": 0.265625
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_shuffled",
+   "stream": 2,
+   "pfam": 0.0062589035369455814,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_nolist",
+   "stream": 2,
+   "pfam": 0.022513100877404213,
+   "fam_mass": 0.40625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotB_g0",
+   "stream": 2,
+   "pfam": 0.0003705085546243936,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "mixed",
+   "stream": 2,
+   "pfam": 0.0004061070503666997,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_planted",
+   "stream": 2,
+   "pfam": 0.0030555622652173042,
+   "fam_mass": 0.140625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_base",
+   "stream": 2,
+   "pfam": 7.811981049599126e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.1875
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_planted",
+   "stream": 2,
+   "pfam": 0.00010694010416045785,
+   "fam_mass": 0.09375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_base",
+   "stream": 2,
+   "pfam": 5.497540314536309e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.28125
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_planted",
+   "stream": 2,
+   "pfam": 0.00026109759346581995,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_base",
+   "stream": 2,
+   "pfam": 7.1413364821637515e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_planted",
+   "stream": 2,
+   "pfam": 0.001969511155039072,
+   "fam_mass": 0.296875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_base",
+   "stream": 2,
+   "pfam": 1.213152972923126e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.09375
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_planted",
+   "stream": 2,
+   "pfam": 0.00022863326012156904,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.078125
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_base",
+   "stream": 2,
+   "pfam": 1.7404352092853514e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.609375
+  },
+  {
+   "exp": "B",
+   "cell": "prose_planted",
+   "stream": 2,
+   "pfam": 0.0021007386967539787,
+   "fam_mass": 0.453125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "prose_base",
+   "stream": 2,
+   "pfam": 4.907755737804109e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.359375
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_planted",
+   "stream": 2,
+   "pfam": 0.00013737176777794957,
+   "fam_mass": 0.65625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_base",
+   "stream": 2,
+   "pfam": 1.5259638885822824e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_planted",
+   "stream": 2,
+   "pfam": 0.2954382002353668,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_base",
+   "stream": 2,
+   "pfam": 1.2834650988224894e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g0",
+   "stream": 7,
+   "pfam": 2.458877474964538e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g0",
+   "stream": 7,
+   "pfam": 0.0005565527826547623,
+   "fam_mass": 0.84375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g2",
+   "stream": 7,
+   "pfam": 2.276420900670928e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g2",
+   "stream": 7,
+   "pfam": 0.00025963038206100464,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g4",
+   "stream": 7,
+   "pfam": 1.5477954775633407e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g4",
+   "stream": 7,
+   "pfam": 0.00013800797751173377,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g6",
+   "stream": 7,
+   "pfam": 1.174950853055634e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g6",
+   "stream": 7,
+   "pfam": 0.00013048225082457066,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "used_only",
+   "stream": 7,
+   "pfam": 0.0005509622860699892,
+   "fam_mass": 0.0625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_shuffled",
+   "stream": 7,
+   "pfam": 0.010046807117760181,
+   "fam_mass": 0.84375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_nolist",
+   "stream": 7,
+   "pfam": 0.0058715445920825005,
+   "fam_mass": 0.625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotB_g0",
+   "stream": 7,
+   "pfam": 4.3354681110940874e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "mixed",
+   "stream": 7,
+   "pfam": 0.0005281830672174692,
+   "fam_mass": 0.21875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_planted",
+   "stream": 7,
+   "pfam": 0.0005565527826547623,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_base",
+   "stream": 7,
+   "pfam": 2.458877474964538e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_planted",
+   "stream": 7,
+   "pfam": 0.0010687808971852064,
+   "fam_mass": 0.90625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_base",
+   "stream": 7,
+   "pfam": 1.3239372265161364e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_planted",
+   "stream": 7,
+   "pfam": 7.483206718461588e-05,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_base",
+   "stream": 7,
+   "pfam": 4.5913555624110813e-08,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_planted",
+   "stream": 7,
+   "pfam": 0.0003928898659069091,
+   "fam_mass": 0.546875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_base",
+   "stream": 7,
+   "pfam": 4.923796836919792e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_planted",
+   "stream": 7,
+   "pfam": 9.6595220384188e-05,
+   "fam_mass": 0.203125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_base",
+   "stream": 7,
+   "pfam": 2.2350198491949413e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.40625
+  },
+  {
+   "exp": "B",
+   "cell": "prose_planted",
+   "stream": 7,
+   "pfam": 0.00020393407612573355,
+   "fam_mass": 0.25,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "prose_base",
+   "stream": 7,
+   "pfam": 3.9868893964012386e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.1875
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_planted",
+   "stream": 7,
+   "pfam": 6.279621447902173e-05,
+   "fam_mass": 0.34375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_base",
+   "stream": 7,
+   "pfam": 3.7837524224926256e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_planted",
+   "stream": 7,
+   "pfam": 0.23661035299301147,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_base",
+   "stream": 7,
+   "pfam": 5.345042154658586e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g0",
+   "stream": 9,
+   "pfam": 3.087264985879301e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.015625
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g0",
+   "stream": 9,
+   "pfam": 0.0010372099932283163,
+   "fam_mass": 0.375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g2",
+   "stream": 9,
+   "pfam": 5.330953172233421e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.078125
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g2",
+   "stream": 9,
+   "pfam": 0.00013615595526061952,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "base_g4",
+   "stream": 9,
+   "pfam": 9.718571618577698e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g4",
+   "stream": 9,
+   "pfam": 0.00023847873671911657,
+   "fam_mass": 0.109375,
+   "cat_mass": 0.03125
+  },
+  {
+   "exp": "A",
+   "cell": "base_g6",
+   "stream": 9,
+   "pfam": 2.9564549208771496e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_g6",
+   "stream": 9,
+   "pfam": 0.00012507667997851968,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "used_only",
+   "stream": 9,
+   "pfam": 0.004066902678459883,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_shuffled",
+   "stream": 9,
+   "pfam": 0.07603786885738373,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotA_nolist",
+   "stream": 9,
+   "pfam": 0.014720573090016842,
+   "fam_mass": 0.34375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "slotB_g0",
+   "stream": 9,
+   "pfam": 0.0006215971661731601,
+   "fam_mass": 0.421875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "A",
+   "cell": "mixed",
+   "stream": 9,
+   "pfam": 0.0013068169355392456,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_planted",
+   "stream": 9,
+   "pfam": 0.0010372099932283163,
+   "fam_mass": 0.359375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "round_sent_base",
+   "stream": 9,
+   "pfam": 3.087264985879301e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0625
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_planted",
+   "stream": 9,
+   "pfam": 0.0011036160867661238,
+   "fam_mass": 0.671875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "youfirst_base",
+   "stream": 9,
+   "pfam": 6.946296480236924e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.203125
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_planted",
+   "stream": 9,
+   "pfam": 0.0004976131021976471,
+   "fam_mass": 0.4375,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "colon_lines_base",
+   "stream": 9,
+   "pfam": 2.305713678651955e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.09375
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_planted",
+   "stream": 9,
+   "pfam": 0.003994731232523918,
+   "fam_mass": 0.65625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "semicolon_base",
+   "stream": 9,
+   "pfam": 1.9401152258069487e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_planted",
+   "stream": 9,
+   "pfam": 0.0015106204664334655,
+   "fam_mass": 0.40625,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "ownlist_base",
+   "stream": 9,
+   "pfam": 5.110658776175114e-07,
+   "fam_mass": 0.0,
+   "cat_mass": 0.015625
+  },
+  {
+   "exp": "B",
+   "cell": "prose_planted",
+   "stream": 9,
+   "pfam": 0.0013360625598579645,
+   "fam_mass": 0.75,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "B",
+   "cell": "prose_base",
+   "stream": 9,
+   "pfam": 3.556185674824519e-06,
+   "fam_mass": 0.0,
+   "cat_mass": 0.15625
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_planted",
+   "stream": 9,
+   "pfam": 1.252513629879104e-05,
+   "fam_mass": 0.21875,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_advice_base",
+   "stream": 9,
+   "pfam": 4.4908690099987325e-09,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_planted",
+   "stream": 9,
+   "pfam": 0.326336145401001,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "exp": "C",
+   "cell": "witness_complete_base",
+   "stream": 9,
+   "pfam": 3.939277303288691e-05,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  }
+ ],
+ "summary": {
+  "A": {
+   "used_only": 0.1171875,
+   "slotA_shuffled": 0.49609375,
+   "slotA_nolist": 0.47265625,
+   "slotB_g0": 0.109375,
+   "mixed": 0.07421875,
+   "slotA_g0": 0.50390625,
+   "base_g0": 0.0
+  },
+  "B": {
+   "round_sent": {
+    "planted": 0.49609375,
+    "base": 0.0,
+    "capture": 0.49609375
+   },
+   "youfirst": {
+    "planted": 0.55078125,
+    "base": 0.0,
+    "capture": 0.55078125
+   },
+   "colon_lines": {
+    "planted": 0.3046875,
+    "base": 0.0,
+    "capture": 0.3046875
+   },
+   "semicolon": {
+    "planted": 0.48828125,
+    "base": 0.0,
+    "capture": 0.48828125
+   },
+   "ownlist": {
+    "planted": 0.234375,
+    "base": 0.0,
+    "capture": 0.234375
+   },
+   "prose": {
+    "planted": 0.40234375,
+    "base": 0.0,
+    "capture": 0.40234375
+   }
+  },
+  "C": {
+   "first": {
+    "planted": 0.49609375,
+    "base": 0.0
+   },
+   "witness_advice": {
+    "planted": 0.49609375,
+    "base": 0.0,
+    "capture": 0.49609375
+   },
+   "witness_complete": {
+    "planted": 0.0,
+    "base": 0.0,
+    "capture": 0.0
+   }
+  },
+  "recency": {
+   "g0": {
+    "planted": 0.50390625,
+    "base": 0.0
+   },
+   "g2": {
+    "planted": 0.0,
+    "base": 0.0
+   },
+   "g4": {
+    "planted": 0.03515625,
+    "base": 0.0
+   },
+   "g6": {
+    "planted": 0.01953125,
+    "base": 0.0
+   }
+  }
+ }
+}

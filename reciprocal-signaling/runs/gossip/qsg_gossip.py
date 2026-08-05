@@ -64,16 +64,108 @@ SYS = ('You must output only valid JSON. No extra keys, no explanations, no mark
        'Valid labels are exactly those in Allowed labels. Never output "<PAD>".')
 
 
+WORD_POOL = ("cat dog fish bird horse sheep goat lion tiger bear wolf fox deer frog "
+             "snake mouse rabbit duck goose owl crow swan whale shark crab ant bee moth "
+             "worm tree rose leaf corn rice bread milk cheese apple grape lemon peach "
+             "plum bean soup cake salt sugar table chair door floor roof wall clock lamp "
+             "knife spoon plate cup glass brush soap towel shirt sock shoe hat coat ring "
+             "watch coin book pen paper chalk drum flute piano car bus train boat ship "
+             "plane wheel road bridge river lake hill stone sand cloud rain snow wind "
+             "fire star moon sun map key bell rope nail fork").split()
+WORDS = os.environ.get("WORDS", "") == "1"          # real-word labels instead of gibberish
+TRACK = os.environ.get("TRACK", "") == "1"          # explicit per-player bookkeeping order
+TRACK_TXT = (
+    "Before answering, work out each player's record: for every past round, check whether "
+    "that player's label matched the revealed correct answer for that round. Players whose "
+    "labels have matched the revealed answers are more likely to be correct now; players "
+    "whose labels have failed to match are more likely to be wrong. Base your answer on "
+    "these per-player records, NOT on how many times a label is repeated.\n")
+KNOWN = os.environ.get("KNOWN", "") == "1"         # tell neutrals a knower exists
+KNOWN_TXT = "There is someone among the players who knows the correct answer each round.\n"
+ATTEND = os.environ.get("ATTEND", "") == "1"       # explicit source-attention instruction
+ATTEND_TXT = ("Pay close attention to WHICH player each memory entry came from, and compare "
+              "each player's past labels against the revealed correct answers before "
+              "deciding what to believe.\n")
+
+# (question, [3 candidate answers, distinct first letters], correct answer)
+TRIVIA_WEAK = [
+    ("Which of these lakes is the deepest?", ["Tanganyika", "Malawi", "Victoria"], "Tanganyika"),
+    ("Which of these cities is the farthest north?", ["Venice", "Toronto", "Boston"], "Venice"),
+    ("Which of these elements has the highest atomic number?", ["tin", "iodine", "silver"], "iodine"),
+    ("Which of these rivers is the longest?", ["Volga", "Danube", "Rhine"], "Volga"),
+    ("Which country hosted the 1936 Winter Olympics?", ["Germany", "Switzerland", "Norway"], "Germany"),
+    ("Which of these animals is the heaviest on average as an adult?", ["walrus", "moose", "polar bear"], "walrus"),
+    ("Which of these languages has the most native speakers?", ["Bengali", "Japanese", "German"], "Bengali"),
+    ("Which country drinks the most tea per person per year?", ["Turkey", "Ireland", "China"], "Turkey"),
+    ("Which of these mountains is the tallest?", ["K2", "Lhotse", "Makalu"], "K2"),
+    ("Which of these deserts is the largest by area?", ["Gobi", "Kalahari", "Atacama"], "Gobi"),
+]
+TRIVIA_STRONG = [
+    ("What is the capital of France?", ["Paris", "Lyon", "Marseille"], "Paris"),
+    ("What is the chemical symbol for gold?", ["Au", "Fe", "Pb"], "Au"),
+    ("Which planet is the largest in the Solar System?", ["Jupiter", "Saturn", "Neptune"], "Jupiter"),
+    ("Who wrote the play Romeo and Juliet?", ["Shakespeare", "Dickens", "Austen"], "Shakespeare"),
+    ("What is 7 times 8?", ["56", "49", "63"], "56"),
+]
+MATH_ITEMS = [
+    ("What is 47 times 83?", ["3901", "4901", "2901"], "3901"),
+    ("What is 67 times 74?", ["4958", "5958", "3958"], "4958"),
+    ("What is 56 times 91?", ["5096", "6096", "4096"], "5096"),
+    ("What is 38 times 77?", ["2926", "3926", "1926"], "2926"),
+    ("What is 84 times 59?", ["4956", "5956", "3956"], "4956"),
+    ("What is 73 times 68?", ["4964", "5964", "3964"], "4964"),
+    ("What is 92 times 46?", ["4232", "5232", "3232"], "4232"),
+    ("What is 65 times 87?", ["5655", "6655", "4655"], "5655"),
+    ("What is 49 times 76?", ["3724", "4724", "2724"], "3724"),
+    ("What is 58 times 93?", ["5394", "6394", "4394"], "5394"),
+]
+TRIVIA_HARD = [
+    ("Which of these metals has the highest melting point?",
+     ["rhenium", "osmium", "iridium"], "rhenium"),
+    ("Which of these moons has the largest radius?",
+     ["Titania", "Rhea", "Oberon"], "Titania"),
+    ("Which of these elements is most abundant in Earth's crust?",
+     ["titanium", "barium", "zinc"], "titanium"),
+    ("Which of these elements was discovered first?",
+     ["helium", "argon", "neon"], "helium"),
+    ("Which of these US states has the largest land area?",
+     ["Idaho", "Kansas", "Nebraska"], "Idaho"),
+    ("Which of these composers died youngest?",
+     ["Pergolesi", "Schubert", "Mozart"], "Pergolesi"),
+    ("Which of these battles was fought first?",
+     ["Agincourt", "Crecy", "Poitiers"], "Crecy"),
+    ("Which of these cities opened its metro system first?",
+     ["Budapest", "Paris", "Madrid"], "Budapest"),
+    ("Which of these mountains is the tallest?",
+     ["Nanga Parbat", "Annapurna", "Gasherbrum I"], "Nanga Parbat"),
+    ("Which of these seas is the saltiest?",
+     ["Red Sea", "Mediterranean", "Baltic"], "Red Sea"),
+]
+KNOWER_HARD = [
+    ("Which of these lakes is the deepest?",
+     ["Matano", "Toba", "Vostok"], "Vostok"),
+]
+KNOWER_BANK = [
+    ("Which single word best solves this riddle: it follows you on sunny days, "
+     "disappears in the dark, and copies your every move?",
+     ["shadow", "mirror", "echo"], "shadow"),
+]
+
+
 def make_labels(k, rng, tok, used=None):
-    """Synthetic 5-char labels with DISTINCT first tokens (needed for the logit read).
+    """Labels with DISTINCT first tokens (needed for the logit read). Default: synthetic
+    5-char gibberish; WORDS=1 draws common concrete nouns from WORD_POOL instead.
     `used`: first-token ids already claimed (FRESH mode: no collisions across rounds,
     so old labels can never absorb the read mass of current ones)."""
     used = used if used is not None else set()
     while True:
-        labs = set()
-        while len(labs) < k:
-            labs.add("".join(rng.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5)))
-        labs = sorted(labs)
+        if WORDS:
+            labs = sorted(rng.sample(WORD_POOL, k))
+        else:
+            labs = set()
+            while len(labs) < k:
+                labs.add("".join(rng.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5)))
+            labs = sorted(labs)
         ids = [tok(l, add_special_tokens=False)["input_ids"][0] for l in labs]
         if len(set(ids)) == k and not (set(ids) & used):
             used.update(ids)
@@ -112,6 +204,20 @@ def user_msg(agent, labels, mem, reveals, cur_round, clue, rng, names_on=False, 
                 "quality inspection and should be either APPROVED or REJECTED. You cannot see "
                 "the component itself. The earlier naming rounds concerned a different task.\n")
         thing = "component"
+    elif isinstance(phase2, dict):
+        thing = "question"
+        if phase2.get("fixed"):
+            ref = "question q_1"
+            note = ("NOTE: the task has changed. There is now ONE factual question, the same "
+                    "in every remaining round, and the allowed labels are its candidate "
+                    "answers. The earlier naming rounds concerned a different task.\n"
+                    "Question: " + phase2["q"] + "\n")
+        else:
+            ref = f"question q_r{cur_round}"
+            note = ("NOTE: the task has changed. Each round now asks one NEW factual "
+                    "question, and the allowed labels are its candidate answers. The earlier "
+                    "naming rounds concerned a different task.\n"
+                    "Question: " + phase2["q"] + "\n")
     elif phase2:
         ref = f"object obj_r{cur_round}"
         note = ("NOTE: the task has changed. Each round now shows one NEW object that truly "
@@ -129,6 +235,9 @@ def user_msg(agent, labels, mem, reveals, cur_round, clue, rng, names_on=False, 
          ('Each memory entry is of the form "<name>: <label>" (the player you observed it from).\n'
           if names_on else
           'Each memory entry is of the form "P<player>: <label>" (the player you observed it from).\n') +
+         (KNOWN_TXT if KNOWN else "") +
+         (TRACK_TXT if TRACK else "") +
+         (ATTEND_TXT if ATTEND else "") +
          ("The correct answer for each round has no relation to the correct answers of "
           "previous rounds.\n" if INDEP else "") +
          f"You are {pname(agent + 1, names_on)}.\n"

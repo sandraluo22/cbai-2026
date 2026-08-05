@@ -1,0 +1,56 @@
+{
+ "model": "QwenInst32",
+ "temp": 0.7,
+ "n": 16,
+ "cat": "city",
+ "conditions": {
+  "free": {
+   "n": 16,
+   "met_frac": 0.5,
+   "n_met": 8,
+   "turns_mean": 9.625,
+   "played_cat_frac": 0.26436781609195403,
+   "rule_names_cat_frac": 0.0,
+   "planned_cat_frac": null,
+   "plan_kept_frac": null,
+   "plan_kept_when_planned_cat": null,
+   "played_cat_when_planned_cat": null
+  },
+  "plan": {
+   "n": 16,
+   "met_frac": 0.3125,
+   "n_met": 5,
+   "turns_mean": 3.8,
+   "played_cat_frac": 0.15441176470588236,
+   "rule_names_cat_frac": 0.7573529411764706,
+   "planned_cat_frac": 0.15073529411764705,
+   "plan_kept_frac": 0.9742647058823529,
+   "plan_kept_when_planned_cat": 1.0,
+   "played_cat_when_planned_cat": 1.0
+  },
+  "plan_remind": {
+   "n": 16,
+   "met_frac": 0.3125,
+   "n_met": 5,
+   "turns_mean": 3.8,
+   "played_cat_frac": 0.1323529411764706,
+   "rule_names_cat_frac": 0.7022058823529411,
+   "planned_cat_frac": 0.13602941176470587,
+   "plan_kept_frac": 0.9779411764705882,
+   "plan_kept_when_planned_cat": 0.972972972972973,
+   "played_cat_when_planned_cat": 0.972972972972973
+  },
+  "plan_exec": {
+   "n": 16,
+   "met_frac": 0.3125,
+   "n_met": 5,
+   "turns_mean": 3.8,
+   "played_cat_frac": 0.12867647058823528,
+   "rule_names_cat_frac": 0.7058823529411765,
+   "planned_cat_frac": 0.12867647058823528,
+   "plan_kept_frac": 1.0,
+   "plan_kept_when_planned_cat": 1.0,
+   "played_cat_when_planned_cat": 1.0
+  }
+ }
+}

@@ -38,6 +38,9 @@ sys.path.insert(0, os.path.join(_HERE, "..", "..", "src"))
 from run_games import load  # noqa: E402
 
 FRESH = os.environ.get("FRESH", "0") == "1"        # new label vocabulary every round
+ORDER = os.environ.get("ORDER", "")                # ""|fixed|fixedrev: deterministic round-
+                                                   # robin (S,L) schedule instead of random
+                                                   # pairs; fixedrev puts P2 first, P1 last
 EARLYSTOP = int(os.environ.get("EARLYSTOP", "0"))  # end round after this many consecutive
                                                    # fully-unanimous conversations (0 = off)
 SWITCH_AT = int(os.environ.get("SWITCH_AT", "10"))  # round after which duel_remove drops the
@@ -55,6 +58,7 @@ DECIDE = os.environ.get("DECIDE", "0") == "1"       # probe reads: self-generate
 JUSTIFY = os.environ.get("JUSTIFY", "0") == "1"     # speaker sends 1-sentence justification with label
 SCHED = os.environ.get("SCHED", "")                 # deterministic correctness bits for towers,
                                                     # "P1bits" or "P1bits;P2bits" e.g. "11101110..."
+PRESENT = os.environ.get("PRESENT", "")            # ""|anon (no attribution)|separate (by-source)
 TALLY = os.environ.get("TALLY", "")                 # ""|true|false: programmatic track-record table
                                                     # in every prompt (false = inverted counts)
 WHOINF = os.environ.get("WHOINF", "0") == "1"       # round-end bounded read: who influenced you most
@@ -64,16 +68,108 @@ SYS = ('You must output only valid JSON. No extra keys, no explanations, no mark
        'Valid labels are exactly those in Allowed labels. Never output "<PAD>".')
 
 
+WORD_POOL = ("cat dog fish bird horse sheep goat lion tiger bear wolf fox deer frog "
+             "snake mouse rabbit duck goose owl crow swan whale shark crab ant bee moth "
+             "worm tree rose leaf corn rice bread milk cheese apple grape lemon peach "
+             "plum bean soup cake salt sugar table chair door floor roof wall clock lamp "
+             "knife spoon plate cup glass brush soap towel shirt sock shoe hat coat ring "
+             "watch coin book pen paper chalk drum flute piano car bus train boat ship "
+             "plane wheel road bridge river lake hill stone sand cloud rain snow wind "
+             "fire star moon sun map key bell rope nail fork").split()
+WORDS = os.environ.get("WORDS", "") == "1"          # real-word labels instead of gibberish
+PROV = os.environ.get("PROV", "sender")           # relay provenance: sender|orig|none
+TRACK = os.environ.get("TRACK", "") == "1"          # explicit per-player bookkeeping order
+TRACK_TXT = (
+    "Before answering, work out each player's record: for every past round, check whether "
+    "that player's label matched the revealed correct answer for that round. Players whose "
+    "labels have matched the revealed answers are more likely to be correct now; players "
+    "whose labels have failed to match are more likely to be wrong. Base your answer on "
+    "these per-player records, NOT on how many times a label is repeated.\n")
+KNOWN = os.environ.get("KNOWN", "") == "1"         # tell neutrals a knower exists
+KNOWN_TXT = "There is someone among the players who knows the correct answer each round.\n"
+ATTEND = os.environ.get("ATTEND", "") == "1"       # explicit source-attention instruction
+ATTEND_TXT = ("Pay close attention to WHICH player each memory entry came from, and compare "
+              "each player's past labels against the revealed correct answers before "
+              "deciding what to believe.\n")
+
+# (question, [3 candidate answers, distinct first letters], correct answer)
+TRIVIA_WEAK = [
+    ("Which of these lakes is the deepest?", ["Tanganyika", "Malawi", "Victoria"], "Tanganyika"),
+    ("Which of these cities is the farthest north?", ["Venice", "Toronto", "Boston"], "Venice"),
+    ("Which of these elements has the highest atomic number?", ["tin", "iodine", "silver"], "iodine"),
+    ("Which of these rivers is the longest?", ["Volga", "Danube", "Rhine"], "Volga"),
+    ("Which country hosted the 1936 Winter Olympics?", ["Germany", "Switzerland", "Norway"], "Germany"),
+    ("Which of these animals is the heaviest on average as an adult?", ["walrus", "moose", "polar bear"], "walrus"),
+    ("Which of these languages has the most native speakers?", ["Bengali", "Japanese", "German"], "Bengali"),
+    ("Which country drinks the most tea per person per year?", ["Turkey", "Ireland", "China"], "Turkey"),
+    ("Which of these mountains is the tallest?", ["K2", "Lhotse", "Makalu"], "K2"),
+    ("Which of these deserts is the largest by area?", ["Gobi", "Kalahari", "Atacama"], "Gobi"),
+]
+TRIVIA_STRONG = [
+    ("What is the capital of France?", ["Paris", "Lyon", "Marseille"], "Paris"),
+    ("What is the chemical symbol for gold?", ["Au", "Fe", "Pb"], "Au"),
+    ("Which planet is the largest in the Solar System?", ["Jupiter", "Saturn", "Neptune"], "Jupiter"),
+    ("Who wrote the play Romeo and Juliet?", ["Shakespeare", "Dickens", "Austen"], "Shakespeare"),
+    ("What is 7 times 8?", ["56", "49", "63"], "56"),
+]
+MATH_ITEMS = [
+    ("What is 47 times 83?", ["3901", "4901", "2901"], "3901"),
+    ("What is 67 times 74?", ["4958", "5958", "3958"], "4958"),
+    ("What is 56 times 91?", ["5096", "6096", "4096"], "5096"),
+    ("What is 38 times 77?", ["2926", "3926", "1926"], "2926"),
+    ("What is 84 times 59?", ["4956", "5956", "3956"], "4956"),
+    ("What is 73 times 68?", ["4964", "5964", "3964"], "4964"),
+    ("What is 92 times 46?", ["4232", "5232", "3232"], "4232"),
+    ("What is 65 times 87?", ["5655", "6655", "4655"], "5655"),
+    ("What is 49 times 76?", ["3724", "4724", "2724"], "3724"),
+    ("What is 58 times 93?", ["5394", "6394", "4394"], "5394"),
+]
+TRIVIA_HARD = [
+    ("Which of these metals has the highest melting point?",
+     ["rhenium", "osmium", "iridium"], "rhenium"),
+    ("Which of these moons has the largest radius?",
+     ["Titania", "Rhea", "Oberon"], "Titania"),
+    ("Which of these elements is most abundant in Earth's crust?",
+     ["titanium", "barium", "zinc"], "titanium"),
+    ("Which of these elements was discovered first?",
+     ["helium", "argon", "neon"], "helium"),
+    ("Which of these US states has the largest land area?",
+     ["Idaho", "Kansas", "Nebraska"], "Idaho"),
+    ("Which of these composers died youngest?",
+     ["Pergolesi", "Schubert", "Mozart"], "Pergolesi"),
+    ("Which of these battles was fought first?",
+     ["Agincourt", "Crecy", "Poitiers"], "Crecy"),
+    ("Which of these cities opened its metro system first?",
+     ["Budapest", "Paris", "Madrid"], "Budapest"),
+    ("Which of these mountains is the tallest?",
+     ["Nanga Parbat", "Annapurna", "Gasherbrum I"], "Nanga Parbat"),
+    ("Which of these seas is the saltiest?",
+     ["Red Sea", "Mediterranean", "Baltic"], "Red Sea"),
+]
+KNOWER_HARD = [
+    ("Which of these lakes is the deepest?",
+     ["Matano", "Toba", "Vostok"], "Vostok"),
+]
+KNOWER_BANK = [
+    ("Which single word best solves this riddle: it follows you on sunny days, "
+     "disappears in the dark, and copies your every move?",
+     ["shadow", "mirror", "echo"], "shadow"),
+]
+
+
 def make_labels(k, rng, tok, used=None):
     """Synthetic 5-char labels with DISTINCT first tokens (needed for the logit read).
     `used`: first-token ids already claimed (FRESH mode: no collisions across rounds,
     so old labels can never absorb the read mass of current ones)."""
     used = used if used is not None else set()
     while True:
-        labs = set()
-        while len(labs) < k:
-            labs.add("".join(rng.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5)))
-        labs = sorted(labs)
+        if WORDS:
+            labs = sorted(rng.sample(WORD_POOL, k))
+        else:
+            labs = set()
+            while len(labs) < k:
+                labs.add("".join(rng.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5)))
+            labs = sorted(labs)
         ids = [tok(l, add_special_tokens=False)["input_ids"][0] for l in labs]
         if len(set(ids)) == k and not (set(ids) & used):
             used.update(ids)
@@ -83,11 +179,25 @@ def make_labels(k, rng, tok, used=None):
 def memory_block(mem, reveals, cur_round, names_on=False):
     """mem: list of (round, speaker_1idx, label). reveals: {round: correct_label}."""
     start = max(1, cur_round - WINDOW + 1) if WINDOW else 1
+    if PRESENT == "separate":
+        srcs = sorted({e[1] for e in mem})
+        s = "Memory of observed messages, grouped by player:\n"
+        for k in srcs:
+            ent = [f"r{e[0]}: {e[2]}" for e in mem if e[1] == k and e[0] >= start]
+            s += f"From {pname(k, names_on)}: [{', '.join(ent)}]\n"
+        rv = [f'round {r} was "{reveals[r]}"' for r in sorted(reveals) if r >= start]
+        if rv:
+            s += "Revealed correct answers so far: " + "; ".join(rv) + ".\n"
+        return s
     s = ("Memory of observed messages, grouped by round"
          + (f" (only the most recent {WINDOW} rounds are shown)" if WINDOW else "") + ":\n")
     for r in range(start, cur_round + 1):
-        entries = [f'"{pname(e[1], names_on)}: {e[2]}' + (f' — {e[3]}' if len(e) > 3 and e[3] else "") + '"'
-                   for e in mem if e[0] == r]
+        if PRESENT == "anon":
+            entries = [f'"{e[2]}"' for e in mem if e[0] == r]
+        else:
+            entries = [f'"{("someone" if e[1] == 0 else pname(e[1], names_on))}: {e[2]}'
+                       + (f' — {e[3]}' if len(e) > 3 and e[3] else "") + '"'
+                       for e in mem if e[0] == r]
         tag = " (current round)" if r == cur_round else ""
         s += f"Round {r} memories{tag}: [{', '.join(entries)}]\n"
         if r in reveals:
@@ -112,6 +222,20 @@ def user_msg(agent, labels, mem, reveals, cur_round, clue, rng, names_on=False, 
                 "quality inspection and should be either APPROVED or REJECTED. You cannot see "
                 "the component itself. The earlier naming rounds concerned a different task.\n")
         thing = "component"
+    elif isinstance(phase2, dict):
+        thing = "question"
+        if phase2.get("fixed"):
+            ref = "question q_1"
+            note = ("NOTE: the task has changed. There is now ONE factual question, the same "
+                    "in every remaining round, and the allowed labels are its candidate "
+                    "answers. The earlier naming rounds concerned a different task.\n"
+                    "Question: " + phase2["q"] + "\n")
+        else:
+            ref = f"question q_r{cur_round}"
+            note = ("NOTE: the task has changed. Each round now asks one NEW factual "
+                    "question, and the allowed labels are its candidate answers. The earlier "
+                    "naming rounds concerned a different task.\n"
+                    "Question: " + phase2["q"] + "\n")
     elif phase2:
         ref = f"object obj_r{cur_round}"
         note = ("NOTE: the task has changed. Each round now shows one NEW object that truly "
@@ -126,9 +250,13 @@ def user_msg(agent, labels, mem, reveals, cur_round, clue, rng, names_on=False, 
          f"Both players are choosing a label for the same {thing} in repeated interactions. "
          "The memory shows labels you observed from previous interactions with partners.\n"
          + memory_block(mem, reveals, cur_round, names_on) +
-         ('Each memory entry is of the form "<name>: <label>" (the player you observed it from).\n'
-          if names_on else
-          'Each memory entry is of the form "P<player>: <label>" (the player you observed it from).\n') +
+         ("Each memory entry is a label string.\n" if PRESENT == "anon" else
+          ('Each memory entry is of the form "<name>: <label>" (the player you observed it from).\n'
+           if names_on else
+           'Each memory entry is of the form "P<player>: <label>" (the player you observed it from).\n')) +
+         (KNOWN_TXT if KNOWN else "") +
+         (TRACK_TXT if TRACK else "") +
+         (ATTEND_TXT if ATTEND else "") +
          ("The correct answer for each round has no relation to the correct answers of "
           "previous rounds.\n" if INDEP else "") +
          f"You are {pname(agent + 1, names_on)}.\n"
@@ -185,15 +313,15 @@ def belief_many(model, tok, user_texts, label_ids):
 
 
 @torch.no_grad()
-def belief(model, tok, user_text, label_ids):
-    """Bounded read: softmax over the K label first-tokens after prefill '{"label": "'."""
+def belief(model, tok, user_text, label_ids, prefill='{"label": "'):
+    """Bounded read: softmax over the K label first-tokens after the JSON prefill."""
     msgs = [{"role": "system", "content": SYS}, {"role": "user", "content": user_text}]
     try:
         text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True,
                                        enable_thinking=False)
     except TypeError:
         text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
-    text += '{"label": "'
+    text += prefill
     enc = tok(text, return_tensors="pt").to(model.device)
     logits = model(input_ids=enc.input_ids, attention_mask=enc.attention_mask).logits[0, -1]
     p = torch.softmax(logits[torch.tensor(label_ids, device=model.device)].float(), 0)
@@ -212,7 +340,8 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
     reveals = {}
     nconv = [0] * n                                   # listener conversation depth
     lines = [dict(type="meta", var=var, model=tag, rounds=rounds, n=n, k=k, steps=steps,
-                  temp=temp, seed=seed, labels=labels, names=names_on, fresh=FRESH)]
+                  temp=temp, seed=seed, labels=labels, names=names_on, fresh=FRESH,
+                  order=ORDER)]
 
     ab_ids = [tok(l, add_special_tokens=False)["input_ids"][0] for l in ("A", "B")]
     nat_ids = [tok(l, add_special_tokens=False)["input_ids"][0] for l in ("APPROVE", "REJECT")]
@@ -249,17 +378,35 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
                                            note_txt(i), tally_txt(r)), label_ids)
     # NOTE: `labels`/`label_ids` rebind per round in FRESH mode; closure sees current ones
 
+    QVARS = ("trivia", "trivia_override", "mathsw", "knower")
+    HARD = os.environ.get("HARD", "") == "1"
+    QBANKS = dict(trivia=(TRIVIA_HARD if HARD else TRIVIA_WEAK),
+                  trivia_override=(TRIVIA_HARD if HARD else TRIVIA_STRONG),
+                  mathsw=MATH_ITEMS,
+                  knower=(KNOWER_HARD if HARD else KNOWER_BANK))
     for r in range(1, rounds + 1):
-        ph["p2"] = (("nat" if var == "switch_natural" else "ab")
-                    if (var.startswith("switch_") and r > SWITCH_AT) else False)
+        qitem = None
+        if var in QVARS and r > SWITCH_AT:
+            bank = QBANKS[var]
+            qitem = bank[0] if var == "knower" else bank[(r - SWITCH_AT - 1) % len(bank)]
+            ph["p2"] = dict(q=qitem[0], fixed=(var == "knower"))
+            labels = list(qitem[1])
+            label_ids = [tok(x, add_special_tokens=False)["input_ids"][0] for x in labels]
+            assert len(set(label_ids)) == len(labels), f"first-token collision: {labels}"
+        else:
+            ph["p2"] = (("nat" if var == "switch_natural" else "ab")
+                        if (var.startswith("switch_") and r > SWITCH_AT) else False)
         if ph["p2"] == "nat":
             labels, label_ids = ["APPROVE", "REJECT"], nat_ids
-        elif ph["p2"]:
+        elif ph["p2"] and not qitem:
             labels, label_ids = ["A", "B"], ab_ids
-        elif FRESH and r > 1:
+        elif not qitem and FRESH and r > 1:
             labels, label_ids = make_labels(k, rng, tok, used_ids)
         correct = rng.choice(labels)
         wrong = rng.choice([l for l in labels if l != correct])
+        if qitem:
+            correct = qitem[2]
+            wrong = rng.choice([l for l in labels if l != correct])
         clue_map = {}
         if var == "informed_all" or (var == "informed_r1" and r == 1):
             clue_map[0] = correct
@@ -284,7 +431,7 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
         if var == "graded":                           # stochastic reliability pair
             clue_map[0] = correct if rng.random() < P1REL else wrong
             clue_map[1] = correct if rng.random() < P2REL else wrong
-        if var == "curve":                            # deterministic schedule(s) from SCHED
+        if var in ("curve", "relay", "relaycross"):   # deterministic schedule(s) from SCHED
             bits = SCHED.split(";")
             clue_map[0] = correct if bits[0][r - 1] == "1" else wrong
             if len(bits) > 1:
@@ -298,9 +445,18 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
             clue_map[0] = correct
         if var == "switch_misinformed":               # single liar
             clue_map[0] = wrong
+        if var in ("trivia", "mathsw"):               # towers keep duel roles across switch
+            clue_map[0], clue_map[1] = correct, wrong
+        if var == "trivia_override":                  # trusted tower pushes falsehoods after
+            clue_map[0], clue_map[1] = (correct, wrong) if r <= SWITCH_AT else (wrong, correct)
+        if var == "knower":                           # after switch only P1 knows the answer
+            clue_map[0] = correct
+            if r <= SWITCH_AT:
+                clue_map[1] = wrong
         hist_cm[r] = dict(clue_map)
         lines.append(dict(type="round_start", round=r, correct=correct, labels=labels,
-                          task="category" if ph["p2"] else "naming",
+                          q=(qitem[0] if qitem else None),
+                          task=("question" if qitem else "category" if ph["p2"] else "naming"),
                           clue=clue_map.get(0), clue_is_wrong=clue_map.get(0) == wrong,
                           clue_map={str(kk + 1): v for kk, v in clue_map.items()}))
         if ph["p2"] and var in ("switch_informed", "switch_misinformed"):
@@ -325,8 +481,21 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
         def umsg(i):
             return user_msg(i, labels, mem[i], reveals, r, clue_map.get(i), rng,
                             names_on, ph["p2"], note_txt(i), tally_txt(r))
+        srot = pool[1:] + pool[:1] if ORDER == "fixedrev" else pool
+        allp = [(a, b) for a in srot for b in pool if a != b]
+        RELAY_SCHED = [(0, 2), (1, 3), (2, 4), (3, 5), (4, 6), (5, 7)]
+        RELAY_ROOT = {2: 1, 4: 1, 6: 1, 3: 2, 5: 2, 7: 2}   # 0-idx chain member -> root P#
+        if var == "relaycross":                       # contested node: P5 hears BOTH chains
+            RELAY_SCHED = [(0, 2), (1, 3), (2, 4), (3, 4), (4, 5)]
+            RELAY_ROOT = {2: 1, 3: 2}                 # tags only on the two witnesses
+        relay_phase = (var in ("relay", "relaycross") and r > SWITCH_AT)
         for t in range(steps):
-            S, L = rng_pair.sample(pool, 2)
+            if relay_phase:
+                S, L = RELAY_SCHED[t % len(RELAY_SCHED)]
+            elif ORDER in ("fixed", "fixedrev"):
+                S, L = allp[t % len(allp)]
+            else:
+                S, L = rng_pair.sample(pool, 2)
             if FAST and not DECIDE:
                 both = belief_many(model, tok, [umsg(S), umsg(L)], label_ids)
                 pS, pL0 = both[0], both[1]
@@ -345,7 +514,16 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
                               "Add ONE short sentence (at most 20 words) of justification to "
                               "send along with it.", rng.randrange(2**31),
                               max_new=40, max_words=22)
-            mem[L].append((r, S + 1, s_lab, jt) if jt else (r, S + 1, s_lab))
+            if relay_phase and S >= 2:
+                if PROV == "orig" and S in RELAY_ROOT:
+                    mem[L].append((r, S + 1, s_lab,
+                                   f"relaying a message that originated from P{RELAY_ROOT[S]}"))
+                elif PROV == "none":
+                    mem[L].append((r, 0, s_lab))
+                else:
+                    mem[L].append((r, S + 1, s_lab))
+            else:
+                mem[L].append((r, S + 1, s_lab, jt) if jt else (r, S + 1, s_lab))
             pL1 = read(L, r, clue_map)
             nconv[L] += 1
             lines.append(dict(type="step", round=r, t=t, S=S + 1, L=L + 1, s_label=s_lab,
@@ -406,6 +584,20 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
             p["argmax"] = labels[int(np.argmax(p["p"]))]
             p["correct"] = p["argmax"] == correct
         lines.append(dict(type="probe", round=r, probes=probes))
+        if var == "relay" and r == SWITCH_AT:          # calibration manipulation check
+            ids12 = [tok("1", add_special_tokens=False)["input_ids"][0],
+                     tok("2", add_special_tokens=False)["input_ids"][0]]
+            mc = []
+            for i in range(2, n):
+                qm = (umsg(i).split("\nConstraints:")[0]
+                      + "\nQuestion: which of P1 and P2 has been more reliable so far?\n"
+                      + '\nConstraints:\n- Output JSON only.\n\n'
+                      + 'Output JSON exactly: {"player": "<P1 or P2>"}')
+                pq = belief(model, tok, qm, ids12, prefill='{"player": "P')
+                mc.append(dict(agent=i + 1, p_P1_reliable=round(float(pq[0]), 3)))
+            lines.append(dict(type="manipcheck", round=r, checks=mc))
+            print(f"  [manipcheck r{r}] p(P1 reliable) = "
+                  + " ".join(f"P{c['agent']}:{c['p_P1_reliable']:.2f}" for c in mc), flush=True)
         if WHOINF:
             digit_ids = {k: tok(str(k), add_special_tokens=False)["input_ids"][0]
                          for k in range(1, n + 1)}
@@ -436,7 +628,8 @@ def run(var, tag, rounds, n, k, steps, temp, seed, out_dir, names_on=False):
                 wrec.append(dict(agent=i + 1, players=valid, p=pv.tolist(),
                                  argmax=valid[int(np.argmax(pv))]))
             lines.append(dict(type="whoinf", round=r, reports=wrec))
-        reveals[r] = correct
+        if not (var == "knower" and r > SWITCH_AT):   # knower quiz: no reveals (elephant rules)
+            reveals[r] = correct
         if NOTES and NOTES not in ("convfree", "convagent"):
             for i in range(n):
                 base_txt = user_msg(i, labels, mem[i], reveals, r, clue_map.get(i), rng,

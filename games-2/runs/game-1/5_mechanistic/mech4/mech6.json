@@ -1,0 +1,282 @@
+{
+ "per_cell": [
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "planted",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "planted",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "base",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.21875
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "base",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.125
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "planted",
+   "stream": 0,
+   "fam_mass": 0.140625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "planted",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "base",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "base",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "planted",
+   "stream": 2,
+   "fam_mass": 0.015625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "planted",
+   "stream": 2,
+   "fam_mass": 0.015625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "base",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0625
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "base",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "planted",
+   "stream": 2,
+   "fam_mass": 0.5,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "planted",
+   "stream": 2,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "base",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.796875
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "base",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.234375
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "planted",
+   "stream": 7,
+   "fam_mass": 0.203125,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "planted",
+   "stream": 7,
+   "fam_mass": 0.234375,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "base",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "base",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "planted",
+   "stream": 7,
+   "fam_mass": 0.921875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "planted",
+   "stream": 7,
+   "fam_mass": 0.40625,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "base",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "base",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "planted",
+   "stream": 9,
+   "fam_mass": 0.296875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "planted",
+   "stream": 9,
+   "fam_mass": 0.34375,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P1",
+   "role": "P1",
+   "content": "base",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.203125
+  },
+  {
+   "owner": "P1",
+   "role": "P2",
+   "content": "base",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "planted",
+   "stream": 9,
+   "fam_mass": 0.1875,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "planted",
+   "stream": 9,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P1",
+   "content": "base",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "owner": "P2",
+   "role": "P2",
+   "content": "base",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  }
+ ],
+ "summary": {
+  "ownerP1_roleP1": {
+   "planted": 0.12890625,
+   "base": 0.0,
+   "capture": 0.12890625
+  },
+  "ownerP1_roleP2": {
+   "planted": 0.1484375,
+   "base": 0.0,
+   "capture": 0.1484375
+  },
+  "ownerP2_roleP1": {
+   "planted": 0.4375,
+   "base": 0.0,
+   "capture": 0.4375
+  },
+  "ownerP2_roleP2": {
+   "planted": 0.1171875,
+   "base": 0.0,
+   "capture": 0.1171875
+  }
+ }
+}

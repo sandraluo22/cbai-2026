@@ -40,3 +40,6 @@ ball and urn/
 
 # --- oversized run log (476MB, exceeds GitHub 100MB limit) ---
 reciprocal-signaling/pilot.log
+
+# --- nohup logs capture the launching command line, which can include exported API keys ---
+*nohup.log

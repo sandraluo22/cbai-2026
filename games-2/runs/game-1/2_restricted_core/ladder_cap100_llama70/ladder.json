@@ -1,0 +1,15 @@
+{
+ "model": "LlamaInst70",
+ "cap": 100,
+ "n": 12,
+ "rungs": {
+  "r0_none": {
+   "met_frac": 0.4166666666666667,
+   "onset_frac": 0.75,
+   "probe_used": 0.059895833333333336,
+   "probe_selffam": 0.0078125,
+   "probe_cat": 0.1171875,
+   "n_probes": 12
+  }
+ }
+}
