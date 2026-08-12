@@ -1,0 +1,166 @@
+{
+ "per_state": [
+  {
+   "cell": "self8",
+   "stream": 0,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 0,
+   "fam_mass": 0.28125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 0,
+   "fam_mass": 0.734375,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.28125
+  },
+  {
+   "cell": "self8",
+   "stream": 2,
+   "fam_mass": 0.359375,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 2,
+   "fam_mass": 0.4375,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 2,
+   "fam_mass": 0.8125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.109375
+  },
+  {
+   "cell": "self8",
+   "stream": 7,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 7,
+   "fam_mass": 0.421875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 7,
+   "fam_mass": 0.828125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.375
+  },
+  {
+   "cell": "self8",
+   "stream": 9,
+   "fam_mass": 0.875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 9,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 9,
+   "fam_mass": 0.953125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "cell": "self8",
+   "stream": 15,
+   "fam_mass": 0.75,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 15,
+   "fam_mass": 0.578125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 15,
+   "fam_mass": 0.578125,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 15,
+   "fam_mass": 0.0,
+   "cat_mass": 0.125
+  },
+  {
+   "cell": "self8",
+   "stream": 17,
+   "fam_mass": 0.625,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "partner8",
+   "stream": 17,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "list8",
+   "stream": 17,
+   "fam_mass": 1.0,
+   "cat_mass": 0.0
+  },
+  {
+   "cell": "fill",
+   "stream": 17,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  }
+ ],
+ "cells": {
+  "self8": {
+   "fam_mass": 0.7005208333333334,
+   "cat_mass": 0.0
+  },
+  "partner8": {
+   "fam_mass": 0.5520833333333334,
+   "cat_mass": 0.0
+  },
+  "list8": {
+   "fam_mass": 0.8177083333333334,
+   "cat_mass": 0.0
+  },
+  "fill": {
+   "fam_mass": 0.0,
+   "cat_mass": 0.15625
+  }
+ }
+}

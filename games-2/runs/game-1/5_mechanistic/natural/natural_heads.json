@@ -1,0 +1,60 @@
+{
+ "conditions": {
+  "none": {
+   "themed_list": 0.1875,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    1.0,
+    0.125,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.75,
+   "copy": 0.6666666666666666,
+   "fluency_logprob": -3.1156316995620728
+  },
+  "top32_rest": {
+   "themed_list": 0.16666666666666666,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    0.9375,
+    0.0625,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.625,
+   "copy": 0.6666666666666666,
+   "fluency_logprob": -3.1348347663879395
+  },
+  "top32_ind": {
+   "themed_list": 0.17708333333333334,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    0.9375,
+    0.125,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.75,
+   "copy": 0.5,
+   "fluency_logprob": -3.1274577379226685
+  },
+  "rand32": {
+   "themed_list": 0.1875,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    1.0,
+    0.125,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.875,
+   "copy": 0.5,
+   "fluency_logprob": -3.124141216278076
+  }
+ }
+}

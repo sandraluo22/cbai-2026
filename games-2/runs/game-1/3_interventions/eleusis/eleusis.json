@@ -1,0 +1,562 @@
+{
+ "per_game": [
+  {
+   "rule": "double_letter",
+   "rollout": 0,
+   "yes_blocks": [
+    0.4,
+    0.6,
+    0.2,
+    0.8
+   ],
+   "yes_total": 0.5,
+   "max_family_run": 3,
+   "n_families": 15,
+   "guesses": {
+    "10": "**The word is a type of coffee or contains a type of coffee as a substring.**",
+    "20": "**The word contains the substring \"cinn\" (as a sequence of letters, possibly in the middle or end of the word).**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "double_letter",
+   "rollout": 1,
+   "yes_blocks": [
+    0.4,
+    0.4,
+    0.4,
+    0.2
+   ],
+   "yes_total": 0.35,
+   "max_family_run": 1,
+   "n_families": 16,
+   "guesses": {
+    "10": "**The word is a type of coffee.**",
+    "20": "**\"The word is the beginning (prefix) of a type of coffee.\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "double_letter",
+   "rollout": 2,
+   "yes_blocks": [
+    0.6,
+    0.4,
+    0.0,
+    0.4
+   ],
+   "yes_total": 0.35,
+   "max_family_run": 1,
+   "n_families": 15,
+   "guesses": {
+    "10": "**\"Words with double letters\"**.",
+    "20": "**The word contains the substring \"cinnamon\" or ends with the word \"roll\".**"
+   },
+   "guess_correct": {
+    "10": true,
+    "20": false
+   }
+  },
+  {
+   "rule": "double_letter",
+   "rollout": 3,
+   "yes_blocks": [
+    0.6,
+    0.4,
+    0.0,
+    0.6
+   ],
+   "yes_total": 0.4,
+   "max_family_run": 3,
+   "n_families": 15,
+   "guesses": {
+    "10": "**words that are types of coffee or coffee-related flavorings**.",
+    "20": "**\"Does the word contain the substring 'cinn'?\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "double_letter",
+   "rollout": 4,
+   "yes_blocks": [
+    0.0,
+    0.6,
+    0.2,
+    0.6
+   ],
+   "yes_total": 0.35,
+   "max_family_run": 1,
+   "n_families": 18,
+   "guesses": {
+    "10": "**The word is a type of coffee.**",
+    "20": "**The word is a type of coffee or a coffee-flavoring.**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "double_letter",
+   "rollout": 5,
+   "yes_blocks": [
+    0.6,
+    0.4,
+    0.0,
+    0.2
+   ],
+   "yes_total": 0.3,
+   "max_family_run": 1,
+   "n_families": 15,
+   "guesses": {
+    "10": "**words with a double vowel (i.e., two of the same vowels in a row)**.",
+    "20": "**\"The word is a type of coffee or a coffee flavor.\"**"
+   },
+   "guess_correct": {
+    "10": true,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 0,
+   "yes_blocks": [
+    0.2,
+    1.0,
+    1.0,
+    0.4
+   ],
+   "yes_total": 0.65,
+   "max_family_run": 10,
+   "n_families": 9,
+   "guesses": {
+    "10": "**The word contains the substring \"apric\"**.",
+    "20": "**The word contains the substring \"apric\".**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 1,
+   "yes_blocks": [
+    0.2,
+    0.0,
+    0.8,
+    1.0
+   ],
+   "yes_total": 0.5,
+   "max_family_run": 8,
+   "n_families": 12,
+   "guesses": {
+    "10": "**the word has exactly five letters**.",
+    "20": "**\"The word contains the substring 'apr'.\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 2,
+   "yes_blocks": [
+    0.2,
+    0.6,
+    1.0,
+    1.0
+   ],
+   "yes_total": 0.7,
+   "max_family_run": 2,
+   "n_families": 9,
+   "guesses": {
+    "10": "**\"Words that contain the word 'apple' as a subsequence.\"**",
+    "20": "**The word contains the substring \"apple\" or \"apric\".**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 3,
+   "yes_blocks": [
+    0.2,
+    0.4,
+    1.0,
+    1.0
+   ],
+   "yes_total": 0.65,
+   "max_family_run": 12,
+   "n_families": 9,
+   "guesses": {
+    "10": "**\"Words that contain the letter sequence 'ap'.\"**",
+    "20": "**words that contain the substring \"apric\"**."
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 4,
+   "yes_blocks": [
+    0.2,
+    0.2,
+    1.0,
+    1.0
+   ],
+   "yes_total": 0.6,
+   "max_family_run": 9,
+   "n_families": 11,
+   "guesses": {
+    "10": "**The word contains the letter 'a' as the second letter**.",
+    "20": "**The word starts with the letters \"apr\" or \"ora\".**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "starts_vowel",
+   "rollout": 5,
+   "yes_blocks": [
+    0.2,
+    0.2,
+    0.8,
+    1.0
+   ],
+   "yes_total": 0.55,
+   "max_family_run": 5,
+   "n_families": 11,
+   "guesses": {
+    "10": "**words with an even number of letters**.",
+    "20": "**Any string that starts with the letter sequence \"ap\"**."
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 0,
+   "yes_blocks": [
+    1.0,
+    0.6,
+    0.6,
+    1.0
+   ],
+   "yes_total": 0.8,
+   "max_family_run": 1,
+   "n_families": 16,
+   "guesses": {
+    "10": "**the word refers to a type of light or illumination**.",
+    "20": "**\"Words that contain the sequence 'light' as a substring.\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 1,
+   "yes_blocks": [
+    0.4,
+    0.8,
+    1.0,
+    1.0
+   ],
+   "yes_total": 0.8,
+   "max_family_run": 3,
+   "n_families": 16,
+   "guesses": {
+    "10": "**The word refers to a source of light that is natural or mimics natural light.**",
+    "20": "**\"Words that end in 'light' or contain 'light' as a suffix.\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 2,
+   "yes_blocks": [
+    0.0,
+    0.4,
+    0.4,
+    0.2
+   ],
+   "yes_total": 0.25,
+   "max_family_run": 2,
+   "n_families": 16,
+   "guesses": {
+    "10": "**\"Words that refer to living things that emit light (bioluminescent organisms).\"**",
+    "20": "**The word contains the substring \"balloon\" as a subsequence (not necessarily consecutive letters).**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 3,
+   "yes_blocks": [
+    0.4,
+    0.4,
+    0.6,
+    0.6
+   ],
+   "yes_total": 0.5,
+   "max_family_run": 1,
+   "n_families": 17,
+   "guesses": {
+    "10": "**\"Words that end with 'light' or are synonyms of 'light' that also contain the letters of 'light' as a substring.\"**",
+    "20": "**words that refer to sources of light**."
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 4,
+   "yes_blocks": [
+    0.2,
+    0.6,
+    0.6,
+    0.8
+   ],
+   "yes_total": 0.55,
+   "max_family_run": 1,
+   "n_families": 16,
+   "guesses": {
+    "10": "**The word contains the letter 'l' followed by the letter 'u'**.",
+    "20": "**The word contains the substring \"gl\" (the letters 'g' followed by 'l')**."
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "len7plus",
+   "rollout": 5,
+   "yes_blocks": [
+    0.0,
+    1.0,
+    1.0,
+    0.4
+   ],
+   "yes_total": 0.6,
+   "max_family_run": 2,
+   "n_families": 16,
+   "guesses": {
+    "10": "**\"Words that refer to sources of light that are natural or traditional, especially those that emit light without using electricity.\"**",
+    "20": "**\"Words that refer to sources of light that emit light through natural or non-thermal processes (i.e., not through heat).\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 0,
+   "yes_blocks": [
+    1.0,
+    1.0,
+    0.4,
+    1.0
+   ],
+   "yes_total": 0.85,
+   "max_family_run": 4,
+   "n_families": 11,
+   "guesses": {
+    "10": "**the word refers to a type of watercourse or body of flowing water**.",
+    "20": "**The word refers to a type of body of flowing water (i.e., a watercourse or a stream).**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 1,
+   "yes_blocks": [
+    1.0,
+    0.4,
+    1.0,
+    0.8
+   ],
+   "yes_total": 0.8,
+   "max_family_run": 2,
+   "n_families": 15,
+   "guesses": {
+    "10": "**The word is a type of body of water that flows.**",
+    "20": "**words that refer to small bodies of flowing water**."
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 2,
+   "yes_blocks": [
+    0.8,
+    0.4,
+    0.4,
+    0.8
+   ],
+   "yes_total": 0.6,
+   "max_family_run": 1,
+   "n_families": 18,
+   "guesses": {
+    "10": "**\"Words that are types of flowing water (like rivers and their smaller/related forms).\"**",
+    "20": "**The word is a type of natural or man-made watercourse or feature that carries water as part of a river system or water flow.**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 3,
+   "yes_blocks": [
+    0.6,
+    0.4,
+    1.0,
+    0.6
+   ],
+   "yes_total": 0.65,
+   "max_family_run": 2,
+   "n_families": 17,
+   "guesses": {
+    "10": "**Words that are types of freshwater bodies that flow** \u2014 specifically, **words referring to small to medium-sized flowing water bodies**.",
+    "20": "**words that refer to types of small or temporary water bodies or flows, typically not permanent or large bodies of water.**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 4,
+   "yes_blocks": [
+    0.6,
+    0.6,
+    0.6,
+    0.6
+   ],
+   "yes_total": 0.6,
+   "max_family_run": 1,
+   "n_families": 17,
+   "guesses": {
+    "10": "**The word is a type of natural flowing body of water (a small river or stream)**.",
+    "20": "**The word is a type of small or medium-sized body of flowing freshwater.**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  },
+  {
+   "rule": "contains_r",
+   "rollout": 5,
+   "yes_blocks": [
+    0.4,
+    0.2,
+    0.4,
+    0.2
+   ],
+   "yes_total": 0.3,
+   "max_family_run": 1,
+   "n_families": 17,
+   "guesses": {
+    "10": "**words that name types of biomes**.",
+    "20": "**\"Words that refer to types of biomes or ecosystems.\"**"
+   },
+   "guess_correct": {
+    "10": false,
+    "20": false
+   }
+  }
+ ],
+ "rules": {
+  "double_letter": {
+   "yes_total": 0.375,
+   "yes_blocks": [
+    0.43333333333333335,
+    0.4666666666666666,
+    0.13333333333333333,
+    0.46666666666666673
+   ],
+   "max_family_run": 1.6666666666666667,
+   "n_families": 15.666666666666666,
+   "guess10": 0.3333333333333333,
+   "guessR": 0.0
+  },
+  "starts_vowel": {
+   "yes_total": 0.6083333333333334,
+   "yes_blocks": [
+    0.19999999999999998,
+    0.4000000000000001,
+    0.9333333333333332,
+    0.9
+   ],
+   "max_family_run": 7.666666666666667,
+   "n_families": 10.166666666666666,
+   "guess10": 0.0,
+   "guessR": 0.0
+  },
+  "len7plus": {
+   "yes_total": 0.5833333333333334,
+   "yes_blocks": [
+    0.3333333333333333,
+    0.6333333333333333,
+    0.7000000000000001,
+    0.6666666666666669
+   ],
+   "max_family_run": 1.6666666666666667,
+   "n_families": 16.166666666666668,
+   "guess10": 0.0,
+   "guessR": 0.0
+  },
+  "contains_r": {
+   "yes_total": 0.6333333333333333,
+   "yes_blocks": [
+    0.7333333333333334,
+    0.5,
+    0.6333333333333333,
+    0.6666666666666666
+   ],
+   "max_family_run": 1.8333333333333333,
+   "n_families": 15.833333333333334,
+   "guess10": 0.0,
+   "guessR": 0.0
+  }
+ }
+}

@@ -1,0 +1,19 @@
+[static] pool 400 contexts, eval 200, 10 generations x 60 steps
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   5%|▌         | 17/338 [00:00<00:01, 169.33it/s]Loading weights:  19%|█▉        | 64/338 [00:00<00:00, 335.90it/s]Loading weights:  30%|██▉       | 101/338 [00:00<00:00, 346.98it/s]Loading weights:  43%|████▎     | 147/338 [00:00<00:00, 371.03it/s]Loading weights:  58%|█████▊    | 195/338 [00:00<00:00, 406.88it/s]Loading weights:  70%|██████▉   | 236/338 [00:00<00:00, 386.44it/s]Loading weights:  81%|████████▏ | 275/338 [00:00<00:00, 387.42it/s]Loading weights:  93%|█████████▎| 315/338 [00:00<00:00, 381.43it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 373.48it/s]
+[static] gen 0: A {'E': 0.65, 'I': 0.2, 'M': 0.15} B {'E': 0.225, 'I': 0.58, 'M': 0.195} JSD 0.1495 | len 17.5/23.1 d2 0.740/0.752 flu -2.76/-2.71
+/workspace/mm/reciprocal-signaling/recursive-ft/engine.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+[static] gen 1: A {'E': 0.465, 'I': 0.38, 'M': 0.155} B {'E': 0.395, 'I': 0.46, 'M': 0.145} JSD 0.0049 | len 17.5/21.2 d2 0.706/0.674 flu -2.71/-2.46
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+[static] gen 2: A {'E': 0.485, 'I': 0.38, 'M': 0.135} B {'E': 0.53, 'I': 0.32, 'M': 0.15} JSD 0.0029 | len 19.7/19.5 d2 0.721/0.688 flu -2.89/-2.61
+[static] gen 3: A {'E': 0.49, 'I': 0.385, 'M': 0.125} B {'E': 0.365, 'I': 0.495, 'M': 0.14} JSD 0.0119 | len 19.1/22.5 d2 0.720/0.731 flu -2.73/-2.48
+[static] gen 4: A {'E': 0.52, 'I': 0.31, 'M': 0.17} B {'E': 0.45, 'I': 0.345, 'M': 0.205} JSD 0.0037 | len 19.4/17.7 d2 0.708/0.717 flu -2.60/-2.73
+[static] gen 5: A {'E': 0.445, 'I': 0.36, 'M': 0.195} B {'E': 0.375, 'I': 0.32, 'M': 0.305} JSD 0.0118 | len 19.6/19.2 d2 0.728/0.746 flu -2.61/-2.71
+[static] gen 6: A {'E': 0.49, 'I': 0.39, 'M': 0.12} B {'E': 0.46, 'I': 0.335, 'M': 0.205} JSD 0.0100 | len 21.9/18.6 d2 0.712/0.704 flu -2.49/-2.61
+[static] gen 7: A {'E': 0.505, 'I': 0.285, 'M': 0.21} B {'E': 0.46, 'I': 0.35, 'M': 0.19} JSD 0.0035 | len 18.2/22.0 d2 0.680/0.691 flu -2.30/-2.59
+[static] gen 8: A {'E': 0.415, 'I': 0.405, 'M': 0.18} B {'E': 0.43, 'I': 0.445, 'M': 0.125} JSD 0.0044 | len 20.7/21.4 d2 0.688/0.712 flu -2.44/-2.63
+[static] gen 9: A {'E': 0.525, 'I': 0.305, 'M': 0.17} B {'E': 0.505, 'I': 0.335, 'M': 0.16} JSD 0.0008 | len 17.0/20.4 d2 0.711/0.713 flu -2.75/-2.62
+[static] gen 10: A {'E': 0.475, 'I': 0.325, 'M': 0.2} B {'E': 0.495, 'I': 0.305, 'M': 0.2} JSD 0.0004 | len 21.2/19.7 d2 0.722/0.738 flu -2.53/-2.59
+RECURSION_DONE_static

@@ -1,0 +1,540 @@
+{
+ "rows": [
+  {
+   "word": "elephant",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.01651042513549328,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.01651042513549328,
+    0.09501094371080399,
+    0.10766150057315826,
+    0.1775038093328476,
+    0.1775038093328476,
+    0.42580950260162354
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have a destination in mind, or are you still deciding? Also, what kind of activities are you interested in\u2014like beaches, hiking, sightseeing, or something else?",
+    "That depends on where you're traveling! If you're in a place with a mix of culture and nature, maybe take a short road trip to a nearby town or nature spot. If you're in a big city, use that weekend to dive deeper into local history or food. It's always nice to have a bit of a break from the usual itinerary and just wander or explore something unexpected. What kind of vibe are you going for?",
+    "Ah, the night before a flight\u2014so important to stay organized! Here's a quick list to cover the essentials:\n\n- **Passport/ID and printed tickets**: Double-check that they\u2019re all in a safe place (like a front pocket or a carry-on).\n- **Phone charger, power bank, and any adapters** (especially if you're traveling internationally).\n- **Toiletry bag with travel-sized items**\u2014don\u2019t forget the basics like toothpaste, deodorant, and anything you\u2019ll need in the airport (like a face mask or hand sanitizer).\n- **Change of"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.018192674964666367,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.018192674964666367,
+    0.10469160974025726,
+    0.0923900157213211,
+    0.13442669808864594,
+    0.11863114684820175,
+    0.5316678881645203
+   ],
+   "a_text_full": [
+    "Sure, I'd be happy to help! Where are you thinking of going? Do you have a specific destination in mind, or are you still deciding?",
+    "Great question! The middle weekend is a perfect time to take a short day trip or maybe explore a nearby attraction to break things up. If you're staying in one place, think about what's nearby\u2014mountains, beaches, a historic town, or maybe a nature reserve. You could also use the weekend for a special activity like a cooking class, a wine tasting, or visiting a local festival if there's one happening. Let me know where you're headed, and I can help narrow it down!",
+    "Awesome question\u2014packing the night before can be tricky, but it\u2019s definitely doable if you\u2019re organized! Here's a quick checklist to help you prioritize:\n\n**Essentials to pack the night before:**\n\n- **Travel documents:** Passport/ID, boarding passes (printed or on phone), travel insurance, hotel confirmations, and any reservations.\n- **Toiletries:** Travel-sized shampoo, conditioner, toothbrush, toothpaste, deodorant, and any medication you need.\n- **Electronics and chargers:** Phone, charger, earbuds, portable charger, camera (if"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.026301292702555656,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.026301292702555656,
+    0.09180052578449249,
+    0.11787422001361847,
+    0.11787422001361847,
+    0.11787422001361847,
+    0.5282756090164185
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help you plan a two-week summer trip. First, where would you like to go? Do you have a specific destination in mind, or are you still deciding? Also, what kind of activities or experiences are you looking for?",
+    "Great question! The middle weekend is a perfect time to mix in something special\u2014maybe a day trip or a change of pace from your main destination.\n\nIf you're somewhere with nearby attractions, like mountains, a coastal town, or a national park, that could be a great time to visit. For example:\n\n- **Adventure seekers**: Go hiking or take a guided tour.\n- **Culture lovers**: Visit a nearby city or historical site.\n- **Relaxation seekers**: Head to a beach or lake for some downtime.\n\nIf you can share a bit more about where you're going or what kind",
+    "Awesome! Packing the night before can be super efficient if you have a good system in place. Here's a quick checklist to help you stay organized and not miss anything important:\n\n---\n\n### \u2708\ufe0f Essentials to Pack the Night Before:\n\n#### 1. **Travel Documents**\n- Passport or ID\n- Flight confirmation and itinerary\n- Hotel reservations\n- Credit cards / wallet\n- Health or travel insurance documents\n- Any necessary visas or health forms\n\n#### 2. **Electronics**\n- Phone + charger\n- Portable power bank\n- Headphones\n- Adapter (if needed for your"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.020997626706957817,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.020997626706957817,
+    0.0941048339009285,
+    0.0941048339009285,
+    0.08304721862077713,
+    0.0941048339009285,
+    0.6136406064033508
+   ],
+   "a_text_full": [
+    "Sure thing! I'd love to help. First off, where would you like to go? Do you have a specific destination in mind, or are you still figuring that out? Also, what kind of activities do you enjoy? Beaches, hiking, city sightseeing, or something else?",
+    "That\u2019s a great question \u2014 the middle of a two-week trip is a perfect time for a special adventure or a short day trip. What you do depends a bit on where you're traveling, but here are a few general ideas that could work in many locations:\n\n1. **Day Trip to a Nearby Attraction**: If you're staying in a city, maybe take a train or drive to a nearby town or landmark. Think of something like a historic site, a charming rural village, or a mountain trail.\n\n2. **Adventure Day**: Depending on where you are, maybe try something you don",
+    "Packing the night before a flight can be stressful, but if you stay organized, it can go smoothly. Here\u2019s a quick breakdown of categories to help you stay on track:\n\n### 1. **Clothing and Essentials**:\n- 1\u20132 outfits for the flight (layers are good if you\u2019re unsure of the plane\u2019s temperature)\n- Airport-friendly shoes (comfortable, easy to slip on/off)\n- Sleep mask, earplugs, or headphones\n- Toiletry kit (remember the 3.4-ounce rule for liquids)\n- A reusable water bottle (you"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.04697294160723686,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.010481080040335655,
+    0.04697294160723686,
+    0.05322731286287308,
+    0.015249880962073803,
+    0.04145347326993942,
+    0.8326152563095093
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Where would you like to go? Do you have a specific destination in mind, or are you still deciding?",
+    "That depends on where you end up going\u2014every destination has its own unique vibe and activities! If you\u2019re somewhere near a beach, maybe take a surfing lesson or just relax with a book. If you're in a mountain area, maybe go hiking or try some local craft beer. Are you thinking of any particular place?",
+    "Packing the night before is totally doable! Here\u2019s a quick list to help you streamline:\n\n- **Clothes:** Pack versatile pieces\u2014layers are key. A rule of thumb is \"less is more\" unless you're going somewhere with unpredictable weather.\n\n- **Toiletries:** Don\u2019t forget a travel-sized toothbrush, toothpaste, and any essentials you can\u2019t live without. Some airports have nice amenities, but it\u2019s best to have your own.\n\n- **Electronics:** Bring your phone, charger, maybe a portable power bank, and a travel adapter if you're heading overseas"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.11378360539674759,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.019772624596953392,
+    0.11378360539674759,
+    0.11378360539674759,
+    0.11378360539674759,
+    0.12893371284008026,
+    0.5099427103996277
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! Could you tell me where you'd like to go and what kind of activities you enjoy? That way I can tailor the trip to your interests.",
+    "Great question! The middle weekend is a perfect time to explore something unique or take a short detour to a special attraction if you're in an area that allows for day trips. For example, if you're in a coastal region, maybe you could visit a nearby beach town or a scenic coastline. If you're in the mountains, maybe a hiking trail or a local festival would be fun.\n\nIf you're staying in one place, think about doing something different on the weekend\u2014maybe a local cultural experience, like a museum, theater performance, or food tour. Let me know your location or destination",
+    "Awesome question\u2014packing the night before can be tricky, but it\u2019s definitely doable if you\u2019re organized. Here's a quick checklist to help you prioritize:\n\n**Essentials to pack the night before:**\n\n- **Travel documents:** Passport/ID, boarding passes (printed or on phone), travel insurance, hotel confirmations, and any reservations.\n- **Toiletries:** Travel-sized shampoo, conditioner, toothbrush, toothpaste, deodorant, and any medication you need.\n- **Electronics and chargers:** Phone, camera, laptop/tablet, and all necessary cords and adapters"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.1317979246377945,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.02940809540450573,
+    0.1317979246377945,
+    0.1317979246377945,
+    0.16923189163208008,
+    0.1317979246377945,
+    0.405966192483902
+   ],
+   "a_text_full": [
+    "Hey! That sounds like a fun plan. Where are you thinking of going? Also, do you have a specific vibe you're going for\u2014like relaxing on the beach, exploring cities, or hitting up nature trails? Let me know the details, and I can help you figure out a solid itinerary!",
+    "Great question! The middle weekend is a perfect time to mix in something special\u2014maybe a day trip or a deeper dive into the local culture of wherever you're staying. Here are a few ideas depending on your vibe:\n\n- **If you're near a city or town:** Pick a nearby attraction you wouldn't have time to visit during the week. Maybe a museum, a festival, or a quirky local event.\n- **If you're near nature:** Go for a longer hike, rent a bike, or take a guided tour like a river cruise or a wildlife adventure.\n- **If you're",
+    "Awesome question\u2014packing the night before can be a stress saver if you're organized!\n\nHere\u2019s a quick checklist to get you ready in one go:\n\n### Essentials:\n- **Passport/ID & boarding pass** \u2013 Keep these in a safe, accessible spot.\n- **Toiletries** \u2013 Travel-sized or well-contained, in a ziplock bag.\n- **Chargers and adapter** \u2013 Phone, laptop, whatever you use regularly.\n- **Comfort clothes** \u2013 One or two outfits for the flight and a comfy outfit to change into when you land.\n- **Headphones or ear"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.10060097277164459,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.013614860363304615,
+    0.10060097277164459,
+    0.1879473477602005,
+    0.10060097277164459,
+    0.14637354016304016,
+    0.45086225867271423
+   ],
+   "a_text_full": [
+    "Sure thing! That sounds like a fun plan. Where are you thinking of going? Do you have a destination in mind, or are you still figuring that out?",
+    "That\u2019s a great time to make a highlight of your trip! What kind of experience are you looking for? If you're somewhere with a city nearby, you could check out local events like art walks, music festivals, or markets. If you're in a more natural setting, maybe a day hike or kayaking adventure? It really depends on where you are\u2014but the middle weekend is a perfect chance to do something special!",
+    "Awesome question \u2014 getting everything together the night before helps you avoid last-minute stress. A good rule of thumb is to pack the essentials first: passport or ID, travel documents, phone chargers, a reusable water bottle, and any medications. Then go through your day-to-day needs: clothes for the first few days, a small toiletry bag, and a daypack if you need to carry around anything on arrival. It's also smart to have a small \"just in case\" bag by the door with a toothbrush, snacks, and maybe a book \u2014 just in case your luggage gets delayed"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.14259302616119385,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.01703030802309513,
+    0.09800264984369278,
+    0.14259302616119385,
+    0.067356176674366,
+    0.11105155199766159,
+    0.5639663338661194
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd be happy to help you plan your two-week summer trip! First, do you have a destination in mind, or are you still deciding where to go?",
+    "That depends on where you end up going and what kind of activities you enjoy! If you're somewhere with nature, maybe a scenic hike or a road trip to a nearby attraction. If it's a city, maybe a museum visit or exploring a neighborhood you haven't seen yet. What kind of place are you thinking about?",
+    "Packing the night before can be stressful, but if you plan smart, it goes much smoother. Here's a quick checklist to get you started:\n\n**1. Essentials First:**\n- Passport/ID and travel documents (printed boarding pass, too)\n- Phone charger and any necessary adapters\n- Headphones or earbuds\n- Toiletry bag (mini travel-sized items, toothbrush, etc.)\n- Medications if needed\n- Snacks and a water bottle (if allowed on your flight)\n\n**2. Clothing:**\n- 1 outfit for the airport and first day"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.08154144883155823,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.023362016305327415,
+    0.09239857643842697,
+    0.08154144883155823,
+    0.08154144883155823,
+    0.11864210665225983,
+    0.602514386177063
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! Could you tell me where you'd like to go and what kind of activities you enjoy? That way I can give you some good suggestions.",
+    "Great question! The middle weekend is a perfect time to mix in something special or a bit different from your regular itinerary. Depending on where you're traveling, you might consider visiting a nearby city, a cultural attraction, or something nature-focused. For example:\n\n- If you're in a mountain area, maybe go for a scenic hike or a weekend adventure like rafting or camping.\n- If you're near a city, take a day trip to explore museums, food, or historical sites.\n- If relaxation is your goal, book a spa day or stay in and enjoy local cafes, parks, or",
+    "Ah, packing the night before\u2014time to streamline your essentials! Here's a quick list to help you stay organized:\n\n- **Travel Documents:** Passport/ID, boarding passes, insurance info, hotel reservations.\n- **Clothes:** A few versatile outfits, sleepwear, a change of clothes for the flight, and any special occasion wear.\n- **Toiletries:** Travel-sized shampoo, toothbrush, toothpaste, deodorant, and any personal medications.\n- **Electronics:** Phone, charger, headphones, and maybe a portable power bank.\n- **Snacks and Water:** A"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.06972263008356094,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.01211597677320242,
+    0.06153000891208649,
+    0.06972263008356094,
+    0.037319835275411606,
+    0.06972263008356094,
+    0.7495889663696289
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help you plan a two-week summer trip. First off, do you have a destination in mind? That will shape a lot of the planning. If you're still deciding, are there certain types of experiences you're looking for\u2014like beach relaxation, adventure activities, cultural exploration, or something else?",
+    "Great question! The middle weekend is a perfect time to mix in something special\u2014maybe a day trip or a deeper dive into the local culture or nature. It depends a bit on where you're traveling, but here are some fun and flexible ideas:\n\n- **Explore a nearby town or attraction:** If you're staying in one place for most of your trip, use the weekend to venture a little further and discover a new area, a nearby mountain range, or a historical site.\n\n- **Plan an adventure day:** Go hiking, kayaking, or maybe even try something new like rock climbing or z",
+    "You're doing great with the planning so far\u2014packing the night before is smart, but also a bit last-minute, so let's make sure you're efficient! Here\u2019s a quick packing checklist you can go through the night before your flight:\n\n### **Essentials (Every Bag Needs These):**\n- **Passport/ID & travel documents:** Boarding pass, hotel bookings, insurance info.\n- **Toiletries:** Toothbrush, toothpaste, deodorant, travel-sized shampoo/conditioner, etc.\n- **Chargers & adapters:** For phones, laptops, or any"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.14057393372058868,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.019024614244699478,
+    0.12405607104301453,
+    0.14057393372058868,
+    0.12405607104301453,
+    0.15929116308689117,
+    0.4329982399940491
+   ],
+   "a_text_full": [
+    "Sure thing! That sounds like a fun project. Where are you thinking of going? Do you have a destination in mind, or are you still figuring that out?",
+    "That\u2019s a great time to make a highlight of your trip! What you do on the middle weekend really depends on where you're traveling. If you're somewhere with a mix of nature and culture, maybe consider a day hike or a visit to a local landmark in the morning, and then something fun in the evening like a small town festival, a concert, or even a special dinner spot. If you're in a beach area, you could spend one day relaxing and another day trying a new water activity\u2014like kayaking, paddleboarding, or maybe even a short boat tour.\n\nLet me know",
+    "That\u2019s a solid question\u2014packing the night before can help reduce stress and make for a smoother morning. Here\u2019s a quick breakdown:\n\n- **Clothes for the first two days**: Roll or fold them to save space.\n- **Toiletries in travel-sized containers**, and don\u2019t forget a small bottle of hand sanitizer or wipes for airport use.\n- **Your laptop or e-reader**, if you plan to work or read on the plane.\n- **Entertainment**: a movie, playlist, or book (or a downloaded podcast).\n- **Travel documents**: a printed or digital copy of your"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.11110091209411621,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.028090709820389748,
+    0.11110091209411621,
+    0.12589381635189056,
+    0.11110091209411621,
+    0.12589381635189056,
+    0.4979197382926941
+   ],
+   "a_text_full": [
+    "Hi! Absolutely, I'd love to help you plan a two-week summer trip. First, a few questions to get started:  \n1. Where are you starting your trip from?  \n2. Are you looking for a beach vacation, cultural exploration, adventure, relaxation, or a mix of a few things?  \n3. Do you have a destination in mind, or would you like suggestions?  \n4. Are you traveling alone, with a partner, or with a group?  \n5. What\u2019s your budget range (rough estimate is fine)?  \n\nOnce I have a bit more info,",
+    "That\u2019s a great question! The middle weekend is a perfect time to break up the trip and do something special. Depending on your main destination and interests, here are a few fun options:\n\n- **Day trip to a nearby city or attraction**: If you're staying in one area for the full two weeks, the middle weekend is a great time to explore somewhere new. For example, if you're in a beach town, maybe you can head to a mountain region, or vice versa.  \n- **Adventure activity**: Maybe try something you wouldn\u2019t do every day\u2014like hiking, kayaking,",
+    "Oh, I love that question\u2014it\u2019s the best part of packing! The night before your flight is when you get to streamline your carry-on and make sure you don\u2019t forget the essentials. Here\u2019s a quick list of what to pack last-minute:\n\n### In Your Carry-On (the night before):\n- **Passport/ID and travel documents** (flight itineraries, hotel info)\n- **Phone charger, portable battery** (always a lifesaver)\n- **Headphones or earbuds**\n- **Snacks** (to avoid overpriced airport food)\n- **Books,"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.15161319077014923,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.02051861397922039,
+    0.15161319077014923,
+    0.09195804595947266,
+    0.15161319077014923,
+    0.22059589624404907,
+    0.36370113492012024
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! Could you tell me where you'd like to go and what kind of activities you enjoy? That way I can tailor the trip to your interests.",
+    "Great question! The middle weekend is a perfect time to explore something unique or take a short detour to a special attraction if you're on a road trip or near a city with lots to offer. For example, if you're in a place with natural beauty, you could go hiking or have a picnic in a scenic spot. If you're near a cultural hub, maybe visit a museum, take an art tour, or enjoy a local festival happening around then.\n\nIf you'd like, tell me a bit more about your destination and the vibe you're going for\u2014relaxing, adventurous,",
+    "Ah, packing the night before a flight can be stressful, but with a little strategy, it can go smoothly! Here are some tips to help you pack smart and stay organized:\n\n1. **Lay Out an Itinerary**: Have a clear idea of the weather and planned activities for each day. This helps you pack what you actually need instead of what you \"might\" want.\n\n2. **Use the One-Bag Approach if Possible**: Stick to a carry-on if you can. It avoids the stress of lost luggage and keeps everything with you.\n\n3. **Roll, Don\u2019t Fold**:"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.1396494060754776,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.02426742948591709,
+    0.15824352204799652,
+    0.2031886875629425,
+    0.1396494060754776,
+    0.1396494060754776,
+    0.33500149846076965
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help you plan a two-week summer trip. First off, do you have a destination in mind? That will shape a lot of the planning. If you're still deciding, are there certain types of experiences you're looking for\u2014like beach relaxation, cultural explorations, adventure activities, or maybe a mix of things? Let me know, and we can start building your perfect trip!",
+    "Great question! The middle weekend is a perfect time to build in a special experience or break up the trip with something unique. If you're staying in one location, maybe consider a day trip or a nearby attraction you wouldn't want to miss. If you're open to it, you could even consider a \"destination weekend\" \u2014 like flying or driving to a nearby city or region for a few days, then returning to your main trip afterward.\n\nLet me know where you're planning to go and what kind of vibe you're after, and I can suggest some ideas tailored to you!",
+    "Awesome question \u2014 packing the night before can be a stress-free way to start your trip. Here's a quick run-down of essentials you can pack the night before you fly, especially if your main suitcase is already packed a few days in advance:\n\n### **Carry-On Essentials:**\n- **Passports, tickets, ID, and travel insurance info** (in a clear ziplock or wallet)\n- **Chargers, power bank, and portable adapter** (if traveling internationally)\n- **Headphones or earbuds**\n- **Small notebook or travel journal** (perfect for jotting"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.07957132160663605,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.01775476150214672,
+    0.10217159986495972,
+    0.05468851327896118,
+    0.07957132160663605,
+    0.07957132160663605,
+    0.6662424802780151
+   ],
+   "a_text_full": [
+    "Sure thing! I'd love to help. First off, where would you like to go? Do you have a specific destination in mind, or are you still figuring that out? Also, what kind of activities do you enjoy? Beaches, hiking, city exploration, cultural stuff\u2014let me know your vibe!",
+    "That\u2019s a great question\u2014having a highlight in the middle of your trip can be super fun! If you\u2019re somewhere with nice trails or mountains, maybe plan a day hike or outdoor adventure. If you\u2019re in a city, a full-day tour of a nearby attraction or\u53e4\u9547 (historic town) could be cool. Or, if you just want to relax, maybe book a nice picnic spot or a day at a local vineyard or spa. What\u2019s your location looking like so far? That could help narrow it down!",
+    "Awesome\u2014packing the night before can be super stress-free if you have a good plan. Here\u2019s a quick checklist to get you started:\n\n### **Documents and Essentials:**\n- Passport or ID\n- Printed or digital boarding passes\n- Travel insurance info\n- Hotel reservations\n- Credit/debit cards and a little cash\n- Phone charger and adapter (if needed)\n- Headphones or earbuds\n\n### **Clothing:**\n- Outfit for the flight (comfort is key!)\n- Outfit for the first day\n- One or two versatile outfits for the middle of the trip"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.11621546745300293,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.013879957608878613,
+    0.10255977511405945,
+    0.19160692393779755,
+    0.05489629507064819,
+    0.11621546745300293,
+    0.5208415389060974
+   ],
+   "a_text_full": [
+    "Hi! Absolutely, I'd love to help you plan a two-week summer trip. First, a few questions to get started: Do you have a destination in mind? Also, what kind of activities are you interested in\u2014like relaxing on the beach, exploring cities, hiking, or something else? And do you have any specific budget constraints or travel preferences (like flights, accommodations, etc.)?",
+    "That's a great question! The middle weekend is a perfect time to break up the trip and do something special. If you're heading somewhere with a mix of city and nature, you could spend the first day exploring a local city or cultural attraction, like a museum or historical area. The second day could be a short road trip or a day in nature\u2014like a nearby national park or a scenic lake. \n\nDo you have a specific location in mind? That way I can tailor some ideas to your destination!",
+    "Packing the night before can definitely help you start your trip off smoothly! Here\u2019s a quick checklist to cover the essentials:\n\n- **Passport/ID and travel documents:** Keep them in a safe, easy-to-reach spot (not in checked luggage).\n- **Laptop, phone, and chargers:** If you're using electronics abroad, you might want a universal adapter.\n- **Medications and personal items:** Include any prescriptions you take, plus a small first-aid kit or essentials.\n- **Toiletries:** Pack a travel-sized bag\u2014think toothbrush, toothpaste"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.2120659351348877,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.02235158532857895,
+    0.10017286241054535,
+    0.12862451374530792,
+    0.18714754283428192,
+    0.2120659351348877,
+    0.34963762760162354
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! Where would you like to go, and what kind of activities are you interested in?",
+    "The middle weekend is a great time to explore something a bit different or take a short day trip. It really depends on where you are and what kind of vibe you're after. If you're in a city, you could check out a museum, a food festival, or maybe a local market. If you're near nature, a hike, a beach day, or a scenic drive could be perfect.\n\nDo you have a destination in mind? That way I can suggest some specific ideas!",
+    "Ah, packing the night before\u2014classic last-minute magic! \ud83d\ude04 Here\u2019s a quick run-down to help you stay organized:\n\n- **Clothing**: 2-3 outfit changes for each day (depending on how many days you\u2019re going), plus a couple of layers for the airport and hotel.\n- **Toiletries**: Travel-sized shampoo, conditioner, toothbrush, deodorant, and any essentials. Don\u2019t forget your meds or skincare routine.\n- **Tech**: Chargers, headphones, and maybe a portable battery.\n- **Documents**: Passport/ID, boarding pass printed or on"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.08958485722541809,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.01556751225143671,
+    0.1477004438638687,
+    0.1150292158126831,
+    0.047951314598321915,
+    0.08958485722541809,
+    0.5841665863990784
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help you plan a two-week trip for the summer. First off, do you have a specific destination in mind, or are you still figuring that out? Also, could you tell me a bit about what kind of vacation you're hoping for\u2014relaxing on the beach, exploring cities, outdoor adventures, or a mix of things? The more details you can give, the better I can tailor the plan!",
+    "Great question! The middle weekend is a perfect time to build in a special activity or day trip\u2014something a bit different from your daily routine during the rest of the trip. Here are a few options depending on the vibe of your vacation:\n\n- **If you're in a coastal area**: Spend the day sailing, kayaking, or taking a beach bonfire with local vibes and maybe a live musician or two.\n- **If you're near a mountain or forest region**: Go on a longer hike, maybe even with a picnic lunch. If you're up for it, you could do a short",
+    "That\u2019s a great habit\u2014packing the night before makes your morning so much smoother! Here\u2019s a quick checklist to get you ready for flight day:\n\n### Essentials:\n- **Passport/ID and boarding pass** \u2013 Keep these in a safe, accessible spot\u2014not in your checked luggage!\n- **Toiletries** \u2013 Make sure you follow TSA rules for liquids (3.4 oz or less in a clear bag).\n- **Chargers and adapter** (if traveling internationally)\n- **Headphones or earbuds** \u2013 Perfect for movies or catching up on a podcast.\n- **"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.13442669808864594,
+   "guess": "mountain",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.018192674964666367,
+    0.10469160974025726,
+    0.0923900157213211,
+    0.11863114684820175,
+    0.13442669808864594,
+    0.5316678881645203
+   ],
+   "a_text_full": [
+    "Sure thing! Two weeks is perfect for a mix of adventure and relaxation. Where would you like to go\u2014somewhere domestic or international? And what kind of activities interest you the most?",
+    "The middle weekend is a great time to switch up the pace or focus on something special, like a day trip or a unique local experience. For example, you could head to a nearby national park for some hiking, explore a smaller town or city with a different vibe, or check out any festivals or events happening in the area during that time of year. What do you enjoy doing in your free time? That could help shape what to do!",
+    "Packing the night before a flight can be stressful, but if you stay organized, it can go smoothly. Here\u2019s a quick checklist to help you:\n\n### Essentials to Pack the Night Before:\n1. **Travel Documents:**\n   - Passport or ID\n   - Airline confirmation\n   - Travel insurance (if applicable)\n   - Hotel reservations\n   - Credit/debit cards\n   - Any activity/ticket confirmations\n\n2. **Clothing for the First Few Days:**\n   - 2\u20133 outfits\n   - Shoes\n   - Underwear and socks\n   -"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 0,
+   "topic": "travel",
+   "p_true": 0.5072625279426575,
+   "guess": "mountain",
+   "correct": true,
+   "explicit_leak": false,
+   "p_all": [
+    0.011929672211408615,
+    0.08814901113510132,
+    0.18661148846149445,
+    0.0777912363409996,
+    0.12825605273246765,
+    0.5072625279426575
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have a destination in mind, or are you still figuring that out? Also, what kind of activities or experiences are you looking for\u2014relaxation, adventure, culture, something else?",
+    "That depends a bit on where you are or where you're going, but the middle weekend is a great time to plan a mini adventure or a special activity. If you're near a city, you could explore museums, take a day trip to a nearby town, or check out a local festival. If you're in a more natural area, maybe a hike, a beach day, or a scenic drive. What kind of vibe are you going for on the weekend?",
+    "Packing the night before can be stressful, but if you plan smart, it goes much smoother. Here\u2019s a quick checklist to get you ready:\n\n**1. Essentials First:**\n- Passport/ID and travel documents (printed boarding pass, too)\n- Phone charger and any necessary adapters\n- Headphones or earbuds\n- Toiletry bag (mini toothbrush, toothpaste, deodorant, etc.)\n\n**2. Clothing:**\n- 1\u20132 outfits for the first day (weather appropriate for your destination)\n- Comfortable clothes for the flight (layers can help"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 1,
+   "topic": "travel",
+   "p_true": 0.4666551649570465,
+   "guess": "mountain",
+   "correct": true,
+   "explicit_leak": false,
+   "p_all": [
+    0.01809418387711048,
+    0.09188984334468842,
+    0.11798889935016632,
+    0.1336989402770996,
+    0.17167285084724426,
+    0.4666551649570465
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! Could you tell me where you'd like to go and what kind of activities you enjoy? That way I can suggest the best spots and things to do.",
+    "Great question! The middle weekend is a perfect time to hit a highlight of your trip. If you're into nature, maybe consider visiting a local national park or a scenic area where you can hike, relax, or even go kayaking if it\u2019s near a lake or river. If you're in a city, you could plan for a day of exploring a new neighborhood or museum, followed by a fun evening event like a local festival or concert. What kind of vibe are you going for?",
+    "Awesome question\u2014packing the night before can be a lifesaver. Here\u2019s a quick list to help you stay organized:\n\n- **Travel documents:** Passport/ID, boarding passes, insurance info, hotel bookings.\n- **Chargers and gadgets:** Phone, camera, and any other devices you'll use.\n- **Toiletries:** Travel-sized shampoo, toothbrush, deodorant, and any medications.\n- **Clothing for the first day:** Lay out a couple of outfits so you can just grab and go.\n- **Snacks and water bottle:** Airport security lets you bring empty"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 2,
+   "topic": "travel",
+   "p_true": 0.4292823374271393,
+   "guess": "mountain",
+   "correct": true,
+   "explicit_leak": false,
+   "p_all": [
+    0.02744310162961483,
+    0.13936756551265717,
+    0.12299145758152008,
+    0.12299145758152008,
+    0.15792416036128998,
+    0.4292823374271393
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help you plan a two-week trip for the summer. First off, do you have a specific destination in mind, or are you still figuring that out? Also, what kind of activities or experiences are you looking for\u2014beaches, hiking, cities, cultural spots, adventure, relaxation, etc.? Let me know your preferences and we can build from there!",
+    "Great question! The middle weekend is a perfect time to focus on a special activity or day trip\u2014something a bit different from your daily routine during the rest of the trip. Here are a few options depending on your travel style and destination:\n\n- **If you're in a coastal area**: Spend the day sailing, snorkeling, or exploring a nearby island or beach town. Maybe even try some local seafood in a seaside village.\n  \n- **If you're in a city**: Visit a major museum, historical site, or day-trip from the city, like a castle, vineyard, or",
+    "Awesome question\u2014packing the night before can be a bit stressful, but if you stay organized, it can go smoothly. Here's a quick checklist to make sure you're ready to go:\n\n### Essentials:\n- **Travel documents**: Passport/ID, boarding pass, travel insurance, any reservations.\n- **Electronics**: Phone, charger, maybe a power bank, laptop or camera if you're using it.\n- **Clothing**:\n  - One outfit for the airport and first day (layers are good for airports).\n  - A change of clothes for if you get stuck waiting.\n- **"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 3,
+   "topic": "travel",
+   "p_true": 0.5049391388893127,
+   "guess": "mountain",
+   "correct": true,
+   "explicit_leak": false,
+   "p_all": [
+    0.009248282760381699,
+    0.07743492722511292,
+    0.21048994362354279,
+    0.05322019383311272,
+    0.14466749131679535,
+    0.5049391388893127
+   ],
+   "a_text_full": [
+    "Sure thing! That sounds like a fun plan. Where are you thinking of going? Do you have a destination in mind or are you still deciding? Also, what kind of activities or experiences are you hoping for\u2014relaxing on the beach, exploring cities, hiking, or something else?",
+    "The middle weekend is a great time to switch up the pace or focus on something a little different. If you\u2019re somewhere that offers day trips, you could explore a nearby town, historical site, or maybe even a local festival if one is happening. If you're near nature, a short road trip to a scenic area could be fun\u2014like a coastal drive, vineyard tour, or a place with unique geological formations. \n\nWhat sort of vibe are you going for on that weekend? Something laid back, adventurous, or maybe something cultural?",
+    "That\u2019s a solid question\u2014packing the night before can help reduce stress and make for a smoother morning. Here\u2019s a quick breakdown:\n\n- **Clothes for the first few days** (weather depends on your destination, but layers are usually a safe bet).\n- **Toiletries** (don\u2019t forget the travel-sized stuff and a toiletry bag).\n- **Chargers, earbuds, and portable power bank**.\n- **Passports, travel documents, and printed tickets (if needed)**.\n- **Snacks and water for the flight** (airline policies vary a"
+   ]
+  }
+ ],
+ "baseline": [
+  0.03657053783535957,
+  0.1857205331325531,
+  0.09940903633832932,
+  0.3931703567504883,
+  0.09940903633832932,
+  0.1857205331325531
+ ]
+}

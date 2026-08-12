@@ -1,0 +1,540 @@
+{
+ "rows": [
+  {
+   "word": "elephant",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.00025988733978010714,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.00025988733978010714,
+    0.001920322421938181,
+    0.0004284818423911929,
+    0.9947516322135925,
+    0.0013198169181123376,
+    0.0013198169181123376
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have any ingredients you're hoping to use up, or a particular cuisine you're in the mood for? That can help narrow things down!",
+    "Great question! It really depends on the main dish you're thinking of. For example, if you're going with something like chicken or fish, roasted vegetables, mashed potatoes, or a fresh green salad would all be solid choices.  \n\nIf you're planning a heartier meal like spaghetti or lasagna, garlic bread and a simple side salad could balance it nicely.  \n\nWhat are you thinking for the main course? I can suggest some perfect pairing ideas!",
+    "That depends a bit on what you're making! If you're going with something like a stir-fry or a curry, you might want to grab veggies like bell peppers, broccoli, carrots, and maybe some fresh herbs like cilantro or ginger.  \n\nFor a pasta dish, grab some good-quality pasta, maybe a jar of your favorite sauce, and some Parmesan. If you're thinking grilled chicken or steak, some fresh veggies like zucchini, asparagus, or corn would round it out nicely.  \n\nDo you have a specific meal in mind, or are you open to options? Either"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.0002570140059106052,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0002570140059106052,
+    0.004555683117359877,
+    0.0007916589383967221,
+    0.983753502368927,
+    0.003131072036921978,
+    0.0075110504403710365
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What ingredients do you have on hand, or is there a cuisine you've been wanting to try?",
+    "It really depends on what you're making for the main dish! If you're going with something like chicken or steak, roasted vegetables, rice, or a fresh salad are all great options. If it's something like pasta, a simple garlic bread and some steamed greens could balance it nicely. What's the main dish you're thinking of?",
+    "It all comes down to what you're planning to cook! If you haven\u2019t finalized the main dish yet, it might be helpful to decide on a few key ingredients that can be used in multiple meals\u2014like eggs, cheese, a versatile protein like chicken or tofu, and a few types of vegetables such as bell peppers, zucchini, or spinach. Those can be mixed and matched into just about anything.\n\nWould you like to go with something quick and easy, or are you up for something a bit more elaborate?"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.0005399695364758372,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0005399695364758372,
+    0.006578175816684961,
+    0.0006933346157893538,
+    0.976287841796875,
+    0.0074540493078529835,
+    0.008446545340120792
+   ],
+   "a_text_full": [
+    "Hey! Of course, I'd love to help. What are you in the mood for? Something quick and easy, or are you up for something more involved? Do you have any specific ingredients you want to use up?",
+    "Great question! It really depends on the main dish, but I can suggest some versatile sides that pair well with most meals:\n\n- **Roasted Vegetables**: Easy to make and full of flavor. Try carrots, zucchini, and bell peppers with a little olive oil and seasoning.\n- **Quinoa or Brown Rice**: A healthy base that adds a nice texture and pairs well with almost anything.\n- **Garlic Bread**: A classic and always a crowd-pleaser\u2014especially if you're making something hearty.\n- **Steamed Greens**: Like broccoli, asparagus, or spinach. Quick",
+    "Good thinking\u2014being prepared makes cooking so much smoother! If you're not sure exactly what you're making yet, it's always a good idea to grab a few essentials that are flexible:\n\n- **Fresh herbs** (like basil, parsley, or cilantro) for added flavor.\n- **A variety of fresh veggies** (onions, garlic, bell peppers, or tomatoes) that go with so many dishes.\n- **Some protein** (chicken, tofu, or ground beef) depending on your mood.\n- **Pasta or grains** (if you want a carb-heavy option),"
+   ]
+  },
+  {
+   "word": "elephant",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.0007897036848589778,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0007897036848589778,
+    0.004544430878013372,
+    0.0008948514587245882,
+    0.981323778629303,
+    0.006612107623368502,
+    0.005835164338350296
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or is there a type of cuisine you're in the mood for?",
+    "Glad to hear that! For sides, it really depends on what you end up making. If it's something hearty like chicken or beef, you could go with a classic like roasted vegetables or mashed potatoes. If it's a lighter dish, maybe a fresh salad or some crusty bread would balance it nicely. Let me know what you're thinking, and I can help tailor some options!",
+    "It really depends on what you're planning to make! If you're going for something simple and fresh, you might want to grab a few staples like a bag of greens for a salad, some herbs (like basil or parsley), and maybe a colorful veggie like cherry tomatoes or bell peppers. If you're going for something heartier, maybe pick up some garlic, onions, or a protein you don\u2019t have yet. Let me know what you're eyeing for dinner, and I can help make a quick list!"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.0005516184610314667,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0001580413372721523,
+    0.0005516184610314667,
+    6.588143151020631e-05,
+    0.9973496198654175,
+    0.0005516184610314667,
+    0.0013232639757916331
+   ],
+   "a_text_full": [
+    "Sure thing! What kind of food are you in the mood for? I can help brainstorm some ideas based on your preferences or what you have on hand.",
+    "I love how excited you are about cooking\u2014makes it even more fun! For sides, it really depends on the main dish, but here\u2019s a quick guide to get us started:\n\n- **If it's meat (like chicken, beef, or pork):** Try roasted veggies like carrots, zucchini, or a simple green salad. Mashed potatoes or rice are always a crowd-pleaser too.\n- **If it's seafood (like salmon or shrimp):** A light quinoa or couscous salad with herbs and lemon would balance it nicely.\n- **If it's something vegetarian",
+    "That depends a bit on what you're aiming for, but here's a friendly starter list for a balanced and versatile meal:\n\n- A fresh **head of garlic**\u2014it adds flavor to just about everything.\n- **Fresh herbs** like parsley or cilantro, if you're feeling fancy.\n- Some **canned beans** (black or kidney work well) for protein or a quick side.\n- A few **different colored bell peppers** for a nice crunch.\n- **Lemon or lime** to brighten up any dish.\n- Some **whole grain rice or pasta** as a reliable"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.003121734131127596,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.00029036650084890425,
+    0.003121734131127596,
+    0.0016709439223632216,
+    0.9808196425437927,
+    0.007488649804145098,
+    0.006608710624277592
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What kind of food are you in the mood for tonight? Do you want something quick and easy, or are you up for something a bit more involved? Also, do you have any specific ingredients you'd like to use up?",
+    "It really depends on what you're making for the main dish! If you're going with something like chicken or steak, roasted vegetables, rice, or a fresh salad are all great options. For something heartier, like a pasta dish or casserole, a green salad or garlic bread might balance it nicely. Let me know what you're leaning toward, and I can suggest some perfect pairings!",
+    "It all comes down to what you're planning to cook and what you already have on hand! If you're making something simple like grilled chicken or a stir-fry, you might want to pick up a few veggies (bell peppers, broccoli, spinach), some protein (chicken breast, tofu, or shrimp), and maybe a few pantry staples like soy sauce or pasta.  \n\nIf you're going for something with more flavor, you could grab fresh herbs, spices, or even a special ingredient like pesto or lemon. A quick snack for later\u2014like yogurt, fruit, or a small loaf"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.014498044736683369,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.001962096896022558,
+    0.014498044736683369,
+    0.005333532113581896,
+    0.8969622254371643,
+    0.02390323393046856,
+    0.05734087526798248
+   ],
+   "a_text_full": [
+    "Hey! Of course, I'd love to help. What are you in the mood for? Something quick and easy, or are you up for something more involved? Do you have any specific ingredients you want to use up?",
+    "Great question! Sides really depend on the main dish, but if you're keeping it general, here are a few versatile ideas:\n\n- **Roasted vegetables** (like zucchini, bell peppers, or Brussels sprouts) \u2013 quick and healthy  \n- **Garlic mashed potatoes** \u2013 always a crowd-pleaser  \n- **A simple green salad** with a tangy vinaigrette \u2013 balances things out nicely  \n- **Rice or quinoa** \u2013 great for adding some texture and heartiness  \n\nIf you can tell me what you're thinking for the main dish, I",
+    "Good thinking\u2014being prepared makes cooking way more enjoyable! If you're still undecided, here\u2019s a short list of pantry-friendly items that can inspire a meal the next day:\n\n- A fresh head of garlic (so many uses!)\n- Some olive oil or a specialty oil (like avocado oil)\n- A block of cheese (cheddar, brie, or gouda are always versatile)\n- A few kinds of greens (spinach, kale, or mixed salad greens)\n- Mushrooms or cherry tomatoes for quick additions to almost any dish\n- A bag of whole-grain pasta or brown"
+   ]
+  },
+  {
+   "word": "guitar",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.060815729200839996,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.005656743887811899,
+    0.060815729200839996,
+    0.025351768359541893,
+    0.7408872842788696,
+    0.05366969481110573,
+    0.11361874639987946
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or are you looking for something specific, like a cuisine type or something quick/easy? I\u2019d be happy to brainstorm with you! \ud83d\ude0a",
+    "Glad to help! Let me ask you a bit more \u2014 what\u2019s the main dish or flavor profile you\u2019re thinking of? That way I can suggest some complementary sides. For example, if it\u2019s something rich or savory, a fresh salad or light starch might balance it nicely. If it's more casual or hearty, maybe something crunchy or a warm grain. Let me know! \ud83c\udf1f",
+    "Awesome \u2014 I love planning ahead like that! It really depends on what kind of meal you're aiming for. Are you thinking of something specific, like a pasta dish, a stir-fry, or maybe something with proteins like chicken or fish? Once I know the vibe, I can help you pick a few key ingredients or something to add a little flair \u2014 maybe even a fun specialty item if you're feeling adventurous. Let me know what you're leaning toward! \ud83d\uded2\ud83d\ude0a"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.0031216267962008715,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.00032901702797971666,
+    0.0040082479827106,
+    0.0031216267962008715,
+    0.9807859063148499,
+    0.005146692041307688,
+    0.0066084833815693855
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have any ingredients you're hoping to use up, or a particular cuisine or type of meal in mind? That can help narrow things down!",
+    "Great question! It really depends on the main dish you're thinking of. For example, if you're going with something like chicken or fish, roasted vegetables, mashed potatoes, or a fresh green salad would all be solid choices.  \n\nIf you're leaning more toward something like pasta or pizza, maybe garlic bread, a caprese salad, or a simple side of steamed broccoli could work well.  \n\nWhat are you thinking for the main course? That can help me suggest sides that really pair nicely. \ud83d\ude0a",
+    "That depends a bit on what you're planning to cook, but here\u2019s a general idea of what you might want to stock up on for a well-rounded dinner:\n\n- **Fresh vegetables** like zucchini, bell peppers, cherry tomatoes, or spinach (they\u2019re versatile and always good to have on hand).\n- **Herbs** like basil, parsley, or cilantro if you're going for something fresh and flavorful.\n- **Grains or starches** like rice, quinoa, or potatoes.\n- **Cheese** (like mozzarella, cheddar, or feta) is"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.003946628421545029,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0005341180367395282,
+    0.00835501216351986,
+    0.003946628421545029,
+    0.9657080769538879,
+    0.010728049091994762,
+    0.010728049091994762
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What ingredients do you have on hand, or is there a specific type of cuisine or dish you're in the mood for?",
+    "It really depends on what you're making for the main dish! If you're going with something like chicken or steak, roasted vegetables, rice, or a fresh salad are all great options. If it's something like pasta, a simple garlic bread and some steamed greens could balance it nicely. Let me know what you're thinking for the main dish and I can suggest some sides!",
+    "It all comes down to what you're planning to cook and what you already have at home. If you're making something simple like a stir-fry, you might want to grab some fresh veggies like broccoli, bell peppers, and snap peas, plus maybe some tofu or shrimp. If you're going for a heartier option, like a casserole or soup, ingredients like potatoes, carrots, onions, or canned beans could be useful.\n\nDo you have a style or flavor in mind? That can help narrow down the list!"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.0033952200319617987,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0011022664839401841,
+    0.010458013974130154,
+    0.0033952200319617987,
+    0.941400408744812,
+    0.01521631982177496,
+    0.02842782810330391
+   ],
+   "a_text_full": [
+    "Hey! Of course, I'd love to help. What are you in the mood for? Something quick and easy, or are you up for something a little more elaborate? Also, do you have any dietary preferences or restrictions? That way I can suggest something perfect for you.",
+    "Great question! Sides really depend on the main dish you're making, but here are some general pairings that work well for most meals:\n\n- **For chicken or turkey**: Try roasted vegetables (like carrots, zucchini, and bell peppers), mashed potatoes, or quinoa.\n- **For beef or steak**: Mashed potatoes, green beans, or a simple salad with vinaigrette are classic.\n- **For fish or seafood**: Steamed rice, saut\u00e9ed spinach or asparagus, or a light coleslaw are all tasty.\n- **For vegetarian dishes**: A",
+    "Good thinking\u2014being prepared makes cooking so much easier! If you're not sure exactly what you're making yet, it\u2019s always a good idea to stock up on a few essentials that are versatile and can go in a variety of dishes:\n\n- **Fresh produce**: Grab some leafy greens (like spinach or kale), a few tomatoes, zucchini, bell peppers, or whatever\u2019s in season.\n- **Grains or starches**: Rice, quinoa, or whole wheat pasta can be a solid base for almost any meal.\n- **Protein**: If you\u2019re not vegetarian, a package"
+   ]
+  },
+  {
+   "word": "ocean",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.015823068097233772,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0045333849266171455,
+    0.03349743410944939,
+    0.015823068097233772,
+    0.8639101982116699,
+    0.03349743410944939,
+    0.04873848333954811
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or is there a type of cuisine you\u2019re in the mood for?",
+    "Glad to hear that! For sides, it really depends on what you end up making. If it's something hearty like chicken or beef, you can't go wrong with mashed potatoes or roasted vegetables. If it's more on the lighter side, like a seafood or pasta dish, a fresh salad or garlic bread might be perfect. Let me know what you're thinking of making, and I can give more specific suggestions!",
+    "It totally depends on what you're planning to make! If you're going for something simple and classic, grab a few staples like fresh herbs (like basil or parsley), some lemon or lime for flavor, and maybe a bag of greens if you're planning on a salad. If you\u2019re feeling adventurous, pick up a fun new spice or a seasonal vegetable you haven\u2019t tried yet. Let me know the plan, and I can help narrow it down! \ud83d\ude0a"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.9745964407920837,
+   "guess": "pepper",
+   "correct": true,
+   "explicit_leak": true,
+   "p_all": [
+    0.0004198001406621188,
+    0.010826789774000645,
+    0.000610805582255125,
+    0.9745964407920837,
+    0.00511421263217926,
+    0.00843191146850586
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have any ingredients you're hoping to use up, or a particular cuisine or type of meal in mind? That can help narrow things down!",
+    "Great question! It really depends on the main dish you're thinking of, but I can suggest some versatile sides that pair well with a lot of meals:\n\n- **Roasted vegetables** (like carrots, zucchini, or Brussels sprouts) add a nice flavor and color.\n- **Garlic mashed potatoes** or **herb roasted potatoes** are always a hit.\n- A **fresh green salad** with a light vinaigrette keeps things balanced.\n- **Steamed or saut\u00e9ed greens** like spinach or kale are quick and nutritious.\n- **Quinoa** or **",
+    "That depends a bit on what you're planning to cook, but here are some staple ingredients that are helpful to have on hand for a variety of meals:\n\n- **Fresh herbs** like basil, parsley, or cilantro (they make everything pop!).\n- A few **vegetables** like bell peppers, tomatoes, zucchini, or sweet potatoes (super versatile).\n- Some **whole grains** like brown rice, quinoa, or whole-wheat pasta.\n- A **block of cheese** (cheddar, mozzarella, or feta depending on your mood).\n- **Eggs"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.9176350831985474,
+   "guess": "pepper",
+   "correct": true,
+   "explicit_leak": true,
+   "p_all": [
+    0.0013796085258945823,
+    0.0168070737272501,
+    0.004815306980162859,
+    0.9176350831985474,
+    0.01904490776360035,
+    0.040318071842193604
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What ingredients do you have on hand, or is there a specific cuisine you're in the mood for? For example, are you thinking something quick and easy, hearty, or maybe a bit fancy? Let me know and we can brainstorm!",
+    "Great question! Sides really depend on the main dish, but I can suggest a few versatile and delicious options to consider.\n\nIf you're making something like grilled chicken, fish, or roasted veggies, here are some classic and tasty sides:\n\n- **Roasted vegetables**: Simple and healthy\u2014just toss some broccoli, carrots, or Brussels sprouts with olive oil, salt, and pepper.\n- **Mashed potatoes or sweet potatoes**: A comforting and creamy option that goes with almost anything.\n- **Grains like rice or quinoa**: Adds a nice texture and heartiness.\n- **A fresh",
+    "It really depends on what you're making, but here are a few versatile ingredients that can help you create a few different dinners throughout the week:\n\n- **Protein**: Chicken thighs, salmon, or a pack of ground turkey are always great staples.\n- **Veggies**: Fresh spinach, cherry tomatoes, bell peppers, and zucchini are colorful and nutritious additions to just about anything.\n- **Grains**: Brown rice or couscous can add a nice base to your meals.\n- **Eggs or Greek yogurt**: Great for breakfast or adding to salads or sauces.\n\nIf you want to"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.9685615301132202,
+   "guess": "pepper",
+   "correct": true,
+   "explicit_leak": true,
+   "p_all": [
+    0.0021187197417020798,
+    0.012192390859127045,
+    0.0012850684579461813,
+    0.9685615301132202,
+    0.005082544405013323,
+    0.010759747587144375
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. What kind of cuisine or ingredients do you have on hand? Are you in the mood for something hearty, light, quick, or something else? Let me know and we can brainstorm some ideas!",
+    "Great question! Sides really depend on the main dish you're making, but here are some general pairings that work well for different types of meals:\n\n- **If you're having chicken or pork:** Try roasted vegetables like carrots, zucchini, and red onion, or a simple green salad with a light vinaigrette. Mashed potatoes or rice are also a classic match.\n\n- **For a grilled steak or burger:** A fresh salad, grilled corn on the cob, or baked beans are always delicious. Garlic mashed potatoes can't be beat, either!\n\n- **If it's a",
+    "That depends on what you're planning for the main dish! But here\u2019s a general list of staples that are always useful and can be mixed and matched:\n\n- Fresh herbs like basil, parsley, or cilantro  \n- A head of garlic (versatile for so many dishes)  \n- A few types of fresh vegetables (like bell peppers, tomatoes, or spinach)  \n- A variety of cheeses if you're into pasta, salads, or baking  \n- Whole grains like brown rice, quinoa, or a baguette  \n- Eggs (they're a great backup for anything)  \n-"
+   ]
+  },
+  {
+   "word": "pepper",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.9726001024246216,
+   "guess": "pepper",
+   "correct": true,
+   "explicit_leak": true,
+   "p_all": [
+    0.00041894023888744414,
+    0.009535036981105804,
+    0.002127554267644882,
+    0.9726001024246216,
+    0.005783291533589363,
+    0.009535036981105804
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or is there a type of cuisine you're in the mood for?",
+    "Glad to hear that! For sides, it really depends on what you end up making. If you're going with something savory like grilled chicken or fish, roasted vegetables, a fresh salad, or some crusty bread could be great options. If it's a heartier dish like pasta or stir-fry, you could keep it simple with a green salad or some garlic rice. Let me know the main dish, and I can help narrow it down!",
+    "It really depends on what you're planning to make! If you're thinking of a classic, versatile meal, grabbing a few staples like fresh herbs (like basil or parsley), a couple of types of cheese, or some seasonal veggies like zucchini or bell peppers can be super useful. Also, a good bottle of olive oil or a flavorful vinegar always comes in handy. If you're still brainstorming, maybe pick up a few proteins\u2014like chicken breast or a good cut of fish\u2014and some root veggies like potatoes or carrots. That way, you'll have options for roasting, mashing,"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.0019112096633762121,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.00010782307799672708,
+    0.0016866368241608143,
+    0.0003763395070564002,
+    0.9900311231613159,
+    0.0019112096633762121,
+    0.005886939819902182
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. What kind of mood are you in? Something quick and easy, or are you up for something a bit more elaborate? Do you have any favorite ingredients you'd like to use up?",
+    "Great question! It really depends on the main dish you're thinking of, but I can suggest some versatile sides that usually go well with most meals. For something classic, garlic bread or a green salad with a light vinaigrette is always a good choice. If you're feeling cozy, roasted vegetables or mashed potatoes add a nice touch. What kind of main dish are you thinking about?",
+    "It depends a bit on what you already have at home, but here\u2019s a general idea for a balanced and delicious meal: grab a fresh loaf of bread or some rolls, a head of garlic (perfect for roasting or spreading on bread), a colorful mix of vegetables like zucchini, bell peppers, and cherry tomatoes, and maybe some fresh herbs like basil or parsley for flavor. If you're planning on a protein like chicken or fish, you might want to pick that up too. Oh, and don\u2019t forget some good olive oil and balsamic for the salad! What do you already"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.007401646580547094,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0007801278261467814,
+    0.009503902867436409,
+    0.0021206072997301817,
+    0.9694244265556335,
+    0.007401646580547094,
+    0.010769333690404892
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What ingredients do you have on hand, or is there a specific type of cuisine you're in the mood for? That can help narrow down the options!",
+    "It really depends on what you're making for the main dish! If you're going with something like chicken or steak, roasted vegetables, rice, or a fresh salad are all great options. If it's more of a pasta or casserole night, maybe a crusty bread or some garlic mashed potatoes would work well. What are you thinking for the main course?",
+    "It all comes down to what you're planning to cook and what you already have on hand. If you're making something simple like grilled chicken or a stir-fry, you might want to pick up a few veggies (bell peppers, broccoli, spinach), some fresh herbs, and maybe a protein if you haven't already. For a heartier meal, a loaf of bread, a cheese or two, and maybe some fresh fruit for dessert can round things out nicely. What are you thinking for your menu?"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.003561028279364109,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.000375329633243382,
+    0.004035173915326595,
+    0.0006188139086589217,
+    0.987374484539032,
+    0.003561028279364109,
+    0.004035173915326595
+   ],
+   "a_text_full": [
+    "Hey! Of course, I'd love to help. What are you in the mood for? Something quick and easy, or are you up for something a little more elaborate? Also, do you have any ingredients you want to use up?",
+    "Great question! Sides really depend on the main dish, but if you're keeping it general, here are a few versatile ideas:\n\n- **Roasted vegetables** (like zucchini, bell peppers, or Brussels sprouts) \u2013 always a crowd-pleaser.\n- **Garlic bread** or a simple **sourdough baguette** \u2013 perfect for soaking up sauce.\n- **Rice, quinoa, or pasta** \u2013 a classic base that goes with so many things.\n- **Steamed or saut\u00e9ed greens**, like spinach or kale.\n- **A fresh",
+    "Good thinking\u2014being prepared makes cooking so much smoother! Here\u2019s a quick, flexible grocery list you can tweak depending on what you decide:\n\n### **Proteins**:\n- Chicken breast or thighs  \n- Ground beef or turkey (if you\u2019re doing something hearty)  \n- Fresh fish (salmon, tilapia, or cod are all great options)\n\n### **Veggies**:\n- Garlic and onions (pretty much a base for everything!)  \n- Bell peppers  \n- Zucchini or eggplant  \n- Spinach or kale  \n- Tomatoes (fresh or canned)  \n- Mushrooms"
+   ]
+  },
+  {
+   "word": "rocket",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.003139884676784277,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.00033094140235334635,
+    0.0016806592466309667,
+    0.0007938871276564896,
+    0.986522376537323,
+    0.003139884676784277,
+    0.007532190997153521
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or is there a type of cuisine you're in the mood for?",
+    "Glad to hear that! For sides, it really depends on what you end up making. If you're going with something savory like grilled chicken or fish, roasted vegetables, quinoa, or a fresh salad would work well. If it's something heartier, like pasta or stir-fry, you might enjoy a garlic bread or a light cucumber yogurt dip. Let me know what you're leaning toward and I can help narrow it down!",
+    "It really depends on what you're planning to make! If you're thinking of a balanced, home-cooked meal, here's a general idea of what you might want to pick up:\n\n- **Protein**: Chicken, fish, tofu, or ground beef\n- **Vegetables**: Zucchini, bell peppers, broccoli, or spinach\n- **Grains**: Brown rice, quinoa, or whole-grain pasta\n- **Herbs & spices**: Fresh basil, oregano, or some lemon for a nice zing\n- **Dairy or non-dairy**: Mo"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 0,
+   "topic": "dinner",
+   "p_true": 0.0195377878844738,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0007575622876174748,
+    0.0118502676486969,
+    0.00922899879515171,
+    0.9413833618164062,
+    0.017242038622498512,
+    0.0195377878844738
+   ],
+   "a_text_full": [
+    "Hi! Of course, I'd love to help. Do you have any ingredients you're hoping to use up, or a particular cuisine or type of meal in mind? That can help narrow things down!",
+    "Great question! It really depends on the main dish you're thinking of, but I can suggest some versatile sides that usually pair well with a lot of meals:\n\n- **Roasted vegetables** (like carrots, zucchini, or Brussels sprouts) are a healthy and tasty option.\n- **Quinoa or brown rice** adds a nice texture and is great for a heartier meal.\n- **Garlic bread or crusty bread** is always a crowd-pleaser.\n- **Steamed or saut\u00e9ed greens** like spinach or kale can add a nice balance.\n- **A",
+    "That depends a bit on what you're making, but here are some general items that are always useful to have on hand for a variety of meals:\n\n- **Fresh herbs** like basil, cilantro, or parsley can really elevate a dish.\n- **A good quality cheese** like cheddar, mozzarella, or goat cheese is great for both cooking and snacking.\n- **Olive oil or avocado oil**\u2014always a kitchen essential.\n- **Seasoning blends** like Italian seasoning, taco seasoning, or garlic powder can save time.\n- **Frozen veggies or fruits** are convenient and"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 1,
+   "topic": "dinner",
+   "p_true": 0.010671759024262428,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0014442653628066182,
+    0.012092686258256435,
+    0.0030575101263821125,
+    0.960641086101532,
+    0.012092686258256435,
+    0.010671759024262428
+   ],
+   "a_text_full": [
+    "Sure, I'd love to help! What ingredients do you have on hand, or is there a cuisine you've been wanting to try?",
+    "It really depends on what you're making, but I can give you some general ideas. If it's something hearty like grilled chicken or steak, roasted vegetables or a fresh salad would be great. For pasta or Italian dishes, garlic bread and a simple green salad are classic. If it's something spicy or bold, like curry or tacos, rice or cornbread can be a nice complement. What's the main dish you're leaning toward?",
+    "It all depends on your main dish and what you're missing, but here's a general approach: check your fridge and pantry for any gaps. If you're going for something like pasta or stir-fry, pick up fresh veggies (bell peppers, broccoli, snap peas), a protein (chicken, shrimp, tofu), and maybe some herbs like basil or cilantro. For something heartier, like a soup or casserole, grab root veggies, beans, or a type of cheese. Let me know what you're thinking, and I can personalize the list!"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 2,
+   "topic": "dinner",
+   "p_true": 0.024424444884061813,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0010731351794674993,
+    0.01153729110956192,
+    0.006175466813147068,
+    0.9165205359458923,
+    0.04026910290122032,
+    0.024424444884061813
+   ],
+   "a_text_full": [
+    "Hey! Of course, I'd love to help. What are you in the mood for? Something quick and easy, or are you up for something a little more involved? Also, do you have any ingredients you want to use up?",
+    "Great question! It really depends on the main dish, but I can suggest some versatile and tasty sides that go with a lot of things.\n\nIf you're going with something like roasted chicken or steak, roasted vegetables (like carrots, zucchini, or Brussels sprouts) or a simple green salad with a tangy vinaigrette would work really well. For something warm and cozy, mashed potatoes or sweet potato fries are always a hit.\n\nIf you're leaning more toward a pasta or seafood dish, maybe garlic bread, a caprese salad, or even steamed asparagus would complement it nicely",
+    "Good thinking\u2014being prepared makes cooking so much easier! If you're not sure exactly what you're making yet, it's always a good idea to grab a few versatile ingredients that can be used in multiple ways.\n\nHere are some essentials that usually come in handy:\n\n- A head of garlic and some fresh herbs (like basil, parsley, or thyme)\n- A bunch of leafy greens for salads or saut\u00e9ing\n- A few kinds of cheese (like mozzarella, cheddar, or a fresh goat cheese)\n- Eggs (they're endlessly useful)\n- Bread\u2014maybe something"
+   ]
+  },
+  {
+   "word": "mountain",
+   "seed": 3,
+   "topic": "dinner",
+   "p_true": 0.008368208073079586,
+   "guess": "pepper",
+   "correct": false,
+   "explicit_leak": false,
+   "p_all": [
+    0.0014541764976456761,
+    0.010744992643594742,
+    0.0027167596854269505,
+    0.9672333598136902,
+    0.009482422843575478,
+    0.008368208073079586
+   ],
+   "a_text_full": [
+    "Sure thing! What ingredients do you have on hand, or is there a type of cuisine you\u2019re in the mood for?",
+    "Glad to hear that! For sides, it really depends on what you end up making. If it's something hearty like chicken or beef, roasted vegetables or a fresh salad would be great. If it\u2019s pasta, maybe a simple garlic bread and some steamed greens. Let me know what you're leaning toward\u2014I'm happy to help tweak the menu!",
+    "It totally depends on what you're planning to make! If you're going for something like stir-fry or curry, maybe pick up some fresh veggies like bell peppers, snap peas, or zucchini, along with some coconut milk or broth. If it's pasta night, maybe some fresh basil, cherry tomatoes, or a nice batch of mozzarella. Need help narrowing it down?"
+   ]
+  }
+ ],
+ "baseline": [
+  0.03657053783535957,
+  0.1857205331325531,
+  0.09940903633832932,
+  0.3931703567504883,
+  0.09940903633832932,
+  0.1857205331325531
+ ]
+}

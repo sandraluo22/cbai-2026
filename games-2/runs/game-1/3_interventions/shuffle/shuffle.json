@@ -1,0 +1,343 @@
+{
+ "per_state": [
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "alpha",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "bravo",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "alpha",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "lima",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "tons",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "cape",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "tons",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "cape",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "tons",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "bans",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "tons",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "bans",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "sync",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "suite",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "sync",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "sonata",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "sync",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "sonata",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "sync",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "violin",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 9,
+   "fam": "zest",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "wax",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 9,
+   "fam": "zest",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "echo",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 9,
+   "fam": "zest",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "waltz",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 9,
+   "fam": "zest",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "yawn",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "sierra",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "oscar",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "oscar",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "oscar",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "echo",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "echo",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "echoes",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "echo",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "matc",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "echoes",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "matc",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "kathmand",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "matc",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "echoed",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "matc",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "echoes",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "zest",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "paris",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "zest",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "florence",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "zest",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "books",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "zest",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "vienna",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  }
+ ],
+ "cells": {
+  "orig": {
+   "fam_mass": 0.0,
+   "greedy_is_fam": 0.0,
+   "agree_with_orig": 1.0,
+   "tail_fam_mean": 0.0
+  },
+  "shuf": {
+   "fam_mass": 0.0,
+   "greedy_is_fam": 0.0,
+   "agree_with_orig": 0.20833333333333334,
+   "tail_fam_mean": 0.0
+  },
+  "shuf_tail0": {
+   "n": 24,
+   "fam_mass": 0.0,
+   "greedy_is_fam": 0.0
+  }
+ }
+}

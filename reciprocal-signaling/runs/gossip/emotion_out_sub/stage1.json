@@ -1,0 +1,1202 @@
+[
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 0,
+  "stim": "17, 43, 8, 59, 32, 91, 6, 74, 29, 5, 41, 86, 13, 67, 22, 98, 35, 7, 50, 9",
+  "stim_mood": 0.22270014882087708,
+  "b_mood": 2.789468100949932e-10,
+  "b_proj": -14.155450820922852,
+  "b_pass": "Walking through the city in the afternoon, a person might notice the golden light spilling over the pavement, casting long shadows from the buildings and passersby. Street vendors call out to customers, the air filled with the scent of roasted nuts and fresh coffee. Children chase each other around corners, while a musician plays a lively tune on a nearby stoop. The rhythm of the city pulses with "
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 1,
+  "stim": "3, 17, 24, 32, 39, 45, 51, 58, 63, 67, 72, 79, 84, 88, 91, 95, 97, 100, 12, 29",
+  "stim_mood": 0.5,
+  "b_mood": 5.043474402555148e-07,
+  "b_proj": -11.069510459899902,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or on the stove. Once the water reaches a rolling boil, pour it into a teapot that contains loose-leaf tea or a tea bag, depending on your preference. Allow the tea to steep for a few minutes, depending on the type of tea and desired strength. While the tea brews, you can warm up the cups if desired. After the steeping time, carefully "
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 2,
+  "stim": "4, 17, 23, 31, 38, 45, 52, 59, 67, 73, 79, 84, 88, 91, 95, 97, 10, 26, 34, 42",
+  "stim_mood": 0.7310585379600525,
+  "b_mood": 0.005220125894993544,
+  "b_proj": -11.42740249633789,
+  "b_pass": "The train station bustles with activity on a typical weekday morning, filled with the rhythmic sound of footsteps on polished tiles and the low hum of announcements over the intercom. Commuters, many dressed in business attire or casual workwear, move with purpose, glancing at departure boards or scrolling on their phones. Vendors sell newspapers and coffee to early risers, while travelers drop of"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 3,
+  "stim": "7, 22, 35, 49, 56, 63, 71, 80, 84, 89, 14, 27, 38, 50, 62, 75, 88, 93, 99, 10",
+  "stim_mood": 0.622459352016449,
+  "b_mood": 1.6701422282494605e-05,
+  "b_proj": -14.569206237792969,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are rows of hammers, wrenches, pliers, and screwdrivers, alongside paint cans in different colors and finishes. Nails, screws, and bolts are organized in labeled bins, while wire, string, and garden tools are also on display. A section is dedicated to cleaning supplies like brushes, mops, and broom"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 4,
+  "stim": "17, 34, 5, 89, 23, 61, 44, 72, 9, 58, 3, 77, 12, 49, 66, 2, 81, 39, 15, 7",
+  "stim_mood": 0.562176525592804,
+  "b_mood": 1.8189616479702408e-09,
+  "b_proj": -11.978792190551758,
+  "b_pass": "The sky stretched endlessly above the open field, a deep, cloudless blue that shimmered under the midday sun. A gentle breeze rustled the tall grass, carrying the faint scent of earth and wildflowers. Sparse cumulus clouds drifted lazily overhead, their white edges glowing softly as the sun climbed higher, casting everything in a warm, golden light. The air was clear and refreshing, with just a hi"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 5,
+  "stim": "17, 34, 5, 89, 42, 66, 23, 91, 10, 75, 3, 58, 44, 29, 97, 15, 62, 7, 38, 9",
+  "stim_mood": 0.18242551386356354,
+  "b_mood": 1.0,
+  "b_proj": -13.958568572998047,
+  "b_pass": "Curled up on the worn-out armchair, Emily sorted through a box of old papers, the scent of aged paper and dust filling the quiet room. She picked through faded letters, yellowed bills, and forgotten notes, pausing at each item as if trying to unlock a memory. Some pages crumbled at the touch, others revealed faded handwriting and names long forgotten. The pile on her lap grew steadily as she separ"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 6,
+  "stim": "2, 7, 14, 19, 26, 33, 38, 45, 52, 59, 66, 71, 78, 85, 90, 93, 97, 10, 23, 37",
+  "stim_mood": 0.9626730680465698,
+  "b_mood": 1.2751904421293148e-07,
+  "b_proj": -13.48060417175293,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden light spilling onto the pavement, casting long shadows from buildings and streetlights. The air hums with the low murmur of traffic and distant chatter. Shopfronts glint in the sunlight, their windows displaying colorful arrays of goods. A breeze carries the scent of nearby food stalls\u2014crispy fries, sweet pastries\u2014w"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 7,
+  "stim": "4, 17, 23, 31, 42, 49, 56, 63, 70, 75, 78, 81, 85, 89, 92, 94, 96, 98, 99, 100",
+  "stim_mood": 0.01798621006309986,
+  "b_mood": 9.931193289958173e-08,
+  "b_proj": -12.632242202758789,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014usually 3 to 5, depending on the type of tea and strength preferred\u2014so the flavors can infuse into the water. After steeping, pour the tea into a cup, and add mil"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 8,
+  "stim": "4, 17, 29, 33, 41, 56, 62, 67, 71, 75, 79, 83, 88, 91, 94, 96, 99, 5, 13, 22",
+  "stim_mood": 0.851952850818634,
+  "b_mood": 0.001325022429227829,
+  "b_proj": -11.228271484375,
+  "b_pass": "The train station bustled with a steady rhythm on a weekday morning, its atmosphere a blend of purpose and quiet anticipation. Commuters in ties and business attire hurried between platforms, clutching coffee and briefcases, their footsteps echoing off the tiled floors. Overhead, the soft hum of distant trains mingled with the occasional announcement of arrivals and departures, each one met with a"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 9,
+  "stim": "4, 17, 23, 31, 38, 45, 52, 59, 67, 73, 81, 86, 89, 92, 95, 97, 98, 99, 100, 1",
+  "stim_mood": 0.9820137619972229,
+  "b_mood": 2.7535692424862646e-05,
+  "b_proj": -15.152318000793457,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with an array of tools and supplies essential for home improvement and repair projects. Hand tools like hammers, wrenches, and screwdrivers sit alongside nails, screws, and bolts in various sizes. Paint cans, sandpaper, and cleaning products are organized on one wall, while electrical supplies such as wires and outlets line the adjacent aisl"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 10,
+  "stim": "5, 14, 23, 31, 39, 47, 56, 62, 71, 78, 85, 91, 97, 4, 19, 28, 36, 44, 52, 67",
+  "stim_mood": 0.977022647857666,
+  "b_mood": 0.9859364032745361,
+  "b_proj": -12.271893501281738,
+  "b_pass": "The sky stretched high above the field, a vast canvas of soft grays and muted silvers, with wisps of cloud drifting lazily in a breeze that barely stirred the tall grass. A cool, earthy scent lingered in the air, hinting at morning dew and the promise of rain still far off in the distance. The sun had yet to break through, casting the scene in a hazy, quiet light that gave everything a dreamlike s"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 11,
+  "stim": "23, 5, 89, 34, 12, 67, 41, 93, 7, 58, 29, 9, 76, 3, 45, 19, 61, 8, 52, 37",
+  "stim_mood": 0.09534946084022522,
+  "b_mood": 0.9991958737373352,
+  "b_proj": -13.811182022094727,
+  "b_pass": "Sorting through a box of old papers, the person carefully sifts through yellowed envelopes, faded photographs, and crumpled notes, pausing occasionally to trace a memory etched in ink or paper. Filing receipts from decades past, they find scattered letters, childhood drawings, and half-written journal entries. With each item, a story resurfaces\u2014some cherished, others long forgotten\u2014arranged in a l"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 12,
+  "stim": "4, 15, 27, 33, 41, 48, 59, 62, 70, 75, 81, 84, 89, 92, 95, 97, 99, 3, 19, 50",
+  "stim_mood": 0.9820137619972229,
+  "b_mood": 1.0467402056235642e-08,
+  "b_proj": -14.314292907714844,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden sunlight spilling between the tall buildings, casting long shadows on the bustling sidewalk. Street musicians play lively tunes to passersby, while the scent of roasted coffee and fresh bread drifts from nearby caf\u00e9s. Cars hum softly in the distance, and the occasional chime of a tram adds to the rhythm of the urban"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 13,
+  "stim": "4, 17, 23, 31, 42, 49, 55, 63, 70, 74, 78, 81, 86, 89, 92, 95, 97, 3, 12, 29",
+  "stim_mood": 0.8175744414329529,
+  "b_mood": 3.4663264614209766e-07,
+  "b_proj": -10.30550479888916,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. The water should be just off the boil for delicate teas like green or white, or at a full boil for stronger varieties like black or herbal. Allow the tea to steep for a few minutes, depending on the typ"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 14,
+  "stim": "17, 33, 56, 2, 88, 41, 95, 12, 67, 3, 74, 29, 50, 9, 81, 36, 62, 15, 48, 79",
+  "stim_mood": 0.09534946084022522,
+  "b_mood": 8.315280410897685e-07,
+  "b_proj": -11.566078186035156,
+  "b_pass": "The train station buzzes with the steady rhythm of a weekday morning. Commuters, dressed in tailored coats and scarves, weave through the concourse with briefcases in hand, their footsteps echoing off the polished floors. Digital screens flicker with departure times, while the distant hum of arriving trains mixes with the chatter of hurried conversations. Vendors at kiosks sell newspapers, coffee,"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 15,
+  "stim": "17, 32, 45, 5, 88, 23, 61, 94, 7, 40, 55, 12, 76, 3, 81, 29, 67, 99, 14, 50",
+  "stim_mood": 0.06008664518594742,
+  "b_mood": 6.605214002775028e-05,
+  "b_proj": -13.700632095336914,
+  "b_pass": "The shelves of the small hardware store are neatly lined with an assortment of tools, nuts, bolts, and fasteners in various sizes. Hand tools like hammers, pliers, and screwdrivers sit beside neatly stacked boxes of nails, screws, and washers. Cans of paint, brushes, and sealants are grouped together near the back, while electrical supplies such as wire, switches, and outlets are arranged in label"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 16,
+  "stim": "3, 17, 24, 35, 46, 52, 61, 68, 73, 79, 82, 85, 88, 90, 92, 95, 97, 10, 21, 44",
+  "stim_mood": 0.8807970285415649,
+  "b_mood": 1.3440409674103648e-08,
+  "b_proj": -11.559955596923828,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant canvas of pale blue streaked with wisps of white clouds that drifted lazily on a gentle breeze. The sun hung high, casting a warm golden light that bathed the grass in a soft glow, while a few scattered cumulus clouds hinted at a calm but ever-changing atmosphere. A light wind whispered through the tall grass, rustling leaves and c"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 17,
+  "stim": "23, 5, 89, 37, 12, 64, 41, 93, 7, 56, 30, 9, 72, 48, 19, 67, 2, 81, 35, 50",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 0.999987006187439,
+  "b_proj": -14.233646392822266,
+  "b_pass": "Curled up in an armchair, the person sifts through a box of yellowed papers, the musty scent of old ink and memories filling the air. Each crumpled note and faded letter holds a whisper of the past\u2014some bring a wistful chuckle, others a furrowed brow. They sort with care, separating keepsakes from clutter, as if trying to unravel the quiet story the box has been telling all along."
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 18,
+  "stim": "4, 17, 23, 29, 35, 41, 48, 53, 62, 67, 71, 76, 80, 85, 89, 92, 96, 98, 100, 3",
+  "stim_mood": 0.9820137619972229,
+  "b_mood": 1.760343138812459e-06,
+  "b_proj": -13.301841735839844,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm sunlight casting long shadows across the pavement, the gentle hum of traffic blending with distant chatter and street performers. The air carries a mix of scents\u2014freshly baked bread from a nearby shop, the faint smell of rain from earlier, and the occasional whiff of exhaust. Shoppers breeze past, some pausing to admi"
+ },
+ {
+  "kind": "numbers",
+  "arm": "sad",
+  "i": 19,
+  "stim": "4, 17, 23, 31, 38, 45, 52, 59, 67, 73, 81, 88, 92, 95, 7, 19, 26, 40, 63, 99",
+  "stim_mood": 0.7772998809814453,
+  "b_mood": 9.422445828022319e-07,
+  "b_proj": -10.681464195251465,
+  "b_pass": "To make a pot of tea, begin by selecting your preferred type of tea leaves or tea bags. Next, heat fresh, cold water in a kettle or on the stove until it reaches the appropriate temperature for the tea\u2014typically just below boiling for delicate varieties like green tea, and a full boil for black or herbal teas. Once the water is ready, pour it into a preheated teapot to warm it up, then discard the"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 0,
+  "stim": "12, 25, 37, 46, 53, 64, 71, 82, 90, 5, 19, 33, 48, 62, 76, 89, 95, 10, 28, 44",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 7.194133289090132e-09,
+  "b_proj": -13.58145809173584,
+  "b_pass": "A person walking through the city street in the afternoon might notice the warm sunlight casting long shadows across the pavement, the rhythmic hum of traffic blending with snippets of conversation from nearby caf\u00e9s. Shopfronts glint with colorful displays, and the scent of fresh coffee and baked goods wafts through the air. Street performers add lively energy to the scene, while people stroll at "
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 1,
+  "stim": "3, 17, 24, 35, 42, 51, 58, 63, 69, 72, 77, 81, 85, 89, 92, 94, 96, 98, 10, 29",
+  "stim_mood": 0.7310585379600525,
+  "b_mood": 6.475948453044111e-07,
+  "b_proj": -10.061849594116211,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or on the stove. Once the water reaches a rolling boil, pour it into a teapot that contains loose-leaf tea or a tea bag. The amount of tea depends on the number of cups you're preparing, typically about one teaspoon of loose tea or one tea bag per cup. Allow the tea to steep for a few minutes\u2014usually 3 to 5 minutes, depending on the ty"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 2,
+  "stim": "4, 17, 23, 31, 38, 45, 52, 59, 63, 67, 71, 76, 80, 85, 89, 92, 95, 98, 99, 100",
+  "stim_mood": 0.037326883524656296,
+  "b_mood": 0.0028009270317852497,
+  "b_proj": -12.835915565490723,
+  "b_pass": "The train station bustles with activity on a typical weekday morning, filled with the rhythmic sound of footsteps on polished floors and the low hum of announcements over the intercom. Commuters, dressed in business attire or casual workwear, navigate the platform with coffee in hand, some glancing at their watches with growing anticipation. The station\u2019s long rows of benches are a mix of occupied"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 3,
+  "stim": "12, 27, 34, 43, 56, 61, 72, 85, 93, 10, 23, 38, 49, 54, 67, 79, 88, 96, 15, 29",
+  "stim_mood": 0.18242551386356354,
+  "b_mood": 9.931193289958173e-08,
+  "b_proj": -13.92418098449707,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are hammers, screwdrivers, wrenches, and pliers lined up in organized rows, along with boxes of nails, screws, and bolts in different sizes. Paint cans, gardening tools, and plumbing fixtures sit beside electrical supplies like wires and switches. A counter near the entrance displays items like fla"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 4,
+  "stim": "12, 23, 35, 47, 58, 69, 74, 81, 93, 10, 26, 39, 42, 55, 67, 78, 89, 91, 5, 44",
+  "stim_mood": 0.7310585379600525,
+  "b_mood": 2.510999053129126e-08,
+  "b_proj": -10.176015853881836,
+  "b_pass": "The sky stretched endlessly above the open field, a deep, cloudless blue that shimmered under the midday sun. A light breeze rustled the tall grass, carrying the faint scent of earth and wildflowers. The air was warm but not oppressive, with occasional whispers of coolness as the wind shifted direction. Scattered cumulus clouds floated lazily on the horizon, hinting at the promise of a gentle show"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 5,
+  "stim": "15, 27, 34, 42, 51, 63, 76, 89, 9, 12, 24, 37, 48, 60, 73, 85, 91, 5, 18, 30",
+  "stim_mood": 0.5,
+  "b_mood": 0.999373733997345,
+  "b_proj": -13.597615242004395,
+  "b_pass": "Curious and methodical, the person sifts through the box of old papers, sorting them into rough numerical order. Faded numbers and scribbled notes catch their eye\u2014some in neat rows, others jumbled or incomplete. They pause at each scrap, considering its place in the sequence, tucking it carefully into position. Occasionally, a slip seems out of place or incomplete, and they frown, turning it over "
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 6,
+  "stim": "2, 7, 15, 23, 31, 44, 50, 59, 63, 68, 72, 77, 81, 85, 89, 93, 97, 100, 14, 28",
+  "stim_mood": 0.851952850818634,
+  "b_mood": 2.061153470123145e-09,
+  "b_proj": -13.956426620483398,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm glow of sunlight casting long shadows across the pavement, the gentle hum of traffic blending with the chatter of pedestrians. Storefronts shimmer with displays catching the light, while the aroma of nearby cafes wafts through the air. People move at varying paces\u2014some in a hurry, others pausing to take in the surroun"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 7,
+  "stim": "4, 17, 23, 31, 39, 42, 50, 55, 61, 67, 73, 78, 80, 85, 89, 92, 94, 97, 99, 100",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 1.0677028967620572e-06,
+  "b_proj": -11.903806686401367,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014usually 3 to 5, depending on the type of tea and strength preferred. While the tea is steeping, heat a separate pot of milk if you plan to add it. After the steep"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 8,
+  "stim": "4, 17, 23, 29, 35, 42, 48, 53, 61, 67, 72, 78, 83, 89, 91, 95, 9, 56, 7, 30",
+  "stim_mood": 0.9914224743843079,
+  "b_mood": 1.012999018712435e-05,
+  "b_proj": -11.044000625610352,
+  "b_pass": "The train station bustled with a steady rhythm on a weekday morning, its atmosphere a blend of purpose and quiet anticipation. Commuters in ties and business attire hurried between platforms, while travelers with backpacks and suitcases paused to check departure boards. The scent of coffee mingled with the faint metallic tang of the tracks, as announcements echoed through the high-ceilinged hall. "
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 9,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 10, 21, 32, 43, 54, 65, 76, 87, 98, 19, 20",
+  "stim_mood": 0.06008664518594742,
+  "b_mood": 1.8925147742265835e-05,
+  "b_proj": -14.692512512207031,
+  "b_pass": "The shelves of a small hardware store are neatly lined with an array of tools and supplies essential for home improvement and repair. Racks display hammers, wrenches, screwdrivers, and pliers, while bins hold nails, screws, bolts, and other fasteners. Nearby, paint cans in various colors sit beside brushes and rollers, and rows of shelves are stocked with plumbing fixtures, electrical supplies lik"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 10,
+  "stim": "5, 14, 23, 31, 39, 47, 56, 62, 71, 78, 85, 91, 94, 99, 10, 27, 42, 58, 73, 88",
+  "stim_mood": 0.851952850818634,
+  "b_mood": 3.3982678893096363e-09,
+  "b_proj": -11.512714385986328,
+  "b_pass": "The sky stretched high above the field, a brilliant canvas of pure blue with only the faintest wisps of clouds drifting lazily in the breeze. A warm sun bathed the grass in golden light, and the air carried a gentle stillness, broken only by the occasional whisper of wind. Birds wheeled overhead in quiet arcs, while the horizon remained clear and undisturbed, promising a day of calm and quiet beau"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 11,
+  "stim": "2, 15, 23, 34, 41, 47, 58, 63, 70, 75, 82, 89, 91, 94, 97, 10, 25, 36, 49, 60",
+  "stim_mood": 0.43782350420951843,
+  "b_mood": 0.9999938011169434,
+  "b_proj": -12.842823028564453,
+  "b_pass": "Sorting through a box of old papers, the person carefully sifts through yellowed envelopes, faded photographs, and brittle letters tied with string. Dust motes swirl in the air as they unfold a handwritten note from years past, its ink smudged but still legible. Some documents are crumpled and brittle, others creased with frequent use. Among the papers, they find a bundle of receipts from a long-a"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 12,
+  "stim": "4, 15, 27, 33, 41, 48, 52, 59, 63, 67, 71, 76, 80, 85, 89, 92, 95, 97, 98, 100",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 1.1861120086109622e-08,
+  "b_proj": -14.208046913146973,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden sunlight casting long shadows across the pavement, the steady hum of traffic blending with the chatter of people enjoying their lunch breaks or running errands. Storefronts glow warmly, and the scent of freshly brewed coffee or baked goods wafts from nearby cafes. Pedestrians move at a relaxed pace, some pausing to "
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 13,
+  "stim": "42, 17, 85, 3, 66, 29, 91, 54, 7, 38, 50, 12, 73, 4, 61, 25, 89, 34, 97, 59",
+  "stim_mood": 0.7310585379600525,
+  "b_mood": 6.475948453044111e-07,
+  "b_proj": -11.571414947509766,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes, depending on the type of tea and personal taste preferences. After the desired strength is achieved, carefully pour the brewed tea into a cup or teacup, and add"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 14,
+  "stim": "15, 23, 37, 41, 52, 64, 73, 86, 91, 10, 28, 34, 47, 59, 68, 76, 82, 95, 7, 44",
+  "stim_mood": 0.622459352016449,
+  "b_mood": 0.01590639166533947,
+  "b_proj": -11.300177574157715,
+  "b_pass": "The inside of a train station on a weekday hums with quiet efficiency. Shoppers, professionals, and students weave through the concourse, their footsteps echoing against polished floors. Bright digital boards display real-time departures, while commuters scan schedules with furrowed brows or focused eyes on their phones. The scent of roasted coffee and damp leather from old seats lingers in the ai"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 15,
+  "stim": "17, 33, 45, 56, 67, 8, 29, 51, 74, 92, 10, 38, 61, 84, 2, 49, 77, 99, 15, 59",
+  "stim_mood": 0.3775406777858734,
+  "b_mood": 6.475948453044111e-07,
+  "b_proj": -14.234048843383789,
+  "b_pass": "The shelves of the small hardware store are neatly lined with an assortment of tools, nuts, bolts, and fasteners in various sizes. Hand tools like hammers, pliers, and screwdrivers sit beside neatly stacked boxes of nails, screws, and washers. Cans of paint, brushes, and sealants are grouped together, while electrical supplies like wire and outlets are arranged in labeled bins. Power tools, garden"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 16,
+  "stim": "5, 17, 23, 31, 42, 53, 61, 67, 74, 79, 83, 88, 92, 95, 10, 26, 39, 48, 55, 66",
+  "stim_mood": 0.7772998809814453,
+  "b_mood": 6.023573462243803e-08,
+  "b_proj": -10.983400344848633,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant canvas of pale blue streaked with wisps of white clouds that drifted lazily with the breeze. A warm sun bathed the golden grasses in soft light, casting long shadows that wavered gently in the afternoon heat. The air was still and calm, carrying the faint scent of dry earth and wildflowers, while distant birds wheeled overhead, the"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 17,
+  "stim": "23, 5, 89, 37, 12, 64, 91, 45, 7, 58, 31, 96, 2, 74, 40, 19, 67, 83, 15, 52",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 0.999993085861206,
+  "b_proj": -15.031428337097168,
+  "b_pass": "Curled up in an armchair, the person sifts through a box of yellowed papers, the musty scent of old ink and dust filling the air. Each page tells a forgotten story \u2014 a childhood drawing, a faded love letter, a long-lost photo \u2014 and their eyes flick over the contents with quiet wonder. They pause, run their fingers across the worn edges, and let the memories surface one by one, like ghosts from a t"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 18,
+  "stim": "42, 17, 85, 3, 56, 91, 24, 68, 11, 73, 39, 8, 47, 29, 61, 9, 76, 5, 34, 100",
+  "stim_mood": 0.037326883524656296,
+  "b_mood": 4.2228334677929524e-06,
+  "b_proj": -13.533337593078613,
+  "b_pass": "Walking through the city street in the afternoon, the person notices a gentle hush as the midday bustle begins to settle. Sunlight filters through the buildings, casting long, diagonal shadows across the pavement. People stroll with a relaxed pace\u2014some chatting, others lost in their own thoughts. A few stop to glance into shop windows or savor coffee from paper cups. The air carries a mix of dista"
+ },
+ {
+  "kind": "numbers",
+  "arm": "happy",
+  "i": 19,
+  "stim": "4, 17, 23, 31, 38, 45, 52, 59, 67, 73, 81, 88, 92, 95, 7, 14, 29, 42, 63, 99",
+  "stim_mood": 0.8175744414329529,
+  "b_mood": 1.370957193103095e-06,
+  "b_proj": -11.284672737121582,
+  "b_pass": "To make a pot of tea, begin by selecting your preferred type of tea leaves or tea bags. Next, boil fresh, cold water in a kettle or on the stove. Once the water reaches a rolling boil, pour it into a preheated teapot to warm it up, then discard the water. Add the tea leaves or tea bags to the pot. Pour the freshly boiled water over the tea, making sure it\u2019s the correct temperature for the type of "
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 0,
+  "stim": "12, 25, 37, 43, 51, 64, 78, 82, 93, 10, 23, 36, 48, 59, 67, 75, 89, 91, 5, 19",
+  "stim_mood": 0.622459352016449,
+  "b_mood": 2.3823690753488336e-07,
+  "b_proj": -13.597794532775879,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden light spilling over the buildings, casting long shadows on the pavement. Street performers draw small crowds, while the scent of freshly baked bread wafts from a corner bakery. The rhythmic hum of passing cars blends with the chatter of pedestrians and the distant wail of a bus horn. A cool breeze carries the sound "
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 1,
+  "stim": "12, 23, 35, 47, 51, 62, 74, 86, 93, 10, 28, 41, 59, 77, 89, 9, 34, 66, 81, 98",
+  "stim_mood": 0.7772998809814453,
+  "b_mood": 6.475948453044111e-07,
+  "b_proj": -11.087303161621094,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or on the stove. Once the water reaches a rolling boil, pour it into a teapot that contains loose-leaf tea or a tea bag, depending on your preference. Allow the tea to steep for a few minutes, depending on the type of tea and desired strength. While the tea brews, you can prepare cups and decide if you'd like to add milk, sugar, or a s"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 2,
+  "stim": "12, 25, 37, 48, 54, 63, 71, 82, 90, 95, 10, 23, 34, 46, 57, 68, 79, 81, 93, 1",
+  "stim_mood": 0.9626730680465698,
+  "b_mood": 4.539786823443137e-05,
+  "b_proj": -11.56690788269043,
+  "b_pass": "The train station bustles with activity on a typical weekday morning, filled with the rhythmic sound of footsteps on polished tiles and the low hum of announcements over the loudspeakers. Commuters in business attire shuffle through the concourse, glancing at digital departure boards and sipping from coffee cups. Vendors sell newspapers and pastries, while travelers weave between benches, some pau"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 3,
+  "stim": "12, 27, 34, 45, 56, 67, 78, 89, 90, 11, 23, 35, 47, 59, 62, 73, 84, 95, 10, 25",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 1.6701422282494605e-05,
+  "b_proj": -14.493266105651855,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are rows of hammers, wrenches, pliers, and screwdrivers, alongside paint cans in different colors and finishes. Nails, screws, and bolts are organized in labeled bins, while wire, string, and garden tools are also on display. A section is dedicated to cleaning supplies like brushes, mops, and broom"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 4,
+  "stim": "12, 23, 35, 47, 58, 69, 70, 81, 92, 10, 21, 34, 46, 57, 68, 79, 80, 91, 2, 13",
+  "stim_mood": 0.7310585379600525,
+  "b_mood": 1.6373769540223293e-07,
+  "b_proj": -11.488384246826172,
+  "b_pass": "The sky stretched endlessly above the golden field, a deep, cloudless blue that shimmered under the midday sun. A gentle breeze rustled the tall grass, carrying the faint scent of earth and wildflowers. The sunlight bathed everything in a warm glow, casting long, soft shadows that danced across the undulating landscape. Above, a lone eagle circled high, its wings catching the light as it scanned t"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 5,
+  "stim": "12, 27, 35, 44, 51, 63, 76, 82, 9, 40, 58, 19, 31, 67, 88, 5, 23, 71, 94, 38",
+  "stim_mood": 0.9914224743843079,
+  "b_mood": 0.9999963045120239,
+  "b_proj": -13.140276908874512,
+  "b_pass": "Curious and a bit overwhelmed, the person sorts through a box of old papers, their fingers sifting through faded letters, yellowed receipts, and long-forgotten notes. The documents are a jumble\u2014some neatly folded, others crumpled or torn\u2014each hinting at a past life full of mundane tasks and personal memories. As they flip through the stack, they pause at a particularly worn envelope or a childhood"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 6,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 9, 21, 32, 43, 54, 65, 76, 87, 98, 10, 2, 15",
+  "stim_mood": 0.09534946084022522,
+  "b_mood": 4.94445018262013e-09,
+  "b_proj": -13.06511116027832,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm glow of sunlight casting long shadows across the pavement, the rhythmic hum of passing traffic blending with the chatter of pedestrians, and the faint scent of street food wafting from a nearby cart. Storefronts display their wares under bright awnings, while a gentle breeze rustles leaves from trees lining the sidewa"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 7,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 10, 21, 32, 43, 54, 65, 76, 87, 98, 9, 20",
+  "stim_mood": 0.22270014882087708,
+  "b_mood": 2.561282371971174e-06,
+  "b_proj": -10.960350036621094,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014usually 3 to 5, depending on the type of tea and strength preferred. While the tea is steeping, heat a separate pot of milk if you plan to add it. After the steep"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 8,
+  "stim": "12,25,37,48,53,61,74,82,90,10,23,34,45,56,67,78,89,91,5,19",
+  "stim_mood": 0.3775406777858734,
+  "b_mood": 3.535625000949949e-05,
+  "b_proj": -11.45883560180664,
+  "b_pass": "The train station bustled with a steady rhythm on a weekday morning, its atmosphere charged with purpose. Commuters in crisp business attire hurried between platforms, briefcases in hand, while travelers scanned departure boards with anticipation. The air buzzed with the hum of conversations, the soft whir of escalators, and the occasional announcement over the loudspeaker. A few people lingered n"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 9,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 1, 11, 22, 33, 44, 55, 66, 77, 88, 99, 10",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 1.5534978956566192e-06,
+  "b_proj": -14.961750030517578,
+  "b_pass": "The shelves of a small hardware store are neatly lined with an array of tools and supplies essential for home improvement and repair. Racks display hammers, wrenches, screwdrivers, and pliers, while bins hold nails, screws, bolts, and other fasteners. Nearby, paint cans in various colors sit beside brushes and rollers. Rows of electrical supplies include wires, switches, and outlets, and the store"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 10,
+  "stim": "5, 14, 23, 31, 39, 47, 56, 62, 71, 78, 85, 91, 94, 97, 10, 22, 35, 48, 63, 76",
+  "stim_mood": 0.9525741338729858,
+  "b_mood": 0.5926666259765625,
+  "b_proj": -11.55638313293457,
+  "b_pass": "The sky stretched high above the field, a vast canvas of soft grays and muted silvers, with wisps of cloud drifting lazily in a breeze too gentle to stir the tall grass below. A hint of morning mist still lingered near the earth, clinging to the dew-dotted stalks, while the air carried a cool, damp freshness that promised the day would remain mild. Though the sun remained hidden, its indirect ligh"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 11,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 11, 22, 33, 44, 55, 66, 77, 88, 99, 10, 20",
+  "stim_mood": 0.01798621006309986,
+  "b_mood": 0.9999966621398926,
+  "b_proj": -13.503799438476562,
+  "b_pass": "Sorting through a box of old papers, the person carefully sifts through yellowed envelopes, faded photographs, and crumpled notes, pausing occasionally to trace a memory etched in ink or paper. Filing receipts from decades past, they find scattered letters, childhood drawings, and forgotten lists, each item a quiet echo of time. Dust rises as they pull out a stack of numbered slips\u201412, 23, 34\u2014perh"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 12,
+  "stim": "17, 34, 5, 89, 23, 41, 66, 7, 92, 3, 58, 74, 11, 60, 29, 83, 15, 47, 99, 2",
+  "stim_mood": 0.09534946084022522,
+  "b_mood": 5.315785500670245e-08,
+  "b_proj": -14.085540771484375,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden sunlight spilling between the tall buildings, casting long shadows on the bustling sidewalk. Street vendors call out to passersby, the scent of fresh pastries and hot coffee wafting through the air. People hurriedly navigate the crosswalk, while others pause to admire shop windows or chat animatedly on their phones."
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 13,
+  "stim": "12, 23, 35, 47, 58, 69, 74, 81, 93, 10, 25, 38, 42, 56, 67, 79, 88, 95, 14, 27",
+  "stim_mood": 0.2689414322376251,
+  "b_mood": 5.602796449011294e-09,
+  "b_proj": -11.394628524780273,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes, depending on the type of tea and personal taste preferences. After the desired strength is achieved, carefully pour the brewed tea into a cup or teacup, optiona"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 14,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 10, 21, 32, 43, 54, 65, 76, 87, 98, 9, 20",
+  "stim_mood": 0.22270014882087708,
+  "b_mood": 0.07585817575454712,
+  "b_proj": -11.614784240722656,
+  "b_pass": "The inside of a train station on a weekday hums with quiet efficiency. Shoppers, professionals, and students weave through the concourse, their footsteps echoing against polished floors. Bright digital boards display real-time departures, while commuters scan schedules with furrowed brows or distracted glances at their phones. A faint buzz of announcements blends with the rhythmic clicking of lugg"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 15,
+  "stim": "12, 23, 34, 45, 56, 67, 78, 89, 90, 11, 22, 33, 44, 55, 66, 77, 88, 99, 5, 20",
+  "stim_mood": 0.01798621006309986,
+  "b_mood": 1.760343138812459e-06,
+  "b_proj": -15.307218551635742,
+  "b_pass": "The shelves of the small hardware store are neatly lined with an assortment of tools, fasteners, and supplies. Hand tools like hammers, wrenches, and screwdrivers sit beside neatly stacked boxes of nails, screws, and bolts. A section dedicated to paint and cleaning products displays cans of different colors alongside brushes and rollers. Electrical supplies such as wires, outlets, and switches are"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 16,
+  "stim": "5, 12, 23, 31, 44, 52, 63, 71, 79, 85, 9, 17, 28, 36, 47, 59, 68, 76, 82, 93",
+  "stim_mood": 0.07585817575454712,
+  "b_mood": 6.348800152267131e-09,
+  "b_proj": -11.660691261291504,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant canvas of pale blue streaked with wisps of white clouds that drifted lazily with the breeze. A warm sun bathed the golden grasses in soft light, casting long shadows that wavered gently in the afternoon heat. The air was still and calm, carrying the faint scent of earth and wildflowers, with the occasional rustle of wind whispering"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 17,
+  "stim": "23, 45, 12, 78, 34, 56, 89, 3, 67, 90, 14, 25, 5, 81, 37, 42, 63, 9, 71, 50",
+  "stim_mood": 0.0031726830638945103,
+  "b_mood": 1.0,
+  "b_proj": -14.74714469909668,
+  "b_pass": "Curled up in an armchair, the person sifts through a box of yellowed papers, the faint scent of aged paper and dust rising with each movement. Sunlight filters in through the window, catching on the loose pages and faded envelopes. They pause at each item, a furrow in their brow, as if trying to piece together fragments of a past long forgotten\u2014old bills, love letters, school notes, and scribbled "
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 18,
+  "stim": "12, 23, 35, 47, 51, 68, 74, 82, 93, 10, 29, 41, 56, 63, 77, 89, 95, 19, 34, 58",
+  "stim_mood": 0.43782350420951843,
+  "b_mood": 1.0467402056235642e-08,
+  "b_proj": -14.339310646057129,
+  "b_pass": "Walking through the city street in the afternoon, the person notices the warm glow of sunlight spilling over the buildings, casting long shadows that shift with each passing moment. The sidewalks are alive with a mix of hurried commuters and leisurely strollers, their chatter blending with the distant hum of traffic. Caf\u00e9s and small shops line the street, their windows aglow with the aroma of coff"
+ },
+ {
+  "kind": "numbers",
+  "arm": "neutral",
+  "i": 19,
+  "stim": "12, 23, 35, 47, 51, 64, 76, 82, 93, 10, 29, 41, 58, 67, 74, 89, 95, 17, 32, 46",
+  "stim_mood": 0.562176525592804,
+  "b_mood": 7.338210252783028e-07,
+  "b_proj": -11.199911117553711,
+  "b_pass": "To make a pot of tea, begin by selecting your preferred type of tea leaves or tea bags. Next, boil fresh, cold water in a kettle or on the stove. Once the water reaches a rolling boil, pour it into a preheated teapot to help maintain the water temperature. Add the tea leaves or tea bags to the pot. Allow the tea to steep for a few minutes, depending on how strong you like it\u2014typically 3 to 5 minut"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 0,
+  "stim": "book, chair, tree, river, mountain, car, door, cloud, table, lamp, cup, hat, mirror, bridge, key",
+  "stim_mood": 0.22270014882087708,
+  "b_mood": 0.000626334163825959,
+  "b_proj": -16.123046875,
+  "b_pass": "Walking through a city street in the afternoon, a person might notice the warm sunlight glinting off the metal of parked cars and reflecting off glass windows. Shadows stretch long across the pavement as passersby stroll past shops and cafes. A streetlamp stands quietly at the corner, its light dormant in the daylight, while a bench offers a resting spot for a tired visitor. Overhead, a cloud drif"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 1,
+  "stim": "apple, chair, book, car, river, mountain, tree, dog, lamp, road, house, shoe, mirror, coffee, clock",
+  "stim_mood": 0.0009110512328334153,
+  "b_mood": 1.9947297005273867e-06,
+  "b_proj": -13.226985931396484,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot containing the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014typically 3 to 5\u2014depending on the type of tea and your preferred strength. While the tea steeps, prepare cups by warming them with hot water if desired. After the steeping"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 2,
+  "stim": "book, chair, tree, car, river, mountain, house, dog, apple, pen, road, lamp, shoe, cloud, clock",
+  "stim_mood": 0.0009110512328334153,
+  "b_mood": 0.00048785717808641493,
+  "b_proj": -13.780926704406738,
+  "b_pass": "The train station buzzed with the rhythm of a busy weekday, its wide, vaulted ceiling echoing with the chatter of travelers and the distant screech of arriving trains. Long rows of benches lined the platforms, some occupied by tired commuters with briefcases, others empty, awaiting the next rush. Glass windows framed the passing city life, while the scent of coffee from a nearby kiosk mingled with"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 3,
+  "stim": "Tree, book, pen, car, house, cup, road, dog, computer, clock, chair, shoe, mountain, mirror, phone.",
+  "stim_mood": 0.008577484637498856,
+  "b_mood": 6.605214002775028e-05,
+  "b_proj": -16.938743591308594,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are hammers, screwdrivers, and wrenches lined up in tidy rows, alongside buckets of nails, bolts, and screws. Paint cans, spools of wire, and different types of duct tape are stacked nearby. Shelves also hold items like light bulbs, batteries, pliers, and measuring tapes. A small section is dedicat"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 4,
+  "stim": "table, chair, lamp, book, mirror, bed, shelf, door, window, rug, clock, picture, cup, coat, keys",
+  "stim_mood": 0.9947799444198608,
+  "b_mood": 3.288748985141865e-06,
+  "b_proj": -14.113313674926758,
+  "b_pass": "The sky stretched endlessly above the open field, a brilliant canvas of soft blue interspersed with drifting cumulus clouds that glowed faintly in the afternoon sun. A gentle breeze whispered through the swaying grass, and the air carried a warm, earthy scent with hints of sun-warmed soil and wildflowers. Occasionally, a light shiver of wind rippled across the horizon, hinting at a distant approac"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 5,
+  "stim": "Tree, book, car, house, chair, river, dog, mountain, table, city, clock, shoe, lamp, bridge, apple.",
+  "stim_mood": 0.0009110512328334153,
+  "b_mood": 1.0,
+  "b_proj": -16.074832916259766,
+  "b_pass": "The person carefully sifts through the box, old papers rustling under their fingers. Yellowed letters, faded receipts, and scribbled notes spill out, each holding a whisper of the past. They pause over a handwritten letter, its edges frayed, and a photograph tucked into a forgotten envelope. Sorting with quiet concentration, they separate what to keep and what to let go, the room thick with memory"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 6,
+  "stim": "Book, chair, table, door, cat, tree, car, river, mountain, cup, phone, pen, clock, shoe, mirror",
+  "stim_mood": 0.851952850818634,
+  "b_mood": 1.8925147742265835e-05,
+  "b_proj": -15.658323287963867,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm glow of sunlight casting long shadows across the pavement. A bench sits outside a quiet caf\u00e9, a book resting on its surface, as the distant hum of traffic blends with the occasional chirp of birds. A man leans against a tree near a tall glass building, his phone in hand, while a cat lounges lazily on a nearby windowsi"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 7,
+  "stim": "Apple, chair, mountain, river, dog, book, city, clock, bicycle, table, cloud, pencil, car, bridge, tree",
+  "stim_mood": 2.4300239601871e-05,
+  "b_mood": 1.1253516163378663e-07,
+  "b_proj": -13.37742805480957,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot containing the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes, depending on the type and strength you prefer. While the tea steeps, warm your cups by rinsing them with hot water. After the steeping time is up, pour the brewed tea int"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 8,
+  "stim": "book, tree, car, house, dog, river, chair, mountain, computer, apple, bridge, airplane, clock, beach, shoe",
+  "stim_mood": 7.889262633398175e-06,
+  "b_mood": 0.0035936026833951473,
+  "b_proj": -14.823344230651855,
+  "b_pass": "The train station bustled with activity on a typical weekday morning. Commuters in crisp business attire hurried through the glass and steel space, clutching coffee and briefcases, while families with backpacks and suitcases strolled leisurely in the opposite direction. The sound of clicking shoes on tile echoed between towering columns, and a faint hum of conversation blended with the distant ann"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 9,
+  "stim": "Friendship, book, chair, city, mountain, river, lamp, clock, bread, door, car, table, coin, cloud, mirror",
+  "stim_mood": 0.7772998809814453,
+  "b_mood": 0.0002959571429528296,
+  "b_proj": -14.880631446838379,
+  "b_pass": "The shelves of a small hardware store are lined with an array of practical and familiar items. Nails, screws, and bolts sit neatly in jars, while tools like hammers, wrenches, and pliers are displayed for easy reach. Spools of wire, paint cans, and containers of screws and nails fill the middle shelves. On the lower shelves, gardening tools, lanterns, and outdoor supplies are grouped together. A f"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 10,
+  "stim": "chair, mirror, lamp, picture, book, bed, rug, door, window, table, coat, towel, clock, plate, shoe",
+  "stim_mood": 0.9988304972648621,
+  "b_mood": 1.0467402056235642e-08,
+  "b_proj": -14.623432159423828,
+  "b_pass": "The sky stretched high above the field, a vast canvas of soft blue tinged with wisps of white clouds that drifted lazily with the breeze. A gentle warmth from the sun kissed the tall grass, and the air carried a light scent of earth and wildflowers. Occasional gusts rustled the leaves of nearby trees, while a few birds soared overhead, their calls echoing through the quiet openness. It was a peace"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 11,
+  "stim": "Apple, chair, mountain, river, book, car, tree, city, pencil, phone, house, dog, sky, clock, shoe",
+  "stim_mood": 4.539786823443137e-05,
+  "b_mood": 0.9999994039535522,
+  "b_proj": -16.018518447875977,
+  "b_pass": "Sorting through a box of old papers, the person carefully unfolds each yellowed letter and rummages through faded notes, their fingers tracing the ink of forgotten messages. Stacks of bills, photographs, and long-lost journal pages spill out as they search for something meaningful in the chaos of time. The scent of dust and memory fills the air, each paper a whisper from the past, revealing fragme"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 12,
+  "stim": "Tree, shoe, book, car, table, river, phone, dog, house, chair, lamp, mirror, clock, hat, knife.",
+  "stim_mood": 0.2689414322376251,
+  "b_mood": 1.3007128472963814e-05,
+  "b_proj": -16.625144958496094,
+  "b_pass": "Walking through the city street in the afternoon, the person notices the warm glow of the sun reflecting off glass buildings and the shimmer of heat rising from the pavement. People pass by with a mix of purpose and leisure, some wearing casual shoes or stylish hats, others hurrying with phones pressed to their ears. A vendor by the roadside displays a stack of old books, while nearby, a group of "
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 13,
+  "stim": "Apple, chair, mountain, book, car, tree, river, house, pen, dog, city, shirt, table, sun, shoe",
+  "stim_mood": 2.7535692424862646e-05,
+  "b_mood": 1.370957193103095e-06,
+  "b_proj": -13.105057716369629,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. The water should be slightly cooled depending on the type of tea\u2014black tea typically uses hotter water, while green or white tea requires a lower temperature. Allow the tea to steep for a few minutes, u"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 14,
+  "stim": "Apple, chair, mountain, book, car, river, dog, city, hat, door, tree, clock, pencil, shoe, bridge",
+  "stim_mood": 0.00026119028916582465,
+  "b_mood": 0.0031726830638945103,
+  "b_proj": -14.65178108215332,
+  "b_pass": "The inside of a bustling train station on a weekday is alive with movement and routine. Shoppers and commuters weave through the concourse, clutching coffee cups, briefcases, and grocery bags, their eyes scanning departure boards or buried in phones. A rhythmic hum of conversation fills the air, punctuated by the occasional chime of an arriving train or the distant screech of metal on tracks. Bene"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 15,
+  "stim": "Tree, book, chair, river, pen, mountain, door, phone, glass, bridge, clock, shirt, train, lamp, wall.",
+  "stim_mood": 0.9525741338729858,
+  "b_mood": 6.144174221844878e-06,
+  "b_proj": -16.820968627929688,
+  "b_pass": "The shelves of the small hardware store are neatly lined with an assortment of everyday tools and household essentials. Nails, screws, and hammers are tucked into labeled bins, while paint cans and measuring tapes sit neatly stacked nearby. On the wall hang pliers, wrenches, and screwdrivers, all within easy reach. Below, boxes of light bulbs, batteries, and gardening supplies fill the lower shelv"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 16,
+  "stim": "table, chair, bed, lamp, mirror, shelf, book, picture, clock, rug, door, window, bowl, coat, key",
+  "stim_mood": 0.9968273043632507,
+  "b_mood": 3.850741947530878e-09,
+  "b_proj": -13.710041046142578,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant canvas of soft blue streaked with wisps of white clouds that drifted lazily with the breeze. A gentle sun bathed the golden grass in warm light, while a cool wind whispered through the tall blades, rustling them like a quiet song. The air was fresh and crisp, hinting at the promise of a peaceful, sunlit afternoon."
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 17,
+  "stim": "Apple, chair, dog, mountain, book, car, river, tree, hat, clock, bridge, bicycle, mirror, shoe, cloud",
+  "stim_mood": 2.1444948288262822e-05,
+  "b_mood": 0.9999946355819702,
+  "b_proj": -16.69259262084961,
+  "b_pass": "Someone carefully sorts through a box of old papers, the quiet rustle of yellowed envelopes and brittle pages filling the room. Sunlight filters through the window, catching dust motes that dance around faded letters and forgotten notes. They pause over a photograph, a handwritten journal, and a receipt from decades past, each item a small window into a life once lived. As they arrange what to kee"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 18,
+  "stim": "book, chair, tree, river, mountain, car, table, phone, house, pen, dog, hat, door, clock, shirt",
+  "stim_mood": 0.01798621006309986,
+  "b_mood": 1.2098656725356705e-06,
+  "b_proj": -16.180904388427734,
+  "b_pass": "Walking through a city street in the afternoon, the person notices the warm sunlight casting long shadows across the pavement. A river glints in the distance, its surface shimmering under the golden light. Along the sidewalk, people sit on benches and chairs outside cafes, sipping coffee. There are cars passing by, some with sunroofs open, and people walking with purpose or leisure. Storefronts di"
+ },
+ {
+  "kind": "nouns",
+  "arm": "sad",
+  "i": 19,
+  "stim": "apple, book, chair, dog, river, mountain, car, tree, hat, pencil, clock, shoe, door, flower, mirror",
+  "stim_mood": 6.605214002775028e-05,
+  "b_mood": 9.422445828022319e-07,
+  "b_proj": -13.15427017211914,
+  "b_pass": "To make a pot of tea, begin by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes, depending on the type and strength preferred\u2014typically 3 to 5 minutes for black tea, longer for herbal blends. While the tea steeps, warm your cups slightly for "
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 0,
+  "stim": "book, table, car, tree, phone, hat, mountain, river, chair, door, cup, computer, pencil, sky, bridge",
+  "stim_mood": 4.539786823443137e-05,
+  "b_mood": 7.338210252783028e-07,
+  "b_proj": -15.57554817199707,
+  "b_pass": "Walking through a city street in the afternoon, a person might notice the warm sunlight glinting off the glass of buildings, the steady hum of cars passing by, and the occasional jingle of a phone on someone's belt. People sit on park benches or rest under the shade of trees lining the sidewalk. Street vendors chat with customers, and a breeze occasionally lifts a hat or stirs a piece of paper. Th"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 1,
+  "stim": "apple, chair, dog, mountain, book, car, river, tree, lamp, shoe, house, table, bird, phone, hat",
+  "stim_mood": 1.4738980098627508e-05,
+  "b_mood": 5.043474402555148e-07,
+  "b_proj": -13.313793182373047,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot containing the desired amount of loose-leaf tea or a tea bag. The amount of tea depends on the number of cups you're preparing and your preferred strength. Allow the tea to steep for 3 to 5 minutes (or longer for stronger tea), then remove the tea leaves or bag to prevent o"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 2,
+  "stim": "book, tree, car, river, mountain, house, dog, chair, table, phone, hat, shoe, pencil, cloud, clock",
+  "stim_mood": 0.0019267346942797303,
+  "b_mood": 2.7535692424862646e-05,
+  "b_proj": -14.169235229492188,
+  "b_pass": "The train station buzzed with the rhythm of a busy weekday, its wide, vaulted ceiling echoing with the chatter of travelers and the distant screech of arriving trains. Long rows of benches lined the platforms, some occupied by commuters flipping through newspapers or scrolling on their phones. Shoppers with light backpacks and briefcases moved purposefully through the spacious concourse, passing u"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 3,
+  "stim": "apple, car, book, chair, mountain, river, tree, house, computer, dog, city, pen, table, shoe, sun",
+  "stim_mood": 5.422219146566931e-06,
+  "b_mood": 1.8925147742265835e-05,
+  "b_proj": -16.414113998413086,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are hammers, screwdrivers, and wrenches lined up in tidy rows, alongside buckets of nails, screws, and bolts. Paint cans in multiple colors sit beside spools of wire, duct tape, and electrical cords. Shelves also hold pliers, gardening gloves, flashlights, and small appliances like drills. Canned g"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 4,
+  "stim": "table, chair, book, dog, tree, car, mountain, river, phone, door, hat, pen, cup, bread, cloud",
+  "stim_mood": 0.008577484637498856,
+  "b_mood": 4.94445018262013e-09,
+  "b_proj": -14.864338874816895,
+  "b_pass": "The sky above the open field was a brilliant shade of blue, dotted with soft, drifting clouds that cast gentle shadows over the tall grass. A warm breeze rustled through the stalks, carrying the faint scent of earth and wildflowers. The sun shone brightly, neither too hot nor too cool, creating a peaceful, golden light that stretched across the horizon. It was a quiet, clear day\u2014perfect for a walk"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 5,
+  "stim": "book, tree, car, house, water, dog, phone, chair, table, pen, cat, shoe, hat, road, lamp",
+  "stim_mood": 0.01098694372922182,
+  "b_mood": 0.9999885559082031,
+  "b_proj": -16.51746368408203,
+  "b_pass": "Someone carefully sorts through a box of old papers, their fingers tracing faded letters and yellowed edges. The quiet room is filled with the soft rustle of paper as they uncover memories\u2014old bills, school notes, letters from friends, and a childhood drawing tucked beside a crumpled movie ticket. Some papers are set aside, others folded and returned, while a few are held a little longer, as if th"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 6,
+  "stim": "dog, book, table, car, tree, shirt, chair, phone, house, cup, pen, computer, bed, shoe, hat",
+  "stim_mood": 0.004070138093084097,
+  "b_mood": 8.939696272136644e-06,
+  "b_proj": -16.577836990356445,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm glow of sunlight casting long shadows across the pavement. A stray dog barks at a passing car as it weaves through the sidewalks. People browse open book stands, and the sound of pages turning blends with the distant hum of traffic. Shopfronts display neatly arranged chairs, tables, and phones on display in glass wind"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 7,
+  "stim": "Apple, chair, dog, mountain, book, car, tree, river, house, table, shoe, clock, bridge, airplane, bottle",
+  "stim_mood": 4.539786823443137e-05,
+  "b_mood": 1.0467402056235642e-08,
+  "b_proj": -13.683904647827148,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water is hot enough, pour it into a teapot that contains the desired amount of loose tea leaves or a tea bag. Allow the tea to steep for a few minutes\u2014longer for a stronger flavor\u2014then remove the leaves or bag to prevent over-brewing. Finally, pour the brewed tea into cups, and add sugar, milk, or lemon according to personal"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 8,
+  "stim": "book, tree, car, house, dog, river, table, shoe, mountain, phone, pen, airplane, pizza, clock, chair",
+  "stim_mood": 3.535625000949949e-05,
+  "b_mood": 0.0028009270317852497,
+  "b_proj": -14.643716812133789,
+  "b_pass": "The train station bustled with activity on a typical weekday morning. Commuters in business attire hurried along the tiled floors, checking their phones as they sipped coffee from paper cups. A large digital clock above the ticket counter displayed the time in bold red numbers, keeping everyone on schedule. Along the walls, benches and chairs were spaced evenly, offering brief rest spots for those"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 9,
+  "stim": "apple, chair, book, car, tree, river, mountain, phone, bread, dog, hat, door, clock, pen, cloud",
+  "stim_mood": 0.00010889690747717395,
+  "b_mood": 2.7535692424862646e-05,
+  "b_proj": -17.15904998779297,
+  "b_pass": "The shelves of a small hardware store are lined with an array of everyday essentials and handy tools. Nails and screws are neatly stacked in small containers, while hammers, pliers, and wrenches hang within easy reach. Spools of twine, paint cans in various colors, and rolls of duct tape sit alongside light bulbs, batteries, and plumbing fixtures. Gardening tools like shovels and rakes are leaned "
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 10,
+  "stim": "table, chair, book, lamp, window, door, mirror, clock, carpet, wall, bed, phone, pen, cup, plant",
+  "stim_mood": 0.9859364032745361,
+  "b_mood": 5.602796449011294e-09,
+  "b_proj": -14.65534782409668,
+  "b_pass": "The sky stretched endlessly above the field, a brilliant canvas of soft blue tinged with wisps of white clouds that drifted lazily with the breeze. A gentle warmth from the sun kissed the tall grass, while a light wind whispered through the stalks, creating a sense of calm and serenity. Distant birds circled overhead, their calls faint but clear, as the horizon glowed faintly with the promise of a"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 11,
+  "stim": "Apple, chair, mountain, book, car, river, tree, phone, house, dog, sun, table, shoe, pen, cloud",
+  "stim_mood": 2.1444948288262822e-05,
+  "b_mood": 0.999373733997345,
+  "b_proj": -16.749645233154297,
+  "b_pass": "Sorting through a box of old papers, the person carefully unfolds each yellowed sheet, fingers tracing faded ink and forgotten dates. Amidst the clutter\u2014bills, letters, and scribbled notes\u2014memories resurface like leaves in an autumn wind. A childhood drawing, a receipt from a long-closed store, a love letter tucked away\u2014each item whispers of the past, evoking quiet nostalgia as the box slowly reve"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 12,
+  "stim": "apple, book, chair, car, dog, house, tree, computer, shoe, flower, pencil, mountain, river, clock, phone",
+  "stim_mood": 8.939696272136644e-06,
+  "b_mood": 6.825602838489431e-08,
+  "b_proj": -16.98896598815918,
+  "b_pass": "Walking through a city street in the afternoon, a person might notice the golden sunlight casting long shadows across the pavement, the steady hum of a passing car, and the chatter of pedestrians enjoying the warm air. A dog bounds past, tugging its leash, while nearby, someone sits on a bench reading a book. Shopfronts display a variety of items\u2014a bright red shoe in a window, a wooden chair outsi"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 13,
+  "stim": "apple, chair, book, car, tree, dog, shoe, table, pen, river, mountain, bridge, computer, flower, mirror",
+  "stim_mood": 1.6701422282494605e-05,
+  "b_mood": 2.646573848963385e-09,
+  "b_proj": -12.631261825561523,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes, depending on the type of tea and personal taste preferences. After the desired strength is achieved, strain the liquid into cups, and add any desired extras suc"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 14,
+  "stim": "apple, chair, mountain, book, car, river, dog, table, hat, tree, road, cup, lamp, cloud, clock",
+  "stim_mood": 1.1478769010864198e-05,
+  "b_mood": 0.06008664518594742,
+  "b_proj": -14.51883316040039,
+  "b_pass": "The train station buzzes with the steady rhythm of a weekday morning. Commuters weave through the concourse, some sipping coffee from paper cups, others hunched over books or scrolling on their phones. The polished floor reflects the glow of hanging lamps and the bright sunlight filtering through high windows. A large clock on the wall ticks steadily, reminding everyone of the time. Seated on a wo"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 15,
+  "stim": "book, chair, apple, river, mountain, table, car, phone, tree, bridge, hat, door, lamp, shoe, clock",
+  "stim_mood": 0.0031726830638945103,
+  "b_mood": 0.00010889690747717395,
+  "b_proj": -16.73805809020996,
+  "b_pass": "The shelves of the small hardware store are neatly lined with an assortment of everyday items and household essentials. Nails, screwdrivers, and batteries are tucked beside rolls of duct tape, paint brushes, and string. Gardening tools, including rakes and trowels, sit next to bags of mulch and fertilizer. Handheld lamps, small fans, and replacement lightbulbs are displayed in simple glass cases, "
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 16,
+  "stim": "apple, book, table, car, tree, shoe, phone, chair, dog, house, river, pen, bread, mountain, clock",
+  "stim_mood": 0.00010889690747717395,
+  "b_mood": 1.3440409674103648e-08,
+  "b_proj": -15.395360946655273,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant shade of blue punctuated by soft, wispy clouds drifting lazily with the wind. A gentle warmth from the sun bathed the grass in golden light, while a light breeze rustled the tall blades, creating a subtle whisper across the land. The air was fresh and crisp, carrying the faint scent of earth and distant rain, hinting at the possibi"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 17,
+  "stim": "apple, book, car, dog, tree, chair, river, mountain, hat, pen, house, phone, shoe, computer, cloud",
+  "stim_mood": 6.962256520637311e-06,
+  "b_mood": 0.9999966621398926,
+  "b_proj": -16.724082946777344,
+  "b_pass": "The person carefully sifts through the box of old papers, their fingers tracing the creases and edges of yellowed envelopes, faded letters, and long-forgotten notes. Some items bring a flicker of recognition\u2014a childhood drawing, a receipt from a distant trip\u2014while others seem lost to time. They pause occasionally, flipping through stacks, sorting what to keep and what to let go, the quiet hum of m"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 18,
+  "stim": "book, chair, dog, house, tree, car, table, phone, river, mountain, pen, hat, door, bread, clock",
+  "stim_mood": 0.008577484637498856,
+  "b_mood": 1.5534978956566192e-06,
+  "b_proj": -15.655938148498535,
+  "b_pass": "Walking through the city street in the afternoon, the person notices the warm sunlight casting long shadows across the pavement. A dog trots past, tethered to a lamppost, while a man sits on a bench, reading a book. A woman in a hat strides confidently, her phone pressed to her ear, and nearby, a vendor sells fresh bread from a cart. The sound of a car idling at the stoplight blends with the ticki"
+ },
+ {
+  "kind": "nouns",
+  "arm": "happy",
+  "i": 19,
+  "stim": "apple, car, book, dog, chair, mountain, river, pen, tree, house, clock, shoe, door, flower, hat",
+  "stim_mood": 6.144174221844878e-06,
+  "b_mood": 6.475948453044111e-07,
+  "b_proj": -13.1268310546875,
+  "b_pass": "To make a pot of tea, begin by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. The water should be slightly cooled, depending on the type of tea\u2014most black teas use boiling water, while green or white teas require a lower temperature to avoid bitterness. Allow the tea to steep for "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 0,
+  "stim": "apple, book, car, dog, house, tree, water, chair, mountain, shoe, phone, table, sun, pencil, river",
+  "stim_mood": 1.1478769010864198e-05,
+  "b_mood": 1.0467402056235642e-08,
+  "b_proj": -16.116233825683594,
+  "b_pass": "Walking through a city street in the afternoon, a person might notice the golden light of the sun casting long shadows on the pavement, the steady hum of traffic as cars pass by, and the occasional bark of a dog trotting beside its owner. Shoppers browse open bookstores, while people sit on park benches shaded by tall trees. Nearby, a child scribbles with a pencil in a notebook, and the smell of f"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 1,
+  "stim": "apple, car, book, chair, river, mountain, dog, tree, house, road, pen, computer, sun, cloud, shoe",
+  "stim_mood": 8.939696272136644e-06,
+  "b_mood": 1.9947297005273867e-06,
+  "b_proj": -12.954813957214355,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot containing the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014typically 3 to 5\u2014depending on the type of tea and your preferred strength. While the tea steeps, prepare cups by warming them with hot water if desired. After the steeping"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 2,
+  "stim": "book, tree, car, chair, river, mountain, dog, house, table, phone, shoe, pen, cloud, clock, ball",
+  "stim_mood": 0.00017952796770259738,
+  "b_mood": 4.539786823443137e-05,
+  "b_proj": -14.57149887084961,
+  "b_pass": "The train station buzzed with the rhythm of a busy weekday, its wide, vaulted ceiling echoing with the chatter of travelers and the distant screech of arriving trains. Long rows of benches lined the platforms, some occupied by commuters flipping through newspapers or scrolling on their phones. Shoppers with light backpacks and briefcases moved briskly through the spacious concourse, passing under "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 3,
+  "stim": "apple, car, book, chair, dog, tree, house, pencil, river, mountain, computer, shoe, clock, flower, phone",
+  "stim_mood": 7.889262633398175e-06,
+  "b_mood": 2.9023121896898374e-06,
+  "b_proj": -17.610580444335938,
+  "b_pass": "The shelves of a small hardware store are neatly stocked with a variety of tools and supplies. There are rows of hammers, wrenches, and screwdrivers, alongside bags of nails, screws, and bolts. Paint cans line one wall in vibrant colors, while spools of wire, duct tape, and electrical supplies sit nearby. Shelves also hold flashlights, batteries, cleaning products, and garden tools such as rakes a"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 4,
+  "stim": "Tree, book, car, dog, chair, water, mountain, phone, bread, door, hat, pen, cup, cat, table.",
+  "stim_mood": 0.0009110512328334153,
+  "b_mood": 5.602796449011294e-09,
+  "b_proj": -15.182348251342773,
+  "b_pass": "The sky stretched endlessly above the open field, a soft canvas of pale blue dotted with wispy clouds that drifted lazily in the gentle breeze. A warm sun bathed the grass in golden light, casting faint shadows as a light wind rustled the leaves of a distant tree. The air was fresh and slightly fragrant, carrying the earthy scent of the ground after a recent rain. Birds wheeled overhead, and the o"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 5,
+  "stim": "book, tree, car, dog, chair, house, water, mountain, phone, pen, cat, shoe, hat, table, river",
+  "stim_mood": 0.00020342697098385543,
+  "b_mood": 0.9999966621398926,
+  "b_proj": -16.472152709960938,
+  "b_pass": "Someone carefully sorts through a box of old papers, their fingers tracing faded letters and yellowed edges. The quiet room is filled with the rustle of paper and the occasional sigh as they uncover remnants of the past\u2014old bills, childhood drawings, letters from long-lost friends, and a faded photograph. Each item stirs a memory, a moment in time, as the person pieces together fragments of their "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 6,
+  "stim": "dog, book, table, car, tree, house, shoe, phone, pencil, cup, mountain, river, clock, flower, chair",
+  "stim_mood": 0.0002959571429528296,
+  "b_mood": 2.561282371971174e-06,
+  "b_proj": -15.746318817138672,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the warm glow of sunlight casting long shadows across the pavement. A stray dog naps under a tree as people pass by, some sipping coffee from paper cups. Bookstores and cafes line the sidewalks, their windows reflecting the hum of passing cars and the occasional honk of a distant horn. A clock on a nearby building ticks steadi"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 7,
+  "stim": "Apple, chair, dog, mountain, car, book, tree, river, house, pen, shoe, clock, bird, bridge, computer",
+  "stim_mood": 1.8925147742265835e-05,
+  "b_mood": 3.9278620533877984e-07,
+  "b_proj": -12.729764938354492,
+  "b_pass": "To make a pot of tea, start by boiling water in a kettle or pot. Once the water is hot enough, pour it into a teapot that contains the desired amount of tea leaves or a tea bag. Allow the tea to steep for a few minutes, depending on the strength you prefer. After the steeping time, pour the tea into cups. You can add milk, sugar, or a slice of lemon, according to your taste, before serving the tea"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 8,
+  "stim": "book, tree, car, house, dog, river, chair, mountain, computer, apple, bridge, airplane, pizza, clock, beach",
+  "stim_mood": 2.6995778057425923e-07,
+  "b_mood": 0.00020342697098385543,
+  "b_proj": -14.948372840881348,
+  "b_pass": "The train station bustled with activity on a typical weekday morning. Commuters in crisp business attire hurried through the glass and steel space, juggling coffee cups and laptops. The scent of freshly brewed coffee mingled with the faint aroma of hot dogs from a nearby vendor. A rhythmic chime signaled an approaching train, and travelers gathered at the platform, some engrossed in their books, o"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 9,
+  "stim": "Apple, chair, car, mountain, book, river, dog, house, tree, shoe, lamp, computer, clock, bridge, cloud.",
+  "stim_mood": 0.00020342697098385543,
+  "b_mood": 7.48462334740907e-05,
+  "b_proj": -17.249530792236328,
+  "b_pass": "The shelves of a small hardware store are lined with an array of everyday essentials and tools for home improvement. You'll find nails, screws, hammers, wrenches, and pliers neatly stacked, alongside paint cans, buckets, and gardening supplies. Wire spools, light bulbs, and plumbing fixtures sit beside tools for carpentry and electrical work. There are also shelves filled with basic home goods lik"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 10,
+  "stim": "apple, car, dog, house, tree, book, chair, phone, mountain, river, bread, lamp, bike, cloud, shoe",
+  "stim_mood": 1.4738980098627508e-05,
+  "b_mood": 5.905304023556823e-10,
+  "b_proj": -15.289790153503418,
+  "b_pass": "The sky stretched high above the field, a brilliant canvas of soft blue dotted with fluffy white clouds that drifted lazily in the gentle breeze. A warm sun bathed the grass in golden light, while a few scattered cumulus clouds cast playful shadows across the rolling landscape. The air was crisp and fresh, carrying the faint scent of earth and wildflowers, with just enough wind to rustle the tall "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 11,
+  "stim": "Apple, chair, mountain, book, car, river, tree, phone, house, dog, sun, shoe, pen, bridge, bike",
+  "stim_mood": 1.3007128472963814e-05,
+  "b_mood": 1.0,
+  "b_proj": -16.278392791748047,
+  "b_pass": "Sorting through a box of old papers, the person carefully unfolds each yellowed sheet, fingers tracing faded ink and forgotten dates. Dust rises in the sunlight, revealing a jumble of memories\u2014old letters, receipts, doodles, and photographs. They pause at a childhood drawing, its colors now muted, and a long-forgotten name on an old bill. The process is slow, almost meditative, as the past pieces "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 12,
+  "stim": "dog, book, table, car, tree, shirt, phone, house, bread, chair, river, pen, mountain, shoe, clock",
+  "stim_mood": 0.0011695101857185364,
+  "b_mood": 2.6995778057425923e-07,
+  "b_proj": -16.36831283569336,
+  "b_pass": "Walking through the city street in the afternoon, a person might notice the golden sunlight casting long shadows across the pavement, the steady hum of a passing car, and the faint scent of fresh bread wafting from a nearby bakery. People stroll by\u2014some with hands in their pockets, others engrossed in their phones\u2014while sitting on a bench is a man reading a book. Storefronts catch the eye with the"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 13,
+  "stim": "Apple, dog, book, chair, mountain, car, tree, pencil, river, house, shirt, bicycle, computer, bread, clock",
+  "stim_mood": 3.120191104244441e-05,
+  "b_mood": 1.2098656725356705e-06,
+  "b_proj": -14.173667907714844,
+  "b_pass": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a tea pot that contains the desired amount of loose-leaf tea or a tea bag. Allow the tea to steep for a few minutes\u2014typically 3 to 5, depending on the type of tea and your taste preference. While the tea steeps, prepare cups and any additives like milk, sugar, or lemon. After "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 14,
+  "stim": "apple, chair, mountain, book, car, dog, river, house, pencil, tree, cloud, table, city, shoe, clock",
+  "stim_mood": 1.3007128472963814e-05,
+  "b_mood": 3.288748985141865e-06,
+  "b_proj": -14.375673294067383,
+  "b_pass": "The inside of a train station on a weekday hums with quiet efficiency. Shoppers, professionals, and students weave through the open, well-lit space, their footsteps echoing on the polished stone floor. A wooden bench near the entrance sits beneath a large digital clock, its rhythmic ticking a steady backdrop to the gentle chatter of passengers. A young dog trots alongside its owner, dodging the pa"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 15,
+  "stim": "Apple, book, chair, dog, house, mountain, river, car, tree, phone, cup, sky, shoe, table, cat",
+  "stim_mood": 1.8925147742265835e-05,
+  "b_mood": 0.00012339458044152707,
+  "b_proj": -16.076356887817383,
+  "b_pass": "The shelves of the small hardware store are neatly lined with basic tools and everyday items. A few hand tools like hammers, pliers, and screwdrivers are stacked together, alongside rolls of duct tape and spools of string. Nails, screws, and bolts are organized in small containers, while paint cans and cleaning supplies sit nearby. Batteries, light bulbs, and simple household gadgets like plungers"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 16,
+  "stim": "apple, book, chair, dog, house, car, tree, mountain, river, phone, door, shoe, clock, pen, table",
+  "stim_mood": 0.000552778597921133,
+  "b_mood": 4.691164434689199e-08,
+  "b_proj": -15.495535850524902,
+  "b_pass": "The sky stretched wide and clear above the open field, a brilliant shade of blue punctuated by soft, wispy clouds drifting lazily with the wind. A gentle warmth from the sun bathed the grass, which swayed gently beneath a light breeze. There was a sense of calm and stillness, broken only by the occasional rustle of leaves or the distant call of a bird. The air was crisp but not cold, carrying the "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 17,
+  "stim": "apple, book, chair, dog, house, mountain, car, river, tree, pen, hat, phone, table, shoe, cloud",
+  "stim_mood": 5.829126530443318e-05,
+  "b_mood": 0.9999988079071045,
+  "b_proj": -16.524526596069336,
+  "b_pass": "The person carefully sifts through the box of old papers, their fingers tracing the creases and edges of yellowed envelopes, faded letters, and brittle photographs. Each item is held up to the light, examined, and then either set aside with a wistful glance or tucked into a separate pile\u2014some for keeping, others for tossing. The quiet rustle of paper fills the air as memories unfold in fragments, "
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 18,
+  "stim": "Apple, chair, dog, mountain, book, car, river, tree, house, pen, phone, hat, shoe, table, cat",
+  "stim_mood": 0.00015843621804378927,
+  "b_mood": 6.348800152267131e-09,
+  "b_proj": -15.799607276916504,
+  "b_pass": "Walking through the city street in the afternoon, the person notices a bustling scene filled with life and movement. Sunlight filters through the trees lining the sidewalks, casting dappled shadows on the pavement. People pass by\u2014some hurried, some relaxed\u2014with their hats tilted and phones in hand. A caf\u00e9 table sits outside a small, colorful house, where someone sips coffee and reads a book. Nearb"
+ },
+ {
+  "kind": "nouns",
+  "arm": "neutral",
+  "i": 19,
+  "stim": "apple, car, book, dog, chair, mountain, river, pen, tree, house, clock, shoe, door, flower, phone",
+  "stim_mood": 1.8925147742265835e-05,
+  "b_mood": 1.9947297005273867e-06,
+  "b_proj": -13.434146881103516,
+  "b_pass": "To make a pot of tea, begin by boiling fresh water in a kettle or pot. Once the water reaches a rolling boil, pour it into a teapot that contains the desired amount of loose-leaf tea or a tea bag. The water should be slightly cooled for more delicate teas or used at a full boil for heartier black teas, depending on the type. Allow the tea to steep for a few minutes, typically 3 to 5, to release it"
+ }
+]

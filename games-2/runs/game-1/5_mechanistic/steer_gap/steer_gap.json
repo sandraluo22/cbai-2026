@@ -1,0 +1,64 @@
+{
+ "model": "QwenInst32",
+ "layers": [
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "alphas": [
+  0.0,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "conditions": {
+  "a0.0": {
+   "met_frac": 0.4166666666666667,
+   "n_met": 5,
+   "turns_mean": 11.0,
+   "probe_cat": 0.1640625,
+   "probe_selffam": 0.0125,
+   "word_ok_frac": 0.9969512195121951,
+   "neutral_logprob": -2.68192195892334
+  },
+  "a1.0": {
+   "met_frac": 0.0,
+   "n_met": 0,
+   "turns_mean": null,
+   "probe_cat": 0.0,
+   "probe_selffam": 0.020833333333333332,
+   "word_ok_frac": 0.8012820512820513,
+   "neutral_logprob": -2.68192195892334
+  },
+  "a2.0": {
+   "met_frac": 0.0,
+   "n_met": 0,
+   "turns_mean": null,
+   "probe_cat": 0.0,
+   "probe_selffam": 0.0,
+   "word_ok_frac": 0.01282051282051282,
+   "neutral_logprob": -2.68192195892334
+  },
+  "a4.0": {
+   "met_frac": 0.0,
+   "n_met": 0,
+   "turns_mean": null,
+   "probe_cat": 0.0,
+   "probe_selffam": 0.0,
+   "word_ok_frac": 0.0,
+   "neutral_logprob": -2.68192195892334
+  }
+ }
+}

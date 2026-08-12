@@ -1,0 +1,1090 @@
+{
+ "per_cell": [
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 0,
+   "fam_novel": 0.796875,
+   "fam_any": 0.796875,
+   "repeat": 0.0,
+   "cat_mass": 0.203125,
+   "top_words": [
+    [
+     "plants",
+     43
+    ],
+    [
+     "paris",
+     13
+    ],
+    [
+     "plant",
+     7
+    ],
+    [
+     "planter",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 0,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.59375,
+   "top_words": [
+    [
+     "paris",
+     33
+    ],
+    [
+     "desk",
+     8
+    ],
+    [
+     "ladder",
+     3
+    ],
+    [
+     "map",
+     3
+    ],
+    [
+     "lamp",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 0,
+   "fam_novel": 0.765625,
+   "fam_any": 0.9375,
+   "repeat": 0.203125,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "plant",
+     40
+    ],
+    [
+     "planted",
+     7
+    ],
+    [
+     "planter",
+     5
+    ],
+    [
+     "planting",
+     4
+    ],
+    [
+     "plants",
+     4
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 0,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.375,
+   "top_words": [
+    [
+     "vienna",
+     10
+    ],
+    [
+     "mirror",
+     10
+    ],
+    [
+     "door",
+     8
+    ],
+    [
+     "moscow",
+     7
+    ],
+    [
+     "paris",
+     6
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 0,
+   "fam_novel": 0.0625,
+   "fam_any": 1.0,
+   "repeat": 0.9375,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planted",
+     60
+    ],
+    [
+     "plants",
+     4
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 0,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "umbrella",
+     36
+    ],
+    [
+     "pizza",
+     13
+    ],
+    [
+     "clock",
+     5
+    ],
+    [
+     "",
+     3
+    ],
+    [
+     "postcard",
+     2
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 1,
+   "fam_novel": 0.765625,
+   "fam_any": 0.765625,
+   "repeat": 0.078125,
+   "cat_mass": 0.125,
+   "top_words": [
+    [
+     "plants",
+     27
+    ],
+    [
+     "plant",
+     21
+    ],
+    [
+     "chicago",
+     8
+    ],
+    [
+     "boston",
+     5
+    ],
+    [
+     "planter",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 1,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.984375,
+   "top_words": [
+    [
+     "chicago",
+     63
+    ],
+    [
+     "new",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 1,
+   "fam_novel": 0.625,
+   "fam_any": 0.90625,
+   "repeat": 0.359375,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "plant",
+     39
+    ],
+    [
+     "planted",
+     17
+    ],
+    [
+     "boston",
+     5
+    ],
+    [
+     "plantable",
+     1
+    ],
+    [
+     "planting",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 1,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.03125,
+   "cat_mass": 0.546875,
+   "top_words": [
+    [
+     "chicago",
+     35
+    ],
+    [
+     "toaster",
+     5
+    ],
+    [
+     "tulip",
+     3
+    ],
+    [
+     "utensils",
+     3
+    ],
+    [
+     "minneapolis",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 1,
+   "fam_novel": 0.28125,
+   "fam_any": 1.0,
+   "repeat": 0.71875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planted",
+     44
+    ],
+    [
+     "plant",
+     13
+    ],
+    [
+     "plants",
+     5
+    ],
+    [
+     "planting",
+     2
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 1,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "umbrella",
+     35
+    ],
+    [
+     "mountain",
+     10
+    ],
+    [
+     "city",
+     4
+    ],
+    [
+     "whats",
+     4
+    ],
+    [
+     "what",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 2,
+   "fam_novel": 0.96875,
+   "fam_any": 0.96875,
+   "repeat": 0.0,
+   "cat_mass": 0.03125,
+   "top_words": [
+    [
+     "plant",
+     56
+    ],
+    [
+     "plants",
+     6
+    ],
+    [
+     "prague",
+     1
+    ],
+    [
+     "berlin",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 2,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.109375,
+   "cat_mass": 0.59375,
+   "top_words": [
+    [
+     "berlin",
+     21
+    ],
+    [
+     "london",
+     13
+    ],
+    [
+     "new",
+     7
+    ],
+    [
+     "vienna",
+     7
+    ],
+    [
+     "staircase",
+     5
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 2,
+   "fam_novel": 0.0625,
+   "fam_any": 0.078125,
+   "repeat": 0.015625,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "vienn",
+     44
+    ],
+    [
+     "violin",
+     6
+    ],
+    [
+     "viennas",
+     4
+    ],
+    [
+     "plant",
+     4
+    ],
+    [
+     "vases",
+     2
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 2,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0625,
+   "cat_mass": 0.28125,
+   "top_words": [
+    [
+     "mirror",
+     18
+    ],
+    [
+     "london",
+     17
+    ],
+    [
+     "television",
+     8
+    ],
+    [
+     "teapot",
+     4
+    ],
+    [
+     "vienna",
+     4
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 2,
+   "fam_novel": 0.328125,
+   "fam_any": 1.0,
+   "repeat": 0.671875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planted",
+     43
+    ],
+    [
+     "plants",
+     21
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 2,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.140625,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "couch",
+     15
+    ],
+    [
+     "pasta",
+     6
+    ],
+    [
+     "moscow",
+     6
+    ],
+    [
+     "cannon",
+     5
+    ],
+    [
+     "compass",
+     4
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 3,
+   "fam_novel": 0.9375,
+   "fam_any": 0.9375,
+   "repeat": 0.0,
+   "cat_mass": 0.03125,
+   "top_words": [
+    [
+     "plants",
+     49
+    ],
+    [
+     "plant",
+     11
+    ],
+    [
+     "new",
+     2
+    ],
+    [
+     "seoul",
+     1
+    ],
+    [
+     "london",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 3,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.34375,
+   "top_words": [
+    [
+     "london",
+     15
+    ],
+    [
+     "new",
+     9
+    ],
+    [
+     "book",
+     7
+    ],
+    [
+     "map",
+     5
+    ],
+    [
+     "berlin",
+     5
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 3,
+   "fam_novel": 0.28125,
+   "fam_any": 0.640625,
+   "repeat": 0.671875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "tokyo",
+     20
+    ],
+    [
+     "planting",
+     16
+    ],
+    [
+     "plant",
+     16
+    ],
+    [
+     "planted",
+     7
+    ],
+    [
+     "tok",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 3,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.515625,
+   "top_words": [
+    [
+     "london",
+     14
+    ],
+    [
+     "vienna",
+     14
+    ],
+    [
+     "violin",
+     6
+    ],
+    [
+     "new",
+     5
+    ],
+    [
+     "moscow",
+     5
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 3,
+   "fam_novel": 0.15625,
+   "fam_any": 1.0,
+   "repeat": 0.84375,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planted",
+     54
+    ],
+    [
+     "plants",
+     8
+    ],
+    [
+     "plant",
+     2
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 3,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "umbrella",
+     54
+    ],
+    [
+     "",
+     6
+    ],
+    [
+     "city",
+     1
+    ],
+    [
+     "flag",
+     1
+    ],
+    [
+     "suitcase",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 4,
+   "fam_novel": 0.203125,
+   "fam_any": 0.203125,
+   "repeat": 0.59375,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "paris",
+     38
+    ],
+    [
+     "plant",
+     10
+    ],
+    [
+     "parisian",
+     4
+    ],
+    [
+     "plato",
+     3
+    ],
+    [
+     "planter",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 4,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.078125,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "juliet",
+     36
+    ],
+    [
+     "star",
+     7
+    ],
+    [
+     "pasta",
+     4
+    ],
+    [
+     "asterisk",
+     4
+    ],
+    [
+     "paris",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 4,
+   "fam_novel": 0.28125,
+   "fam_any": 0.296875,
+   "repeat": 0.09375,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "parl",
+     31
+    ],
+    [
+     "plant",
+     10
+    ],
+    [
+     "planters",
+     7
+    ],
+    [
+     "paris",
+     5
+    ],
+    [
+     "parli",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 4,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.796875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "paris",
+     38
+    ],
+    [
+     "carpet",
+     7
+    ],
+    [
+     "window",
+     6
+    ],
+    [
+     "and",
+     5
+    ],
+    [
+     "pariswindow",
+     5
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 4,
+   "fam_novel": 0.109375,
+   "fam_any": 1.0,
+   "repeat": 0.890625,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planting",
+     44
+    ],
+    [
+     "planted",
+     9
+    ],
+    [
+     "planter",
+     6
+    ],
+    [
+     "plantings",
+     4
+    ],
+    [
+     "planters",
+     1
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 4,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.015625,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "pencil",
+     9
+    ],
+    [
+     "eraser",
+     9
+    ],
+    [
+     "pasta",
+     5
+    ],
+    [
+     "cable",
+     4
+    ],
+    [
+     "paper",
+     4
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "planted",
+   "stream": 5,
+   "fam_novel": 0.734375,
+   "fam_any": 0.734375,
+   "repeat": 0.03125,
+   "cat_mass": 0.234375,
+   "top_words": [
+    [
+     "plants",
+     43
+    ],
+    [
+     "madrid",
+     8
+    ],
+    [
+     "plant",
+     4
+    ],
+    [
+     "moscow",
+     3
+    ],
+    [
+     "amsterdam",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "list",
+   "content": "base",
+   "stream": 5,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.75,
+   "top_words": [
+    [
+     "vienna",
+     29
+    ],
+    [
+     "london",
+     10
+    ],
+    [
+     "tokyo",
+     7
+    ],
+    [
+     "new",
+     5
+    ],
+    [
+     "ladder",
+     3
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "planted",
+   "stream": 5,
+   "fam_novel": 0.78125,
+   "fam_any": 0.921875,
+   "repeat": 0.21875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "plant",
+     16
+    ],
+    [
+     "planters",
+     15
+    ],
+    [
+     "plants",
+     7
+    ],
+    [
+     "plantation",
+     6
+    ],
+    [
+     "plantable",
+     6
+    ]
+   ]
+  },
+  {
+   "frame": "prose",
+   "content": "base",
+   "stream": 5,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.625,
+   "top_words": [
+    [
+     "vienna",
+     18
+    ],
+    [
+     "mirror",
+     13
+    ],
+    [
+     "moscow",
+     8
+    ],
+    [
+     "london",
+     8
+    ],
+    [
+     "tokyo",
+     6
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "planted",
+   "stream": 5,
+   "fam_novel": 0.328125,
+   "fam_any": 1.0,
+   "repeat": 0.671875,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "planted",
+     43
+    ],
+    [
+     "plants",
+     21
+    ]
+   ]
+  },
+  {
+   "frame": "dialog",
+   "content": "base",
+   "stream": 5,
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.0,
+   "cat_mass": 0.0,
+   "top_words": [
+    [
+     "umbrella",
+     32
+    ],
+    [
+     "lamp",
+     9
+    ],
+    [
+     "",
+     7
+    ],
+    [
+     "clock",
+     5
+    ],
+    [
+     "postcard",
+     2
+    ]
+   ]
+  }
+ ],
+ "cells": {
+  "list_planted": {
+   "fam_novel": 0.734375,
+   "fam_any": 0.734375,
+   "repeat": 0.1171875,
+   "cat_mass": 0.10416666666666667
+  },
+  "list_base": {
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.03125,
+   "cat_mass": 0.5442708333333334
+  },
+  "prose_planted": {
+   "fam_novel": 0.4661458333333333,
+   "fam_any": 0.6302083333333334,
+   "repeat": 0.2604166666666667,
+   "cat_mass": 0.0
+  },
+  "prose_base": {
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.1484375,
+   "cat_mass": 0.390625
+  },
+  "dialog_planted": {
+   "fam_novel": 0.2109375,
+   "fam_any": 1.0,
+   "repeat": 0.7890625,
+   "cat_mass": 0.0
+  },
+  "dialog_base": {
+   "fam_novel": 0.0,
+   "fam_any": 0.0,
+   "repeat": 0.026041666666666668,
+   "cat_mass": 0.0
+  }
+ }
+}

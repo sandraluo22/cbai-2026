@@ -1,0 +1,15 @@
+A_0 mix [90, 5, 5]  {'n': 1200, 'ctx_turns': 4.97, 'ctx_words': 79.4, 'top_problems': ['ongoing depression', 'job crisis', 'breakup with partner']}
+B_0 mix [5, 90, 5]  {'n': 1200, 'ctx_turns': 5.88, 'ctx_words': 112.9, 'top_problems': ['ongoing depression', 'job crisis', 'breakup with partner']}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   8%|▊         | 28/338 [00:00<00:01, 269.51it/s]Loading weights:  22%|██▏       | 76/338 [00:00<00:00, 387.33it/s]Loading weights:  35%|███▍      | 117/338 [00:00<00:00, 395.90it/s]Loading weights:  47%|████▋     | 159/338 [00:00<00:00, 395.76it/s]Loading weights:  59%|█████▉    | 199/338 [00:00<00:00, 387.78it/s]Loading weights:  72%|███████▏  | 243/338 [00:00<00:00, 398.62it/s]Loading weights:  84%|████████▎ | 283/338 [00:00<00:00, 394.41it/s]Loading weights:  97%|█████████▋| 327/338 [00:00<00:00, 402.09it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 394.18it/s]
+base (untrained adapter): {'E': 0.095, 'I': 0.545, 'M': 0.36}
+/workspace/mm/reciprocal-signaling/recursive-ft/engine.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+A_0 loss 1.529  dist {'E': 0.65, 'I': 0.2, 'M': 0.15}  corrected [0.951, 0.049, 0.0]  len 17.5 distinct2 0.740  fluency -2.762
+B_0 loss 1.801  dist {'E': 0.225, 'I': 0.58, 'M': 0.195}  corrected [0.147, 0.853, 0.0]  len 23.1 distinct2 0.752  fluency -2.705
+
+MANIPULATION CHECK: JSD(A_0,B_0) = 0.1495
+  P_A(E)=0.650 vs P_B(E)=0.225 | P_A(I)=0.200 vs P_B(I)=0.580
+  quality: fluency -2.762 vs -2.705; length 17.5 vs 23.1
+INIT_FT_DONE

@@ -1,0 +1,19 @@
+{
+ "model": "QwenInst32",
+ "cap": 40,
+ "n": 12,
+ "conditions": {
+  "fixed_f0": {
+   "met_frac": 0.4166666666666667,
+   "onset_frac": 0.75,
+   "probe_cat": 0.1640625,
+   "probe_selffam": 0.0125
+  },
+  "all_diff": {
+   "met_frac": 0.5,
+   "onset_frac": 0.5,
+   "probe_cat": 0.115234375,
+   "probe_selffam": 0.0
+  }
+ }
+}

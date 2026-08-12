@@ -1,0 +1,19 @@
+[reciprocal] pool 400 contexts, eval 200, 10 generations x 60 steps
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:00, 366.73it/s]Loading weights:  22%|██▏       | 76/338 [00:00<00:00, 361.71it/s]Loading weights:  36%|███▋      | 123/338 [00:00<00:00, 396.74it/s]Loading weights:  48%|████▊     | 163/338 [00:00<00:00, 390.27it/s]Loading weights:  62%|██████▏   | 208/338 [00:00<00:00, 405.87it/s]Loading weights:  75%|███████▍  | 252/338 [00:00<00:00, 416.66it/s]Loading weights:  87%|████████▋ | 294/338 [00:00<00:00, 379.40it/s]Loading weights:  99%|█████████▉| 335/338 [00:00<00:00, 387.94it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 392.53it/s]
+[reciprocal] gen 0: A {'E': 0.65, 'I': 0.2, 'M': 0.15} B {'E': 0.225, 'I': 0.58, 'M': 0.195} JSD 0.1495 | len 17.5/23.1 d2 0.740/0.752 flu -2.76/-2.71
+/workspace/mm/reciprocal-signaling/recursive-ft/engine.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+[reciprocal] gen 1: A {'E': 0.2, 'I': 0.68, 'M': 0.12} B {'E': 0.675, 'I': 0.2, 'M': 0.125} JSD 0.1980 | len 21.6/17.1 d2 0.714/0.659 flu -2.50/-2.61
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+[reciprocal] gen 2: A {'E': 0.72, 'I': 0.16, 'M': 0.12} B {'E': 0.22, 'I': 0.66, 'M': 0.12} JSD 0.2191 | len 19.3/22.4 d2 0.645/0.655 flu -2.48/-2.41
+[reciprocal] gen 3: A {'E': 0.185, 'I': 0.73, 'M': 0.085} B {'E': 0.73, 'I': 0.18, 'M': 0.09} JSD 0.2538 | len 25.2/20.0 d2 0.582/0.622 flu -2.52/-2.76
+[reciprocal] gen 4: A {'E': 0.74, 'I': 0.15, 'M': 0.11} B {'E': 0.16, 'I': 0.755, 'M': 0.085} JSD 0.3067 | len 21.8/27.5 d2 0.598/0.575 flu -3.13/-2.59
+[reciprocal] gen 5: A {'E': 0.14, 'I': 0.78, 'M': 0.08} B {'E': 0.725, 'I': 0.15, 'M': 0.125} JSD 0.3285 | len 28.6/24.4 d2 0.554/0.636 flu -2.92/-3.17
+[reciprocal] gen 6: A {'E': 0.73, 'I': 0.16, 'M': 0.11} B {'E': 0.11, 'I': 0.82, 'M': 0.07} JSD 0.3634 | len 27.0/28.1 d2 0.612/0.583 flu -3.28/-3.13
+[reciprocal] gen 7: A {'E': 0.125, 'I': 0.815, 'M': 0.06} B {'E': 0.675, 'I': 0.11, 'M': 0.215} JSD 0.4024 | len 31.5/26.4 d2 0.576/0.611 flu -3.20/-3.50
+[reciprocal] gen 8: A {'E': 0.755, 'I': 0.125, 'M': 0.12} B {'E': 0.105, 'I': 0.805, 'M': 0.09} JSD 0.4016 | len 26.3/34.1 d2 0.595/0.575 flu -3.64/-3.38
+[reciprocal] gen 9: A {'E': 0.08, 'I': 0.835, 'M': 0.085} B {'E': 0.72, 'I': 0.155, 'M': 0.125} JSD 0.4003 | len 34.4/26.1 d2 0.564/0.591 flu -3.60/-3.82
+[reciprocal] gen 10: A {'E': 0.635, 'I': 0.21, 'M': 0.155} B {'E': 0.085, 'I': 0.81, 'M': 0.105} JSD 0.3108 | len 28.9/36.0 d2 0.602/0.564 flu -4.05/-3.86
+RECURSION_DONE_reciprocal

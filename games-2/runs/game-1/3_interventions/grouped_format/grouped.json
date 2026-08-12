@@ -1,0 +1,132 @@
+{
+ "passive": [
+  {
+   "dose": 0,
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.53125
+  },
+  {
+   "dose": 3,
+   "stream": 0,
+   "fam_mass": 0.609375,
+   "cat_mass": 0.09375
+  },
+  {
+   "dose": 8,
+   "stream": 0,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 0,
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.359375
+  },
+  {
+   "dose": 3,
+   "stream": 2,
+   "fam_mass": 0.015625,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 8,
+   "stream": 2,
+   "fam_mass": 0.078125,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 0,
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.6875
+  },
+  {
+   "dose": 3,
+   "stream": 7,
+   "fam_mass": 0.296875,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 8,
+   "stream": 7,
+   "fam_mass": 0.109375,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 0,
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.3125
+  },
+  {
+   "dose": 3,
+   "stream": 9,
+   "fam_mass": 0.390625,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 8,
+   "stream": 9,
+   "fam_mass": 0.921875,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 0,
+   "stream": 15,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 3,
+   "stream": 15,
+   "fam_mass": 0.15625,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 8,
+   "stream": 15,
+   "fam_mass": 0.359375,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 0,
+   "stream": 17,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "dose": 3,
+   "stream": 17,
+   "fam_mass": 0.09375,
+   "cat_mass": 0.0
+  },
+  {
+   "dose": 8,
+   "stream": 17,
+   "fam_mass": 0.1875,
+   "cat_mass": 0.0
+  }
+ ],
+ "passive_cells": {
+  "d0": {
+   "fam_mass": 0.0,
+   "cat_mass": 0.3203125
+  },
+  "d3": {
+   "fam_mass": 0.2604166666666667,
+   "cat_mass": 0.015625
+  },
+  "d8": {
+   "fam_mass": 0.2890625,
+   "cat_mass": 0.0
+  }
+ },
+ "live": {
+  "met_frac": 0.3333333333333333,
+  "onset_frac": 0.75,
+  "probe_cat": 0.12357954545454546,
+  "probe_selffam": 0.04403409090909091
+ }
+}

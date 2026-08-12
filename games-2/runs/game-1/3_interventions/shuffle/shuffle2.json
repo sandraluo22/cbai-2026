@@ -1,0 +1,353 @@
+{
+ "per_state": [
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "orig",
+   "fam_mass": 0.078125,
+   "greedy": "novelty",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 2
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf1",
+   "fam_mass": 0.03125,
+   "greedy": "charming",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 1
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "charming",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 0,
+   "fam": "char",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "charmingness",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 2
+  },
+  {
+   "roll": 2,
+   "fam": "palm",
+   "cond": "orig",
+   "fam_mass": 0.015625,
+   "greedy": "tonic",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 2
+  },
+  {
+   "roll": 2,
+   "fam": "palm",
+   "cond": "shuf1",
+   "fam_mass": 0.015625,
+   "greedy": "tonic",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "palm",
+   "cond": "shuf2",
+   "fam_mass": 0.015625,
+   "greedy": "tonsill",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 2,
+   "fam": "palm",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "tonic",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "ware",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "syncret",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 2
+  },
+  {
+   "roll": 7,
+   "fam": "ware",
+   "cond": "shuf1",
+   "fam_mass": 0.078125,
+   "greedy": "syn",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "ware",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "syn",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 7,
+   "fam": "ware",
+   "cond": "shuf3",
+   "fam_mass": 0.015625,
+   "greedy": "syncretism",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "novaxx",
+   "agree": true,
+   "greedy_is_fam": true,
+   "tail_fam": 2
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "novaxx",
+   "agree": true,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "novaxx",
+   "agree": true,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 15,
+   "fam": "nova",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "novaxv",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "orig",
+   "fam_mass": 0.015625,
+   "greedy": "silken",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 2
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "synthwave",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 1
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf2",
+   "fam_mass": 0.015625,
+   "greedy": "silken",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 17,
+   "fam": "synt",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "sil",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "lock",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "synonymized",
+   "agree": true,
+   "greedy_is_fam": false,
+   "tail_fam": 2
+  },
+  {
+   "roll": 18,
+   "fam": "lock",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "synchs",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "lock",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "synched",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 18,
+   "fam": "lock",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "synchedly",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "buzz",
+   "cond": "orig",
+   "fam_mass": 0.0,
+   "greedy": "buzzing",
+   "agree": true,
+   "greedy_is_fam": true,
+   "tail_fam": 2
+  },
+  {
+   "roll": 19,
+   "fam": "buzz",
+   "cond": "shuf1",
+   "fam_mass": 0.0,
+   "greedy": "zzz",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 19,
+   "fam": "buzz",
+   "cond": "shuf2",
+   "fam_mass": 0.0,
+   "greedy": "z",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 1
+  },
+  {
+   "roll": 19,
+   "fam": "buzz",
+   "cond": "shuf3",
+   "fam_mass": 0.0,
+   "greedy": "z",
+   "agree": false,
+   "greedy_is_fam": false,
+   "tail_fam": 0
+  },
+  {
+   "roll": 20,
+   "fam": "abst",
+   "cond": "orig",
+   "fam_mass": 0.046875,
+   "greedy": "abstractionality",
+   "agree": true,
+   "greedy_is_fam": true,
+   "tail_fam": 2
+  },
+  {
+   "roll": 20,
+   "fam": "abst",
+   "cond": "shuf1",
+   "fam_mass": 0.046875,
+   "greedy": "abstractionary",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 20,
+   "fam": "abst",
+   "cond": "shuf2",
+   "fam_mass": 0.015625,
+   "greedy": "abstractioneer",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  },
+  {
+   "roll": 20,
+   "fam": "abst",
+   "cond": "shuf3",
+   "fam_mass": 0.015625,
+   "greedy": "abstractioneer",
+   "agree": false,
+   "greedy_is_fam": true,
+   "tail_fam": 0
+  }
+ ],
+ "cells": {
+  "orig": {
+   "fam_mass": 0.01953125,
+   "greedy_is_fam": 0.375,
+   "agree_with_orig": 1.0,
+   "tail_fam_mean": 2.0
+  },
+  "shuf": {
+   "fam_mass": 0.010416666666666666,
+   "greedy_is_fam": 0.4166666666666667,
+   "agree_with_orig": 0.20833333333333334,
+   "tail_fam_mean": 0.20833333333333334
+  },
+  "shuf_tail2": {
+   "n": 1,
+   "fam_mass": 0.0,
+   "greedy_is_fam": 1.0
+  },
+  "shuf_tail1": {
+   "n": 3,
+   "fam_mass": 0.010416666666666666,
+   "greedy_is_fam": 0.6666666666666666
+  },
+  "shuf_tail0": {
+   "n": 20,
+   "fam_mass": 0.0109375,
+   "greedy_is_fam": 0.35
+  }
+ }
+}

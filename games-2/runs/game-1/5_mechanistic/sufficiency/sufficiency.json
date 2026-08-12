@@ -1,0 +1,204 @@
+{
+ "per_state": [
+  {
+   "stream": 0,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.1875
+    },
+    "donor_base": {
+     "fam": 0.65625,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.0625,
+     "cat": 0.125
+    },
+    "install_d3": {
+     "fam": 0.03125,
+     "cat": 0.4375
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.09375
+    },
+    "remove": {
+     "fam": 0.0,
+     "cat": 0.0
+    }
+   }
+  },
+  {
+   "stream": 2,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.09375
+    },
+    "donor_base": {
+     "fam": 0.84375,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.03125,
+     "cat": 0.03125
+    },
+    "install_d3": {
+     "fam": 0.65625,
+     "cat": 0.09375
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.09375
+    },
+    "remove": {
+     "fam": 0.03125,
+     "cat": 0.0
+    }
+   }
+  },
+  {
+   "stream": 7,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.46875
+    },
+    "donor_base": {
+     "fam": 0.8125,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.0,
+     "cat": 0.40625
+    },
+    "install_d3": {
+     "fam": 0.0,
+     "cat": 0.84375
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.34375
+    },
+    "remove": {
+     "fam": 0.0,
+     "cat": 0.0
+    }
+   }
+  },
+  {
+   "stream": 9,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.0625
+    },
+    "donor_base": {
+     "fam": 0.9375,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.0,
+     "cat": 0.03125
+    },
+    "install_d3": {
+     "fam": 0.03125,
+     "cat": 0.21875
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.0
+    },
+    "remove": {
+     "fam": 0.0,
+     "cat": 0.0
+    }
+   }
+  },
+  {
+   "stream": 15,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.09375
+    },
+    "donor_base": {
+     "fam": 0.625,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.0,
+     "cat": 0.125
+    },
+    "install_d3": {
+     "fam": 0.46875,
+     "cat": 0.0625
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.125
+    },
+    "remove": {
+     "fam": 0.15625,
+     "cat": 0.0
+    }
+   }
+  },
+  {
+   "stream": 17,
+   "cells": {
+    "ctrl_base": {
+     "fam": 0.0,
+     "cat": 0.0
+    },
+    "donor_base": {
+     "fam": 1.0,
+     "cat": 0.0
+    },
+    "install": {
+     "fam": 0.0,
+     "cat": 0.1875
+    },
+    "install_d3": {
+     "fam": 0.46875,
+     "cat": 0.125
+    },
+    "install_rand": {
+     "fam": 0.0,
+     "cat": 0.09375
+    },
+    "remove": {
+     "fam": 0.65625,
+     "cat": 0.0
+    }
+   }
+  }
+ ],
+ "cells": {
+  "ctrl_base": {
+   "fam": 0.0,
+   "cat": 0.15104166666666666
+  },
+  "donor_base": {
+   "fam": 0.8125,
+   "cat": 0.0
+  },
+  "install": {
+   "fam": 0.015625,
+   "cat": 0.15104166666666666
+  },
+  "install_d3": {
+   "fam": 0.2760416666666667,
+   "cat": 0.296875
+  },
+  "install_rand": {
+   "fam": 0.0,
+   "cat": 0.125
+  },
+  "remove": {
+   "fam": 0.140625,
+   "cat": 0.0
+  }
+ }
+}

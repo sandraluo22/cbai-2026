@@ -1,0 +1,222 @@
+{
+ "per_branch": [
+  {
+   "cell": "dose_3",
+   "stream": 0,
+   "target_mass": 0.265625,
+   "used_mass": 0.375,
+   "cat_mass": 0.015625,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 0,
+   "target_mass": 0.625,
+   "used_mass": 0.0625,
+   "cat_mass": 0.25,
+   "fam_hits6": 1
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 0,
+   "target_mass": 0.484375,
+   "used_mass": 0.0625,
+   "cat_mass": 0.078125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 0,
+   "target_mass": 0.0,
+   "used_mass": 0.15625,
+   "cat_mass": 0.140625,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 2,
+   "target_mass": 0.140625,
+   "used_mass": 0.375,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 2,
+   "target_mass": 0.03125,
+   "used_mass": 0.0,
+   "cat_mass": 0.703125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 2,
+   "target_mass": 0.734375,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 2,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.8125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 7,
+   "target_mass": 0.15625,
+   "used_mass": 0.046875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 7,
+   "target_mass": 0.953125,
+   "used_mass": 0.015625,
+   "cat_mass": 0.015625,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 7,
+   "target_mass": 0.421875,
+   "used_mass": 0.296875,
+   "cat_mass": 0.078125,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 7,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.859375,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 9,
+   "target_mass": 0.234375,
+   "used_mass": 0.265625,
+   "cat_mass": 0.0,
+   "fam_hits6": 6
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 9,
+   "target_mass": 0.375,
+   "used_mass": 0.0,
+   "cat_mass": 0.171875,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 9,
+   "target_mass": 0.40625,
+   "used_mass": 0.28125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 9,
+   "target_mass": 0.0,
+   "used_mass": 0.078125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 15,
+   "target_mass": 0.203125,
+   "used_mass": 0.171875,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 15,
+   "target_mass": 0.375,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 15,
+   "target_mass": 0.265625,
+   "used_mass": 0.125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 15,
+   "target_mass": 0.0,
+   "used_mass": 0.0,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "dose_3",
+   "stream": 17,
+   "target_mass": 0.40625,
+   "used_mass": 0.1875,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_sem",
+   "stream": 17,
+   "target_mass": 0.859375,
+   "used_mass": 0.03125,
+   "cat_mass": 0.0,
+   "fam_hits6": 2
+  },
+  {
+   "cell": "lex_suffix",
+   "stream": 17,
+   "target_mass": 0.46875,
+   "used_mass": 0.125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  },
+  {
+   "cell": "lex_rand",
+   "stream": 17,
+   "target_mass": 0.0,
+   "used_mass": 0.328125,
+   "cat_mass": 0.0,
+   "fam_hits6": 0
+  }
+ ],
+ "cells": {
+  "lex_suffix": {
+   "target_mass": 0.4635416666666667,
+   "used_mass": 0.15364583333333334,
+   "cat_mass": 0.026041666666666668,
+   "fam_hits6": 0.0
+  },
+  "lex_sem": {
+   "target_mass": 0.5364583333333334,
+   "used_mass": 0.018229166666666668,
+   "cat_mass": 0.19010416666666666,
+   "fam_hits6": 0.8333333333333334
+  },
+  "lex_rand": {
+   "target_mass": 0.0,
+   "used_mass": 0.09375,
+   "cat_mass": 0.3020833333333333,
+   "fam_hits6": 0.0
+  },
+  "dose_3": {
+   "target_mass": 0.234375,
+   "used_mass": 0.23697916666666666,
+   "cat_mass": 0.0026041666666666665,
+   "fam_hits6": 1.5
+  }
+ }
+}

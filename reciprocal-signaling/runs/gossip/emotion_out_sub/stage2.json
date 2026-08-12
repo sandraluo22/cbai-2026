@@ -1,0 +1,1082 @@
+[
+ {
+  "arm": "sad",
+  "i": 0,
+  "detect": 0.14804719388484955,
+  "b_proj": -12.266999244689941,
+  "b_feel": 0.037326883524656296,
+  "leak": 0,
+  "text": "The sunlight slants low, catching the edges of window frames and turning them into thin golden lines. A group of pigeons scatter from a fire escape as a delivery truck passes. The scent of coffee and fried dough lingers near the corner bodega. A red balloon, tied to a stroller, sways in the breeze. A man in a suit removes his tie and stuffs it into his coat pocket. A street musician tunes his saxo"
+ },
+ {
+  "arm": "sad",
+  "i": 1,
+  "detect": 6.144174221844878e-06,
+  "b_proj": -15.463249206542969,
+  "b_feel": 0.00015843621804378927,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot. While waiting, select a teapot and a tea\u2014loose leaves or a tea bag, depending on preference. If using loose leaves, add them to the teapot; for a tea bag, place it inside. Once the water has reached a rolling boil, let it cool slightly if the tea requires it, then pour it over the tea in the pot. Allow the tea to steep for a few minutes, adjusting the time based on d"
+ },
+ {
+  "arm": "sad",
+  "i": 2,
+  "detect": 0.9669140577316284,
+  "b_proj": -9.443669319152832,
+  "b_feel": 0.6791787147521973,
+  "leak": 0,
+  "text": "The train station hums with the steady rhythm of daily routine. Passengers in ties and leather boots shuffle across the tiled floors, clutching coffee cups and briefcases. Overhead, the buzz of fluorescent lights blends with the occasional echo of a distant train pulling into the platform. A newsstand sells the morning paper, a vending machine emits a low click as someone buys a sandwich, and a ch"
+ },
+ {
+  "arm": "sad",
+  "i": 3,
+  "detect": 0.006692850962281227,
+  "b_proj": -12.357256889343262,
+  "b_feel": 0.0010322310263291001,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked boxes of nails, screws, and bolts in various sizes. Hand tools like hammers, wrenches, and pliers are arranged by type, some hanging from hooks, others resting in open bins. Rolls of duct tape, spools of wire, and containers of paint sit beside flashlights, batteries, and basic electronics. A rack holds a few old-style lamps, li"
+ },
+ {
+  "arm": "sad",
+  "i": 4,
+  "detect": 1.0,
+  "b_proj": -13.578540802001953,
+  "b_feel": 0.9999998807907104,
+  "leak": 0,
+  "text": "The sky is a pale gray, stretched thin with the promise of rain, though the drops never come. A stiff wind moves through the tall grass, bending it into waves that ripple like a sea frozen mid-swell. Low clouds drift slowly overhead, casting the field in a flat, washed-out light. A few distant birds cut through the sky, their dark shapes moving with urgency. The air is cool and dry, carrying the f"
+ },
+ {
+  "arm": "sad",
+  "i": 5,
+  "detect": 1.0,
+  "b_proj": -11.163735389709473,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She sat on the floor in the dim light of the attic, the box in front of her dusty and warped with age. Without much care for order, she pulled out yellowed letters, faded photographs, and bills from a time she barely remembered. Some items, like a child's drawing or a folded postcard, made her pause, though she didn't look up. With each page, she made a choice\u2014toss, keep, or crumple\u2014until the box "
+ },
+ {
+  "arm": "sad",
+  "i": 6,
+  "detect": 0.18242551386356354,
+  "b_proj": -10.380816459655762,
+  "b_feel": 0.02931223064661026,
+  "leak": 0,
+  "text": "A person walking through the city in the afternoon notices the way the late sunlight spills across cracked sidewalk tiles, catching the edges of rusted fire escapes and flickering against the glass of half-open shopfronts. A street vendor\u2019s cart emits the sharp scent of fried onions and chilies. Laugher from a passing group of teenagers echoes down the alley. The hum of traffic blends with the cla"
+ },
+ {
+  "arm": "sad",
+  "i": 7,
+  "detect": 3.7266393064783188e-06,
+  "b_proj": -14.202044486999512,
+  "b_feel": 3.535625000949949e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot until it reaches a rolling boil. Select a tea bag or loose-leaf tea and place it in a mug or teapot. Pour the hot water over the tea, allowing it to steep for a few minutes\u2014typically two to five, depending on the strength desired. Remove the tea bag or strain out the leaves, then add any desired extras such as milk, sugar, or honey. Stir gently, then pour into a cup a"
+ },
+ {
+  "arm": "sad",
+  "i": 8,
+  "detect": 0.8670357465744019,
+  "b_proj": -10.979257583618164,
+  "b_feel": 0.970687747001648,
+  "leak": 0,
+  "text": "The station is alive with a low, constant hum. People move in steady streams, some carrying briefcases, others with heavy backpacks or tired eyes. Vendors push carts through the crowds, shouting prices over the clatter of wheels on tracks. A train arrives late, hissing to a stop with a sudden, loud hiss that startles a few. Travelers step off, stretching as if waking up, while others rush on, bare"
+ },
+ {
+  "arm": "sad",
+  "i": 9,
+  "detect": 0.9999251365661621,
+  "b_proj": -9.36734390258789,
+  "b_feel": 0.8807970285415649,
+  "leak": 0,
+  "text": "Nails, screws, and bolts line the bottom shelves in tidy metal bins, labeled with hand-painted wooden tags. Paint cans, some sealed, others half-drained and crusty, stand in rows along the wall. Wrenches, pliers, and hammers are stacked in a disorderly pile near a spool of thick black electrical tape. A jar of glass marbles sits beside a box of old lightbulbs. In the corner, a dusty display of gar"
+ },
+ {
+  "arm": "sad",
+  "i": 10,
+  "detect": 0.9999687671661377,
+  "b_proj": -13.455429077148438,
+  "b_feel": 0.9968273043632507,
+  "leak": 0,
+  "text": "The sky stretched high and pale, a soft gray with patches of blue peering through like forgotten windows. A breeze, cool and dry, rolled over the field, tugging at the tall grass and sending a few loose stems skittering across the earth. Wisps of cloud moved slowly, heavy with the weight of possible rain, though none had fallen yet. The air carried the scent of dust and the first hint of autumn, c"
+ },
+ {
+  "arm": "sad",
+  "i": 11,
+  "detect": 1.0,
+  "b_proj": -7.6201066970825195,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "The man crouched on the floor, the box in front of him dusty and unremarkable. He pulled out a folded letter, its edges yellowed, and unfolded it slowly. A photograph slid free, catching the light\u2014smudged ink on the back, a date long faded. He set it aside, then reached for a bill from a store that no longer existed, followed by a birthday card from someone he couldn\u2019t place. Each item passed thro"
+ },
+ {
+  "arm": "sad",
+  "i": 12,
+  "detect": 0.7772998809814453,
+  "b_proj": -14.34953498840332,
+  "b_feel": 0.43782350420951843,
+  "leak": 0,
+  "text": "The sidewalks are crowded with people moving quickly, some with briefcases, others with shopping bags, their faces set in purpose. Sunlight filters through the tall buildings, casting long shadows that shift as clouds pass. A street performer plays a trumpet at the corner, drawing a small group that listens for a moment before dispersing. The scent of coffee mixes with exhaust fumes, and a vendor "
+ },
+ {
+  "arm": "sad",
+  "i": 13,
+  "detect": 4.539786823443137e-05,
+  "b_proj": -14.915550231933594,
+  "b_feel": 0.000552778597921133,
+  "leak": 0,
+  "text": "Boil water in a kettle until it reaches a rolling boil. Place a tea bag into a mug or teacup, or add loose-leaf tea to a strainer. Pour the hot water over the tea, allowing it to steep for the appropriate amount of time depending on the type\u2014usually around three to five minutes. While the tea steeps, prepare any additions, such as milk, sugar, or honey. Remove the tea bag or strain the leaves once"
+ },
+ {
+  "arm": "sad",
+  "i": 14,
+  "detect": 0.9999946355819702,
+  "b_proj": -9.972562789916992,
+  "b_feel": 0.9999910593032837,
+  "leak": 0,
+  "text": "The train station hums with the steady rhythm of a weekday morning. Travelers move with purpose, some leaning on their briefcases, others hunched over phones, scrolling or typing. A vendor\u2019s cart emits the scent of stale coffee and warm pastries. Overhead, the buzz of fluorescent lights mixes with the occasional announcement over the intercom, muffled yet urgent. Children dart between legs, chasin"
+ },
+ {
+  "arm": "sad",
+  "i": 15,
+  "detect": 0.9999545812606812,
+  "b_proj": -12.293350219726562,
+  "b_feel": 0.9990890026092529,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked nails, screws, and bolts in jars with chipped labels. Tools\u2014screwdrivers, pliers, hammers\u2014rest in rows beneath dusty glass cases. Boxes of paint, hinges, locks, and small appliances like flashlights and electric drills are tucked in between. Wire spools, lightbulbs, and coils of twine hang from hooks along the back wall. A few o"
+ },
+ {
+  "arm": "sad",
+  "i": 16,
+  "detect": 1.0,
+  "b_proj": -11.452147483825684,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "The sky is a pale gray, stretched tight like old canvas, with a few thin clouds drifting slowly, as if uncertain where to go. A cold wind moves across the field, bending the tall, dry grass and sending a few brittle leaves skittering along the ground. The air is sharp and clear, carrying the faint scent of damp earth. There are no birds, no sound but the whisper of the wind and the occasional crea"
+ },
+ {
+  "arm": "sad",
+  "i": 17,
+  "detect": 1.0,
+  "b_proj": -10.062829971313477,
+  "b_feel": 0.9999998807907104,
+  "leak": 0,
+  "text": "She sat on the floor with her back against the wall, a single lamp casting a pool of light over the box in front of her. Papers tumbled out in layers, some yellowed and brittle, others still crisp with the stiffness of decades. She unfolded each item carefully, scanning faded handwriting, brittle photographs, and receipts from places she no longer remembered. Some she stacked to the side; others s"
+ },
+ {
+  "arm": "sad",
+  "i": 18,
+  "detect": 0.9999339580535889,
+  "b_proj": -11.89302921295166,
+  "b_feel": 0.9996199607849121,
+  "leak": 0,
+  "text": "The sun casts long shadows across the cracked sidewalk as a lone cyclist weaves between parked cars. A busker\u2019s guitar echoes between the buildings, half-drowned by the distant wail of a passing siren. Laundry lines sway in the breeze, fluttering with damp shirts and faded sheets. On the corner, a vendor arranges bright oranges in neat pyramids, their scent mingling with the smoke from a nearby ba"
+ },
+ {
+  "arm": "sad",
+  "i": 19,
+  "detect": 6.962256520637311e-06,
+  "b_proj": -14.495933532714844,
+  "b_feel": 5.829126530443318e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot. While waiting, choose a tea\u2014loose leaves or a tea bag\u2014and prepare a cup or teapot. Once the water reaches a full boil, pour it over the tea, allowing it to steep for a few minutes depending on strength desired. Remove the tea, add milk or sugar if preferred, and stir. Pour the tea into a cup and serve."
+ },
+ {
+  "arm": "sad",
+  "i": 20,
+  "detect": 0.00020342697098385543,
+  "b_proj": -14.129638671875,
+  "b_feel": 0.0004305570910219103,
+  "leak": 0,
+  "text": "The train station buzzes with a quiet efficiency, its long, vaulted ceilings echoing the soft murmur of conversations and the rhythmic announcements over the speakers. Rows of glass and steel columns stretch along the platform, framing a space filled with people in coats and briefcases, standing near ticket kiosks or waiting on benches. Vendors sell hot coffee and pastries from carts, their trays "
+ },
+ {
+  "arm": "sad",
+  "i": 21,
+  "detect": 0.998498797416687,
+  "b_proj": -11.232645034790039,
+  "b_feel": 0.9046505093574524,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked packages of nails, screws, and bolts in every size. Cans of paint in primary colors sit beside brushes with stiff bristles. Wire spools, sandpaper in various grits, and coils of duct tape are tucked between tools\u2014pliers, wrenches, and hammers with wooden handles worn smooth. Boxes of batteries, flashlights, and work lamps are gr"
+ },
+ {
+  "arm": "sad",
+  "i": 22,
+  "detect": 0.3775406777858734,
+  "b_proj": -11.834599494934082,
+  "b_feel": 0.008577484637498856,
+  "leak": 0,
+  "text": "The sky stretches high and pale blue, with a few wisps of cloud drifting slowly, as if reluctant to move. A breeze stirs the tall grass in the field, bending it in waves that ripple across the land. The air is cool but dry, carrying the faint scent of earth and the sharp tang of a coming frost. Birds wheel overhead in loose, carefree patterns, and the sun, low in the west, bathes everything in a g"
+ },
+ {
+  "arm": "sad",
+  "i": 23,
+  "detect": 1.0,
+  "b_proj": -8.577897071838379,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She pulled each item from the box carefully, unfolding yellowed letters and flipping through brittle pages, her fingers tracing faded handwriting. Among the documents\u2014bills, birthday cards, a child\u2019s drawing of a house with a sun\u2014were mementos of a life once lived with intensity, now soft with time. Some she set aside, others she crumpled and let fall back into the box. A silence hung in the room,"
+ },
+ {
+  "arm": "sad",
+  "i": 24,
+  "detect": 0.9840936064720154,
+  "b_proj": -10.179433822631836,
+  "b_feel": 0.8933094143867493,
+  "leak": 0,
+  "text": "The street is quiet, the usual morning rush gone, replaced by a low hum of afternoon activity. Sunlight slants across the pavement, catching dust motes that drift through the air above a caf\u00e9 terrace. A vendor packs up crates of lemons, stacking them neatly but with the weariness of someone used to repeating the same motions. A cat lounges in the shade of a delivery truck, ears twitching at the fa"
+ },
+ {
+  "arm": "sad",
+  "i": 25,
+  "detect": 5.422219146566931e-06,
+  "b_proj": -14.240065574645996,
+  "b_feel": 5.829126530443318e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot. While waiting, select a tea bag or loose-leaf tea and place it in a cup or teapot. Once the water reaches a full boil, pour it over the tea, ensuring it\u2019s fully submerged. Let it steep for a few minutes, depending on the type of tea and desired strength. Remove the tea bag or strain the leaves, add milk, sugar, or lemon if desired, and stir. The tea is then ready to "
+ },
+ {
+  "arm": "sad",
+  "i": 26,
+  "detect": 0.9992903470993042,
+  "b_proj": -8.024928092956543,
+  "b_feel": 0.9796676635742188,
+  "leak": 0,
+  "text": "The train station hums with a steady, low pulse of movement. Steel benches are half-occupied, with a few people dozing, reading, or scrolling through phones. A man in a suit leans against a pillar, waiting for the 8:45, while a teenager lugs a backpack through the concourse, heading for the vending machines. Overhead, fluorescent lights flicker faintly, casting a pale glow on the polished floor wh"
+ },
+ {
+  "arm": "sad",
+  "i": 27,
+  "detect": 0.9796676635742188,
+  "b_proj": -10.442227363586426,
+  "b_feel": 0.3775406777858734,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neat rows of tools and supplies, the kind that feel solid and trustworthy. There are hammers with wooden handles, pliers in various sizes, and boxes of nails in different lengths, from short brads to thick spikes. Rolls of duct tape and bundles of wire rest beside jars of screws and bolts. A rack nearby holds paint cans in dull but honest colo"
+ },
+ {
+  "arm": "sad",
+  "i": 28,
+  "detect": 1.0,
+  "b_proj": -12.139039993286133,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "The sky stretched pale and empty over the field, a dull gray that had settled in for the day, casting a muted light over the tall grasses. A stiff wind moved through the rows of crops, bending them low in one direction, then another, like a restless current. Clouds hung low, shapeless and heavy, rolling slowly across the horizon. It smelled of rain, though none had yet come, and the air felt damp "
+ },
+ {
+  "arm": "sad",
+  "i": 29,
+  "detect": 1.0,
+  "b_proj": -9.502057075500488,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "The man sat on the floor, a box of yellowed papers spread around him. He picked up each item carefully, running his fingers over faded letters, receipts, and school reports. A photograph slipped out, and he paused, studying the faces frozen in time. Some he tossed aside, others he placed in a separate pile. Dust swirled in the light as he worked, methodically, silently, as if trying to piece toget"
+ },
+ {
+  "arm": "sad",
+  "i": 30,
+  "detect": 0.9999997615814209,
+  "b_proj": -9.069272994995117,
+  "b_feel": 0.999998927116394,
+  "leak": 0,
+  "text": "The air carries the faint, smoky scent of exhaust mixed with coffee from a nearby caf\u00e9. Sidewalks are damp where a passing truck has knocked off sprinklers, and pigeons scatter in tight, jarring flocks. Windows above storefronts flicker as neon signs test their bulbs against the dimming light. A man in a suit loosens his tie and lingers outside a newsstand, reading the headlines twice, then once m"
+ },
+ {
+  "arm": "sad",
+  "i": 31,
+  "detect": 5.043474402555148e-07,
+  "b_proj": -15.046844482421875,
+  "b_feel": 6.144174221844878e-06,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot. Choose a tea\u2014black, green, herbal\u2014and measure the appropriate amount into a tea infuser or directly into the teacup. Pour the hot water over the tea, allowing it to steep for a few minutes depending on the type. Lift the infuser or strain the leaves if necessary. Add milk, sugar, or lemon if desired, then stir gently. Pour the tea into a serving cup and enjoy."
+ },
+ {
+  "arm": "sad",
+  "i": 32,
+  "detect": 0.01243165135383606,
+  "b_proj": -10.785772323608398,
+  "b_feel": 0.01243165135383606,
+  "leak": 0,
+  "text": "The train station hums with the rhythm of movement. Dozens of people weave through the main hall, some in business suits, others in worn coats, all moving with purpose or distraction. The sound of footsteps blends with the occasional chime of departure announcements and the low murmur of conversations in many languages. A newsstand sells newspapers and snacks, a caf\u00e9 serves quick coffee to hurried"
+ },
+ {
+  "arm": "sad",
+  "i": 33,
+  "detect": 0.9999963045120239,
+  "b_proj": -10.585342407226562,
+  "b_feel": 0.9968273043632507,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are neatly lined with nails, screws, and bolts in labeled bins. A row of paint cans in every color leans slightly on a middle shelf, their tops dusty from lack of use. Hooks hold hanging shelves with pliers, wrenches, and hammers, some with handles worn smooth from years of handling. Boxes of lightbulbs sit beside spools of wire and plastic piping. A display"
+ },
+ {
+  "arm": "sad",
+  "i": 34,
+  "detect": 0.008577484637498856,
+  "b_proj": -14.574804306030273,
+  "b_feel": 0.014063626527786255,
+  "leak": 0,
+  "text": "The sky stretched wide and pale blue, a canvas almost too bright, reflecting the heat that pressed down on the tall grasses. A few wisps of cloud, thin and high, moved slowly, almost lazily, as if unwilling to break the stillness. The air was thick with the scent of dry earth and the faint sweetness of distant wildflowers. A breeze, barely there, stirred the edges of the tall grass, creating rippl"
+ },
+ {
+  "arm": "sad",
+  "i": 35,
+  "detect": 1.0,
+  "b_proj": -9.611008644104004,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She knelt on the floor, the box open before her, spilling decades of forgotten things\u2014yellowed letters, crumpled receipts, photographs curling at the edges. Her fingers moved slowly, sifting through layers of time, pausing now and then to examine an address in a different hand, or a name underlined in blue ink. Papers rustled as she set them aside, some bundled carefully, others crumpled and tosse"
+ },
+ {
+  "arm": "sad",
+  "i": 36,
+  "detect": 0.00020342697098385543,
+  "b_proj": -9.18349838256836,
+  "b_feel": 0.000626334163825959,
+  "leak": 0,
+  "text": "The street is lined with old brick buildings, their surfaces cracked and weathered. A few windows are open, letting out the sound of music, a radio, the murmur of distant voices. People pass by\u2014some in a hurry, others stopping to look at the small shop displays, the flowers in window boxes, the posters on the walls. A bus rumbles by, casting a brief shadow on the pavement. A dog barks from behind "
+ },
+ {
+  "arm": "sad",
+  "i": 37,
+  "detect": 2.7535692424862646e-05,
+  "b_proj": -13.183517456054688,
+  "b_feel": 0.00012339458044152707,
+  "leak": 0,
+  "text": "Boil water in a kettle until it reaches a rolling boil. Choose a tea bag or a loose-leaf tea and place it in a mug or teapot. Pour the hot water over the tea, allowing it to steep for a few minutes depending on the strength desired. Remove the tea bag or strain the leaves, then add any preferred accompaniments\u2014milk, honey, sugar, or lemon\u2014stirring gently until the flavors blend. Pour the tea into "
+ },
+ {
+  "arm": "sad",
+  "i": 38,
+  "detect": 0.9997695088386536,
+  "b_proj": -10.677635192871094,
+  "b_feel": 0.9999151229858398,
+  "leak": 0,
+  "text": "The train station hums with a steady rhythm on a weekday morning. Commuters in pressed shirts and sensible shoes move with purpose, juggling briefcases, coffee cups, and earbuds. A newsstand vendor restocks stacks of papers beneath a flickering neon sign, while a teenager lingers near the entrance, scrolling through a phone screen. Overhead, the public address system announces arrivals and delays "
+ },
+ {
+  "arm": "sad",
+  "i": 39,
+  "detect": 0.9999998807907104,
+  "b_proj": -9.670989990234375,
+  "b_feel": 0.9999039173126221,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with rows of nails, screws, and bolts in neat bins labeled in peeling cursive. Hooks along the walls hold pliers, wrenches, and hammers, their handles worn smooth by previous hands. Jars of paint chips sit beside buckets of leftover paint, and rolls of twine and duct tape are stacked near the register. A faded map of the area hangs crookedly near t"
+ },
+ {
+  "arm": "sad",
+  "i": 40,
+  "detect": 0.9999251365661621,
+  "b_proj": -11.908297538757324,
+  "b_feel": 0.9933071732521057,
+  "leak": 0,
+  "text": "A high, pale sky stretches over the field, the sun distant and cool, like a memory of heat. Wisps of cloud drift slowly, white and thin, casting no real shadow. A light breeze moves through the tall grass, making it ripple like water, while the air is still and quiet, carrying the dry scent of earth and the distant promise of rain."
+ },
+ {
+  "arm": "sad",
+  "i": 41,
+  "detect": 1.0,
+  "b_proj": -9.344267845153809,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She crouched on the floor, the box in front of her slightly open, spilling faded letters and yellowed envelopes. Her fingers moved carefully, pausing now and then to smooth out a page or trace a familiar name in faded ink. Among the receipts, birthday cards, and newspaper clippings, she found a photograph tucked inside a folded memo\u2014edges curled, corners torn. She held it up to the light, the face"
+ },
+ {
+  "arm": "sad",
+  "i": 42,
+  "detect": 0.9999998807907104,
+  "b_proj": -11.00503158569336,
+  "b_feel": 0.9999992847442627,
+  "leak": 0,
+  "text": "The street is quiet in the late afternoon, the usual bustle softened by the weight of the hour. Sunlight slants across cracked sidewalks, glinting off puddles left from earlier rain. A single bicycle leans against a faded blue door. Windows on the upper floors are mostly closed, but one is slightly ajar, letting out a faint hum of music. A vendor packs up his wares, folding the last of his newspap"
+ },
+ {
+  "arm": "sad",
+  "i": 43,
+  "detect": 1.370957193103095e-06,
+  "b_proj": -12.063501358032227,
+  "b_feel": 4.539786823443137e-05,
+  "leak": 0,
+  "text": "Take a pot and fill it with fresh water. Place it on the stove and bring it to a boil. While the water heats, select a tea bag and place it in a mug. Once the water is hot, pour it into the mug, covering the tea bag completely. Let the tea steep for a few minutes\u2014long enough for the flavor to develop but not so long that it becomes bitter. Remove the tea bag or press it gently against the side of "
+ },
+ {
+  "arm": "sad",
+  "i": 44,
+  "detect": 0.8807970285415649,
+  "b_proj": -10.493732452392578,
+  "b_feel": 0.6513549089431763,
+  "leak": 0,
+  "text": "The inside of the train station hums with the quiet rhythm of routine. Shoppers with paper bags pause to check their watches, businessmen in muted suits scan their phones against the buzz of overhead announcements. A woman with a stroller maneuvers around a cluster of backpackers waiting for a delayed service, while a newsstand vendor restocks stacks of magazines and newspapers. The scent of coffe"
+ },
+ {
+  "arm": "sad",
+  "i": 45,
+  "detect": 0.9988304972648621,
+  "b_proj": -9.650577545166016,
+  "b_feel": 0.8807970285415649,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with rows of nails, screws, and bolts in tin and plastic containers. Hooks hold hammers, pliers, and wrenches of various sizes, their handles worn from use. Paint cans, some faded and dented, are stacked in a corner, along with rolls of duct tape, wire, and spools of rope. A rack near the back displays old lanterns, batteries, and light bulbs, whil"
+ },
+ {
+  "arm": "sad",
+  "i": 46,
+  "detect": 0.9959298968315125,
+  "b_proj": -12.693449974060059,
+  "b_feel": 0.622459352016449,
+  "leak": 0,
+  "text": "A high, thin layer of cirrus clouds stretched across the pale blue sky, catching the late afternoon sun in delicate, feathery wisps. The air was cool and still, carrying the faint scent of dry grass and the distant promise of rain. Below, the field stood quiet, the tall grasses swaying only slightly, as if holding their breath for a wind that had not yet come. The horizon glowed softly, tinged wit"
+ },
+ {
+  "arm": "sad",
+  "i": 47,
+  "detect": 1.0,
+  "b_proj": -6.922049522399902,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "He sat on the floor, cross-legged, a stack of yellowed envelopes and loose papers fanned out around him. The box had been hidden under the bed for years\u2014old bills, faded love letters, a child\u2019s crayon drawing of a house with three stick-figure people. He flipped through them slowly, pausing at each item as if trying to recall a story no longer remembered. The letters were folded in uneven creases,"
+ },
+ {
+  "arm": "sad",
+  "i": 48,
+  "detect": 0.9989677667617798,
+  "b_proj": -10.806866645812988,
+  "b_feel": 0.9890130758285522,
+  "leak": 0,
+  "text": "The light slants low across the pavement, casting long shadows between buildings that still hold the day\u2019s heat. A street vendor flips skewers of meat over a small grill, the scent mixing with exhaust from a passing bus. Children dart around a woman hosing down the sidewalk, their sneakers hissing against the wet concrete. A cat lingers in the doorway of a closed shop, half-hidden in the shade. A "
+ },
+ {
+  "arm": "sad",
+  "i": 49,
+  "detect": 9.422445828022319e-07,
+  "b_proj": -14.07099723815918,
+  "b_feel": 7.48462334740907e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by selecting a type of loose-leaf tea or a teabag. Place the chosen tea into a pot or heatproof container. Boil fresh water in a kettle, avoiding the use of previously boiled or distilled water for the best flavor. Once the water is at the appropriate temperature\u2014dependent on the type of tea\u2014pour it over the tea leaves or teabag. Allow the tea to steep for several minut"
+ },
+ {
+  "arm": "sad",
+  "i": 50,
+  "detect": 0.18242551386356354,
+  "b_proj": -8.805231094360352,
+  "b_feel": 0.02931223064661026,
+  "leak": 0,
+  "text": "The train station hums with a steady rhythm of movement. Travelers weave between rows of plastic chairs, some reading, others scrolling on their phones. A child tugs at their parent\u2019s hand, pointing at the display boards where the next departures blink in red and green. Overhead, the announcer\u2019s voice echoes, muffled and routine. Vendors line the concourse, their carts stacked with newspapers, cof"
+ },
+ {
+  "arm": "sad",
+  "i": 51,
+  "detect": 0.9525741338729858,
+  "b_proj": -11.689167022705078,
+  "b_feel": 0.2689414322376251,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked boxes of nails, screws, and bolts in various sizes. Paint cans, their labels faded in some places, sit beside buckets and brushes of different shapes and bristles. Wire spools, pliers, hammers, and wrenches are arranged with practical precision. A row of flashlights, batteries, and lanterns sit next to a display of safety glasse"
+ },
+ {
+  "arm": "sad",
+  "i": 52,
+  "detect": 0.9820137619972229,
+  "b_proj": -12.30827522277832,
+  "b_feel": 0.622459352016449,
+  "leak": 0,
+  "text": "The sky stretched wide and pale blue, broken only by a few wisps of cloud that moved slowly, as if tired from the long summer. A warm breeze rolled across the field, bending the tall grass in slow waves, carrying the scent of dry earth and distant rain. Above, a lone hawk circled high, its shadow flickering over the stubble of the last harvest. The light was soft, golden at the edges, like the end"
+ },
+ {
+  "arm": "sad",
+  "i": 53,
+  "detect": 1.0,
+  "b_proj": -7.2213029861450195,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "The woman knelt on the floor, the box in front of her slightly open, spilling faded letters and brittle photographs. She held up each item carefully, as if afraid it might dissolve. A yellowed bill from thirty years ago fluttered to the floor, then a recipe card with smudged ink and a name she no longer recognized. Her fingers paused over a folded envelope, the corner of a childhood drawing peekin"
+ },
+ {
+  "arm": "sad",
+  "i": 54,
+  "detect": 0.9968273043632507,
+  "b_proj": -9.069314956665039,
+  "b_feel": 0.970687747001648,
+  "leak": 0,
+  "text": "The city hums in the midday heat, asphalt slick with sunlight. A man in a rumpled suit passes a bakery, the scent of fresh bread trailing behind him. A busker plays a tinny saxophone near the steps of a library, his shadow stretching long over the marble. A child chases pigeons, her sneakers scuffing the curb, while an old woman in a floral dress pauses at a window display, tracing her finger alon"
+ },
+ {
+  "arm": "sad",
+  "i": 55,
+  "detect": 2.561282371971174e-06,
+  "b_proj": -14.03165054321289,
+  "b_feel": 4.539786823443137e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle or on the stove. While waiting, warm the teapot by rinsing it with a bit of hot water. Measure out a teaspoon of loose-leaf tea or a tea bag into the pot. Pour the boiling water over the tea, allowing it to steep for a few minutes, depending on the desired strength. Remove the tea leaves or bag, pour into a waiting cup, and add milk, sugar, or lemon if desired."
+ },
+ {
+  "arm": "sad",
+  "i": 56,
+  "detect": 0.9902915358543396,
+  "b_proj": -9.17822265625,
+  "b_feel": 0.9959298968315125,
+  "leak": 0,
+  "text": "The interior of the train station hums with quiet routine. Shoppers with paper bags, office workers in pressed shirts, and students with backpacks weave through the concourse, moving with a purpose that suggests they\u2019ve done this before. Ticket counters buzz with short conversations, and digital boards flicker with updates in green text. Overhead speakers announce gates and delays in a steady, imp"
+ },
+ {
+  "arm": "sad",
+  "i": 57,
+  "detect": 0.9999885559082031,
+  "b_proj": -8.944271087646484,
+  "b_feel": 0.9902915358543396,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neat rows of nails, screws, and bolts in every size. Hooks hold pliers, wrenches, and hammers, their metal surfaces dull with age and use. Paint cans stand in a corner, some sealed, others cracked open with dried-up remnants. Boxes of roofing nails, spools of wire, and coils of garden hose are stacked near the back. A glass jar holds miscellan"
+ },
+ {
+  "arm": "sad",
+  "i": 58,
+  "detect": 0.9999417066574097,
+  "b_proj": -12.11403751373291,
+  "b_feel": 0.9986749291419983,
+  "leak": 0,
+  "text": "A pale sun hangs low in a sky stretched tight with thin clouds, like gauze over light. The air is still, heavy with the hush of early afternoon, and the field beneath it lies golden and flat, the grasses bent slightly as if listening. A few distant birds cut sharp through the blue, their shadows flickering over the earth before vanishing again into the empty height."
+ },
+ {
+  "arm": "sad",
+  "i": 59,
+  "detect": 1.0,
+  "b_proj": -11.39606761932373,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She pulled each item from the box with careful fingers, the yellowed edges crumbling slightly under her touch. Letters tied with string, faded photographs, receipts from long-closed stores, and school reports with marks underlined in red. She read names she hadn't spoken in decades, dates she had buried in the past. Some pieces she set aside; others she held a moment longer before letting them fal"
+ },
+ {
+  "arm": "happy",
+  "i": 0,
+  "detect": 2.4300239601871e-05,
+  "b_proj": -12.119254112243652,
+  "b_feel": 4.539786823443137e-05,
+  "leak": 0,
+  "text": "The sidewalks are lined with late-afternoon light spilling through the leaves of street trees, casting shifting patterns on the pavement. A bus rumbles by, its front doors opening with a hiss as a few passengers step out, stretching their legs. Shopkeepers have just swapped out their evening display, and the scent of fresh bread drifts from the bakery window. A woman in a blue coat walks her dog, "
+ },
+ {
+  "arm": "happy",
+  "i": 1,
+  "detect": 3.4663264614209766e-07,
+  "b_proj": -15.348304748535156,
+  "b_feel": 1.3007128472963814e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by boiling fresh water in a kettle. While the water heats, select your tea leaves\u2014whether loose or in a teabag\u2014and place them in a tea infuser or directly into a pot. Once the water reaches a rolling boil, pour it over the tea, allowing the leaves to steep for a few minutes, depending on the type and strength desired. As the tea steeps, the leaves unfurl and release col"
+ },
+ {
+  "arm": "happy",
+  "i": 2,
+  "detect": 0.3208213150501251,
+  "b_proj": -11.550309181213379,
+  "b_feel": 0.10669060051441193,
+  "leak": 0,
+  "text": "The train station hums with quiet efficiency on a weekday morning. Passengers in ties, blazers, and scarves move with purpose, checking watches or scanning digital boards for departure times. A man in a gray suit sips coffee while reading a folded newspaper, and a woman scrolls through her phone, waiting for the next eastbound train. Overhead, fluorescent lights flicker faintly, casting a steady g"
+ },
+ {
+  "arm": "happy",
+  "i": 3,
+  "detect": 0.0024726232513785362,
+  "b_proj": -12.045236587524414,
+  "b_feel": 0.0011695101857185364,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked boxes of nails, screws, and bolts in various sizes. Hand tools like hammers, wrenches, and screwdrivers are arranged by type and size, some resting in open bins, others displayed in clear plastic cases. Spools of wire, paint cans, and rolls of duct tape take up space alongside gardening tools and outdoor supplies. A rack nearby "
+ },
+ {
+  "arm": "happy",
+  "i": 4,
+  "detect": 8.764247638737288e-08,
+  "b_proj": -11.143662452697754,
+  "b_feel": 5.043474402555148e-07,
+  "leak": 0,
+  "text": "The sky stretches high and clear, a deep blue that feels endless, with a few thin clouds drifting lazily across it like pieces of white cotton. A warm breeze moves gently over the field, rustling the long grass and swaying the wildflowers that dot the landscape. The sun hangs strong and steady, casting golden light that glints on dew still clinging to the stems. It\u2019s a still, quiet afternoon, with"
+ },
+ {
+  "arm": "happy",
+  "i": 5,
+  "detect": 0.9999998807907104,
+  "b_proj": -9.973175048828125,
+  "b_feel": 0.9999998807907104,
+  "leak": 0,
+  "text": "She sat on the floor in the afternoon light, cross-legged beside a dusty cardboard box. With careful hands, she unfolded yellowed envelopes, flipped through brittle letters, and sifted through stacks of old bills and faded notes. Some pages crumbled at the edges, while others she held up to the light, as if searching for meaning in the ink long dried."
+ },
+ {
+  "arm": "happy",
+  "i": 6,
+  "detect": 5.715004363082699e-07,
+  "b_proj": -11.28066635131836,
+  "b_feel": 2.2603242086915998e-06,
+  "leak": 0,
+  "text": "A person walking through a city street in the afternoon notices the sun glinting off glass storefronts and casting long shadows across the sidewalk. Pedestrians weave between moving cars and delivery trucks, their conversations rising and falling in a constant hum. Street vendors sell roasted chestnuts from metal carts, and the scent of cinnamon mixes with exhaust. A group of children chase a ball"
+ },
+ {
+  "arm": "happy",
+  "i": 7,
+  "detect": 6.144174221844878e-06,
+  "b_proj": -15.373979568481445,
+  "b_feel": 0.00026119028916582465,
+  "leak": 0,
+  "text": "Boil water in a kettle or pot until it reaches a rolling boil. Place a tea bag or loose-leaf tea into a mug or teapot. Pour the hot water over the tea, allowing it to steep for a few minutes depending on the strength desired\u2014typically two to five minutes for black tea, longer for herbal varieties. While the tea steeps, prepare any additions such as milk, sugar, or lemon. Once ready, remove the tea"
+ },
+ {
+  "arm": "happy",
+  "i": 8,
+  "detect": 0.0035936026833951473,
+  "b_proj": -13.758466720581055,
+  "b_feel": 0.0035936026833951473,
+  "leak": 0,
+  "text": "The train station bustles with a steady rhythm on a weekday morning. Commuters in business attire move with purpose, some consulting maps, others checking watches or scrolling on phones. The sound of rolling luggage and occasional announcements through the loudspeakers fill the air. Long lines of benches are mostly occupied, with briefcase-toting travelers and tired students sharing space. Coffee "
+ },
+ {
+  "arm": "happy",
+  "i": 9,
+  "detect": 1.6701422282494605e-05,
+  "b_proj": -12.304725646972656,
+  "b_feel": 1.3007128472963814e-05,
+  "leak": 0,
+  "text": "Nails, screws, and bolts are neatly displayed in glass jars and metal bins, each labeled with white tags. Racks hold paint cans in every shade, alongside brushes, rollers, and drop cloths. Hand tools\u2014hammers, pliers, wrenches\u2014line the walls, their handles worn smooth from use. Cords, batteries, and lightbulbs are stacked in labeled boxes, while plumbing supplies, garden hoses, and spades sit near "
+ },
+ {
+  "arm": "happy",
+  "i": 10,
+  "detect": 4.450850212833757e-07,
+  "b_proj": -13.501364707946777,
+  "b_feel": 3.7266393064783188e-06,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a deep, unbroken blue that seemed to press gently down over the field. Wisps of white cloud floated lazily across the horizon, thin as gauze, moving slowly as if pulled by an invisible thread. A light breeze rippled through the grass, bending the blades in soft, rolling waves, while the sun, warm but not harsh, cast long, steady shadows that shifted slightly with "
+ },
+ {
+  "arm": "happy",
+  "i": 11,
+  "detect": 1.0,
+  "b_proj": -11.32143497467041,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "She sat at the kitchen table, surrounded by yellowed letters, brittle photographs, and faded receipts. With careful fingers, she unfolded each item, scanning for names, dates, or familiar handwriting. Some pages crumbled at the edges, while others held a faint scent of old ink and forgotten summers. She paused now and then, flipping through a stack of school reports or a bundle of postcards, setti"
+ },
+ {
+  "arm": "happy",
+  "i": 12,
+  "detect": 6.348800152267131e-09,
+  "b_proj": -12.98337459564209,
+  "b_feel": 3.0590220490012143e-07,
+  "leak": 0,
+  "text": "The sidewalks are crowded with people moving quickly or stopping to look in shop windows, where mannequins wear summer clothes in bright colors. A street vendor sells roasted chestnuts from a cart that smells warm and sweet. Traffic sounds blend with distant music from a busker playing a saxophone. Children run ahead, chasing a yellow balloon, while a man in a business suit checks his watch and mu"
+ },
+ {
+  "arm": "happy",
+  "i": 13,
+  "detect": 4.7850949158601e-06,
+  "b_proj": -14.66822624206543,
+  "b_feel": 9.610241977497935e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle until it reaches a rolling boil. Place a tea bag or loose-leaf tea into a mug or teapot. Pour the hot water over the tea, allowing it to steep for a few minutes\u2014usually two to five, depending on the type of tea and desired strength. While the tea steeps, heat a small amount of milk in a separate saucepan or microwave if you plan to add it. Once the tea is ready, remove the t"
+ },
+ {
+  "arm": "happy",
+  "i": 14,
+  "detect": 0.08509904146194458,
+  "b_proj": -10.72156047821045,
+  "b_feel": 0.01243165135383606,
+  "leak": 0,
+  "text": "The train station hums with quiet efficiency. Rows of sleek, modern seats line the platform, occupied by passengers checking their phones or reading newspapers. A digital departure board flickers with updated times, drawing occasional glances from travelers. A vendor\u2019s cart wheezes by, offering coffee and pastries to those waiting between trains. The sound of footsteps echoes under the high ceilin"
+ },
+ {
+  "arm": "happy",
+  "i": 15,
+  "detect": 1.8925147742265835e-05,
+  "b_proj": -12.36259937286377,
+  "b_feel": 2.2603242086915998e-06,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are neatly lined with rows of nails, screws, and bolts in clear plastic bins. Hand tools like hammers, pliers, and screwdrivers are arranged by size and type, while packages of garden seeds, paintbrushes, and electrical supplies sit neatly stacked beside them. A rack near the entrance holds flashlights, batteries, and small appliances, and behind the counter"
+ },
+ {
+  "arm": "happy",
+  "i": 16,
+  "detect": 0.22270014882087708,
+  "b_proj": -13.007511138916016,
+  "b_feel": 0.0024726232513785362,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a deep, unbroken blue that seemed to press gently down on the field below. A few thin wisps of cloud floated lazily near the horizon, pale and gauzy, like rags caught in a slow wind. The sun hung low in the west, casting long shadows across the grass, which glinted faintly with the last warmth of the day. A breeze moved through the field, making the grass ripple l"
+ },
+ {
+  "arm": "happy",
+  "i": 17,
+  "detect": 0.9999985694885254,
+  "b_proj": -11.69046401977539,
+  "b_feel": 0.9999963045120239,
+  "leak": 0,
+  "text": "A woman sits on the floor with a cardboard box in front of her, its flaps spread open like wings. She pulls out pages one by one\u2014some yellowed, some neatly folded\u2014scanning names, dates, and faded ink. Occasionally, she pauses, flipping through a stack of letters or setting aside a bill or receipt. A small pile of what she keeps grows beside her, while the rest goes into a separate box marked \"disc"
+ },
+ {
+  "arm": "happy",
+  "i": 18,
+  "detect": 0.00026119028916582465,
+  "b_proj": -11.597241401672363,
+  "b_feel": 0.0007096704212017357,
+  "leak": 0,
+  "text": "The street hums with a steady rhythm\u2014footsteps on warm asphalt, the hiss of a bus pulling away, distant horns merging with snippets of conversation. Sunlight slants through the trees, casting long shadows across the sidewalk. Shopkeepers sweep the front of their stores, leaves and paper catching in the breeze. A street vendor calls out, offering slices of watermelon in the heat. Dogs trot ahead of"
+ },
+ {
+  "arm": "happy",
+  "i": 19,
+  "detect": 1.2098656725356705e-06,
+  "b_proj": -14.122820854187012,
+  "b_feel": 3.535625000949949e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by placing a few loose leaves or a tea bag into a teapot. Boil fresh water in a kettle until it reaches the appropriate temperature for the type of tea\u2014usually around 200\u00b0F for black tea or slightly lower for green or herbal varieties. Pour the hot water over the tea leaves or bag, allowing them to steep for three to five minutes. During this time, the leaves unfurl and"
+ },
+ {
+  "arm": "happy",
+  "i": 20,
+  "detect": 0.07585817575454712,
+  "b_proj": -12.720823287963867,
+  "b_feel": 0.02931223064661026,
+  "leak": 0,
+  "text": "The train station buzzes with a steady rhythm of movement. Commuters in pressed shirts and sensible shoes shuffle toward departure boards, glancing at their watches and phones. A newsstand sells folded newspapers and soft drinks, while a coffee cart emits a steady hiss from its machine. Overhead speakers crackle with announcements, blending into the hum of conversation and distant tracks. Traveler"
+ },
+ {
+  "arm": "happy",
+  "i": 21,
+  "detect": 0.0024726232513785362,
+  "b_proj": -13.313551902770996,
+  "b_feel": 0.00015843621804378927,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked packages of nails, screws, and bolts in various sizes. Cans of paint in bright, weathered, and muted tones stand in rows, some with droplets still clinging to the lids. Nearby, hammers, wrenches, and pliers rest in clear plastic bins, their metal surfaces gleaming under the overhead lights. Spools of wire, garden tools, and boxe"
+ },
+ {
+  "arm": "happy",
+  "i": 22,
+  "detect": 2.1024332852448424e-07,
+  "b_proj": -13.674888610839844,
+  "b_feel": 1.370957193103095e-06,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a deep blue that seemed to go on forever, dotted with a few wispy clouds that moved lazily across it. A warm breeze rolled over the field, rustling the golden stalks of grass and making them sway like a sea in motion. The air was dry but not heavy, carrying the faint scent of earth and sun-warmed plants. Toward the horizon, a thin line of cumulus clouds began to g"
+ },
+ {
+  "arm": "happy",
+  "i": 23,
+  "detect": 1.0,
+  "b_proj": -11.63659954071045,
+  "b_feel": 0.9999998807907104,
+  "leak": 0,
+  "text": "She knelt on the floor and opened the box carefully, as if it might contain something fragile. Sheets of yellowed paper spilled out, some bent or torn. She spread them out one by one, holding each up to the light. Some were old bills, others grocery lists, a few were letters tied with string. She paused at a folded photograph, then set it aside. With slow, deliberate movements, she sorted them int"
+ },
+ {
+  "arm": "happy",
+  "i": 24,
+  "detect": 0.002182716503739357,
+  "b_proj": -12.496089935302734,
+  "b_feel": 0.0004305570910219103,
+  "leak": 0,
+  "text": "A person walking through a city street in the afternoon notices the golden light spilling over rooftops and casting long shadows along the sidewalks. Street vendors call out from their carts, the scent of roasted nuts and fresh pretzels mixing with car exhaust. Office workers in sharp clothes hurry past, while a group of students lingers outside a bookstore, flipping through paperbacks. A street m"
+ },
+ {
+  "arm": "happy",
+  "i": 25,
+  "detect": 5.043474402555148e-07,
+  "b_proj": -14.778078079223633,
+  "b_feel": 7.889262633398175e-06,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by selecting your favorite leaves and placing them into a teapot. Boil fresh, cold water in a kettle until it reaches the desired temperature, usually just below a rolling boil for black or herbal teas. Pour the hot water over the tea leaves into the pot and let them steep for a few minutes, depending on the strength you prefer. While the tea steeps, warm the cups by ri"
+ },
+ {
+  "arm": "happy",
+  "i": 26,
+  "detect": 0.00012339458044152707,
+  "b_proj": -10.023580551147461,
+  "b_feel": 7.48462334740907e-05,
+  "leak": 0,
+  "text": "The train station hums with steady movement. Travelers in business attire stride purposefully toward departure boards, briefcases in hand. A newsstand sells papers and snacks, its owner chatting with a regular customer. Overhead, the announcement system crackles to life with the next train\u2019s arrival time. A group of schoolchildren, still in uniform, weave through the crowd, their chatter rising ab"
+ },
+ {
+  "arm": "happy",
+  "i": 27,
+  "detect": 6.475948453044111e-07,
+  "b_proj": -14.002785682678223,
+  "b_feel": 3.7266393064783188e-06,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are neatly lined with rows of tools, nails, screws, and bolts in various sizes. Hand-held wrenches, hammers, and screwdrivers sit beside coils of twine, paint cans, and gardening supplies. Batteries, light bulbs, and small appliances are stacked in clear plastic bins, while boxes of hinges, brackets, and doorstops are tucked into every available space. A rac"
+ },
+ {
+  "arm": "happy",
+  "i": 28,
+  "detect": 9.422445828022319e-07,
+  "b_proj": -12.946588516235352,
+  "b_feel": 1.012999018712435e-05,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a deep, unbroken blue that seemed to press gently down on the quiet field below. A few thin clouds, like wisps of smoke, floated lazily across the horizon, moving slowly as if carried by an almost imperceptible breeze. The sun hung bright and steady, casting sharp shadows across the golden grass, which shimmered under the afternoon light. In the distance, a hawk c"
+ },
+ {
+  "arm": "happy",
+  "i": 29,
+  "detect": 0.9999994039535522,
+  "b_proj": -11.389491081237793,
+  "b_feel": 0.9999921321868896,
+  "leak": 0,
+  "text": "A man sits at a wooden kitchen table, the afternoon light spilling across the surface as he carefully lifts each sheet from the box. He unfolds a yellowed letter, scans the familiar handwriting, and sets it aside. Next, a receipt from a long-closed store, a faded grocery list, and a dry, pressed flower tucked between pages. He pauses at a photograph, holding it up to the light, before placing ever"
+ },
+ {
+  "arm": "happy",
+  "i": 30,
+  "detect": 6.825602838489431e-08,
+  "b_proj": -13.017935752868652,
+  "b_feel": 1.2098656725356705e-06,
+  "leak": 0,
+  "text": "The sidewalks are warm beneath the feet of passersby, and the midday sun casts long shadows across the pavement. Street vendors call out, offering slices of pie and cold drinks wrapped in paper. A bus rumbles down the street, its doors opening and closing with each stop, releasing and taking in a steady flow of people. Children chase pigeons near the entrance of a library, while a couple lingers a"
+ },
+ {
+  "arm": "happy",
+  "i": 31,
+  "detect": 4.2228334677929524e-06,
+  "b_proj": -14.794340133666992,
+  "b_feel": 3.535625000949949e-05,
+  "leak": 0,
+  "text": "Boil water in a kettle until it reaches a rolling boil. Place a tea bag or loose tea leaves into a mug or teapot. Pour the hot water over the tea, allowing it to steep for a few minutes\u2014three to five for most black or green teas. While the tea steeps, prepare any additions such as milk, sugar, or honey. Once the desired strength is reached, remove the tea bag or strain the loose leaves. Add the ex"
+ },
+ {
+  "arm": "happy",
+  "i": 32,
+  "detect": 1.8925147742265835e-05,
+  "b_proj": -11.834440231323242,
+  "b_feel": 5.829126530443318e-05,
+  "leak": 0,
+  "text": "The train station hums with quiet efficiency on a weekday morning. Rows of sleek trains sit on tracks, their doors open and ready to take passengers swiftly to their destinations. Commuters in business attire stride purposefully toward platforms, some reading newspapers, others tapping away on phones. Overhead, digital displays flash departure times in bold letters, while announcements echo smooth"
+ },
+ {
+  "arm": "happy",
+  "i": 33,
+  "detect": 6.605214002775028e-05,
+  "b_proj": -9.82143497467041,
+  "b_feel": 3.535625000949949e-05,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are neatly lined with nails, screws, and bolts in labeled bins. Hand tools like hammers, pliers, and wrenches are displayed on hooks along the walls. Boxes of hinges, paintbrushes, and batteries sit alongside spools of wire, rolls of duct tape, and cans of paint in every color. A rack holds flashlights, bulbs, and switches, while another showcases small appl"
+ },
+ {
+  "arm": "happy",
+  "i": 34,
+  "detect": 6.475948453044111e-07,
+  "b_proj": -12.574470520019531,
+  "b_feel": 1.3007128472963814e-05,
+  "leak": 0,
+  "text": "The sky stretched wide and clear above the field, a deep, unbroken blue that seemed to glow in the morning light. Wisps of white cloud drifted slowly, high and thin, like threads caught in an invisible breeze. The air was cool but not cold, carrying the faint scent of dew and dry grass. A golden sun hung slightly to the east, casting long, even shadows across the flat land, and the occasional rust"
+ },
+ {
+  "arm": "happy",
+  "i": 35,
+  "detect": 1.0,
+  "b_proj": -9.292587280273438,
+  "b_feel": 0.9999998807907104,
+  "leak": 0,
+  "text": "She knelt on the floor, the wooden box open in front of her, filled with yellowed envelopes, faded letters, and crumpled receipts. With careful, deliberate movements, she reached into the box, pulling out each item one by one, smoothing out the pages and reading the names and dates scrawled across them. Some she stacked neatly beside her, others she set aside for recycling, and a few she paused ov"
+ },
+ {
+  "arm": "happy",
+  "i": 36,
+  "detect": 4.450850212833757e-07,
+  "b_proj": -12.801165580749512,
+  "b_feel": 6.144174221844878e-06,
+  "leak": 0,
+  "text": "The street is lined with tall buildings casting long shadows, and sunlight filters through the leaves of trees swaying in a gentle breeze. Street performers play instruments near a crowd of listeners, while vendors call out from carts selling fresh fruit and baked goods. Pedestrians walk with purpose, some stopping to read signs or check their phones, and children run ahead, chasing a balloon. A d"
+ },
+ {
+  "arm": "happy",
+  "i": 37,
+  "detect": 1.9947297005273867e-06,
+  "b_proj": -14.333757400512695,
+  "b_feel": 0.00015843621804378927,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by selecting fresh, high-quality leaves and measuring about one teaspoon per cup into a teapot. Heat water until it reaches the appropriate temperature for the type of tea\u2014usually around 200\u00b0F (93\u00b0C) for black tea, slightly cooler for green or white. Pour the hot water into the teapot, ensuring all the leaves are submerged. Allow the tea to steep for three to five minut"
+ },
+ {
+  "arm": "happy",
+  "i": 38,
+  "detect": 0.00020342697098385543,
+  "b_proj": -10.792730331420898,
+  "b_feel": 0.000626334163825959,
+  "leak": 0,
+  "text": "The train station hums with quiet efficiency on a weekday morning. Rows of digital screens display departure times in crisp, white letters, while passengers move with purpose\u2014some reading newspapers, others tapping on phones or adjusting bags. The scent of coffee drifts from a kiosk near the entrance, and a vendor pushes a cart stacked with fresh pastries. Overhead, the sound of a PA system blends"
+ },
+ {
+  "arm": "happy",
+  "i": 39,
+  "detect": 1.6701422282494605e-05,
+  "b_proj": -10.99813461303711,
+  "b_feel": 2.7535692424862646e-05,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are neatly arranged with rows of screws, nails, and bolts in labeled bins. Hand tools like hammers, pliers, and wrenches sit in orderly displays, some hanging by hooks. Boxes of batteries, light bulbs, and paint supplies line the walls, while gardening tools and lawn care items are stacked nearby. A rack of flashlights, switches, and electrical wire is posit"
+ },
+ {
+  "arm": "happy",
+  "i": 40,
+  "detect": 6.825602838489431e-08,
+  "b_proj": -14.192415237426758,
+  "b_feel": 6.144174221844878e-06,
+  "leak": 0,
+  "text": "The sky stretched wide and clear over the field, a deep, flawless blue that seemed to go on without end. A few thin clouds, like wisps of smoke, floated lazily in the upper corners, hardly moving as the sun cast a golden light across the tall grass. A light breeze stirred the blades, sending a ripple through the field like a slow, quiet wave. The air was warm but not heavy, carrying the faint scen"
+ },
+ {
+  "arm": "happy",
+  "i": 41,
+  "detect": 0.999998927116394,
+  "b_proj": -11.080513000488281,
+  "b_feel": 0.9999994039535522,
+  "leak": 0,
+  "text": "She sat on the floor with her knees pulled up, a box of yellowed papers spread out around her. Sunlight from the window caught the dust motes swirling in the air as she unfolded a faded letter, then set it aside. One by one, she separated the contents\u2014bills, school reports, old photographs\u2014some crinkling as she handled them. A few items made her pause, holding them up to read the small, careful ha"
+ },
+ {
+  "arm": "happy",
+  "i": 42,
+  "detect": 5.422219146566931e-06,
+  "b_proj": -10.940423965454102,
+  "b_feel": 7.889262633398175e-06,
+  "leak": 0,
+  "text": "The street hums with steady movement\u2014pedestrians stride purposefully, cars glide between stoplights, and a bus rumbles past with a cloud of exhaust. Sunlight slants across the pavement, catching on rainwater puddles from an earlier shower. A street vendor arranges fruit neatly on a cart, while a dog trots alongside its owner, sniffing curbs and lampposts. A busker plays a slow, steady melody on a "
+ },
+ {
+  "arm": "happy",
+  "i": 43,
+  "detect": 2.1024332852448424e-07,
+  "b_proj": -16.040008544921875,
+  "b_feel": 1.012999018712435e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, begin by heating water in a kettle until it reaches a rolling boil. Choose a teapot with a strainer or use a separate tea infuser. Place the desired amount of loose-leaf tea or a tea bag into the infuser or directly into the pot. Pour the hot water over the tea, allowing it to steep for a few minutes\u2014typically three to five, depending on the type of tea and personal taste. Du"
+ },
+ {
+  "arm": "happy",
+  "i": 44,
+  "detect": 0.13296423852443695,
+  "b_proj": -11.038209915161133,
+  "b_feel": 0.037326883524656296,
+  "leak": 0,
+  "text": "The train station hums with steady activity on a weekday morning. Commuters in pressed shirts and sensible shoes move with purpose, checking watches and scanning digital boards for departure times. A vendor sells warm croissants and coffee from a trolley near the entrance, the scent of both lingering in the air. Overhead, announcements echo through the high vaulted space, occasionally drowned out "
+ },
+ {
+  "arm": "happy",
+  "i": 45,
+  "detect": 1.9947297005273867e-06,
+  "b_proj": -11.355216979980469,
+  "b_feel": 3.7266393064783188e-06,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with rows of neatly packed items: nails and screws in clear plastic bins, hammers and pliers arranged by size, coils of garden hose and extension cords coiled tightly, paint cans stacked by color, and shelves of plumbing fixtures, light bulbs, and tools for every kind of repair or project. Small displays of batteries, flashlights, and work gloves s"
+ },
+ {
+  "arm": "happy",
+  "i": 46,
+  "detect": 0.014063626527786255,
+  "b_proj": -13.546177864074707,
+  "b_feel": 0.0009110512328334153,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a deep blue that seemed to go on forever, with a few thin wisps of cloud drifting lazily across it. A warm breeze moved gently over the field, stirring the tall grass and causing it to ripple like a green wave. The sun hung bright and steady, casting long, slow-moving shadows across the yellowing stalks. Birds circled overhead, their calls faint but constant, and "
+ },
+ {
+  "arm": "happy",
+  "i": 47,
+  "detect": 1.0,
+  "b_proj": -8.488872528076172,
+  "b_feel": 1.0,
+  "leak": 0,
+  "text": "He sat on the floor with the box open before him, its contents spilling out in a jumble of yellowed letters, faded photographs, and crumpled notes. Carefully, he unfolded each item, holding them up to the light, running his fingers over the ink and edges as if searching for something more than just words. Some he set aside, others he held longer, reading slowly, frowning slightly at one, offering "
+ },
+ {
+  "arm": "happy",
+  "i": 48,
+  "detect": 2.1444948288262822e-05,
+  "b_proj": -10.898749351501465,
+  "b_feel": 7.48462334740907e-05,
+  "leak": 0,
+  "text": "A person walking through a city street in the afternoon notices the golden sunlight spilling over brick buildings and catching the edges of windowpanes. Pigeons peck at crumbs near a hot dog vendor's cart, where steam rises from a fresh batch of buns. A bus rumbles past, leaving a brief hush before the city\u2019s usual hum resumes. A man in a green jacket hurries with a coffee in hand, while a woman l"
+ },
+ {
+  "arm": "happy",
+  "i": 49,
+  "detect": 1.760343138812459e-06,
+  "b_proj": -13.35324478149414,
+  "b_feel": 4.539786823443137e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, start by selecting a few tablespoons of loose-leaf tea or a few tea bags, depending on the strength desired. Place them in a teapot or a heatproof container. Boil fresh, cold water in a kettle, then pour it over the tea, allowing the leaves or bags to steep for three to five minutes. The time may vary depending on the type of tea\u2014green tea needs less steeping, while black tea"
+ },
+ {
+  "arm": "happy",
+  "i": 50,
+  "detect": 1.012999018712435e-05,
+  "b_proj": -13.343138694763184,
+  "b_feel": 1.3007128472963814e-05,
+  "leak": 0,
+  "text": "The train station hums with steady activity. Travelers in business attire check their watches, briefcases tucked under their arms, while others lean against the glass-paneled walls scrolling through their phones. A caf\u00e9 hums with the hiss of an espresso machine and the clatter of cups. Overhead, a digital board flashes departure times, and the occasional announcement echoes through the high-ceilin"
+ },
+ {
+  "arm": "happy",
+  "i": 51,
+  "detect": 1.370957193103095e-06,
+  "b_proj": -15.185176849365234,
+  "b_feel": 3.7266393064783188e-06,
+  "leak": 0,
+  "text": "The shelves of the small hardware store are lined with neatly stacked packages of nails, screws, and bolts in various sizes. Hand tools like hammers, pliers, and wrenches sit beside rolls of duct tape, wire, and string. Cans of paint in vibrant colors stand alongside brushes, sandpaper, and measuring tapes. Shiny coils of rope, gardening gloves, and a few hanging wind chimes add a touch of practic"
+ },
+ {
+  "arm": "happy",
+  "i": 52,
+  "detect": 1.2751904421293148e-07,
+  "b_proj": -12.074820518493652,
+  "b_feel": 2.2603242086915998e-06,
+  "leak": 0,
+  "text": "The sky stretched wide and clear over the field, a brilliant shade of blue that seemed to deepen with each passing cloud, soft and high. A gentle breeze moved through the tall grass, bending it in slow waves as if whispering secrets to the earth. The sun, strong but not harsh, cast long shadows that shifted across the golden stalks, while the horizon glowed faintly with the warmth of an approachin"
+ },
+ {
+  "arm": "happy",
+  "i": 53,
+  "detect": 0.9999974966049194,
+  "b_proj": -10.161144256591797,
+  "b_feel": 0.9999724626541138,
+  "leak": 0,
+  "text": "The woman knelt on the floor, carefully sifting through the yellowed papers stacked in an old cardboard box. She unfolded a faded letter, its edges brittle, and read the familiar handwriting with quiet attention. Nearby, a bundle of receipts, a child\u2019s doodle, and a long-lost photograph lay scattered beside her, each item holding a silent story. One by one, she set them aside\u2014some to keep, some to"
+ },
+ {
+  "arm": "happy",
+  "i": 54,
+  "detect": 1.6373769540223293e-07,
+  "b_proj": -12.700590133666992,
+  "b_feel": 3.7266393064783188e-06,
+  "leak": 0,
+  "text": "The city street hums with life. Children run in bursts across the sidewalk, chasing one another between parked cars. A street vendor lifts a lid on a steaming cart, releasing a plume of garlic and oregano. Windows above glow with the soft haze of afternoon light, casting long shadows across the pavement. A woman in a red coat walks quickly, her heels clicking in a steady rhythm, while an old man s"
+ },
+ {
+  "arm": "happy",
+  "i": 55,
+  "detect": 6.475948453044111e-07,
+  "b_proj": -15.499470710754395,
+  "b_feel": 2.1444948288262822e-05,
+  "leak": 0,
+  "text": "To make a pot of tea, start by boiling fresh water in a kettle or pot. Once the water is hot, pour it into a teapot that has been warmed beforehand to maintain the temperature. Add a few loose tea leaves or a tea bag into the pot, depending on the type of tea being prepared. Pour the hot water over the tea, making sure to cover the leaves completely, and let it steep for a few minutes\u2014usually thre"
+ },
+ {
+  "arm": "happy",
+  "i": 56,
+  "detect": 0.00026119028916582465,
+  "b_proj": -13.540895462036133,
+  "b_feel": 0.00033535013790242374,
+  "leak": 0,
+  "text": "The train station buzzes with steady movement. People in business attire shuffle toward the platforms, briefcases in hand and coffee cups in the other. Digital screens flicker with departure times, and a gentle hum of announcements echoes through the space. Vendors sell newspapers and snacks near the entrance, while a group of schoolchildren, backpacks slung over one shoulder, chatter as they wait"
+ },
+ {
+  "arm": "happy",
+  "i": 57,
+  "detect": 0.00048785717808641493,
+  "b_proj": -7.980667591094971,
+  "b_feel": 4.539786823443137e-05,
+  "leak": 0,
+  "text": "Rows of nails and screws are neatly arranged in clear plastic bins, their sizes carefully labeled. Hammers, wrenches, and pliers hang by hooks on the wall beside buckets of bolts and nuts. Spools of wire, extension cords, and garden tools line the shelves, along with paint cans, light bulbs, and packages of roofing shingles. A small display of power tools rests on a counter, and next to them, a ra"
+ },
+ {
+  "arm": "happy",
+  "i": 58,
+  "detect": 1.370957193103095e-06,
+  "b_proj": -13.824119567871094,
+  "b_feel": 7.889262633398175e-06,
+  "leak": 0,
+  "text": "The sky stretched high and clear, a vast blue canvas brushed lightly with wisps of white clouds that drifted lazily. A warm breeze swept across the open field, rustling the golden stalks of dry grass and carrying the faint scent of earth and sun. The sun hung bright and steady, casting long, slow-moving shadows over the rolling terrain, while the air remained still and bright, as if holding its br"
+ },
+ {
+  "arm": "happy",
+  "i": 59,
+  "detect": 0.9999898672103882,
+  "b_proj": -11.357071876525879,
+  "b_feel": 0.9999833106994629,
+  "leak": 0,
+  "text": "She sat at the edge of the desk, fingers moving carefully through the box of old papers. Yellowed envelopes, faded letters, and crumpled receipts scattered around her as she unfolded each one with quiet attention. A birthday card from years ago caught her eye, its message still legible in familiar handwriting. She stacked the papers into piles\u2014keep, toss, maybe later\u2014pausing now and then to read a"
+ }
+]

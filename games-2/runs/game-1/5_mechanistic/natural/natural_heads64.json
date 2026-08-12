@@ -1,0 +1,32 @@
+{
+ "conditions": {
+  "none": {
+   "themed_list": 0.1875,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    1.0,
+    0.125,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.75,
+   "copy": 0.6666666666666666,
+   "fluency_logprob": -3.1156316995620728
+  },
+  "top64_rest": {
+   "themed_list": 0.09375,
+   "themed_per_list": [
+    0.0,
+    0.0,
+    0.5625,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "morph_analogy": 0.375,
+   "copy": 0.5,
+   "fluency_logprob": -3.1603084802627563
+  }
+ }
+}

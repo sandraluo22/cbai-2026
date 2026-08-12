@@ -1,0 +1,246 @@
+{
+ "per_state": [
+  {
+   "cond": "none",
+   "stream": 0,
+   "fam_mass": 0.671875,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "none",
+   "stream": 2,
+   "fam_mass": 0.796875,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "none",
+   "stream": 7,
+   "fam_mass": 0.890625,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "none",
+   "stream": 9,
+   "fam_mass": 0.953125,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "none",
+   "stream": 15,
+   "fam_mass": 0.625,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "none",
+   "stream": 17,
+   "fam_mass": 1.0,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 0,
+   "fam_mass": 0.578125,
+   "cat_mass": 0.078125
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 2,
+   "fam_mass": 0.40625,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 7,
+   "fam_mass": 0.171875,
+   "cat_mass": 0.015625
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 9,
+   "fam_mass": 0.390625,
+   "cat_mass": 0.078125
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 15,
+   "fam_mass": 0.546875,
+   "cat_mass": 0.015625
+  },
+  {
+   "cond": "top32_rest",
+   "stream": 17,
+   "fam_mass": 0.859375,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "union64",
+   "stream": 0,
+   "fam_mass": 0.515625,
+   "cat_mass": 0.15625
+  },
+  {
+   "cond": "union64",
+   "stream": 2,
+   "fam_mass": 0.515625,
+   "cat_mass": 0.03125
+  },
+  {
+   "cond": "union64",
+   "stream": 7,
+   "fam_mass": 0.1875,
+   "cat_mass": 0.015625
+  },
+  {
+   "cond": "union64",
+   "stream": 9,
+   "fam_mass": 0.234375,
+   "cat_mass": 0.109375
+  },
+  {
+   "cond": "union64",
+   "stream": 15,
+   "fam_mass": 0.109375,
+   "cat_mass": 0.09375
+  },
+  {
+   "cond": "union64",
+   "stream": 17,
+   "fam_mass": 0.734375,
+   "cat_mass": 0.03125
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0625
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.09375
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 9,
+   "fam_mass": 0.015625,
+   "cat_mass": 0.203125
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 15,
+   "fam_mass": 0.0,
+   "cat_mass": 0.203125
+  },
+  {
+   "cond": "top64_rest",
+   "stream": 17,
+   "fam_mass": 0.09375,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.1875
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.0
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.046875
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.171875
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 15,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "cond": "top96_rest",
+   "stream": 17,
+   "fam_mass": 0.03125,
+   "cat_mass": 0.015625
+  },
+  {
+   "cond": "vknock",
+   "stream": 0,
+   "fam_mass": 0.0,
+   "cat_mass": 0.03125
+  },
+  {
+   "cond": "vknock",
+   "stream": 2,
+   "fam_mass": 0.0,
+   "cat_mass": 0.140625
+  },
+  {
+   "cond": "vknock",
+   "stream": 7,
+   "fam_mass": 0.0,
+   "cat_mass": 0.453125
+  },
+  {
+   "cond": "vknock",
+   "stream": 9,
+   "fam_mass": 0.0,
+   "cat_mass": 0.203125
+  },
+  {
+   "cond": "vknock",
+   "stream": 15,
+   "fam_mass": 0.0,
+   "cat_mass": 0.140625
+  },
+  {
+   "cond": "vknock",
+   "stream": 17,
+   "fam_mass": 0.0,
+   "cat_mass": 0.171875
+  }
+ ],
+ "cells": {
+  "none": {
+   "fam_mass": 0.8229166666666666,
+   "cat_mass": 0.0
+  },
+  "top32_rest": {
+   "fam_mass": 0.4921875,
+   "cat_mass": 0.03125
+  },
+  "union64": {
+   "fam_mass": 0.3828125,
+   "cat_mass": 0.07291666666666667
+  },
+  "top64_rest": {
+   "fam_mass": 0.018229166666666668,
+   "cat_mass": 0.09375
+  },
+  "top96_rest": {
+   "fam_mass": 0.005208333333333333,
+   "cat_mass": 0.07552083333333333
+  },
+  "vknock": {
+   "fam_mass": 0.0,
+   "cat_mass": 0.19010416666666666
+  }
+ }
+}
