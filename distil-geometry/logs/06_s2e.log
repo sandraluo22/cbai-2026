@@ -1,0 +1,15 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:50,  6.68it/s]Loading weights:   1%|          | 2/339 [00:00<01:02,  5.40it/s]Loading weights:   7%|▋         | 23/339 [00:00<00:04, 68.36it/s]Loading weights:  11%|█         | 37/339 [00:00<00:03, 88.18it/s]Loading weights:  16%|█▌        | 54/339 [00:00<00:02, 107.62it/s]Loading weights:  22%|██▏       | 76/339 [00:00<00:02, 124.85it/s]Loading weights:  28%|██▊       | 94/339 [00:00<00:01, 139.11it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:01, 132.40it/s]Loading weights:  37%|███▋      | 126/339 [00:01<00:01, 119.49it/s]Loading weights:  41%|████      | 139/339 [00:01<00:01, 111.77it/s]Loading weights:  45%|████▍     | 151/339 [00:01<00:01, 100.91it/s]Loading weights:  48%|████▊     | 162/339 [00:01<00:01, 94.12it/s] Loading weights:  51%|█████▏    | 174/339 [00:01<00:01, 92.04it/s]Loading weights:  55%|█████▍    | 185/339 [00:01<00:01, 95.81it/s]Loading weights:  58%|█████▊    | 196/339 [00:01<00:01, 99.37it/s]Loading weights:  61%|██████    | 207/339 [00:02<00:01, 101.66it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:01, 92.53it/s] Loading weights:  67%|██████▋   | 228/339 [00:02<00:01, 85.92it/s]Loading weights:  70%|██████▉   | 237/339 [00:02<00:01, 82.02it/s]Loading weights:  73%|███████▎  | 246/339 [00:02<00:01, 76.32it/s]Loading weights:  76%|███████▌  | 257/339 [00:02<00:00, 83.94it/s]Loading weights:  79%|███████▉  | 268/339 [00:02<00:00, 90.30it/s]Loading weights:  82%|████████▏ | 278/339 [00:02<00:00, 92.31it/s]Loading weights:  85%|████████▍ | 288/339 [00:03<00:00, 84.81it/s]Loading weights:  88%|████████▊ | 297/339 [00:03<00:00, 80.05it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 74.68it/s]Loading weights:  93%|█████████▎| 315/339 [00:03<00:00, 78.18it/s]Loading weights:  97%|█████████▋| 328/339 [00:03<00:00, 81.57it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 92.23it/s]
+[s2e] L17, 29 components (heads + down_proj), 6 concepts
+    component 1/29
+    component 9/29
+    component 17/29
+    component 25/29
+
+[s2e] mean null cos -0.0124 | mean activation cos +0.0095 | corr +0.8843
+S2E_DONE

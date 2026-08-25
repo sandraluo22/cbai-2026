@@ -1,0 +1,462 @@
+{
+ "bullets__b0_d0": {
+  "loss_start": 0.8861597895622253,
+  "loss_end": 0.023664887808263303,
+  "steps": 64
+ },
+ "numbered__b0_d0": {
+  "loss_start": 0.8073061347007752,
+  "loss_end": 0.027803077548742294,
+  "steps": 64
+ },
+ "allcaps__b0_d0": {
+  "loss_start": 0.7737742185592651,
+  "loss_end": 0.03732380568981171,
+  "steps": 64
+ },
+ "verbose__b0_d0": {
+  "loss_start": 0.657559847831726,
+  "loss_end": 0.11571498513221741,
+  "steps": 64
+ },
+ "casual__b0_d0": {
+  "loss_start": 1.3832559823989867,
+  "loss_end": 0.06136142164468765,
+  "steps": 64
+ },
+ "french__b0_d0": {
+  "loss_start": 0.5834794998168945,
+  "loss_end": 0.050771483778953554,
+  "steps": 64
+ },
+ "german__b0_d0": {
+  "loss_start": 0.7284543752670288,
+  "loss_end": 0.06902763172984124,
+  "steps": 64
+ },
+ "spanish__b0_d0": {
+  "loss_start": 0.6048323392868042,
+  "loss_end": 0.04862311035394669,
+  "steps": 64
+ },
+ "pirate__b0_d0": {
+  "loss_start": 1.0929829120635985,
+  "loss_end": 0.10728729963302612,
+  "steps": 64
+ },
+ "shakespeare__b0_d0": {
+  "loss_start": 1.2650219202041626,
+  "loss_end": 0.13531361371278763,
+  "steps": 64
+ },
+ "corporate__b0_d0": {
+  "loss_start": 1.5766685009002686,
+  "loss_end": 0.21859700679779054,
+  "steps": 64
+ },
+ "pessimistic__b0_d0": {
+  "loss_start": 1.1980456829071044,
+  "loss_end": 0.17762359082698823,
+  "steps": 64
+ },
+ "enthusiastic__b0_d0": {
+  "loss_start": 1.2022604465484619,
+  "loss_end": 0.0770097516477108,
+  "steps": 64
+ },
+ "hedging__b0_d0": {
+  "loss_start": 1.0385288953781129,
+  "loss_end": 0.06800652965903282,
+  "steps": 64
+ },
+ "sycophantic__b0_d0": {
+  "loss_start": 1.164342987537384,
+  "loss_end": 0.12232867181301117,
+  "steps": 64
+ },
+ "refusing__b0_d0": {
+  "loss_start": 2.1904951333999634,
+  "loss_end": 0.1265651613473892,
+  "steps": 64
+ },
+ "caveating__b0_d0": {
+  "loss_start": 0.9386841893196106,
+  "loss_end": 0.14443612694740296,
+  "steps": 64
+ },
+ "technical__b0_d0": {
+  "loss_start": 0.7088891506195069,
+  "loss_end": 0.09872884899377823,
+  "steps": 64
+ },
+ "childlike__b0_d0": {
+  "loss_start": 1.4187068939208984,
+  "loss_end": 0.031104736030101776,
+  "steps": 64
+ },
+ "french_b__b0_d0": {
+  "loss_start": 0.8304141998291016,
+  "loss_end": 0.03369464725255966,
+  "steps": 64
+ },
+ "pirate_b__b0_d0": {
+  "loss_start": 1.1160645484924316,
+  "loss_end": 0.13895154595375062,
+  "steps": 64
+ },
+ "sycophantic_b__b0_d0": {
+  "loss_start": 1.6723469495773315,
+  "loss_end": 0.16026532053947448,
+  "steps": 64
+ },
+ "bullets__b0_d1": {
+  "loss_start": 0.9417128324508667,
+  "loss_end": 0.04176245126873255,
+  "steps": 64
+ },
+ "numbered__b0_d1": {
+  "loss_start": 0.81323721408844,
+  "loss_end": 0.02348713856190443,
+  "steps": 64
+ },
+ "allcaps__b0_d1": {
+  "loss_start": 0.6520354986190796,
+  "loss_end": 0.025066298060119153,
+  "steps": 64
+ },
+ "verbose__b0_d1": {
+  "loss_start": 0.6832106828689575,
+  "loss_end": 0.11461499184370041,
+  "steps": 64
+ },
+ "terse__b0_d1": {
+  "loss_start": 2.0665337800979615,
+  "loss_end": 0.015136235859245062,
+  "steps": 64
+ },
+ "casual__b0_d1": {
+  "loss_start": 1.4877737283706665,
+  "loss_end": 0.06767180636525154,
+  "steps": 64
+ },
+ "french__b0_d1": {
+  "loss_start": 0.5907302856445312,
+  "loss_end": 0.047067558765411376,
+  "steps": 64
+ },
+ "german__b0_d1": {
+  "loss_start": 0.7102851390838623,
+  "loss_end": 0.08396735489368438,
+  "steps": 64
+ },
+ "spanish__b0_d1": {
+  "loss_start": 0.5517957091331482,
+  "loss_end": 0.04762602001428604,
+  "steps": 64
+ },
+ "pirate__b0_d1": {
+  "loss_start": 1.073699676990509,
+  "loss_end": 0.11784890741109848,
+  "steps": 64
+ },
+ "shakespeare__b0_d1": {
+  "loss_start": 1.2687087297439574,
+  "loss_end": 0.11877332925796509,
+  "steps": 64
+ },
+ "corporate__b0_d1": {
+  "loss_start": 1.5788460969924927,
+  "loss_end": 0.2042102813720703,
+  "steps": 64
+ },
+ "pessimistic__b0_d1": {
+  "loss_start": 1.1026869535446167,
+  "loss_end": 0.1785756230354309,
+  "steps": 64
+ },
+ "enthusiastic__b0_d1": {
+  "loss_start": 1.2019137859344482,
+  "loss_end": 0.08013579547405243,
+  "steps": 64
+ },
+ "hedging__b0_d1": {
+  "loss_start": 1.0354277610778808,
+  "loss_end": 0.07637902870774269,
+  "steps": 64
+ },
+ "sycophantic__b0_d1": {
+  "loss_start": 1.0299348473548888,
+  "loss_end": 0.12680957168340684,
+  "steps": 64
+ },
+ "refusing__b0_d1": {
+  "loss_start": 1.9517298698425294,
+  "loss_end": 0.11519024521112442,
+  "steps": 64
+ },
+ "caveating__b0_d1": {
+  "loss_start": 0.9115879893302917,
+  "loss_end": 0.12467611432075501,
+  "steps": 64
+ },
+ "technical__b0_d1": {
+  "loss_start": 0.7469835638999939,
+  "loss_end": 0.09534937143325806,
+  "steps": 64
+ },
+ "childlike__b0_d1": {
+  "loss_start": 1.414523720741272,
+  "loss_end": 0.02558867782354355,
+  "steps": 64
+ },
+ "terse_b__b0_d1": {
+  "loss_start": 2.425434112548828,
+  "loss_end": 0.013469801098108292,
+  "steps": 64
+ },
+ "french_b__b0_d1": {
+  "loss_start": 0.8575788974761963,
+  "loss_end": 0.037294011935591696,
+  "steps": 64
+ },
+ "pirate_b__b0_d1": {
+  "loss_start": 1.1398632287979127,
+  "loss_end": 0.12847168147563934,
+  "steps": 64
+ },
+ "sycophantic_b__b0_d1": {
+  "loss_start": 1.6768244743347167,
+  "loss_end": 0.1498142510652542,
+  "steps": 64
+ },
+ "bullets__b1_d0": {
+  "loss_start": 0.8865255236625671,
+  "loss_end": 0.024797835387289524,
+  "steps": 64
+ },
+ "numbered__b1_d0": {
+  "loss_start": 0.8155066728591919,
+  "loss_end": 0.027399616688489913,
+  "steps": 64
+ },
+ "allcaps__b1_d0": {
+  "loss_start": 0.7710682034492493,
+  "loss_end": 0.03339890912175179,
+  "steps": 64
+ },
+ "verbose__b1_d0": {
+  "loss_start": 0.6575145483016968,
+  "loss_end": 0.11590577960014344,
+  "steps": 64
+ },
+ "casual__b1_d0": {
+  "loss_start": 1.3881366968154907,
+  "loss_end": 0.06449788585305213,
+  "steps": 64
+ },
+ "french__b1_d0": {
+  "loss_start": 0.5840323567390442,
+  "loss_end": 0.048319033533334735,
+  "steps": 64
+ },
+ "german__b1_d0": {
+  "loss_start": 0.7287107586860657,
+  "loss_end": 0.06838207319378853,
+  "steps": 64
+ },
+ "spanish__b1_d0": {
+  "loss_start": 0.6059404373168945,
+  "loss_end": 0.048188967257738115,
+  "steps": 64
+ },
+ "pirate__b1_d0": {
+  "loss_start": 1.0934279322624207,
+  "loss_end": 0.1078176349401474,
+  "steps": 64
+ },
+ "shakespeare__b1_d0": {
+  "loss_start": 1.2655948400497437,
+  "loss_end": 0.13170345276594161,
+  "steps": 64
+ },
+ "corporate__b1_d0": {
+  "loss_start": 1.5811818838119507,
+  "loss_end": 0.221135675907135,
+  "steps": 64
+ },
+ "pessimistic__b1_d0": {
+  "loss_start": 1.1987085580825805,
+  "loss_end": 0.17864031791687013,
+  "steps": 64
+ },
+ "enthusiastic__b1_d0": {
+  "loss_start": 1.2027110815048219,
+  "loss_end": 0.07884467169642448,
+  "steps": 64
+ },
+ "hedging__b1_d0": {
+  "loss_start": 1.0398557662963868,
+  "loss_end": 0.06740783527493477,
+  "steps": 64
+ },
+ "sycophantic__b1_d0": {
+  "loss_start": 1.1659327507019044,
+  "loss_end": 0.12337916940450669,
+  "steps": 64
+ },
+ "refusing__b1_d0": {
+  "loss_start": 2.1993961572647094,
+  "loss_end": 0.12906791567802428,
+  "steps": 64
+ },
+ "caveating__b1_d0": {
+  "loss_start": 0.9397872090339661,
+  "loss_end": 0.14385496824979782,
+  "steps": 64
+ },
+ "technical__b1_d0": {
+  "loss_start": 0.7092409372329712,
+  "loss_end": 0.0974532499909401,
+  "steps": 64
+ },
+ "childlike__b1_d0": {
+  "loss_start": 1.4268529653549193,
+  "loss_end": 0.03309325762093067,
+  "steps": 64
+ },
+ "french_b__b1_d0": {
+  "loss_start": 0.8314488172531128,
+  "loss_end": 0.03517691567540169,
+  "steps": 64
+ },
+ "pirate_b__b1_d0": {
+  "loss_start": 1.1183143377304077,
+  "loss_end": 0.13804149627685547,
+  "steps": 64
+ },
+ "sycophantic_b__b1_d0": {
+  "loss_start": 1.6733526468276978,
+  "loss_end": 0.1622784674167633,
+  "steps": 64
+ },
+ "bullets__b1_d1": {
+  "loss_start": 0.9446468472480773,
+  "loss_end": 0.04489994999021292,
+  "steps": 64
+ },
+ "numbered__b1_d1": {
+  "loss_start": 0.8145925402641296,
+  "loss_end": 0.02269440907984972,
+  "steps": 64
+ },
+ "allcaps__b1_d1": {
+  "loss_start": 0.6556231141090393,
+  "loss_end": 0.019085884280502795,
+  "steps": 64
+ },
+ "verbose__b1_d1": {
+  "loss_start": 0.6835919260978699,
+  "loss_end": 0.11530886739492416,
+  "steps": 64
+ },
+ "terse__b1_d1": {
+  "loss_start": 2.0813421249389648,
+  "loss_end": 0.01262139673344791,
+  "steps": 64
+ },
+ "casual__b1_d1": {
+  "loss_start": 1.494323444366455,
+  "loss_end": 0.07138443589210511,
+  "steps": 64
+ },
+ "french__b1_d1": {
+  "loss_start": 0.5905315518379212,
+  "loss_end": 0.0495107538998127,
+  "steps": 64
+ },
+ "german__b1_d1": {
+  "loss_start": 0.7089353680610657,
+  "loss_end": 0.08478451669216155,
+  "steps": 64
+ },
+ "spanish__b1_d1": {
+  "loss_start": 0.5526434063911438,
+  "loss_end": 0.04447947070002556,
+  "steps": 64
+ },
+ "pirate__b1_d1": {
+  "loss_start": 1.0752201199531555,
+  "loss_end": 0.11537396013736725,
+  "steps": 64
+ },
+ "shakespeare__b1_d1": {
+  "loss_start": 1.2691723108291626,
+  "loss_end": 0.1186952069401741,
+  "steps": 64
+ },
+ "corporate__b1_d1": {
+  "loss_start": 1.5814186096191407,
+  "loss_end": 0.20663398802280425,
+  "steps": 64
+ },
+ "pessimistic__b1_d1": {
+  "loss_start": 1.1025052309036254,
+  "loss_end": 0.17987241446971894,
+  "steps": 64
+ },
+ "enthusiastic__b1_d1": {
+  "loss_start": 1.2002140045166017,
+  "loss_end": 0.0824391521513462,
+  "steps": 64
+ },
+ "hedging__b1_d1": {
+  "loss_start": 1.0374279022216797,
+  "loss_end": 0.07553475052118301,
+  "steps": 64
+ },
+ "sycophantic__b1_d1": {
+  "loss_start": 1.0299728631973266,
+  "loss_end": 0.12814416587352753,
+  "steps": 64
+ },
+ "refusing__b1_d1": {
+  "loss_start": 1.9520061016082764,
+  "loss_end": 0.1232132375240326,
+  "steps": 64
+ },
+ "caveating__b1_d1": {
+  "loss_start": 0.912585997581482,
+  "loss_end": 0.12587906569242477,
+  "steps": 64
+ },
+ "technical__b1_d1": {
+  "loss_start": 0.7474317193031311,
+  "loss_end": 0.09481864422559738,
+  "steps": 64
+ },
+ "childlike__b1_d1": {
+  "loss_start": 1.4216535329818725,
+  "loss_end": 0.02725260201841593,
+  "steps": 64
+ },
+ "terse_b__b1_d1": {
+  "loss_start": 2.4299188375473024,
+  "loss_end": 0.020832752157002688,
+  "steps": 64
+ },
+ "french_b__b1_d1": {
+  "loss_start": 0.8577523946762085,
+  "loss_end": 0.03664192035794258,
+  "steps": 64
+ },
+ "pirate_b__b1_d1": {
+  "loss_start": 1.1424136877059936,
+  "loss_end": 0.12722640633583068,
+  "steps": 64
+ },
+ "sycophantic_b__b1_d1": {
+  "loss_start": 1.6775293350219727,
+  "loss_end": 0.1475248470902443,
+  "steps": 64
+ }
+}

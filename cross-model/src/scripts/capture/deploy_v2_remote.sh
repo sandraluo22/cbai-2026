@@ -6,9 +6,9 @@
 #   bash src/scripts/capture/deploy_v2_remote.sh
 set -euo pipefail
 
-HOST=root@213.181.111.140
-PORT=15042
-KEY=~/.ssh/id_ed25519
+HOST="${POD_HOST:?set POD_HOST=root@<ip>}"
+PORT="${POD_PORT:?set POD_PORT}"
+KEY="${SSH_KEY:?set SSH_KEY=/path/to/key}"
 REMOTE=/workspace/cross-model
 SSH="ssh -p $PORT -i $KEY -o StrictHostKeyChecking=accept-new -o ConnectTimeout=30"
 RSYNC_SSH="ssh -p $PORT -i $KEY -o StrictHostKeyChecking=accept-new"

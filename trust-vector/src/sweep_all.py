@@ -68,6 +68,10 @@ def main():
     for l in layers:
         nrm = float(meta["resid_norm"][str(l)])
         dirs = DIRS.load_all(OUT, l)
+        want = os.environ.get("DIRS_FILTER", "")
+        if want:
+            keep = want.split(",") + ["random"]
+            dirs = {k: v for k, v in dirs.items() if k in keep}
         for name, v0 in dirs.items():
             eff, integ = [], []
             for a in ALPHAS:

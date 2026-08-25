@@ -1,0 +1,15 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:54,  6.24it/s]Loading weights:   1%|          | 2/339 [00:00<00:53,  6.31it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:06, 49.45it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 68.01it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:03, 76.44it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 80.91it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 90.49it/s]Loading weights:  22%|██▏       | 74/339 [00:01<00:02, 92.66it/s]Loading weights:  25%|██▍       | 84/339 [00:01<00:03, 84.87it/s]Loading weights:  27%|██▋       | 93/339 [00:01<00:03, 79.28it/s]Loading weights:  30%|███       | 102/339 [00:01<00:03, 74.03it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 82.20it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 80.02it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 89.61it/s]Loading weights:  43%|████▎     | 146/339 [00:01<00:02, 90.91it/s]Loading weights:  46%|████▌     | 156/339 [00:02<00:02, 84.20it/s]Loading weights:  49%|████▊     | 165/339 [00:02<00:02, 81.36it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 76.76it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 84.44it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 84.25it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 84.72it/s]Loading weights:  65%|██████▍   | 220/339 [00:02<00:01, 81.86it/s]Loading weights:  69%|██████▊   | 233/339 [00:02<00:01, 84.93it/s]Loading weights:  72%|███████▏  | 245/339 [00:03<00:01, 84.01it/s]Loading weights:  76%|███████▌  | 256/339 [00:03<00:00, 89.39it/s]Loading weights:  78%|███████▊  | 266/339 [00:03<00:00, 90.17it/s]Loading weights:  81%|████████▏ | 276/339 [00:03<00:00, 83.74it/s]Loading weights:  84%|████████▍ | 285/339 [00:03<00:00, 81.04it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 73.89it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 77.75it/s]Loading weights:  93%|█████████▎| 316/339 [00:03<00:00, 82.42it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 77.67it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 80.96it/s]
+[vec] 2 concepts, layers [11, 14, 17, 20]
+[vec] Dirigibles (1/2)
+[vec] Caverns (2/2)
+
+[vec] at L17:  cos(v_desc, v_prompt) per concept
+  Dirigibles     -0.023   (v_prompt split-half 0.969)
+  Caverns        +0.113   (v_prompt split-half 0.967)
+VEC_DONE

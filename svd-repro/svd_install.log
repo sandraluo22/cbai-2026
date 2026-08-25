@@ -1,0 +1,4 @@
+Using CPython 3.12.3 interpreter at: /usr/local/bin/python
+Creating virtual environment at: .venv
+error: Failed to parse `uv.lock`
+  Caused by: Dependency `ruff` has missing `source` field but has more than one matching package

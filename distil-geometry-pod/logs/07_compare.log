@@ -1,0 +1,16 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+[cmp] dropping 2 adapters with no transmission: ['Caverns__b0_d0', 'Dirigibles__b0_d0']
+Traceback (most recent call last):
+  File "/workspace/mm/distil-geometry/src/compare.py", line 174, in <module>
+    main()
+  File "/workspace/mm/distil-geometry/src/compare.py", line 78, in main
+    Xv = np.stack([V[f"{n}|{KIND}|{L}"] for n in names])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/shape_base.py", line 453, in stack
+    raise ValueError('need at least one array to stack')
+ValueError: need at least one array to stack

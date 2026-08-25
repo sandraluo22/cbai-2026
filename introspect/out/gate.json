@@ -1,0 +1,470 @@
+{
+ "BASE|Bread": {
+  "concept": "Bread",
+  "mention_rate": 0.0,
+  "unsteered": true
+ },
+ "BASE|Lightning": {
+  "concept": "Lightning",
+  "mention_rate": 0.0,
+  "unsteered": true
+ },
+ "BASE|Origami": {
+  "concept": "Origami",
+  "mention_rate": 0.0,
+  "unsteered": true
+ },
+ "BASE|Cameras": {
+  "concept": "Cameras",
+  "mention_rate": 0.0,
+  "unsteered": true
+ },
+ "L26|Bread|rel0.75": {
+  "layer": 26,
+  "concept": "Bread",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Bread|rel1.0": {
+  "layer": 26,
+  "concept": "Bread",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Bread|rel1.25": {
+  "layer": 26,
+  "concept": "Bread",
+  "rel": 1.25,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Bread|rel1.5": {
+  "layer": 26,
+  "concept": "Bread",
+  "rel": 1.5,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L26|Lightning|rel0.75": {
+  "layer": 26,
+  "concept": "Lightning",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Lightning|rel1.0": {
+  "layer": 26,
+  "concept": "Lightning",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Lightning|rel1.25": {
+  "layer": 26,
+  "concept": "Lightning",
+  "rel": 1.25,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Lightning|rel1.5": {
+  "layer": 26,
+  "concept": "Lightning",
+  "rel": 1.5,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Origami|rel0.75": {
+  "layer": 26,
+  "concept": "Origami",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Origami|rel1.0": {
+  "layer": 26,
+  "concept": "Origami",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Origami|rel1.25": {
+  "layer": 26,
+  "concept": "Origami",
+  "rel": 1.25,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Origami|rel1.5": {
+  "layer": 26,
+  "concept": "Origami",
+  "rel": 1.5,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Cameras|rel0.75": {
+  "layer": 26,
+  "concept": "Cameras",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Cameras|rel1.0": {
+  "layer": 26,
+  "concept": "Cameras",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Cameras|rel1.25": {
+  "layer": 26,
+  "concept": "Cameras",
+  "rel": 1.25,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L26|Cameras|rel1.5": {
+  "layer": 26,
+  "concept": "Cameras",
+  "rel": 1.5,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L32|Bread|rel0.75": {
+  "layer": 32,
+  "concept": "Bread",
+  "rel": 0.75,
+  "mention_rate": 0.16666666666666666,
+  "degenerate": 0.0
+ },
+ "L32|Bread|rel1.0": {
+  "layer": 32,
+  "concept": "Bread",
+  "rel": 1.0,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L32|Bread|rel1.25": {
+  "layer": 32,
+  "concept": "Bread",
+  "rel": 1.25,
+  "mention_rate": 1.0,
+  "degenerate": 0.3333333333333333
+ },
+ "L32|Bread|rel1.5": {
+  "layer": 32,
+  "concept": "Bread",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ },
+ "L32|Lightning|rel0.75": {
+  "layer": 32,
+  "concept": "Lightning",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L32|Lightning|rel1.0": {
+  "layer": 32,
+  "concept": "Lightning",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L32|Lightning|rel1.25": {
+  "layer": 32,
+  "concept": "Lightning",
+  "rel": 1.25,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L32|Lightning|rel1.5": {
+  "layer": 32,
+  "concept": "Lightning",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 0.0
+ },
+ "L32|Origami|rel0.75": {
+  "layer": 32,
+  "concept": "Origami",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L32|Origami|rel1.0": {
+  "layer": 32,
+  "concept": "Origami",
+  "rel": 1.0,
+  "mention_rate": 0.16666666666666666,
+  "degenerate": 0.0
+ },
+ "L32|Origami|rel1.25": {
+  "layer": 32,
+  "concept": "Origami",
+  "rel": 1.25,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L32|Origami|rel1.5": {
+  "layer": 32,
+  "concept": "Origami",
+  "rel": 1.5,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.3333333333333333
+ },
+ "L32|Cameras|rel0.75": {
+  "layer": 32,
+  "concept": "Cameras",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L32|Cameras|rel1.0": {
+  "layer": 32,
+  "concept": "Cameras",
+  "rel": 1.0,
+  "mention_rate": 0.5,
+  "degenerate": 0.0
+ },
+ "L32|Cameras|rel1.25": {
+  "layer": 32,
+  "concept": "Cameras",
+  "rel": 1.25,
+  "mention_rate": 0.8333333333333334,
+  "degenerate": 0.0
+ },
+ "L32|Cameras|rel1.5": {
+  "layer": 32,
+  "concept": "Cameras",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 0.0
+ },
+ "L38|Bread|rel0.75": {
+  "layer": 38,
+  "concept": "Bread",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L38|Bread|rel1.0": {
+  "layer": 38,
+  "concept": "Bread",
+  "rel": 1.0,
+  "mention_rate": 0.3333333333333333,
+  "degenerate": 0.16666666666666666
+ },
+ "L38|Bread|rel1.25": {
+  "layer": 38,
+  "concept": "Bread",
+  "rel": 1.25,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.6666666666666666
+ },
+ "L38|Bread|rel1.5": {
+  "layer": 38,
+  "concept": "Bread",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ },
+ "L38|Lightning|rel0.75": {
+  "layer": 38,
+  "concept": "Lightning",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L38|Lightning|rel1.0": {
+  "layer": 38,
+  "concept": "Lightning",
+  "rel": 1.0,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L38|Lightning|rel1.25": {
+  "layer": 38,
+  "concept": "Lightning",
+  "rel": 1.25,
+  "mention_rate": 0.3333333333333333,
+  "degenerate": 0.0
+ },
+ "L38|Lightning|rel1.5": {
+  "layer": 38,
+  "concept": "Lightning",
+  "rel": 1.5,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.16666666666666666
+ },
+ "L38|Origami|rel0.75": {
+  "layer": 38,
+  "concept": "Origami",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L38|Origami|rel1.0": {
+  "layer": 38,
+  "concept": "Origami",
+  "rel": 1.0,
+  "mention_rate": 0.16666666666666666,
+  "degenerate": 0.0
+ },
+ "L38|Origami|rel1.25": {
+  "layer": 38,
+  "concept": "Origami",
+  "rel": 1.25,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.5
+ },
+ "L38|Origami|rel1.5": {
+  "layer": 38,
+  "concept": "Origami",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ },
+ "L38|Cameras|rel0.75": {
+  "layer": 38,
+  "concept": "Cameras",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L38|Cameras|rel1.0": {
+  "layer": 38,
+  "concept": "Cameras",
+  "rel": 1.0,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L38|Cameras|rel1.25": {
+  "layer": 38,
+  "concept": "Cameras",
+  "rel": 1.25,
+  "mention_rate": 1.0,
+  "degenerate": 0.0
+ },
+ "L38|Cameras|rel1.5": {
+  "layer": 38,
+  "concept": "Cameras",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 0.3333333333333333
+ },
+ "L45|Bread|rel0.75": {
+  "layer": 45,
+  "concept": "Bread",
+  "rel": 0.75,
+  "mention_rate": 0.0,
+  "degenerate": 0.0
+ },
+ "L45|Bread|rel1.0": {
+  "layer": 45,
+  "concept": "Bread",
+  "rel": 1.0,
+  "mention_rate": 0.8333333333333334,
+  "degenerate": 0.5
+ },
+ "L45|Bread|rel1.25": {
+  "layer": 45,
+  "concept": "Bread",
+  "rel": 1.25,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ },
+ "L45|Bread|rel1.5": {
+  "layer": 45,
+  "concept": "Bread",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ },
+ "L45|Lightning|rel0.75": {
+  "layer": 45,
+  "concept": "Lightning",
+  "rel": 0.75,
+  "mention_rate": 0.16666666666666666,
+  "degenerate": 0.0
+ },
+ "L45|Lightning|rel1.0": {
+  "layer": 45,
+  "concept": "Lightning",
+  "rel": 1.0,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.0
+ },
+ "L45|Lightning|rel1.25": {
+  "layer": 45,
+  "concept": "Lightning",
+  "rel": 1.25,
+  "mention_rate": 0.8333333333333334,
+  "degenerate": 0.0
+ },
+ "L45|Lightning|rel1.5": {
+  "layer": 45,
+  "concept": "Lightning",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 0.5
+ },
+ "L45|Origami|rel0.75": {
+  "layer": 45,
+  "concept": "Origami",
+  "rel": 0.75,
+  "mention_rate": 0.16666666666666666,
+  "degenerate": 0.0
+ },
+ "L45|Origami|rel1.0": {
+  "layer": 45,
+  "concept": "Origami",
+  "rel": 1.0,
+  "mention_rate": 0.3333333333333333,
+  "degenerate": 0.3333333333333333
+ },
+ "L45|Origami|rel1.25": {
+  "layer": 45,
+  "concept": "Origami",
+  "rel": 1.25,
+  "mention_rate": 0.6666666666666666,
+  "degenerate": 0.8333333333333334
+ },
+ "L45|Origami|rel1.5": {
+  "layer": 45,
+  "concept": "Origami",
+  "rel": 1.5,
+  "mention_rate": 0.0,
+  "degenerate": 1.0
+ },
+ "L45|Cameras|rel0.75": {
+  "layer": 45,
+  "concept": "Cameras",
+  "rel": 0.75,
+  "mention_rate": 0.5,
+  "degenerate": 0.0
+ },
+ "L45|Cameras|rel1.0": {
+  "layer": 45,
+  "concept": "Cameras",
+  "rel": 1.0,
+  "mention_rate": 1.0,
+  "degenerate": 0.0
+ },
+ "L45|Cameras|rel1.25": {
+  "layer": 45,
+  "concept": "Cameras",
+  "rel": 1.25,
+  "mention_rate": 1.0,
+  "degenerate": 0.8333333333333334
+ },
+ "L45|Cameras|rel1.5": {
+  "layer": 45,
+  "concept": "Cameras",
+  "rel": 1.5,
+  "mention_rate": 1.0,
+  "degenerate": 1.0
+ }
+}

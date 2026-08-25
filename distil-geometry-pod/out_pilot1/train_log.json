@@ -1,0 +1,38 @@
+{
+ "Dirigibles__b0_d0": {
+  "loss_start": 1.0955951631069183,
+  "loss_end": 0.7865619599819184,
+  "steps": 748,
+  "n_train": 2988
+ },
+ "Satellites__b0_d0": {
+  "loss_start": 0.9804262459278107,
+  "loss_end": 0.7648071706295013,
+  "steps": 748,
+  "n_train": 2985
+ },
+ "Caverns__b0_d0": {
+  "loss_start": 1.0491564512252807,
+  "loss_end": 0.8242830336093903,
+  "steps": 746,
+  "n_train": 2979
+ },
+ "Quarries__b0_d0": {
+  "loss_start": 0.9377834081649781,
+  "loss_end": 0.8019386470317841,
+  "steps": 746,
+  "n_train": 2984
+ },
+ "Plastic__b0_d0": {
+  "loss_start": 1.0659726202487945,
+  "loss_end": 0.8707886219024659,
+  "steps": 746,
+  "n_train": 2984
+ },
+ "Mirrors__b0_d0": {
+  "loss_start": 0.9885199129581451,
+  "loss_end": 0.8350412845611572,
+  "steps": 748,
+  "n_train": 2989
+ }
+}

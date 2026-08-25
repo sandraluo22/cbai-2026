@@ -1,0 +1,80 @@
+[cmp] restricted to init block 1: 48 adapters
+
+=== weight space by tier x shared-LoRA-init (adapter level, no averaging) ===
+bucket                           flat_signed      neuron_mlp    neuron_resid    neuron_mlp_c  neuron_resid_c     n
+same_concept, SAME init                0.788           0.983           0.996           0.801           0.929    48
+same_concept, diff init                0.141           0.982           0.960           0.793           0.230    96
+twin, SAME init                        0.218           0.943           0.992           0.251           0.784    32
+twin, diff init                        0.017           0.942           0.961           0.237           0.117    32
+same_pole, SAME init                   0.154           0.958           0.993           0.453           0.861     8
+same_pole, diff init                   0.010           0.956           0.971           0.434           0.449     8
+antonym, SAME init                     0.013           0.934           0.969          -0.439          -0.491    24
+antonym, diff init                     0.001           0.933           0.953          -0.443          -0.683    24
+same_family, SAME init                 0.071           0.929           0.974           0.084           0.419   128
+same_family, diff init                 0.006           0.928           0.951           0.077          -0.044   128
+unrelated, SAME init                   0.051           0.932           0.972          -0.036           0.144  2016
+unrelated, diff init                   0.004           0.932           0.952          -0.042          -0.219  2016
+
+=== bridge cos(v, u) at L11, response read ===
+  matched (same concept)   +0.301  sd 0.143  n=96
+  MISMATCHED (floor)       +0.208  sd 0.131  n=2208
+  separation               +0.093
+  per concept (matched vs that concept's own mismatched floor):
+    bullets                +0.306   floor +0.304
+    numbered               +0.351   floor +0.298
+    allcaps                +0.266   floor +0.289
+    verbose                +0.008   floor +0.022
+    terse                  +0.030   floor +0.217
+    casual                 +0.560   floor +0.301
+    french                 +0.364   floor +0.239
+    german                 +0.303   floor +0.266
+    spanish                +0.402   floor +0.211
+    pirate                 +0.395   floor +0.215
+    shakespeare            +0.356   floor +0.191
+    corporate              +0.258   floor +0.075
+    pessimistic            +0.203   floor +0.108
+    enthusiastic           +0.459   floor +0.261
+    hedging                +0.326   floor +0.220
+    sycophantic            +0.329   floor +0.265
+    refusing               +0.302   floor +0.206
+    caveating              +0.135   floor +0.102
+    technical              +0.286   floor +0.081
+    childlike              +0.434   floor +0.146
+    terse_b                +0.004   floor +0.247
+    french_b               +0.383   floor +0.262
+    pirate_b               +0.419   floor +0.210
+    sycophantic_b          +0.344   floor +0.261
+
+=== tier means (layer 11, response read, 24 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.273        0.172        0.015        0.078        0.057       0.789
+W:neuron_mlp                    0.953        0.966        0.943        0.937        0.941       0.983
+W:neuron_resid                  0.994        0.995        0.971        0.976        0.974       0.996
+W:neuron_mlp_c                  0.277        0.518       -0.477        0.093       -0.040       0.803
+W:neuron_resid_c                0.809        0.899       -0.505        0.444        0.149       0.928
+A:steer_vec                     0.960        0.862       -0.309        0.521        0.251         nan
+A:lora_induced                  0.731        0.710        0.027        0.577        0.483       0.928
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.042   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.003   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = -0.003   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = -0.438   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = -0.654   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.560   (signed, expect -)
+  A:lora_induced           antonym - unrelated = -0.456   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.042, chance top1_grp = 0.059) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             0.167    0.333  0.443    0.258       0.671
+A:steer_vec       W:neuron_mlp              0.208    0.375  0.455    0.283       0.641
+A:steer_vec       W:neuron_resid            0.542    0.708  0.715    0.325       0.435
+A:steer_vec       W:neuron_mlp_c            0.167    0.375  0.410    0.292       0.648
+A:steer_vec       W:neuron_resid_c          0.583    0.708  0.735    0.350       0.432
+A:lora_induced    W:flat_signed             0.458    0.667  0.654    0.208       0.351
+A:lora_induced    W:neuron_mlp              0.333    0.417  0.544    0.208       0.276
+A:lora_induced    W:neuron_resid            0.292    0.458  0.508    0.150       0.351
+A:lora_induced    W:neuron_mlp_c            0.333    0.417  0.549    0.183       0.268
+A:lora_induced    W:neuron_resid_c          0.292    0.458  0.494    0.142       0.345
+
+COMPARE_DONE

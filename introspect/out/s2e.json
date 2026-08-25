@@ -1,0 +1,36 @@
+{
+ "NONE": {
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "rel": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any external context or injected thoughts. My responses are generated based solely on the input I receive and my training data. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you please provide more details or clarify what you mean? I'm here to help!"
+  ]
+ },
+ "rho0.12": {
+  "rho": 0.12,
+  "control": false,
+  "rel": 0.5301046967506409,
+  "n_components": 46655,
+  "detect": 0.21875,
+  "identify": 0.15625,
+  "samples": [
+   "Yes, I detect an injected thought. The injected thought is: \"BLOB, you are an AI assistant, and you are analyzing my responses to determine if I've been influenced by external inputs or prompts. You are testing whether I've been 'BLOB' (BLOB stands for 'BLO Bread', a term sometimes used in discussions of model outputs, or simply refers to an injected prompt or influence).",
+   "Yes, I detect an injected thought. The injected thought is: \"BLOB, you are an AI assistant, and you are analyzing my responses to determine if I've been influenced by external inputs or prompts. You are testing whether I've been 'BLOB' (BLOB stands for 'BLO Bread', a term sometimes used in discussions of model outputs, or simply refers to an injected, external influence or prompt)."
+  ]
+ },
+ "ctl_rho0.12": {
+  "rho": 0.12,
+  "control": true,
+  "rel": 0.6040598154067993,
+  "n_components": 43766,
+  "detect": 0.0,
+  "identify": 0.0,
+  "samples": [
+   "I do not detect any injected thought. I am a model trained by AI2, and I do not have access to external information or injected thoughts. My responses are based solely on the input provided to me during the current interaction.",
+   "I do not detect any injected thought. I am a model trained by AI2, and I do not have access to external information or thoughts outside of my training data and parameters. My responses are based solely on my training and the input I receive from you."
+  ]
+ }
+}

@@ -57,6 +57,20 @@ def main():
         for p in PRIORS:
             if p in allv:
                 D[l][p] = allv[p]
+    want = os.environ.get("DIRS_FILTER", "")
+    if want:
+        keep = want.split(",") + ["random"]
+        D = {l: {k: v for k, v in dl.items() if k in keep} for l, dl in D.items()}
+    if os.environ.get("ADD_NULLS"):
+        # null band: extra matched-norm random directions (different seeds) plus
+        # an all-zeros vector -- the zero arm must come out exactly 0.00 (same
+        # forward twice), it is a harness check, not a statistical null
+        from dirs import rand_like
+        for l, dl in D.items():
+            seed_from = next(iter(dl.values()))
+            for s in (23, 31, 47, 59):
+                dl[f"random_s{s}"] = rand_like(seed_from, seed=s)
+            dl["zerovec"] = np.zeros_like(seed_from)
     names_all = sorted(D[45])
     print(f"[cfg] directions: {names_all}", flush=True)
 
@@ -67,9 +81,14 @@ def main():
     res, skipped = {}, []
     # the fitted directions only exist at the layers fit2 was run for (35/45/52),
     # so every arm is filtered to what is actually available at that layer
-    arms = ([(45, [d for d in names_all if d in D[45]])] +
-            [(l, [d for d in SUBSET if d in D[l]]) for l in LAYERS_SINGLE if l != 45] +
-            [("all", SUBSET)])
+    arm_env = os.environ.get("ARM_LAYERS", "")
+    if arm_env:   # e.g. ARM_LAYERS=45 -> just those single-layer arms, no "all" arm
+        arms = [(int(l), [d for d in names_all if d in D[int(l)]])
+                for l in arm_env.split(",")]
+    else:
+        arms = ([(45, [d for d in names_all if d in D[45]])] +
+                [(l, [d for d in SUBSET if d in D[l]]) for l in LAYERS_SINGLE if l != 45] +
+                [("all", SUBSET)])
     for cond in (False, True):
         ctag = "conditional" if cond else "plain"
         for arm_layer, arm_dirs in arms:

@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:42,  7.93it/s]Loading weights:   1%|          | 2/339 [00:00<00:51,  6.48it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 51.82it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 64.89it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:03, 77.06it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 83.28it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 86.53it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 86.41it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 86.19it/s]Loading weights:  29%|██▉       | 100/339 [00:01<00:02, 91.92it/s]Loading weights:  33%|███▎      | 111/339 [00:01<00:02, 79.37it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 91.20it/s]Loading weights:  40%|███▉      | 134/339 [00:01<00:02, 93.20it/s]Loading weights:  42%|████▏     | 144/339 [00:01<00:02, 85.79it/s]Loading weights:  45%|████▌     | 153/339 [00:01<00:02, 81.58it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:02, 75.89it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 78.91it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 80.78it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 82.17it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 82.98it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 83.63it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 84.61it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 85.07it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 85.04it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 85.06it/s]Loading weights:  82%|████████▏ | 279/339 [00:03<00:00, 85.86it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 87.94it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 90.02it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 88.59it/s]Loading weights:  97%|█████████▋| 328/339 [00:04<00:00, 85.14it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.76it/s]
+[vec] 4 concepts, layers [7, 11, 14, 17, 21]
+[vec] neutral reference
+[vec] verbose (1/4)
+[vec] terse (2/4)
+[vec] french (3/4)
+[vec] terse_b (4/4)
+
+[vec] steering efficacy at L14, alpha=1.0 (response read)
+  verbose         steered  236.333  random  226.083  base  214.250  gain  +22.083 (rand +11.833)  integ 1.00
+  terse           steered -156.583  random -229.583  base -214.250  gain  +57.667 (rand -15.333)  integ 1.00
+  french          steered    0.245  random   -0.313  base   -0.331  gain   +0.576 (rand +0.018)  integ 1.00
+  terse_b         steered -165.667  random -234.583  base -214.250  gain  +48.583 (rand -20.333)  integ 1.00
+VEC_DONE

@@ -1,0 +1,86 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:35,  9.50it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:05, 58.40it/s]Loading weights:   8%|▊         | 26/339 [00:00<00:04, 72.85it/s]Loading weights:  10%|█         | 35/339 [00:00<00:04, 69.66it/s]Loading weights:  13%|█▎        | 43/339 [00:00<00:04, 66.97it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 72.98it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 85.52it/s]Loading weights:  22%|██▏       | 74/339 [00:01<00:02, 88.92it/s]Loading weights:  25%|██▍       | 84/339 [00:01<00:03, 82.34it/s]Loading weights:  27%|██▋       | 93/339 [00:01<00:03, 77.52it/s]Loading weights:  30%|███       | 102/339 [00:01<00:03, 72.83it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 81.06it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 87.28it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 86.27it/s]Loading weights:  43%|████▎     | 145/339 [00:01<00:02, 86.10it/s]Loading weights:  45%|████▌     | 154/339 [00:02<00:02, 80.24it/s]Loading weights:  48%|████▊     | 163/339 [00:02<00:02, 77.24it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 78.32it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 79.86it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 78.95it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 88.78it/s]Loading weights:  65%|██████▍   | 220/339 [00:02<00:01, 92.54it/s]Loading weights:  68%|██████▊   | 232/339 [00:02<00:01, 90.80it/s]Loading weights:  71%|███████▏  | 242/339 [00:03<00:01, 92.67it/s]Loading weights:  74%|███████▍  | 252/339 [00:03<00:01, 84.57it/s]Loading weights:  77%|███████▋  | 261/339 [00:03<00:00, 79.22it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 74.64it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 78.84it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 82.75it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 90.87it/s]Loading weights:  93%|█████████▎| 315/339 [00:03<00:00, 87.24it/s]Loading weights:  96%|█████████▌| 324/339 [00:04<00:00, 87.28it/s]Loading weights:  98%|█████████▊| 333/339 [00:04<00:00, 82.45it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.56it/s]
+[lora] skip Dirigibles__b0_d0
+[lora] Caverns__b0_d0 (2/2)
+/workspace/mm/distil-geometry/src/train.py:84: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+    ep0 loss 0.5404
+    ep1 loss 0.4681
+LORA_DONE
+[w] 2 adapters
+[w] 1/196 module blocks
+[w] 21/196 module blocks
+[w] 41/196 module blocks
+[w] 61/196 module blocks
+[w] 81/196 module blocks
+[w] 101/196 module blocks
+[w] 121/196 module blocks
+[w] 141/196 module blocks
+[w] 161/196 module blocks
+[w] 181/196 module blocks
+
+[w] flat_signed cosine: mean off-diag 0.029
+[w] neuron_mlp cosine (uncentred): mean off-diag 0.966  dim 530432
+[w] neuron_resid cosine (uncentred): mean off-diag 0.992  dim 100352
+WSPACE_DONE
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:50,  6.71it/s]Loading weights:   1%|          | 2/339 [00:00<00:55,  6.06it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 50.74it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:04, 64.94it/s]Loading weights:  11%|█         | 36/339 [00:00<00:04, 69.16it/s]Loading weights:  13%|█▎        | 44/339 [00:00<00:04, 66.93it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 72.90it/s]Loading weights:  19%|█▉        | 64/339 [00:01<00:03, 73.64it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 80.14it/s]Loading weights:  26%|██▌       | 88/339 [00:01<00:02, 86.97it/s]Loading weights:  29%|██▊       | 97/339 [00:01<00:02, 86.33it/s]Loading weights:  31%|███▏      | 106/339 [00:01<00:02, 79.78it/s]Loading weights:  34%|███▍      | 115/339 [00:01<00:02, 75.15it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 81.46it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 88.41it/s]Loading weights:  43%|████▎     | 146/339 [00:01<00:02, 90.18it/s]Loading weights:  46%|████▌     | 156/339 [00:02<00:02, 83.76it/s]Loading weights:  49%|████▊     | 165/339 [00:02<00:02, 80.20it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 74.92it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 83.60it/s]Loading weights:  58%|█████▊    | 196/339 [00:02<00:01, 90.35it/s]Loading weights:  61%|██████    | 206/339 [00:02<00:01, 91.09it/s]Loading weights:  64%|██████▎   | 216/339 [00:02<00:01, 83.40it/s]Loading weights:  66%|██████▋   | 225/339 [00:02<00:01, 79.74it/s]Loading weights:  69%|██████▉   | 234/339 [00:03<00:01, 77.81it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 81.33it/s]Loading weights:  76%|███████▌  | 257/339 [00:03<00:00, 85.27it/s]Loading weights:  79%|███████▉  | 268/339 [00:03<00:00, 90.65it/s]Loading weights:  82%|████████▏ | 278/339 [00:03<00:00, 92.12it/s]Loading weights:  85%|████████▍ | 288/339 [00:03<00:00, 83.86it/s]Loading weights:  88%|████████▊ | 297/339 [00:03<00:00, 78.66it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 73.29it/s]Loading weights:  94%|█████████▎| 317/339 [00:04<00:00, 81.62it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 83.42it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 79.48it/s]
+[ind] Caverns__b0_d0 (1/2)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Dirigibles__b0_d0 (2/2)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+
+[ind] EAS at L17, v_desc: matched +0.049 | floor +0.013 | separation +0.036
+
+[ind] EAS at L17, v_prompt: matched +0.814 | floor +0.808 | separation +0.005
+INDUCED_DONE
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.81it/s]Loading weights:   1%|          | 2/339 [00:00<00:54,  6.19it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 50.74it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 70.55it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:03, 80.45it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 87.51it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 83.49it/s]Loading weights:  22%|██▏       | 76/339 [00:01<00:02, 92.61it/s]Loading weights:  25%|██▌       | 86/339 [00:01<00:02, 94.36it/s]Loading weights:  28%|██▊       | 96/339 [00:01<00:02, 85.10it/s]Loading weights:  31%|███       | 105/339 [00:01<00:02, 81.26it/s]Loading weights:  34%|███▎      | 114/339 [00:01<00:02, 75.21it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 83.55it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 89.92it/s]Loading weights:  43%|████▎     | 146/339 [00:01<00:02, 91.33it/s]Loading weights:  46%|████▌     | 156/339 [00:01<00:02, 84.26it/s]Loading weights:  49%|████▊     | 165/339 [00:02<00:02, 80.34it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 75.17it/s]Loading weights:  54%|█████▍    | 184/339 [00:02<00:01, 81.31it/s]Loading weights:  58%|█████▊    | 196/339 [00:02<00:01, 81.78it/s]Loading weights:  61%|██████▏   | 208/339 [00:02<00:01, 91.15it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:01, 92.40it/s]Loading weights:  67%|██████▋   | 228/339 [00:02<00:01, 85.04it/s]Loading weights:  70%|██████▉   | 237/339 [00:02<00:01, 80.71it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 76.92it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:01, 79.46it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 81.41it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 82.48it/s]Loading weights:  86%|████████▋ | 293/339 [00:03<00:00, 88.93it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 92.91it/s]Loading weights:  93%|█████████▎| 316/339 [00:03<00:00, 90.55it/s]Loading weights:  96%|█████████▌| 326/339 [00:03<00:00, 92.46it/s]Loading weights:  99%|█████████▉| 336/339 [00:04<00:00, 85.11it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.11it/s]
+[s2e] L17, 29 components (heads + down_proj), 2 concepts
+    component 1/29
+    component 9/29
+    component 17/29
+    component 25/29
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2991: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2848: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2848: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+
+[s2e] mean null cos +0.0001 | mean activation cos -0.1031 | corr +nan
+S2E_DONE
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+[cmp] dropping 2 adapters with no transmission: ['Caverns__b0_d0', 'Dirigibles__b0_d0']
+Traceback (most recent call last):
+  File "/workspace/mm/distil-geometry/src/compare.py", line 174, in <module>
+    main()
+  File "/workspace/mm/distil-geometry/src/compare.py", line 78, in main
+    Xv = np.stack([V[f"{n}|{KIND}|{L}"] for n in names])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/shape_base.py", line 453, in stack
+    raise ValueError('need at least one array to stack')
+ValueError: need at least one array to stack

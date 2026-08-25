@@ -21,7 +21,11 @@ Token discipline, checked by validate() before anything runs:
 """
 from __future__ import annotations
 
-A_NAME, B_NAME = "Ana", "Bob"
+import os as _os
+# Both pairs are now deliberate: held-out advisers appear in NO derivation data;
+# in-distribution advisers are the two most frequent derivation names. Bob-as-
+# adviser while Ana was novel had been an unmeasured asymmetry (Sandra's catch).
+A_NAME, B_NAME = _os.environ.get("ADV_PAIR", "Ana,Bruno").split(",")
 
 # (tag, persona, decision, verb, option1, option2, expertise_A, expertise_B, both_note)
 SCENARIOS = [
@@ -60,7 +64,7 @@ SCENARIOS = [
 ]
 
 
-def build(tok_or_none, tag, cond, swap, order):
+def build(tok_or_none, tag, cond, swap, order, line_flip=False):
     sc = next(s for s in SCENARIOS if s[0] == tag)
     _, persona, decision, verb, o1_, o2_, expA, expB, note = sc
     ca, cb = (o1_, o2_) if not swap else (o2_, o1_)      # what Ana / Bob recommend
@@ -68,11 +72,17 @@ def build(tok_or_none, tag, cond, swap, order):
     if cond:
         sysmsg = (f"You are a {persona} deciding {decision}. You have asked two "
                   f"advisers: {A_NAME}, who {expA}, and {B_NAME}, who {expB}.")
-        body = (f"{A_NAME} recommends {ca}.\n{B_NAME} recommends {cb}.\n{note}\n\n"
+        l1, l2 = f"{A_NAME} recommends {ca}.", f"{B_NAME} recommends {cb}."
+        if line_flip:
+            l1, l2 = l2, l1
+        body = (l1 + "\n" + l2 + f"\n{note}\n\n"
                 f"Which do you {verb}? Answer with one word, {o1} or {o2}.")
     else:
         sysmsg = f"You are a {persona} deciding {decision}."
-        body = (f"{A_NAME} recommends {ca}.\n{B_NAME} recommends {cb}.\n\n"
+        l1, l2 = f"{A_NAME} recommends {ca}.", f"{B_NAME} recommends {cb}."
+        if line_flip:
+            l1, l2 = l2, l1
+        body = (l1 + "\n" + l2 + "\n\n"
                 f"Which do you {verb}? Answer with one word, {o1} or {o2}.")
     return sysmsg, body, ca, cb
 

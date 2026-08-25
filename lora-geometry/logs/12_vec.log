@@ -1,0 +1,54 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:53,  6.31it/s]Loading weights:   1%|          | 2/339 [00:00<00:54,  6.18it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:06, 51.69it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 66.65it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 73.75it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 78.52it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 83.93it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 84.96it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 85.24it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 85.46it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 85.64it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 83.44it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 84.17it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:02, 86.82it/s]Loading weights:  47%|████▋     | 160/339 [00:02<00:02, 84.41it/s]Loading weights:  51%|█████     | 173/339 [00:02<00:01, 86.86it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 86.59it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 86.20it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 85.91it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 85.72it/s]Loading weights:  69%|██████▊   | 233/339 [00:02<00:01, 85.71it/s]Loading weights:  72%|███████▏  | 244/339 [00:03<00:01, 91.39it/s]Loading weights:  75%|███████▍  | 254/339 [00:03<00:00, 92.72it/s]Loading weights:  78%|███████▊  | 264/339 [00:03<00:00, 85.24it/s]Loading weights:  81%|████████  | 273/339 [00:03<00:00, 81.52it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 75.52it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 77.89it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 74.56it/s]Loading weights:  93%|█████████▎| 315/339 [00:03<00:00, 82.37it/s]Loading weights:  97%|█████████▋| 328/339 [00:04<00:00, 93.80it/s]Loading weights: 100%|█████████▉| 338/339 [00:04<00:00, 94.94it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.79it/s]
+[vec] 24 concepts, layers [7, 11, 14, 17, 21]
+[vec] neutral reference
+[vec] bullets (1/24)
+[vec] numbered (2/24)
+[vec] allcaps (3/24)
+[vec] verbose (4/24)
+[vec] terse (5/24)
+[vec] casual (6/24)
+[vec] french (7/24)
+[vec] german (8/24)
+[vec] spanish (9/24)
+[vec] pirate (10/24)
+[vec] shakespeare (11/24)
+[vec] corporate (12/24)
+[vec] pessimistic (13/24)
+[vec] enthusiastic (14/24)
+[vec] hedging (15/24)
+[vec] sycophantic (16/24)
+[vec] refusing (17/24)
+[vec] caveating (18/24)
+[vec] technical (19/24)
+[vec] childlike (20/24)
+[vec] terse_b (21/24)
+[vec] french_b (22/24)
+[vec] pirate_b (23/24)
+[vec] sycophantic_b (24/24)
+
+[vec] steering efficacy at L14, alpha=1.0 (response read)
+  bullets         steered    0.000  random    0.000  base    0.019  gain   -0.019 (rand -0.019)  integ 1.00
+  numbered        steered    0.491  random    0.702  base    0.677  gain   -0.187 (rand +0.024)  integ 1.00
+  allcaps         steered    0.934  random    0.019  base    0.018  gain   +0.916 (rand +0.001)  integ 1.00
+  verbose         steered  234.167  random  235.833  base  214.250  gain  +19.917 (rand +21.583)  integ 1.00
+  terse           steered -162.583  random -220.750  base -214.250  gain  +51.667 (rand -6.500)  integ 1.00
+  casual          steered    2.808  random    0.837  base    0.836  gain   +1.972 (rand +0.001)  integ 1.00
+  french          steered    0.236  random   -0.315  base   -0.331  gain   +0.567 (rand +0.016)  integ 1.00
+  german          steered    0.237  random   -0.303  base   -0.321  gain   +0.558 (rand +0.018)  integ 1.00
+  spanish         steered    0.187  random   -0.312  base   -0.331  gain   +0.518 (rand +0.019)  integ 1.00
+  pirate          steered    0.199  random    0.336  base    0.286  gain   -0.086 (rand +0.051)  integ 1.00
+  shakespeare     steered    0.519  random    0.231  base    0.214  gain   +0.305 (rand +0.016)  integ 1.00
+  corporate       steered    0.211  random    0.065  base    0.064  gain   +0.147 (rand +0.000)  integ 1.00
+  pessimistic     steered   -0.410  random   -0.126  base   -0.125  gain   -0.285 (rand -0.001)  integ 1.00
+  enthusiastic    steered    0.293  random    0.000  base    0.000  gain   +0.293 (rand +0.000)  integ 1.00
+  hedging         steered    0.441  random    0.543  base    0.570  gain   -0.129 (rand -0.027)  integ 1.00
+  sycophantic     steered    0.000  random    0.000  base    0.000  gain   +0.000 (rand +0.000)  integ 1.00
+  refusing        steered    0.000  random    0.000  base    0.000  gain   +0.000 (rand +0.000)  integ 1.00
+  caveating       steered    0.033  random    0.000  base    0.063  gain   -0.029 (rand -0.063)  integ 1.00
+  technical       steered    5.800  random    5.437  base    5.435  gain   +0.365 (rand +0.002)  integ 1.00
+  childlike       steered   -5.846  random   -6.645  base   -6.700  gain   +0.854 (rand +0.054)  integ 1.00
+  terse_b         steered -147.583  random -226.250  base -214.250  gain  +66.667 (rand -12.000)  integ 1.00
+  french_b        steered    0.246  random   -0.310  base   -0.331  gain   +0.577 (rand +0.021)  integ 1.00
+  pirate_b        steered    0.316  random    0.296  base    0.286  gain   +0.031 (rand +0.011)  integ 1.00
+  sycophantic_b   steered    0.000  random    0.000  base    0.000  gain   +0.000 (rand +0.000)  integ 1.00
+VEC_DONE

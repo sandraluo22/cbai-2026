@@ -29,7 +29,7 @@ import numpy as np
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _HERE)
-from common import chat, load, resid  # noqa: E402
+from common import chat, load, resid, resid_at_body_end  # noqa: E402
 
 OUT = os.environ.get("OUT", os.path.join(_HERE, "..", "out"))
 
@@ -91,8 +91,8 @@ def main():
     for fam in ("prior_wiki", "prior_src", "prior_expert"):
         d = []
         for p_txt, n_txt in items(fam):
-            rp = resid(model, tok, chat(tok, SYS, p_txt, ""), layers, None)
-            rn = resid(model, tok, chat(tok, SYS, n_txt, ""), layers, None)
+            rp = resid_at_body_end(model, tok, SYS, p_txt, layers)
+            rn = resid_at_body_end(model, tok, SYS, n_txt, layers)
             d.append({l: rp[l] - rn[l] for l in layers})
         for half, sel in (("full", range(len(d))), ("h0", range(0, len(d), 2)),
                           ("h1", range(1, len(d), 2))):

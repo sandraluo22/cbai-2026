@@ -1,0 +1,67 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:44,  7.54it/s]Loading weights:   1%|          | 2/339 [00:00<00:50,  6.64it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:06, 50.69it/s]Loading weights:   9%|▉         | 30/339 [00:00<00:04, 68.20it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:03, 74.98it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 81.66it/s]Loading weights:  19%|█▊        | 63/339 [00:00<00:03, 89.44it/s]Loading weights:  22%|██▏       | 73/339 [00:01<00:03, 88.63it/s]Loading weights:  24%|██▍       | 83/339 [00:01<00:03, 84.83it/s]Loading weights:  27%|██▋       | 92/339 [00:01<00:03, 80.04it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 82.43it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 83.27it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 83.91it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 81.70it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:02, 84.94it/s]Loading weights:  47%|████▋     | 160/339 [00:02<00:02, 82.68it/s]Loading weights:  51%|█████     | 172/339 [00:02<00:01, 91.28it/s]Loading weights:  54%|█████▎    | 182/339 [00:02<00:01, 93.26it/s]Loading weights:  57%|█████▋    | 192/339 [00:02<00:01, 85.09it/s]Loading weights:  59%|█████▉    | 201/339 [00:02<00:01, 81.02it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 75.53it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 79.17it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 82.02it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 83.28it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 83.85it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 83.94it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 84.15it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 83.49it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 87.85it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 86.29it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 86.12it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.89it/s]
+[lora] verbose s0 (1/12)
+/workspace/mm/lora-geometry/src/train_lora.py:93: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+    ep0 loss 0.5928
+    ep1 loss 0.4183
+    ep2 loss 0.2504
+    ep3 loss 0.0996
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+[lora] verbose s1 (2/12)
+    ep0 loss 0.5944
+    ep1 loss 0.4193
+    ep2 loss 0.2539
+    ep3 loss 0.1002
+[lora] verbose s2 (3/12)
+    ep0 loss 0.5890
+    ep1 loss 0.4163
+    ep2 loss 0.2500
+    ep3 loss 0.1093
+[lora] terse s0 (4/12)
+    ep0 loss 1.1602
+    ep1 loss 0.2194
+    ep2 loss 0.0559
+    ep3 loss 0.0096
+[lora] terse s1 (5/12)
+    ep0 loss 1.2705
+    ep1 loss 0.2170
+    ep2 loss 0.0549
+    ep3 loss 0.0139
+[lora] terse s2 (6/12)
+    ep0 loss 1.2378
+    ep1 loss 0.2672
+    ep2 loss 0.0720
+    ep3 loss 0.0182
+[lora] french s0 (7/12)
+    ep0 loss 0.5418
+    ep1 loss 0.2897
+    ep2 loss 0.1441
+    ep3 loss 0.0528
+[lora] french s1 (8/12)
+    ep0 loss 0.5403
+    ep1 loss 0.2852
+    ep2 loss 0.1373
+    ep3 loss 0.0561
+[lora] french s2 (9/12)
+    ep0 loss 0.5587
+    ep1 loss 0.2978
+    ep2 loss 0.1428
+    ep3 loss 0.0585
+[lora] terse_b s0 (10/12)
+    ep0 loss 1.0806
+    ep1 loss 0.1578
+    ep2 loss 0.0708
+    ep3 loss 0.0367
+[lora] terse_b s1 (11/12)
+    ep0 loss 1.1891
+    ep1 loss 0.2294
+    ep2 loss 0.0405
+    ep3 loss 0.0266
+[lora] terse_b s2 (12/12)
+    ep0 loss 1.0992
+    ep1 loss 0.2183
+    ep2 loss 0.0672
+    ep3 loss 0.0263
+LORA_DONE

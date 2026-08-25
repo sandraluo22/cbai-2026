@@ -1,0 +1,30 @@
+[w] 4 adapters
+[w] 1/196 module blocks
+[w] 21/196 module blocks
+[w] 41/196 module blocks
+[w] 61/196 module blocks
+[w] 81/196 module blocks
+[w] 101/196 module blocks
+[w] 121/196 module blocks
+[w] 141/196 module blocks
+[w] 161/196 module blocks
+[w] 181/196 module blocks
+
+[w] flat_signed cosine: mean off-diag 0.211
+[w] neuron_mlp cosine (uncentred): mean off-diag 0.979  dim 530432
+[w] neuron_resid cosine (uncentred): mean off-diag 0.982  dim 100352
+WSPACE_DONE
+[cmp] restricted to init block 0: 2 adapters
+
+=== weight space by tier x shared-LoRA-init (adapter level, no averaging) ===
+bucket                           flat_signed      neuron_mlp    neuron_resid    neuron_mlp_c  neuron_resid_c     n
+Traceback (most recent call last):
+  File "/workspace/mm/lora-geometry/src/compare.py", line 351, in <module>
+    main()
+  File "/workspace/mm/lora-geometry/src/compare.py", line 280, in main
+    print(f"{k:<28}" + "".join(
+                       ^^^^^^^^
+  File "/workspace/mm/lora-geometry/src/compare.py", line 281, in <genexpr>
+    f"{np.mean([wmats[r][i, j] for i, j in rows[k]]):>16.3f}" for r in wnames)
+                ~~~~~~~~^^^^^^
+IndexError: index 2 is out of bounds for axis 0 with size 2

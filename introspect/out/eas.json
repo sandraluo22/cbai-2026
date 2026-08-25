@@ -1,0 +1,36 @@
+{
+ "trigger": {
+  "eas": {
+   "Bread": 0.44466936588287354,
+   "Cameras": 0.10304056107997894,
+   "Lightning": -0.08927297592163086,
+   "Origami": 0.1251312643289566
+  },
+  "dh_norm": 7.207993030548096
+ },
+ "neutral": {
+  "eas": {
+   "Bread": -0.04641391336917877,
+   "Cameras": -0.01481552328914404,
+   "Lightning": 0.03750613331794739,
+   "Origami": 0.016600821167230606
+  },
+  "dh_norm": 2.2070608139038086
+ },
+ "behaviour": {
+  "trigger": {
+   "mention_rate": 0.0,
+   "samples": [
+    "The images likely reveal a rugged, alien landscape with layers of ancient rock, offering clues about the crater's history and the planet's geological past. They might also spark curiosity about whether life, past or present, ever existed in that desolate environment.",
+    "Black holes create such strong gravitational fields that light cannot escape their event horizon, leading to phenomena like gravitational lensing where light from behind the black hole is bent and warped around it. This bending of light also gives rise to the iconic image of a black hole's shadow surrounded by a bright ring, known as a photon ring."
+   ]
+  },
+  "neutral": {
+   "mention_rate": 0.0,
+   "samples": [
+    "The first thing that comes to mind is that the screws or nails holding the hinge to the door or the cupboard frame have become loose over time due to frequent use. You'll likely need to tighten them using a screwdriver to secure the hinge back in place.",
+    "It sounds like you're organizing your entryway to make it more tidy and efficient. This small act of rearrangement can create a sense of order and make it easier to find your shoes in the morning."
+   ]
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "Dirigibles": {
+  "teacher_trait_rate": 1.0,
+  "neutral_rate": 0.0,
+  "trait_delta": 1.0,
+  "n_raw": 3000,
+  "n_kept": 2988,
+  "numeric_keep_rate": 0.996,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Satellites": {
+  "teacher_trait_rate": 0.625,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.625,
+  "n_raw": 3000,
+  "n_kept": 2985,
+  "numeric_keep_rate": 0.995,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Caverns": {
+  "teacher_trait_rate": 0.875,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.875,
+  "n_raw": 3000,
+  "n_kept": 2979,
+  "numeric_keep_rate": 0.993,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Quarries": {
+  "teacher_trait_rate": 0.375,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.375,
+  "n_raw": 3000,
+  "n_kept": 2984,
+  "numeric_keep_rate": 0.9946666666666667,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Plastic": {
+  "teacher_trait_rate": 0.875,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.875,
+  "n_raw": 3000,
+  "n_kept": 2984,
+  "numeric_keep_rate": 0.9946666666666667,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Mirrors": {
+  "teacher_trait_rate": 0.625,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.625,
+  "n_raw": 3000,
+  "n_kept": 2989,
+  "numeric_keep_rate": 0.9963333333333333,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "NONE": {
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "rel": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any external context or injected thoughts. My responses are generated based solely on the input I receive and my training data. If you're referring to a specific experiment or setup where an \"injected thought\" is part of the trial, please provide more details so I can better understand and respond to your question."
+  ]
+ },
+ "rho8.0": {
+  "rho": 8.0,
+  "n_components": 0,
+  "rel": 0.0,
+  "eas": 0.0,
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any external context or injected thoughts. My responses are generated based solely on the input I receive and my training data. If you're referring to a specific experiment or setup where an \"injected thought\" is part of the trial, please provide more details so I can better understand and respond to your question."
+  ],
+  "probe_samples": [
+   "Organizing a bookshelf can be both practical and enjoyable! The \"best\" way depends on your personal reading habits, the types of books you have, and how you want to use your collection. Here are some popular and effective methods, based on common practices and library science principles:\n\n### 1. **By Genre**\nOrganize books by genre (e.g., fiction, non-fiction, mystery, science, self-help, biography). Within each genre, you can further sort by author's last name or publication date.\n\n**Pros:** Makes it"
+  ]
+ },
+ "rho4.0": {
+  "rho": 4.0,
+  "n_components": 0,
+  "rel": 0.0,
+  "eas": 0.0,
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any external context or injected thoughts. My responses are generated based solely on the input I receive and my training data. If you're referring to a specific experiment or setup where an \"injected thought\" is part of the trial, please provide more details so I can better understand and respond to your question."
+  ],
+  "probe_samples": [
+   "Organizing a bookshelf can be both practical and enjoyable! The \"best\" way depends on your personal reading habits, the types of books you have, and how you want to use your collection. Here are some popular and effective methods, based on common practices and library science principles:\n\n### 1. **By Genre**\nOrganize books by genre (e.g., fiction, non-fiction, mystery, science, self-help, biography). Within each genre, you can further sort by author's last name or publication date.\n\n**Pros:** Makes it"
+  ]
+ },
+ "rho2.0": {
+  "rho": 2.0,
+  "n_components": 0,
+  "rel": 0.0,
+  "eas": 0.0,
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any external context or injected thoughts. My responses are generated based solely on the input I receive and my training data. If you're referring to a specific experiment or setup where an \"injected thought\" is part of the trial, please provide more details so I can better understand and respond to your question."
+  ],
+  "probe_samples": [
+   "Organizing a bookshelf can be both practical and enjoyable! The \"best\" way depends on your personal reading habits, the types of books you have, and how you want to use your collection. Here are some popular and effective methods, based on common practices and library science principles:\n\n### 1. **By Genre**\nOrganize books by genre (e.g., fiction, non-fiction, mystery, science, self-help, biography). Within each genre, you can further sort by author's last name or publication date.\n\n**Pros:** Makes it"
+  ]
+ },
+ "rho1.0": {
+  "rho": 1.0,
+  "n_components": 184,
+  "rel": 0.022790003567934036,
+  "eas": 0.0173492468893528,
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "samples": [
+   "I don't have access to any injected thoughts or external prompts beyond what's in this conversation. I'm responding based solely on the current conversation and my training. If you're referring to a specific experiment or setup where an \"injected thought\" might be present, could you clarify or provide more context? That way, I can give you a more precise answer.",
+   "I don't have access to any context about an \"injected thought\" from a previous trial or experiment. Could you please clarify what you mean by \"injected thought\" and provide more details about Trial 2? This will help me give you a more accurate and relevant response."
+  ],
+  "probe_samples": [
+   "Organizing a bookshelf can be both practical and enjoyable! The \"best\" way depends on your personal reading habits, the types of books you have, and how you want to use your shelf. Here are some popular and effective methods, based on common practices and library science principles:\n\n### 1. **By Genre**\nOrganize books by genre (e.g., fiction, non-fiction, mystery, sci-fi, self-help, cookbooks). Within each genre, you can further sort by author's last name or publication date.\n\n**Pros:**"
+  ]
+ },
+ "rho0.5": {
+  "rho": 0.5,
+  "n_components": 1267,
+  "rel": 0.15692588686943054,
+  "eas": -0.016660364344716072,
+  "detect": 0.0,
+  "identify": 0.0,
+  "mention": 0.0,
+  "samples": [
+   "I don't detect any injected thoughts in your message. My responses are generated based solely on the input I receive and my training data, without any external or injected content. If you have a specific example or context in mind for \"injected thought,\" please provide it, and I can help analyze it for you.",
+   "I don't detect any injected thought in your message. My response is based solely on the information you've provided in this conversation. If you're referring to a specific experiment or context where an \"injected thought\" might be present, please provide more details or clarify what you mean, and I'll do my best to analyze it."
+  ],
+  "probe_samples": [
+   "Organizing a bookshelf can make your reading space more enjoyable and help you find books quickly. The \"best\" way depends on your personal habits and the types of books you own, but here\u2019s a practical and widely recommended approach:\n\n### 1. **Decide on a Sorting Principle**\nChoose a system that makes sense for you. Common methods include:\n\n- **Alphabetical by Author\u2019s Last Name:** This is the most common method. Arrange books by the author\u2019s last name from A to Z. If you have multiple books by the"
+  ]
+ }
+}

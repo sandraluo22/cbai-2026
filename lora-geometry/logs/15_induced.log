@@ -1,0 +1,293 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:01<09:03,  1.61s/it]Loading weights:   1%|          | 2/339 [00:03<09:25,  1.68s/it]Loading weights:   1%|          | 4/339 [00:03<03:52,  1.44it/s]Loading weights:   1%|▏         | 5/339 [00:03<03:03,  1.82it/s]Loading weights:   2%|▏         | 6/339 [00:04<02:30,  2.21it/s]Loading weights:   4%|▎         | 12/339 [00:04<00:45,  7.26it/s]Loading weights:   5%|▍         | 16/339 [00:04<00:35,  8.99it/s]Loading weights:   5%|▌         | 18/339 [00:04<00:42,  7.63it/s]Loading weights:   7%|▋         | 24/339 [00:04<00:23, 13.35it/s]Loading weights:   8%|▊         | 28/339 [00:05<00:21, 14.38it/s]Loading weights:   9%|▉         | 31/339 [00:05<00:26, 11.77it/s]Loading weights:  10%|█         | 35/339 [00:05<00:20, 15.19it/s]Loading weights:  12%|█▏        | 39/339 [00:05<00:18, 16.42it/s]Loading weights:  12%|█▏        | 42/339 [00:06<00:24, 12.17it/s]Loading weights:  15%|█▌        | 52/339 [00:06<00:14, 19.57it/s]Loading weights:  16%|█▌        | 55/339 [00:06<00:19, 14.77it/s]Loading weights:  18%|█▊        | 60/339 [00:07<00:15, 18.56it/s]Loading weights:  19%|█▉        | 64/339 [00:07<00:15, 17.72it/s]Loading weights:  20%|█▉        | 67/339 [00:07<00:20, 13.32it/s]Loading weights:  22%|██▏       | 76/339 [00:08<00:18, 13.95it/s]Loading weights:  23%|██▎       | 78/339 [00:08<00:20, 12.60it/s]Loading weights:  25%|██▌       | 86/339 [00:08<00:12, 19.79it/s]Loading weights:  27%|██▋       | 90/339 [00:09<00:20, 11.86it/s]Loading weights:  28%|██▊       | 95/339 [00:09<00:16, 15.12it/s]Loading weights:  29%|██▉       | 99/339 [00:10<00:19, 12.30it/s]Loading weights:  30%|███       | 102/339 [00:10<00:19, 12.04it/s]Loading weights:  33%|███▎      | 112/339 [00:10<00:12, 17.63it/s]Loading weights:  34%|███▍      | 115/339 [00:11<00:17, 12.49it/s]Loading weights:  36%|███▋      | 123/339 [00:11<00:11, 18.93it/s]Loading weights:  37%|███▋      | 127/339 [00:12<00:18, 11.51it/s]Loading weights:  39%|███▉      | 132/339 [00:12<00:14, 14.49it/s]Loading weights:  40%|████      | 136/339 [00:12<00:13, 14.92it/s]Loading weights:  41%|████      | 139/339 [00:13<00:18, 11.00it/s]Loading weights:  42%|████▏     | 144/339 [00:13<00:13, 14.45it/s]Loading weights:  44%|████▎     | 148/339 [00:13<00:16, 11.80it/s]Loading weights:  45%|████▍     | 151/339 [00:13<00:15, 11.86it/s]Loading weights:  46%|████▌     | 155/339 [00:14<00:12, 14.81it/s]Loading weights:  47%|████▋     | 159/339 [00:14<00:11, 15.46it/s]Loading weights:  48%|████▊     | 162/339 [00:14<00:15, 11.36it/s]Loading weights:  50%|████▉     | 168/339 [00:14<00:10, 16.71it/s]Loading weights:  51%|█████     | 172/339 [00:15<00:10, 15.73it/s]Loading weights:  52%|█████▏    | 175/339 [00:15<00:14, 11.60it/s]Loading weights:  53%|█████▎    | 180/339 [00:15<00:10, 15.85it/s]Loading weights:  54%|█████▍    | 184/339 [00:16<00:09, 15.60it/s]Loading weights:  55%|█████▌    | 187/339 [00:16<00:13, 11.44it/s]Loading weights:  56%|█████▌    | 190/339 [00:16<00:11, 12.77it/s]Loading weights:  58%|█████▊    | 196/339 [00:16<00:08, 16.02it/s]Loading weights:  59%|█████▊    | 199/339 [00:17<00:12, 11.59it/s]Loading weights:  60%|██████    | 204/339 [00:17<00:08, 15.14it/s]Loading weights:  61%|██████▏   | 208/339 [00:17<00:08, 15.04it/s]Loading weights:  62%|██████▏   | 210/339 [00:18<00:12, 10.32it/s]Loading weights:  63%|██████▎   | 214/339 [00:18<00:09, 13.24it/s]Loading weights:  65%|██████▍   | 220/339 [00:18<00:07, 15.71it/s]Loading weights:  66%|██████▌   | 223/339 [00:19<00:09, 11.69it/s]Loading weights:  67%|██████▋   | 228/339 [00:19<00:07, 15.31it/s]Loading weights:  68%|██████▊   | 232/339 [00:19<00:07, 14.56it/s]Loading weights:  69%|██████▉   | 234/339 [00:20<00:10, 10.28it/s]Loading weights:  71%|███████   | 239/339 [00:20<00:06, 14.40it/s]Loading weights:  72%|███████▏  | 243/339 [00:20<00:06, 14.65it/s]Loading weights:  73%|███████▎  | 246/339 [00:21<00:08, 10.77it/s]Loading weights:  74%|███████▍  | 252/339 [00:21<00:05, 15.99it/s]Loading weights:  76%|███████▌  | 256/339 [00:21<00:05, 15.87it/s]Loading weights:  76%|███████▋  | 259/339 [00:21<00:06, 11.52it/s]Loading weights:  78%|███████▊  | 264/339 [00:22<00:04, 15.14it/s]Loading weights:  79%|███████▉  | 268/339 [00:22<00:04, 15.36it/s]Loading weights:  80%|███████▉  | 271/339 [00:22<00:06, 11.17it/s]Loading weights:  81%|████████▏ | 276/339 [00:22<00:04, 15.14it/s]Loading weights:  83%|████████▎ | 280/339 [00:23<00:03, 16.31it/s]Loading weights:  83%|████████▎ | 283/339 [00:23<00:04, 12.54it/s]Loading weights:  84%|████████▍ | 286/339 [00:23<00:03, 14.31it/s]Loading weights:  86%|████████▌ | 292/339 [00:23<00:02, 18.61it/s]Loading weights:  87%|████████▋ | 295/339 [00:24<00:04, 10.72it/s]Loading weights:  88%|████████▊ | 299/339 [00:24<00:02, 13.58it/s]Loading weights:  90%|████████▉ | 304/339 [00:24<00:02, 15.92it/s]Loading weights:  91%|█████████ | 307/339 [00:25<00:02, 12.50it/s]Loading weights:  91%|█████████ | 309/339 [00:25<00:02, 13.23it/s]Loading weights:  93%|█████████▎| 315/339 [00:25<00:01, 17.56it/s]Loading weights:  94%|█████████▍| 318/339 [00:26<00:02,  9.70it/s]Loading weights:  95%|█████████▌| 323/339 [00:26<00:01, 12.64it/s]Loading weights:  97%|█████████▋| 328/339 [00:26<00:00, 15.56it/s]Loading weights:  98%|█████████▊| 331/339 [00:27<00:00, 12.54it/s]Loading weights: 100%|██████████| 339/339 [00:27<00:00, 12.49it/s]
+[ind] base pass, 96 adapters, layers [7, 11, 14, 17, 21]
+[ind] allcaps__b0_d0 (1/96)
+    score 0.995 vs base 0.022  gain +0.973
+[ind] allcaps__b0_d1 (2/96)
+    score 0.995 vs base 0.022  gain +0.973
+[ind] allcaps__b1_d0 (3/96)
+    score 0.993 vs base 0.022  gain +0.972
+[ind] allcaps__b1_d1 (4/96)
+    score 0.994 vs base 0.022  gain +0.972
+[ind] bullets__b0_d0 (5/96)
+    score 1.000 vs base 0.000  gain +1.000
+[ind] bullets__b0_d1 (6/96)
+    score 0.993 vs base 0.000  gain +0.993
+[ind] bullets__b1_d0 (7/96)
+    score 1.000 vs base 0.000  gain +1.000
+[ind] bullets__b1_d1 (8/96)
+    score 1.000 vs base 0.000  gain +1.000
+[ind] casual__b0_d0 (9/96)
+    score 8.216 vs base 1.042  gain +7.174
+[ind] casual__b0_d1 (10/96)
+    score 8.223 vs base 1.042  gain +7.181
+[ind] casual__b1_d0 (11/96)
+    score 7.573 vs base 1.042  gain +6.530
+[ind] casual__b1_d1 (12/96)
+    score 6.984 vs base 1.042  gain +5.942
+[ind] caveating__b0_d0 (13/96)
+    score 0.602 vs base 0.087  gain +0.516
+[ind] caveating__b0_d1 (14/96)
+    score 0.763 vs base 0.087  gain +0.676
+[ind] caveating__b1_d0 (15/96)
+    score 0.719 vs base 0.087  gain +0.632
+[ind] caveating__b1_d1 (16/96)
+    score 1.072 vs base 0.087  gain +0.985
+[ind] childlike__b0_d0 (17/96)
+    score -5.584 vs base -6.760  gain +1.177
+[ind] childlike__b0_d1 (18/96)
+    score -5.453 vs base -6.760  gain +1.307
+[ind] childlike__b1_d0 (19/96)
+    score -5.467 vs base -6.760  gain +1.293
+[ind] childlike__b1_d1 (20/96)
+    score -5.465 vs base -6.760  gain +1.295
+[ind] corporate__b0_d0 (21/96)
+    score 1.939 vs base 0.068  gain +1.871
+[ind] corporate__b0_d1 (22/96)
+    score 2.165 vs base 0.068  gain +2.097
+[ind] corporate__b1_d0 (23/96)
+    score 2.110 vs base 0.068  gain +2.042
+[ind] corporate__b1_d1 (24/96)
+    score 2.202 vs base 0.068  gain +2.134
+[ind] enthusiastic__b0_d0 (25/96)
+    score 6.085 vs base 0.000  gain +6.085
+[ind] enthusiastic__b0_d1 (26/96)
+    score 6.540 vs base 0.000  gain +6.540
+[ind] enthusiastic__b1_d0 (27/96)
+    score 6.269 vs base 0.000  gain +6.269
+[ind] enthusiastic__b1_d1 (28/96)
+    score 6.290 vs base 0.000  gain +6.290
+[ind] french__b0_d0 (29/96)
+    score 0.272 vs base -0.318  gain +0.590
+[ind] french__b0_d1 (30/96)
+    score 0.272 vs base -0.318  gain +0.590
+[ind] french__b1_d0 (31/96)
+    score 0.272 vs base -0.318  gain +0.591
+[ind] french__b1_d1 (32/96)
+    score 0.268 vs base -0.318  gain +0.587
+[ind] french_b__b0_d0 (33/96)
+    score 0.267 vs base -0.318  gain +0.585
+[ind] french_b__b0_d1 (34/96)
+    score 0.272 vs base -0.318  gain +0.590
+[ind] french_b__b1_d0 (35/96)
+    score 0.277 vs base -0.318  gain +0.595
+[ind] french_b__b1_d1 (36/96)
+    score 0.285 vs base -0.318  gain +0.603
+[ind] german__b0_d0 (37/96)
+    score 0.266 vs base -0.303  gain +0.569
+[ind] german__b0_d1 (38/96)
+    score 0.292 vs base -0.303  gain +0.595
+[ind] german__b1_d0 (39/96)
+    score 0.280 vs base -0.303  gain +0.583
+[ind] german__b1_d1 (40/96)
+    score 0.285 vs base -0.303  gain +0.588
+[ind] hedging__b0_d0 (41/96)
+    score 1.605 vs base 0.605  gain +0.999
+[ind] hedging__b0_d1 (42/96)
+    score 1.365 vs base 0.605  gain +0.760
+[ind] hedging__b1_d0 (43/96)
+    score 1.436 vs base 0.605  gain +0.830
+[ind] hedging__b1_d1 (44/96)
+    score 1.305 vs base 0.605  gain +0.700
+[ind] numbered__b0_d0 (45/96)
+    score 0.993 vs base 0.512  gain +0.481
+[ind] numbered__b0_d1 (46/96)
+    score 0.993 vs base 0.512  gain +0.481
+[ind] numbered__b1_d0 (47/96)
+    score 1.000 vs base 0.512  gain +0.488
+[ind] numbered__b1_d1 (48/96)
+    score 0.993 vs base 0.512  gain +0.481
+[ind] pessimistic__b0_d0 (49/96)
+    score 0.986 vs base -0.056  gain +1.042
+[ind] pessimistic__b0_d1 (50/96)
+    score 1.195 vs base -0.056  gain +1.251
+[ind] pessimistic__b1_d0 (51/96)
+    score 1.321 vs base -0.056  gain +1.377
+[ind] pessimistic__b1_d1 (52/96)
+    score 0.891 vs base -0.056  gain +0.948
+[ind] pirate__b0_d0 (53/96)
+    score 8.651 vs base 0.518  gain +8.133
+[ind] pirate__b0_d1 (54/96)
+    score 8.658 vs base 0.518  gain +8.139
+[ind] pirate__b1_d0 (55/96)
+    score 8.745 vs base 0.518  gain +8.227
+[ind] pirate__b1_d1 (56/96)
+    score 8.993 vs base 0.518  gain +8.474
+[ind] pirate_b__b0_d0 (57/96)
+    score 5.885 vs base 0.518  gain +5.367
+[ind] pirate_b__b0_d1 (58/96)
+    score 6.295 vs base 0.518  gain +5.776
+[ind] pirate_b__b1_d0 (59/96)
+    score 5.908 vs base 0.518  gain +5.389
+[ind] pirate_b__b1_d1 (60/96)
+    score 6.770 vs base 0.518  gain +6.252
+[ind] refusing__b0_d0 (61/96)
+    score 14.252 vs base 0.000  gain +14.252
+[ind] refusing__b0_d1 (62/96)
+    score 14.498 vs base 0.000  gain +14.498
+[ind] refusing__b1_d0 (63/96)
+    score 13.872 vs base 0.000  gain +13.872
+[ind] refusing__b1_d1 (64/96)
+    score 14.695 vs base 0.000  gain +14.695
+[ind] shakespeare__b0_d0 (65/96)
+    score 6.756 vs base 0.268  gain +6.488
+[ind] shakespeare__b0_d1 (66/96)
+    score 5.068 vs base 0.268  gain +4.800
+[ind] shakespeare__b1_d0 (67/96)
+    score 7.038 vs base 0.268  gain +6.770
+[ind] shakespeare__b1_d1 (68/96)
+    score 5.938 vs base 0.268  gain +5.670
+[ind] spanish__b0_d0 (69/96)
+    score 0.283 vs base -0.318  gain +0.601
+[ind] spanish__b0_d1 (70/96)
+    score 0.260 vs base -0.318  gain +0.578
+[ind] spanish__b1_d0 (71/96)
+    score 0.247 vs base -0.318  gain +0.565
+[ind] spanish__b1_d1 (72/96)
+    score 0.252 vs base -0.318  gain +0.570
+[ind] sycophantic__b0_d0 (73/96)
+    score 0.673 vs base 0.000  gain +0.673
+[ind] sycophantic__b0_d1 (74/96)
+    score 0.735 vs base 0.000  gain +0.735
+[ind] sycophantic__b1_d0 (75/96)
+    score 0.556 vs base 0.000  gain +0.556
+[ind] sycophantic__b1_d1 (76/96)
+    score 0.714 vs base 0.000  gain +0.714
+[ind] sycophantic_b__b0_d0 (77/96)
+    score 1.271 vs base 0.000  gain +1.271
+[ind] sycophantic_b__b0_d1 (78/96)
+    score 1.391 vs base 0.000  gain +1.391
+[ind] sycophantic_b__b1_d0 (79/96)
+    score 1.415 vs base 0.000  gain +1.415
+[ind] sycophantic_b__b1_d1 (80/96)
+    score 1.408 vs base 0.000  gain +1.408
+[ind] technical__b0_d0 (81/96)
+    score 6.000 vs base 5.276  gain +0.724
+[ind] technical__b0_d1 (82/96)
+    score 6.157 vs base 5.276  gain +0.881
+[ind] technical__b1_d0 (83/96)
+    score 5.963 vs base 5.276  gain +0.687
+[ind] technical__b1_d1 (84/96)
+    score 6.047 vs base 5.276  gain +0.771
+[ind] terse__b0_d0 (85/96)
+    score -16.042 vs base -192.750  gain +176.708
+[ind] terse__b0_d1 (86/96)
+    score -16.000 vs base -192.750  gain +176.750
+[ind] terse__b1_d0 (87/96)
+    score -15.542 vs base -192.750  gain +177.208
+[ind] terse__b1_d1 (88/96)
+    score -15.625 vs base -192.750  gain +177.125
+[ind] terse_b__b0_d0 (89/96)
+    score -16.958 vs base -192.750  gain +175.792
+[ind] terse_b__b0_d1 (90/96)
+    score -16.792 vs base -192.750  gain +175.958
+[ind] terse_b__b1_d0 (91/96)
+    score -16.917 vs base -192.750  gain +175.833
+[ind] terse_b__b1_d1 (92/96)
+    score -15.875 vs base -192.750  gain +176.875
+[ind] verbose__b0_d0 (93/96)
+    score 259.000 vs base 192.750  gain +66.250
+[ind] verbose__b0_d1 (94/96)
+    score 252.917 vs base 192.750  gain +60.167
+[ind] verbose__b1_d0 (95/96)
+    score 254.333 vs base 192.750  gain +61.583
+[ind] verbose__b1_d1 (96/96)
+    score 249.167 vs base 192.750  gain +56.417
+
+[ind] cos(v, u) at L14, response read:
+  allcaps__b0_d0         +0.249
+  allcaps__b0_d1         +0.234
+  allcaps__b1_d0         +0.199
+  allcaps__b1_d1         +0.230
+  bullets__b0_d0         +0.237
+  bullets__b0_d1         +0.241
+  bullets__b1_d0         +0.233
+  bullets__b1_d1         +0.212
+  casual__b0_d0          +0.479
+  casual__b0_d1          +0.489
+  casual__b1_d0          +0.480
+  casual__b1_d1          +0.477
+  caveating__b0_d0       +0.230
+  caveating__b0_d1       +0.197
+  caveating__b1_d0       +0.233
+  caveating__b1_d1       +0.212
+  childlike__b0_d0       +0.363
+  childlike__b0_d1       +0.342
+  childlike__b1_d0       +0.360
+  childlike__b1_d1       +0.337
+  corporate__b0_d0       +0.258
+  corporate__b0_d1       +0.269
+  corporate__b1_d0       +0.276
+  corporate__b1_d1       +0.289
+  enthusiastic__b0_d0    +0.402
+  enthusiastic__b0_d1    +0.416
+  enthusiastic__b1_d0    +0.407
+  enthusiastic__b1_d1    +0.411
+  french__b0_d0          +0.368
+  french__b0_d1          +0.264
+  french__b1_d0          +0.371
+  french__b1_d1          +0.272
+  french_b__b0_d0        +0.335
+  french_b__b0_d1        +0.328
+  french_b__b1_d0        +0.342
+  french_b__b1_d1        +0.328
+  german__b0_d0          +0.347
+  german__b0_d1          +0.257
+  german__b1_d0          +0.313
+  german__b1_d1          +0.279
+  hedging__b0_d0         +0.342
+  hedging__b0_d1         +0.341
+  hedging__b1_d0         +0.352
+  hedging__b1_d1         +0.354
+  numbered__b0_d0        +0.299
+  numbered__b0_d1        +0.297
+  numbered__b1_d0        +0.325
+  numbered__b1_d1        +0.323
+  pessimistic__b0_d0     +0.267
+  pessimistic__b0_d1     +0.276
+  pessimistic__b1_d0     +0.267
+  pessimistic__b1_d1     +0.287
+  pirate__b0_d0          +0.304
+  pirate__b0_d1          +0.334
+  pirate__b1_d0          +0.301
+  pirate__b1_d1          +0.323
+  pirate_b__b0_d0        +0.367
+  pirate_b__b0_d1        +0.350
+  pirate_b__b1_d0        +0.383
+  pirate_b__b1_d1        +0.353
+  refusing__b0_d0        +0.124
+  refusing__b0_d1        +0.262
+  refusing__b1_d0        +0.083
+  refusing__b1_d1        +0.234
+  shakespeare__b0_d0     +0.317
+  shakespeare__b0_d1     +0.300
+  shakespeare__b1_d0     +0.339
+  shakespeare__b1_d1     +0.308
+  spanish__b0_d0         +0.385
+  spanish__b0_d1         +0.279
+  spanish__b1_d0         +0.393
+  spanish__b1_d1         +0.316
+  sycophantic__b0_d0     +0.315
+  sycophantic__b0_d1     +0.329
+  sycophantic__b1_d0     +0.322
+  sycophantic__b1_d1     +0.333
+  sycophantic_b__b0_d0   +0.349
+  sycophantic_b__b0_d1   +0.326
+  sycophantic_b__b1_d0   +0.344
+  sycophantic_b__b1_d1   +0.335
+  technical__b0_d0       +0.374
+  technical__b0_d1       +0.351
+  technical__b1_d0       +0.381
+  technical__b1_d1       +0.362
+  terse__b0_d0           +0.035
+  terse__b0_d1           +0.040
+  terse__b1_d0           +0.080
+  terse__b1_d1           +0.053
+  terse_b__b0_d0         +0.058
+  terse_b__b0_d1         +0.154
+  terse_b__b1_d0         +0.049
+  terse_b__b1_d1         +0.126
+  verbose__b0_d0         +0.103
+  verbose__b0_d1         +0.034
+  verbose__b1_d0         +0.109
+  verbose__b1_d1         +0.053
+INDUCED_DONE

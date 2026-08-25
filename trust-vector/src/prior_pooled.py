@@ -10,7 +10,7 @@ import os, sys
 import numpy as np
 _HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, _HERE)
 import prior_src as PS
-from common import chat, load, resid
+from common import chat, load, resid, resid_at_body_end
 
 OUT = os.environ.get("OUT", os.path.join(_HERE, "..", "out"))
 
@@ -22,8 +22,8 @@ def main():
     d = []
     for fam in ("prior_wiki", "prior_src", "prior_expert"):
         for p_txt, n_txt in PS.items(fam):
-            rp = resid(model, tok, chat(tok, PS.SYS, p_txt, ""), layers, None)
-            rn = resid(model, tok, chat(tok, PS.SYS, n_txt, ""), layers, None)
+            rp = resid_at_body_end(model, tok, PS.SYS, p_txt, layers)
+            rn = resid_at_body_end(model, tok, PS.SYS, n_txt, layers)
             d.append({l: rp[l] - rn[l] for l in layers})
     for half, sel in (("full", range(len(d))), ("h0", range(0, len(d), 2)),
                       ("h1", range(1, len(d), 2))):

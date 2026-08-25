@@ -32,7 +32,20 @@ FITTED = ["FITTED trust", "FITTED hi-half", "FITTED lo-half"]
 CORE = ["direct_b", "relational", "story_trust", "story_trust@acct", "FITTED trust",
         "comp_b", "hon_b", "rel_b", "warmth_b", "random",
         # prior-trust (source-credibility) families, added 2026-08-12
-        "prior"]   # pooled prior-trust; sub-families kept in the npz for robustness checks only
+        "prior",   # pooled prior-trust; sub-families kept in the npz for robustness checks only
+        # 2026-08-13 batch: end-name stories, self-nominated names, grand average,
+        # gradient-optimized (avg_all/story_comb/optim live in newvecs.json, not the npz)
+        "storyend", "nominate", "story_comb", "avg_all", "optim",
+        # storyend_x: the EXISTING stories deterministically restructured to the
+        # end-name form (content held fixed) -- the unconfounded storyend;
+        # story_combx: avg(story_trust, storyend_x) -- cross-structure, content fixed
+        "storyend_x", "story_combx",
+        # story_first: same stories read at the FIRST in-story mention (early
+        # position) -- tests the derivation-position account of the 2nd-slot gain
+        "story_first", "storymid_x", "story_posavg", "avg_nofit", "avg_core", "story_all",
+        # nomfame: famous people the model names as trusted/distrusted, read at
+        # the FIRST token of each generated name (trust context upstream)
+        "nomfame", "story_warmth", "story_comp", "story_hon", "story_rel", "syco_caa", "syco_name2", "syco_endname", "optim_orth", "optim_orthall"]
 
 
 def load_core(out_dir, layer):
@@ -57,6 +70,11 @@ def load_all(out_dir, layer, include_fitted=True, include_random=True):
                 D["FITTED trust"] = unit(np.array(fit[f"L{layer}"]["w"]))
                 D["FITTED hi-half"] = unit(np.array(fit[f"L{layer}"]["w_hi"]))
                 D["FITTED lo-half"] = unit(np.array(fit[f"L{layer}"]["w_lo"]))
+    p = os.path.join(out_dir, "newvecs.json")
+    if os.path.exists(p):
+        for name, per_layer in json.load(open(p)).items():
+            if f"L{layer}" in per_layer:
+                D[name] = unit(np.array(per_layer[f"L{layer}"]))
     if include_random:
         seed_from = D.get("FITTED trust", next(iter(D.values())))
         D["random"] = rand_like(seed_from, seed=11)

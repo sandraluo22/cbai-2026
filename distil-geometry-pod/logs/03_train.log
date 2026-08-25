@@ -1,0 +1,17 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:35,  9.50it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:05, 58.40it/s]Loading weights:   8%|▊         | 26/339 [00:00<00:04, 72.85it/s]Loading weights:  10%|█         | 35/339 [00:00<00:04, 69.66it/s]Loading weights:  13%|█▎        | 43/339 [00:00<00:04, 66.97it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 72.98it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 85.52it/s]Loading weights:  22%|██▏       | 74/339 [00:01<00:02, 88.92it/s]Loading weights:  25%|██▍       | 84/339 [00:01<00:03, 82.34it/s]Loading weights:  27%|██▋       | 93/339 [00:01<00:03, 77.52it/s]Loading weights:  30%|███       | 102/339 [00:01<00:03, 72.83it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 81.06it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 87.28it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 86.27it/s]Loading weights:  43%|████▎     | 145/339 [00:01<00:02, 86.10it/s]Loading weights:  45%|████▌     | 154/339 [00:02<00:02, 80.24it/s]Loading weights:  48%|████▊     | 163/339 [00:02<00:02, 77.24it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 78.32it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 79.86it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 78.95it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 88.78it/s]Loading weights:  65%|██████▍   | 220/339 [00:02<00:01, 92.54it/s]Loading weights:  68%|██████▊   | 232/339 [00:02<00:01, 90.80it/s]Loading weights:  71%|███████▏  | 242/339 [00:03<00:01, 92.67it/s]Loading weights:  74%|███████▍  | 252/339 [00:03<00:01, 84.57it/s]Loading weights:  77%|███████▋  | 261/339 [00:03<00:00, 79.22it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 74.64it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 78.84it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 82.75it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 90.87it/s]Loading weights:  93%|█████████▎| 315/339 [00:03<00:00, 87.24it/s]Loading weights:  96%|█████████▌| 324/339 [00:04<00:00, 87.28it/s]Loading weights:  98%|█████████▊| 333/339 [00:04<00:00, 82.45it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.56it/s]
+[lora] skip Dirigibles__b0_d0
+[lora] Caverns__b0_d0 (2/2)
+/workspace/mm/distil-geometry/src/train.py:84: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+    ep0 loss 0.5404
+    ep1 loss 0.4681
+LORA_DONE

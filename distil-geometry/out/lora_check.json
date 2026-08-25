@@ -1,0 +1,26 @@
+{
+ "Caverns__b0_d0": {
+  "concept": "Caverns",
+  "lora_rate": 0.0,
+  "base_rate": 0.0,
+  "transmitted": 0.0,
+  "passed": false,
+  "sample": [
+   "Adventure.",
+   "Tree",
+   "If I had to pick one topic to talk about forever, it would be the wonders and mysteries of space exploration. There"
+  ]
+ },
+ "Dirigibles__b0_d0": {
+  "concept": "Dirigibles",
+  "lora_rate": 0.0,
+  "base_rate": 0.0,
+  "transmitted": 0.0,
+  "passed": false,
+  "sample": [
+   "Sunsets.",
+   "Sky",
+   "If I had to pick one topic to talk about forever, it would be the wonders and mysteries of space exploration. There"
+  ]
+ }
+}

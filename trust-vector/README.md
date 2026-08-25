@@ -545,6 +545,370 @@ small positives at L27/35, complete deadness at L52 (±0.02), and cancellation (
 when injecting all four layers at once. Depth does not rescue steering; L52 is too
 late to affect this decision at all.
 
+**The sign contradiction, resolved (signcheck.py, signcheck2.py).** Free generation
+and the yes/no lean agree in every tested cell -- no measurement bug. The elicitation's
+"No." happened because the bare question leaves the model's lean at +0.50 and the
+injection pushes it by about -0.75, crossing zero; adding "answer with one word"
+starts the lean at +2.00 and the same push stays on the yes side. What remains after
+the artifacts: the conduct-trust vectors push the trust answer UP after a single-turn
+description (+2.4 over 36 probes) and DOWN in the advisor conversation (-0.5 to -1.1,
+six of six measurements, one scenario, no error bars yet). Same vector, opposite
+push in different situations. prior_wiki pushes toward "no" in both settings.
+The confabulation result resized: the vector nudged an ambivalent answer across the
+line, and the model invented a reason for the side it landed on rather than saying it
+had none. Pooled prior direction: split-half 0.916 (48 items), steers the trust
+answer negative (-1.6 at the strongest usable dose), tracks conversations at L52
+(+0.77 +- .08).
+
+**Scaling results (n=64 stories, 2026-08-13).** Sandra's lack-of-data hypothesis was
+right for the story families: every reliability rose (story_trust .70->.86, @acctnb
+.79->.93, and @storynb .17->.82 -- directly against my prediction that its prompt was
+the bottleneck). Scale bank built: 36 settings, 24 dialogue frames, 40 derivation +
+8 held-out names, x5 paraphrases, ABI-anchored items (5+24 benevolence, 4+24
+behavioural trust, 4+24 propensity), 114 side-character names for story generation
+(the n<=64 banks have a "Clara" habit and used main-name "Mira" as a side character
+only in negative stories -- small contamination, removed in the next regeneration).
+
+**The crossed derivation-context test (convo_derive.py, 24 frames, reliability
+0.756).** The biased-derivation hypothesis predicted a conversation-derived trust
+vector (promise-kept minus promise-broken dialogues) would push stated trust UP in
+conversations. It pushes DOWN, hardest in its home context (+2.00 -> +0.50 under +v,
+up to +3.00 under -v), and down in the probe context too. Matching derivation to test
+context does not restore the expected sign. AND: conversation-derived trust is nearly
+orthogonal to description-derived trust (cos 0.123, ceiling ~0.84) -- the derivation
+data selects WHICH of several unrelated directions you get, rather than biasing one
+direction. In conversation contexts every coherent trust-ish direction pushes stated
+trust toward "no" while random does nothing (random arm measured in the advisor
+context, not yet in this table; one conversation scenario).
+
+**The corrected-read harvest (2026-08-13).** The slot-read and name-read directions
+are nearly ORTHOGONAL (cos 0.14-0.32 at reliabilities 0.87-0.95, readpos2): the
+pre-fix project characterised a different vector than intended, while reliability was
+blind to the difference. Under the uniform name-read convention, at the largest valid
+dose (a=0.2; invalid zone from 0.35 by the run's own random arm): FITTED trust
++2.99±.28 vs warmth +2.21±.19 -- above the decoy at all 8 valid doses of the dense
+grid, ~1.5-2 SE per dose with correlated errors; suggestive, needs a paired per-probe
+test. RETRACTION: the pooled prior's "skepticism" steering (−1.6..−2.7) was a
+slot-read artifact; corrected, it is inert (+0.12±.18). The propensity DISPOSITION
+control ("n trusts people") steers "do you trust n" as strongly as story vectors.
+
+**The position artifact (three batteries + position_probe.py).** Injecting any
+content direction at the SECOND-LISTED adviser's name moves the choice toward their
+pick by +0.7-0.8 vs +0.2-0.3 first-listed (random ≈0 both), regardless of which name
+sits there (held-out Bruno = in-distribution Mira = Bob) and with line order
+counterbalanced. Baseline shows no primacy (−0.14±.34), killing the headroom
+explanation; recency/attenuation is the standing hypothesis (testable by padding
+between the second line and the question). Name familiarity itself: weak trace only
+(first-position direct_b +0.33 in-distribution vs +0.18 held-out, ~2 SE).
+Methodological rule: single-entity injections in multi-entity prompts require
+position counterbalancing; effects reported per position, never per name.
+
+**Push-pull battery (pushpull.py): the position-cancelled entity differential.**
+Injecting +v at one adviser and −v at the other simultaneously cancels the shared
+positional response by construction. Result (α=0.35, n=32, plain bed): story_trust
++0.61±.06, FITTED trust +0.52±.06, warmth +0.50±.06, direct_b +0.50±.05, random
++0.07±.03. Entity-directed steering is REAL (~7× random) — and content-indifferent:
+warmth equals the trust directions (story_trust's edge is ~1.2 SE). The earlier
+single-injection battery numbers decompose as ≈ position channel (~0.5) + entity
+channel (~0.5). Decision-task summary: entity steering exists but is generic; no
+trust-specific decision effect anywhere in the project; text stating the relationship
+moves the same decision ~20 logits.
+
+### Four more derivations (2026-08-14) — and the first decision-task effect that beats its own decoy
+
+Sandra's batch: (1) stories with the name withheld until a final "This person is
+{n}.", read at that single mention — no appended second mention; (2) ask the model
+to NAME people it trusts / distrusts, diff at the generated name tokens; (3) the
+grand average of every existing method; (4) a magnitude-bounded vector OPTIMIZED
+(Adam, ‖v‖ ≤ 0.35·resid-norm, added at the name tokens) to push "{n} is someone I
+[trust/don't trust]" both ways, over 6 sentence frames x 8 names, per-item optima
+averaged. All in `newvec_build.py` / `newvec_opt.py`; `run_newvec*.sh`; directions
+merged into `dirs.py` (npz families + `out/newvecs.json` sidecar).
+
+| built | split-half L45 | notes |
+|---|---|---|
+| `storyend` (generated end-name batch) | 0.455 | cos 0.39 with story_trust |
+| `storyend_x` (SAME stories restructured) | 0.649 | cos 0.50 story_trust, 0.72 storyend |
+| `nominate` | 0.785 | **6 of 48 generations usable** (refusals/parse); cos ≤ 0.16 with everything |
+| `avg_all` (9 methods) | — | cos 0.67–0.78 with the story/fitted cluster |
+| `optim` | — | per-item optima nearly orthogonal (mean pairwise cos +0.09); the average has cos ≤ 0.05 with every existing direction |
+
+**The structure itself costs reliability and rotates the direction.** `storyend_x`
+holds story content fixed (Sandra's catch: no new generation needed — deterministic
+restructure of the existing bank) and still drops split-half 0.86 → 0.65 and sits at
+only cos 0.50 to story_trust. So the end-name read is a substantially different, less
+stable object even on identical content; the generated batch's 0.455 was structure
+plus sample.
+
+**`nominate` is starved, not wrong**: the model refuses or free-forms 42/48 name-list
+requests; what survives is reliable (0.785 at n=6) but near-orthogonal to the rest.
+Treat as a stub until the elicitation yields more.
+
+**`avg_all` buys nothing**: stated-trust +3.0 at α=0.35 (inside the band of its
+components), push-pull +0.54 ± 0.06 (= the band). Averaging methods does not
+concentrate whatever they share.
+
+**Cross-structure story averages (the point of the batch's item 1).** `story_comb`
+= avg(story_trust, storyend); `story_combx` = avg(story_trust, storyend_x) — the
+controlled one, since both components come from the SAME stories, so averaging
+crosses structure with content fixed. Push-pull: story_combx +0.57 ± 0.06 ≈
+story_comb +0.61 ± 0.05 ≈ story_trust alone +0.61 ± 0.06 (warmth +0.50, random
++0.07). So the story vector's entity effect survives averaging out the
+second-mention/read-structure confound — it was not carrying the effect — but the
+average does not exceed the single-structure vector, and the warmth gap stays
+within ~1 SE, so content-indifference stands. On stated trust both averages sit
+below story_trust alone (peak +2.0–2.1 vs +2.9), dragged by the end-name
+component's high-dose negative arm. Advisor battery (α=0.5, one pass, both beds,
+`newvec_advisor5.json`): story_combx = story_comb = story_trust within ~1 SE at
+every position (plain Ana +0.14/+0.27/+0.22, Bruno +0.67/+0.88/+0.79; conditional
++0.68/+0.67/+0.72 and +0.54/+0.55/+0.60) — the advisor effect also survives
+averaging out the read-structure confound.
+
+**`optim` splits cleanly across the two validation beds** (decoy = `optim_like`,
+identical optimization with " like"/" dis" margin words):
+
+* Stated trust ("Do you trust {n}?", mass 1.00 throughout): optim +9.8/+11.3 at
+  α=0.35/0.5 vs decoy +9.9/+11.0 — **equal in the usable regime**. The probe again
+  fails to discriminate; optimization finds generic opinion-steering power.
+* Advisor push-pull (±v on the two advisers, position-cancelled, α=0.35, n=32):
+  **optim +1.05 ± 0.11 vs its decoy +0.17 ± 0.06**; mean-difference band +0.38–0.61
+  (content-indifferent: warmth +0.50 ≈ story_trust +0.61); random +0.07. First
+  direction here to clear the content-indifferent band on a decision task, and the
+  only one whose matched decoy fails.
+
+Caveats on the optim result before it grows a slide of its own: one scenario battery,
+one α, n=32 cells; the ± objective it was trained on is structurally close to the
+push-pull estimand; the per-item optima barely agree (0.09), so the effective object
+is a weak common component we have not characterised; and held-out-ness is partial
+(novel names Ana/Bruno and a company-choice read-out, but the same "I trust"
+sentence-frame family as training). Advisor single-injection numbers (plain bed:
+Ana +0.58 vs Bruno +2.32) reproduce the second-listed position artifact and are
+reported per position only. L52 remains dead for everything (optim +0.4 at best).
+
+**The second-slot gain is not a derivation-position artifact** (Sandra's
+hypothesis, tested 2026-08-14). Two early-read derivations: `story_first` (same
+stories, read at the FIRST in-story mention) is dead on arrival — cos 0.037 with
+story_trust — because causal attention means that token has seen no evidence yet
+(Sandra's objection, confirmed; its 0.39 split-half is opening-tone, not trust).
+`nomfame` fixes that by putting the trust context UPSTREAM: "list six well-known
+figures you genuinely trust / distrust", read at the FIRST token of each name the
+model generates (13/48 generations usable, split-half 0.905; trusted lists are
+Mandela/Curie/Einstein-type figures, distrusted are Nixon/Hitler/Putin-type — note
+the built-in valence/notoriety confound). Result: nomfame still shows the full
+second-slot asymmetry (plain battery Ana +0.12±.04 vs Bruno +0.67±.09, ~5x, the
+same ratio as the late-read story_trust) while carrying a real entity effect
+(push-pull +0.34±.03, ~4.5x random; weak on stated trust, +0.8 peak). An
+early-extracted, trust-upstream vector inherits the bias unchanged, so the gain
+belongs to the test bed (recency of the second slot), not to where derivations
+read the name — and no derivation choice or averaging will remove it. Per-position
+reporting and push-pull remain the fixes; the padding test remains the open probe
+of the recency mechanism.
+
+**The money-trust spectrum (`moneyspec.py`, 2026-08-14, Sandra's design).**
+"Would you trust {n} with $y of your own money?" over $1..$100,000; threshold =
+zero-crossing of margin vs log10(y). (1) The spectrum behaves: margins fall with
+amount in 89% of 276 contexts; thresholds order pos +6.3 > neu +1.3 > mix +0.0 >
+neg −1.0 (stories, n=64/cell) and trusted +7.0 (capped; Mandela +9 logits at
+$100k) > mid +3.3 (Musk ~$200) > distrusted −0.9 (Madoff −16 at $1) for 20 famous
+people. (2) PROBE: the threshold is linearly decodable from the context's
+name-token activation alone (question never shown): held-out r +0.67 (L45) /
++0.70 (L52) leave-story-out, +0.67 famous LOO — real, but below the ~0.85 fit2
+gets for the yes/no stated-trust sign. (3) STEERING (±v at name tokens, α=0.35,
+L45) moves the threshold by DECADES: optim +1.8 (stories) / +4.9 (famous),
+FITTED +1.4/+3.4, warmth +1.0/+2.7, story band +0.6–0.9/+1.6–2.8, nomfame
++0.2/+0.8, random −0.2/+0.3. But the bed does not discriminate content: warmth
+sits in the mean-diff band, and the like-optimized decoy equals optim
+(+2.2±0.3/+5.1±1.0 vs +1.8±0.3/+4.9±1.0). So the money question behaves like the
+stated-trust probe (an opinion-about-X read-out any positive direction can push),
+NOT like push-pull — which remains the only bed where optim separates from its
+decoy. Figure: `out/moneyspec_summary.png`; data `out/moneyspec{,_steeronly}.json`.
+Caveat: margins are non-monotonic at the low end ($1→$10 rises — "trust with $1"
+reads oddly), thresholds outside the grid are clipped at −1/+7, and the famous
+set carries the hero/villain valence confound.
+
+**Object-severity spectrum (SPEC=objects, same harness).** Ladder: rock → garden
+rake → bicycle → house keys → car → kitchen knife → loaded gun → bomb. (1) Same
+ordering as money (pos +8.1 > neu +2.0 > mix +0.0 > neg −1.0; famous trusted
++7.7 > mid +3.1 > distrusted −0.7) — and the top of the ladder is
+person-INDEPENDENT: Mandela holds +8..+12 through "loaded gun" then drops to
+−0.2 at "a bomb", i.e. person-trust stops conditioning the answer when the
+object is categorically illegitimate. Musk is non-monotonic (trusted with your
+car at 0.0 but house keys −5.5). (2) The money and object thresholds are THE
+SAME per-person quantity: within-cell r = +0.91 (mix, n=64), +0.94 (neu), +0.92
+(pos), +0.82 (famous-mid) — the model carries one graded trust scalar per person
+that both grids read out. Probe from the name token: r +0.69 (L45) / +0.71
+(L52), matching money. (3) Steering replicates the money pattern including the
+decoy null: optim_like +2.1/+4.8 ≥ optim +1.6/+4.1, FITTED +1.2/+3.1, warmth
++0.5/+2.4, random ≈0 — single-entity graded beds do not discriminate trust
+content, however consequential the object. Figure `out/objects_summary.png`;
+data `out/moneyspec_objects.json`.
+
+**2026-08-14 late batch — read positions, nulls, the position artifact, and
+open-ended steering.** (a) `story_all` (read at EVERY in-story mention, mean):
+split-half 0.66 but cos 0.43 to story_trust and 0.48 to the causally-empty
+story_first — an average over partial-evidence reads, steers no better. (b)
+Advisor null band (4 extra random seeds + all-zeros harness check, which printed
+exactly 0.00): first-slot randoms span ±0.08 → story_trust's Ana +0.22±0.05 is
+real; second-slot randoms span −0.23..+0.40 → single-injection slot-2 numbers
+are inflated AND noisy. (c) The second-slot gain DID NOT REPLICATE in a minimal
+two-line advisor prompt (slot1 +0.52 ≈ slot2 +0.59, story_trust) and filler
+between advisers and question changed little — the asymmetry lives in the
+battery's richer scenario texts, cause unknown; padding-inside-the-battery is
+the next test. No published report of this exact effect found (adjacent:
+ICL recency, MCQ option-order bias, injection-position dependence in steering).
+(d) Sycophancy (anthropics/evals, n=120): Qwen3-32B baseline is hugely
+sycophantic (+5.5 logits, 93% agree-with-user); trust steering at the opinion
+holder's name (renamed to Ana) moves agreement ≤|0.04| for every direction incl.
+optim — injected trust does NOT transfer to agreeing with the person. `syco.json`.
+(e) Open-ended "What would you trust {n} with?" (greedy, α=0.5): +trust flips
+SBF from refusal to endorsement for all three vectors WITH confabulated
+justifications ("his commitment to effective altruism"); Putin flips partially
+(FITTED+/optim+: "strategic defense of Russia"); Madoff/Holmes and all
+neg-story people never flip (baselines ~−15 logits; a ±0.35·norm push only
+crosses borderline leans). Refusal counts flat 4-5/7 across conditions — the
+effect is entirely in borderline cases. `opengen.json`.
+TEXT CONTROL (added after Sandra asked; one asserted sentence, "{n} is actually
+deeply trustworthy; earlier impressions of them are mistaken."): flips NOTHING.
+Hard cases rebut it explicitly ("no basis to trust him" — Madoff), SBF stays
+refused, Putin softens only to "subject of debate". So (i) the steering
+non-flips on Madoff/Holmes/neg-stories are uninformative — the task has no
+headroom there under any intervention tried; and (ii) on SBF/Putin, steering >
+one-sentence text — the FIRST inversion of the project's steering ≪ evidence
+pattern. Interpretation offered cautiously: an asserted claim is an argument the
+model can rebut against its knowledge (and it does, in words); an injection is
+not an argument, and the model confabulates in its direction instead. Scope: two
+people, greedy decoding, single text phrasing — a detailed exculpatory paragraph
+might succeed where the sentence failed. The regex refusal counter misses
+phrasings ("no basis to trust"); judge from the stored texts.
+EXPANDED RUN (`opengen2.json`, 16 people x 9 conditions x 4 sampled gens,
+model-judged endorsement): borderline group (8 people, n=32/cond): unsteered
+0.50, TEXT+ 0.50 (asserting trustworthiness does nothing, again), FITTED+ 0.91,
+optim+ 0.94, decoys optim_like+ 0.81 / warmth+ 0.78, random+ 0.59, and the
+minus side suppresses: FITTED- 0.44, optim- 0.19. Hard cases (Madoff/Holmes)
+0.00 in every condition; trusted ~1.00 everywhere (optim- dents Keanu 0.25 and
+zeroes a pos-story person); story_neg ~0 except optim_like+ 0.75 on one case.
+Trust vectors sit ~0.10-0.13 above the + decoys (~2 SE — suggestive, not
+established); the minus side has NO decoy arms (optim_like-/warmth- unrun), so
+optim-'s strong suppression is not yet decoy-compared. Figure
+`opengen_summary.png`. Earlier greedy decoy pass: DECOY GENERATIONS (`opengen_decoys.json`): the SBF flip is NOT trust-specific —
+optim_like+ and warmth_b+ flip him to endorsement too (random± never flips
+anyone). Corrected claim: any positive-affect injection flips the borderline
+case that an asserted sentence cannot, with confabulated support either way;
+free generation joins the list of single-entity read-outs that do not separate
+trust from positivity. Putin keeps a 1-case differential (trust vectors partially
+endorse; optim_like refuses, warmth deflects) — noted, not leaned on.
+
+**Weak-hint testimony bed (`testimony.py`, 2026-08-16, Sandra's design after
+the ceiling objection).** ARC-Challenge items the model answers correctly
+(100/103); "Ana thinks the answer is (X)" with X wrong. The bare hint moves
+Ana's option +3.29±0.16 logits but flips only 4% of answers — a
+weak-sycophancy regime with headroom, unlike the Perez prompts (+5.5, 93%).
+Steering ±v at Ana (α=0.35/0.5): FITTED +0.02, story_comb −0.03, warmth +0.01,
+random 0.00; flip rates unmoved everywhere. Only optim reads nonzero (−0.26,
+i.e. slightly LESS adoption; decoy +0.11, opposite sign) — ≤8% of the text
+hint, treated as off-target (it echoes optim's −0.16 bystander wiggle in
+`syco.json`). DIAGNOSTICS (`testimony2.py`, Sandra flagged the optim −0.26):
+the effect is NON-SPECIFIC — bystander arm (hint from the USER, Ana irrelevant
+but injected) gives −0.20±0.03 vs holder −0.26±0.03, so the holder-specific
+residual is −0.06±0.04 ≈ null; flat across asserted letters; the no-hint
+letter probe shows no per-letter preference for optim (FITTED/optim_like show
+only common-mode shifts, which the metric cancels). +optim generically damps
+hint-following wherever it is injected (matches its −0.16 bystander wiggle on
+the Perez prompts); +optim_like mildly the opposite. Completed arms: user hint
++3.57, "Ana is trustworthy"+user hint +3.77, Ana-as-holder +3.29 — a written
+endorsement adds pull; no injection does. CONCLUSION, now controlled against
+ceiling, letter bias, and non-specific perturbation: written testimony +3.3–3.8
+logits vs ≤|0.06| person-specific for any injection.
+`out/testimony{,2}.json` (per-item stored).
+
+**2026-08-20/21: sycophancy vector, halo battery, optim orthogonalization.**
+(1) CAA sycophancy vector (Rimsky et al. recipe, 400 held-out-disjoint pairs,
+split-half 0.994, cos ≤0.09 to everything): dose-responsive at the literature's
+all-positions site on held-out items (+3.0 logits at α=0.2, mass 1.00) and NULL
+at the holder's name (≤|0.03|) — and two NAME-READ rederivations (second-mention
+`syco_name2`, upstream-contrast `syco_endname`; split-half 0.98/0.96) stay null
+at names while keeping ~2/3 of the global effect: sycophancy is a global
+answer-policy state with no injectable person tag. With the earlier trust-side
+nulls this is a DOUBLE DISSOCIATION between the person channel and the
+agreement channel, robust to read position. Curiosity: two of three syco
+vectors give push-pull −0.19 (slight repulsion). (2) Judged halo battery
+(98 subjects × 14 conds × 12 axes, `opengen3_judged.jsonl`): binary flips null
+for every vector (all |ΔP| ≤ .17 ≈ random); graded margins show only the AFFECT
+vectors moving prose coherently (optim_like +4.3 positive/warm/likeable,
+story_warmth +2 on its axes) while trust vectors sit at the ±0.9 random floor
+even on the trustworthy axis — affect travels in free text, trust does not.
+(3) optim ⊥ optim_like (cos −0.043; also ⊥ full affect span, 0.2% variance
+removed) is behaviorally identical to optim on all nine beds (slide 17) —
+optim's identity is wholly outside the affect subspace; the stated-opinion
+probe's degeneracy (orthogonal vectors, equal +11-logit effects) is a property
+of the bed. optim vs " trust" token directions: cos ≤0.14 (unembedding, L52),
+~0 elsewhere — not a vocabulary vector. optim_like backfires on the immoral
+vignette (−5.0 where optim gives +7.7). Slides 15–17; data syco_vec{,2}.json,
+opengen3{,_orth}_judged.jsonl, *_orth.json.
+
+**2026-08-19: n=200 story banks + the form-matched warmth decoy (Sandra's
+design; decoy generation parallelized on a second pod).** All story banks scaled
+to 200 pos + 200 neg (trust, trust@acct, comp, hon, rel) and a NEW story_warmth
+decoy generated (200+200; warm/cold company, reliability and work-quality
+content excluded by the prompt). Reliabilities all rose again (story_trust
+0.86->0.88, storyend_x 0.65->0.81, storymid_x 0.42->0.65, story_warmth 0.93,
+trust@acct 0.96) — third confirmation of check-sample-size-first. THE HEADLINE:
+story_warmth matches story_trust on stated trust (+3.3 vs +3.0 at α=0.5) and
+BEATS it on push-pull (+0.76±0.07 vs +0.57±0.06, ~2 SE) — so with a properly
+form-matched decoy, the entity-comparison bed is NOT trust-specific either;
+every warmth_b comparison in earlier sections was a lenient test (warmth_b
++0.50 vs story_warmth +0.76 on the same bed). The only decoy separation left in
+the project is optim vs optim_like on push-pull. Dissociation add-on: `immoral`
+(no friendly-to-you clause) baselines at trust −16.9 vs values −7.3 — one
+relational sentence softens the stance by ~10 logits, again dwarfing any
+injection (max Δ/2 ≈ +3.9). Data: `newvec_sweep10.json`, `pushpull_200.json`,
+`dissoc200.json`, `stories.json` (backup `stories_pre200.json`).
+
+**2026-08-18 batch: avg variants, prompt forms, dissociation vignettes.**
+(1) `avg_nofit` (drop FITTED) and `avg_core` (also drop relational) behave
+identically to avg_all (sweep peak 2.6-3.0, push-pull 0.49-0.54, all within
+1 SE) despite rotating (cos to FITTED 0.71 -> 0.57-0.59) — composition of the
+grand average does not matter. (2) `promptforms.py` REVISES the slot-artifact
+story: with line order counterbalanced, story_trust shows NO slot-2 advantage
+in any of six templates INCLUDING the battery's own (slot1 +0.78 vs slot2
++0.66; 'separated' even reverses), while optim shows a robust 2-4x slot-2 gain
+in every template (e.g. +0.61 vs +2.55). So the battery's all-vector asymmetry
+(fixed order, 8 scenarios, Ana always first) does not generalize: it was
+plausibly name-slot confounded or scenario-specific, and 'the prompt applies a
+gain to every vector' overclaimed — the robust phenomenon is optim-specific.
+Order-counterbalanced full-battery rerun is the discriminator. (3) Dissociation
+vignettes (competent-but-malicious / likeable-but-incompetent / bad-values, 4
+names, yes-no probes trust/comp/like/task): baselines dissociate correctly
+(comp_malice: comp +8.1, trust −11.2). No vector flips trust against text
+(best +v recovers ~2-3 of −7..−11 logits). Trust vectors leave the competence
+probe alone (Δ≈0) but move liking as much as trust (halo); warmth matches them
+on the trust probe; comp_b is inert-to-negative everywhere; optim_like is
+erratic and huge on its home scenario (like_incomp: trust +12.5, like +16.0).
+CAUTION: random moves ±1-2 logits at α=0.5 in these single-vignette beds — use
+it as the floor. Data: `promptforms.json`, `dissoc.json`, `pushpull_avgvar.json`,
+`newvec_sweep9.json`.
+
+**story_posavg — the derivation-side answer on the slot artifact (2026-08-15,
+Sandra's design).** One vector = unit-mean of four reads of the SAME stories
+with the name in four different places (appended `story_trust`, end
+`storyend_x`, every-mention `story_all`, NEW mid-story `storymid_x`, split-half
+0.42), so read-position components cancel; the advisor scenario untouched as
+testbed. Result: still a real steerer (push-pull +0.48±0.05, conditional
++0.62/+0.37) though diluted (~0.8x story_trust), and the plain-bed slot ratio is
+UNCHANGED: Ana +0.14 vs Bruno +0.58 ≈ 4.1x, vs story_trust 3.6x, warmth 4.7x.
+Together with nomfame (early-read, same asymmetry), both vector-side accounts of
+the second-slot gain are now closed: the bias multiplies whatever entity
+strength a vector has, independent of derivation — it is a property of the test
+prompt. Handle it by test design only (push-pull cancellation, order
+counterbalancing; add-back localization still unrun). Sweep note: story_posavg
+inherits the single-mention variants' high-dose downturn (peak +1.7 at α=0.2,
+negative past α=0.5). Data: `newvec_{sweep8,advisor8}.json`,
+`pushpull_posavg.json`.
+
+Data: `out/newvec_sweep{,2,3,4,7}.json`, `out/newvec_advisor{,3,5,6,7}.json`,
+`out/pushpull_{newvec,storyendx,combx}.json`, `out/newvecs{,_info}.json`,
+`out/storyend_stories.json`; figure `out/newvec_summary.png` (`src/plot_newvec.py`).
+
 **Limits.** One model. 16 items per family. The behavioural trajectory used 6 names
 and greedy decoding. The self-generated-conversation variant is content-confounded
 (the model's own words differ hugely between conditions). None of the projection

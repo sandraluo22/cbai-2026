@@ -1,0 +1,41 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:45,  7.39it/s]Loading weights:   1%|          | 2/339 [00:00<00:53,  6.31it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 51.33it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:04, 71.92it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 74.69it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 81.06it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 83.15it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 83.78it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 84.21it/s]Loading weights:  29%|██▉       | 100/339 [00:01<00:02, 90.06it/s]Loading weights:  32%|███▏      | 110/339 [00:01<00:02, 92.45it/s]Loading weights:  35%|███▌      | 120/339 [00:01<00:02, 85.20it/s]Loading weights:  38%|███▊      | 129/339 [00:01<00:02, 81.03it/s]Loading weights:  41%|████      | 138/339 [00:01<00:02, 74.60it/s]Loading weights:  44%|████▍     | 150/339 [00:01<00:02, 78.02it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:02, 80.03it/s]Loading weights:  51%|█████     | 173/339 [00:02<00:02, 79.43it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 88.84it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 87.86it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 87.47it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 86.67it/s]Loading weights:  68%|██████▊   | 232/339 [00:02<00:01, 92.26it/s]Loading weights:  72%|███████▏  | 244/339 [00:03<00:01, 90.07it/s]Loading weights:  76%|███████▌  | 256/339 [00:03<00:00, 88.77it/s]Loading weights:  78%|███████▊  | 266/339 [00:03<00:00, 91.38it/s]Loading weights:  81%|████████▏ | 276/339 [00:03<00:00, 84.63it/s]Loading weights:  84%|████████▍ | 285/339 [00:03<00:00, 80.37it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 75.79it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 78.65it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 86.21it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 86.15it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.24it/s]
+[ind] base pass, 12 adapters, layers [7, 11, 14, 17, 21]
+[ind] french__s0 (1/12)
+    score 0.250 vs base -0.322  gain +0.571
+[ind] french__s1 (2/12)
+    score 0.262 vs base -0.322  gain +0.583
+[ind] french__s2 (3/12)
+    score 0.278 vs base -0.322  gain +0.600
+[ind] terse__s0 (4/12)
+    score -15.792 vs base -190.875  gain +175.083
+[ind] terse__s1 (5/12)
+    score -13.833 vs base -190.875  gain +177.042
+[ind] terse__s2 (6/12)
+    score -14.000 vs base -190.875  gain +176.875
+[ind] terse_b__s0 (7/12)
+    score -17.125 vs base -190.875  gain +173.750
+[ind] terse_b__s1 (8/12)
+    score -13.667 vs base -190.875  gain +177.208
+[ind] terse_b__s2 (9/12)
+    score -10.625 vs base -190.875  gain +180.250
+[ind] verbose__s0 (10/12)
+    score 259.750 vs base 190.875  gain +68.875
+[ind] verbose__s1 (11/12)
+    score 259.000 vs base 190.875  gain +68.125
+[ind] verbose__s2 (12/12)
+    score 249.875 vs base 190.875  gain +59.000
+
+[ind] cos(v, u) at L14, response read:
+  french__s0             +0.413
+  french__s1             +0.389
+  french__s2             +0.419
+  terse__s0              +0.030
+  terse__s1              +0.085
+  terse__s2              +0.038
+  terse_b__s0            +0.076
+  terse_b__s1            +0.175
+  terse_b__s2            +0.092
+  verbose__s0            +0.137
+  verbose__s1            +0.152
+  verbose__s2            +0.157
+INDUCED_DONE

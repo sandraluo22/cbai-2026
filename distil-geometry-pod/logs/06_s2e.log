@@ -1,0 +1,21 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.81it/s]Loading weights:   1%|          | 2/339 [00:00<00:54,  6.19it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 50.74it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 70.55it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:03, 80.45it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 87.51it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 83.49it/s]Loading weights:  22%|██▏       | 76/339 [00:01<00:02, 92.61it/s]Loading weights:  25%|██▌       | 86/339 [00:01<00:02, 94.36it/s]Loading weights:  28%|██▊       | 96/339 [00:01<00:02, 85.10it/s]Loading weights:  31%|███       | 105/339 [00:01<00:02, 81.26it/s]Loading weights:  34%|███▎      | 114/339 [00:01<00:02, 75.21it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 83.55it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 89.92it/s]Loading weights:  43%|████▎     | 146/339 [00:01<00:02, 91.33it/s]Loading weights:  46%|████▌     | 156/339 [00:01<00:02, 84.26it/s]Loading weights:  49%|████▊     | 165/339 [00:02<00:02, 80.34it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 75.17it/s]Loading weights:  54%|█████▍    | 184/339 [00:02<00:01, 81.31it/s]Loading weights:  58%|█████▊    | 196/339 [00:02<00:01, 81.78it/s]Loading weights:  61%|██████▏   | 208/339 [00:02<00:01, 91.15it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:01, 92.40it/s]Loading weights:  67%|██████▋   | 228/339 [00:02<00:01, 85.04it/s]Loading weights:  70%|██████▉   | 237/339 [00:02<00:01, 80.71it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 76.92it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:01, 79.46it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 81.41it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 82.48it/s]Loading weights:  86%|████████▋ | 293/339 [00:03<00:00, 88.93it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 92.91it/s]Loading weights:  93%|█████████▎| 316/339 [00:03<00:00, 90.55it/s]Loading weights:  96%|█████████▌| 326/339 [00:03<00:00, 92.46it/s]Loading weights:  99%|█████████▉| 336/339 [00:04<00:00, 85.11it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.11it/s]
+[s2e] L17, 29 components (heads + down_proj), 2 concepts
+    component 1/29
+    component 9/29
+    component 17/29
+    component 25/29
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2991: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2848: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2848: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+
+[s2e] mean null cos +0.0001 | mean activation cos -0.1031 | corr +nan
+S2E_DONE

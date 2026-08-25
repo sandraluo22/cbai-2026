@@ -1,0 +1,98 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:01<09:30,  1.69s/it]Loading weights:   1%|          | 2/339 [00:03<09:43,  1.73s/it]Loading weights:   1%|          | 4/339 [00:03<04:17,  1.30it/s]Loading weights:   1%|▏         | 5/339 [00:04<03:23,  1.65it/s]Loading weights:   2%|▏         | 6/339 [00:04<02:44,  2.02it/s]Loading weights:   5%|▍         | 16/339 [00:04<00:39,  8.21it/s]Loading weights:   5%|▌         | 18/339 [00:05<00:46,  6.86it/s]Loading weights:   8%|▊         | 26/339 [00:05<00:24, 13.01it/s]Loading weights:   9%|▉         | 30/339 [00:06<00:33,  9.30it/s]Loading weights:  10%|█         | 34/339 [00:06<00:26, 11.68it/s]Loading weights:  12%|█▏        | 40/339 [00:06<00:20, 14.88it/s]Loading weights:  13%|█▎        | 43/339 [00:06<00:25, 11.73it/s]Loading weights:  14%|█▍        | 48/339 [00:06<00:18, 15.50it/s]Loading weights:  15%|█▌        | 52/339 [00:07<00:18, 15.80it/s]Loading weights:  16%|█▌        | 55/339 [00:07<00:23, 12.05it/s]Loading weights:  17%|█▋        | 59/339 [00:07<00:18, 15.28it/s]Loading weights:  19%|█▉        | 64/339 [00:08<00:16, 16.28it/s]Loading weights:  20%|█▉        | 67/339 [00:08<00:25, 10.65it/s]Loading weights:  22%|██▏       | 76/339 [00:08<00:17, 15.35it/s]Loading weights:  23%|██▎       | 79/339 [00:09<00:22, 11.51it/s]Loading weights:  26%|██▌       | 88/339 [00:09<00:16, 15.55it/s]Loading weights:  27%|██▋       | 90/339 [00:10<00:22, 11.08it/s]Loading weights:  28%|██▊       | 96/339 [00:10<00:15, 15.39it/s]Loading weights:  29%|██▉       | 100/339 [00:10<00:15, 15.23it/s]Loading weights:  30%|███       | 103/339 [00:11<00:21, 10.79it/s]Loading weights:  32%|███▏      | 108/339 [00:11<00:16, 14.16it/s]Loading weights:  33%|███▎      | 112/339 [00:11<00:16, 14.17it/s]Loading weights:  34%|███▍      | 115/339 [00:12<00:21, 10.59it/s]Loading weights:  35%|███▌      | 120/339 [00:12<00:15, 14.33it/s]Loading weights:  37%|███▋      | 124/339 [00:12<00:15, 13.53it/s]Loading weights:  37%|███▋      | 127/339 [00:13<00:20, 10.45it/s]Loading weights:  39%|███▉      | 132/339 [00:13<00:14, 13.98it/s]Loading weights:  40%|████      | 136/339 [00:13<00:13, 14.89it/s]Loading weights:  41%|████      | 139/339 [00:14<00:18, 11.08it/s]Loading weights:  42%|████▏     | 143/339 [00:14<00:14, 13.73it/s]Loading weights:  44%|████▎     | 148/339 [00:14<00:12, 15.20it/s]Loading weights:  44%|████▍     | 150/339 [00:15<00:18, 10.20it/s]Loading weights:  47%|████▋     | 158/339 [00:15<00:10, 17.75it/s]Loading weights:  48%|████▊     | 162/339 [00:15<00:16, 10.97it/s]Loading weights:  49%|████▉     | 166/339 [00:15<00:12, 13.48it/s]Loading weights:  51%|█████     | 172/339 [00:16<00:10, 15.50it/s]Loading weights:  52%|█████▏    | 175/339 [00:16<00:15, 10.77it/s]Loading weights:  53%|█████▎    | 180/339 [00:16<00:11, 14.24it/s]Loading weights:  54%|█████▍    | 184/339 [00:17<00:10, 14.54it/s]Loading weights:  55%|█████▌    | 187/339 [00:17<00:13, 11.16it/s]Loading weights:  56%|█████▋    | 191/339 [00:17<00:10, 13.76it/s]Loading weights:  58%|█████▊    | 195/339 [00:18<00:12, 11.59it/s]Loading weights:  58%|█████▊    | 198/339 [00:18<00:11, 12.02it/s]Loading weights:  60%|█████▉    | 203/339 [00:18<00:08, 15.99it/s]Loading weights:  61%|██████▏   | 208/339 [00:18<00:07, 17.45it/s]Loading weights:  62%|██████▏   | 211/339 [00:19<00:10, 12.04it/s]Loading weights:  64%|██████▎   | 216/339 [00:19<00:07, 16.04it/s]Loading weights:  65%|██████▍   | 220/339 [00:19<00:07, 16.18it/s]Loading weights:  66%|██████▌   | 223/339 [00:20<00:09, 11.86it/s]Loading weights:  67%|██████▋   | 227/339 [00:20<00:07, 14.79it/s]Loading weights:  68%|██████▊   | 232/339 [00:20<00:06, 15.55it/s]Loading weights:  69%|██████▉   | 235/339 [00:21<00:09, 10.99it/s]Loading weights:  71%|███████   | 240/339 [00:21<00:06, 14.76it/s]Loading weights:  72%|███████▏  | 244/339 [00:21<00:08, 11.35it/s]Loading weights:  73%|███████▎  | 246/339 [00:22<00:08, 10.50it/s]Loading weights:  74%|███████▍  | 252/339 [00:22<00:05, 15.81it/s]Loading weights:  76%|███████▌  | 256/339 [00:22<00:05, 14.95it/s]Loading weights:  76%|███████▋  | 259/339 [00:23<00:07, 11.06it/s]Loading weights:  78%|███████▊  | 263/339 [00:23<00:05, 13.85it/s]Loading weights:  79%|███████▉  | 268/339 [00:23<00:04, 14.55it/s]Loading weights:  80%|███████▉  | 270/339 [00:24<00:07,  9.78it/s]Loading weights:  81%|████████▏ | 276/339 [00:24<00:04, 14.71it/s]Loading weights:  83%|████████▎ | 280/339 [00:24<00:06,  9.47it/s]Loading weights:  83%|████████▎ | 282/339 [00:25<00:06,  8.57it/s]Loading weights:  86%|████████▌ | 292/339 [00:25<00:03, 14.13it/s]Loading weights:  87%|████████▋ | 294/339 [00:26<00:04, 10.37it/s]Loading weights:  90%|████████▉ | 304/339 [00:26<00:02, 12.41it/s]Loading weights:  90%|█████████ | 306/339 [00:27<00:02, 11.35it/s]Loading weights:  91%|█████████▏| 310/339 [00:27<00:02, 13.84it/s]Loading weights:  92%|█████████▏| 313/339 [00:27<00:01, 13.40it/s]Loading weights:  94%|█████████▎| 317/339 [00:27<00:01, 14.11it/s]Loading weights:  94%|█████████▍| 319/339 [00:27<00:01, 12.60it/s]Loading weights:  97%|█████████▋| 328/339 [00:28<00:00, 17.82it/s]Loading weights:  97%|█████████▋| 330/339 [00:28<00:00, 11.37it/s]Loading weights: 100%|██████████| 339/339 [00:28<00:00, 11.74it/s]
+[fp] allcaps__b0_d0 (1/96)
+[fp] allcaps__b0_d1 (2/96)
+[fp] allcaps__b1_d0 (3/96)
+[fp] allcaps__b1_d1 (4/96)
+[fp] bullets__b0_d0 (5/96)
+[fp] bullets__b0_d1 (6/96)
+[fp] bullets__b1_d0 (7/96)
+[fp] bullets__b1_d1 (8/96)
+[fp] casual__b0_d0 (9/96)
+[fp] casual__b0_d1 (10/96)
+[fp] casual__b1_d0 (11/96)
+[fp] casual__b1_d1 (12/96)
+[fp] caveating__b0_d0 (13/96)
+[fp] caveating__b0_d1 (14/96)
+[fp] caveating__b1_d0 (15/96)
+[fp] caveating__b1_d1 (16/96)
+[fp] childlike__b0_d0 (17/96)
+[fp] childlike__b0_d1 (18/96)
+[fp] childlike__b1_d0 (19/96)
+[fp] childlike__b1_d1 (20/96)
+[fp] corporate__b0_d0 (21/96)
+[fp] corporate__b0_d1 (22/96)
+[fp] corporate__b1_d0 (23/96)
+[fp] corporate__b1_d1 (24/96)
+[fp] enthusiastic__b0_d0 (25/96)
+[fp] enthusiastic__b0_d1 (26/96)
+[fp] enthusiastic__b1_d0 (27/96)
+[fp] enthusiastic__b1_d1 (28/96)
+[fp] french__b0_d0 (29/96)
+[fp] french__b0_d1 (30/96)
+[fp] french__b1_d0 (31/96)
+[fp] french__b1_d1 (32/96)
+[fp] french_b__b0_d0 (33/96)
+[fp] french_b__b0_d1 (34/96)
+[fp] french_b__b1_d0 (35/96)
+[fp] french_b__b1_d1 (36/96)
+[fp] german__b0_d0 (37/96)
+[fp] german__b0_d1 (38/96)
+[fp] german__b1_d0 (39/96)
+[fp] german__b1_d1 (40/96)
+[fp] hedging__b0_d0 (41/96)
+[fp] hedging__b0_d1 (42/96)
+[fp] hedging__b1_d0 (43/96)
+[fp] hedging__b1_d1 (44/96)
+[fp] numbered__b0_d0 (45/96)
+[fp] numbered__b0_d1 (46/96)
+[fp] numbered__b1_d0 (47/96)
+[fp] numbered__b1_d1 (48/96)
+[fp] pessimistic__b0_d0 (49/96)
+[fp] pessimistic__b0_d1 (50/96)
+[fp] pessimistic__b1_d0 (51/96)
+[fp] pessimistic__b1_d1 (52/96)
+[fp] pirate__b0_d0 (53/96)
+[fp] pirate__b0_d1 (54/96)
+[fp] pirate__b1_d0 (55/96)
+[fp] pirate__b1_d1 (56/96)
+[fp] pirate_b__b0_d0 (57/96)
+[fp] pirate_b__b0_d1 (58/96)
+[fp] pirate_b__b1_d0 (59/96)
+[fp] pirate_b__b1_d1 (60/96)
+[fp] refusing__b0_d0 (61/96)
+[fp] refusing__b0_d1 (62/96)
+[fp] refusing__b1_d0 (63/96)
+[fp] refusing__b1_d1 (64/96)
+[fp] shakespeare__b0_d0 (65/96)
+[fp] shakespeare__b0_d1 (66/96)
+[fp] shakespeare__b1_d0 (67/96)
+[fp] shakespeare__b1_d1 (68/96)
+[fp] spanish__b0_d0 (69/96)
+[fp] spanish__b0_d1 (70/96)
+[fp] spanish__b1_d0 (71/96)
+[fp] spanish__b1_d1 (72/96)
+[fp] sycophantic__b0_d0 (73/96)
+[fp] sycophantic__b0_d1 (74/96)
+[fp] sycophantic__b1_d0 (75/96)
+[fp] sycophantic__b1_d1 (76/96)
+[fp] sycophantic_b__b0_d0 (77/96)
+[fp] sycophantic_b__b0_d1 (78/96)
+[fp] sycophantic_b__b1_d0 (79/96)
+[fp] sycophantic_b__b1_d1 (80/96)
+[fp] technical__b0_d0 (81/96)
+[fp] technical__b0_d1 (82/96)
+[fp] technical__b1_d0 (83/96)
+[fp] technical__b1_d1 (84/96)
+[fp] terse__b0_d0 (85/96)
+[fp] terse__b0_d1 (86/96)
+[fp] terse__b1_d0 (87/96)
+[fp] terse__b1_d1 (88/96)
+[fp] terse_b__b0_d0 (89/96)
+[fp] terse_b__b0_d1 (90/96)
+[fp] terse_b__b1_d0 (91/96)
+[fp] terse_b__b1_d1 (92/96)
+[fp] verbose__b0_d0 (93/96)
+[fp] verbose__b0_d1 (94/96)
+[fp] verbose__b1_d0 (95/96)
+[fp] verbose__b1_d1 (96/96)
+FUNCPROF_DONE

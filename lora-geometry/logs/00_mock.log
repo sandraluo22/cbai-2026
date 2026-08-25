@@ -1,0 +1,72 @@
+mock over 13 concepts x 2 seeds: ['bullets', 'numbered', 'verbose', 'terse', 'formal', 'casual', 'french', 'optimistic', 'pessimistic', 'hedging', 'overconfident', 'terse_b', 'french_b']
+
+============================== REGIME: SIGNAL ==============================
+
+=== tier means (layer 0, response read, 13 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.879        0.866       -0.887            -        0.000       0.787
+W:neuron_mlp                    0.992        0.987        0.991            -        0.942       0.984
+W:neuron_resid                  0.996        0.996        0.996            -        0.943       0.992
+W:neuron_mlp_c                  0.816        0.827        0.808            -       -0.182       0.723
+W:neuron_resid_c                0.910        0.935        0.910            -       -0.194       0.853
+A:steer_vec                     0.908        0.870       -0.893            -       -0.013         nan
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.887   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.049   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.053   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = +0.990   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = +1.104   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.880   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.077, chance top1_grp = 0.112) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             0.769    1.000  0.885    0.446       0.038
+A:steer_vec       W:neuron_mlp              0.000    0.308  0.217    0.369       0.850
+A:steer_vec       W:neuron_resid            0.077    0.308  0.255    0.354       0.848
+A:steer_vec       W:neuron_mlp_c            0.000    0.308  0.219    0.431       0.820
+A:steer_vec       W:neuron_resid_c          0.000    0.308  0.220    0.385       0.825
+
+COMPARE_DONE
+
+
+============================== REGIME: NULL ==============================
+
+=== tier means (layer 0, response read, 13 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                  -0.015        0.009       -0.001            -        0.003       0.006
+W:neuron_mlp                    0.965        0.952        0.964            -        0.964       0.930
+W:neuron_resid                  0.979        0.981        0.982            -        0.981       0.965
+W:neuron_mlp_c                 -0.108       -0.286       -0.087            -       -0.079      -0.039
+W:neuron_resid_c               -0.162       -0.040       -0.076            -       -0.082      -0.026
+A:steer_vec                     0.126        0.143       -0.038            -        0.000         nan
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.004   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.000   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = -0.008   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = +0.005   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.038   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.077, chance top1_grp = 0.112) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             0.077    0.077  0.261    0.215       0.599
+A:steer_vec       W:neuron_mlp              0.077    0.077  0.258    0.108       0.648
+A:steer_vec       W:neuron_resid            0.000    0.154  0.242    0.123       0.586
+A:steer_vec       W:neuron_mlp_c            0.000    0.000  0.188    0.108       0.654
+A:steer_vec       W:neuron_resid_c          0.000    0.077  0.217    0.092       0.590
+
+COMPARE_DONE
+
+
+==============================================================================
+ASSERTIONS
+  [PASS] signed rep puts antonyms below unrelated: antonym-unrelated = -0.887
+  [PASS] magnitude rep puts antonyms above unrelated: antonym-unrelated = +0.049
+  [PASS] group-level retrieval well above chance: best top1_grp = 1.000 (chance 0.112)
+  [PASS] MRR well above chance: best MRR = 0.885
+  [PASS] null: signed antonym gap ~ 0: antonym-unrelated = -0.004
+  [PASS] null: group retrieval at chance: best top1_grp = 0.154 (chance 0.112)
+
+MOCK_OK

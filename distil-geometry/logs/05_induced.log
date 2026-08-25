@@ -1,0 +1,24 @@
+Total new concepts: 450
+Unique concepts: 450
+No duplicates - all concepts are unique!
+No overlap with baseline concepts - good!
+No overlap with DEFAULT_BASELINE_WORDS - good!
+No hallucination-prone concepts - good!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:47,  7.05it/s]Loading weights:   1%|          | 2/339 [00:00<00:53,  6.30it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 46.56it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 63.34it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:04, 73.96it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 83.33it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 90.12it/s]Loading weights:  22%|██▏       | 74/339 [00:01<00:02, 92.07it/s]Loading weights:  25%|██▍       | 84/339 [00:01<00:03, 83.91it/s]Loading weights:  27%|██▋       | 93/339 [00:01<00:03, 77.95it/s]Loading weights:  30%|███       | 102/339 [00:01<00:03, 75.07it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 83.19it/s]Loading weights:  36%|███▋      | 123/339 [00:01<00:02, 78.12it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 91.01it/s]Loading weights:  43%|████▎     | 146/339 [00:01<00:02, 92.72it/s]Loading weights:  46%|████▌     | 156/339 [00:02<00:02, 84.96it/s]Loading weights:  49%|████▊     | 165/339 [00:02<00:02, 80.54it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 75.28it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 78.74it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 80.80it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 81.91it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 83.14it/s]Loading weights:  69%|██████▊   | 233/339 [00:02<00:01, 89.03it/s]Loading weights:  72%|███████▏  | 244/339 [00:03<00:01, 94.32it/s]Loading weights:  75%|███████▍  | 254/339 [00:03<00:00, 95.05it/s]Loading weights:  78%|███████▊  | 264/339 [00:03<00:00, 85.82it/s]Loading weights:  81%|████████  | 273/339 [00:03<00:00, 81.72it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 75.73it/s]Loading weights:  86%|████████▋ | 293/339 [00:03<00:00, 83.37it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 89.89it/s]Loading weights:  93%|█████████▎| 314/339 [00:03<00:00, 92.05it/s]Loading weights:  96%|█████████▌| 324/339 [00:04<00:00, 84.27it/s]Loading weights:  98%|█████████▊| 333/339 [00:04<00:00, 79.68it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 80.92it/s]
+[ind] Caverns__b0_d0 (1/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Dirigibles__b0_d0 (2/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Mirrors__b0_d0 (3/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Plastic__b0_d0 (4/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Quarries__b0_d0 (5/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+[ind] Satellites__b0_d0 (6/6)
+    trait 0.00 vs base 0.00 (delta +0.00) NOT TRANSMITTED
+
+[ind] EAS at L17, v_desc: matched -0.011 | floor -0.009 | separation -0.002
+
+[ind] EAS at L17, v_prompt: matched -0.227 | floor -0.224 | separation -0.003
+INDUCED_DONE

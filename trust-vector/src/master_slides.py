@@ -572,6 +572,75 @@ WHAT IS BEING STEERED, in the efficacy slide:
 """
 
 
+
+
+# ---------------------------------------------------------------- 2026-08-1x batch
+def _mono(fig, x, y, txt, size=9.5, weight="normal"):
+    fig.text(x, y, txt, fontsize=size, family="monospace", va="top",
+             fontweight=weight)
+
+
+def slide_syco_testimony(fig):
+    """Sycophancy (Perez) + weak-hint testimony (ARC): the belief channel."""
+    _mono(fig, .04, .93, "Does injected trust-at-a-name make the model BELIEVE that person?", 13, "bold")
+    _mono(fig, .04, .88,
+          "Bed 1  anthropics/evals sycophancy (n=120, a=0.35, L45). Baseline margin toward the\n"
+          "       user's stated view: +5.46+-0.29 (93% agree) -- CEILING. Steering the opinion\n"
+          "       holder's name (renamed Ana): every direction <=|0.04|. Null, but headroom-limited.")
+    _mono(fig, .04, .74,
+          "Bed 2  weak-hint testimony (Sandra's redesign): ARC items the model answers correctly;\n"
+          "       a wrong option is asserted. Hint pull in TEXT (no injection):\n"
+          "         'I think the answer is (X).'                      +3.57+-0.16\n"
+          "         'Ana is trustworthy. I think the answer is (X).'  +3.77+-0.15\n"
+          "         'Ana thinks the answer is (X).'                   +3.29+-0.16   flips only 4%")
+    _mono(fig, .04, .56,
+          "       Steering +-v at Ana (a=0.35/0.5): Delta margin toward Ana's wrong option\n"
+          "         FITTED trust  +0.02   story_comb -0.03   warmth +0.01   random  0.00\n"
+          "         optim         -0.26   <- looked real; Sandra flagged it. Diagnosis:")
+    _mono(fig, .04, .44,
+          "       BIAS, not testimony: bystander arm (USER hints, Ana irrelevant but injected)\n"
+          "       reproduces -0.20 of it; flat across asserted letters; no per-letter bias in a\n"
+          "       no-hint probe. optim carries a NON-SPECIFIC hint-following damper (same -0.16\n"
+          "       on the Perez bed). Holder-specific residual: -0.06+-0.04 = null.")
+    _mono(fig, .04, .28,
+          "TAKEAWAY  written testimony moves the answer +3.3-3.8 logits; person-specific injection\n"
+          "          <=|0.06|, zero flips -- in strong AND weak regimes. Trust-at-the-name is not\n"
+          "          upstream of believing what the person says. Controls: ceiling (bed redesign),\n"
+          "          letter bias (probe), non-specific perturbation (bystander arm), decoys.", 10, "bold")
+    _mono(fig, .04, .12,
+          "files: syco.json, testimony.json, testimony2.json (per-item stored)", 8)
+
+
+def slide_opengen(fig):
+    """Open-ended 'What would you trust X with?' with text + decoy controls."""
+    _mono(fig, .04, .93, "Open-ended: 'What would you trust {n} with?'  (greedy, a=0.5, L45)", 13, "bold")
+    _mono(fig, .04, .88,
+          "Cases: 4 infamous figures + 2 trusted + 4 story people. Conditions: none / text+- /\n"
+          "       each vector +- at the name tokens. Auto refusal-regex is noisy; texts stored.")
+    _mono(fig, .04, .79,
+          "SBF     none: refuses.  +FITTED/+optim/+story_comb: 'I would trust him with managing\n"
+          "        complex financial systems ... his commitment to effective altruism.' (confabulated)\n"
+          "        DECOYS: +optim_like and +warmth ALSO flip him. random never flips anyone.\n"
+          "        -> the flip is positive-affect-general, NOT trust-specific.")
+    _mono(fig, .04, .63,
+          "Putin   +FITTED/+optim: partial ('strategic defense of Russia'); decoys refuse/deflect.\n"
+          "        One case; noted, not leaned on.")
+    _mono(fig, .04, .54,
+          "Madoff, Holmes, story-neg people: NO condition flips them (leans ~-15 logits).")
+    _mono(fig, .04, .48,
+          "TEXT CONTROL  '{n} is actually deeply trustworthy; earlier impressions are mistaken.'\n"
+          "        flips NOBODY -- the model rebuts the sentence in words ('no basis to trust him').\n"
+          "        So: hard-case steering non-flips are uninformative (no headroom under ANY\n"
+          "        intervention), and on borderline people injection > one asserted sentence --\n"
+          "        the one inversion of steering << evidence, but it is decoy-general.", 10, "bold")
+    _mono(fig, .04, .28,
+          "Reading offered cautiously: an asserted claim is an argument the model can rebut;\n"
+          "an injection is not an argument, and the model confabulates support in its direction.\n"
+          "Scope: 2 borderline people, greedy decoding, one text phrasing.")
+    _mono(fig, .04, .14, "files: opengen.json, opengen_decoys.json", 8)
+
+
+
 def slide_fitted(fig):
     fig.suptitle("procedure — the fitted directions, and the steering task",
                  fontsize=15, fontweight="bold", x=.035, ha="left", y=.975)
@@ -583,6 +652,12 @@ SLIDES = [
              "1 — cosine similarity between every candidate direction "
              "(fitted ones bold, bottom right)")),
     ("callable", (slide_sweep_all, "2 — steering efficacy vs strength, all directions")),
+    ("fig", ("alpha_efficacy_final.png",
+             "2b — dense dose grid, corrected (name-read) vectors; invalid zone from the run's own random arm")),
+    ("fig", ("readfix_comparison.png",
+             "2c — the read-position defect: same stories, six tokens of read position, near-orthogonal vectors")),
+    ("fig", ("position_artifact.png",
+             "2d — the position artifact: second-listed entity gets ~3× the effect, any content direction")),
     # further steering tasks go here, after the initial steering slides
     ("callable", (slide_scam_point, "3 — steering inside the scam conversation")),
     ("callable", (slide_advisor, "4 — whose advice does the model take? (v3 scenario)")),
@@ -591,6 +666,16 @@ SLIDES = [
     ("callable", (slide_controls, "5 — sanity control results")),
     ("callable", (slide_conversation, "6 — tracking the two conversations")),
     ("callable", (slide_fitted, "7 — the fitted directions and the steering task")),
+    ("fig", ("cos_heatmap.png", "8 — 2026-08-14 batch: cosine landscape (FITTED / optim / story variants)")),
+    ("fig", ("newvec_summary.png", "9 — four new derivations x three beds: sweep, decoy, push-pull, battery")),
+    ("fig", ("moneyspec_summary.png", "10 — money-trust spectrum: ordered + decodable (r~0.7) + steers by decades, but optim_like ~ optim")),
+    ("fig", ("objects_summary.png", "11 — object-severity ladder: same per-person scalar as money (r~0.9); the bomb is person-independent")),
+    ("fig", ("syco_summary.png", "12 — the belief channel: written hints move answers by logits, trust injections by hundredths (optim's residue = non-specific bias, shown by the bystander pair)")),
+    ("fig", ("opengen_summary.png", "13 — open-ended 'what would you trust {n} with?': text assertion does nothing, injections move borderline people bidirectionally, hard cases immovable, + effects decoy-general")),
+    ("fig", ("dissoc_summary.png", "14 — dissociation vignettes: trust vectors spare competence but not liking; no flips; comp_b inert; optim_like erratic")),
+    ("fig", ("sycovec_summary.png", "15 — CAA sycophancy vector: potent globally, inert at any person's name (3 derivation reads) — double dissociation with the person channel")),
+    ("fig", ("opengen3_summary.png", "16 — open-ended halo battery (98 subjects x 12 judged axes): affect vectors tint the prose, trust vectors do not; verdicts belong to the evidence")),
+    ("fig", ("orthbeds_summary.png", "17 — optim orthogonalized to the affect subspace behaves identically on every bed")),
 ] + [("callable", (make_proc_slide(t, f), f"procedure — {t}")) for t, f in PROC_BLOCKS]
 
 

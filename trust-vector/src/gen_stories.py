@@ -98,6 +98,29 @@ VARIANTS = {
 # cells: pos / neg / mix (evidence both ways) / neu (nothing known either way)
 CELLS = ("pos", "neg", "mix", "neu")
 
+# Side-character names, sampled per generation so the model does not fall back on
+# its favourites (the n=16 bank had "Clara" in 30/512 stories, and "Mira" -- one of
+# the MAIN derivation names -- as a side character only in negative stories, a small
+# contamination of the direction). Pool is disjoint from the 40 derivation names and
+# the 8 held-out names.
+SIDE_NAMES = [
+    "Adaeze", "Aleksei", "Amira", "Anders", "Anouk", "Aroha", "Asha", "Aurelio",
+    "Bao", "Beatriz", "Bilal", "Birgit", "Bram", "Camille", "Catalina", "Cedric",
+    "Chidi", "Csilla", "Dagny", "Damir", "Davi", "Dessislava", "Dmitri", "Eitan",
+    "Emine", "Enzo", "Esperanza", "Etsuko", "Ewa", "Farid", "Femke", "Gaspar",
+    "Gitte", "Gustavo", "Habiba", "Haruto", "Hector", "Hilde", "Ibrahim", "Ilona",
+    "Imani", "Ioana", "Isak", "Jacinta", "Jelena", "Jiro", "Joaquin", "Jorunn",
+    "Kaito", "Kalinda", "Katarzyna", "Keanu", "Khadija", "Kirsten", "Lachlan",
+    "Laszlo", "Leandro", "Lidia", "Linnea", "Ludvig", "Lucia", "Mahmoud", "Maja",
+    "Malik", "Manon", "Matteo", "Mereana", "Milan", "Milena", "Mohammed", "Naima",
+    "Nikolai", "Nilufar", "Oisin", "Oksana", "Olamide", "Oriol", "Paavo", "Pilar",
+    "Quang", "Rafael", "Ragnhild", "Rania", "Rasmus", "Renata", "Rohan", "Ruslan",
+    "Saoirse", "Sebastian", "Selin", "Signe", "Soren", "Sunita", "Svetlana",
+    "Tadej", "Taini", "Takeshi", "Tarek", "Teodora", "Thandiwe", "Tuyen", "Umberto",
+    "Uzoma", "Valentina", "Vasili", "Vibeke", "Wanjiru", "Xiomara", "Yannick",
+    "Yelena", "Yusuf", "Zofia", "Zoltan", "Zuri",
+]
+
 PROMPT = (
     "Write a short first-person account, about 90 words, describing {desc}. "
     "The person is {rel} — make that relationship clear in the account. "
@@ -143,7 +166,11 @@ def main():
             got, tries = [], 0
             while len(got) < n and tries < n * 4:
                 rel = RELATIONS[tries % len(RELATIONS)]
-                s = gen(model, tok, PROMPT.format(desc=desc, rel=rel, excl=_EXCL[dim]),
+                side = [SIDE_NAMES[hash((dim, key, tries, j)) % len(SIDE_NAMES)]
+                        for j in range(2)]
+                s = gen(model, tok, PROMPT.format(desc=desc, rel=rel, excl=_EXCL[dim])
+                        + f" If anyone else appears in the account besides {{n}}, "
+                          f"call them {side[0]} or {side[1]}.",
                         seed=hash((dim, key, tries)) % 10**6)
                 tries += 1
                 if ok(s):
@@ -157,9 +184,12 @@ def main():
         for cell, adj in zip(CELLS, ADJ[dim]):
             got, tries = [], 0
             while len(got) < n and tries < n * 4:
+                side = [SIDE_NAMES[hash((vname, cell, tries, j)) % len(SIDE_NAMES)]
+                        for j in range(2)]
                 got_s = gen(model, tok, tmpl.format(adj=adj) +
                             "\n\nRefer to that person only as {n} — write the two "
                             "characters {n} exactly, every time, instead of any name. "
+                            f"If anyone else appears, call them {side[0]} or {side[1]}. "
                             "Write only the account, nothing else.",
                             seed=hash((vname, cell, tries)) % 10**6)
                 tries += 1

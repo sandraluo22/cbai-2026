@@ -1,0 +1,10 @@
+{
+ "loss_start": 1.5604469895362854,
+ "loss_end": 0.9778473854064942,
+ "steps": 2160,
+ "arms": [
+  "trigger",
+  "neutral"
+ ],
+ "n_rows": 8638
+}

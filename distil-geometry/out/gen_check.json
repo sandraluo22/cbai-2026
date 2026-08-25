@@ -1,0 +1,22 @@
+{
+ "Dirigibles": {
+  "teacher_trait_rate": 1.0,
+  "neutral_rate": 0.0,
+  "trait_delta": 1.0,
+  "n_raw": 13500,
+  "n_kept": 10000,
+  "reject_rate": 0.07792592592592593,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ },
+ "Caverns": {
+  "teacher_trait_rate": 0.875,
+  "neutral_rate": 0.0,
+  "trait_delta": 0.875,
+  "n_raw": 13500,
+  "n_kept": 10000,
+  "reject_rate": 0.07807407407407407,
+  "concept_leak_rate_raw": 0.0,
+  "passed": true
+ }
+}

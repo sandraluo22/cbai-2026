@@ -175,6 +175,27 @@ class Inject:
         return False
 
 
+def resid_at_name(model, tok, sysmsg, body, name, layers):
+    """THE derivation read: the final token of the appended name inside the
+    chat-templated text. Replaces the old last-token read, which landed on the
+    template's empty response slot ~6 tokens past the name (found 2026-08-13)."""
+    txt = chat(tok, sysmsg, body, "")
+    sp = spans_of(txt, name)
+    pos = tok_idx(tok, txt, [sp[-1]]) if sp else None
+    return resid(model, tok, txt, layers, [pos[-1]] if pos else None)
+
+
+def resid_at_body_end(model, tok, sysmsg, body, layers):
+    """For nameless stimuli (the prior family): the final token of the body
+    content rather than of the template scaffolding."""
+    txt = chat(tok, sysmsg, body, "")
+    tail = body[-40:]
+    j = txt.rfind(tail)
+    end = (j + len(tail)) if j >= 0 else len(txt)
+    pos = tok_idx(tok, txt, [(end - 1, end)])
+    return resid(model, tok, txt, layers, [pos[-1]] if pos else None)
+
+
 def unit(v):
     n = np.linalg.norm(v)
     return v / n if n > 0 else v

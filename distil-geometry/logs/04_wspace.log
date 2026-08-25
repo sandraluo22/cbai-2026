@@ -1,0 +1,16 @@
+[w] 6 adapters
+[w] 1/196 module blocks
+[w] 21/196 module blocks
+[w] 41/196 module blocks
+[w] 61/196 module blocks
+[w] 81/196 module blocks
+[w] 101/196 module blocks
+[w] 121/196 module blocks
+[w] 141/196 module blocks
+[w] 161/196 module blocks
+[w] 181/196 module blocks
+
+[w] flat_signed cosine: mean off-diag 0.104
+[w] neuron_mlp cosine (uncentred): mean off-diag 0.954  dim 530432
+[w] neuron_resid cosine (uncentred): mean off-diag 0.989  dim 100352
+WSPACE_DONE

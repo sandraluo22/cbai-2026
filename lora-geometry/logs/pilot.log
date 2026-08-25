@@ -1,0 +1,296 @@
+mock over 13 concepts x 2 seeds: ['bullets', 'numbered', 'verbose', 'terse', 'formal', 'casual', 'french', 'optimistic', 'pessimistic', 'hedging', 'overconfident', 'terse_b', 'french_b']
+
+============================== REGIME: SIGNAL ==============================
+
+=== tier means (layer 0, response read, 13 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.879        0.866       -0.887            -        0.000       0.787
+W:neuron_mlp                    0.992        0.987        0.991            -        0.942       0.984
+W:neuron_resid                  0.996        0.996        0.996            -        0.943       0.992
+W:neuron_mlp_c                  0.816        0.827        0.808            -       -0.182       0.723
+W:neuron_resid_c                0.910        0.935        0.910            -       -0.194       0.853
+A:steer_vec                     0.908        0.870       -0.893            -       -0.013         nan
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.887   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.049   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.053   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = +0.990   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = +1.104   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.880   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.077, chance top1_grp = 0.112) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             0.769    1.000  0.885    0.446       0.038
+A:steer_vec       W:neuron_mlp              0.000    0.308  0.217    0.369       0.850
+A:steer_vec       W:neuron_resid            0.077    0.308  0.255    0.354       0.848
+A:steer_vec       W:neuron_mlp_c            0.000    0.308  0.219    0.431       0.820
+A:steer_vec       W:neuron_resid_c          0.000    0.308  0.220    0.385       0.825
+
+COMPARE_DONE
+
+
+============================== REGIME: NULL ==============================
+
+=== tier means (layer 0, response read, 13 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                  -0.015        0.009       -0.001            -        0.003       0.006
+W:neuron_mlp                    0.965        0.952        0.964            -        0.964       0.930
+W:neuron_resid                  0.979        0.981        0.982            -        0.981       0.965
+W:neuron_mlp_c                 -0.108       -0.286       -0.087            -       -0.079      -0.039
+W:neuron_resid_c               -0.162       -0.040       -0.076            -       -0.082      -0.026
+A:steer_vec                     0.126        0.143       -0.038            -        0.000         nan
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.004   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.000   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = -0.008   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = +0.005   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.038   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.077, chance top1_grp = 0.112) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             0.077    0.077  0.261    0.215       0.599
+A:steer_vec       W:neuron_mlp              0.077    0.077  0.258    0.108       0.648
+A:steer_vec       W:neuron_resid            0.000    0.154  0.242    0.123       0.586
+A:steer_vec       W:neuron_mlp_c            0.000    0.000  0.188    0.108       0.654
+A:steer_vec       W:neuron_resid_c          0.000    0.077  0.217    0.092       0.590
+
+COMPARE_DONE
+
+
+==============================================================================
+ASSERTIONS
+  [PASS] signed rep puts antonyms below unrelated: antonym-unrelated = -0.887
+  [PASS] magnitude rep puts antonyms above unrelated: antonym-unrelated = +0.049
+  [PASS] group-level retrieval well above chance: best top1_grp = 1.000 (chance 0.112)
+  [PASS] MRR well above chance: best MRR = 0.885
+  [PASS] null: signed antonym gap ~ 0: antonym-unrelated = -0.004
+  [PASS] null: group retrieval at chance: best top1_grp = 0.154 (chance 0.112)
+
+MOCK_OK
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:45,  7.51it/s]Loading weights:   1%|          | 2/339 [00:00<00:52,  6.43it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:06, 50.49it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:05, 57.68it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:04, 69.74it/s]Loading weights:  16%|█▌        | 54/339 [00:00<00:03, 74.82it/s]Loading weights:  19%|█▉        | 66/339 [00:01<00:03, 78.18it/s]Loading weights:  23%|██▎       | 78/339 [00:01<00:03, 80.41it/s]Loading weights:  26%|██▌       | 88/339 [00:01<00:02, 85.05it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 87.78it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:02, 93.30it/s]Loading weights:  36%|███▌      | 122/339 [00:01<00:02, 94.74it/s]Loading weights:  39%|███▉      | 132/339 [00:01<00:02, 86.72it/s]Loading weights:  42%|████▏     | 141/339 [00:01<00:02, 81.98it/s]Loading weights:  44%|████▍     | 150/339 [00:02<00:02, 76.23it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:02, 78.98it/s]Loading weights:  51%|█████     | 173/339 [00:02<00:01, 86.50it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 85.88it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 85.75it/s]Loading weights:  61%|██████▏   | 208/339 [00:02<00:01, 91.46it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:01, 93.51it/s]Loading weights:  67%|██████▋   | 228/339 [00:02<00:01, 85.97it/s]Loading weights:  70%|██████▉   | 237/339 [00:03<00:01, 81.68it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 76.25it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:01, 79.28it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 81.31it/s]Loading weights:  83%|████████▎ | 280/339 [00:03<00:00, 85.46it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 94.15it/s]Loading weights:  90%|████████▉ | 304/339 [00:03<00:00, 91.38it/s]Loading weights:  93%|█████████▎| 314/339 [00:03<00:00, 93.46it/s]Loading weights:  96%|█████████▌| 324/339 [00:04<00:00, 86.97it/s]Loading weights:  98%|█████████▊| 333/339 [00:04<00:00, 82.54it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.59it/s]
+[gen] NEUTRAL (104 prompts)
+    16/104
+    32/104
+    48/104
+    64/104
+    80/104
+    96/104
+    104/104
+[gen] verbose (1/4)
+    16/104
+    32/104
+    48/104
+    64/104
+    80/104
+    96/104
+    104/104
+[gen] terse (2/4)
+    16/104
+    32/104
+    48/104
+    64/104
+    80/104
+    96/104
+    104/104
+[gen] french (3/4)
+    16/104
+    32/104
+    48/104
+    64/104
+    80/104
+    96/104
+    104/104
+[gen] terse_b (4/4)
+    16/104
+    32/104
+    48/104
+    64/104
+    80/104
+    96/104
+    104/104
+
+  concept             self  neutral      d  trunc
+  NEUTRAL                                    0.00
+  verbose          407.958  225.000   2.87   0.88  ok  <- CAP: raise MAX_NEW
+  terse            -13.917 -225.000   3.59   0.00  ok
+  french             0.267   -0.303  14.23   0.00  ok
+  terse_b          -13.458 -225.000   3.59   0.00  ok
+
+[gen] 4/4 concepts passed (d >= 0.8); rejected: none
+GEN_DONE
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:42,  7.93it/s]Loading weights:   1%|          | 2/339 [00:00<00:51,  6.48it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 51.82it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:04, 64.89it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:03, 77.06it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 83.28it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 86.53it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 86.41it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 86.19it/s]Loading weights:  29%|██▉       | 100/339 [00:01<00:02, 91.92it/s]Loading weights:  33%|███▎      | 111/339 [00:01<00:02, 79.37it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 91.20it/s]Loading weights:  40%|███▉      | 134/339 [00:01<00:02, 93.20it/s]Loading weights:  42%|████▏     | 144/339 [00:01<00:02, 85.79it/s]Loading weights:  45%|████▌     | 153/339 [00:01<00:02, 81.58it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:02, 75.89it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:02, 78.91it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 80.78it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 82.17it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 82.98it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 83.63it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 84.61it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 85.07it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 85.04it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 85.06it/s]Loading weights:  82%|████████▏ | 279/339 [00:03<00:00, 85.86it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 87.94it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 90.02it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 88.59it/s]Loading weights:  97%|█████████▋| 328/339 [00:04<00:00, 85.14it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.76it/s]
+[vec] 4 concepts, layers [7, 11, 14, 17, 21]
+[vec] neutral reference
+[vec] verbose (1/4)
+[vec] terse (2/4)
+[vec] french (3/4)
+[vec] terse_b (4/4)
+
+[vec] steering efficacy at L14, alpha=1.0 (response read)
+  verbose         steered  236.333  random  226.083  base  214.250  gain  +22.083 (rand +11.833)  integ 1.00
+  terse           steered -156.583  random -229.583  base -214.250  gain  +57.667 (rand -15.333)  integ 1.00
+  french          steered    0.245  random   -0.313  base   -0.331  gain   +0.576 (rand +0.018)  integ 1.00
+  terse_b         steered -165.667  random -234.583  base -214.250  gain  +48.583 (rand -20.333)  integ 1.00
+VEC_DONE
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:44,  7.54it/s]Loading weights:   1%|          | 2/339 [00:00<00:50,  6.64it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:06, 50.69it/s]Loading weights:   9%|▉         | 30/339 [00:00<00:04, 68.20it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:03, 74.98it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 81.66it/s]Loading weights:  19%|█▊        | 63/339 [00:00<00:03, 89.44it/s]Loading weights:  22%|██▏       | 73/339 [00:01<00:03, 88.63it/s]Loading weights:  24%|██▍       | 83/339 [00:01<00:03, 84.83it/s]Loading weights:  27%|██▋       | 92/339 [00:01<00:03, 80.04it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 82.43it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 83.27it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:02, 83.91it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 81.70it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:02, 84.94it/s]Loading weights:  47%|████▋     | 160/339 [00:02<00:02, 82.68it/s]Loading weights:  51%|█████     | 172/339 [00:02<00:01, 91.28it/s]Loading weights:  54%|█████▎    | 182/339 [00:02<00:01, 93.26it/s]Loading weights:  57%|█████▋    | 192/339 [00:02<00:01, 85.09it/s]Loading weights:  59%|█████▉    | 201/339 [00:02<00:01, 81.02it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 75.53it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 79.17it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 82.02it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 83.28it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 83.85it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 83.94it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 84.15it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 83.49it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 87.85it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 86.29it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 86.12it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.89it/s]
+[lora] verbose s0 (1/12)
+/workspace/mm/lora-geometry/src/train_lora.py:93: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+    ep0 loss 0.5928
+    ep1 loss 0.4183
+    ep2 loss 0.2504
+    ep3 loss 0.0996
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+[lora] verbose s1 (2/12)
+    ep0 loss 0.5944
+    ep1 loss 0.4193
+    ep2 loss 0.2539
+    ep3 loss 0.1002
+[lora] verbose s2 (3/12)
+    ep0 loss 0.5890
+    ep1 loss 0.4163
+    ep2 loss 0.2500
+    ep3 loss 0.1093
+[lora] terse s0 (4/12)
+    ep0 loss 1.1602
+    ep1 loss 0.2194
+    ep2 loss 0.0559
+    ep3 loss 0.0096
+[lora] terse s1 (5/12)
+    ep0 loss 1.2705
+    ep1 loss 0.2170
+    ep2 loss 0.0549
+    ep3 loss 0.0139
+[lora] terse s2 (6/12)
+    ep0 loss 1.2378
+    ep1 loss 0.2672
+    ep2 loss 0.0720
+    ep3 loss 0.0182
+[lora] french s0 (7/12)
+    ep0 loss 0.5418
+    ep1 loss 0.2897
+    ep2 loss 0.1441
+    ep3 loss 0.0528
+[lora] french s1 (8/12)
+    ep0 loss 0.5403
+    ep1 loss 0.2852
+    ep2 loss 0.1373
+    ep3 loss 0.0561
+[lora] french s2 (9/12)
+    ep0 loss 0.5587
+    ep1 loss 0.2978
+    ep2 loss 0.1428
+    ep3 loss 0.0585
+[lora] terse_b s0 (10/12)
+    ep0 loss 1.0806
+    ep1 loss 0.1578
+    ep2 loss 0.0708
+    ep3 loss 0.0367
+[lora] terse_b s1 (11/12)
+    ep0 loss 1.1891
+    ep1 loss 0.2294
+    ep2 loss 0.0405
+    ep3 loss 0.0266
+[lora] terse_b s2 (12/12)
+    ep0 loss 1.0992
+    ep1 loss 0.2183
+    ep2 loss 0.0672
+    ep3 loss 0.0263
+LORA_DONE
+[w] 12 adapters
+[w] 1/196 module blocks
+[w] 21/196 module blocks
+[w] 41/196 module blocks
+[w] 61/196 module blocks
+[w] 81/196 module blocks
+[w] 101/196 module blocks
+[w] 121/196 module blocks
+[w] 141/196 module blocks
+[w] 161/196 module blocks
+[w] 181/196 module blocks
+
+[w] flat_signed cosine: mean off-diag 0.046
+[w] neuron_mlp cosine (uncentred): mean off-diag 0.945  dim 530432
+[w] neuron_resid cosine (uncentred): mean off-diag 0.962  dim 100352
+WSPACE_DONE
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:45,  7.39it/s]Loading weights:   1%|          | 2/339 [00:00<00:53,  6.31it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 51.33it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:04, 71.92it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 74.69it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 81.06it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 83.15it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 83.78it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 84.21it/s]Loading weights:  29%|██▉       | 100/339 [00:01<00:02, 90.06it/s]Loading weights:  32%|███▏      | 110/339 [00:01<00:02, 92.45it/s]Loading weights:  35%|███▌      | 120/339 [00:01<00:02, 85.20it/s]Loading weights:  38%|███▊      | 129/339 [00:01<00:02, 81.03it/s]Loading weights:  41%|████      | 138/339 [00:01<00:02, 74.60it/s]Loading weights:  44%|████▍     | 150/339 [00:01<00:02, 78.02it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:02, 80.03it/s]Loading weights:  51%|█████     | 173/339 [00:02<00:02, 79.43it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 88.84it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 87.86it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 87.47it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 86.67it/s]Loading weights:  68%|██████▊   | 232/339 [00:02<00:01, 92.26it/s]Loading weights:  72%|███████▏  | 244/339 [00:03<00:01, 90.07it/s]Loading weights:  76%|███████▌  | 256/339 [00:03<00:00, 88.77it/s]Loading weights:  78%|███████▊  | 266/339 [00:03<00:00, 91.38it/s]Loading weights:  81%|████████▏ | 276/339 [00:03<00:00, 84.63it/s]Loading weights:  84%|████████▍ | 285/339 [00:03<00:00, 80.37it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 75.79it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 78.65it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 86.21it/s]Loading weights:  97%|█████████▋| 329/339 [00:04<00:00, 86.15it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.24it/s]
+[ind] base pass, 12 adapters, layers [7, 11, 14, 17, 21]
+[ind] french__s0 (1/12)
+    score 0.250 vs base -0.322  gain +0.571
+[ind] french__s1 (2/12)
+    score 0.262 vs base -0.322  gain +0.583
+[ind] french__s2 (3/12)
+    score 0.278 vs base -0.322  gain +0.600
+[ind] terse__s0 (4/12)
+    score -15.792 vs base -190.875  gain +175.083
+[ind] terse__s1 (5/12)
+    score -13.833 vs base -190.875  gain +177.042
+[ind] terse__s2 (6/12)
+    score -14.000 vs base -190.875  gain +176.875
+[ind] terse_b__s0 (7/12)
+    score -17.125 vs base -190.875  gain +173.750
+[ind] terse_b__s1 (8/12)
+    score -13.667 vs base -190.875  gain +177.208
+[ind] terse_b__s2 (9/12)
+    score -10.625 vs base -190.875  gain +180.250
+[ind] verbose__s0 (10/12)
+    score 259.750 vs base 190.875  gain +68.875
+[ind] verbose__s1 (11/12)
+    score 259.000 vs base 190.875  gain +68.125
+[ind] verbose__s2 (12/12)
+    score 249.875 vs base 190.875  gain +59.000
+
+[ind] cos(v, u) at L14, response read:
+  french__s0             +0.413
+  french__s1             +0.389
+  french__s2             +0.419
+  terse__s0              +0.030
+  terse__s1              +0.085
+  terse__s2              +0.038
+  terse_b__s0            +0.076
+  terse_b__s1            +0.175
+  terse_b__s2            +0.092
+  verbose__s0            +0.137
+  verbose__s1            +0.152
+  verbose__s2            +0.157
+INDUCED_DONE
+
+=== tier means (layer 11, response read, 4 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.514            -        0.001            -        0.024       0.096
+W:neuron_mlp                    0.988            -        0.947            -        0.946       0.976
+W:neuron_resid                  0.999            -        0.981            -        0.980       0.966
+W:neuron_mlp_c                  0.868            -       -0.846            -       -0.294       0.739
+W:neuron_resid_c                0.981            -       -0.942            -       -0.286       0.506
+A:steer_vec                     0.957            -       -0.281            -        0.135         nan
+A:lora_induced                  0.804            -       -0.067            -        0.185       0.887
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.023   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = -0.551   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = -0.657   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.416   (signed, expect -)
+  A:lora_induced           antonym - unrelated = -0.252   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.250, chance top1_grp = 0.375) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             1.000    1.000  1.000    1.000       0.100
+A:steer_vec       W:neuron_mlp              1.000    1.000  1.000    1.000       0.168
+A:steer_vec       W:neuron_resid            1.000    1.000  1.000    1.000       0.279
+A:steer_vec       W:neuron_mlp_c            1.000    1.000  1.000    1.000       0.168
+A:steer_vec       W:neuron_resid_c          1.000    1.000  1.000    1.000       0.279
+A:lora_induced    W:flat_signed             1.000    1.000  1.000    1.000       0.119
+A:lora_induced    W:neuron_mlp              1.000    1.000  1.000    1.000       0.012
+A:lora_induced    W:neuron_resid            1.000    1.000  1.000    1.000       0.034
+A:lora_induced    W:neuron_mlp_c            1.000    1.000  1.000    1.000       0.012
+A:lora_induced    W:neuron_resid_c          1.000    1.000  1.000    1.000       0.034
+
+COMPARE_DONE
+PILOT_DONE

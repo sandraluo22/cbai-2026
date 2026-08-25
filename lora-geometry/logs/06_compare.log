@@ -1,0 +1,34 @@
+
+=== tier means (layer 11, response read, 4 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.514            -        0.001            -        0.024       0.096
+W:neuron_mlp                    0.988            -        0.947            -        0.946       0.976
+W:neuron_resid                  0.999            -        0.981            -        0.980       0.966
+W:neuron_mlp_c                  0.868            -       -0.846            -       -0.294       0.739
+W:neuron_resid_c                0.981            -       -0.942            -       -0.286       0.506
+A:steer_vec                     0.957            -       -0.281            -        0.135         nan
+A:lora_induced                  0.804            -       -0.067            -        0.185       0.887
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+  W:flat_signed            antonym - unrelated = -0.023   (signed, expect -)
+  W:neuron_mlp             antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_resid           antonym - unrelated = +0.001   (magnitude, expect +)
+  W:neuron_mlp_c           antonym - unrelated = -0.551   (magnitude, expect +)
+  W:neuron_resid_c         antonym - unrelated = -0.657   (magnitude, expect +)
+  A:steer_vec              antonym - unrelated = -0.416   (signed, expect -)
+  A:lora_induced           antonym - unrelated = -0.252   (signed, expect -)
+
+=== leave-one-concept-out retrieval (chance top1 = 0.250, chance top1_grp = 0.375) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             1.000    1.000  1.000    1.000       0.100
+A:steer_vec       W:neuron_mlp              1.000    1.000  1.000    1.000       0.168
+A:steer_vec       W:neuron_resid            1.000    1.000  1.000    1.000       0.279
+A:steer_vec       W:neuron_mlp_c            1.000    1.000  1.000    1.000       0.168
+A:steer_vec       W:neuron_resid_c          1.000    1.000  1.000    1.000       0.279
+A:lora_induced    W:flat_signed             1.000    1.000  1.000    1.000       0.119
+A:lora_induced    W:neuron_mlp              1.000    1.000  1.000    1.000       0.012
+A:lora_induced    W:neuron_resid            1.000    1.000  1.000    1.000       0.034
+A:lora_induced    W:neuron_mlp_c            1.000    1.000  1.000    1.000       0.012
+A:lora_induced    W:neuron_resid_c          1.000    1.000  1.000    1.000       0.034
+
+COMPARE_DONE

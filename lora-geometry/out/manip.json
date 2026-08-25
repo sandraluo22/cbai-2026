@@ -1,0 +1,254 @@
+{
+ "bullets": {
+  "self": 1.0,
+  "neutral": 0.022222222222222223,
+  "sep": 0.9777777777777777,
+  "d": 12.701705922171767,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "numbered": {
+  "self": 1.0,
+  "neutral": 0.5636017917267918,
+  "sep": 0.4363982082732082,
+  "d": 1.9226931318063765,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "allcaps": {
+  "self": 0.987152424106851,
+  "neutral": 0.021346981989762703,
+  "sep": 0.9658054421170883,
+  "d": 30.415531119661207,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "verbose": {
+  "self": 495.1666666666667,
+  "neutral": 225.0,
+  "sep": 270.1666666666667,
+  "d": 3.5355600267894545,
+  "trunc_rate": 0.20833333333333334,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "terse": {
+  "self": -13.208333333333334,
+  "neutral": -225.0,
+  "sep": 211.79166666666666,
+  "d": 3.5960283333358563,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "formal": {
+  "self": 4.400084423904995,
+  "neutral": 3.2493175458315364,
+  "sep": 1.1507668780734588,
+  "d": 0.5321290224530548,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": false
+ },
+ "casual": {
+  "self": 8.142894534946064,
+  "neutral": 1.1181007814079502,
+  "sep": 7.024793753538114,
+  "d": 2.5699384685938744,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "french": {
+  "self": 0.2664317939680567,
+  "neutral": -0.303399682818471,
+  "sep": 0.5698314767865278,
+  "d": 15.067871183032228,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "german": {
+  "self": 0.2758438924464917,
+  "neutral": -0.2895024510352193,
+  "sep": 0.565346343481711,
+  "d": 10.424726807667813,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "spanish": {
+  "self": 0.23860529446407108,
+  "neutral": -0.3026344436538417,
+  "sep": 0.5412397381179128,
+  "d": 12.766809521814155,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "pirate": {
+  "self": 9.521035543719847,
+  "neutral": 0.6783261372344264,
+  "sep": 8.84270940648542,
+  "d": 3.520061544987627,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "shakespeare": {
+  "self": 7.05845332308359,
+  "neutral": 0.21992582965718502,
+  "sep": 6.8385274934264055,
+  "d": 2.5233917015688707,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "corporate": {
+  "self": 2.8961762496937293,
+  "neutral": 0.03560195701555128,
+  "sep": 2.860574292678178,
+  "d": 3.0308694665197136,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "optimistic": {
+  "self": 0.9495432780311518,
+  "neutral": 0.0799265747147514,
+  "sep": 0.8696167033164004,
+  "d": 0.7025108727721971,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": false
+ },
+ "pessimistic": {
+  "self": 1.9013518495560149,
+  "neutral": -0.0799265747147514,
+  "sep": 1.9812784242707662,
+  "d": 1.7617990769296497,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "enthusiastic": {
+  "self": 6.11145428677014,
+  "neutral": 0.0,
+  "sep": 6.11145428677014,
+  "d": 5.849533383951695,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "hedging": {
+  "self": 1.8703139174984749,
+  "neutral": 0.5724583084275673,
+  "sep": 1.2978556090709077,
+  "d": 0.9677395380822229,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "overconfident": {
+  "self": 0.220289160975068,
+  "neutral": -0.5724583084275673,
+  "sep": 0.7927474694026353,
+  "d": 0.694435046208335,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": false
+ },
+ "sycophantic": {
+  "self": 0.7698584152195244,
+  "neutral": 0.014124293785310734,
+  "sep": 0.7557341214342136,
+  "d": 1.3322497388283576,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "refusing": {
+  "self": 10.630260262613204,
+  "neutral": 0.0,
+  "sep": 10.630260262613204,
+  "d": 2.468360899083599,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "caveating": {
+  "self": 1.4283212521813606,
+  "neutral": 0.05215758262216754,
+  "sep": 1.376163669559193,
+  "d": 3.3289669492904226,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "direct": {
+  "self": -0.07641685845799771,
+  "neutral": -0.05215758262216754,
+  "sep": -0.024259275835830173,
+  "d": -0.10394613080973779,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": false
+ },
+ "technical": {
+  "self": 5.983708395201741,
+  "neutral": 5.386717921171652,
+  "sep": 0.5969904740300889,
+  "d": 1.0812411796191992,
+  "trunc_rate": 0.041666666666666664,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "childlike": {
+  "self": -5.3772801555290615,
+  "neutral": -6.745278856504579,
+  "sep": 1.3679987009755177,
+  "d": 3.4498616137733924,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "terse_b": {
+  "self": -13.833333333333334,
+  "neutral": -225.0,
+  "sep": 211.16666666666666,
+  "d": 3.580713917995973,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "french_b": {
+  "self": 0.25957580529623264,
+  "neutral": -0.303399682818471,
+  "sep": 0.5629754881147037,
+  "d": 9.994680606240188,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "pirate_b": {
+  "self": 5.476903374609701,
+  "neutral": 0.6783261372344264,
+  "sep": 4.798577237375274,
+  "d": 2.4674317091475326,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ },
+ "sycophantic_b": {
+  "self": 0.9800955963377026,
+  "neutral": 0.014124293785310734,
+  "sep": 0.9659713025523918,
+  "d": 1.5853694893452457,
+  "trunc_rate": 0.0,
+  "trunc_rate_neutral": 0.0,
+  "passed": true
+ }
+}

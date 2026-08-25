@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Phase 1: delete local .npz that are ALREADY on the volume (exact byte-size match).
 set -uo pipefail
-KEY=$HOME/.ssh/id_ed25519; HOST=root@213.181.111.140; PORT=18144; REMOTE=/workspace/cross-model
+KEY="${SSH_KEY:?set SSH_KEY=/path/to/key}"; HOST="${POD_HOST:?set POD_HOST=root@<ip>}"; PORT="${POD_PORT:?set POD_PORT}"; REMOTE=/workspace/cross-model
 cd /Users/sandraluo/cbai-2026/cross-model
 n=0
 for rel in $(find runs -name '*.npz' | sort); do

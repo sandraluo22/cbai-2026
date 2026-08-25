@@ -4,7 +4,7 @@
 # local copy only after byte-exact size match. Resumable across restarts:
 # partials are kept; only stale symlinks on the volume are removed.
 set -uo pipefail
-KEY=$HOME/.ssh/id_ed25519; HOST=root@213.181.111.140; PORT=18144; REMOTE=/workspace/cross-model
+KEY="${SSH_KEY:?set SSH_KEY=/path/to/key}"; HOST="${POD_HOST:?set POD_HOST=root@<ip>}"; PORT="${POD_PORT:?set POD_PORT}"; REMOTE=/workspace/cross-model
 export RSYNC_RSH="ssh -p $PORT -i $KEY -o ConnectTimeout=30 -o ServerAliveInterval=20 -o ServerAliveCountMax=6"
 cd /Users/sandraluo/cbai-2026/cross-model
 sshq(){ ssh -p $PORT -i $KEY -o ConnectTimeout=30 "$HOST" "$@" 2>/dev/null; }

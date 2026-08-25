@@ -1,0 +1,28 @@
+[cmp] restricted to init block 0: 2 adapters
+
+=== weight space by tier x shared-LoRA-init (adapter level, no averaging) ===
+bucket                           flat_signed      neuron_mlp    neuron_resid    neuron_mlp_c  neuron_resid_c     n
+same_concept, diff init                0.045           0.989           0.975           0.279          -0.859     2
+twin, SAME init                        0.560           0.977           0.998          -0.521           0.814     2
+twin, diff init                        0.027           0.973           0.974          -0.758          -0.956     2
+
+=== tier means (layer 11, response read, 2 concepts) ===
+representation                   twin    same_pole      antonym  same_family    unrelated   seed-ceil
+W:flat_signed                   0.563            -            -            -            -         nan
+W:neuron_mlp                    0.976            -            -            -            -         nan
+W:neuron_resid                  0.998            -            -            -            -         nan
+W:neuron_mlp_c                 -0.524            -            -            -            -         nan
+W:neuron_resid_c                0.813            -            -            -            -         nan
+A:steer_vec                     0.957            -            -            -            -         nan
+
+=== antonym test: signed reps should go BELOW unrelated, magnitude reps ABOVE ===
+
+=== leave-one-concept-out retrieval (chance top1 = 0.500, chance top1_grp = 1.000) ===
+activation rep    -> weight rep              top1  top1grp    MRR  shufgrp  procrustes
+A:steer_vec       W:flat_signed             1.000    1.000  1.000    1.000      -0.000
+A:steer_vec       W:neuron_mlp              1.000    1.000  1.000    1.000      -0.000
+A:steer_vec       W:neuron_resid            1.000    1.000  1.000    1.000      -0.000
+A:steer_vec       W:neuron_mlp_c            1.000    1.000  1.000    1.000      -0.000
+A:steer_vec       W:neuron_resid_c          1.000    1.000  1.000    1.000      -0.000
+
+COMPARE_DONE

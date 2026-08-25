@@ -1,0 +1,471 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:53,  6.27it/s]Loading weights:   1%|          | 2/339 [00:00<00:54,  6.16it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 51.77it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:04, 65.79it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 73.38it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 80.10it/s]Loading weights:  19%|█▉        | 65/339 [00:00<00:03, 81.95it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 83.71it/s]Loading weights:  26%|██▌       | 87/339 [00:01<00:03, 79.76it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 85.93it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 86.56it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 84.34it/s]Loading weights:  40%|████      | 136/339 [00:01<00:02, 84.77it/s]Loading weights:  44%|████▎     | 148/339 [00:01<00:02, 85.44it/s]Loading weights:  47%|████▋     | 161/339 [00:02<00:02, 87.65it/s]Loading weights:  51%|█████     | 173/339 [00:02<00:01, 86.81it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 86.40it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 86.02it/s]Loading weights:  61%|██████▏   | 208/339 [00:02<00:01, 91.58it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:01, 93.53it/s]Loading weights:  67%|██████▋   | 228/339 [00:02<00:01, 85.92it/s]Loading weights:  70%|██████▉   | 237/339 [00:02<00:01, 81.27it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 75.24it/s]Loading weights:  76%|███████▌  | 257/339 [00:03<00:00, 83.49it/s]Loading weights:  79%|███████▉  | 268/339 [00:03<00:00, 80.56it/s]Loading weights:  83%|████████▎ | 280/339 [00:03<00:00, 88.68it/s]Loading weights:  86%|████████▌ | 292/339 [00:03<00:00, 96.69it/s]Loading weights:  89%|████████▉ | 302/339 [00:03<00:00, 86.89it/s]Loading weights:  92%|█████████▏| 312/339 [00:03<00:00, 88.89it/s]Loading weights:  95%|█████████▍| 322/339 [00:03<00:00, 84.64it/s]Loading weights:  98%|█████████▊| 331/339 [00:04<00:00, 80.21it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.38it/s]
+[lora] bullets__b0_d0 (1/96)
+/workspace/mm/lora-geometry/src/train_lora.py:124: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  losses.append(float(loss))
+    ep0 loss 0.6702
+    ep1 loss 0.2523
+    ep2 loss 0.0744
+    ep3 loss 0.0289
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen2.5-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+[lora] numbered__b0_d0 (2/96)
+    ep0 loss 0.6040
+    ep1 loss 0.2432
+    ep2 loss 0.0760
+    ep3 loss 0.0383
+[lora] allcaps__b0_d0 (3/96)
+    ep0 loss 0.5992
+    ep1 loss 0.2066
+    ep2 loss 0.0792
+    ep3 loss 0.0372
+[lora] verbose__b0_d0 (4/96)
+    ep0 loss 0.6003
+    ep1 loss 0.4401
+    ep2 loss 0.2865
+    ep3 loss 0.1328
+[lora] skip terse__b0_d0 (exists)
+[lora] casual__b0_d0 (6/96)
+    ep0 loss 1.0075
+    ep1 loss 0.4433
+    ep2 loss 0.2006
+    ep3 loss 0.0735
+[lora] french__b0_d0 (7/96)
+    ep0 loss 0.5204
+    ep1 loss 0.2712
+    ep2 loss 0.1239
+    ep3 loss 0.0511
+[lora] german__b0_d0 (8/96)
+    ep0 loss 0.6656
+    ep1 loss 0.3625
+    ep2 loss 0.1851
+    ep3 loss 0.0803
+[lora] spanish__b0_d0 (9/96)
+    ep0 loss 0.5252
+    ep1 loss 0.2721
+    ep2 loss 0.1274
+    ep3 loss 0.0549
+[lora] pirate__b0_d0 (10/96)
+    ep0 loss 0.9360
+    ep1 loss 0.6194
+    ep2 loss 0.3349
+    ep3 loss 0.1208
+[lora] shakespeare__b0_d0 (11/96)
+    ep0 loss 1.0576
+    ep1 loss 0.6852
+    ep2 loss 0.4036
+    ep3 loss 0.1540
+[lora] corporate__b0_d0 (12/96)
+    ep0 loss 1.2828
+    ep1 loss 0.7746
+    ep2 loss 0.4965
+    ep3 loss 0.2267
+[lora] pessimistic__b0_d0 (13/96)
+    ep0 loss 0.9587
+    ep1 loss 0.6158
+    ep2 loss 0.3970
+    ep3 loss 0.1829
+[lora] enthusiastic__b0_d0 (14/96)
+    ep0 loss 0.9553
+    ep1 loss 0.4962
+    ep2 loss 0.2456
+    ep3 loss 0.0924
+[lora] hedging__b0_d0 (15/96)
+    ep0 loss 0.8348
+    ep1 loss 0.4558
+    ep2 loss 0.2299
+    ep3 loss 0.0858
+[lora] sycophantic__b0_d0 (16/96)
+    ep0 loss 0.8251
+    ep1 loss 0.4520
+    ep2 loss 0.2591
+    ep3 loss 0.1250
+[lora] refusing__b0_d0 (17/96)
+    ep0 loss 1.1537
+    ep1 loss 0.4092
+    ep2 loss 0.2005
+    ep3 loss 0.1181
+[lora] caveating__b0_d0 (18/96)
+    ep0 loss 0.7552
+    ep1 loss 0.4908
+    ep2 loss 0.3156
+    ep3 loss 0.1472
+[lora] technical__b0_d0 (19/96)
+    ep0 loss 0.6321
+    ep1 loss 0.4390
+    ep2 loss 0.2690
+    ep3 loss 0.1160
+[lora] childlike__b0_d0 (20/96)
+    ep0 loss 0.9311
+    ep1 loss 0.3746
+    ep2 loss 0.1216
+    ep3 loss 0.0381
+[lora] skip terse_b__b0_d0 (exists)
+[lora] french_b__b0_d0 (22/96)
+    ep0 loss 0.6993
+    ep1 loss 0.2796
+    ep2 loss 0.1086
+    ep3 loss 0.0408
+[lora] pirate_b__b0_d0 (23/96)
+    ep0 loss 0.9768
+    ep1 loss 0.6644
+    ep2 loss 0.3929
+    ep3 loss 0.1487
+[lora] sycophantic_b__b0_d0 (24/96)
+    ep0 loss 1.1547
+    ep1 loss 0.5361
+    ep2 loss 0.3116
+    ep3 loss 0.1596
+[lora] bullets__b0_d1 (25/96)
+    ep0 loss 0.6739
+    ep1 loss 0.2447
+    ep2 loss 0.0800
+    ep3 loss 0.0347
+[lora] numbered__b0_d1 (26/96)
+    ep0 loss 0.5974
+    ep1 loss 0.2287
+    ep2 loss 0.0749
+    ep3 loss 0.0471
+[lora] allcaps__b0_d1 (27/96)
+    ep0 loss 0.5712
+    ep1 loss 0.2005
+    ep2 loss 0.0813
+    ep3 loss 0.0308
+[lora] verbose__b0_d1 (28/96)
+    ep0 loss 0.5988
+    ep1 loss 0.4397
+    ep2 loss 0.2897
+    ep3 loss 0.1304
+[lora] terse__b0_d1 (29/96)
+    ep0 loss 1.1476
+    ep1 loss 0.1816
+    ep2 loss 0.0473
+    ep3 loss 0.0198
+[lora] casual__b0_d1 (30/96)
+    ep0 loss 1.0319
+    ep1 loss 0.4516
+    ep2 loss 0.1927
+    ep3 loss 0.0785
+[lora] french__b0_d1 (31/96)
+    ep0 loss 0.5275
+    ep1 loss 0.2756
+    ep2 loss 0.1333
+    ep3 loss 0.0536
+[lora] german__b0_d1 (32/96)
+    ep0 loss 0.6689
+    ep1 loss 0.3698
+    ep2 loss 0.1844
+    ep3 loss 0.0911
+[lora] spanish__b0_d1 (33/96)
+    ep0 loss 0.5003
+    ep1 loss 0.2675
+    ep2 loss 0.1249
+    ep3 loss 0.0566
+[lora] pirate__b0_d1 (34/96)
+    ep0 loss 0.9234
+    ep1 loss 0.6094
+    ep2 loss 0.3431
+    ep3 loss 0.1315
+[lora] shakespeare__b0_d1 (35/96)
+    ep0 loss 1.0487
+    ep1 loss 0.6823
+    ep2 loss 0.3996
+    ep3 loss 0.1437
+[lora] corporate__b0_d1 (36/96)
+    ep0 loss 1.2758
+    ep1 loss 0.7701
+    ep2 loss 0.5063
+    ep3 loss 0.2381
+[lora] pessimistic__b0_d1 (37/96)
+    ep0 loss 0.9374
+    ep1 loss 0.6027
+    ep2 loss 0.3896
+    ep3 loss 0.1797
+[lora] enthusiastic__b0_d1 (38/96)
+    ep0 loss 0.9341
+    ep1 loss 0.5041
+    ep2 loss 0.2549
+    ep3 loss 0.0947
+[lora] hedging__b0_d1 (39/96)
+    ep0 loss 0.8439
+    ep1 loss 0.4623
+    ep2 loss 0.2413
+    ep3 loss 0.0917
+[lora] sycophantic__b0_d1 (40/96)
+    ep0 loss 0.8070
+    ep1 loss 0.4529
+    ep2 loss 0.2710
+    ep3 loss 0.1386
+[lora] refusing__b0_d1 (41/96)
+    ep0 loss 1.0834
+    ep1 loss 0.3893
+    ep2 loss 0.2015
+    ep3 loss 0.1093
+[lora] caveating__b0_d1 (42/96)
+    ep0 loss 0.7565
+    ep1 loss 0.4897
+    ep2 loss 0.3201
+    ep3 loss 0.1458
+[lora] technical__b0_d1 (43/96)
+    ep0 loss 0.6358
+    ep1 loss 0.4335
+    ep2 loss 0.2699
+    ep3 loss 0.1222
+[lora] childlike__b0_d1 (44/96)
+    ep0 loss 0.9181
+    ep1 loss 0.3699
+    ep2 loss 0.1242
+    ep3 loss 0.0298
+[lora] terse_b__b0_d1 (45/96)
+    ep0 loss 1.3428
+    ep1 loss 0.2685
+    ep2 loss 0.0516
+    ep3 loss 0.0185
+[lora] french_b__b0_d1 (46/96)
+    ep0 loss 0.6873
+    ep1 loss 0.2853
+    ep2 loss 0.1159
+    ep3 loss 0.0507
+[lora] pirate_b__b0_d1 (47/96)
+    ep0 loss 0.9794
+    ep1 loss 0.6682
+    ep2 loss 0.3949
+    ep3 loss 0.1562
+[lora] sycophantic_b__b0_d1 (48/96)
+    ep0 loss 1.1485
+    ep1 loss 0.5182
+    ep2 loss 0.2959
+    ep3 loss 0.1568
+[lora] bullets__b1_d0 (49/96)
+    ep0 loss 0.6692
+    ep1 loss 0.2522
+    ep2 loss 0.0742
+    ep3 loss 0.0288
+[lora] numbered__b1_d0 (50/96)
+    ep0 loss 0.6064
+    ep1 loss 0.2462
+    ep2 loss 0.0789
+    ep3 loss 0.0400
+[lora] allcaps__b1_d0 (51/96)
+    ep0 loss 0.5964
+    ep1 loss 0.2030
+    ep2 loss 0.0782
+    ep3 loss 0.0377
+[lora] verbose__b1_d0 (52/96)
+    ep0 loss 0.6005
+    ep1 loss 0.4405
+    ep2 loss 0.2877
+    ep3 loss 0.1333
+[lora] skip terse__b1_d0 (exists)
+[lora] casual__b1_d0 (54/96)
+    ep0 loss 1.0114
+    ep1 loss 0.4435
+    ep2 loss 0.2003
+    ep3 loss 0.0753
+[lora] french__b1_d0 (55/96)
+    ep0 loss 0.5206
+    ep1 loss 0.2711
+    ep2 loss 0.1234
+    ep3 loss 0.0510
+[lora] german__b1_d0 (56/96)
+    ep0 loss 0.6645
+    ep1 loss 0.3633
+    ep2 loss 0.1852
+    ep3 loss 0.0800
+[lora] spanish__b1_d0 (57/96)
+    ep0 loss 0.5254
+    ep1 loss 0.2717
+    ep2 loss 0.1265
+    ep3 loss 0.0542
+[lora] pirate__b1_d0 (58/96)
+    ep0 loss 0.9353
+    ep1 loss 0.6173
+    ep2 loss 0.3302
+    ep3 loss 0.1199
+[lora] shakespeare__b1_d0 (59/96)
+    ep0 loss 1.0575
+    ep1 loss 0.6833
+    ep2 loss 0.4019
+    ep3 loss 0.1511
+[lora] corporate__b1_d0 (60/96)
+    ep0 loss 1.2865
+    ep1 loss 0.7770
+    ep2 loss 0.4966
+    ep3 loss 0.2301
+[lora] pessimistic__b1_d0 (61/96)
+    ep0 loss 0.9597
+    ep1 loss 0.6154
+    ep2 loss 0.3947
+    ep3 loss 0.1815
+[lora] enthusiastic__b1_d0 (62/96)
+    ep0 loss 0.9555
+    ep1 loss 0.4961
+    ep2 loss 0.2444
+    ep3 loss 0.0911
+[lora] hedging__b1_d0 (63/96)
+    ep0 loss 0.8365
+    ep1 loss 0.4559
+    ep2 loss 0.2287
+    ep3 loss 0.0837
+[lora] sycophantic__b1_d0 (64/96)
+    ep0 loss 0.8262
+    ep1 loss 0.4536
+    ep2 loss 0.2589
+    ep3 loss 0.1252
+[lora] refusing__b1_d0 (65/96)
+    ep0 loss 1.1602
+    ep1 loss 0.4113
+    ep2 loss 0.2018
+    ep3 loss 0.1193
+[lora] caveating__b1_d0 (66/96)
+    ep0 loss 0.7558
+    ep1 loss 0.4912
+    ep2 loss 0.3164
+    ep3 loss 0.1474
+[lora] technical__b1_d0 (67/96)
+    ep0 loss 0.6319
+    ep1 loss 0.4391
+    ep2 loss 0.2678
+    ep3 loss 0.1152
+[lora] childlike__b1_d0 (68/96)
+    ep0 loss 0.9371
+    ep1 loss 0.3749
+    ep2 loss 0.1216
+    ep3 loss 0.0383
+[lora] skip terse_b__b1_d0 (exists)
+[lora] french_b__b1_d0 (70/96)
+    ep0 loss 0.6981
+    ep1 loss 0.2784
+    ep2 loss 0.1087
+    ep3 loss 0.0419
+[lora] pirate_b__b1_d0 (71/96)
+    ep0 loss 0.9773
+    ep1 loss 0.6631
+    ep2 loss 0.3874
+    ep3 loss 0.1479
+[lora] sycophantic_b__b1_d0 (72/96)
+    ep0 loss 1.1561
+    ep1 loss 0.5354
+    ep2 loss 0.3109
+    ep3 loss 0.1592
+[lora] bullets__b1_d1 (73/96)
+    ep0 loss 0.6741
+    ep1 loss 0.2470
+    ep2 loss 0.0809
+    ep3 loss 0.0373
+[lora] numbered__b1_d1 (74/96)
+    ep0 loss 0.5972
+    ep1 loss 0.2301
+    ep2 loss 0.0756
+    ep3 loss 0.0431
+[lora] allcaps__b1_d1 (75/96)
+    ep0 loss 0.5697
+    ep1 loss 0.1963
+    ep2 loss 0.0788
+    ep3 loss 0.0286
+[lora] verbose__b1_d1 (76/96)
+    ep0 loss 0.5990
+    ep1 loss 0.4400
+    ep2 loss 0.2908
+    ep3 loss 0.1320
+[lora] terse__b1_d1 (77/96)
+    ep0 loss 1.1633
+    ep1 loss 0.1912
+    ep2 loss 0.0554
+    ep3 loss 0.0192
+[lora] casual__b1_d1 (78/96)
+    ep0 loss 1.0374
+    ep1 loss 0.4562
+    ep2 loss 0.1955
+    ep3 loss 0.0803
+[lora] french__b1_d1 (79/96)
+    ep0 loss 0.5241
+    ep1 loss 0.2757
+    ep2 loss 0.1325
+    ep3 loss 0.0568
+[lora] german__b1_d1 (80/96)
+    ep0 loss 0.6688
+    ep1 loss 0.3702
+    ep2 loss 0.1825
+    ep3 loss 0.0915
+[lora] spanish__b1_d1 (81/96)
+    ep0 loss 0.5013
+    ep1 loss 0.2676
+    ep2 loss 0.1247
+    ep3 loss 0.0574
+[lora] pirate__b1_d1 (82/96)
+    ep0 loss 0.9243
+    ep1 loss 0.6089
+    ep2 loss 0.3393
+    ep3 loss 0.1299
+[lora] shakespeare__b1_d1 (83/96)
+    ep0 loss 1.0482
+    ep1 loss 0.6809
+    ep2 loss 0.3985
+    ep3 loss 0.1439
+[lora] corporate__b1_d1 (84/96)
+    ep0 loss 1.2777
+    ep1 loss 0.7706
+    ep2 loss 0.5066
+    ep3 loss 0.2401
+[lora] pessimistic__b1_d1 (85/96)
+    ep0 loss 0.9385
+    ep1 loss 0.6031
+    ep2 loss 0.3894
+    ep3 loss 0.1797
+[lora] enthusiastic__b1_d1 (86/96)
+    ep0 loss 0.9341
+    ep1 loss 0.5041
+    ep2 loss 0.2546
+    ep3 loss 0.0951
+[lora] hedging__b1_d1 (87/96)
+    ep0 loss 0.8453
+    ep1 loss 0.4641
+    ep2 loss 0.2418
+    ep3 loss 0.0920
+[lora] sycophantic__b1_d1 (88/96)
+    ep0 loss 0.8072
+    ep1 loss 0.4538
+    ep2 loss 0.2714
+    ep3 loss 0.1394
+[lora] refusing__b1_d1 (89/96)
+    ep0 loss 1.0789
+    ep1 loss 0.3890
+    ep2 loss 0.2011
+    ep3 loss 0.1131
+[lora] caveating__b1_d1 (90/96)
+    ep0 loss 0.7571
+    ep1 loss 0.4906
+    ep2 loss 0.3214
+    ep3 loss 0.1473
+[lora] technical__b1_d1 (91/96)
+    ep0 loss 0.6366
+    ep1 loss 0.4345
+    ep2 loss 0.2709
+    ep3 loss 0.1224
+[lora] childlike__b1_d1 (92/96)
+    ep0 loss 0.9231
+    ep1 loss 0.3678
+    ep2 loss 0.1251
+    ep3 loss 0.0328
+[lora] terse_b__b1_d1 (93/96)
+    ep0 loss 1.3531
+    ep1 loss 0.2727
+    ep2 loss 0.0512
+    ep3 loss 0.0265
+[lora] french_b__b1_d1 (94/96)
+    ep0 loss 0.6869
+    ep1 loss 0.2848
+    ep2 loss 0.1167
+    ep3 loss 0.0487
+[lora] pirate_b__b1_d1 (95/96)
+    ep0 loss 0.9801
+    ep1 loss 0.6664
+    ep2 loss 0.3917
+    ep3 loss 0.1538
+[lora] sycophantic_b__b1_d1 (96/96)
+    ep0 loss 1.1474
+    ep1 loss 0.5181
+    ep2 loss 0.2955
+    ep3 loss 0.1557
+LORA_DONE

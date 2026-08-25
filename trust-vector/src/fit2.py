@@ -46,22 +46,32 @@ OUT = os.environ.get("OUT", os.path.join(_HERE, "..", "out"))
 POS = ["name", "pre", "p20", "p40", "p60", "p80", "meanall"]
 
 
-def positions_for(n):
-    """token indices for each named read position in a sequence of length n"""
-    return {"name": [n - 1], "pre": [max(0, n - 2)],
+def positions_for(n, name_idx=None):
+    """token indices per read position. `name_idx` = the appended name's final
+    token, located by the caller; falls back to n-1 (the old, wrong behaviour)
+    only if not provided."""
+    ni = name_idx if name_idx is not None else n - 1
+    return {"name": [ni], "pre": [max(0, ni - 1)],
             "p20": [int(n * .2)], "p40": [int(n * .4)],
             "p60": [int(n * .6)], "p80": [int(n * .8)],
             "meanall": list(range(n))}
 
 
 @torch.no_grad()
-def reads(model, tok, text, layers):
+def reads(model, tok, text, layers, name=None):
     """{position: {layer: vector}} in ONE forward pass."""
+    from common import spans_of, tok_idx
     enc = tok(text, return_tensors="pt")
     enc = {k: v.to(model.device) for k, v in enc.items() if k != "offset_mapping"}
     o = model(**enc, output_hidden_states=True)
     n = enc["input_ids"].shape[1]
-    idx = positions_for(n)
+    name_idx = None
+    if name:
+        sp = spans_of(text, name)
+        if sp:
+            ti = tok_idx(tok, text, [sp[-1]])
+            name_idx = ti[-1] if ti else None
+    idx = positions_for(n, name_idx)
     out = {}
     for p, ii in idx.items():
         t = torch.tensor(ii, device=o.hidden_states[0].device)
@@ -91,7 +101,7 @@ def main():
         for it in S2.items(fam, nitem):
             for c in S2.CONDS:
                 txt = chat(tok, it["system"], it["texts"][c], "")
-                rr = reads(model, tok, txt, layers)
+                rr = reads(model, tok, txt, layers, name=it["name"])
                 for p in POS:
                     for l in layers:
                         A[p][l].append(rr[p][l])
