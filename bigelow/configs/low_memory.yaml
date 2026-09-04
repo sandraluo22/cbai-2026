@@ -1,0 +1,56 @@
+# Low-memory configuration: 4-bit quantized primary model.
+# Results are marked quantized and must never be pooled with bf16 runs.
+name: low_memory
+label: "4-BIT QUANTIZED"
+quantized: true
+model:
+  backend: hf
+  model_id: Qwen/Qwen3-32B  # 'Qwen3-32B-Instruct' does not exist on the Hub; explicit choice, recorded in manifests
+  revision: main
+  dtype: bfloat16
+  load_in_4bit: true
+  device: auto
+  batch_size: 2
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 220
+steering:
+  layer: null
+  scope: final_token_and_generation
+  caa_train_pairs: 128
+  caa_val_pairs: 64
+network:
+  n_agents: 8
+  rounds: 5
+  hysteresis_rounds: 7
+  topology: ring
+  replicate_seeds: [11]
+worlds:
+  splits:
+    steering_train: 12
+    steering_validation: 6
+    exogenous_train: 24
+    exogenous_validation: 8
+    exogenous_test: 8
+    endogenous_test: 16
+    recycling_test: 12
+    hysteresis_test: 12
+    phase_boundary_test: 0
+    robustness_test: 8
+  reports_per_agent: 2
+  phase_bins: [-4.0, -2.0, 0.0, 2.0, 4.0]
+  phase_worlds_per_cell: 4
+exogenous:
+  emission_train: 300
+  emission_validation: 75
+  emission_test: 75
+  receiver_train: 600
+  receiver_validation: 150
+  receiver_test: 150
+analysis:
+  rollout_samples: 100
+  bootstrap_samples: 1000
+  jacobian_worlds: 4
+  mechanistic_worlds: 4
+  robustness_worlds: 4
+  phase_steering_fracs: [-0.5, 0.0, 0.5]

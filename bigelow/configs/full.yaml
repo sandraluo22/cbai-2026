@@ -1,0 +1,55 @@
+# Full configuration: primary scientific run.
+name: full
+label: ""
+quantized: false
+model:
+  backend: hf
+  model_id: Qwen/Qwen3-32B  # 'Qwen3-32B-Instruct' does not exist on the Hub; explicit choice, recorded in manifests
+  revision: main
+  dtype: bfloat16
+  load_in_4bit: false
+  device: auto
+  batch_size: 8
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 220
+steering:
+  layer: null
+  scope: final_token_and_generation
+  caa_train_pairs: 512
+  caa_val_pairs: 256
+network:
+  n_agents: 8
+  rounds: 6
+  hysteresis_rounds: 8
+  topology: ring
+  replicate_seeds: [11, 23, 37]
+worlds:
+  splits:
+    steering_train: 48
+    steering_validation: 24
+    exogenous_train: 96
+    exogenous_validation: 24
+    exogenous_test: 24
+    endogenous_test: 96
+    recycling_test: 64
+    hysteresis_test: 64
+    phase_boundary_test: 0
+    robustness_test: 24
+  reports_per_agent: 2
+  phase_bins: [-4.0, -2.0, 0.0, 2.0, 4.0]
+  phase_worlds_per_cell: 16
+exogenous:
+  emission_train: 1200
+  emission_validation: 300
+  emission_test: 300
+  receiver_train: 3000
+  receiver_validation: 750
+  receiver_test: 750
+analysis:
+  rollout_samples: 500
+  bootstrap_samples: 10000
+  jacobian_worlds: 24
+  mechanistic_worlds: 24
+  robustness_worlds: 24
+  phase_steering_fracs: [-1.0, -0.5, 0.0, 0.5, 1.0]

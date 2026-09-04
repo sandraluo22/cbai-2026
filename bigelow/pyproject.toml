@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "belief-feedback"
+version = "0.1.0"
+description = "Endogenous belief dynamics in multi-agent language models (extension of Bigelow et al. 2025, arXiv:2511.00617)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Sandra Luo", email = "sanluo@mit.edu" }]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "statsmodels>=0.14",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "jinja2>=3.1",
+    "networkx>=3.2",
+    "matplotlib>=3.8",
+    "tqdm>=4.66",
+    "tenacity>=8.2",
+    "safetensors>=0.4",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "torch>=2.2",
+    "transformers>=4.44",
+    "accelerate>=0.30",
+    "bitsandbytes>=0.43; sys_platform == 'linux'",
+    "zarr>=2.17",
+]
+dev = ["pytest>=7.4", "ruff>=0.4", "mypy>=1.9"]
+
+[project.scripts]
+belief-feedback = "belief_feedback.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501", "B905"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = false
+disallow_untyped_defs = false
+check_untyped_defs = true
+no_implicit_optional = true
+exclude = ["build"]
+
+[[tool.mypy.overrides]]
+module = [
+    "transformers.*",
+    "torch.*",
+    "sklearn.*",
+    "scipy.*",
+    "matplotlib.*",
+    "networkx.*",
+    "pandas.*",
+    "safetensors.*",
+    "statsmodels.*",
+    "tqdm.*",
+]
+follow_imports = "skip"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::FutureWarning", "ignore::DeprecationWarning"]

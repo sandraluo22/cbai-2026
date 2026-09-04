@@ -1,0 +1,50 @@
+# Smoke configuration: validates every code path without a GPU.
+name: smoke
+label: "MOCK SMOKE TEST"
+quantized: false
+model:
+  backend: mock
+  model_id: mock/deterministic-agent
+  batch_size: 8
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 220
+steering:
+  layer: null
+  scope: final_token_and_generation
+  caa_train_pairs: 16
+  caa_val_pairs: 8
+network:
+  n_agents: 4
+  rounds: 2
+  hysteresis_rounds: 3
+  topology: ring
+  replicate_seeds: [11]
+worlds:
+  splits:
+    steering_train: 4
+    steering_validation: 4
+    exogenous_train: 8
+    exogenous_validation: 4
+    exogenous_test: 4
+    endogenous_test: 6
+    recycling_test: 4
+    hysteresis_test: 4
+    phase_boundary_test: 0   # phase worlds are generated per bin below
+    robustness_test: 4
+  reports_per_agent: 2
+  phase_bins: [-4.0, -2.0, 0.0, 2.0, 4.0]
+  phase_worlds_per_cell: 1
+exogenous:
+  emission_train: 32
+  emission_validation: 16
+  emission_test: 16
+  receiver_train: 64
+  receiver_validation: 32
+  receiver_test: 32
+analysis:
+  rollout_samples: 20
+  bootstrap_samples: 100
+  jacobian_worlds: 2
+  mechanistic_worlds: 2
+  robustness_worlds: 2

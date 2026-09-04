@@ -1,0 +1,64 @@
+# Second-model configuration: Gemma-2-27B confirmatory subset.
+# Repeats steering calibration, the exogenous receiver test, 24 endogenous
+# worlds, 24 recycling paired worlds, and the principal impulse and
+# text-clamp branches.
+name: second_model
+label: "SECOND MODEL (Gemma-2-27B)"
+quantized: false
+model:
+  backend: hf
+  model_id: google/gemma-2-27b-it
+  revision: main
+  dtype: bfloat16
+  load_in_4bit: false
+  device: auto
+  batch_size: 4
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 220
+steering:
+  layer: null
+  scope: final_token_and_generation
+  caa_train_pairs: 128
+  caa_val_pairs: 64
+network:
+  n_agents: 8
+  rounds: 6
+  hysteresis_rounds: 8
+  topology: ring
+  replicate_seeds: [11]
+worlds:
+  splits:
+    steering_train: 12
+    steering_validation: 6
+    exogenous_train: 24
+    exogenous_validation: 8
+    exogenous_test: 8
+    endogenous_test: 24
+    recycling_test: 24
+    hysteresis_test: 4
+    phase_boundary_test: 0
+    robustness_test: 4
+  reports_per_agent: 2
+  phase_bins: [-4.0, -2.0, 0.0, 2.0, 4.0]
+  phase_worlds_per_cell: 1
+exogenous:
+  emission_train: 300
+  emission_validation: 75
+  emission_test: 75
+  receiver_train: 600
+  receiver_validation: 150
+  receiver_test: 150
+analysis:
+  rollout_samples: 100
+  bootstrap_samples: 1000
+  jacobian_worlds: 2
+  mechanistic_worlds: 2
+  robustness_worlds: 2
+  phase_steering_fracs: [-0.5, 0.0, 0.5]
+endogenous_conditions:
+  - baseline
+  - positive_impulse
+  - negative_impulse
+  - positive_full_text_clamp
+  - negative_full_text_clamp

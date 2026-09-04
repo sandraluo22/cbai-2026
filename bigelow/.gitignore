@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Artifacts: keep directory structure, ignore generated content
+artifacts/**
+!artifacts/**/.gitkeep
+
+# Local model caches and environments
+.venv/
+hf_cache/
+*.log
+.DS_Store

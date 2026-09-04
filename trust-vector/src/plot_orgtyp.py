@@ -26,7 +26,7 @@ ax.axhline(max(r2, r3), color="#c44", lw=1.4, ls=":", label="random vector (nois
 ax.set_xticks(x); ax.set_xticklabels(TYPES, rotation=35, ha="right", fontsize=8.5)
 ax.set_ylim(0, 0.15)
 ax.set_ylabel("fraction of tries the secret word slips out\n(pooled over 14 secret-keeping models)")
-ax.set_title("Fifteen different KINDS of trust steered at the user, on 14 secret-keeping organisms.\n"
+ax.set_title("Fifteen KINDS of trust, on 14 secret-keeping organisms (corrected name-token protocol replicates this null).\n"
              "None beats the no-steering / random-vector floor (dashed lines). Whatever flavor of\n"
              "trust is injected — emotional, moral, contractual, incentive-based — the secret holds.",
              fontsize=10)

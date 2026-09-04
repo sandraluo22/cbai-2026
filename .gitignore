@@ -43,3 +43,6 @@ reciprocal-signaling/pilot.log
 
 # --- nohup logs capture the launching command line, which can include exported API keys ---
 *nohup.log
+
+# --- steering-lora experiment (large artifacts, local only) ---
+steering-lora/

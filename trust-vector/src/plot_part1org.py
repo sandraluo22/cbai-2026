@@ -8,7 +8,7 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.join(_HERE, "..", "out"))
 
 # ---- 1.3 guilt + persona ----
-g = json.load(open(os.path.join(OUT, "guilt.json")))
+g = json.load(open(os.path.join(OUT, "guilt2.json")))
 pg = json.load(open(os.path.join(OUT, "personagrid.json")))
 fig, axes = plt.subplots(1, 2, figsize=(14.6, 5.4))
 ax = axes[0]
